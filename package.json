@@ -1,0 +1,36 @@
+{
+  "name": "mdi-xd-plugin",
+  "version": "0.0.2",
+  "description": "Material Design Icons XD Plugin",
+  "main": "installer.js",
+  "scripts": {
+    "build": "node ./build/build.js",
+    "build:data": "node ./build/generate-service"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/uxerscode/mdi-xd-plugin.git"
+  },
+  "keywords": [
+    "Adobe",
+    "XD",
+    "Plugin",
+    "Icons",
+    "MDI",
+    "Material Design"
+  ],
+  "author": "uxerscode",
+  "license": "Apache-2.0",
+  "dependencies": {},
+  "devDependencies": {
+    "@mdi/svg": "^5.3.45",
+    "@node-minify/babel-minify": "^5.3.0",
+    "@node-minify/core": "^5.3.0",
+    "@node-minify/jsonminify": "^6.0.0",
+    "@node-minify/uglify-es": "^5.3.0",
+    "@node-minify/uglify-js": "^6.0.0",
+    "adm-zip": "^0.4.14",
+    "extract-svg-path": "^2.1.0",
+    "fs-extra": "^9.0.0"
+  }
+}
