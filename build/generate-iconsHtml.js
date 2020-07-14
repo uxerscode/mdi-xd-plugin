@@ -21,7 +21,7 @@ function iconHtml(icon) {
 }
 
 function iconsHtml(icons) {
-    let html = `<dl class="asset-group">
+    let html = `<dl class="icons">
             <dt class="asset-group--title">
                 <span><input id="asset-icon-search-text" type="search" placeholder="Search icons" /></span>
                 <button id="icon-list-view-toggle" uxp-variant="action" title="Toggle list/grid view">

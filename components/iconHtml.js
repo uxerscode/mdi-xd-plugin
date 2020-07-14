@@ -1,4 +1,4 @@
-const iconHtml = `<dl class="asset-group">
+const iconHtml = `<dl class="icons">
             <dt class="asset-group--title">
                 <span><input id="asset-icon-search-text" type="search" placeholder="Search icons" /></span>
                 <button id="icon-list-view-toggle" uxp-variant="action" title="Toggle list/grid view">

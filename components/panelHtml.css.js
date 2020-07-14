@@ -3,9 +3,6 @@ const PanelHtmlCss = `
   display: flex;
   flex-direction: column;
   min-height: calc(100vh - 148px);
-  // padding: 16px;
-  // background: #333;
-  // color: #FFF;
   border-radius: 4px;
 }
 
@@ -13,17 +10,9 @@ const PanelHtmlCss = `
   flex: 1;
 }
 
-.asset-group {
+.icons {
   margin: 8px 0 0;
   padding: 0;
-}
-
-.asset__modified {
-  font-style: italic;
-}
-
-.asset__modified .asset--label:after {
-  content: ' *';
 }
 
 .asset-group--title {
@@ -79,15 +68,6 @@ const PanelHtmlCss = `
   overflow: hidden;
   text-overflow: ellipsis;
 }
-
-.asset--value {
-  color: #999;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
-
-/**--- Icons ---**/
 
 #icons .asset-group--title span {
   flex: 1;
@@ -160,8 +140,6 @@ button {
   flex: 1;
   margin-right: 16px;
 }
-
-/* -------- */
 
 .break {
   flex-wrap: wrap;

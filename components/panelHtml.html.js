@@ -4,8 +4,6 @@ const panelHtmlHtml = `
 </style>
 
 <div id="main">
-    <header>
-    </header>
     <div class="content">
         <div id="icons">
             <!-- ### Icons ### -->
