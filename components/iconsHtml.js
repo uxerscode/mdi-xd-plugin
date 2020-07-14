@@ -27,11 +27,11 @@ function setIconsEvents(panel) {
     // View Toggle
     const iconBtn = panel.querySelector('#icon-list-view-toggle');
     iconBtn && iconBtn.addEventListener('click', () => {
-        const iconList = panel.querySelector('.assets-icons--list');
-        if (iconList.className === 'assets-icons--list') {
-            iconList.className = 'assets-icons--list assets-icons--list__show-list';
+        const iconList = panel.querySelector('.icons--list');
+        if (iconList.className === 'icons--list') {
+            iconList.className = 'icons--list icons--list__show-list';
         } else {
-            iconList.className = 'assets-icons--list';
+            iconList.className = 'icons--list';
         }
     });
     // Individual icons

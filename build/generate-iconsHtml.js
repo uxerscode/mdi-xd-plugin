@@ -29,7 +29,7 @@ function iconsHtml(icons) {
                 </button>
             </dt>
             <dd class="icons-group--content">
-                <ul class="assets-icons--list">`;
+                <ul class="icons--list">`;
     icons.forEach( icon => {
         html += iconHtml(icon);
     });

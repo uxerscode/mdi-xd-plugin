@@ -82,30 +82,30 @@ const PanelHtmlCss = `
   flex: 0;
 }
 
-.assets-icons--list {
+.icons--list {
   display: flex;
   flex-wrap: wrap;
 }
 
-.assets-icons--list .icons-group--item {
+.icons--list .icons-group--item {
   flex: 0;
   min-width: 40px;
   margin: 2px;
   cursor: pointer
 }
 
-.assets-icons--list.assets-icons--list__show-list .icons-group--item {
+.icons--list.icons--list__show-list .icons-group--item {
   flex: 1;
   min-width: 120px;
   max-width: 240px;
 }
 
-.assets-icons--list .asset--label {
+.icons--list .asset--label {
   display: none;
   flex: 1;
 }
 
-.assets-icons--list.assets-icons--list__show-list .asset--label {
+.icons--list.icons--list__show-list .asset--label {
   display: block;
 }
 
@@ -120,7 +120,7 @@ const PanelHtmlCss = `
   // border: 1px solid #FFF;
 }
 
-.assets-icons--list .icons-group--item:hover .asset--sample {
+.icons--list .icons-group--item:hover .asset--sample {
   border: none;
 }
 
