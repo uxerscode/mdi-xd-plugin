@@ -10,12 +10,12 @@ function iconHtml(icon) {
         }
     }
     let html = `<li class="icons-group--item" data-icon-search="` + searchTerms + `" data-icon-name="` + icon.name + `" title="` + icon.name + `">
-        <span class="asset--sample">
+        <span class="icon--sample">
             <svg style="width:24px;height:24px" viewBox="0 0 24 24">
                 <path fill="currentColor" d="` + icon.pathData + `" />
             </svg>
         </span>
-        <span class="asset--label">` + icon.name + `</span>
+        <span class="icon--label">` + icon.name + `</span>
     </li>`;
     return html;
 }

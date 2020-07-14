@@ -55,14 +55,14 @@ const PanelHtmlCss = `
   flex-direction: column;
 }
 
-.asset--sample {
+.icon--sample {
   height: 24px;
   width: 24px;
   border-radius: 12px;
   margin-right: 8px;
 }
 
-.asset--label {
+.icon--label {
   flex: 1;
   white-space: nowrap;
   overflow: hidden;
@@ -100,12 +100,12 @@ const PanelHtmlCss = `
   max-width: 240px;
 }
 
-.icons--list .asset--label {
+.icons--list .icon--label {
   display: none;
   flex: 1;
 }
 
-.icons--list.icons--list__show-list .asset--label {
+.icons--list.icons--list__show-list .icon--label {
   display: block;
 }
 
@@ -116,11 +116,11 @@ const PanelHtmlCss = `
   cursor: pointer;
 }
 
-.icons-group--item:hover .asset--sample {
+.icons-group--item:hover .icon--sample {
   // border: 1px solid #FFF;
 }
 
-.icons--list .icons-group--item:hover .asset--sample {
+.icons--list .icons-group--item:hover .icon--sample {
   border: none;
 }
 
