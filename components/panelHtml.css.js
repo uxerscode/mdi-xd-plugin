@@ -15,7 +15,7 @@ const PanelHtmlCss = `
   padding: 0;
 }
 
-.asset-group--title {
+.icons-group--title {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -26,18 +26,18 @@ const PanelHtmlCss = `
   text-transform: capitalize;
 }
 
-.asset-group--content {
+.icons-group--content {
   padding: 0 0 16px;
   border-bottom: 1px solid #CCC;
 }
 
-.asset-group--content ul {
+.icons-group--content ul {
   display: flex;
   flex-wrap: wrap;
 }
 
-.asset-group--item,
-.asset-group--item-split-menu {
+.icons-group--item,
+.icons-group--item-split-menu {
   display: flex;
   align-content: space-between;
   flex: 1;
@@ -51,7 +51,7 @@ const PanelHtmlCss = `
   border-radius: 4px;
 }
 
-.asset-group--item.typography {
+.icons-group--item.typography {
   flex-direction: column;
 }
 
@@ -69,16 +69,16 @@ const PanelHtmlCss = `
   text-overflow: ellipsis;
 }
 
-#icons .asset-group--title span {
+#icons .icons-group--title span {
   flex: 1;
 }
 
-#icons .asset-group--title span input {
+#icons .icons-group--title span input {
   width: calc(100% - 16px);
   margin: 0;
 }
 
-#icons .asset-group--title button {
+#icons .icons-group--title button {
   flex: 0;
 }
 
@@ -87,14 +87,14 @@ const PanelHtmlCss = `
   flex-wrap: wrap;
 }
 
-.assets-icons--list .asset-group--item {
+.assets-icons--list .icons-group--item {
   flex: 0;
   min-width: 40px;
   margin: 2px;
   cursor: pointer
 }
 
-.assets-icons--list.assets-icons--list__show-list .asset-group--item {
+.assets-icons--list.assets-icons--list__show-list .icons-group--item {
   flex: 1;
   min-width: 120px;
   max-width: 240px;
@@ -109,18 +109,18 @@ const PanelHtmlCss = `
   display: block;
 }
 
-.asset-group--item:hover {
+.icons-group--item:hover {
   // color: white;
   // background: #555;
   border-color: #999;
   cursor: pointer;
 }
 
-.asset-group--item:hover .asset--sample {
+.icons-group--item:hover .asset--sample {
   // border: 1px solid #FFF;
 }
 
-.assets-icons--list .asset-group--item:hover .asset--sample {
+.assets-icons--list .icons-group--item:hover .asset--sample {
   border: none;
 }
 

@@ -9,7 +9,7 @@ function iconHtml(icon) {
             searchTerms += ',' + value.trim().toLowerCase();
         }
     }
-    let html = `<li class="asset-group--item" data-icon-search="` + searchTerms + `" data-icon-name="` + icon.name + `" title="` + icon.name + `">
+    let html = `<li class="icons-group--item" data-icon-search="` + searchTerms + `" data-icon-name="` + icon.name + `" title="` + icon.name + `">
         <span class="asset--sample">
             <svg style="width:24px;height:24px" viewBox="0 0 24 24">
                 <path fill="currentColor" d="` + icon.pathData + `" />
@@ -22,13 +22,13 @@ function iconHtml(icon) {
 
 function iconsHtml(icons) {
     let html = `<dl class="icons">
-            <dt class="asset-group--title">
+            <dt class="icons-group--title">
                 <span><input id="asset-icon-search-text" type="search" placeholder="Search icons" /></span>
                 <button id="icon-list-view-toggle" uxp-variant="action" title="Toggle list/grid view">
                     <img src="./images/icon_24x24.png" />
                 </button>
             </dt>
-            <dd class="asset-group--content">
+            <dd class="icons-group--content">
                 <ul class="assets-icons--list">`;
     icons.forEach( icon => {
         html += iconHtml(icon);
