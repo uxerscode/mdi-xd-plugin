@@ -9,59 +9,6 @@ const PanelHtmlCss = `
   border-radius: 4px;
 }
 
-header {
-  display: flex;
-  text-align: left;
-  line-height: 48px;
-}
-
-header h1 {
-  flex: 0;
-  margin: 0 16px 0 0;
-  padding: 0;
-  font-size: 16px;
-  font-weight: bold;
-  letter-spacing: -0.0125em;
-  color: #000;
-  white-space: nowrap;
-}
-
-header h1 span {
-  font-weight: normal;
-  color: #555
-}
-
-header select {
-  flex: 1;
-}
-
-.tab-set {
-  display: flex;
-  margin: 16px 0 8px;
-  padding: 0;
-  border-bottom: 1px solid #CCC;
-}
-
-.tab {
-  margin-right: 2px;
-  padding: 8px 16px;
-  font-weight: 600;
-  background: #FFF;
-  border: 4px solid #FFF;
-  border-width: 0 0 4px 0;
-  border-radius: 2px 2px 0 0;
-}
-.tab:hover {
-  color: #000;
-  background: #FFF;
-  border-color: #999;
-}
-.tab.active {
-  color: #000;
-  background: #FFF;
-  border-color: #333;
-}
-
 #main > .content {
   flex: 1;
 }
