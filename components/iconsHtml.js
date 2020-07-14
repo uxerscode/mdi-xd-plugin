@@ -10,17 +10,17 @@ function filterIconList(searchFor, searchList) {
     searchList.forEach( icon => {
         let lookFor = new RegExp(searchFor.toLowerCase());
         if (lookFor.test(icon.getAttribute('data-icon-search'))) {
-            icon.className = 'asset-group--item';
+            icon.className = 'icons--item';
         } else {
-            icon.className = 'asset-group--item hide';
+            icon.className = 'icons--item hide';
         }
     });
 }
 
 function setIconsEvents(panel) {
     // Search
-    const iconSearch = panel.querySelector('#asset-icon-search-text');
-    _iconList = panel.querySelectorAll('#icons .asset-group--item');
+    const iconSearch = panel.querySelector('#icon-search-text');
+    _iconList = panel.querySelectorAll('#icons .icons--item');
     iconSearch && iconSearch.addEventListener('input', (event) => {
         filterIconList(event.target.value, _iconList);
     });

@@ -36,8 +36,8 @@ const PanelHtmlCss = `
   flex-wrap: wrap;
 }
 
-.icons-group--item,
-.icons-group--item-split-menu {
+.icons--item,
+.icons--item-split-menu {
   display: flex;
   align-content: space-between;
   flex: 1;
@@ -51,7 +51,7 @@ const PanelHtmlCss = `
   border-radius: 4px;
 }
 
-.icons-group--item.typography {
+.icons--item.typography {
   flex-direction: column;
 }
 
@@ -87,14 +87,14 @@ const PanelHtmlCss = `
   flex-wrap: wrap;
 }
 
-.icons--list .icons-group--item {
+.icons--list .icons--item {
   flex: 0;
   min-width: 40px;
   margin: 2px;
   cursor: pointer
 }
 
-.icons--list.icons--list__show-list .icons-group--item {
+.icons--list.icons--list__show-list .icons--item {
   flex: 1;
   min-width: 120px;
   max-width: 240px;
@@ -109,18 +109,20 @@ const PanelHtmlCss = `
   display: block;
 }
 
-.icons-group--item:hover {
-  // color: white;
-  // background: #555;
+.icons--item:hover {
+  /* color: white;
+  background: #555; */
   border-color: #999;
   cursor: pointer;
 }
 
-.icons-group--item:hover .icon--sample {
-  // border: 1px solid #FFF;
+/*
+.icons--item:hover .icon--sample {
+  border: 1px solid #FFF;
 }
+*/
 
-.icons--list .icons-group--item:hover .icon--sample {
+.icons--list .icons--item:hover .icon--sample {
   border: none;
 }
 
