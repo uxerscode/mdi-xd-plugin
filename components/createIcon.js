@@ -13,7 +13,7 @@ const iconDef = {
 
 function findIcon(name) {
     let thisIcon = false;
-    iconSet.set.forEach( icon => {
+    iconSet.forEach( icon => {
         if (icon.name.toLowerCase() === name.toLowerCase()) {
             thisIcon = icon;
         }

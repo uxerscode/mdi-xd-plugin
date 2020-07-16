@@ -9,7 +9,7 @@ function iconHtml(icon) {
             searchTerms += ',' + value.trim().toLowerCase();
         }
     }
-    let html = `<li class="icons-group--item" data-icon-search="` + searchTerms + `" data-icon-name="` + icon.name + `" title="` + icon.name + `">
+    let html = `<li class="icons--item ` + icon.name + `" data-icon-search="` + searchTerms + `" data-icon-name="` + icon.name + `" title="` + icon.name + `">
         <span class="icon--sample">
             <svg style="width:24px;height:24px" viewBox="0 0 24 24">
                 <path fill="currentColor" d="` + icon.pathData + `" />

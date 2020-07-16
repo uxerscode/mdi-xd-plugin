@@ -35,15 +35,41 @@ function setIconsEvents(panel) {
         }
     });
     // Individual icons
-    icons.forEach( icon => {
-        const iconBtn = panel.querySelector('li[data-icon-name="' + icon.name + '"]');
-        iconBtn.addEventListener('click', () => {
+    // icons.forEach( icon => {
+    //     const iconBtn = panel.querySelector('li[data-icon-name="' + icon.name + '"]');
+    //     iconBtn.addEventListener('click', () => {
+    //         application.editDocument( (selection) => {
+    //             let newIcon = createIcon(selection, icon);
+    //             centerInViewport(selection, newIcon);
+    //         } );
+    //     } );
+    // } );
+    // Icon List
+    const list = panel.querySelector('.icons--list');
+    list.addEventListener('click', event => {
+        if (event)  {
+            let target = event.target;
+            while(target.nodeName != 'LI') {
+                target = target.parentNode;
+                if (target === null) { break }
+            }
+            const classes = target.classList;
+            let name = target.classList._cachedAttrValue;
+            name = name.split(' ')[1];
             application.editDocument( (selection) => {
-                let newIcon = createIcon(selection, icon);
+                let newIcon = createIcon(selection, name);
                 centerInViewport(selection, newIcon);
-            } );
-        } );
-    } );
+            });
+        }
+        // for (let i=0; i < e.path.length; i++) {
+        //     if (e.path[i].tagName === 'LI') {
+
+        //       const node = e.path[i];
+        //       const value = node.attributes['data-icon-name'];
+        //       console.log(value);
+        //     }
+        //   }
+    });
 }
 
 module.exports = {

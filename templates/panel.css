@@ -93,7 +93,7 @@
   cursor: pointer
 }
 
-.icons--list.icons--list__show-list .icons-group--item {
+.icons--list.icons--list__show-list .icons--item {
   flex: 1;
   min-width: 120px;
   max-width: 240px;
@@ -109,13 +109,17 @@
 }
 
 .icons--item:hover {
+  /* color: white;
+  background: #555; */
   border-color: #999;
   cursor: pointer;
 }
 
+/*
 .icons--item:hover .icon--sample {
   border: 1px solid #FFF;
 }
+*/
 
 .icons--list .icons--item:hover .icon--sample {
   border: none;
