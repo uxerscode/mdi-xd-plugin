@@ -8,8 +8,7 @@ let currentSelection;
 
 function create() {
     panel = document.createElement('div');
-    let html = panelHtml(data);
-    panel.innerHTML = html;
+    panel.innerHTML = panelHtml;
 
     const iconSelection = panel.querySelector('#icons');
     setIconsEvents(panel);

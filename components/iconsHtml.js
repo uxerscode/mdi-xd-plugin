@@ -1,10 +1,8 @@
 let application = require('application');
-const { getIcons } = require("../../services/mdi");
 const { createIcon } = require("./createIcon");
 const { centerInViewport } = require("../lib/utils");
 
 let _iconList = null;
-let icons = getIcons();
 
 function filterIconList(searchFor, searchList) {
     searchList.forEach( icon => {
@@ -34,16 +32,6 @@ function setIconsEvents(panel) {
             iconList.className = 'icons--list';
         }
     });
-    // Individual icons
-    // icons.forEach( icon => {
-    //     const iconBtn = panel.querySelector('li[data-icon-name="' + icon.name + '"]');
-    //     iconBtn.addEventListener('click', () => {
-    //         application.editDocument( (selection) => {
-    //             let newIcon = createIcon(selection, icon);
-    //             centerInViewport(selection, newIcon);
-    //         } );
-    //     } );
-    // } );
     // Icon List
     const list = panel.querySelector('.icons--list');
     list.addEventListener('click', event => {
@@ -57,18 +45,12 @@ function setIconsEvents(panel) {
             let name = target.classList._cachedAttrValue;
             name = name.split(' ')[1];
             application.editDocument( (selection) => {
-                let newIcon = createIcon(selection, name);
+                let icon = document.querySelector('.' + name);
+                let path = icon.getAttribute('data-icon-path');
+                let newIcon = createIcon(selection, name, path);
                 centerInViewport(selection, newIcon);
             });
         }
-        // for (let i=0; i < e.path.length; i++) {
-        //     if (e.path[i].tagName === 'LI') {
-
-        //       const node = e.path[i];
-        //       const value = node.attributes['data-icon-name'];
-        //       console.log(value);
-        //     }
-        //   }
     });
 }
 

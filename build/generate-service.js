@@ -24,7 +24,7 @@ const meta = JSON.parse(fs.readFileSync(base + '/meta.json','utf-8'));
 
 for (const svg of svgs) {
     icons.push(getIcon(base + '/svg/' + svg.name, svg.name));
-    // if (icons.length > 10) { break; }
+    if (icons.length > 10) { break; }
 }
 
 const service = 'const icons = ' +
