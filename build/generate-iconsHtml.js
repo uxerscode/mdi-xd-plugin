@@ -59,7 +59,7 @@ function iconHtml(icon) {
 function iconsHtml() {
     let icons = buildIcons();
     let html = `<dl class="icons">
-            <dt class="icons-group--title">
+            <dt class="icons--title">
                 <span>
                     <input id="icon-search-text" type="search" placeholder="Filter icons" />
                 </span>
@@ -70,7 +70,7 @@ function iconsHtml() {
                     <img src="./images/icon_24x24.png" />
                 </button>
             </dt>
-            <dd class="icons-group--content">
+            <dd class="icons--content">
                 <ul class="icons--list">`;
     icons.forEach( icon => {
         html += iconHtml(icon);

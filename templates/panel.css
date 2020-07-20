@@ -14,7 +14,7 @@
   padding: 0;
 }
 
-.icons-group--title {
+.icons--title {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -25,12 +25,12 @@
   text-transform: capitalize;
 }
 
-.icons-group--content {
+.icons--content {
   padding: 0 0 16px;
   border-bottom: 1px solid #CCC;
 }
 
-.icons-group--content ul {
+.icons--content ul {
   display: flex;
   flex-wrap: wrap;
 }
@@ -68,16 +68,16 @@
   text-overflow: ellipsis;
 }
 
-#icons .icons-group--title span {
+#icons .icons--title span {
   flex: 1;
 }
 
-#icons .icons-group--title span input {
+#icons .icons--title span input {
   width: calc(100% - 16px);
   margin: 0;
 }
 
-#icons .icons-group--title button {
+#icons .icons--title button {
   flex: 0;
 }
 
