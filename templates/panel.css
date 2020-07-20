@@ -35,8 +35,7 @@
   flex-wrap: wrap;
 }
 
-.icons--item,
-.icons--item-split-menu {
+.icons--item {
   display: flex;
   align-content: space-between;
   flex: 1;
@@ -48,10 +47,6 @@
   background: #FFF;
   border: 1px solid #FFF;
   border-radius: 4px;
-}
-
-.icons--item.typography {
-  flex-direction: column;
 }
 
 .icon--sample {
