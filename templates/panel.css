@@ -25,6 +25,19 @@
   text-transform: capitalize;
 }
 
+.icons--title span {
+  flex: 1;
+}
+
+.icons--title span input {
+  width: calc(100% - 16px);
+  margin: 0;
+}
+
+.icons--title button {
+  flex: 0;
+}
+
 .icons--content {
   padding: 0 0 16px;
   border-bottom: 1px solid #CCC;
@@ -61,19 +74,6 @@
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
-}
-
-#icons .icons--title span {
-  flex: 1;
-}
-
-#icons .icons--title span input {
-  width: calc(100% - 16px);
-  margin: 0;
-}
-
-#icons .icons--title button {
-  flex: 0;
 }
 
 .icons--list {
