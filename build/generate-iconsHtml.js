@@ -11,22 +11,10 @@ function getIcon(svg, filename, meta) {
         'aliases': metadata.aliases,
         'pathData': path,
         'tags': metadata.tags,
+        'author': metadata.author,
         'google': (metadata.author === 'Google')
     };
     return icon;
-}
-
-function buildIcons() {
-    const base = './node_modules/@mdi/svg';
-    let icons = [];
-    const svgs = fs.readdirSync(base + '/svg', {withFileTypes: true});
-    const meta = JSON.parse(fs.readFileSync(base + '/meta.json','utf-8'));
-    
-    for (const svg of svgs) {
-        icons.push(getIcon(base + '/svg/' + svg.name, svg.name, meta));
-        // if (icons.length > 10) { break; }
-    }
-    return icons;
 }
 
 function iconHtml(icon) {
@@ -44,7 +32,7 @@ function iconHtml(icon) {
             `" data-icon-search="` + searchTerms +
             `" data-icon-name="` + icon.name +
             `" data-icon-path="` + icon.pathData +
-            `" title="` + icon.name + 
+            `" title="` + icon.name + '\n' + icon.author +
             `">
             <span class="icon--sample">
                 <svg style="width:24px;height:24px" viewBox="0 0 24 24">
@@ -54,6 +42,19 @@ function iconHtml(icon) {
             <span class="icon--label">` + icon.name + `</span>
         </li>`;
     return html;
+}
+
+function buildIcons() {
+    const base = './node_modules/@mdi/svg';
+    let icons = [];
+    const svgs = fs.readdirSync(base + '/svg', {withFileTypes: true});
+    const meta = JSON.parse(fs.readFileSync(base + '/meta.json','utf-8'));
+    
+    for (const svg of svgs) {
+        icons.push(getIcon(base + '/svg/' + svg.name, svg.name, meta));
+        // if (icons.length > 50) { break; }
+    }
+    return icons;
 }
 
 function iconsHtml() {

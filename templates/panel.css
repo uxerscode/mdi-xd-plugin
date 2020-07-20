@@ -2,18 +2,6 @@
   flex-wrap: wrap;
 }
 
-label.row > span {
-  color: #8e8e8e;
-  width: 20px;
-  text-align: right;
-  font-size: 9px;
-}
-
-label.row input {
-  flex: 1 1 auto;
-  border: 1px solid #638bec;
-}
-
 form {
   width: 90%;
   margin: -20px;
@@ -74,23 +62,26 @@ button {
 }
 
 .icons--content {
-  height: 100%;
-  overflow: scroll;
   padding: 0 0 16px;
-  border-bottom: 1px solid #CCC;
+  overflow: scroll;
+}
+
+.icons--list {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .icons--item {
   display: flex;
+  flex: 0;
+  margin: 2px;
   align-content: space-between;
   padding: 8px;
   line-height: 24px;
   background: #FFF;
   border: 1px solid red;
   border-radius: 4px;
-  flex: 0;
   min-width: 40px;
-  margin: 2px;
   cursor: pointer
 }
 
@@ -98,11 +89,10 @@ button {
   border-color: white;
 }
 
-.icon--sample {
-  height: 24px;
-  width: 24px;
-  border-radius: 12px;
-  margin-right: 8px;
+.icons--item:hover {
+  color: white;
+  background: #555;
+  cursor: pointer;
 }
 
 .icon--label {
@@ -110,11 +100,6 @@ button {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
-}
-
-.icons--list {
-  display: flex;
-  flex-wrap: wrap;
 }
 
 .icons--list.icons--list__show-list .icons--item {
@@ -132,10 +117,11 @@ button {
   display: block;
 }
 
-.icons--item:hover {
-  color: white;
-  background: #555;
-  cursor: pointer;
+.icon--sample {
+  height: 24px;
+  width: 24px;
+  border-radius: 12px;
+  margin-right: 8px;
 }
 
 .footer {
