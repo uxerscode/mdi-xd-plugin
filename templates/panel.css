@@ -20,6 +20,10 @@ form {
   padding: 0px;
 }
 
+button {
+  margin: 0;
+}
+
 .show {
   display: block;
 }
@@ -74,24 +78,18 @@ form {
   border-bottom: 1px solid #CCC;
 }
 
-.icons--content ul {
-  display: flex;
-  flex-wrap: wrap;
-  overflow: auto;
-}
-
 .icons--item {
   display: flex;
   align-content: space-between;
-  flex: 1;
-  min-width: 160px;
-  max-width: 300px;
-  margin: 0 0 4px 4px;
   padding: 8px;
   line-height: 24px;
   background: #FFF;
   border: 1px solid #FFF;
   border-radius: 4px;
+  flex: 0;
+  min-width: 40px;
+  margin: 2px;
+  cursor: pointer
 }
 
 .icon--sample {
@@ -111,13 +109,6 @@ form {
 .icons--list {
   display: flex;
   flex-wrap: wrap;
-}
-
-.icons--list .icons--item {
-  flex: 0;
-  min-width: 40px;
-  margin: 2px;
-  cursor: pointer
 }
 
 .icons--list.icons--list__show-list .icons--item {
@@ -145,10 +136,6 @@ form {
 
 .icons--item.google:hover {
   border-color: #999;
-}
-
-button {
-  margin: 0;
 }
 
 .footer {
