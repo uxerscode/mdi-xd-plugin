@@ -30,12 +30,13 @@
 }
 
 .icons--title span input {
-  width: calc(100% - 16px);
+  width: 100%;
   margin: 0;
 }
 
 .icons--title button {
   flex: 0;
+  margin-right: 8px;
 }
 
 .icons--content {
