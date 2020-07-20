@@ -11,7 +11,7 @@ function getIcon(svg, filename, meta) {
         'aliases': metadata.aliases,
         'pathData': path,
         'tags': metadata.tags,
-        'community': (metadata.author === 'Google')
+        'google': (metadata.author === 'Google')
     };
     return icon;
 }
@@ -40,7 +40,7 @@ function iconHtml(icon) {
             searchTerms += ',' + value.trim().toLowerCase();
         }
     }
-    let html = `<li class="icons--item ` + (icon.community ? 'google ' : '') +  icon.name +
+    let html = `<li class="icons--item `  +  icon.name + (icon.google ? ' google' : '') +
             `" data-icon-search="` + searchTerms +
             `" data-icon-name="` + icon.name +
             `" data-icon-path="` + icon.pathData +
