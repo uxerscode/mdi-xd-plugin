@@ -19,9 +19,13 @@ function setIconsEvents(panel) {
     // Search
     const iconSearch = panel.querySelector('#icon-search-text');
     _iconList = panel.querySelectorAll('#icons .icons--item');
-    iconSearch && iconSearch.addEventListener('input', (event) => {
-        filterIconList(event.target.value, _iconList);
-    });
+    // iconSearch && iconSearch.addEventListener('input', (event) => {
+    //     filterIconList(event.target.value, _iconList);
+    // });
+    const searchBtn = panel.querySelector('#icon-search');
+    searchBtn.addEventListener('click', () => {
+        filterIconList(iconSearch.value, _iconList);
+    })
     // View Toggle
     const iconBtn = panel.querySelector('#icon-list-view-toggle');
     iconBtn && iconBtn.addEventListener('click', () => {

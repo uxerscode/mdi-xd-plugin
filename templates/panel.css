@@ -109,20 +109,15 @@
 }
 
 .icons--item:hover {
-  /* color: white;
-  background: #555; */
-  border-color: #999;
+  color: white;
+  background: #555;
+  /* border-color: #999; */
+  border-color: red;
   cursor: pointer;
 }
 
-/*
-.icons--item:hover .icon--sample {
-  border: 1px solid #FFF;
-}
-*/
-
-.icons--list .icons--item:hover .icon--sample {
-  border: none;
+.icons--item.google:hover {
+  border-color: #999;
 }
 
 button {

@@ -11,7 +11,7 @@ function getIcon(svg, filename, meta) {
         'aliases': metadata.aliases,
         'pathData': path,
         'tags': metadata.tags,
-        'community': (metadata.author != 'Google')
+        'community': (metadata.author === 'Google')
     };
     return icon;
 }
@@ -40,7 +40,7 @@ function iconHtml(icon) {
             searchTerms += ',' + value.trim().toLowerCase();
         }
     }
-    let html = `<li class="icons--item ` + icon.name +
+    let html = `<li class="icons--item ` + (icon.community ? 'google ' : '') +  icon.name +
             `" data-icon-search="` + searchTerms +
             `" data-icon-name="` + icon.name +
             `" data-icon-path="` + icon.pathData +
@@ -60,7 +60,12 @@ function iconsHtml() {
     let icons = buildIcons();
     let html = `<dl class="icons">
             <dt class="icons-group--title">
-                <span><input id="asset-icon-search-text" type="search" placeholder="Search icons" /></span>
+                <span>
+                    <input id="icon-search-text" type="search" placeholder="Filter icons" />
+                </span>
+                <button id="icon-search" uxp-variant="action" title="Search">
+                    <img src="./images/filter.png" />
+                </button>
                 <button id="icon-list-view-toggle" uxp-variant="action" title="Toggle list/grid view">
                     <img src="./images/icon_24x24.png" />
                 </button>
