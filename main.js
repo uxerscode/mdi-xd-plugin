@@ -1,23 +1,13 @@
-let application = require('application');
 const { panelHtml } = require('./components/panelHtml');
-const { setIconsEvents } = require('./components/iconsHtml');
+const { setIconsEvents } = require('./components/iconEvents');
 
 let panel;
-let data;
-let currentSelection;
 
 function create() {
-    panel = document.createElement('div');
-    panel.innerHTML = panelHtml;
-
-    const iconSelection = panel.querySelector('#icons');
-    setIconsEvents(panel);
-
-    return panel;
-}
-
-function update(selection) {
-  currentSelection = selection;
+  panel = document.createElement('div');
+  panel.innerHTML = panelHtml;
+  setIconsEvents(panel);
+  return panel;
 }
 
 // Show the panel
@@ -28,8 +18,7 @@ function show(event) {
 module.exports = {
   panels: {
     mainMDI: {
-      show,
-      update
+      show
     }
   }
 };
