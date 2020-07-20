@@ -74,6 +74,8 @@ button {
 }
 
 .icons--content {
+  height: 100%;
+  overflow: scroll;
   padding: 0 0 16px;
   border-bottom: 1px solid #CCC;
 }
@@ -84,12 +86,16 @@ button {
   padding: 8px;
   line-height: 24px;
   background: #FFF;
-  border: 1px solid #FFF;
+  border: 1px solid red;
   border-radius: 4px;
   flex: 0;
   min-width: 40px;
   margin: 2px;
   cursor: pointer
+}
+
+.icons--item.google {
+  border-color: white;
 }
 
 .icon--sample {
@@ -129,13 +135,7 @@ button {
 .icons--item:hover {
   color: white;
   background: #555;
-  /* border-color: #999; */
-  border-color: red;
   cursor: pointer;
-}
-
-.icons--item.google:hover {
-  border-color: #999;
 }
 
 .footer {

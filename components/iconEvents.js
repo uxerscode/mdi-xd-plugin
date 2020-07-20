@@ -1,10 +1,6 @@
 let application = require('application');
-const {
-    createIcon
-} = require("./createIcon");
-const {
-    centerInViewport
-} = require("../lib/utils");
+const { createIcon } = require("./createIcon");
+const { centerInViewport } = require("../lib/utils");
 
 let _iconList = null;
 
@@ -23,9 +19,6 @@ function setIconsEvents(panel) {
     // Search
     const iconSearch = panel.querySelector('#icon-search-text');
     _iconList = panel.querySelectorAll('#icons .icons--item');
-    // iconSearch && iconSearch.addEventListener('input', (event) => {
-    //     filterIconList(event.target.value, _iconList);
-    // });
     const searchBtn = panel.querySelector('#icon-search');
     searchBtn.addEventListener('click', () => {
         filterIconList(iconSearch.value, _iconList);
