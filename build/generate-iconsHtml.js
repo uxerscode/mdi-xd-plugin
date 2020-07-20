@@ -58,28 +58,12 @@ function iconHtml(icon) {
 
 function iconsHtml() {
     let icons = buildIcons();
-    let html = `<dl class="icons">
-            <dt class="icons--title">
-                <span>
-                    <input id="icon-search-text" type="search" placeholder="Filter icons" />
-                </span>
-                <button id="icon-search" uxp-variant="action" title="Search">
-                    <img src="./images/filter.png" />
-                </button>
-                <button id="icon-list-view-toggle" uxp-variant="action" title="Toggle list/grid view">
-                    <img src="./images/icon_24x24.png" />
-                </button>
-            </dt>
-            <dd class="icons--content">
-                <ul class="icons--list">`;
+    let iconSrc = '';
     icons.forEach( icon => {
-        html += iconHtml(icon);
+        iconSrc += iconHtml(icon);
     });
-    html += `
-                </ul>
-            </dd>
-        </dl>
-    `;
+    let html = fs.readFileSync('./templates/icons.html','utf-8');
+    html = html.replace('<!-- Icons -->', iconSrc);
     return html;
 }
 
