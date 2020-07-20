@@ -1,11 +1,12 @@
 {
   "name": "mdi-xd-plugin",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "Material Design Icons XD Plugin",
   "main": "installer.js",
   "scripts": {
-    "build": "node ./build/build.js",
-    "build:data": "node ./build/generate-service"
+    "build": "npm run build:dev & npm run pack",
+    "build:dev": "node ./build/build.js",
+    "pack": "node ./build/pack.js"
   },
   "repository": {
     "type": "git",
