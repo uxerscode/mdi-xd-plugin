@@ -55,7 +55,7 @@ button {
   padding: 8px;
   line-height: 24px;
   background: #FFF;
-  border: 1px solid red;
+  border: 1px solid rgba(255, 87, 34, 1);
   border-radius: 4px;
   min-width: 40px;
   cursor: pointer
