@@ -7,7 +7,7 @@ function create() {
   panel = document.createElement('div');
   panel.classList.add('panel');
   panel.innerHTML = panelHtml;
-  // setIconsEvents(panel);
+  setIconsEvents(panel);
   return panel;
 }
 

@@ -1,23 +1,6 @@
-.break {
-  flex-wrap: wrap;
-}
-
-form {
-  width: 90%;
-  margin: -20px;
-  padding: 0px;
-}
 
 button {
   margin: 0;
-}
-
-.show {
-  display: block;
-}
-
-.hide {
-  display: none;
 }
 
 .icons {
@@ -125,7 +108,25 @@ button {
   border-top: 1px solid #CCC;
 }
 
+form {
+  width: 90%;
+  margin: -20px;
+  padding: 0px;
+}
+
 .footer-about {
   flex: 1;
   margin-right: 16px;
+}
+
+.break {
+  flex-wrap: wrap;
+}
+
+.show {
+  display: block;
+}
+
+.hide {
+  display: none;
 }

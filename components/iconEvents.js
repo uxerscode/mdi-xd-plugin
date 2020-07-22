@@ -5,8 +5,8 @@ const { centerInViewport } = require("../lib/utils");
 let _iconList = null;
 
 function filterIconList(searchFor, searchList) {
+    let lookFor = new RegExp(searchFor.toLowerCase());
     searchList.forEach(icon => {
-        let lookFor = new RegExp(searchFor.toLowerCase());
         if (lookFor.test(icon.getAttribute('data-icon-search'))) {
             icon.className = 'icons--item';
         } else {
@@ -16,7 +16,7 @@ function filterIconList(searchFor, searchList) {
 }
 
 function setIconsEvents(panel) {
-    // Search
+    // Filter
     const iconSearch = panel.querySelector('#icon-search-text');
     _iconList = panel.querySelectorAll('#icons .icons--item');
     const searchBtn = panel.querySelector('#icon-search');
@@ -25,11 +25,14 @@ function setIconsEvents(panel) {
     })
     // View Toggle
     const iconBtn = panel.querySelector('#icon-list-view-toggle');
+    const iconBtnImg = panel.querySelector('#icon-toggle-button');
     iconBtn && iconBtn.addEventListener('click', () => {
         const iconList = panel.querySelector('.icons--list');
         if (iconList.className === 'icons--list') {
+            iconBtnImg.src = './images/format-list-bulleted-square.png';
             iconList.className = 'icons--list icons--list__show-list';
         } else {
+            iconBtnImg.src = './images/view-grid.png';
             iconList.className = 'icons--list';
         }
     });
