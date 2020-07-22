@@ -31,6 +31,7 @@ function getAppFiles(dirPath, files) {
 console.log('==== Building Distribution ====');
 fs.ensureDirSync(base);
 fs.emptyDirSync(base);
+fs.copySync('manifest.json', base + '/manifest.json');
 fs.ensureDir(base + '/images');
 fs.copySync('./images', base + '/images');
 compressJS('main.js', base + '/main.js');
@@ -38,6 +39,8 @@ fs.ensureDirSync(base + '/components');
 compressJS('./components/createIcon.js', base + '/components/createIcon.js');
 compressJS('./components/iconEvents.js', base + '/components/iconEvents.js');
 compressJS('./components/panelHtml.js', base + '/components/panelHtml.js');
+fs.ensureDirSync(base + '/lib');
+compressJS('./lib/utils.js', base + '/lib/utils.js');
 
 // Build the install file
 if(fs.existsSync('./' + install)) {
