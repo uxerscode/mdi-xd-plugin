@@ -1,13 +1,13 @@
 {
   "id" : "15d3ddbb",
   "name" : "Material Design Icons",
-  "version" : "0.0.2",
+  "version" : "1.0.0",
   "summary": "Access to MDI Icons",
   "description": "Access to Material Design Icons (MDI)",
   "language": [
     "en"
   ],
-  "author": "Larry Weinheimer & Dan Danowski",
+  "author": "uxerscode",
   "keywords": [
     "icons"
   ],
