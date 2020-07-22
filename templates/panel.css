@@ -20,19 +20,11 @@ button {
   display: none;
 }
 
-#main {
+.icons {
   display: flex;
   flex-direction: column;
-  height: calc(100vh - 120px);
+  height: calc(100vh - 150px);
   border-radius: 4px;
-}
-
-#main > .content {
-  flex: 1;
-  overflow: hidden;
-}
-
-.icons {
   margin: 0;
   padding: 0;
 }
@@ -63,7 +55,8 @@ button {
 
 .icons--content {
   padding: 0 0 16px;
-  overflow: scroll;
+  flex: 1;
+  overflow: auto;
 }
 
 .icons--list {
