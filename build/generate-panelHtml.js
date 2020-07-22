@@ -4,20 +4,20 @@ const minify = require('@node-minify/core');
 const htmlMinifier = require('@node-minify/html-minifier');
 const { iconsHtml } = require('./generate-iconsHtml');
 
-function panelHtml() {
+async function panelHtml() {
     
     let htmlSrc = fs.readFileSync('./templates/panel.html', 'utf-8');
+
     let cssSrc = fs.readFileSync('./templates/panel.css', 'utf-8');
+    htmlSrc = htmlSrc.replace('/* ### Styles ### */', cssSrc);
 
     let iconsSrc = iconsHtml();
-
-    htmlSrc = htmlSrc.replace('/* ### Styles ### */', cssSrc);
     htmlSrc = htmlSrc.replace(`<!-- ### Icons ### -->`, iconsSrc);
 
-    // return minify({
-    //     compressor: htmlMinifier,
-    //     content: htmlSrc
-    // });
+    htmlSrc = await minify({
+        compressor: htmlMinifier,
+        content: htmlSrc
+    });
     return htmlSrc;
 }
 

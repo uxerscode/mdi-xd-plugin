@@ -52,7 +52,6 @@ function buildIcons() {
     
     for (const svg of svgs) {
         icons.push(getIcon(base + '/svg/' + svg.name, svg.name, meta));
-        // if (icons.length > 10) { break; }
     }
     return icons;
 }
