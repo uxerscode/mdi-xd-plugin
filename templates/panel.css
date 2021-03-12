@@ -51,7 +51,6 @@ button {
   display: flex;
   flex: 0;
   margin: 2px;
-  align-content: space-between;
   padding: 8px;
   line-height: 24px;
   background: #FFF;
@@ -78,19 +77,9 @@ button {
   text-overflow: ellipsis;
 }
 
-.icons--list.icons--list__show-list .icons--item {
-  flex: 1;
-  min-width: 120px;
-  max-width: 240px;
-}
-
 .icons--list .icon--label {
   display: none;
   flex: 1;
-}
-
-.icons--list.icons--list__show-list .icon--label {
-  display: block;
 }
 
 .icon--sample {
