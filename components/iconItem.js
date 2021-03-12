@@ -13,10 +13,10 @@ function iconItem(panel, icon, index) {
     _icon.classList.add('icons--item');
     _icon.setAttribute('name', icon.name);
     _icon.setAttribute('path', icon.path);
-    if(icons.google) {
+    _icon.setAttribute('title', icon.author);
+    if(icon.google === 'true') {
         _icon.classList.add('google');
     }
-    _icon.title = icon.name + '\n' + icon.author;
 }
 
 module.exports = { iconItem };

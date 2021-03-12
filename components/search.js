@@ -1,9 +1,10 @@
 const { icons } = require('./icons');
 const { iconItem } = require('./iconItem');
 
+const _limit = 50;
 
 function search(panel, search) {
-    for(var i=0; i < 25; i++){
+    for(var i=0; i < _limit; i++){
         const _icon = panel.querySelector('#icon-' + i);
         _icon.classList.remove('show');
         _icon.classList.add('hide');
@@ -13,7 +14,7 @@ function search(panel, search) {
     for(var i=0; i < icons.length; i++) {
         const icon = icons[i];
         if (lookFor.test(icon.search)) {
-            if(total < 25) {
+            if(total < _limit) {
                 iconItem(panel, icon, total);
             }
             total++;
@@ -25,10 +26,10 @@ function search(panel, search) {
         _err.classList.add('show');
         _err.innerHTML = 'None found';
     } else
-    if (total > 25) {
+    if (total > _limit) {
         _err.classList.remove('hide');
         _err.classList.add('show');
-        _err.innerHTML = `25 of ${total} shown`;
+        _err.innerHTML = `${_limit} of ${total} shown`;
     } else {
         _err.classList.remove('show');
         _err.classList.add('hide');
@@ -36,4 +37,3 @@ function search(panel, search) {
 }
 
 module.exports = { search };
- 

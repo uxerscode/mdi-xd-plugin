@@ -14,6 +14,9 @@ function setIconsEvents(panel) {
         if(event.keyCode === 13) {
             search(panel, iconSearch.value);
         }
+        if(event.keyCode === 27) {
+            iconSearch.value = '';
+        }
     });
     // // Icon List
     const list = panel.querySelector('#icons--list');
