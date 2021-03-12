@@ -1,8 +1,8 @@
 {
   "id" : "15d3ddbb",
-  "name" : "Material Design Icons",
-  "version" : "1.0.0",
-  "summary": "Access to MDI Icons",
+  "name" : "MDI",
+  "version" : "1.0.1",
+  "summary": "Material Design Icons",
   "description": "Access to Material Design Icons (MDI)",
   "language": [
     "en"
