@@ -1,0 +1,52 @@
+{
+  "id" : "15d3ddbb",
+  "name" : "Material Design Icons",
+  "version" : "1.1.0",
+  "summary": "MDI",
+  "description": "Access to Material Design Icons (MDI)",
+  "language": [
+    "en"
+  ],
+  "author": "uxerscode",
+  "keywords": [
+    "icons"
+  ],
+  "host" : {
+    "app" : "XD",
+    "minVersion" : "21.0"
+  },
+  "icons": [
+    {
+      "width": 24,
+      "height": 24,
+      "path": "images/icon_24x24.png"
+    },
+    {
+      "width": 48,
+      "height": 48,
+      "path": "images/icon_48x48.png"
+    },
+    {
+      "width": 96,
+      "height": 96,
+      "path": "images/icon_96x96.png"
+    },
+    {
+      "width": 144,
+      "height": 144,
+      "path": "images/icon_144x144.png"
+    },
+    {
+      "width": 192,
+      "height": 192,
+      "path": "images/icon_192x192.png"
+    }
+  ],
+  "uiEntryPoints" : [
+    {
+      "type" : "panel",
+      "label" : "Material Design Icons",
+      "panelId" : "MDI"
+    }
+  ]
+}
