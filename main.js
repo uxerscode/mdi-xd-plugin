@@ -18,7 +18,7 @@ function show(event) {
 
 module.exports = {
   panels: {
-    mainMDI: {
+    MDI: {
       show
     }
   }
