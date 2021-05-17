@@ -1,4 +1,3 @@
-
 button {
   margin: 0;
 }
@@ -42,44 +41,51 @@ button {
   overflow: auto;
 }
 
+.search {
+  width: 85%;
+}
+
+.msg {
+  width: 175px;
+}
+
+.sep {
+  margin-right: 10px;
+}
+
 .icons--list {
   display: flex;
   flex-wrap: wrap;
 }
 
-.icons--item {
-  display: flex;
-  flex: 0;
+.icon--item {
   margin: 2px;
   padding: 8px;
   line-height: 24px;
   background: #FFF;
   border: 1px solid rgba(255, 87, 34, 1);
   border-radius: 4px;
-  min-width: 40px;
-  cursor: pointer
+  width: 125px;
+  cursor: pointer;
+  display: inline-flex;
 }
 
-.icons--item.google {
+.icon--item-grid {
+  width: 40px;
+}
+
+.icon--item-list {
+  width: 105px;
+}
+
+.icon--item.google {
   border-color: white;
 }
 
-.icons--item:hover {
+.icon--item:hover {
   color: white;
   background: #555;
   cursor: pointer;
-}
-
-.icon--label {
-  flex: 1;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
-
-.icons--list .icon--label {
-  display: none;
-  flex: 1;
 }
 
 .icon--sample {
@@ -87,6 +93,12 @@ button {
   width: 24px;
   border-radius: 12px;
   margin-right: 8px;
+}
+
+.icon--label {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .footer {

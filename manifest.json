@@ -1,8 +1,8 @@
 {
   "id" : "15d3ddbb",
-  "name" : "MDI",
-  "version" : "1.0.1",
-  "summary": "Material Design Icons",
+  "name" : "Material Design Icons",
+  "version" : "1.2.0",
+  "summary": "MDI",
   "description": "Access to Material Design Icons (MDI)",
   "language": [
     "en"
@@ -45,8 +45,8 @@
   "uiEntryPoints" : [
     {
       "type" : "panel",
-      "label" : "MDI",
-      "panelId" : "mainMDI"
+      "label" : "Material Design Icons",
+      "panelId" : "MDI"
     }
   ]
 }

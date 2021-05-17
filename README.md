@@ -1,5 +1,5 @@
 # MDI XD Plugin
-Version 1.0.0
+Version 1.2.0
 
 The Material Design Icon Adobe XD Plugin provides the ability to easily access and add MDI icons into your XD design.
 
