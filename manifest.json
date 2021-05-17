@@ -45,7 +45,7 @@
   "uiEntryPoints" : [
     {
       "type" : "panel",
-      "label" : "Material Design Icons",
+      "label" : "MDI",
       "panelId" : "mainMDI"
     }
   ]

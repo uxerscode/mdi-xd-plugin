@@ -34,7 +34,9 @@ function setIconsEvents(panel) {
                     let name = target.getAttribute('name');
                     let path = target.getAttribute('path');
                     let newIcon = createIcon(selection, name, path);
-                    centerInViewport(selection, newIcon);
+                    if (!newIcon.replace) {
+                        centerInViewport(selection, newIcon);
+                    }
                 });
             }
         }
