@@ -328,9 +328,17 @@ const icons = [
 "author": "Austin Andrews"
 },
 {
+"icon": "account-cowboy-hat-outline",
+"google": "false",
+"search": "account-cowboy-hat-outline,rancher-outline,account,user,agriculture",
+"name": "account-cowboy-hat-outline",
+"path": "M19 4C18.4 4 18 4.4 18 5V6H16.5L15.1 3C15 2.8 14.9 2.6 14.7 2.5C14.2 2 13.4 1.9 12.7 2.2L12 2.4L11.3 2.1C10.6 1.8 9.8 1.9 9.3 2.4C9.1 2.6 9 2.8 8.9 3L7.5 6H6V5C6 4.4 5.6 4 5 4S4 4.4 4 5V6C4 7.1 4.9 8 6 8H18C19.1 8 20 7.1 20 6V5C20 4.5 19.6 4 19 4M4 22V19C4 16.33 9.33 15 12 15S20 16.33 20 19V22H4M18.1 20.1V19C18.1 18.36 14.97 16.9 12 16.9S5.9 18.36 5.9 19V20.1H18.1M16 9V10C16 12.21 14.21 14 12 14S8 12.21 8 10V9H10V10C10 11.11 10.9 12 12 12S14 11.11 14 10V9H16Z",
+"author": "Jeff Anders"
+},
+{
 "icon": "account-cowboy-hat",
 "google": "false",
-"search": "account-cowboy-hat,account,user",
+"search": "account-cowboy-hat,rancher,account,user,agriculture",
 "name": "account-cowboy-hat",
 "path": "M20 22H4V20C4 17.8 7.6 16 12 16S20 17.8 20 20M8 9H16V10C16 12.2 14.2 14 12 14S8 12.2 8 10M19 4C18.4 4 18 4.4 18 5V6H16.5L15.1 3C15 2.8 14.9 2.6 14.7 2.5C14.2 2 13.4 1.9 12.7 2.2L12 2.4L11.3 2.1C10.6 1.8 9.8 1.9 9.3 2.4C9.1 2.6 9 2.8 8.9 3L7.5 6H6V5C6 4.4 5.6 4 5 4S4 4.4 4 5V6C4 7.1 4.9 8 6 8H18C19.1 8 20 7.1 20 6V5C20 4.5 19.6 4 19 4Z",
 "author": "Augustin Ursu"
@@ -366,6 +374,38 @@ const icons = [
 "name": "account-edit",
 "path": "M21.7,13.35L20.7,14.35L18.65,12.3L19.65,11.3C19.86,11.09 20.21,11.09 20.42,11.3L21.7,12.58C21.91,12.79 21.91,13.14 21.7,13.35M12,18.94L18.06,12.88L20.11,14.93L14.06,21H12V18.94M12,14C7.58,14 4,15.79 4,18V20H10V18.11L14,14.11C13.34,14.03 12.67,14 12,14M12,4A4,4 0 0,0 8,8A4,4 0 0,0 12,12A4,4 0 0,0 16,8A4,4 0 0,0 12,4Z",
 "author": "Michael Richins"
+},
+{
+"icon": "account-eye-outline",
+"google": "false",
+"search": "account-eye-outline,account-view-outline,account,user",
+"name": "account-eye-outline",
+"path": "M10 12C12.21 12 14 10.21 14 8S12.21 4 10 4 6 5.79 6 8 7.79 12 10 12M10 6C11.11 6 12 6.9 12 8S11.11 10 10 10 8 9.11 8 8 8.9 6 10 6M9.27 20H2V17C2 14.33 7.33 13 10 13C11.04 13 12.5 13.21 13.86 13.61C13 13.95 12.2 14.42 11.5 15C11 14.94 10.5 14.9 10 14.9C7.03 14.9 3.9 16.36 3.9 17V18.1H9.22C9.2 18.15 9.17 18.2 9.14 18.25L8.85 19L9.14 19.75C9.18 19.83 9.23 19.91 9.27 20M17 18C17.56 18 18 18.44 18 19S17.56 20 17 20 16 19.56 16 19 16.44 18 17 18M17 15C14.27 15 11.94 16.66 11 19C11.94 21.34 14.27 23 17 23S22.06 21.34 23 19C22.06 16.66 19.73 15 17 15M17 21.5C15.62 21.5 14.5 20.38 14.5 19S15.62 16.5 17 16.5 19.5 17.62 19.5 19 18.38 21.5 17 21.5Z",
+"author": "Michael Irigoyen"
+},
+{
+"icon": "account-eye",
+"google": "false",
+"search": "account-eye,account-view,account,user",
+"name": "account-eye",
+"path": "M6 8C6 5.79 7.79 4 10 4S14 5.79 14 8 12.21 12 10 12 6 10.21 6 8M9.14 19.75L8.85 19L9.14 18.25C9.84 16.5 11.08 15.14 12.61 14.22C11.79 14.08 10.92 14 10 14C5.58 14 2 15.79 2 18V20H9.27C9.23 19.91 9.18 19.83 9.14 19.75M17 18C16.44 18 16 18.44 16 19S16.44 20 17 20 18 19.56 18 19 17.56 18 17 18M23 19C22.06 21.34 19.73 23 17 23S11.94 21.34 11 19C11.94 16.66 14.27 15 17 15S22.06 16.66 23 19M19.5 19C19.5 17.62 18.38 16.5 17 16.5S14.5 17.62 14.5 19 15.62 21.5 17 21.5 19.5 20.38 19.5 19Z",
+"author": "Michael Irigoyen"
+},
+{
+"icon": "account-filter-outline",
+"google": "false",
+"search": "account-filter-outline,account-funnel-outline,leads-outline,account,user",
+"name": "account-filter-outline",
+"path": "M17 21L18.8 22.8C19.3 23.3 20 22.9 20 22.3V18L22.8 14.6C23.3 13.9 22.8 13 22 13H15C14.2 13 13.7 14 14.2 14.6L17 18V21M15 20H2V17C2 14.3 7.3 13 10 13C10.6 13 11.3 13.1 12.1 13.2C11.9 13.8 12 14.5 12.2 15.1C11.5 15 10.7 14.9 10 14.9C7 14.9 3.9 16.4 3.9 17V18.1H14.5L15 18.7V20M10 12C12.2 12 14 10.2 14 8S12.2 4 10 4 6 5.8 6 8 7.8 12 10 12M10 6C11.1 6 12 6.9 12 8S11.1 10 10 10 8 9.1 8 8 8.9 6 10 6Z",
+"author": "Michael Irigoyen"
+},
+{
+"icon": "account-filter",
+"google": "false",
+"search": "account-filter,account-funnel,leads,account,user",
+"name": "account-filter",
+"path": "M10 4C12.2 4 14 5.8 14 8S12.2 12 10 12 6 10.2 6 8 7.8 4 10 4M17 21L18.8 22.8C19.3 23.3 20 22.9 20 22.3V18L22.8 14.6C23.3 13.9 22.8 13 22 13H15C14.2 13 13.7 14 14.2 14.6L17 18V21M15 18.7L12.7 15.9C12.3 15.4 12.1 14.8 12.1 14.2C11.4 14 10.7 14 10 14C5.6 14 2 15.8 2 18V20H15V18.7Z",
+"author": "Michael Irigoyen"
 },
 {
 "icon": "account-group-outline",
@@ -406,6 +446,22 @@ const icons = [
 "name": "account-heart",
 "path": "M15,14C12.3,14 7,15.3 7,18V20H23V18C23,15.3 17.7,14 15,14M15,12A4,4 0 0,0 19,8A4,4 0 0,0 15,4A4,4 0 0,0 11,8A4,4 0 0,0 15,12M5,15L4.4,14.5C2.4,12.6 1,11.4 1,9.9C1,8.7 2,7.7 3.2,7.7C3.9,7.7 4.6,8 5,8.5C5.4,8 6.1,7.7 6.8,7.7C8,7.7 9,8.6 9,9.9C9,11.4 7.6,12.6 5.6,14.5L5,15Z",
 "author": "Michael Irigoyen"
+},
+{
+"icon": "account-injury-outline",
+"google": "true",
+"search": "account-injury-outline,account-disability-outline,account,user,medical,hospital",
+"name": "account-injury-outline",
+"path": "M12 10C14.21 10 16 8.21 16 6S14.21 2 12 2 8 3.79 8 6 9.79 10 12 10M12 4C13.1 4 14 4.9 14 6S13.1 8 12 8 10 7.1 10 6 10.9 4 12 4M18.39 12.56C16.71 11.7 14.53 11 12 11S7.29 11.7 5.61 12.56C4.61 13.07 4 14.1 4 15.22V22H6V15.22C6 14.84 6.2 14.5 6.5 14.34C7.71 13.73 9.63 13 12 13C12.76 13 13.47 13.07 14.13 13.2L12.58 16.5H9.75C8.23 16.5 7 17.73 7 19.25S8.23 22 9.75 22H18C19.1 22 20 21.1 20 20V15.22C20 14.1 19.39 13.07 18.39 12.56M10.94 20H9.75C9.34 20 9 19.66 9 19.25S9.34 18.5 9.75 18.5H11.64L10.94 20M18 20H13.15L16.09 13.73C16.63 13.93 17.1 14.14 17.5 14.34C17.8 14.5 18 14.84 18 15.22V20Z",
+"author": "Google"
+},
+{
+"icon": "account-injury",
+"google": "true",
+"search": "account-injury,account-disability,medical,hospital,account,user",
+"name": "account-injury",
+"path": "M8 6C8 3.79 9.79 2 12 2S16 3.79 16 6 14.21 10 12 10 8 8.21 8 6M17 22H18C19.1 22 20 21.1 20 20V15.22C20 14.1 19.39 13.07 18.39 12.56C17.96 12.34 17.5 12.13 17 11.94V22M12.34 17L15 11.33C14.07 11.12 13.07 11 12 11C9.47 11 7.29 11.7 5.61 12.56C4.61 13.07 4 14.1 4 15.22V22H6.34C6.12 21.55 6 21.04 6 20.5C6 18.57 7.57 17 9.5 17H12.34M10 22L11.41 19H9.5C8.67 19 8 19.67 8 20.5S8.67 22 9.5 22H10Z",
+"author": "Google"
 },
 {
 "icon": "account-key-outline",
@@ -698,7 +754,7 @@ const icons = [
 {
 "icon": "account-star",
 "google": "false",
-"search": "account-star,user-star,person-star,account,user",
+"search": "account-star,user-star,person-star,account-favorite,account,user",
 "name": "account-star",
 "path": "M15,14C12.33,14 7,15.33 7,18V20H23V18C23,15.33 17.67,14 15,14M15,12A4,4 0 0,0 19,8A4,4 0 0,0 15,4A4,4 0 0,0 11,8A4,4 0 0,0 15,12M5,13.28L7.45,14.77L6.8,11.96L9,10.08L6.11,9.83L5,7.19L3.87,9.83L1,10.08L3.18,11.96L2.5,14.77L5,13.28Z",
 "author": "REJack"
@@ -800,6 +856,14 @@ const icons = [
 "author": "Michael Irigoyen"
 },
 {
+"icon": "account-voice-off",
+"google": "true",
+"search": "account-voice-off",
+"name": "account-voice-off",
+"path": "M2,3.27L3.28,2L22,20.72L20.73,22L16.73,18C16.9,18.31 17,18.64 17,19V21H1V19C1,16.34 6.33,15 9,15C10.77,15 13.72,15.59 15.5,16.77L11.12,12.39C10.5,12.78 9.78,13 9,13A4,4 0 0,1 5,9C5,8.22 5.22,7.5 5.61,6.88L2,3.27M9,5A4,4 0 0,1 13,9V9.17L8.83,5H9M16.76,5.36C18.78,7.56 18.78,10.61 16.76,12.63L15.08,10.94C15.92,9.76 15.92,8.23 15.08,7.05L16.76,5.36M20.07,2C24,6.05 23.97,12.11 20.07,16L18.44,14.37C21.21,11.19 21.21,6.65 18.44,3.63L20.07,2Z",
+"author": "Google"
+},
+{
 "icon": "account-voice",
 "google": "true",
 "search": "account-voice,record-voice-over,speak,talk,speaking,talking,account,user",
@@ -822,22 +886,6 @@ const icons = [
 "name": "adjust",
 "path": "M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2M12,20C7.59,20 4,16.41 4,12C4,7.59 7.59,4 12,4C16.41,4 20,7.59 20,12C20,16.41 16.41,20 12,20M15,12A3,3 0 0,1 12,15A3,3 0 0,1 9,12A3,3 0 0,1 12,9A3,3 0 0,1 15,12Z",
 "author": "Google"
-},
-{
-"icon": "adobe-acrobat",
-"google": "false",
-"search": "adobe-acrobat,pdf,brand,logo",
-"name": "adobe-acrobat",
-"path": "M21.8 14.5C21.3 13.7 20.1 13.4 18.1 13.4C17.4 13.4 16.7 13.4 16 13.5C15.5 13.2 15 12.9 14.6 12.6C13.6 11.8 12.7 10.3 12 8.5C12 8.5 12 8.4 12.1 8.3C12.6 6.2 13.1 3.6 12.1 2.5C11.8 2.2 11.5 2.1 11.1 2.1H10.7C10.1 2.1 9.6 2.7 9.4 3.3C8.8 5.4 9.2 6.6 9.8 8.5C9.4 10 8.9 11.6 8 13.3C7.5 14.4 6.9 15.4 6.5 16.2C5.9 16.5 5.4 16.8 5.1 17C3.2 18.2 2.2 19.6 2.1 20.4C2 20.7 2 21 2.1 21.2V21.3L2.9 21.8C3.1 21.9 3.4 22 3.6 22C4.9 22 6.4 20.5 8.4 17C8.5 17 8.6 16.9 8.7 16.9C10.4 16.4 12.4 16 15.2 15.7C16.8 16.5 18.8 16.9 20 16.9C20.7 16.9 21.2 16.7 21.5 16.4C21.8 16.1 21.9 15.7 22 15.3C22 15 22 14.7 21.8 14.5M3.4 20.9C3.5 20.3 4.2 19.2 5.4 18.2C5.6 18.1 5.8 17.9 6.2 17.7C5 19.6 4.1 20.6 3.4 20.9M10.8 3.2C10.9 3.1 10.9 3 11 3L11.2 3.1C11.5 3.5 11.5 4 11.3 4.9V5.2C11.2 5.6 11.2 6 11 6.5C10.6 5 10.6 3.9 10.8 3.2M8.8 15.8L8.6 15.9C8.7 15.4 9.1 14.8 9.4 14.2C10.1 12.8 10.7 11.5 11 10.3C11.7 11.8 12.5 12.9 13.5 13.8C13.7 14 13.9 14.2 14.2 14.3C12.8 14.5 10.9 15 8.8 15.8M20.9 15.7H20.5C19.8 15.7 18.6 15.4 17.4 14.9C17.5 14.7 17.7 14.7 17.8 14.7C20.1 14.7 20.7 15.1 20.9 15.3C21 15.4 21 15.4 21 15.5C21 15.6 21 15.6 20.9 15.7Z",
-"author": "Contributors"
-},
-{
-"icon": "adobe",
-"google": "false",
-"search": "adobe,brand,logo",
-"name": "adobe",
-"path": "M14.58,3H22V19.67L14.58,3M9.42,3H2V19.67L9.42,3M12,9.17L16.67,19.67H13.5L12.17,16.33H8.75L12,9.17Z",
-"author": "Contributors"
 },
 {
 "icon": "air-conditioner",
@@ -970,7 +1018,7 @@ const icons = [
 {
 "icon": "alarm-light-off-outline",
 "google": "false",
-"search": "alarm-light-off-outline",
+"search": "alarm-light-off-outline,home automation",
 "name": "alarm-light-off-outline",
 "path": "M10.5 7.3L9 5.8C9.9 5.3 10.9 5 12 5C15.3 5 18 7.7 18 11V14.8L16 12.8V11C16 8.8 14.2 7 12 7C11.5 7 11 7.1 10.5 7.3M20.1 4.8L18.7 3.4L16.6 5.5L18 6.9L20.1 4.8M19.5 10.5V12.5H22.5V10.5H19.5M4.5 10.5H1.5V12.5H4.5V10.5M2.4 1.7L22.1 21.4L20.8 22.7L20.1 22H4C4 20.9 4.9 20 6 20H18.1L17.1 19H6V11C6 10.1 6.2 9.2 6.6 8.5L1.1 3L2.4 1.7M8 17H15.1L8.1 10C8.1 10.3 8 10.7 8 11V17M13 1H11V4H13V1Z",
 "author": "Michael Irigoyen"
@@ -978,7 +1026,7 @@ const icons = [
 {
 "icon": "alarm-light-off",
 "google": "false",
-"search": "alarm-light-off",
+"search": "alarm-light-off,home automation",
 "name": "alarm-light-off",
 "path": "M18 14.8L9 5.8C9.9 5.3 10.9 5 12 5C15.3 5 18 7.7 18 11V14.8M20.1 4.8L18.7 3.4L16.6 5.5L18 6.9L20.1 4.8M19.5 10.5V12.5H22.5V10.5H19.5M4.5 10.5H1.5V12.5H4.5V10.5M1.1 3L6.6 8.5C6.2 9.2 6 10.1 6 11V19H17.1L18.1 20H6C4.9 20 4 20.9 4 22H20.1L20.8 22.7L22.1 21.4L2.4 1.7L1.1 3M13 1H11V4H13V1Z",
 "author": "Michael Irigoyen"
@@ -986,7 +1034,7 @@ const icons = [
 {
 "icon": "alarm-light-outline",
 "google": "false",
-"search": "alarm-light-outline",
+"search": "alarm-light-outline,home automation",
 "name": "alarm-light-outline",
 "path": "M6,6.9L3.87,4.78L5.28,3.37L7.4,5.5L6,6.9M13,1V4H11V1H13M20.13,4.78L18,6.9L16.6,5.5L18.72,3.37L20.13,4.78M4.5,10.5V12.5H1.5V10.5H4.5M19.5,10.5H22.5V12.5H19.5V10.5M6,20H18A2,2 0 0,1 20,22H4A2,2 0 0,1 6,20M12,5A6,6 0 0,1 18,11V19H6V11A6,6 0 0,1 12,5M12,7A4,4 0 0,0 8,11V17H16V11A4,4 0 0,0 12,7Z",
 "author": "Austin Andrews"
@@ -994,7 +1042,7 @@ const icons = [
 {
 "icon": "alarm-light",
 "google": "false",
-"search": "alarm-light",
+"search": "alarm-light,home automation",
 "name": "alarm-light",
 "path": "M6,6.9L3.87,4.78L5.28,3.37L7.4,5.5L6,6.9M13,1V4H11V1H13M20.13,4.78L18,6.9L16.6,5.5L18.72,3.37L20.13,4.78M4.5,10.5V12.5H1.5V10.5H4.5M19.5,10.5H22.5V12.5H19.5V10.5M6,20H18A2,2 0 0,1 20,22H4A2,2 0 0,1 6,20M12,5A6,6 0 0,1 18,11V19H6V11A6,6 0 0,1 12,5Z",
 "author": "Michael Richins"
@@ -2472,22 +2520,6 @@ const icons = [
 "author": "Simran"
 },
 {
-"icon": "amazon-alexa",
-"google": "false",
-"search": "amazon-alexa,brand,logo",
-"name": "amazon-alexa",
-"path": "M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2M10.43,21.87V19.91C10.43,19.22 10,18.57 9.35,18.3C6.91,17.26 5.17,14.83 5.17,12C5.17,8.26 8.22,5.17 12,5.17C15.78,5.17 18.83,8.26 18.83,12C18.83,16.43 15.39,20.61 10.43,21.87Z",
-"author": "Contributors"
-},
-{
-"icon": "amazon",
-"google": "false",
-"search": "amazon,brand,logo",
-"name": "amazon",
-"path": "M15.93,17.09C15.75,17.25 15.5,17.26 15.3,17.15C14.41,16.41 14.25,16.07 13.76,15.36C12.29,16.86 11.25,17.31 9.34,17.31C7.09,17.31 5.33,15.92 5.33,13.14C5.33,10.96 6.5,9.5 8.19,8.76C9.65,8.12 11.68,8 13.23,7.83V7.5C13.23,6.84 13.28,6.09 12.9,5.54C12.58,5.05 11.95,4.84 11.4,4.84C10.38,4.84 9.47,5.37 9.25,6.45C9.2,6.69 9,6.93 8.78,6.94L6.18,6.66C5.96,6.61 5.72,6.44 5.78,6.1C6.38,2.95 9.23,2 11.78,2C13.08,2 14.78,2.35 15.81,3.33C17.11,4.55 17,6.18 17,7.95V12.12C17,13.37 17.5,13.93 18,14.6C18.17,14.85 18.21,15.14 18,15.31L15.94,17.09H15.93M13.23,10.56V10C11.29,10 9.24,10.39 9.24,12.67C9.24,13.83 9.85,14.62 10.87,14.62C11.63,14.62 12.3,14.15 12.73,13.4C13.25,12.47 13.23,11.6 13.23,10.56M20.16,19.54C18,21.14 14.82,22 12.1,22C8.29,22 4.85,20.59 2.25,18.24C2.05,18.06 2.23,17.81 2.5,17.95C5.28,19.58 8.75,20.56 12.33,20.56C14.74,20.56 17.4,20.06 19.84,19.03C20.21,18.87 20.5,19.27 20.16,19.54M21.07,18.5C20.79,18.14 19.22,18.33 18.5,18.42C18.31,18.44 18.28,18.26 18.47,18.12C19.71,17.24 21.76,17.5 22,17.79C22.24,18.09 21.93,20.14 20.76,21.11C20.58,21.27 20.41,21.18 20.5,21C20.76,20.33 21.35,18.86 21.07,18.5Z",
-"author": "Contributors"
-},
-{
 "icon": "ambulance",
 "google": "false",
 "search": "ambulance,transportation + road,medical,hospital",
@@ -2533,22 +2565,6 @@ const icons = [
 "search": "anchor,transportation + water",
 "name": "anchor",
 "path": "M12 2A3 3 0 0 0 9 5A3 3 0 0 0 11 7.83V9H8V11H11V19.92C10.26 19.79 9.5 19.58 8.79 19.27C8.05 18.95 7.4 18.56 6.82 18.09C6.24 17.62 5.78 17.11 5.44 16.55L7 15L3 12V15C3 15.97 3.27 16.88 3.82 17.72C4.37 18.56 5.09 19.31 6 19.95C6.87 20.59 7.84 21.09 8.88 21.45C9.93 21.81 10.97 22 12 22C13.03 22 14.07 21.8 15.12 21.44C16.16 21.08 17.13 20.58 18 19.95C18.92 19.31 19.63 18.57 20.18 17.72C20.73 16.88 21 15.97 21 15V12L17 15L18.56 16.55C18.22 17.11 17.76 17.62 17.18 18.09C16.6 18.56 15.95 18.95 15.21 19.27C14.5 19.58 13.74 19.79 13 19.92V11H16V9H13V7.82A3 3 0 0 0 15 5A3 3 0 0 0 12 2M12 4A1 1 0 0 1 13 5A1 1 0 0 1 12 6A1 1 0 0 1 11 5A1 1 0 0 1 12 4Z",
-"author": "Google"
-},
-{
-"icon": "android-auto",
-"google": "true",
-"search": "android-auto,automotive,brand,logo",
-"name": "android-auto",
-"path": "M22.78,17.91C22.94,18.16 23,18.42 23,18.7C23,19.08 22.87,19.39 22.57,19.64C22.27,19.89 21.94,20 21.56,20H19.08L12.42,8H11.58L4.92,20H2.39C1.92,20 1.53,19.8 1.22,19.38C0.91,18.96 0.89,18.5 1.17,18L10.78,1.69C11.09,1.22 11.5,1 12,1C12.53,1 12.92,1.22 13.17,1.69L22.78,17.91M4.78,22.31L12,9.38L19.22,22.31L18.5,23L12,20.34L5.44,23L4.78,22.31Z",
-"author": "Google"
-},
-{
-"icon": "android-debug-bridge",
-"google": "true",
-"search": "android-debug-bridge,adb,brand,logo",
-"name": "android-debug-bridge",
-"path": "M15,9A1,1 0 0,1 14,8A1,1 0 0,1 15,7A1,1 0 0,1 16,8A1,1 0 0,1 15,9M9,9A1,1 0 0,1 8,8A1,1 0 0,1 9,7A1,1 0 0,1 10,8A1,1 0 0,1 9,9M16.12,4.37L18.22,2.27L17.4,1.44L15.09,3.75C14.16,3.28 13.11,3 12,3C10.88,3 9.84,3.28 8.91,3.75L6.6,1.44L5.78,2.27L7.88,4.37C6.14,5.64 5,7.68 5,10V11H19V10C19,7.68 17.86,5.64 16.12,4.37M5,16C5,19.86 8.13,23 12,23A7,7 0 0,0 19,16V12H5V16Z",
 "author": "Google"
 },
 {
@@ -2696,14 +2712,6 @@ const icons = [
 "author": "Google"
 },
 {
-"icon": "apple-airplay",
-"google": "false",
-"search": "apple-airplay,apple,home automation",
-"name": "apple-airplay",
-"path": "M6,22H18L12,16M21,3H3A2,2 0 0,0 1,5V17A2,2 0 0,0 3,19H7V17H3V5H21V17H17V19H21A2,2 0 0,0 23,17V5A2,2 0 0,0 21,3Z",
-"author": "Contributors"
-},
-{
 "icon": "apple-finder",
 "google": "false",
 "search": "apple-finder,brand,logo",
@@ -2784,44 +2792,164 @@ const icons = [
 "author": "Contributors"
 },
 {
+"icon": "application-array-outline",
+"google": "false",
+"search": "application-array-outline,iframe-array-outline,developer,languages",
+"name": "application-array-outline",
+"path": "M21 2H3C1.9 2 1 2.9 1 4V20C1 21.1 1.9 22 3 22H21C22.1 22 23 21.1 23 20V4C23 2.9 22.1 2 21 2M21 20H3V6H21V20M6 8V18H10V16H8V10H10V8H6M16 16H14V18H18V8H14V10H16V16",
+"author": "Michael Irigoyen"
+},
+{
+"icon": "application-array",
+"google": "false",
+"search": "application-array,iframe-array,developer,languages",
+"name": "application-array",
+"path": "M21 2H3C1.9 2 1 2.9 1 4V20C1 21.1 1.9 22 3 22H21C22.1 22 23 21.1 23 20V4C23 2.9 22.1 2 21 2M10 11H8V18H10V20H6V9H10V11M18 20H14V18H16V11H14V9H18V20M21 7H3V4H21V7Z",
+"author": "Michael Irigoyen"
+},
+{
+"icon": "application-braces-outline",
+"google": "false",
+"search": "application-braces-outline,iframe-braces-outline,developer,languages",
+"name": "application-braces-outline",
+"path": "M21 2H3C1.9 2 1 2.9 1 4V20C1 21.1 1.9 22 3 22H21C22.1 22 23 21.1 23 20V4C23 2.9 22.1 2 21 2M21 20H3V6H21V20M9 8C7.9 8 7 8.9 7 10C7 11.1 6.1 12 5 12V14C6.1 14 7 14.9 7 16C7 17.1 7.9 18 9 18H11V16H9V15C9 13.9 8.1 13 7 13C8.1 13 9 12.1 9 11V10H11V8M15 8C16.1 8 17 8.9 17 10C17 11.1 17.9 12 19 12V14C17.9 14 17 14.9 17 16C17 17.1 16.1 18 15 18H13V16H15V15C15 13.9 15.9 13 17 13C15.9 13 15 12.1 15 11V10H13V8H15Z",
+"author": "Michael Irigoyen"
+},
+{
+"icon": "application-braces",
+"google": "false",
+"search": "application-braces,iframe-braces,developer,languages",
+"name": "application-braces",
+"path": "M21 2H3C1.9 2 1 2.9 1 4V20C1 21.1 1.9 22 3 22H21C22.1 22 23 21.1 23 20V4C23 2.9 22.1 2 21 2M11 11H9V12.5C9 13.6 8.1 14.5 7 14.5C8.1 14.5 9 15.4 9 16.5V18H11V20H9C7.9 20 7 19.1 7 18V17.5C7 16.4 6.1 15.5 5 15.5V13.5C6.1 13.5 7 12.6 7 11.5V11C7 9.9 7.9 9 9 9H11V11M19 15.5C17.9 15.5 17 16.4 17 17.5V18C17 19.1 16.1 20 15 20H13V18H15V16.5C15 15.4 15.9 14.5 17 14.5C15.9 14.5 15 13.6 15 12.5V11H13V9H15C16.1 9 17 9.9 17 11V11.5C17 12.6 17.9 13.5 19 13.5V15.5M21 7H3V4H21V7Z",
+"author": "Michael Irigoyen"
+},
+{
+"icon": "application-brackets-outline",
+"google": "false",
+"search": "application-brackets-outline,iframe-brackets-outline,developer,languages",
+"name": "application-brackets-outline",
+"path": "M9.5,8.5L11,10L8,13L11,16L9.5,17.5L5,13L9.5,8.5M14.5,17.5L13,16L16,13L13,10L14.5,8.5L19,13L14.5,17.5M21,2H3A2,2 0 0,0 1,4V20A2,2 0 0,0 3,22H21A2,2 0 0,0 23,20V4A2,2 0 0,0 21,2M21,20H3V6H21V20Z",
+"author": "Michael Richins"
+},
+{
+"icon": "application-brackets",
+"google": "false",
+"search": "application-brackets,iframe-brackets,developer,languages",
+"name": "application-brackets",
+"path": "M21,2H3A2,2 0 0,0 1,4V20A2,2 0 0,0 3,22H21A2,2 0 0,0 23,20V4A2,2 0 0,0 21,2M11,17.5L9.5,19L5,14.5L9.5,10L11,11.5L8,14.5L11,17.5M14.5,19L13,17.5L16,14.5L13,11.5L14.5,10L19,14.5L14.5,19M21,7H3V4H21V7Z",
+"author": "Michael Richins"
+},
+{
+"icon": "application-cog-outline",
+"google": "false",
+"search": "application-cog-outline,application-settings,iframe-cog-outline,settings",
+"name": "application-cog-outline",
+"path": "M21.7 18.6V17.6L22.8 16.8C22.9 16.7 23 16.6 22.9 16.5L21.9 14.8C21.9 14.7 21.7 14.7 21.6 14.7L20.4 15.2C20.1 15 19.8 14.8 19.5 14.7L19.3 13.4C19.3 13.3 19.2 13.2 19.1 13.2H17.1C16.9 13.2 16.8 13.3 16.8 13.4L16.6 14.7C16.3 14.9 16.1 15 15.8 15.2L14.6 14.7C14.5 14.7 14.4 14.7 14.3 14.8L13.3 16.5C13.3 16.6 13.3 16.7 13.4 16.8L14.5 17.6V18.6L13.4 19.4C13.3 19.5 13.2 19.6 13.3 19.7L14.3 21.4C14.4 21.5 14.5 21.5 14.6 21.5L15.8 21C16 21.2 16.3 21.4 16.6 21.5L16.8 22.8C16.9 22.9 17 23 17.1 23H19.1C19.2 23 19.3 22.9 19.3 22.8L19.5 21.5C19.8 21.3 20 21.2 20.3 21L21.5 21.4C21.6 21.4 21.7 21.4 21.8 21.3L22.8 19.6C22.9 19.5 22.9 19.4 22.8 19.4L21.7 18.6M18 19.5C17.2 19.5 16.5 18.8 16.5 18S17.2 16.5 18 16.5 19.5 17.2 19.5 18 18.8 19.5 18 19.5M12.3 22H3C1.9 22 1 21.1 1 20V4C1 2.9 1.9 2 3 2H21C22.1 2 23 2.9 23 4V13.1C22.4 12.5 21.7 12 21 11.7V6H3V20H11.3C11.5 20.7 11.8 21.4 12.3 22Z",
+"author": "Michael Irigoyen"
+},
+{
 "icon": "application-cog",
 "google": "false",
-"search": "application-cog,application-settings,settings",
+"search": "application-cog,iframe-cog",
 "name": "application-cog",
-"path": "M21.7 18.6V17.6L22.8 16.8C22.9 16.7 23 16.6 22.9 16.5L21.9 14.8C21.9 14.7 21.7 14.7 21.6 14.7L20.4 15.2C20.1 15 19.8 14.8 19.5 14.7L19.3 13.4C19.3 13.3 19.2 13.2 19.1 13.2H17.1C16.9 13.2 16.8 13.3 16.8 13.4L16.6 14.7C16.3 14.9 16.1 15 15.8 15.2L14.6 14.7C14.5 14.7 14.4 14.7 14.3 14.8L13.3 16.5C13.3 16.6 13.3 16.7 13.4 16.8L14.5 17.6V18.6L13.4 19.4C13.3 19.5 13.2 19.6 13.3 19.7L14.3 21.4C14.4 21.5 14.5 21.5 14.6 21.5L15.8 21C16 21.2 16.3 21.4 16.6 21.5L16.8 22.8C16.9 22.9 17 23 17.1 23H19.1C19.2 23 19.3 22.9 19.3 22.8L19.5 21.5C19.8 21.3 20 21.2 20.3 21L21.5 21.4C21.6 21.4 21.7 21.4 21.8 21.3L22.8 19.6C22.9 19.5 22.9 19.4 22.8 19.4L21.7 18.6M18 19.5C17.2 19.5 16.5 18.8 16.5 18S17.2 16.5 18 16.5 19.5 17.2 19.5 18 18.8 19.5 18 19.5M11.29 20H5C3.89 20 3 19.1 3 18V6C3 4.89 3.9 4 5 4H19C20.11 4 21 4.9 21 6V11.68C20.38 11.39 19.71 11.18 19 11.08V8H5V18H11C11 18.7 11.11 19.37 11.29 20Z",
+"path": "M21.7 18.6V17.6L22.8 16.8C22.9 16.7 23 16.6 22.9 16.5L21.9 14.8C21.9 14.7 21.7 14.7 21.6 14.7L20.4 15.2C20.1 15 19.8 14.8 19.5 14.7L19.3 13.4C19.3 13.3 19.2 13.2 19.1 13.2H17.1C16.9 13.2 16.8 13.3 16.8 13.4L16.6 14.7C16.3 14.9 16.1 15 15.8 15.2L14.6 14.7C14.5 14.7 14.4 14.7 14.3 14.8L13.3 16.5C13.3 16.6 13.3 16.7 13.4 16.8L14.5 17.6V18.6L13.4 19.4C13.3 19.5 13.2 19.6 13.3 19.7L14.3 21.4C14.4 21.5 14.5 21.5 14.6 21.5L15.8 21C16 21.2 16.3 21.4 16.6 21.5L16.8 22.8C16.9 22.9 17 23 17.1 23H19.1C19.2 23 19.3 22.9 19.3 22.8L19.5 21.5C19.8 21.3 20 21.2 20.3 21L21.5 21.4C21.6 21.4 21.7 21.4 21.8 21.3L22.8 19.6C22.9 19.5 22.9 19.4 22.8 19.4L21.7 18.6M18 19.5C17.2 19.5 16.5 18.8 16.5 18S17.2 16.5 18 16.5 19.5 17.2 19.5 18 18.8 19.5 18 19.5M11 18C11 14.1 14.1 11 18 11C20 11 21.7 11.8 23 13.1V4C23 2.9 22.1 2 21 2H3C1.9 2 1 2.9 1 4V20C1 21.1 1.9 22 3 22H12.3C11.5 20.9 11 19.5 11 18M3 4H21V7H3V4Z",
+"author": "Michael Irigoyen"
+},
+{
+"icon": "application-edit-outline",
+"google": "false",
+"search": "application-edit-outline,iframe-edit-outline",
+"name": "application-edit-outline",
+"path": "M11 20V22H3C1.9 22 1 21.1 1 20V4C1 2.9 1.9 2 3 2H21C22.1 2 23 2.9 23 4V12.1L22.8 11.9C22.3 11.4 21.7 11.1 21 11.1V6H3V20H11M21.4 13.3L22.7 14.6C22.9 14.8 22.9 15.2 22.7 15.4L21.7 16.4L19.6 14.3L20.6 13.3C20.7 13.2 20.8 13.1 21 13.1C21.2 13.1 21.3 13.2 21.4 13.3M21.1 16.9L15.1 23H13V20.9L19.1 14.8L21.1 16.9Z",
+"author": "Michael Irigoyen"
+},
+{
+"icon": "application-edit",
+"google": "false",
+"search": "application-edit,iframe-edit",
+"name": "application-edit",
+"path": "M11 20.1L19.2 11.9C19.7 11.4 20.3 11.1 21 11.1C21.7 11.1 22.3 11.4 22.8 11.9L23 12.1V4C23 2.9 22.1 2 21 2H3C1.9 2 1 2.9 1 4V20C1 21.1 1.9 22 3 22H11V20.1M3 4H21V7H3V4M21 13.1C20.9 13.1 20.7 13.2 20.6 13.3L19.6 14.3L21.7 16.4L22.7 15.4C22.9 15.2 22.9 14.8 22.7 14.6L21.4 13.3C21.3 13.2 21.2 13.1 21 13.1M19.1 14.9L13 20.9V23H15.1L21.2 16.9L19.1 14.9Z",
 "author": "Michael Irigoyen"
 },
 {
 "icon": "application-export",
 "google": "false",
-"search": "application-export",
+"search": "application-export,iframe-export-outline",
 "name": "application-export",
-"path": "M8,12H17.76L15.26,9.5L16.67,8.08L21.59,13L16.67,17.92L15.26,16.5L17.76,14H8V12M19,3C20.11,3 21,3.9 21,5V9.67L19,7.67V7H5V19H19V18.33L21,16.33V19A2,2 0 0,1 19,21H5C3.89,21 3,20.1 3,19V5A2,2 0 0,1 5,3H19Z",
+"path": "M9 12H18.8L16.3 9.5L17.7 8.1L22.6 13L17.7 17.9L16.3 16.5L18.8 14H9V12M21 17.4V20H3V6H21V8.6L23 10.6V4C23 2.9 22.1 2 21 2H3C1.9 2 1 2.9 1 4V20C1 21.1 1.9 22 3 22H21C22.1 22 23 21.1 23 20V15.4L21 17.4Z",
 "author": "Austin Andrews"
 },
 {
 "icon": "application-import",
 "google": "false",
-"search": "application-import",
+"search": "application-import,iframe-import-outline",
 "name": "application-import",
-"path": "M1,12H10.76L8.26,9.5L9.67,8.08L14.59,13L9.67,17.92L8.26,16.5L10.76,14H1V12M19,3C20.11,3 21,3.9 21,5V19A2,2 0 0,1 19,21H5C3.89,21 3,20.1 3,19V16H5V19H19V7H5V10H3V5A2,2 0 0,1 5,3H19Z",
+"path": "M1 12H10.8L8.3 9.5L9.7 8.1L14.6 13L9.7 17.9L8.3 16.5L10.8 14H1V12M21 2H3C1.9 2 1 2.9 1 4V10.1H3V6H21V20H3V16H1V20C1 21.1 1.9 22 3 22H21C22.1 22 23 21.1 23 20V4C23 2.9 22.1 2 21 2",
 "author": "Austin Andrews"
+},
+{
+"icon": "application-outline",
+"google": "false",
+"search": "application-outline,web-asset,iframe-outline",
+"name": "application-outline",
+"path": "M21 2H3C1.9 2 1 2.9 1 4V20C1 21.1 1.9 22 3 22H21C22.1 22 23 21.1 23 20V4C23 2.9 22.1 2 21 2M21 20H3V6H21V20Z",
+"author": "Austin Andrews"
+},
+{
+"icon": "application-parentheses-outline",
+"google": "false",
+"search": "application-parentheses-outline,iframe-parentheses-outline,developer,languages",
+"name": "application-parentheses-outline",
+"path": "M21 2H3C1.9 2 1 2.9 1 4V20C1 21.1 1.9 22 3 22H21C22.1 22 23 21.1 23 20V4C23 2.9 22.1 2 21 2M21 20H3V6H21V20M15.6 8C17.1 9.3 18 11.1 18 13C18 14.9 17.1 16.7 15.6 18L14 17.4C15.3 16.4 16 14.7 16 13S15.3 9.6 14 8.6L15.6 8M8.4 8L10 8.6C8.7 9.6 8 11.3 8 13S8.7 16.4 10 17.4L8.4 18C6.9 16.7 6 14.9 6 13S6.9 9.3 8.4 8Z",
+"author": "Michael Irigoyen"
+},
+{
+"icon": "application-parentheses",
+"google": "false",
+"search": "application-parentheses,iframe-parentheses,developer,languages",
+"name": "application-parentheses",
+"path": "M21 2H3C1.9 2 1 2.9 1 4V20C1 21.1 1.9 22 3 22H21C22.1 22 23 21.1 23 20V4C23 2.9 22.1 2 21 2M10 19.4L8.4 20C6.9 18.6 6 16.6 6 14.5S6.9 10.4 8.4 9L10 9.6C8.7 10.7 8 12.6 8 14.5S8.7 18.2 10 19.4M15.6 20L14 19.4C15.3 18.2 16 16.4 16 14.5S15.3 10.8 14 9.6L15.6 9C17.1 10.4 18 12.4 18 14.5C18 16.6 17.1 18.6 15.6 20M21 7H3V4H21V7Z",
+"author": "Michael Irigoyen"
+},
+{
+"icon": "application-settings-outline",
+"google": "false",
+"search": "application-settings-outline,iframe-settings-outline,settings",
+"name": "application-settings-outline",
+"path": "M21 0H3C1.9 0 1 .9 1 2V18C1 19.1 1.9 20 3 20H21C22.1 20 23 19.1 23 18V2C23 .9 22.1 0 21 0M21 18H3V4H21V18M7 22H9V24H7V22M11 22H13V24H11V22M15 22H17V24H15V22",
+"author": "CoreyVidal"
 },
 {
 "icon": "application-settings",
 "google": "false",
-"search": "application-settings,settings",
+"search": "application-settings,iframe-settings",
 "name": "application-settings",
-"path": "M7 22H9V24H7V22M11 22H13V24H11V22M15 22H17V24H15V22M5 4H19A2 2 0 0 1 21 6V18A2 2 0 0 1 19 20H5A2 2 0 0 1 3 18V6A2 2 0 0 1 5 4M5 8V18H19V8H5",
-"author": "CoreyVidal"
+"path": "M21 0H3C1.9 0 1 .9 1 2V18C1 19.1 1.9 20 3 20H21C22.1 20 23 19.1 23 18V2C23 .9 22.1 0 21 0M21 5H3V2H21V5M7 22H9V24H7V22M11 22H13V24H11V22M15 22H17V24H15V22",
+"author": "Michael Irigoyen"
+},
+{
+"icon": "application-variable-outline",
+"google": "false",
+"search": "application-variable-outline,iframe-variable-outline,developer,languages",
+"name": "application-variable-outline",
+"path": "M21 2H3C1.9 2 1 2.9 1 4V20C1 21.1 1.9 22 3 22H21C22.1 22 23 21.1 23 20V4C23 2.9 22.1 2 21 2M21 20H3V6H21V20M16.6 8C18.1 9.3 19 11.1 19 13C19 14.9 18.1 16.7 16.6 18L15 17.4C16.3 16.4 17 14.7 17 13S16.3 9.6 15 8.6L16.6 8M7.4 8L9 8.6C7.7 9.6 7 11.3 7 13S7.7 16.4 9 17.4L7.4 18C5.9 16.7 5 14.9 5 13S5.9 9.3 7.4 8M12.1 12L13.5 10H15L12.8 13L14.1 16H12.8L12 14L10.6 16H9L11.3 12.9L10 10H11.3L12.1 12Z",
+"author": "Michael Irigoyen"
+},
+{
+"icon": "application-variable",
+"google": "false",
+"search": "application-variable,iframe-variable,developer,languages",
+"name": "application-variable",
+"path": "M21 2H3C1.9 2 1 2.9 1 4V20C1 21.1 1.9 22 3 22H21C22.1 22 23 21.1 23 20V4C23 2.9 22.1 2 21 2M7.4 20C5.9 18.6 5 16.6 5 14.5S5.9 10.4 7.4 9L9 9.6C7.7 10.7 7 12.6 7 14.5S7.7 18.2 9 19.4L7.4 20M12.7 18L11.9 16L10.5 18H9L11.3 14.9L10 12H11.3L12.1 14L13.5 12H15L12.8 15L14.1 18H12.7M16.6 20L15 19.4C16.3 18.2 17 16.4 17 14.5S16.3 10.8 15 9.6L16.6 9C18.1 10.4 19 12.4 19 14.5C19 16.6 18.1 18.6 16.6 20M21 7H3V4H21V7Z",
+"author": "Michael Irigoyen"
 },
 {
 "icon": "application",
 "google": "false",
-"search": "application,web-asset",
+"search": "application,iframe",
 "name": "application",
-"path": "M19,4C20.11,4 21,4.9 21,6V18A2,2 0 0,1 19,20H5C3.89,20 3,19.1 3,18V6A2,2 0 0,1 5,4H19M19,18V8H5V18H19Z",
-"author": "Austin Andrews"
+"path": "M21 2H3C1.9 2 1 2.9 1 4V20C1 21.1 1.9 22 3 22H21C22.1 22 23 21.1 23 20V4C23 2.9 22.1 2 21 2M21 7H3V4H21V7Z",
+"author": "Michael Irigoyen"
 },
 {
 "icon": "approximately-equal-box",
@@ -2866,7 +2994,7 @@ const icons = [
 {
 "icon": "archive-alert-outline",
 "google": "false",
-"search": "archive-alert-outline,alert,error",
+"search": "archive-alert-outline,box-alert-outline,alert,error",
 "name": "archive-alert-outline",
 "path": "M2 4H18V7H2V4M7.5 11H12.5C12.78 11 13 11.22 13 11.5V13H7V11.5C7 11.22 7.22 11 7.5 11M20 13V7H22V13H20M20 17V15H22V17H20M3 8H5V18H15V8H17V20H3V8Z",
 "author": "Austin Andrews"
@@ -2874,7 +3002,7 @@ const icons = [
 {
 "icon": "archive-alert",
 "google": "false",
-"search": "archive-alert,alert,error",
+"search": "archive-alert,box-alert,alert,error",
 "name": "archive-alert",
 "path": "M2 4H18V7H2V4M3 8H17V20H3V8M7.5 11C7.22 11 7 11.22 7 11.5V13H13V11.5C13 11.22 12.78 11 12.5 11H7.5M20 13V7H22V13H20M20 17V15H22V17H20Z",
 "author": "Austin Andrews"
@@ -2882,7 +3010,7 @@ const icons = [
 {
 "icon": "archive-arrow-down-outline",
 "google": "false",
-"search": "archive-arrow-down-outline",
+"search": "archive-arrow-down-outline,box-arrow-down,this-side-down-outline",
 "name": "archive-arrow-down-outline",
 "path": "M20 21H4V10H6V19H18V10H20V21M3 3H21V9H3V3M5 5V7H19V5M10.5 11V14H8L12 18L16 14H13.5V11",
 "author": "frankgrinaert"
@@ -2890,7 +3018,7 @@ const icons = [
 {
 "icon": "archive-arrow-down",
 "google": "false",
-"search": "archive-arrow-down",
+"search": "archive-arrow-down,box-arrow-down,this-side-down",
 "name": "archive-arrow-down",
 "path": "M3 3H21V7H3V3M4 21V8H20V21H4M14 14V11H10V14H7L12 19L17 14H14Z",
 "author": "frankgrinaert"
@@ -2898,7 +3026,7 @@ const icons = [
 {
 "icon": "archive-arrow-up-outline",
 "google": "false",
-"search": "archive-arrow-up-outline",
+"search": "archive-arrow-up-outline,box-arrow-up-outline,this-side-up-outline",
 "name": "archive-arrow-up-outline",
 "path": "M20 21H4V10H6V19H18V10H20V21M3 3H21V9H3V3M5 5V7H19V5M10.5 17V14H8L12 10L16 14H13.5V17",
 "author": "frankgrinaert"
@@ -2906,23 +3034,327 @@ const icons = [
 {
 "icon": "archive-arrow-up",
 "google": "false",
-"search": "archive-arrow-up",
+"search": "archive-arrow-up,box-arrow-up,this-side-up",
 "name": "archive-arrow-up",
 "path": "M4 21H20V8H4M14 15V18H10V15H7L12 10L17 15M3 3H21V7H3",
 "author": "frankgrinaert"
 },
 {
+"icon": "archive-cancel-outline",
+"google": "false",
+"search": "archive-cancel-outline,box-cancel-outline",
+"name": "archive-cancel-outline",
+"path": "M14.5 11C14.78 11 15 11.22 15 11.5V13H9V11.5C9 11.22 9.22 11 9.5 11H14.5M18.5 12C19 12 19.5 12.07 20 12.18V10H18V12.03C18.17 12 18.33 12 18.5 12M6 19V10H4V21H12.5C12.24 20.38 12.09 19.7 12.03 19H6M21 9H3V3H21V9M19 5H5V7H19V5M23 18.5C23 21 21 23 18.5 23S14 21 14 18.5 16 14 18.5 14 23 16 23 18.5M20 21.08L15.92 17C15.65 17.42 15.5 17.94 15.5 18.5C15.5 20.16 16.84 21.5 18.5 21.5C19.06 21.5 19.58 21.35 20 21.08M21.5 18.5C21.5 16.84 20.16 15.5 18.5 15.5C17.94 15.5 17.42 15.65 17 15.92L21.08 20C21.35 19.58 21.5 19.06 21.5 18.5Z",
+"author": "Colton Wiscombe"
+},
+{
+"icon": "archive-cancel",
+"google": "false",
+"search": "archive-cancel,box-cancel",
+"name": "archive-cancel",
+"path": "M18.5 12C19 12 19.5 12.07 20 12.18V8H4V21H12.5C12.18 20.23 12 19.39 12 18.5C12 14.91 14.91 12 18.5 12M9 13V11.5C9 11.22 9.22 11 9.5 11H14.5C14.78 11 15 11.22 15 11.5V13H9M21 7H3V3H21V7M18.5 14C16 14 14 16 14 18.5S16 23 18.5 23 23 21 23 18.5 21 14 18.5 14M18.5 21.5C16.84 21.5 15.5 20.16 15.5 18.5C15.5 17.94 15.65 17.42 15.92 17L20 21.08C19.58 21.35 19.06 21.5 18.5 21.5M21.08 20L17 15.92C17.42 15.65 17.94 15.5 18.5 15.5C20.16 15.5 21.5 16.84 21.5 18.5C21.5 19.06 21.35 19.58 21.08 20Z",
+"author": "Colton Wiscombe"
+},
+{
+"icon": "archive-check-outline",
+"google": "false",
+"search": "archive-check-outline,box-check-outline",
+"name": "archive-check-outline",
+"path": "M21 3H3V9H21V3M19 7H5V5H19V7M14.5 11C14.78 11 15 11.22 15 11.5V13H9V11.5C9 11.22 9.22 11 9.5 11H14.5M18 13.09V10H20V13.09C19.67 13.04 19.34 13 19 13C18.66 13 18.33 13.04 18 13.09M13 19C13 19.7 13.13 20.37 13.35 21H4V10H6V19H13M22.5 17.25L17.75 22L15 19L16.16 17.84L17.75 19.43L21.34 15.84L22.5 17.25Z",
+"author": "Colton Wiscombe"
+},
+{
+"icon": "archive-check",
+"google": "false",
+"search": "archive-check,box-check",
+"name": "archive-check",
+"path": "M19 13C19.34 13 19.67 13.04 20 13.09V8H4V21H13.35C13.13 20.37 13 19.7 13 19C13 15.69 15.69 13 19 13M9 13V11.5C9 11.22 9.22 11 9.5 11H14.5C14.78 11 15 11.22 15 11.5V13H9M21 7H3V3H21V7M22.5 17.25L17.75 22L15 19L16.16 17.84L17.75 19.43L21.34 15.84L22.5 17.25Z",
+"author": "Colton Wiscombe"
+},
+{
+"icon": "archive-clock-outline",
+"google": "false",
+"search": "archive-clock-outline,box-clock-outline,box-time-outline,archive-time-outline",
+"name": "archive-clock-outline",
+"path": "M20 2H2V8H20V2M18 6H4V4H18V6M16 9C14.69 9 13.46 9.37 12.41 10H8.5C8.22 10 8 10.22 8 10.5V12H10.26C9.47 13.13 9 14.5 9 16C9 16.7 9.11 17.37 9.29 18H5V9H3V20H10.26C11.53 21.81 13.62 23 16 23C19.87 23 23 19.87 23 16C23 12.13 19.87 9 16 9M16 21C13.24 21 11 18.76 11 16S13.24 11 16 11 21 13.24 21 16 18.76 21 16 21M16.5 16.25L19.36 17.94L18.61 19.16L15 17V12H16.5V16.25Z",
+"author": "Colton Wiscombe"
+},
+{
+"icon": "archive-clock",
+"google": "false",
+"search": "archive-clock,box-clock,box-time,archive-time",
+"name": "archive-clock",
+"path": "M20 6H2V2H20V6M16.5 12H15V17L18.61 19.16L19.36 17.94L16.5 16.25V12M23 16C23 19.87 19.87 23 16 23C13.62 23 11.53 21.81 10.26 20H3V7H19V9.68C21.36 10.81 23 13.21 23 16M8 12H10.26C10.83 11.19 11.56 10.5 12.41 10H8.5C8.22 10 8 10.22 8 10.5V12M21 16C21 13.24 18.76 11 16 11S11 13.24 11 16 13.24 21 16 21 21 18.76 21 16Z",
+"author": "Colton Wiscombe"
+},
+{
+"icon": "archive-cog-outline",
+"google": "false",
+"search": "archive-cog-outline,box-cog-outline",
+"name": "archive-cog-outline",
+"path": "M18 12.08V10H20V12.08C19.67 12.03 19.34 12 19 12C18.66 12 18.33 12.03 18 12.08M9.5 11C9.22 11 9 11.22 9 11.5V13H15V11.5C15 11.22 14.78 11 14.5 11H9.5M6 19V10H4V21H12.3C12.11 20.37 12 19.7 12 19H6M21 9H3V3H21V9M19 5H5V7H19V5M23.8 20.4C23.9 20.4 23.9 20.5 23.8 20.6L22.8 22.3C22.7 22.4 22.6 22.4 22.5 22.4L21.3 22C21 22.2 20.8 22.3 20.5 22.5L20.3 23.8C20.3 23.9 20.2 24 20.1 24H18.1C18 24 17.9 23.9 17.8 23.8L17.6 22.5C17.3 22.4 17 22.2 16.8 22L15.6 22.5C15.5 22.5 15.4 22.5 15.3 22.4L14.3 20.7C14.2 20.6 14.3 20.5 14.4 20.4L15.5 19.6V18.6L14.4 17.8C14.3 17.7 14.3 17.6 14.3 17.5L15.3 15.8C15.4 15.7 15.5 15.7 15.6 15.7L16.8 16.2C17.1 16 17.3 15.9 17.6 15.7L17.8 14.4C17.8 14.3 17.9 14.2 18.1 14.2H20.1C20.2 14.2 20.3 14.3 20.3 14.4L20.5 15.7C20.8 15.8 21.1 16 21.4 16.2L22.6 15.7C22.7 15.7 22.9 15.7 22.9 15.8L23.9 17.5C24 17.6 23.9 17.7 23.8 17.8L22.7 18.6V19.6L23.8 20.4M20.5 19C20.5 18.2 19.8 17.5 19 17.5S17.5 18.2 17.5 19 18.2 20.5 19 20.5 20.5 19.8 20.5 19Z",
+"author": "Colton Wiscombe"
+},
+{
+"icon": "archive-cog",
+"google": "false",
+"search": "archive-cog,box-cog",
+"name": "archive-cog",
+"path": "M21 7H3V3H21V7M12 19C12 19.7 12.11 20.37 12.3 21H4V8H20V12.08C19.67 12.03 19.34 12 19 12C15.13 12 12 15.13 12 19M15 13V11.5C15 11.22 14.78 11 14.5 11H9.5C9.22 11 9 11.22 9 11.5V13H15M23.8 20.4C23.9 20.4 23.9 20.5 23.8 20.6L22.8 22.3C22.7 22.4 22.6 22.4 22.5 22.4L21.3 22C21 22.2 20.8 22.3 20.5 22.5L20.3 23.8C20.3 23.9 20.2 24 20.1 24H18.1C18 24 17.9 23.9 17.8 23.8L17.6 22.5C17.3 22.4 17 22.2 16.8 22L15.6 22.5C15.5 22.5 15.4 22.5 15.3 22.4L14.3 20.7C14.2 20.6 14.3 20.5 14.4 20.4L15.5 19.6V18.6L14.4 17.8C14.3 17.7 14.3 17.6 14.3 17.5L15.3 15.8C15.4 15.7 15.5 15.7 15.6 15.7L16.8 16.2C17.1 16 17.3 15.9 17.6 15.7L17.8 14.4C17.8 14.3 17.9 14.2 18.1 14.2H20.1C20.2 14.2 20.3 14.3 20.3 14.4L20.5 15.7C20.8 15.8 21.1 16 21.4 16.2L22.6 15.7C22.7 15.7 22.9 15.7 22.9 15.8L23.9 17.5C24 17.6 23.9 17.7 23.8 17.8L22.7 18.6V19.6L23.8 20.4M20.5 19C20.5 18.2 19.8 17.5 19 17.5S17.5 18.2 17.5 19 18.2 20.5 19 20.5 20.5 19.8 20.5 19Z",
+"author": "Colton Wiscombe"
+},
+{
+"icon": "archive-edit-outline",
+"google": "false",
+"search": "archive-edit-outline,box-edit-outline",
+"name": "archive-edit-outline",
+"path": "M18 12.13V10H20V10.3C19.78 10.42 19.57 10.56 19.39 10.74L18 12.13M9.5 11C9.22 11 9 11.22 9 11.5V13H15V11.5C15 11.22 14.78 11 14.5 11H9.5M6 10H4V21H11V19.13L11.13 19H6V10M21 9H3V3H21V9M19 5H5V7H19V5M13 19.96V22H15.04L21.17 15.88L19.13 13.83L13 19.96M22.85 13.47L21.53 12.15C21.33 11.95 21 11.95 20.81 12.15L19.83 13.13L21.87 15.17L22.85 14.19C23.05 14 23.05 13.67 22.85 13.47Z",
+"author": "Colton Wiscombe"
+},
+{
+"icon": "archive-edit",
+"google": "false",
+"search": "archive-edit,box-edit",
+"name": "archive-edit",
+"path": "M20 10.3V8H4V21H11V19.13L19.39 10.74C19.57 10.56 19.78 10.42 20 10.3M15 13H9V11.5C9 11.22 9.22 11 9.5 11H14.5C14.78 11 15 11.22 15 11.5V13M21 7H3V3H21V7M22.85 14.19L21.87 15.17L19.83 13.13L20.81 12.15C21 11.95 21.33 11.95 21.53 12.15L22.85 13.47C23.05 13.67 23.05 14 22.85 14.19M19.13 13.83L21.17 15.87L15.04 22H13V19.96L19.13 13.83Z",
+"author": "Colton Wiscombe"
+},
+{
+"icon": "archive-eye-outline",
+"google": "false",
+"search": "archive-eye-outline,archive-view-outline,box-eye-outline,box-view-outline",
+"name": "archive-eye-outline",
+"path": "M14.5 11C14.78 11 15 11.22 15 11.5V13H9V11.5C9 11.22 9.22 11 9.5 11H14.5M20 13.55V10H18V13.06C18.69 13.14 19.36 13.31 20 13.55M21 9H3V3H21V9M19 5H5V7H19V5M8.85 19H6V10H4V21H9.78C9.54 20.61 9.32 20.19 9.14 19.75L8.85 19M17 18C16.44 18 16 18.44 16 19S16.44 20 17 20 18 19.56 18 19 17.56 18 17 18M23 19C22.06 21.34 19.73 23 17 23S11.94 21.34 11 19C11.94 16.66 14.27 15 17 15S22.06 16.66 23 19M19.5 19C19.5 17.62 18.38 16.5 17 16.5S14.5 17.62 14.5 19 15.62 21.5 17 21.5 19.5 20.38 19.5 19Z",
+"author": "Colton Wiscombe"
+},
+{
+"icon": "archive-eye",
+"google": "false",
+"search": "archive-eye,archive-view,box-eye,box-view",
+"name": "archive-eye",
+"path": "M21 7H3V3H21V7M9.14 19.75C9.32 20.19 9.54 20.61 9.78 21H4V8H20V13.55C19.06 13.19 18.05 13 17 13C13.5 13 10.43 15.06 9.14 18.25L8.85 19L9.14 19.75M9 13H15V11.5C15 11.22 14.78 11 14.5 11H9.5C9.22 11 9 11.22 9 11.5V13M17 18C16.44 18 16 18.44 16 19S16.44 20 17 20 18 19.56 18 19 17.56 18 17 18M23 19C22.06 21.34 19.73 23 17 23S11.94 21.34 11 19C11.94 16.66 14.27 15 17 15S22.06 16.66 23 19M19.5 19C19.5 17.62 18.38 16.5 17 16.5S14.5 17.62 14.5 19 15.62 21.5 17 21.5 19.5 20.38 19.5 19Z",
+"author": "Colton Wiscombe"
+},
+{
+"icon": "archive-lock-open-outline",
+"google": "false",
+"search": "archive-lock-open-outline,box-lock-open-outline",
+"name": "archive-lock-open-outline",
+"path": "M14.5 11C14.67 11 14.82 11.09 14.91 11.22C14.56 11.76 14.34 12.36 14.26 13H9V11.5C9 11.22 9.22 11 9.5 11H14.5M13 19H6V10H4V21H13.03C13 20.9 13 20.8 13 20.7V19M21 9H3V3H21V9M19 5H5V7H19V5M21.8 16H17.5V13.5C17.5 12.7 18.2 12.2 19 12.2S20.5 12.7 20.5 13.5V14H21.8V13.5C21.8 12.1 20.4 11 19 11S16.2 12.1 16.2 13.5V16C15.6 16 15 16.6 15 17.2V20.7C15 21.4 15.6 22 16.2 22H21.7C22.4 22 23 21.4 23 20.8V17.3C23 16.6 22.4 16 21.8 16Z",
+"author": "Colton Wiscombe"
+},
+{
+"icon": "archive-lock-open",
+"google": "false",
+"search": "archive-lock-open,box-lock-open",
+"name": "archive-lock-open",
+"path": "M21 7H3V3H21V7M19 9C19.34 9 19.68 9.04 20 9.11V8H4V21H13.03C13 20.9 13 20.8 13 20.7V17.2C13 16.24 13.5 15.34 14.2 14.74V13.5C14.2 13.33 14.24 13.17 14.26 13H9V11.5C9 11.22 9.22 11 9.5 11H14.5C14.67 11 14.82 11.09 14.91 11.22C15.75 9.91 17.28 9 19 9M21.8 16H17.5V13.5C17.5 12.7 18.2 12.2 19 12.2S20.5 12.7 20.5 13.5V14H21.8V13.5C21.8 12.1 20.4 11 19 11S16.2 12.1 16.2 13.5V16C15.6 16 15 16.6 15 17.2V20.7C15 21.4 15.6 22 16.2 22H21.7C22.4 22 23 21.4 23 20.8V17.3C23 16.6 22.4 16 21.8 16Z",
+"author": "Colton Wiscombe"
+},
+{
+"icon": "archive-lock-outline",
+"google": "false",
+"search": "archive-lock-outline,box-lock-outline",
+"name": "archive-lock-outline",
+"path": "M15 12.06C14.79 12.35 14.64 12.67 14.5 13H9V11.5C9 11.22 9.22 11 9.5 11H14.5C14.78 11 15 11.22 15 11.5V12.06M21 9H3V3H21V9M19 5H5V7H19V5M13 19H6V10H4V21H13.03C13 20.9 13 20.8 13 20.7V19M23 17.3V20.8C23 21.4 22.4 22 21.7 22H16.2C15.6 22 15 21.4 15 20.7V17.2C15 16.6 15.6 16 16.2 16V14.5C16.2 13.1 17.6 12 19 12S21.8 13.1 21.8 14.5V16C22.4 16 23 16.6 23 17.3M20.5 14.5C20.5 13.7 19.8 13.2 19 13.2S17.5 13.7 17.5 14.5V16H20.5V14.5Z",
+"author": "Colton Wiscombe"
+},
+{
+"icon": "archive-lock",
+"google": "false",
+"search": "archive-lock,box-lock",
+"name": "archive-lock",
+"path": "M21 7H3V3H21V7M9.5 11H14.5C14.78 11 15 11.22 15 11.5V12.06C15.87 10.83 17.35 10 19 10C19.34 10 19.68 10.04 20 10.11V8H4V21H13.03C13 20.9 13 20.8 13 20.7V17.2C13 16.24 13.5 15.34 14.2 14.74V14.5C14.2 14 14.32 13.47 14.5 13H9V11.5C9 11.22 9.22 11 9.5 11M23 17.3V20.8C23 21.4 22.4 22 21.7 22H16.2C15.6 22 15 21.4 15 20.7V17.2C15 16.6 15.6 16 16.2 16V14.5C16.2 13.1 17.6 12 19 12S21.8 13.1 21.8 14.5V16C22.4 16 23 16.6 23 17.3M20.5 14.5C20.5 13.7 19.8 13.2 19 13.2S17.5 13.7 17.5 14.5V16H20.5V14.5Z",
+"author": "Colton Wiscombe"
+},
+{
+"icon": "archive-marker-outline",
+"google": "false",
+"search": "archive-marker-outline,archive-location-outline,box-marker-outline,box-location-outline",
+"name": "archive-marker-outline",
+"path": "M14.5 11C14.72 11 14.9 11.14 14.97 11.33C14.42 11.79 13.96 12.36 13.63 13H9V11.5C9 11.22 9.22 11 9.5 11H14.5M21 9H3V3H21V9M19 5H5V7H19V5M6 19V10H4V21H15.19C14.78 20.4 14.36 19.72 14 19H6M22 15.5C22 18.1 18.5 22 18.5 22S15 18.1 15 15.5C15 13.6 16.6 12 18.5 12S22 13.6 22 15.5M19.7 15.6C19.7 15 19.1 14.4 18.5 14.4S17.3 14.9 17.3 15.6C17.3 16.2 17.8 16.8 18.5 16.8S19.8 16.2 19.7 15.6Z",
+"author": "Colton Wiscombe"
+},
+{
+"icon": "archive-marker",
+"google": "false",
+"search": "archive-marker,archive-location,box-marker,box-location",
+"name": "archive-marker",
+"path": "M21 7H3V3H21V7M13.63 13H9V11.5C9 11.22 9.22 11 9.5 11H14.5C14.72 11 14.9 11.14 14.97 11.33C15.93 10.5 17.17 10 18.5 10C19 10 19.5 10.08 20 10.22V8H4V21H15.19C14.12 19.43 13 17.35 13 15.5C13 14.61 13.23 13.76 13.63 13M22 15.5C22 18.1 18.5 22 18.5 22S15 18.1 15 15.5C15 13.6 16.6 12 18.5 12S22 13.6 22 15.5M19.7 15.6C19.7 15 19.1 14.4 18.5 14.4S17.3 14.9 17.3 15.6C17.3 16.2 17.8 16.8 18.5 16.8S19.8 16.2 19.7 15.6Z",
+"author": "Colton Wiscombe"
+},
+{
+"icon": "archive-minus-outline",
+"google": "false",
+"search": "archive-minus-outline,box-minus-outline",
+"name": "archive-minus-outline",
+"path": "M13 19C13 19.7 13.13 20.37 13.35 21H4V10H6V19H13M19 13C19.34 13 19.67 13.04 20 13.09V10H18V13.09C18.33 13.04 18.66 13 19 13M9.5 11C9.22 11 9 11.22 9 11.5V13H15V11.5C15 11.22 14.78 11 14.5 11H9.5M21 9H3V3H21V9M19 5H5V7H19V5M15 18V20H23V18H15Z",
+"author": "Colton Wiscombe"
+},
+{
+"icon": "archive-minus",
+"google": "false",
+"search": "archive-minus,box-minus",
+"name": "archive-minus",
+"path": "M19 13C19.34 13 19.67 13.04 20 13.09V8H4V21H13.35C13.13 20.37 13 19.7 13 19C13 15.69 15.69 13 19 13M9 13V11.5C9 11.22 9.22 11 9.5 11H14.5C14.78 11 15 11.22 15 11.5V13H9M21 7H3V3H21V7M23 18V20H15V18H23Z",
+"author": "Colton Wiscombe"
+},
+{
+"icon": "archive-music-outline",
+"google": "false",
+"search": "archive-music-outline,box-music-outline",
+"name": "archive-music-outline",
+"path": "M21 3H3V9H21V3M19 7H5V5H19V7M18 11V10H20V11H18M14.5 11C14.78 11 15 11.22 15 11.5V13H9V11.5C9 11.22 9.22 11 9.5 11H14.5M13.26 19C13.09 19.47 13 19.97 13 20.5C13 20.67 13 20.84 13.03 21H4V10H6V19H13.26M22 13V15H20V20.5C20 21.88 18.88 23 17.5 23S15 21.88 15 20.5 16.12 18 17.5 18C17.86 18 18.19 18.07 18.5 18.21V13H22Z",
+"author": "Colton Wiscombe"
+},
+{
+"icon": "archive-music",
+"google": "false",
+"search": "archive-music,box-music",
+"name": "archive-music",
+"path": "M16.5 16.11V11H20V8H4V21H13.03C13 20.84 13 20.67 13 20.5C13 18.36 14.5 16.57 16.5 16.11M9 13V11.5C9 11.22 9.22 11 9.5 11H14.5C14.78 11 15 11.22 15 11.5V13H9M21 7H3V3H21V7M22 13V15H20V20.5C20 21.88 18.88 23 17.5 23S15 21.88 15 20.5 16.12 18 17.5 18C17.86 18 18.19 18.07 18.5 18.21V13H22Z",
+"author": "Colton Wiscombe"
+},
+{
+"icon": "archive-off-outline",
+"google": "false",
+"search": "archive-off-outline,box-off-outline",
+"name": "archive-off-outline",
+"path": "M8.2 5L6.2 3H21V9H12.2L10.2 7H19V5H8.2M20 16.8V10H18V14.8L20 16.8M20 19.35V19.34L18 17.34V17.35L9.66 9H9.66L7.66 7H7.66L6.13 5.47L2.39 1.73L1.11 3L3 4.89V9H7.11L17.11 19H6V10H4V21H19.11L20.84 22.73L22.11 21.46L20 19.35Z",
+"author": "Colton Wiscombe"
+},
+{
+"icon": "archive-off",
+"google": "false",
+"search": "archive-off,box-off",
+"name": "archive-off",
+"path": "M10.2 7L6.2 3H21V7H10.2M20 8H11.2L20 16.8V8M20 19.35V19.34L8.66 8H8.66L7.66 7H7.66L2.39 1.73L1.11 3L3 4.89V7H5.11L6.11 8H4V21H19.11L20.84 22.73L22.11 21.46L20 19.35Z",
+"author": "Colton Wiscombe"
+},
+{
 "icon": "archive-outline",
 "google": "false",
-"search": "archive-outline",
+"search": "archive-outline,box-outline",
 "name": "archive-outline",
 "path": "M20 21H4V10H6V19H18V10H20V21M3 3H21V9H3V3M9.5 11H14.5C14.78 11 15 11.22 15 11.5V13H9V11.5C9 11.22 9.22 11 9.5 11M5 5V7H19V5H5Z",
 "author": "James Coyle"
 },
 {
+"icon": "archive-plus-outline",
+"google": "false",
+"search": "archive-plus-outline,archive-add-outline,box-plus-outline,box-add-outline",
+"name": "archive-plus-outline",
+"path": "M18 13.09V10H20V13.09C19.67 13.04 19.34 13 19 13C18.66 13 18.33 13.04 18 13.09M9.5 11C9.22 11 9 11.22 9 11.5V13H15V11.5C15 11.22 14.78 11 14.5 11H9.5M21 9H3V3H21V9M19 5H5V7H19V5M6 19V10H4V21H13.35C13.13 20.37 13 19.7 13 19H6M20 18V15H18V18H15V20H18V23H20V20H23V18H20Z",
+"author": "Colton Wiscombe"
+},
+{
+"icon": "archive-plus",
+"google": "false",
+"search": "archive-plus,archive-add,box-plus,box-add",
+"name": "archive-plus",
+"path": "M21 7H3V3H21V7M13 19C13 19.7 13.13 20.37 13.35 21H4V8H20V13.09C19.67 13.04 19.34 13 19 13C15.69 13 13 15.69 13 19M15 13V11.5C15 11.22 14.78 11 14.5 11H9.5C9.22 11 9 11.22 9 11.5V13H15M20 18V15H18V18H15V20H18V23H20V20H23V18H20Z",
+"author": "Colton Wiscombe"
+},
+{
+"icon": "archive-refresh-outline",
+"google": "false",
+"search": "archive-refresh-outline,box-refresh-outline",
+"name": "archive-refresh-outline",
+"path": "M18 12.03V10H20V12.18C19.5 12.07 19 12 18.5 12C18.33 12 18.17 12 18 12.03M9.5 11C9.22 11 9 11.22 9 11.5V13H15V11.5C15 11.22 14.78 11 14.5 11H9.5M6 19V10H4V21H12.5C12.24 20.38 12.09 19.7 12.03 19H6M21 9H3V3H21V9M19 5H5V7H19V5M22 18.5V14.5L20.83 15.67C20.11 14.95 19.11 14.5 18 14.5C15.79 14.5 14 16.29 14 18.5S15.79 22.5 18 22.5C19.68 22.5 21.12 21.47 21.71 20H20C19.54 20.61 18.82 21 18 21C16.62 21 15.5 19.88 15.5 18.5S16.62 16 18 16C18.69 16 19.32 16.28 19.77 16.73L18 18.5H22Z",
+"author": "Colton Wiscombe"
+},
+{
+"icon": "archive-refresh",
+"google": "false",
+"search": "archive-refresh,box-refresh",
+"name": "archive-refresh",
+"path": "M18.5 12C19 12 19.5 12.07 20 12.18V8H4V21H12.5C12.18 20.23 12 19.39 12 18.5C12 14.91 14.91 12 18.5 12M9 13V11.5C9 11.22 9.22 11 9.5 11H14.5C14.78 11 15 11.22 15 11.5V13H9M21 7H3V3H21V7M18 18.5L19.77 16.73C19.32 16.28 18.69 16 18 16C16.62 16 15.5 17.12 15.5 18.5S16.62 21 18 21C18.82 21 19.54 20.61 20 20H21.71C21.12 21.47 19.68 22.5 18 22.5C15.79 22.5 14 20.71 14 18.5S15.79 14.5 18 14.5C19.11 14.5 20.11 14.95 20.83 15.67L22 14.5V18.5H18Z",
+"author": "Colton Wiscombe"
+},
+{
+"icon": "archive-remove-outline",
+"google": "false",
+"search": "archive-remove-outline,box-remove-outline",
+"name": "archive-remove-outline",
+"path": "M18 13.09V10H20V13.09C19.67 13.04 19.34 13 19 13C18.66 13 18.33 13.04 18 13.09M14.5 11H9.5C9.22 11 9 11.22 9 11.5V13H15V11.5C15 11.22 14.78 11 14.5 11M6 19V10H4V21H13.35C13.13 20.37 13 19.7 13 19H6M21 9H3V3H21V9M19 5H5V7H19V5M22.54 16.88L21.12 15.47L19 17.59L16.88 15.47L15.47 16.88L17.59 19L15.47 21.12L16.88 22.54L19 20.41L21.12 22.54L22.54 21.12L20.41 19L22.54 16.88Z",
+"author": "Colton Wiscombe"
+},
+{
+"icon": "archive-remove",
+"google": "false",
+"search": "archive-remove,box-remove",
+"name": "archive-remove",
+"path": "M21 7H3V3H21V7M13 19C13 19.7 13.13 20.37 13.35 21H4V8H20V13.09C19.67 13.04 19.34 13 19 13C15.69 13 13 15.69 13 19M15 13V11.5C15 11.22 14.78 11 14.5 11H9.5C9.22 11 9 11.22 9 11.5V13H15M22.54 16.88L21.12 15.47L19 17.59L16.88 15.47L15.47 16.88L17.59 19L15.47 21.12L16.88 22.54L19 20.41L21.12 22.54L22.54 21.12L20.41 19L22.54 16.88Z",
+"author": "Colton Wiscombe"
+},
+{
+"icon": "archive-search-outline",
+"google": "false",
+"search": "archive-search-outline,box-search-outline",
+"name": "archive-search-outline",
+"path": "M13.04 10C12.64 10.25 12.26 10.55 11.9 10.9C11.57 11.24 11.27 11.61 11.03 12H8V10.5C8 10.22 8.22 10 8.5 10H13.04M20 8H2V2H20V8M18 4H4V6H18V4M5 18V9H3V20H11.82C11.24 19.4 10.8 18.72 10.5 18H5M23.39 21L22 22.39L18.88 19.32C18.19 19.75 17.37 20 16.5 20C14 20 12 18 12 15.5S14 11 16.5 11 21 13 21 15.5C21 16.38 20.75 17.21 20.31 17.9L23.39 21M19 15.5C19 14.12 17.88 13 16.5 13S14 14.12 14 15.5 15.12 18 16.5 18 19 16.88 19 15.5Z",
+"author": "Colton Wiscombe"
+},
+{
+"icon": "archive-search",
+"google": "false",
+"search": "archive-search,box-search",
+"name": "archive-search",
+"path": "M20 6H2V2H20V6M11.03 12H8V10.5C8 10.22 8.22 10 8.5 10H13.04C14.84 8.87 17.07 8.7 19 9.5V7H3V20H11.82C9.7 17.8 9.44 14.5 11.03 12M23.39 21L22 22.39L18.88 19.32C18.19 19.75 17.37 20 16.5 20C14 20 12 18 12 15.5S14 11 16.5 11 21 13 21 15.5C21 16.38 20.75 17.21 20.31 17.9L23.39 21M19 15.5C19 14.12 17.88 13 16.5 13S14 14.12 14 15.5 15.12 18 16.5 18 19 16.88 19 15.5Z",
+"author": "Colton Wiscombe"
+},
+{
+"icon": "archive-settings-outline",
+"google": "false",
+"search": "archive-settings-outline,box-settings-outline",
+"name": "archive-settings-outline",
+"path": "M3 2V8H21V2H3M19 6H5V4H19V6M18 9H20V20H4V9H6V18H18V9M15 10.5V12H9V10.5C9 10.22 9.22 10 9.5 10H14.5C14.78 10 15 10.22 15 10.5M7 22H9V24H7V22M11 22H13V24H11V22M15 22H17V24H15V22Z",
+"author": "Colton Wiscombe"
+},
+{
+"icon": "archive-settings",
+"google": "false",
+"search": "archive-settings,box-settings",
+"name": "archive-settings",
+"path": "M21 2V6H3V2H21M4 7H20V20H4V7M9 12H15V10.5C15 10.22 14.78 10 14.5 10H9.5C9.22 10 9 10.22 9 10.5V12M7 24H9V22H7V24M11 24H13V22H11V24M15 24H17V22H15V24Z",
+"author": "Colton Wiscombe"
+},
+{
+"icon": "archive-star-outline",
+"google": "false",
+"search": "archive-star-outline,archive-favorite-outline,box-star-outline,box-favorite-outline",
+"name": "archive-star-outline",
+"path": "M18 13.09V10H20V13.09C19.67 13.04 19.34 13 19 13C18.66 13 18.33 13.04 18 13.09M9.5 11C9.22 11 9 11.22 9 11.5V13H15V11.5C15 11.22 14.78 11 14.5 11H9.5M6 19V10H4V21H13.35C13.13 20.37 13 19.7 13 19H6M21 9H3V3H21V9M19 5H5V7H19V5M23 17.89L20.11 17.64L19 15L17.87 17.64L15 17.89L17.18 19.77L16.5 22.58L19 21.09L21.45 22.58L20.8 19.77L23 17.89Z",
+"author": "Colton Wiscombe"
+},
+{
+"icon": "archive-star",
+"google": "false",
+"search": "archive-star,archive-favorite,box-star,box-favorite",
+"name": "archive-star",
+"path": "M21 7H3V3H21V7M13 19C13 19.7 13.13 20.37 13.35 21H4V8H20V13.09C19.67 13.04 19.34 13 19 13C15.69 13 13 15.69 13 19M15 13V11.5C15 11.22 14.78 11 14.5 11H9.5C9.22 11 9 11.22 9 11.5V13H15M23 17.89L20.11 17.64L19 15L17.87 17.64L15 17.89L17.18 19.77L16.5 22.58L19 21.09L21.45 22.58L20.8 19.77L23 17.89Z",
+"author": "Colton Wiscombe"
+},
+{
+"icon": "archive-sync-outline",
+"google": "false",
+"search": "archive-sync-outline,box-sync-outline",
+"name": "archive-sync-outline",
+"path": "M18 11.18V10H20V11.03C19.84 11 19.67 11 19.5 11C19 11 18.5 11.07 18 11.18M15 11.5C15 11.22 14.78 11 14.5 11H9.5C9.22 11 9 11.22 9 11.5V13H14.82C14.88 12.94 14.94 12.88 15 12.82V11.5M6 19V10H4V21H14.03C13.64 20.39 13.35 19.72 13.18 19H6M21 9H3V3H21V9M19 5H5V7H19V5M19 13.5V12L16.75 14.25L19 16.5V15C20.38 15 21.5 16.12 21.5 17.5C21.5 17.9 21.41 18.28 21.24 18.62L22.33 19.71C22.75 19.08 23 18.32 23 17.5C23 15.29 21.21 13.5 19 13.5M19 20C17.62 20 16.5 18.88 16.5 17.5C16.5 17.1 16.59 16.72 16.76 16.38L15.67 15.29C15.25 15.92 15 16.68 15 17.5C15 19.71 16.79 21.5 19 21.5V23L21.25 20.75L19 18.5V20Z",
+"author": "Colton Wiscombe"
+},
+{
+"icon": "archive-sync",
+"google": "false",
+"search": "archive-sync,box-sync",
+"name": "archive-sync",
+"path": "M21 7H3V3H21V7M9.5 11H14.5C14.78 11 15 11.22 15 11.5V12.82C16.17 11.69 17.75 11 19.5 11C19.67 11 19.84 11 20 11.03V8H4V21H14.03C13.38 20 13 18.79 13 17.5C13 15.75 13.69 14.17 14.82 13H9V11.5C9 11.22 9.22 11 9.5 11M19 13.5V12L16.75 14.25L19 16.5V15C20.38 15 21.5 16.12 21.5 17.5C21.5 17.9 21.41 18.28 21.24 18.62L22.33 19.71C22.75 19.08 23 18.32 23 17.5C23 15.29 21.21 13.5 19 13.5M19 20C17.62 20 16.5 18.88 16.5 17.5C16.5 17.1 16.59 16.72 16.76 16.38L15.67 15.29C15.25 15.92 15 16.68 15 17.5C15 19.71 16.79 21.5 19 21.5V23L21.25 20.75L19 18.5V20Z",
+"author": "Colton Wiscombe"
+},
+{
 "icon": "archive",
 "google": "false",
-"search": "archive",
+"search": "archive,box",
 "name": "archive",
 "path": "M3,3H21V7H3V3M4,8H20V21H4V8M9.5,11A0.5,0.5 0 0,0 9,11.5V13H15V11.5A0.5,0.5 0 0,0 14.5,11H9.5Z",
 "author": "Austin Andrews"
@@ -3240,6 +3672,38 @@ const icons = [
 "author": "Google"
 },
 {
+"icon": "arrow-down-left-bold",
+"google": "false",
+"search": "arrow-down-left-bold",
+"name": "arrow-down-left-bold",
+"path": "M21 3V7H13.5C11.57 7 10 8.57 10 10.5V13H14L8 20L2 13H6V10.5C6 6.36 9.36 3 13.5 3H21Z",
+"author": "Colton Wiscombe"
+},
+{
+"icon": "arrow-down-left",
+"google": "false",
+"search": "arrow-down-left",
+"name": "arrow-down-left",
+"path": "M20 4V6H13.5C11 6 9 8 9 10.5V16.17L12.09 13.09L13.5 14.5L8 20L2.5 14.5L3.91 13.08L7 16.17V10.5C7 6.91 9.91 4 13.5 4H20Z",
+"author": "Colton Wiscombe"
+},
+{
+"icon": "arrow-down-right-bold",
+"google": "false",
+"search": "arrow-down-right-bold",
+"name": "arrow-down-right-bold",
+"path": "M10.5 3C14.64 3 18 6.36 18 10.5V13H22L16 20L10 13H14V10.5C14 8.57 12.43 7 10.5 7H3V3H10.5Z",
+"author": "Colton Wiscombe"
+},
+{
+"icon": "arrow-down-right",
+"google": "false",
+"search": "arrow-down-right",
+"name": "arrow-down-right",
+"path": "M21.5 14.5L16 20L10.5 14.5L11.91 13.09L15 16.17V10.5C15 8 13 6 10.5 6H4V4H10.5C14.09 4 17 6.91 17 10.5V16.17L20.09 13.08L21.5 14.5Z",
+"author": "Colton Wiscombe"
+},
+{
 "icon": "arrow-down-thick",
 "google": "false",
 "search": "arrow-down-thick,arrow-bottom-thick,arrow-down-bold,arrow-bottom-bold,arrow",
@@ -3392,6 +3856,22 @@ const icons = [
 "author": "Austin Andrews"
 },
 {
+"icon": "arrow-left-bottom-bold",
+"google": "false",
+"search": "arrow-left-bottom-bold",
+"name": "arrow-left-bottom-bold",
+"path": "M21 10.5C21 14.64 17.64 18 13.5 18H11V22L4 16L11 10V14H13.5C15.43 14 17 12.43 17 10.5V3H21V10.5Z",
+"author": "Colton Wiscombe"
+},
+{
+"icon": "arrow-left-bottom",
+"google": "false",
+"search": "arrow-left-bottom",
+"name": "arrow-left-bottom",
+"path": "M20 4V10.5C20 14.09 17.09 17 13.5 17H7.83L10.92 20.09L9.5 21.5L4 16L9.5 10.5L10.91 11.91L7.83 15H13.5C16 15 18 13 18 10.5V4H20Z",
+"author": "Colton Wiscombe"
+},
+{
 "icon": "arrow-left-box",
 "google": "false",
 "search": "arrow-left-box,arrow",
@@ -3472,6 +3952,22 @@ const icons = [
 "author": "Google"
 },
 {
+"icon": "arrow-left-top-bold",
+"google": "false",
+"search": "arrow-left-top-bold,turn-left-bold",
+"name": "arrow-left-top-bold",
+"path": "M21 21H17V13.5C17 11.57 15.43 10 13.5 10H11V14L4 8L11 2V6H13.5C17.64 6 21 9.36 21 13.5V21Z",
+"author": "Colton Wiscombe"
+},
+{
+"icon": "arrow-left-top",
+"google": "false",
+"search": "arrow-left-top,turn-left",
+"name": "arrow-left-top",
+"path": "M20 13.5V20H18V13.5C18 11 16 9 13.5 9H7.83L10.91 12.09L9.5 13.5L4 8L9.5 2.5L10.92 3.91L7.83 7H13.5C17.09 7 20 9.91 20 13.5Z",
+"author": "Colton Wiscombe"
+},
+{
 "icon": "arrow-left",
 "google": "true",
 "search": "arrow-left,arrow-back,arrow",
@@ -3536,6 +4032,22 @@ const icons = [
 "author": "Austin Andrews"
 },
 {
+"icon": "arrow-right-bottom-bold",
+"google": "false",
+"search": "arrow-right-bottom-bold",
+"name": "arrow-right-bottom-bold",
+"path": "M3 3H7V10.5C7 12.43 8.57 14 10.5 14H13V10L20 16L13 22V18H10.5C6.36 18 3 14.64 3 10.5V3Z",
+"author": "Colton Wiscombe"
+},
+{
+"icon": "arrow-right-bottom",
+"google": "false",
+"search": "arrow-right-bottom",
+"name": "arrow-right-bottom",
+"path": "M20 16L14.5 21.5L13.08 20.09L16.17 17H10.5C6.91 17 4 14.09 4 10.5V4H6V10.5C6 13 8 15 10.5 15H16.17L13.09 11.91L14.5 10.5L20 16Z",
+"author": "Colton Wiscombe"
+},
+{
 "icon": "arrow-right-box",
 "google": "false",
 "search": "arrow-right-box,arrow",
@@ -3590,6 +4102,22 @@ const icons = [
 "name": "arrow-right-thin-circle-outline",
 "path": "M20.03 12C20.03 7.59 16.41 3.97 12 3.97C7.59 3.97 3.97 7.59 3.97 12C3.97 16.41 7.59 20.03 12 20.03C16.41 20.03 20.03 16.41 20.03 12M22 12C22 17.54 17.54 22 12 22C6.46 22 2 17.54 2 12C2 6.46 6.46 2 12 2C17.54 2 22 6.46 22 12M13.54 13V16L17.5 12L13.54 8V11H6.5V13",
 "author": "Google"
+},
+{
+"icon": "arrow-right-top-bold",
+"google": "false",
+"search": "arrow-right-top-bold,turn-right-bold",
+"name": "arrow-right-top-bold",
+"path": "M3 13.5C3 9.36 6.36 6 10.5 6H13V2L20 8L13 14V10H10.5C8.57 10 7 11.57 7 13.5V21H3V13.5Z",
+"author": "Colton Wiscombe"
+},
+{
+"icon": "arrow-right-top",
+"google": "false",
+"search": "arrow-right-top,turn-right",
+"name": "arrow-right-top",
+"path": "M20 8L14.5 13.5L13.09 12.09L16.17 9H10.5C8 9 6 11 6 13.5V20H4V13.5C4 9.91 6.91 7 10.5 7H16.17L13.08 3.91L14.5 2.5L20 8Z",
+"author": "Colton Wiscombe"
 },
 {
 "icon": "arrow-right",
@@ -3712,6 +4240,134 @@ const icons = [
 "author": "Austin Andrews"
 },
 {
+"icon": "arrow-u-down-left-bold",
+"google": "false",
+"search": "arrow-u-down-left-bold,u-turn-left-bold",
+"name": "arrow-u-down-left-bold",
+"path": "M21 10.5V18H17V10.5C17 8.57 15.43 7 13.5 7S10 8.57 10 10.5V13H14L8 20L2 13H6V10.5C6 6.36 9.36 3 13.5 3S21 6.36 21 10.5Z",
+"author": "Colton Wiscombe"
+},
+{
+"icon": "arrow-u-down-left",
+"google": "false",
+"search": "arrow-u-down-left,u-turn-left",
+"name": "arrow-u-down-left",
+"path": "M20 10.5V18H18V10.5C18 8 16 6 13.5 6S9 8 9 10.5V16.17L12.09 13.09L13.5 14.5L8 20L2.5 14.5L3.91 13.08L7 16.17V10.5C7 6.91 9.91 4 13.5 4S20 6.91 20 10.5Z",
+"author": "Colton Wiscombe"
+},
+{
+"icon": "arrow-u-down-right-bold",
+"google": "false",
+"search": "arrow-u-down-right-bold,u-turn-right-bold",
+"name": "arrow-u-down-right-bold",
+"path": "M10.5 3C14.64 3 18 6.36 18 10.5V13H22L16 20L10 13H14V10.5C14 8.57 12.43 7 10.5 7S7 8.57 7 10.5V18H3V10.5C3 6.36 6.36 3 10.5 3Z",
+"author": "Colton Wiscombe"
+},
+{
+"icon": "arrow-u-down-right",
+"google": "false",
+"search": "arrow-u-down-right,u-turn-right",
+"name": "arrow-u-down-right",
+"path": "M21.5 14.5L16 20L10.5 14.5L11.91 13.09L15 16.17V10.5C15 8 13 6 10.5 6S6 8 6 10.5V18H4V10.5C4 6.91 6.91 4 10.5 4S17 6.91 17 10.5V16.17L20.09 13.08L21.5 14.5Z",
+"author": "Colton Wiscombe"
+},
+{
+"icon": "arrow-u-left-bottom-bold",
+"google": "false",
+"search": "arrow-u-left-bottom-bold,undo",
+"name": "arrow-u-left-bottom-bold",
+"path": "M21 10.5C21 14.64 17.64 18 13.5 18H11V22L4 16L11 10V14H13.5C15.43 14 17 12.43 17 10.5S15.43 7 13.5 7H6V3H13.5C17.64 3 21 6.36 21 10.5Z",
+"author": "Colton Wiscombe"
+},
+{
+"icon": "arrow-u-left-bottom",
+"google": "false",
+"search": "arrow-u-left-bottom,undo",
+"name": "arrow-u-left-bottom",
+"path": "M20 10.5C20 14.09 17.09 17 13.5 17H7.83L10.92 20.09L9.5 21.5L4 16L9.5 10.5L10.91 11.91L7.83 15H13.5C16 15 18 13 18 10.5S16 6 13.5 6H6V4H13.5C17.09 4 20 6.91 20 10.5Z",
+"author": "Colton Wiscombe"
+},
+{
+"icon": "arrow-u-left-top-bold",
+"google": "false",
+"search": "arrow-u-left-top-bold,undo",
+"name": "arrow-u-left-top-bold",
+"path": "M13.5 21H6V17H13.5C15.43 17 17 15.43 17 13.5S15.43 10 13.5 10H11V14L4 8L11 2V6H13.5C17.64 6 21 9.36 21 13.5S17.64 21 13.5 21Z",
+"author": "Colton Wiscombe"
+},
+{
+"icon": "arrow-u-left-top",
+"google": "false",
+"search": "arrow-u-left-top,undo",
+"name": "arrow-u-left-top",
+"path": "M20 13.5C20 17.09 17.09 20 13.5 20H6V18H13.5C16 18 18 16 18 13.5S16 9 13.5 9H7.83L10.91 12.09L9.5 13.5L4 8L9.5 2.5L10.92 3.91L7.83 7H13.5C17.09 7 20 9.91 20 13.5Z",
+"author": "Colton Wiscombe"
+},
+{
+"icon": "arrow-u-right-bottom-bold",
+"google": "false",
+"search": "arrow-u-right-bottom-bold,redo",
+"name": "arrow-u-right-bottom-bold",
+"path": "M10.5 3H18V7H10.5C8.57 7 7 8.57 7 10.5S8.57 14 10.5 14H13V10L20 16L13 22V18H10.5C6.36 18 3 14.64 3 10.5S6.36 3 10.5 3Z",
+"author": "Colton Wiscombe"
+},
+{
+"icon": "arrow-u-right-bottom",
+"google": "false",
+"search": "arrow-u-right-bottom,redo",
+"name": "arrow-u-right-bottom",
+"path": "M20 16L14.5 21.5L13.08 20.09L16.17 17H10.5C6.91 17 4 14.09 4 10.5S6.91 4 10.5 4H18V6H10.5C8 6 6 8 6 10.5S8 15 10.5 15H16.17L13.09 11.91L14.5 10.5L20 16Z",
+"author": "Colton Wiscombe"
+},
+{
+"icon": "arrow-u-right-top-bold",
+"google": "false",
+"search": "arrow-u-right-top-bold,redo",
+"name": "arrow-u-right-top-bold",
+"path": "M3 13.5C3 9.36 6.36 6 10.5 6H13V2L20 8L13 14V10H10.5C8.57 10 7 11.57 7 13.5S8.57 17 10.5 17H18V21H10.5C6.36 21 3 17.64 3 13.5Z",
+"author": "Colton Wiscombe"
+},
+{
+"icon": "arrow-u-right-top",
+"google": "false",
+"search": "arrow-u-right-top,redo",
+"name": "arrow-u-right-top",
+"path": "M10.5 18H18V20H10.5C6.91 20 4 17.09 4 13.5S6.91 7 10.5 7H16.17L13.08 3.91L14.5 2.5L20 8L14.5 13.5L13.09 12.09L16.17 9H10.5C8 9 6 11 6 13.5S8 18 10.5 18Z",
+"author": "Colton Wiscombe"
+},
+{
+"icon": "arrow-u-up-left-bold",
+"google": "false",
+"search": "arrow-u-up-left-bold",
+"name": "arrow-u-up-left-bold",
+"path": "M13.5 21C9.36 21 6 17.64 6 13.5V11H2L8 4L14 11H10V13.5C10 15.43 11.57 17 13.5 17S17 15.43 17 13.5V6H21V13.5C21 17.64 17.64 21 13.5 21Z",
+"author": "Colton Wiscombe"
+},
+{
+"icon": "arrow-u-up-left",
+"google": "false",
+"search": "arrow-u-up-left",
+"name": "arrow-u-up-left",
+"path": "M20 6V13.5C20 17.09 17.09 20 13.5 20S7 17.09 7 13.5V7.83L3.91 10.92L2.5 9.5L8 4L13.5 9.5L12.09 10.91L9 7.83V13.5C9 16 11 18 13.5 18S18 16 18 13.5V6H20Z",
+"author": "Colton Wiscombe"
+},
+{
+"icon": "arrow-u-up-right-bold",
+"google": "false",
+"search": "arrow-u-up-right-bold",
+"name": "arrow-u-up-right-bold",
+"path": "M3 13.5V6H7V13.5C7 15.43 8.57 17 10.5 17S14 15.43 14 13.5V11H10L16 4L22 11H18V13.5C18 17.64 14.64 21 10.5 21S3 17.64 3 13.5Z",
+"author": "Colton Wiscombe"
+},
+{
+"icon": "arrow-u-up-right",
+"google": "false",
+"search": "arrow-u-up-right",
+"name": "arrow-u-up-right",
+"path": "M21.5 9.5L20.09 10.92L17 7.83V13.5C17 17.09 14.09 20 10.5 20S4 17.09 4 13.5V6H6V13.5C6 16 8 18 10.5 18S15 16 15 13.5V7.83L11.91 10.91L10.5 9.5L16 4L21.5 9.5Z",
+"author": "Colton Wiscombe"
+},
+{
 "icon": "arrow-up-bold-box-outline",
 "google": "false",
 "search": "arrow-up-bold-box-outline,arrow-top-bold-box-outline,arrow",
@@ -3832,6 +4488,38 @@ const icons = [
 "author": "Austin Andrews"
 },
 {
+"icon": "arrow-up-left-bold",
+"google": "false",
+"search": "arrow-up-left-bold",
+"name": "arrow-up-left-bold",
+"path": "M13.5 21C9.36 21 6 17.64 6 13.5V11H2L8 4L14 11H10V13.5C10 15.43 11.57 17 13.5 17H21V21H13.5Z",
+"author": "Colton Wiscombe"
+},
+{
+"icon": "arrow-up-left",
+"google": "false",
+"search": "arrow-up-left",
+"name": "arrow-up-left",
+"path": "M20 18V20H13.5C9.91 20 7 17.09 7 13.5V7.83L3.91 10.92L2.5 9.5L8 4L13.5 9.5L12.09 10.91L9 7.83V13.5C9 16 11 18 13.5 18H20Z",
+"author": "Colton Wiscombe"
+},
+{
+"icon": "arrow-up-right-bold",
+"google": "false",
+"search": "arrow-up-right-bold",
+"name": "arrow-up-right-bold",
+"path": "M3 21V17H10.5C12.43 17 14 15.43 14 13.5V11H10L16 4L22 11H18V13.5C18 17.64 14.64 21 10.5 21H3Z",
+"author": "Colton Wiscombe"
+},
+{
+"icon": "arrow-up-right",
+"google": "false",
+"search": "arrow-up-right",
+"name": "arrow-up-right",
+"path": "M21.5 9.5L20.09 10.92L17 7.83V13.5C17 17.09 14.09 20 10.5 20H4V18H10.5C13 18 15 16 15 13.5V7.83L11.91 10.91L10.5 9.5L16 4L21.5 9.5Z",
+"author": "Colton Wiscombe"
+},
+{
 "icon": "arrow-up-thick",
 "google": "false",
 "search": "arrow-up-thick,arrow-top-thick,arrow-up-bold,arrow-top-bold,arrow",
@@ -3892,7 +4580,7 @@ const icons = [
 "google": "false",
 "search": "asterisk",
 "name": "asterisk",
-"path": "M10,2H14L13.21,9.91L19.66,5.27L21.66,8.73L14.42,12L21.66,15.27L19.66,18.73L13.21,14.09L14,22H10L10.79,14.09L4.34,18.73L2.34,15.27L9.58,12L2.34,8.73L4.34,5.27L10.79,9.91L10,2Z",
+"path": "M21 13H14.4L19.1 17.7L17.7 19.1L13 14.4V21H11V14.3L6.3 19L4.9 17.6L9.4 13H3V11H9.6L4.9 6.3L6.3 4.9L11 9.6V3H13V9.4L17.6 4.8L19 6.3L14.3 11H21V13Z",
 "author": "Michael Irigoyen"
 },
 {
@@ -4218,7 +4906,7 @@ const icons = [
 {
 "icon": "baby-face-outline",
 "google": "true",
-"search": "baby-face-outline,people,family",
+"search": "baby-face-outline,emoji-baby-outline,emoticon-baby-outline,people,family",
 "name": "baby-face-outline",
 "path": "M14.5,9.25A1.25,1.25 0 0,1 15.75,10.5A1.25,1.25 0 0,1 14.5,11.75A1.25,1.25 0 0,1 13.25,10.5A1.25,1.25 0 0,1 14.5,9.25M9.5,9.25A1.25,1.25 0 0,1 10.75,10.5A1.25,1.25 0 0,1 9.5,11.75A1.25,1.25 0 0,1 8.25,10.5A1.25,1.25 0 0,1 9.5,9.25M7.5,14H16.5C15.74,15.77 14,17 12,17C10,17 8.26,15.77 7.5,14M1,12C1,10.19 2.2,8.66 3.86,8.17C5.29,5.11 8.4,3 12,3C15.6,3 18.71,5.11 20.15,8.17C21.8,8.66 23,10.19 23,12C23,13.81 21.8,15.34 20.15,15.83C18.71,18.89 15.6,21 12,21C8.4,21 5.29,18.89 3.86,15.83C2.2,15.34 1,13.81 1,12M12,5C8.82,5 6.14,7.12 5.28,10H5A2,2 0 0,0 3,12A2,2 0 0,0 5,14H5.28C6.14,16.88 8.82,19 12,19C15.18,19 17.86,16.88 18.72,14H19A2,2 0 0,0 21,12A2,2 0 0,0 19,10H18.72C17.86,7.12 15.18,5 12,5Z",
 "author": "Google"
@@ -4226,7 +4914,7 @@ const icons = [
 {
 "icon": "baby-face",
 "google": "true",
-"search": "baby-face,people,family",
+"search": "baby-face,emoji-baby,emoticon-baby,people,family",
 "name": "baby-face",
 "path": "M1,12C1,10.19 2.2,8.66 3.86,8.17C5.29,5.11 8.4,3 12,3C15.6,3 18.71,5.11 20.15,8.17C21.8,8.66 23,10.19 23,12C23,13.81 21.8,15.34 20.15,15.83C18.71,18.89 15.6,21 12,21C8.4,21 5.29,18.89 3.86,15.83C2.2,15.34 1,13.81 1,12M14.5,9.25A1.25,1.25 0 0,0 13.25,10.5A1.25,1.25 0 0,0 14.5,11.75A1.25,1.25 0 0,0 15.75,10.5A1.25,1.25 0 0,0 14.5,9.25M9.5,9.25A1.25,1.25 0 0,0 8.25,10.5A1.25,1.25 0 0,0 9.5,11.75A1.25,1.25 0 0,0 10.75,10.5A1.25,1.25 0 0,0 9.5,9.25M7.5,14C8.26,15.77 10,17 12,17C14,17 15.74,15.77 16.5,14H7.5M3,12C3,12.82 3.5,13.53 4.21,13.84C4.07,13.25 4,12.63 4,12C4,11.37 4.07,10.75 4.21,10.16C3.5,10.47 3,11.18 3,12M21,12C21,11.18 20.5,10.47 19.79,10.16C19.93,10.75 20,11.37 20,12C20,12.63 19.93,13.25 19.79,13.84C20.5,13.53 21,12.82 21,12Z",
 "author": "Google"
@@ -4464,6 +5152,14 @@ const icons = [
 "author": "Nick"
 },
 {
+"icon": "balcony",
+"google": "true",
+"search": "balcony,terrace,patio,veranda,home automation",
+"name": "balcony",
+"path": "M10 10V12H8V10H10M16 12V10H14V12H16M21 14V22H3V14H4V10C4 5.58 7.58 2 12 2S20 5.58 20 10V14H21M7 16H5V20H7V16M11 16H9V20H11V16M11 4.08C8.16 4.56 6 7.03 6 10V14H11V4.08M13 14H18V10C18 7.03 15.84 4.56 13 4.08V14M15 16H13V20H15V16M19 16H17V20H19V16Z",
+"author": "Google"
+},
+{
 "icon": "balloon",
 "google": "false",
 "search": "balloon,party-balloon,holiday",
@@ -4510,14 +5206,6 @@ const icons = [
 "name": "bandage",
 "path": "M17.73,12L21.71,8.04C22.1,7.65 22.1,7 21.71,6.63L17.37,2.29C17,1.9 16.35,1.9 15.96,2.29L12,6.27L8,2.29C7.8,2.1 7.55,2 7.29,2C7.04,2 6.78,2.1 6.59,2.29L2.25,6.63C1.86,7 1.86,7.65 2.25,8.04L6.23,12L2.25,16C1.86,16.39 1.86,17 2.25,17.41L6.59,21.75C7,22.14 7.61,22.14 8,21.75L12,17.77L15.96,21.75C16.16,21.95 16.41,22.04 16.67,22.04C16.93,22.04 17.18,21.94 17.38,21.75L21.72,17.41C22.11,17 22.11,16.39 21.72,16L17.73,12M12,9A1,1 0 0,1 13,10A1,1 0 0,1 12,11A1,1 0 0,1 11,10A1,1 0 0,1 12,9M7.29,10.96L3.66,7.34L7.29,3.71L10.91,7.33L7.29,10.96M10,13A1,1 0 0,1 9,12A1,1 0 0,1 10,11A1,1 0 0,1 11,12A1,1 0 0,1 10,13M12,15A1,1 0 0,1 11,14A1,1 0 0,1 12,13A1,1 0 0,1 13,14A1,1 0 0,1 12,15M14,11A1,1 0 0,1 15,12A1,1 0 0,1 14,13A1,1 0 0,1 13,12A1,1 0 0,1 14,11M16.66,20.34L13.03,16.72L16.66,13.09L20.28,16.71L16.66,20.34Z",
 "author": "Google"
-},
-{
-"icon": "bandcamp",
-"google": "false",
-"search": "bandcamp,brand,logo",
-"name": "bandcamp",
-"path": "M22,6L15.5,18H2L8.5,6H22Z",
-"author": "Contributors"
 },
 {
 "icon": "bank-check",
@@ -4650,7 +5338,7 @@ const icons = [
 {
 "icon": "barn",
 "google": "false",
-"search": "barn,farm",
+"search": "barn,farm,agriculture",
 "name": "barn",
 "path": "M12,3L3,8.2V21H9L11.9,18L15,21H21V8.2L12,3M7.9,20V14L10.9,17L7.9,20M8.9,13H14.9L11.9,16L8.9,13M15.9,20L12.9,17L15.9,14V20M15,11H8.8V9H15V11Z",
 "author": "SarinManS"
@@ -4706,7 +5394,7 @@ const icons = [
 {
 "icon": "basket-fill",
 "google": "false",
-"search": "basket-fill,shopping",
+"search": "basket-fill,skip-fill,shopping",
 "name": "basket-fill",
 "path": "M3,2H6V5H3V2M6,7H9V10H6V7M8,2H11V5H8V2M17,11L12,6H15V2H19V6H22L17,11M7.5,22C6.72,22 6.04,21.55 5.71,20.9V20.9L3.1,13.44L3,13A1,1 0 0,1 4,12H20A1,1 0 0,1 21,13L20.96,13.29L18.29,20.9C17.96,21.55 17.28,22 16.5,22H7.5M7.61,20H16.39L18.57,14H5.42L7.61,20Z",
 "author": "Austin Andrews"
@@ -4714,7 +5402,7 @@ const icons = [
 {
 "icon": "basket-minus-outline",
 "google": "false",
-"search": "basket-minus-outline,shopping-basket-minus-outline,shopping",
+"search": "basket-minus-outline,shopping-basket-minus-outline,skip-minus-outline,shopping",
 "name": "basket-minus-outline",
 "path": "M23 18V20H15V18H23M12 13C10.9 13 10 13.9 10 15S10.9 17 12 17 14 16.1 14 15 13.1 13 12 13M13.35 21H5.5C4.58 21 3.81 20.38 3.58 19.54L1.04 10.27C1 10.18 1 10.09 1 10C1 9.45 1.45 9 2 9H6.79L11.17 2.45C11.36 2.16 11.68 2 12 2S12.64 2.16 12.83 2.44L17.21 9H22C22.55 9 23 9.45 23 10L22.97 10.27L22 13.81C21.43 13.5 20.79 13.24 20.12 13.11L20.7 11H3.31L5.5 19H13C13 19.7 13.13 20.37 13.35 21M9.2 9H14.8L12 4.8L9.2 9Z",
 "author": "Michael Irigoyen"
@@ -4722,7 +5410,7 @@ const icons = [
 {
 "icon": "basket-minus",
 "google": "false",
-"search": "basket-minus,shopping-basket-minus,shopping",
+"search": "basket-minus,shopping-basket-minus,skip-minus,shopping",
 "name": "basket-minus",
 "path": "M23 18V20H15V18H23M23 10L22.96 10.29L22 13.8C21.11 13.29 20.09 13 19 13C15.69 13 13 15.69 13 19C13 19.7 13.13 20.37 13.35 21H5.5C4.72 21 4.04 20.55 3.71 19.9L1.1 10.44L1 10C1 9.45 1.45 9 2 9H6.58L11.18 2.43C11.36 2.17 11.66 2 12 2S12.65 2.17 12.83 2.44L17.42 9H22C22.55 9 23 9.45 23 10M14 15C14 13.9 13.11 13 12 13S10 13.9 10 15 10.9 17 12 17 14 16.11 14 15M15 9L12 4.74L9 9H15Z",
 "author": "Michael Irigoyen"
@@ -4730,7 +5418,7 @@ const icons = [
 {
 "icon": "basket-off-outline",
 "google": "false",
-"search": "basket-off-outline,shopping-basket-off-outline,shopping",
+"search": "basket-off-outline,shopping-basket-off-outline,skip-off-outline,shopping",
 "name": "basket-off-outline",
 "path": "M2.39 1.73L1.11 3L6.92 8.81L6.79 9H2C1.45 9 1 9.45 1 10C1 10.09 1 10.18 1.04 10.27L3.58 19.54C3.81 20.38 4.58 21 5.5 21H18.5C18.68 21 18.86 20.96 19.03 20.92L20.84 22.73L22.11 21.46L2.39 1.73M5.5 19L3.31 11H9.11L11.26 13.15C10.5 13.44 10 14.16 10 15C10 16.1 10.9 17 12 17C12.84 17 13.56 16.5 13.85 15.74L17.11 19H5.5M23 10L22.97 10.27L20.93 17.73L19.3 16.1L20.7 11H14.2L12.2 9H14.8L12 4.8L10.4 7.2L8.96 5.76L11.17 2.45C11.36 2.16 11.68 2 12 2S12.64 2.16 12.83 2.44L17.21 9H22C22.55 9 23 9.45 23 10Z",
 "author": "Michael Irigoyen"
@@ -4738,7 +5426,7 @@ const icons = [
 {
 "icon": "basket-off",
 "google": "false",
-"search": "basket-off,shopping-basket-off,shopping",
+"search": "basket-off,shopping-basket-off,skip-off,shopping",
 "name": "basket-off",
 "path": "M23 10L22.96 10.29L20.9 17.7L12.2 9H15L12 4.74L10.32 7.12L8.89 5.69L11.18 2.43C11.36 2.17 11.66 2 12 2S12.65 2.17 12.83 2.44L17.42 9H22C22.55 9 23 9.45 23 10M22.11 21.46L20.84 22.73L19.03 20.92C18.86 20.97 18.68 21 18.5 21H5.5C4.72 21 4.04 20.55 3.71 19.9L1.1 10.44L1 10C1 9.45 1.45 9 2 9H6.58L6.8 8.69L1.11 3L2.39 1.73L22.11 21.46M13.85 15.74L11.26 13.15C10.5 13.44 10 14.16 10 15C10 16.11 10.9 17 12 17C12.84 17 13.56 16.5 13.85 15.74Z",
 "author": "Michael Irigoyen"
@@ -4746,7 +5434,7 @@ const icons = [
 {
 "icon": "basket-outline",
 "google": "true",
-"search": "basket-outline,shopping-basket-outline,shopping",
+"search": "basket-outline,shopping-basket-outline,skip-outline,shopping",
 "name": "basket-outline",
 "path": "M22 9H17.21L12.83 2.44C12.64 2.16 12.32 2 12 2S11.36 2.16 11.17 2.45L6.79 9H2C1.45 9 1 9.45 1 10C1 10.09 1 10.18 1.04 10.27L3.58 19.54C3.81 20.38 4.58 21 5.5 21H18.5C19.42 21 20.19 20.38 20.43 19.54L22.97 10.27L23 10C23 9.45 22.55 9 22 9M12 4.8L14.8 9H9.2L12 4.8M18.5 19L5.5 19L3.31 11H20.7L18.5 19M12 13C10.9 13 10 13.9 10 15S10.9 17 12 17 14 16.1 14 15 13.1 13 12 13Z",
 "author": "Google"
@@ -4754,7 +5442,7 @@ const icons = [
 {
 "icon": "basket-plus-outline",
 "google": "false",
-"search": "basket-plus-outline,shopping-basket-plus-outline,shopping",
+"search": "basket-plus-outline,shopping-basket-plus-outline,skip-plus-outline,shopping",
 "name": "basket-plus-outline",
 "path": "M20 15V18H23V20H20V23H18V20H15V18H18V15H20M12 13C10.9 13 10 13.9 10 15S10.9 17 12 17 14 16.1 14 15 13.1 13 12 13M13.35 21H5.5C4.58 21 3.81 20.38 3.58 19.54L1.04 10.27C1 10.18 1 10.09 1 10C1 9.45 1.45 9 2 9H6.79L11.17 2.45C11.36 2.16 11.68 2 12 2S12.64 2.16 12.83 2.44L17.21 9H22C22.55 9 23 9.45 23 10L22.97 10.27L22 13.81C21.43 13.5 20.79 13.24 20.12 13.11L20.7 11H3.31L5.5 19H13C13 19.7 13.13 20.37 13.35 21M9.2 9H14.8L12 4.8L9.2 9Z",
 "author": "Michael Irigoyen"
@@ -4762,7 +5450,7 @@ const icons = [
 {
 "icon": "basket-plus",
 "google": "false",
-"search": "basket-plus,shopping-basket-plus,shopping",
+"search": "basket-plus,shopping-basket-plus,skip-plus,shopping",
 "name": "basket-plus",
 "path": "M20 15V18H23V20H20V23H18V20H15V18H18V15H20M23 10L22.96 10.29L22 13.8C21.11 13.29 20.09 13 19 13C15.69 13 13 15.69 13 19C13 19.7 13.13 20.37 13.35 21H5.5C4.72 21 4.04 20.55 3.71 19.9L1.1 10.44L1 10C1 9.45 1.45 9 2 9H6.58L11.18 2.43C11.36 2.17 11.66 2 12 2S12.65 2.17 12.83 2.44L17.42 9H22C22.55 9 23 9.45 23 10M14 15C14 13.9 13.11 13 12 13S10 13.9 10 15 10.9 17 12 17 14 16.11 14 15M15 9L12 4.74L9 9H15Z",
 "author": "Michael Irigoyen"
@@ -4770,7 +5458,7 @@ const icons = [
 {
 "icon": "basket-remove-outline",
 "google": "false",
-"search": "basket-remove-outline,shopping-basket-remove-outline,shopping",
+"search": "basket-remove-outline,shopping-basket-remove-outline,skip-remove-outline,shopping",
 "name": "basket-remove-outline",
 "path": "M22.54 16.88L20.41 19L22.54 21.12L21.12 22.54L19 20.41L16.88 22.54L15.47 21.12L17.59 19L15.47 16.88L16.88 15.47L19 17.59L21.12 15.46L22.54 16.88M12 13C10.9 13 10 13.9 10 15S10.9 17 12 17 14 16.1 14 15 13.1 13 12 13M13.35 21H5.5C4.58 21 3.81 20.38 3.58 19.54L1.04 10.27C1 10.18 1 10.09 1 10C1 9.45 1.45 9 2 9H6.79L11.17 2.45C11.36 2.16 11.68 2 12 2S12.64 2.16 12.83 2.44L17.21 9H22C22.55 9 23 9.45 23 10L22.97 10.27L22 13.81C21.43 13.5 20.79 13.24 20.12 13.11L20.7 11H3.31L5.5 19H13C13 19.7 13.13 20.37 13.35 21M9.2 9H14.8L12 4.8L9.2 9Z",
 "author": "Michael Irigoyen"
@@ -4778,7 +5466,7 @@ const icons = [
 {
 "icon": "basket-remove",
 "google": "false",
-"search": "basket-remove,shopping-basket-remove,shopping",
+"search": "basket-remove,shopping-basket-remove,skip-remove,shopping",
 "name": "basket-remove",
 "path": "M22.54 16.88L20.41 19L22.54 21.12L21.12 22.54L19 20.41L16.88 22.54L15.47 21.12L17.59 19L15.47 16.88L16.88 15.47L19 17.59L21.12 15.46L22.54 16.88M23 10L22.96 10.29L22 13.8C21.11 13.29 20.09 13 19 13C15.69 13 13 15.69 13 19C13 19.7 13.13 20.37 13.35 21H5.5C4.72 21 4.04 20.55 3.71 19.9L1.1 10.44L1 10C1 9.45 1.45 9 2 9H6.58L11.18 2.43C11.36 2.17 11.66 2 12 2S12.65 2.17 12.83 2.44L17.42 9H22C22.55 9 23 9.45 23 10M14 15C14 13.9 13.11 13 12 13S10 13.9 10 15 10.9 17 12 17 14 16.11 14 15M15 9L12 4.74L9 9H15Z",
 "author": "Michael Irigoyen"
@@ -4794,7 +5482,7 @@ const icons = [
 {
 "icon": "basket",
 "google": "true",
-"search": "basket,shopping-basket,shopping",
+"search": "basket,shopping-basket,skip,shopping",
 "name": "basket",
 "path": "M5.5,21C4.72,21 4.04,20.55 3.71,19.9V19.9L1.1,10.44L1,10A1,1 0 0,1 2,9H6.58L11.18,2.43C11.36,2.17 11.66,2 12,2C12.34,2 12.65,2.17 12.83,2.44L17.42,9H22A1,1 0 0,1 23,10L22.96,10.29L20.29,19.9C19.96,20.55 19.28,21 18.5,21H5.5M12,4.74L9,9H15L12,4.74M12,13A2,2 0 0,0 10,15A2,2 0 0,0 12,17A2,2 0 0,0 14,15A2,2 0 0,0 12,13Z",
 "author": "Google"
@@ -4826,10 +5514,26 @@ const icons = [
 {
 "icon": "bat",
 "google": "false",
-"search": "bat,holiday",
+"search": "bat,holiday,animal",
 "name": "bat",
 "path": "M0.75,8C0.75,8 5,7 8,9C8,9 8.5,12.75 10.5,12.75V11C10.5,11 11,12 12,12C13,12 13.5,11 13.5,11V12.75C15.5,12.75 16,9 16,9C19,7 23.25,8 23.25,8C21.25,9 21,12.5 21,12.5C17,12.5 17,15.75 17,15.75C12,14.75 12,18.5 12,18.5C12,18.5 12,14.75 7,15.75C7,15.75 7,12.5 3,12.5C3,12.5 2.75,9 0.75,8Z",
 "author": "Austin Andrews"
+},
+{
+"icon": "bathtub-outline",
+"google": "true",
+"search": "bathtub-outline,home automation",
+"name": "bathtub-outline",
+"path": "M7 5C8.11 5 9 5.9 9 7S8.11 9 7 9 5 8.11 5 7 5.9 5 7 5M20 13V4.83C20 3.27 18.73 2 17.17 2C16.42 2 15.7 2.3 15.17 2.83L13.92 4.08C13.76 4.03 13.59 4 13.41 4C13 4 12.64 4.12 12.33 4.32L15.09 7.08C15.29 6.77 15.41 6.4 15.41 6C15.41 5.82 15.38 5.66 15.34 5.5L16.59 4.24C16.74 4.09 16.95 4 17.17 4C17.63 4 18 4.37 18 4.83V13H11.15C10.85 12.79 10.58 12.55 10.33 12.28L8.93 10.73C8.74 10.5 8.5 10.35 8.24 10.23C7.93 10.08 7.59 10 7.24 10C6 10 5 11 5 12.25V13H2V19C2 20.1 2.9 21 4 21C4 21.55 4.45 22 5 22H19C19.55 22 20 21.55 20 21C21.1 21 22 20.1 22 19V13H20M20 19H4V15H20V19Z",
+"author": "Google"
+},
+{
+"icon": "bathtub",
+"google": "true",
+"search": "bathtub,home automation",
+"name": "bathtub",
+"path": "M7 5C8.11 5 9 5.9 9 7S8.11 9 7 9 5 8.11 5 7 5.9 5 7 5M20 13V4.83C20 3.27 18.73 2 17.17 2C16.42 2 15.7 2.3 15.17 2.83L13.92 4.08C13.76 4.03 13.59 4 13.41 4C13 4 12.64 4.12 12.33 4.32L15.09 7.08C15.29 6.77 15.41 6.4 15.41 6C15.41 5.82 15.38 5.66 15.34 5.5L16.59 4.24C16.74 4.09 16.95 4 17.17 4C17.63 4 18 4.37 18 4.83V13H11.15C10.85 12.79 10.58 12.55 10.33 12.28L8.93 10.73C8.74 10.5 8.5 10.35 8.24 10.23C7.93 10.08 7.59 10 7.24 10C6 10 5 11 5 12.25V13H2V19C2 20.1 2.9 21 4 21C4 21.55 4.45 22 5 22H19C19.55 22 20 21.55 20 21C21.1 21 22 20.1 22 19V13H20Z",
+"author": "Google"
 },
 {
 "icon": "battery-10-bluetooth",
@@ -5006,6 +5710,38 @@ const icons = [
 "name": "battery-alert",
 "path": "M13 14H11V8H13M13 18H11V16H13M16.7 4H15V2H9V4H7.3C6.6 4 6 4.6 6 5.3V20.6C6 21.4 6.6 22 7.3 22H16.6C17.3 22 17.9 21.4 17.9 20.7V5.3C18 4.6 17.4 4 16.7 4Z",
 "author": "Google"
+},
+{
+"icon": "battery-arrow-down-outline",
+"google": "false",
+"search": "battery-arrow-down-outline",
+"name": "battery-arrow-down-outline",
+"path": "M13.54 22H7.33C6.6 22 6 21.4 6 20.67V5.33C6 4.6 6.6 4 7.33 4H9V2H15V4H16.67C17.4 4 18 4.6 18 5.33V12C17.3 12 16.63 12.13 16 12.35V6H8V20H12.35C12.61 20.75 13 21.42 13.54 22M14.94 18.5L17.94 21.5L20.94 18.5H18.94V14.5H16.94V18.5H14.94",
+"author": "François Risoud"
+},
+{
+"icon": "battery-arrow-down",
+"google": "false",
+"search": "battery-arrow-down",
+"name": "battery-arrow-down",
+"path": "M13.54 22H7.33C6.6 22 6 21.4 6 20.67V5.33C6 4.6 6.6 4 7.33 4H9V2H15V4H16.67C17.4 4 18 4.6 18 5.33V12C14.69 12 12 14.69 12 18C12 19.54 12.58 20.94 13.54 22M14.94 18.5L17.94 21.5L20.94 18.5H18.94V14.5H16.94V18.5H14.94",
+"author": "François Risoud"
+},
+{
+"icon": "battery-arrow-up-outline",
+"google": "false",
+"search": "battery-arrow-up-outline",
+"name": "battery-arrow-up-outline",
+"path": "M13.54 22H7.33C6.6 22 6 21.4 6 20.67V5.33C6 4.6 6.6 4 7.33 4H9V2H15V4H16.67C17.4 4 18 4.6 18 5.33V12C17.3 12 16.63 12.13 16 12.35V6H8V20H12.35C12.61 20.75 13 21.42 13.54 22M20.94 17.5L17.94 14.5L14.94 17.5H16.94V21.5H18.94V17.5H20.94",
+"author": "François Risoud"
+},
+{
+"icon": "battery-arrow-up",
+"google": "false",
+"search": "battery-arrow-up",
+"name": "battery-arrow-up",
+"path": "M13.54 22H7.33C6.6 22 6 21.4 6 20.67V5.33C6 4.6 6.6 4 7.33 4H9V2H15V4H16.67C17.4 4 18 4.6 18 5.33V12C14.69 12 12 14.69 12 18C12 19.54 12.58 20.94 13.54 22M20.94 17.5L17.94 14.5L14.94 17.5H16.94V21.5H18.94V17.5H20.94",
+"author": "François Risoud"
 },
 {
 "icon": "battery-bluetooth-variant",
@@ -5240,6 +5976,22 @@ const icons = [
 "author": "Google"
 },
 {
+"icon": "battery-check-outline",
+"google": "false",
+"search": "battery-check-outline",
+"name": "battery-check-outline",
+"path": "M16.75 21.16L14 18.16L15.16 17L16.75 18.59L20.34 15L21.5 16.41L16.75 21.16M12.35 20H8V6H16V12.35C16.63 12.13 17.3 12 18 12V5.33C18 4.6 17.4 4 16.67 4H15V2H9V4H7.33C6.6 4 6 4.6 6 5.33V20.67C6 21.4 6.6 22 7.33 22H13.54C13 21.42 12.61 20.75 12.35 20Z",
+"author": "François Risoud"
+},
+{
+"icon": "battery-check",
+"google": "false",
+"search": "battery-check",
+"name": "battery-check",
+"path": "M16.75 21.16L14 18.16L15.16 17L16.75 18.59L20.34 15L21.5 16.41L16.75 21.16M12 18C12 14.69 14.69 12 18 12V5.33C18 4.6 17.4 4 16.67 4H15V2H9V4H7.33C6.6 4 6 4.6 6 5.33V20.67C6 21.4 6.6 22 7.33 22H13.54C12.58 20.94 12 19.54 12 18Z",
+"author": "François Risoud"
+},
+{
 "icon": "battery-heart-outline",
 "google": "false",
 "search": "battery-heart-outline,battery",
@@ -5272,6 +6024,22 @@ const icons = [
 "author": "Austin Andrews"
 },
 {
+"icon": "battery-lock-open",
+"google": "false",
+"search": "battery-lock-open,battery",
+"name": "battery-lock-open",
+"path": "M19.8 16H15.5V13.5C15.5 12.7 16.2 12.2 17 12.2S18.5 12.7 18.5 13.5V14H19.8V13.5C19.8 12.1 18.4 11 17 11S14.2 12.1 14.2 13.5V16C13.6 16 13 16.6 13 17.2V20.7C13 21.4 13.6 22 14.2 22H19.7C20.4 22 21 21.4 21 20.8V17.3C21 16.6 20.4 16 19.8 16M11.27 22H5.33C4.6 22 4 21.4 4 20.67V5.33C4 4.6 4.6 4 5.33 4H7V2H13V4H14.67C15.4 4 16 4.6 16 5.33V9.11C13.86 9.55 12.2 11.38 12.2 13.5V14.74C11.5 15.34 11 16.24 11 17.2V20.7C11 20.93 11.03 21.15 11.07 21.37L11.08 21.39C11.12 21.6 11.19 21.8 11.27 22Z",
+"author": "François Risoud"
+},
+{
+"icon": "battery-lock",
+"google": "false",
+"search": "battery-lock,battery",
+"name": "battery-lock",
+"path": "M19.8 16V14.5C19.8 13.1 18.4 12 17 12S14.2 13.1 14.2 14.5V16C13.6 16 13 16.6 13 17.2V20.7C13 21.4 13.6 22 14.2 22H19.7C20.4 22 21 21.4 21 20.8V17.3C21 16.6 20.4 16 19.8 16M18.5 16H15.5V14.5C15.5 13.7 16.2 13.2 17 13.2S18.5 13.7 18.5 14.5V16M11.27 22H5.33C4.6 22 4 21.4 4 20.67V5.33C4 4.6 4.6 4 5.33 4H7V2H13V4H14.67C15.4 4 16 4.6 16 5.33V10.11C13.86 10.55 12.2 12.38 12.2 14.5V14.74C11.5 15.34 11 16.24 11 17.2V20.7C11 21.16 11.1 21.6 11.27 22Z",
+"author": "François Risoud"
+},
+{
 "icon": "battery-low",
 "google": "false",
 "search": "battery-low,battery",
@@ -5288,12 +6056,28 @@ const icons = [
 "author": "Austin Andrews"
 },
 {
-"icon": "battery-minus",
+"icon": "battery-minus-outline",
 "google": "false",
-"search": "battery-minus,battery,home automation",
-"name": "battery-minus",
+"search": "battery-minus-outline",
+"name": "battery-minus-outline",
+"path": "M13.54 22H7.33C6.6 22 6 21.4 6 20.67V5.33C6 4.6 6.6 4 7.33 4H9V2H15V4H16.67C17.4 4 18 4.6 18 5.33V12C17.3 12 16.63 12.13 16 12.35V6H8V20H12.35C12.61 20.75 13 21.42 13.54 22M22 17V19H14V17H22Z",
+"author": "François Risoud"
+},
+{
+"icon": "battery-minus-variant",
+"google": "false",
+"search": "battery-minus-variant,battery,home automation",
+"name": "battery-minus-variant",
 "path": "M16.67,4C17.4,4 18,4.6 18,5.33V20.67A1.33,1.33 0 0,1 16.67,22H7.33C6.6,22 6,21.4 6,20.67V5.33A1.33,1.33 0 0,1 7.33,4H9V2H15V4H16.67M8,12V14H16V12",
 "author": "Austin Andrews"
+},
+{
+"icon": "battery-minus",
+"google": "false",
+"search": "battery-minus",
+"name": "battery-minus",
+"path": "M13.54 22H7.33C6.6 22 6 21.4 6 20.67V5.33C6 4.6 6.6 4 7.33 4H9V2H15V4H16.67C17.4 4 18 4.6 18 5.33V12C14.69 12 12 14.69 12 18C12 19.54 12.58 20.94 13.54 22M22 17V19H14V17H22Z",
+"author": "François Risoud"
 },
 {
 "icon": "battery-negative",
@@ -5328,12 +6112,28 @@ const icons = [
 "author": "Google"
 },
 {
-"icon": "battery-plus",
+"icon": "battery-plus-outline",
 "google": "false",
-"search": "battery-plus,battery-saver,battery-add,battery,home automation",
-"name": "battery-plus",
+"search": "battery-plus-outline",
+"name": "battery-plus-outline",
+"path": "M13.54 22H7.33C6.6 22 6 21.4 6 20.67V5.33C6 4.6 6.6 4 7.33 4H9V2H15V4H16.67C17.4 4 18 4.6 18 5.33V12C17.3 12 16.63 12.13 16 12.35V6H8V20H12.35C12.61 20.75 13 21.42 13.54 22M22 17V19H19V22H17V19H14V17H17V14H19V17H22Z",
+"author": "François Risoud"
+},
+{
+"icon": "battery-plus-variant",
+"google": "false",
+"search": "battery-plus-variant,battery-saver,battery-add,battery,home automation",
+"name": "battery-plus-variant",
 "path": "M16.67,4C17.4,4 18,4.6 18,5.33V20.67A1.33,1.33 0 0,1 16.67,22H7.33C6.6,22 6,21.4 6,20.67V5.33A1.33,1.33 0 0,1 7.33,4H9V2H15V4H16.67M16,14V12H13V9H11V12H8V14H11V17H13V14H16Z",
 "author": "Austin Andrews"
+},
+{
+"icon": "battery-plus",
+"google": "false",
+"search": "battery-plus",
+"name": "battery-plus",
+"path": "M13.54 22H7.33C6.6 22 6 21.4 6 20.67V5.33C6 4.6 6.6 4 7.33 4H9V2H15V4H16.67C17.4 4 18 4.6 18 5.33V12C14.69 12 12 14.69 12 18C12 19.54 12.58 20.94 13.54 22M22 17V19H19V22H17V19H14V17H17V14H19V17H22Z",
+"author": "François Risoud"
 },
 {
 "icon": "battery-positive",
@@ -5342,6 +6142,22 @@ const icons = [
 "name": "battery-positive",
 "path": "M11.67,4A1.33,1.33 0 0,1 13,5.33V20.67C13,21.4 12.4,22 11.67,22H2.33C1.6,22 1,21.4 1,20.67V5.33A1.33,1.33 0 0,1 2.33,4H4V2H10V4H11.67M23,14H20V17H18V14H15V12H18V9H20V12H23V14M3,13H11V6H3V13Z",
 "author": "Austin Andrews"
+},
+{
+"icon": "battery-remove-outline",
+"google": "false",
+"search": "battery-remove-outline",
+"name": "battery-remove-outline",
+"path": "M13.54 22H7.33C6.6 22 6 21.4 6 20.67V5.33C6 4.6 6.6 4 7.33 4H9V2H15V4H16.67C17.4 4 18 4.6 18 5.33V12C17.3 12 16.63 12.13 16 12.35V6H8V20H12.35C12.61 20.75 13 21.42 13.54 22M21.54 20.12L20.12 21.54L18 19.41L15.88 21.54L14.47 20.12L16.59 18L14.47 15.88L15.88 14.47L18 16.59L20.12 14.47L21.54 15.88L19.41 18L21.54 20.12Z",
+"author": "François Risoud"
+},
+{
+"icon": "battery-remove",
+"google": "false",
+"search": "battery-remove",
+"name": "battery-remove",
+"path": "M13.54 22H7.33C6.6 22 6 21.4 6 20.67V5.33C6 4.6 6.6 4 7.33 4H9V2H15V4H16.67C17.4 4 18 4.6 18 5.33V12C14.69 12 12 14.69 12 18C12 19.54 12.58 20.94 13.54 22M21.54 20.12L20.12 21.54L18 19.41L15.88 21.54L14.47 20.12L16.59 18L14.47 15.88L15.88 14.47L18 16.59L20.12 14.47L21.54 15.88L19.41 18L21.54 20.12Z",
+"author": "François Risoud"
 },
 {
 "icon": "battery-unknown-bluetooth",
@@ -5366,14 +6182,6 @@ const icons = [
 "name": "battery",
 "path": "M16.67,4H15V2H9V4H7.33A1.33,1.33 0 0,0 6,5.33V20.67C6,21.4 6.6,22 7.33,22H16.67A1.33,1.33 0 0,0 18,20.67V5.33C18,4.6 17.4,4 16.67,4Z",
 "author": "Google"
-},
-{
-"icon": "battlenet",
-"google": "false",
-"search": "battlenet,battle-net,brand,logo,gaming,rpg",
-"name": "battlenet",
-"path": "M19.92,10.76C19.92,10.76 22.5,12.24 22.5,13.89C22.5,15.5 19.5,16.06 16.18,15.9C16.18,15.9 14.77,17.87 13.42,18.7C14.88,21.44 16,22.5 15.97,22.5C15.97,22.5 15.23,22.69 13,19.04C11.66,19.89 10.17,20.23 9.56,19.7C8.94,19.17 9.42,18.28 9.68,17.85C9.41,18 8,18.83 6.75,18.83C5.26,18.83 5.05,17.72 5.05,17.15C5.05,15 7.12,12 7.12,12C7.12,12 6.16,9.88 6.05,8.22C4.17,8.06 2,8.39 1.53,8.54C1.4,8.54 1.84,8.22 2,8.18C2.15,8.13 3.91,7.67 6,7.67C6,5.93 6.35,4.33 7.41,4.33C8.13,4.33 8.71,5.45 8.71,5.45C8.71,5.45 8.7,1.5 10.74,1.5C12.8,1.5 15,6.11 15,6.11C15,6.11 17.22,6.32 18.85,7.09C19.5,5.73 20.09,5.11 20.81,3C21,3.7 20.2,5.5 19.35,7.3V7.3H19.35C19.35,7.3 21.65,8.5 21.65,9.83C21.65,10.84 19.92,10.76 19.92,10.76M10.68,18.58C11.36,18.69 12.41,18.1 12.4,18.1L11.58,16.57L10.4,17.4C10.39,17.41 9.64,18.38 10.68,18.58M20.15,9.76C20.15,9.1 18.95,8.35 18.81,8.27L17.89,9.75L19.17,10.37C19.59,10.34 20.15,10.35 20.15,9.76M8,5.63C7.7,5.63 7.09,6.07 7.09,7.64L8.83,7.7L8.72,6.3C8.6,6 8.3,5.63 8,5.63M10.18,15.78C8.92,15.13 8.16,14.06 7.54,12.9C7.54,12.9 5.96,15.55 6.97,16.22C8,16.89 9.64,16.16 10.18,15.78M12.97,17.76C14.11,16.89 17.19,14.73 17.45,11.08C14.57,9.44 10.62,8.71 10.62,8.71C10.62,8.71 10.61,8.21 10.7,7.86C11.64,7.97 14.59,8.47 17.03,9.43C16.35,8.28 15.84,7.85 15.37,7.5C16.53,7.76 17.36,9.26 17.36,9.26L18.28,7.96C18.28,7.96 13.91,5.61 10.19,7.42C10.11,10.3 11.59,14.56 11.59,14.56L10.82,14.89C10.3,13.84 9.63,12.09 9,8.67C8.7,9.08 8.17,9.55 8.16,11.09C7.7,9.8 8.66,8.43 8.67,8.42L7.07,8.26C7.17,9.92 8.05,14.2 10.68,15.53C13,14.21 15.5,11.54 16.13,10.77L16.82,11.28L12.35,15.97C13.59,16 14.32,15.72 14.82,15.5C14.1,16.25 12.86,16.32 12.27,16.32C12.28,16.34 12.57,17.07 12.97,17.76M14.03,6.05C14,5.97 12.66,3.69 11.47,3.86C10.69,4.11 10.24,5.43 10.23,6.87C10.76,6.56 12,6 14.03,6.05M16.71,15.07C16.71,15.07 20,15 19.9,13.76C19.9,12.56 17.92,11.33 17.92,11.35C17.93,13.47 16.71,15.07 16.71,15.07Z",
-"author": "Contributors"
 },
 {
 "icon": "beach",
@@ -5656,6 +6464,22 @@ const icons = [
 "author": "Simran"
 },
 {
+"icon": "bell-badge-outline",
+"google": "false",
+"search": "bell-badge-outline,bell-notification-outline,notification",
+"name": "bell-badge-outline",
+"path": "M21 6.5C21 8.43 19.43 10 17.5 10S14 8.43 14 6.5 15.57 3 17.5 3 21 4.57 21 6.5M11.5 22C12.61 22 13.5 21.11 13.5 20H9.5C9.5 21.11 10.4 22 11.5 22M18 12C17.84 12 17.67 12 17.5 12C17 12 16.5 11.92 16 11.79V17H7V10.5C7 8 9 6 11.5 6C11.68 6 11.85 6.03 12 6.05C12.1 5.06 12.45 4.14 13 3.37C12.92 2.6 12.28 2 11.5 2C10.67 2 10 2.67 10 3.5V4.18C7.13 4.86 5 7.43 5 10.5V16L3 18V19H20V18L18 16V12Z",
+"author": "Michael Irigoyen"
+},
+{
+"icon": "bell-badge",
+"google": "false",
+"search": "bell-badge,bell-notification,notification",
+"name": "bell-badge",
+"path": "M21 6.5C21 8.43 19.43 10 17.5 10S14 8.43 14 6.5 15.57 3 17.5 3 21 4.57 21 6.5M19 11.79C18.5 11.92 18 12 17.5 12C14.47 12 12 9.53 12 6.5C12 5.03 12.58 3.7 13.5 2.71C13.15 2.28 12.61 2 12 2C10.9 2 10 2.9 10 4V4.29C7.03 5.17 5 7.9 5 11V17L3 19V20H21V19L19 17V11.79M12 23C13.11 23 14 22.11 14 21H10C10 22.11 10.9 23 12 23Z",
+"author": "Michael Irigoyen"
+},
+{
 "icon": "bell-cancel-outline",
 "google": "false",
 "search": "bell-cancel-outline,notification",
@@ -5740,7 +6564,7 @@ const icons = [
 "google": "true",
 "search": "bell-outline,notifications-none,notification,music",
 "name": "bell-outline",
-"path": "M16,17H7V10.5C7,8 9,6 11.5,6C14,6 16,8 16,10.5M18,16V10.5C18,7.43 15.86,4.86 13,4.18V3.5A1.5,1.5 0 0,0 11.5,2A1.5,1.5 0 0,0 10,3.5V4.18C7.13,4.86 5,7.43 5,10.5V16L3,18V19H20V18M11.5,22A2,2 0 0,0 13.5,20H9.5A2,2 0 0,0 11.5,22Z",
+"path": "M10 21H14C14 22.1 13.1 23 12 23S10 22.1 10 21M21 19V20H3V19L5 17V11C5 7.9 7 5.2 10 4.3V4C10 2.9 10.9 2 12 2S14 2.9 14 4V4.3C17 5.2 19 7.9 19 11V17L21 19M17 11C17 8.2 14.8 6 12 6S7 8.2 7 11V18H17V11Z",
 "author": "Google"
 },
 {
@@ -5968,6 +6792,14 @@ const icons = [
 "author": "Contributors"
 },
 {
+"icon": "blender-outline",
+"google": "true",
+"search": "blender-outline,food-processor-outline,home automation,food,drink",
+"name": "blender-outline",
+"path": "M16.13 15.13L18 3H14V2H10V3H5C3.9 3 3 3.9 3 5V9C3 10.1 3.9 11 5 11H7.23L7.87 15.13C6.74 16.05 6 17.43 6 19V20C6 21.1 6.9 22 8 22H16C17.1 22 18 21.1 18 20V19C18 17.43 17.26 16.05 16.13 15.13M5 9V5H6.31L6.93 9H5M15.67 5L14.29 14H9.72L8.33 5H15.67M16 20H8V19C8 17.35 9.35 16 11 16H13C14.65 16 16 17.35 16 19V20M12 17C12.55 17 13 17.45 13 18S12.55 19 12 19 11 18.55 11 18 11.45 17 12 17Z",
+"author": "Google"
+},
+{
 "icon": "blender-software",
 "google": "false",
 "search": "blender-software,brand,logo",
@@ -5977,11 +6809,11 @@ const icons = [
 },
 {
 "icon": "blender",
-"google": "false",
-"search": "blender",
+"google": "true",
+"search": "blender,food-processor,food,drink,home automation",
 "name": "blender",
-"path": "M19,5H17.8L18,2H4L5,4H6L6.94,16.19L5,22H19L17.06,16.17L17.2,14H19C20.3,14 21,12.97 21,12V7C21,5.7 19.97,5 19,5M12,20A1.5,1.5 0 0,1 10.5,18.5A1.5,1.5 0 0,1 12,17A1.5,1.5 0 0,1 13.5,18.5A1.5,1.5 0 0,1 12,20M15.13,15H8.85L8.7,13H13V12H8.62L8.47,10H13V9H8.39L8.24,7H13V6H8.16L8,4H15.86L15.13,15M19,12H17.33L17.67,7H19V12Z",
-"author": "Michael Irigoyen"
+"path": "M16.13 15.13L18 3H14V2H10V3H5C3.9 3 3 3.9 3 5V9C3 10.1 3.9 11 5 11H7.23L7.87 15.13C6.74 16.05 6 17.43 6 19V20C6 21.1 6.9 22 8 22H16C17.1 22 18 21.1 18 20V19C18 17.43 17.26 16.05 16.13 15.13M5 9V5H6.31L6.93 9H5M12 19C11.45 19 11 18.55 11 18S11.45 17 12 17 13 17.45 13 18 12.55 19 12 19M14.29 14H9.72L8.33 5H15.67L14.29 14Z",
+"author": "Google"
 },
 {
 "icon": "blinds-open",
@@ -6006,14 +6838,6 @@ const icons = [
 "name": "block-helper",
 "path": "M12,0A12,12 0 0,1 24,12A12,12 0 0,1 12,24A12,12 0 0,1 0,12A12,12 0 0,1 12,0M12,2A10,10 0 0,0 2,12C2,14.4 2.85,16.6 4.26,18.33L18.33,4.26C16.6,2.85 14.4,2 12,2M12,22A10,10 0 0,0 22,12C22,9.6 21.15,7.4 19.74,5.67L5.67,19.74C7.4,21.15 9.6,22 12,22Z",
 "author": "Austin Andrews"
-},
-{
-"icon": "blogger",
-"google": "true",
-"search": "blogger,brand,logo",
-"name": "blogger",
-"path": "M12.5 10H10C9.45 10 9 9.55 9 9C9 8.45 9.45 8 10 8H12.5C13.05 8 13.5 8.45 13.5 9C13.5 9.55 13.05 10 12.5 10M15 14C15 13.45 14.55 13 14 13H10C9.45 13 9 13.45 9 14C9 14.55 9.45 15 10 15H14C14.55 15 15 14.55 15 14M22 4V20C22 21.11 21.11 22 20 22H4C2.89 22 2 21.11 2 20V4C2 2.89 2.89 2 4 2H20C21.11 2 22 2.89 22 4M18 12C18 12 18 11 17 11C16.05 11.03 16 10 16 10L16 8C16 6.34 14.66 5 13 5H9C7.34 5 6 6.34 6 8V15C6 16.66 7.34 18 9 18H15C16.66 18 18 16.66 18 15L18 12Z",
-"author": "Google"
 },
 {
 "icon": "blood-bag",
@@ -6104,14 +6928,6 @@ const icons = [
 "author": "Google"
 },
 {
-"icon": "bolnisi-cross",
-"google": "false",
-"search": "bolnisi-cross,religion",
-"name": "bolnisi-cross",
-"path": "M22,7L21.5,6.5C19.93,8 18.47,9.4 16.93,10.18C15.5,10.91 14.44,10.91 13,11C13.09,9.56 13.09,8.5 13.82,7.07C14.6,5.53 16,4.07 17.5,2.5L17,2C15.32,3.23 13.64,3.83 12,3.83C10.36,3.83 8.68,3.23 7,2L6.5,2.5C8,4.07 9.4,5.53 10.18,7.07C10.91,8.5 10.91,9.56 11,11C9.56,10.91 8.5,10.91 7.07,10.18C5.53,9.4 4.06,8 2.5,6.5L2,7C3.23,8.68 3.83,10.36 3.83,12C3.83,13.64 3.23,15.32 2,17L2.5,17.5C4.07,16 5.53,14.6 7.07,13.82C8.5,13.09 9.56,13.09 11,13C10.91,14.44 10.91,15.5 10.18,16.93C9.4,18.47 8,19.93 6.5,21.5L7,22C8.68,20.77 10.36,20.17 12,20.17C13.64,20.17 15.32,20.77 17,22L17.5,21.5C16,19.93 14.6,18.47 13.82,16.93C13.09,15.5 13.09,14.44 13,13C14.44,13.09 15.5,13.09 16.93,13.82C18.47,14.6 19.93,16 21.5,17.5L22,17C20.77,15.32 20.17,13.64 20.17,12C20.17,10.36 20.77,8.68 22,7Z",
-"author": "Michael Irigoyen"
-},
-{
 "icon": "bolt",
 "google": "false",
 "search": "bolt,hardware,tools",
@@ -6162,7 +6978,7 @@ const icons = [
 {
 "icon": "book-alert-outline",
 "google": "false",
-"search": "book-alert-outline",
+"search": "book-alert-outline,alert,error",
 "name": "book-alert-outline",
 "path": "M16 2H4C2.9 2 2 2.9 2 4V20C2 21.11 2.9 22 4 22H16C17.11 22 18 21.11 18 20V4C18 2.9 17.11 2 16 2M16 20H4V4H6V12L8.5 9.75L11 12V4H16V20M20 15H22V17H20V15M22 7V13H20V7H22Z",
 "author": "Colton Wiscombe"
@@ -6170,7 +6986,7 @@ const icons = [
 {
 "icon": "book-alert",
 "google": "false",
-"search": "book-alert",
+"search": "book-alert,alert,error",
 "name": "book-alert",
 "path": "M18 4V20C18 21.11 17.11 22 16 22H4C2.9 22 2 21.11 2 20V4C2 2.9 2.9 2 4 2H5V9L7.5 7.5L10 9V2H16C17.1 2 18 2.89 18 4M20 17H22V15H20V17M20 7V13H22V7H20Z",
 "author": "Colton Wiscombe"
@@ -6394,7 +7210,7 @@ const icons = [
 {
 "icon": "book-marker-outline",
 "google": "false",
-"search": "book-marker-outline",
+"search": "book-marker-outline,book-location-outline",
 "name": "book-marker-outline",
 "path": "M14.55 20C15 20.76 15.5 21.44 15.91 22H6C4.89 22 4 21.11 4 20V4C4 2.9 4.89 2 6 2H18C19.11 2 20 2.9 20 4V10.22C19.5 10.08 19 10 18.5 10C18.33 10 18.17 10 18 10.03V4H13V12L10.5 9.75L8 12V4H6V20H14.55M22 15.5C22 18.1 18.5 22 18.5 22S15 18.1 15 15.5C15 13.6 16.6 12 18.5 12S22 13.6 22 15.5M19.7 15.6C19.7 15 19.1 14.4 18.5 14.4S17.3 14.9 17.3 15.6C17.3 16.2 17.8 16.8 18.5 16.8S19.8 16.2 19.7 15.6Z",
 "author": "Colton Wiscombe"
@@ -6402,7 +7218,7 @@ const icons = [
 {
 "icon": "book-marker",
 "google": "false",
-"search": "book-marker",
+"search": "book-marker,book-location",
 "name": "book-marker",
 "path": "M13 15.5C13 17.78 14.7 20.41 15.91 22H6C4.89 22 4 21.11 4 20V4C4 2.9 4.89 2 6 2H7V9L9.5 7.5L12 9V2H18C19.1 2 20 2.89 20 4V10.22C19.5 10.08 19 10 18.5 10C15.5 10 13 12.5 13 15.5M22 15.5C22 18.1 18.5 22 18.5 22S15 18.1 15 15.5C15 13.6 16.6 12 18.5 12S22 13.6 22 15.5M19.7 15.6C19.7 15 19.1 14.4 18.5 14.4S17.3 14.9 17.3 15.6C17.3 16.2 17.8 16.8 18.5 16.8S19.8 16.2 19.7 15.6Z",
 "author": "Colton Wiscombe"
@@ -6864,19 +7680,35 @@ const icons = [
 "author": "Michael Richins"
 },
 {
-"icon": "boom-gate-down-outline",
+"icon": "boom-gate-arrow-down-outline",
 "google": "false",
-"search": "boom-gate-down-outline,boom-arm-down-outline,boom-barrier-down-outline,arm-barrier-down-outline,barrier-down-outline,automatic-gate-down-outline,transportation + road",
-"name": "boom-gate-down-outline",
+"search": "boom-gate-arrow-down-outline,boom-arm-down-outline,boom-barrier-down-outline,arm-barrier-down-outline,barrier-down-outline,automatic-gate-down-outline,transportation + road",
+"name": "boom-gate-arrow-down-outline",
 "path": "M19.86,3C20.41,3.96 20.08,5.18 19.12,5.73L9,11.58V20A1,1 0 0,1 10,21V22H2V21A1,1 0 0,1 3,20V11A3,3 0 0,1 6,8C6.31,8 6.62,8.06 6.92,8.16L17.12,2.27C18.09,1.71 19.31,2.04 19.86,3M7.5,20V13.6C6.57,14.14 5.43,14.14 4.5,13.6V20H7.5M6,12.5A1.5,1.5 0 0,0 7.5,11A1.5,1.5 0 0,0 6,9.5A1.5,1.5 0 0,0 4.5,11A1.5,1.5 0 0,0 6,12.5M10.4,9.62L11.7,8.87L9.4,7.87L8.1,8.62L10.4,9.62M13.86,7.62L15.16,6.87L12.86,5.87L11.56,6.62L13.86,7.62M17.33,5.62L18.62,4.87L16.33,3.87L15.03,4.62L17.33,5.62M16,11.16H18V16.17L21,16.16L17,20L13,16.16L16,16.17V11.16Z",
 "author": "Michael Richins"
 },
 {
-"icon": "boom-gate-down",
+"icon": "boom-gate-arrow-down",
 "google": "false",
-"search": "boom-gate-down,boom-arm-down,boom-barrier-down,arm-barrier-down,barrier-down,automatic-gate-down,transportation + road",
-"name": "boom-gate-down",
+"search": "boom-gate-arrow-down,boom-arm-down,boom-barrier-down,arm-barrier-down,barrier-down,automatic-gate-down,transportation + road",
+"name": "boom-gate-arrow-down",
 "path": "M19.86,3C19.31,2.04 18.09,1.71 17.12,2.27L6.92,8.16C6.62,8.06 6.31,8 6,8A3,3 0 0,0 3,11V20A1,1 0 0,0 2,21V22H10V21A1,1 0 0,0 9,20V11.58L19.12,5.73C20.08,5.18 20.41,3.96 19.86,3M6,12.5A1.5,1.5 0 0,1 4.5,11A1.5,1.5 0 0,1 6,9.5A1.5,1.5 0 0,1 7.5,11A1.5,1.5 0 0,1 6,12.5M10.4,9.62L8.1,8.62L9.4,7.87L11.7,8.87L10.4,9.62M13.86,7.62L11.56,6.62L12.86,5.87L15.16,6.87L13.86,7.62M17.33,5.62L15.03,4.62L16.33,3.87L18.62,4.87L17.33,5.62M17,20L12,15H15V11H19V15H22L17,20",
+"author": "Michael Richins"
+},
+{
+"icon": "boom-gate-arrow-up-outline",
+"google": "false",
+"search": "boom-gate-arrow-up-outline,boom-arm-up-outline,boom-barrier-up-outline,arm-barrier-up-outline,barrier-up-outline,automatic-gate-up-outline,transportation + road",
+"name": "boom-gate-arrow-up-outline",
+"path": "M19.86,3C20.41,3.96 20.08,5.18 19.12,5.73L9,11.58V20A1,1 0 0,1 10,21V22H2V21A1,1 0 0,1 3,20V11A3,3 0 0,1 6,8C6.31,8 6.62,8.06 6.92,8.16L17.12,2.27C18.09,1.71 19.31,2.04 19.86,3M7.5,20V13.6C6.57,14.14 5.43,14.14 4.5,13.6V20H7.5M6,12.5A1.5,1.5 0 0,0 7.5,11A1.5,1.5 0 0,0 6,9.5A1.5,1.5 0 0,0 4.5,11A1.5,1.5 0 0,0 6,12.5M10.4,9.62L11.7,8.87L9.4,7.87L8.1,8.62L10.4,9.62M13.86,7.62L15.16,6.87L12.86,5.87L11.56,6.62L13.86,7.62M17.33,5.62L18.62,4.87L16.33,3.87L15.03,4.62L17.33,5.62M16,20V15H13L17,11.16L21,15H18V20H16Z",
+"author": "Michael Richins"
+},
+{
+"icon": "boom-gate-arrow-up",
+"google": "false",
+"search": "boom-gate-arrow-up,boom-arm-up,boom-barrier-up,arm-barrier-up,barrier-up,automatic-gate-up,transportation + road",
+"name": "boom-gate-arrow-up",
+"path": "M19.86,3C19.31,2.04 18.09,1.71 17.12,2.27L6.92,8.16C6.62,8.06 6.31,8 6,8A3,3 0 0,0 3,11V20A1,1 0 0,0 2,21V22H10V21A1,1 0 0,0 9,20V11.58L19.12,5.73C20.08,5.18 20.41,3.96 19.86,3M6,12.5A1.5,1.5 0 0,1 4.5,11A1.5,1.5 0 0,1 6,9.5A1.5,1.5 0 0,1 7.5,11A1.5,1.5 0 0,1 6,12.5M10.4,9.62L8.1,8.62L9.4,7.87L11.7,8.87L10.4,9.62M13.86,7.62L11.56,6.62L12.86,5.87L15.16,6.87L13.86,7.62M17.33,5.62L15.03,4.62L16.33,3.87L18.62,4.87L17.33,5.62M17,11L22,16H19V20H15V16H12L17,11",
 "author": "Michael Richins"
 },
 {
@@ -6890,18 +7722,18 @@ const icons = [
 {
 "icon": "boom-gate-up-outline",
 "google": "false",
-"search": "boom-gate-up-outline,boom-arm-up-outline,boom-barrier-up-outline,arm-barrier-up-outline,barrier-up-outline,automatic-gate-up-outline,transportation + road",
+"search": "boom-gate-up-outline,boom-arm-up-outline,boom-barrier-up-outline,arm-barrier-up-outline,barrier-up-outline,automatic-gate-up-outline,transportation + road,home automation",
 "name": "boom-gate-up-outline",
-"path": "M19.86,3C20.41,3.96 20.08,5.18 19.12,5.73L9,11.58V20A1,1 0 0,1 10,21V22H2V21A1,1 0 0,1 3,20V11A3,3 0 0,1 6,8C6.31,8 6.62,8.06 6.92,8.16L17.12,2.27C18.09,1.71 19.31,2.04 19.86,3M7.5,20V13.6C6.57,14.14 5.43,14.14 4.5,13.6V20H7.5M6,12.5A1.5,1.5 0 0,0 7.5,11A1.5,1.5 0 0,0 6,9.5A1.5,1.5 0 0,0 4.5,11A1.5,1.5 0 0,0 6,12.5M10.4,9.62L11.7,8.87L9.4,7.87L8.1,8.62L10.4,9.62M13.86,7.62L15.16,6.87L12.86,5.87L11.56,6.62L13.86,7.62M17.33,5.62L18.62,4.87L16.33,3.87L15.03,4.62L17.33,5.62M16,20V15H13L17,11.16L21,15H18V20H16Z",
-"author": "Michael Richins"
+"path": "M19.9 3C19.3 2 18.1 1.7 17.2 2.3L6.9 8.2C6.6 8.1 6.3 8 6 8C4.3 8 3 9.3 3 11V20C2.4 20 2 20.4 2 21V22H10V21C10 20.4 9.6 20 9 20V11.6L19.1 5.8C20.1 5.2 20.4 4 19.9 3M7.5 20H4.5V13.6C5.4 14.1 6.6 14.1 7.5 13.6V20M6 12.5C5.2 12.5 4.5 11.8 4.5 11S5.2 9.5 6 9.5 7.5 10.2 7.5 11 6.8 12.5 6 12.5M10.4 9.6L8.1 8.6L9.4 7.8L11.7 8.8L10.4 9.6M13.9 7.6L11.6 6.6L12.9 5.8L15.2 6.8L13.9 7.6M17.3 5.6L15 4.6L16.3 3.8L18.6 4.8L17.3 5.6",
+"author": "Michael Irigoyen"
 },
 {
 "icon": "boom-gate-up",
 "google": "false",
-"search": "boom-gate-up,boom-arm-up,boom-barrier-up,arm-barrier-up,barrier-up,automatic-gate-up,transportation + road",
+"search": "boom-gate-up,boom-arm-up,boom-barrier-up,arm-barrier-up,barrier-up,automatic-gate-up,transportation + road,home automation",
 "name": "boom-gate-up",
-"path": "M19.86,3C19.31,2.04 18.09,1.71 17.12,2.27L6.92,8.16C6.62,8.06 6.31,8 6,8A3,3 0 0,0 3,11V20A1,1 0 0,0 2,21V22H10V21A1,1 0 0,0 9,20V11.58L19.12,5.73C20.08,5.18 20.41,3.96 19.86,3M6,12.5A1.5,1.5 0 0,1 4.5,11A1.5,1.5 0 0,1 6,9.5A1.5,1.5 0 0,1 7.5,11A1.5,1.5 0 0,1 6,12.5M10.4,9.62L8.1,8.62L9.4,7.87L11.7,8.87L10.4,9.62M13.86,7.62L11.56,6.62L12.86,5.87L15.16,6.87L13.86,7.62M17.33,5.62L15.03,4.62L16.33,3.87L18.62,4.87L17.33,5.62M17,11L22,16H19V20H15V16H12L17,11",
-"author": "Michael Richins"
+"path": "M19.9 3C19.3 2 18.1 1.7 17.2 2.3L6.9 8.2C6.6 8.1 6.3 8 6 8C4.3 8 3 9.3 3 11V20C2.4 20 2 20.4 2 21V22H10V21C10 20.4 9.6 20 9 20V11.6L19.1 5.8C20.1 5.2 20.4 4 19.9 3M6 12.5C5.2 12.5 4.5 11.8 4.5 11S5.2 9.5 6 9.5 7.5 10.2 7.5 11 6.8 12.5 6 12.5M10.4 9.6L8.1 8.6L9.4 7.8L11.7 8.8L10.4 9.6M13.9 7.6L11.6 6.6L12.9 5.8L15.2 6.8L13.9 7.6M17.3 5.6L15 4.6L16.3 3.8L18.6 4.8L17.3 5.6",
+"author": "Michael Irigoyen"
 },
 {
 "icon": "boom-gate",
@@ -7384,6 +8216,22 @@ const icons = [
 "author": "Contributors"
 },
 {
+"icon": "briefcase-eye-outline",
+"google": "false",
+"search": "briefcase-eye-outline,briefcase-view-outline",
+"name": "briefcase-eye-outline",
+"path": "M17 18C17.6 18 18 18.4 18 19S17.6 20 17 20 16 19.6 16 19 16.4 18 17 18M17 15C14.3 15 11.9 16.7 11 19C11.9 21.3 14.3 23 17 23S22.1 21.3 23 19C22.1 16.7 19.7 15 17 15M17 21.5C15.6 21.5 14.5 20.4 14.5 19S15.6 16.5 17 16.5 19.5 17.6 19.5 19 18.4 21.5 17 21.5M9.1 19.7L8.8 19H4V8H20V13.6C20.7 13.9 21.4 14.2 22 14.7V8C22 7.5 21.8 7 21.4 6.6C21 6.2 20.6 6 20 6H16V4C16 3.4 15.8 3 15.4 2.6C15 2.2 14.6 2 14 2H10C9.4 2 9 2.2 8.6 2.6C8.2 3 8 3.4 8 4V6H4C3.4 6 3 6.2 2.6 6.6C2.2 7 2 7.5 2 8V19C2 19.5 2.2 20 2.6 20.4C3 20.8 3.4 21 4 21H9.8C9.5 20.6 9.3 20.2 9.1 19.7M10 4H14V6H10V4Z",
+"author": "Contributors"
+},
+{
+"icon": "briefcase-eye",
+"google": "false",
+"search": "briefcase-eye,briefcase-view",
+"name": "briefcase-eye",
+"path": "M17 18C17.6 18 18 18.4 18 19S17.6 20 17 20 16 19.6 16 19 16.4 18 17 18M9.1 19.7L8.8 19L9.1 18.3C10.4 15.1 13.5 13 17 13C18.9 13 20.6 13.6 22 14.6V8C22 6.9 21.1 6 20 6H16V4C16 2.9 15.1 2 14 2H10C8.9 2 8 2.9 8 4V6H4C2.9 6 2 6.9 2 8V19C2 20.1 2.9 21 4 21H9.8C9.5 20.6 9.3 20.2 9.1 19.7M10 4H14V6H10V4M17 15C14.3 15 11.9 16.7 11 19C11.9 21.3 14.3 23 17 23S22.1 21.3 23 19C22.1 16.7 19.7 15 17 15M17 21.5C15.6 21.5 14.5 20.4 14.5 19S15.6 16.5 17 16.5 19.5 17.6 19.5 19 18.4 21.5 17 21.5Z",
+"author": "Michael Irigoyen"
+},
+{
 "icon": "briefcase-minus-outline",
 "google": "false",
 "search": "briefcase-minus-outline",
@@ -7624,6 +8472,22 @@ const icons = [
 "author": "Austin Andrews"
 },
 {
+"icon": "brush-off",
+"google": "false",
+"search": "brush-off",
+"name": "brush-off",
+"path": "M20.8 22.7L12.4 14.3L11.8 15L9 12.2L9.7 11.5L1.1 3L2.4 1.7L22.1 21.4L20.8 22.7M7 14C5.3 14 4 15.3 4 17C4 18.3 2.8 19 2 19C2.9 20.2 4.5 21 6 21C8.2 21 10 19.2 10 17C10 15.3 8.7 14 7 14M20.7 6C21.1 5.6 21.1 5 20.7 4.6L19.4 3.3C19 2.9 18.4 2.9 18 3.3L12.2 9L15 11.8L20.7 6Z",
+"author": "Contributors"
+},
+{
+"icon": "brush-variant",
+"google": "true",
+"search": "brush-variant,paintbrush,drawing,art",
+"name": "brush-variant",
+"path": "M8 3C5.79 3 4 4.79 4 7V14C4 15.1 4.9 16 6 16H9V20C9 21.1 9.9 22 11 22H13C14.1 22 15 21.1 15 20V16H18C19.1 16 20 15.1 20 14V3H8M8 5H12V7H14V5H15V9H17V5H18V10H6V7C6 5.9 6.9 5 8 5M6 14V12H18V14H6Z",
+"author": "Google"
+},
+{
 "icon": "brush",
 "google": "true",
 "search": "brush,paintbrush,drawing,art",
@@ -7648,25 +8512,9 @@ const icons = [
 "author": "Austin Andrews"
 },
 {
-"icon": "buddhism",
-"google": "false",
-"search": "buddhism,dharmachakra,dharma-wheel,religion-buddhist,religion",
-"name": "buddhism",
-"path": "M11,2V3C9.27,3.2 7.69,3.9 6.4,4.94L5.64,4.18L4.22,5.6L5,6.35C3.9,7.68 3.21,9.3 3,11H2V13H3C3.21,14.68 3.9,16.26 5,17.56L4.22,18.32L5.64,19.74L6.39,19C7.71,20.07 9.3,20.77 11,21V22H13V21C14.69,20.77 16.29,20.07 17.6,19L18.36,19.74L19.78,18.32L19,17.57C20.1,16.27 20.79,14.68 21,13H22V11H21C20.79,9.3 20.1,7.69 19,6.36L19.78,5.6L18.36,4.18L17.61,4.94C16.29,3.87 14.69,3.2 13,3V2H11M11,5V8L10,8.5L7.81,6.35C8.72,5.67 9.81,5.17 11,5M13,5C14.16,5.18 15.26,5.64 16.2,6.35L14,8.5L13,8V5M6.4,7.76L8.5,10L8,11H5C5.16,9.84 5.7,8.7 6.39,7.75L6.4,7.76M17.6,7.76C18.33,8.71 18.81,9.82 19,11H16L15.5,10L17.61,7.76H17.6M12,10C13.12,10 14,10.88 14,12C14,13.12 13.12,14 12,14C10.88,14 10,13.12 10,12C10,10.88 10.88,10 12,10M5,13H8L8.57,14L6.39,16.15C5.67,15.24 5.19,14.16 5,13V13M16,13H19C18.81,14.15 18.33,15.24 17.61,16.16L15.5,14L16,13M10,15.5L11,16V19C9.83,18.8 8.73,18.31 7.8,17.57L10,15.5M14,15.5L16.19,17.57C15.28,18.25 14.19,18.83 13,19V16L14,15.5Z",
-"author": "Nick"
-},
-{
-"icon": "buffer",
-"google": "false",
-"search": "buffer,brand,logo",
-"name": "buffer",
-"path": "M12.6,2.86C15.27,4.1 18,5.39 20.66,6.63C20.81,6.7 21,6.75 21,6.95C21,7.15 20.81,7.19 20.66,7.26C18,8.5 15.3,9.77 12.62,11C12.21,11.21 11.79,11.21 11.38,11C8.69,9.76 6,8.5 3.32,7.25C3.18,7.19 3,7.14 3,6.94C3,6.76 3.18,6.71 3.31,6.65C6,5.39 8.74,4.1 11.44,2.85C11.73,2.72 12.3,2.73 12.6,2.86M12,21.15C11.8,21.15 11.66,21.07 11.38,20.97C8.69,19.73 6,18.47 3.33,17.22C3.19,17.15 3,17.11 3,16.9C3,16.7 3.19,16.66 3.34,16.59C3.78,16.38 4.23,16.17 4.67,15.96C5.12,15.76 5.56,15.76 6,15.97C7.79,16.8 9.57,17.63 11.35,18.46C11.79,18.67 12.23,18.66 12.67,18.46C14.45,17.62 16.23,16.79 18,15.96C18.44,15.76 18.87,15.75 19.29,15.95C19.77,16.16 20.24,16.39 20.71,16.61C20.78,16.64 20.85,16.68 20.91,16.73C21.04,16.83 21.04,17 20.91,17.08C20.83,17.14 20.74,17.19 20.65,17.23C18,18.5 15.33,19.72 12.66,20.95C12.46,21.05 12.19,21.15 12,21.15M12,16.17C11.9,16.17 11.55,16.07 11.36,16C8.68,14.74 6,13.5 3.34,12.24C3.2,12.18 3,12.13 3,11.93C3,11.72 3.2,11.68 3.35,11.61C3.8,11.39 4.25,11.18 4.7,10.97C5.13,10.78 5.56,10.78 6,11C7.78,11.82 9.58,12.66 11.38,13.5C11.79,13.69 12.21,13.69 12.63,13.5C14.43,12.65 16.23,11.81 18.04,10.97C18.45,10.78 18.87,10.78 19.29,10.97C19.76,11.19 20.24,11.41 20.71,11.63C20.77,11.66 20.84,11.69 20.9,11.74C21.04,11.85 21.04,12 20.89,12.12C20.84,12.16 20.77,12.19 20.71,12.22C18,13.5 15.31,14.75 12.61,16C12.42,16.09 12.08,16.17 12,16.17Z",
-"author": "Contributors"
-},
-{
 "icon": "buffet",
 "google": "false",
-"search": "buffet",
+"search": "buffet,sideboard,home automation",
 "name": "buffet",
 "path": "M9 14C9.55 14 10 14.45 10 15C10 15.55 9.55 16 9 16C8.45 16 8 15.55 8 15C8 14.45 8.45 14 9 14M15 14C15.55 14 16 14.45 16 15C16 15.55 15.55 16 15 16C14.45 16 14 15.55 14 15C14 14.45 14.45 14 15 14M3 22L4 19H3C2.45 19 2 18.55 2 18V12C2 11.45 2.45 11 3 11H21C21.55 11 22 11.45 22 12V18C22 18.55 21.55 19 21 19H20L21 22H19L18 19H6L5 22H3M13 13V17H20V13H13M4 13V17H11V13H4Z",
 "author": "nilsfast"
@@ -7674,7 +8522,7 @@ const icons = [
 {
 "icon": "bug-check-outline",
 "google": "false",
-"search": "bug-check-outline,bug-tick-outline",
+"search": "bug-check-outline,bug-tick-outline,animal",
 "name": "bug-check-outline",
 "path": "M18,7H15.19C14.74,6.2 14.12,5.5 13.37,5L15,3.41L13.59,2L11.42,4.17C10.96,4.06 10.5,4 10,4C9.5,4 9.05,4.06 8.59,4.17L6.41,2L5,3.41L6.62,5C5.87,5.5 5.26,6.21 4.81,7H2V9H4.09C4.03,9.33 4,9.66 4,10V11H2V13H4V14C4,14.34 4.03,14.67 4.09,15H2V17H4.81C6.26,19.5 9.28,20.61 12,19.65C12,19.43 12,19.22 12,19C12,18.43 12.09,17.86 12.25,17.31C11.59,17.76 10.8,18 10,18A4,4 0 0,1 6,14V10A4,4 0 0,1 10,6A4,4 0 0,1 14,10V14C14,14.19 14,14.39 13.95,14.58C14.54,14.04 15.24,13.62 16,13.35V13H18V11H16V10C16,9.66 15.97,9.33 15.91,9H18V7M21.34,16L17.75,19.59L16.16,18L15,19.16L17.75,22.16L22.5,17.41L21.34,16M12,9V11H8V9H12M12,13V15H8V13H12Z",
 "author": "Michael Richins"
@@ -7682,7 +8530,7 @@ const icons = [
 {
 "icon": "bug-check",
 "google": "false",
-"search": "bug-check,bug-tick",
+"search": "bug-check,bug-tick,animal",
 "name": "bug-check",
 "path": "M18,7H15.19C14.74,6.2 14.12,5.5 13.37,5L15,3.41L13.59,2L11.42,4.17C10.96,4.06 10.5,4 10,4C9.5,4 9.05,4.06 8.59,4.17L6.41,2L5,3.41L6.62,5C5.87,5.5 5.26,6.21 4.81,7H2V9H4.09C4.03,9.33 4,9.66 4,10V11H2V13H4V14C4,14.34 4.03,14.67 4.09,15H2V17H4.81C6.26,19.5 9.28,20.61 12,19.65C12,19.43 12,19.22 12,19C12,16.46 13.61,14.2 16,13.35V13H18V11H16V10C16,9.66 15.97,9.33 15.91,9H18V7M12,15H8V13H12V15M12,11H8V9H12V11M17.75,22.16L15,19.16L16.16,18L17.75,19.59L21.34,16L22.5,17.41L17.75,22.16Z",
 "author": "Michael Richins"
@@ -7690,7 +8538,7 @@ const icons = [
 {
 "icon": "bug-outline",
 "google": "true",
-"search": "bug-outline,nature",
+"search": "bug-outline,nature,animal",
 "name": "bug-outline",
 "path": "M20,8H17.19C16.74,7.2 16.12,6.5 15.37,6L17,4.41L15.59,3L13.42,5.17C12.96,5.06 12.5,5 12,5C11.5,5 11.05,5.06 10.59,5.17L8.41,3L7,4.41L8.62,6C7.87,6.5 7.26,7.21 6.81,8H4V10H6.09C6.03,10.33 6,10.66 6,11V12H4V14H6V15C6,15.34 6.03,15.67 6.09,16H4V18H6.81C8.47,20.87 12.14,21.84 15,20.18C15.91,19.66 16.67,18.9 17.19,18H20V16H17.91C17.97,15.67 18,15.34 18,15V14H20V12H18V11C18,10.66 17.97,10.33 17.91,10H20V8M16,15A4,4 0 0,1 12,19A4,4 0 0,1 8,15V11A4,4 0 0,1 12,7A4,4 0 0,1 16,11V15M14,10V12H10V10H14M10,14H14V16H10V14Z",
 "author": "Google"
@@ -7698,7 +8546,7 @@ const icons = [
 {
 "icon": "bug",
 "google": "true",
-"search": "bug,bug-report,nature",
+"search": "bug,bug-report,nature,animal",
 "name": "bug",
 "path": "M14,12H10V10H14M14,16H10V14H14M20,8H17.19C16.74,7.22 16.12,6.55 15.37,6.04L17,4.41L15.59,3L13.42,5.17C12.96,5.06 12.5,5 12,5C11.5,5 11.04,5.06 10.59,5.17L8.41,3L7,4.41L8.62,6.04C7.88,6.55 7.26,7.22 6.81,8H4V10H6.09C6.04,10.33 6,10.66 6,11V12H4V14H6V15C6,15.34 6.04,15.67 6.09,16H4V18H6.81C7.85,19.79 9.78,21 12,21C14.22,21 16.15,19.79 17.19,18H20V16H17.91C17.96,15.67 18,15.34 18,15V14H20V12H18V11C18,10.66 17.96,10.33 17.91,10H20V8Z",
 "author": "Google"
@@ -7738,7 +8586,7 @@ const icons = [
 {
 "icon": "bullhorn-outline",
 "google": "true",
-"search": "bullhorn-outline,announcement-outline,megaphone-outline",
+"search": "bullhorn-outline,announcement-outline,megaphone-outline,loudspeaker-outline",
 "name": "bullhorn-outline",
 "path": "M12,8H4A2,2 0 0,0 2,10V14A2,2 0 0,0 4,16H5V20A1,1 0 0,0 6,21H8A1,1 0 0,0 9,20V16H12L17,20V4L12,8M15,15.6L13,14H4V10H13L15,8.4V15.6M21.5,12C21.5,13.71 20.54,15.26 19,16V8C20.53,8.75 21.5,10.3 21.5,12Z",
 "author": "Google"
@@ -7746,7 +8594,7 @@ const icons = [
 {
 "icon": "bullhorn",
 "google": "true",
-"search": "bullhorn,announcement,megaphone",
+"search": "bullhorn,announcement,megaphone,loudspeaker",
 "name": "bullhorn",
 "path": "M12,8H4A2,2 0 0,0 2,10V14A2,2 0 0,0 4,16H5V20A1,1 0 0,0 6,21H8A1,1 0 0,0 9,20V16H12L17,20V4L12,8M21.5,12C21.5,13.71 20.54,15.26 19,16V8C20.53,8.75 21.5,10.3 21.5,12Z",
 "author": "Google"
@@ -7778,7 +8626,7 @@ const icons = [
 {
 "icon": "bunk-bed-outline",
 "google": "false",
-"search": "bunk-bed-outline",
+"search": "bunk-bed-outline,home automation",
 "name": "bunk-bed-outline",
 "path": "M1 2H3V9H10V3H19C21.2 3 23 4.8 23 7V23H21V21H3V23H1V2M12 5V9H21V7C21 5.9 20.1 5 19 5H12M3 11V19H10V13H19C19.7 13 20.4 13.2 21 13.6V11H3M6.5 13C7.9 13 9 14.1 9 15.5S7.9 18 6.5 18 4 16.9 4 15.5 5.1 13 6.5 13M6.5 14.6C6 14.6 5.6 15 5.6 15.5S6 16.4 6.5 16.4 7.4 16 7.4 15.5 7 14.6 6.5 14.6M12 15V19H21V17C21 15.9 20.1 15 19 15H12M6.5 3C7.9 3 9 4.1 9 5.5S7.9 8 6.5 8 4 6.9 4 5.5 5.1 3 6.5 3M6.5 4.6C6 4.6 5.6 5 5.6 5.5S6 6.4 6.5 6.4 7.4 6 7.4 5.5 7 4.6 6.5 4.6Z",
 "author": "Simran"
@@ -7834,7 +8682,7 @@ const icons = [
 {
 "icon": "bus-marker",
 "google": "false",
-"search": "bus-marker",
+"search": "bus-marker,bus-location,bus-stop",
 "name": "bus-marker",
 "path": "M12 2C7.58 2 4 2.5 4 6V16A3 3 0 0 0 5 18.22V20A1 1 0 0 0 6 21H7A1 1 0 0 0 8 20V19H14A8 8 0 0 1 13 15.5A5.55 5.55 0 0 1 15.38 11H6V6H18V10A4.07 4.07 0 0 1 18.5 10A5.34 5.34 0 0 1 20 10.22V6C20 2.5 16.42 2 12 2M7.5 14A1.5 1.5 0 1 1 6 15.5A1.5 1.5 0 0 1 7.5 14M18.5 12A3.54 3.54 0 0 0 15 15.5C15 18.1 18.5 22 18.5 22S22 18.1 22 15.5A3.54 3.54 0 0 0 18.5 12M18.5 16.8A1.2 1.2 0 1 1 18.5 14.4A1.29 1.29 0 0 1 19.7 15.6A1.15 1.15 0 0 1 18.5 16.8Z",
 "author": "Michael Richins"
@@ -7941,6 +8789,14 @@ const icons = [
 "search": "cake-layered,birthday-cake,holiday,food,drink",
 "name": "cake-layered",
 "path": "M21,21V17C21,15.89 20.1,15 19,15H18V12C18,10.89 17.1,10 16,10H13V8H11V10H8C6.89,10 6,10.89 6,12V15H5C3.89,15 3,15.89 3,17V21H1V23H23V21M12,7A2,2 0 0,0 14,5C14,4.62 13.9,4.27 13.71,3.97L12,1L10.28,3.97C10.1,4.27 10,4.62 10,5A2,2 0 0,0 12,7Z",
+"author": "Google"
+},
+{
+"icon": "cake-variant-outline",
+"google": "true",
+"search": "cake-variant-outline,birthday-cake-outline,holiday,food,drink",
+"name": "cake-variant-outline",
+"path": "M12 6C13.11 6 14 5.1 14 4C14 3.62 13.9 3.27 13.71 2.97L12 0L10.29 2.97C10.1 3.27 10 3.62 10 4C10 5.1 10.9 6 12 6M18 9H13V7H11V9H6C4.34 9 3 10.34 3 12V21C3 21.55 3.45 22 4 22H20C20.55 22 21 21.55 21 21V12C21 10.34 19.66 9 18 9M19 20H5V17C5.9 17 6.76 16.63 7.4 16L8.5 14.92L9.56 16C10.87 17.3 13.15 17.29 14.45 16L15.53 14.92L16.6 16C17.24 16.63 18.1 17 19 17V20M19 15.5C18.5 15.5 18 15.3 17.65 14.93L15.5 12.8L13.38 14.93C12.64 15.67 11.35 15.67 10.61 14.93L8.5 12.8L6.34 14.93C6 15.29 5.5 15.5 5 15.5V12C5 11.45 5.45 11 6 11H18C18.55 11 19 11.45 19 12V15.5Z",
 "author": "Google"
 },
 {
@@ -8274,7 +9130,7 @@ const icons = [
 {
 "icon": "calendar-star",
 "google": "false",
-"search": "calendar-star,event-star,date,time",
+"search": "calendar-star,event-star,calendar-favorite,date,time",
 "name": "calendar-star",
 "path": "M19,20H5V9H19M16,2V4H8V2H6V4H5A2,2 0 0,0 3,6V20A2,2 0 0,0 5,22H19A2,2 0 0,0 21,20V6A2,2 0 0,0 19,4H18V2M10.88,13H7.27L10.19,15.11L9.08,18.56L12,16.43L14.92,18.56L13.8,15.12L16.72,13H13.12L12,9.56L10.88,13Z",
 "author": "Michael Richins"
@@ -8688,9 +9544,25 @@ const icons = [
 "author": "Google"
 },
 {
+"icon": "candelabra-fire",
+"google": "false",
+"search": "candelabra-fire,candelabrum-fire,candelabrum-flame,candelabra-flame,candle-fire,candle-flame,home automation",
+"name": "candelabra-fire",
+"path": "M18 7C18.83 7 19.5 6.33 19.5 5.5C19.5 4.67 18.83 3 18 3S16.5 4.67 16.5 5.5C16.5 6.33 17.17 7 18 7M18 5.25C18.28 5.25 18.5 5.47 18.5 5.75S18.28 6.25 18 6.25 17.5 6.03 17.5 5.75 17.72 5.25 18 5.25M12 6C12.83 6 13.5 5.33 13.5 4.5C13.5 3.67 12.83 2 12 2S10.5 3.67 10.5 4.5C10.5 5.33 11.17 6 12 6M12 4.25C12.28 4.25 12.5 4.47 12.5 4.75S12.28 5.25 12 5.25 11.5 5.03 11.5 4.75 11.72 4.25 12 4.25M6 7C6.83 7 7.5 6.33 7.5 5.5C7.5 4.67 6.83 3 6 3S4.5 4.67 4.5 5.5C4.5 6.33 5.17 7 6 7M6 5.25C6.28 5.25 6.5 5.47 6.5 5.75S6.28 6.25 6 6.25 5.5 6.03 5.5 5.75 5.72 5.25 6 5.25M20.5 11C20.5 11.55 20.05 12 19.5 12H19V14C19 15.11 18.11 16 17 16H13V20H14C15.11 20 16 20.9 16 22H8C8 20.9 8.9 20 10 20H11V16H7C5.9 16 5 15.11 5 14V12H4.5C3.95 12 3.5 11.55 3.5 11S3.95 10 4.5 10V9C4.5 8.45 4.95 8 5.5 8H6.5C7.05 8 7.5 8.45 7.5 9V10C8.05 10 8.5 10.45 8.5 11S8.05 12 7.5 12H7V14H11V12H10.5C9.95 12 9.5 11.55 9.5 11S9.95 10 10.5 10V8C10.5 7.45 10.95 7 11.5 7H12.5C13.05 7 13.5 7.45 13.5 8V10C14.05 10 14.5 10.45 14.5 11S14.05 12 13.5 12H13V14H17V12H16.5C15.95 12 15.5 11.55 15.5 11S15.95 10 16.5 10V9C16.5 8.45 16.95 8 17.5 8H18.5C19.05 8 19.5 8.45 19.5 9V10C20.05 10 20.5 10.45 20.5 11Z",
+"author": "Colton Wiscombe"
+},
+{
+"icon": "candelabra",
+"google": "false",
+"search": "candelabra,candle,candelabrum,home automation",
+"name": "candelabra",
+"path": "M20.5 11C20.5 11.55 20.05 12 19.5 12H19V14C19 15.11 18.11 16 17 16H13V20H14C15.11 20 16 20.9 16 22H8C8 20.9 8.9 20 10 20H11V16H7C5.9 16 5 15.11 5 14V12H4.5C3.95 12 3.5 11.55 3.5 11S3.95 10 4.5 10H5V4L7 5V10H7.5C8.05 10 8.5 10.45 8.5 11S8.05 12 7.5 12H7V14H11V12H10.5C9.95 12 9.5 11.55 9.5 11S9.95 10 10.5 10H11V2L13 3V10H13.5C14.05 10 14.5 10.45 14.5 11S14.05 12 13.5 12H13V14H17V12H16.5C15.95 12 15.5 11.55 15.5 11S15.95 10 16.5 10H17V4L19 5V10H19.5C20.05 10 20.5 10.45 20.5 11Z",
+"author": "Colton Wiscombe"
+},
+{
 "icon": "candle",
 "google": "true",
-"search": "candle",
+"search": "candle,candle-flame,candle-fire",
 "name": "candle",
 "path": "M12.5,2C10.84,2 9.5,5.34 9.5,7A3,3 0 0,0 12.5,10A3,3 0 0,0 15.5,7C15.5,5.34 14.16,2 12.5,2M12.5,6.5A1,1 0 0,1 13.5,7.5A1,1 0 0,1 12.5,8.5A1,1 0 0,1 11.5,7.5A1,1 0 0,1 12.5,6.5M10,11A1,1 0 0,0 9,12V20H7A1,1 0 0,1 6,19V18A1,1 0 0,0 5,17A1,1 0 0,0 4,18V19A3,3 0 0,0 7,22H19A1,1 0 0,0 20,21A1,1 0 0,0 19,20H16V12A1,1 0 0,0 15,11H10Z",
 "author": "Google"
@@ -8892,7 +9764,7 @@ const icons = [
 "google": "false",
 "search": "car-door-lock,automotive,lock",
 "name": "car-door-lock",
-"path": "M21 3H11L3 11V12H4.5C7.5 12 10 14.91 10 18.5V21H22V4A1 1 0 0 0 21 3M19 16H16V14H19M20 11H5.83L11.83 5H20M7 17V16.5A2.5 2.5 0 0 0 2 16.5V17A1 1 0 0 0 1 18V22A1 1 0 0 0 2 23H7A1 1 0 0 0 8 22V18A1 1 0 0 0 7 17M6.2 17H2.8V16.5A1.7 1.7 0 0 1 6.2 16.5Z",
+"path": "M7.8 17V15.5C7.8 14.1 6.4 13 5 13S2.2 14.1 2.2 15.5V17C1.6 17 1 17.6 1 18.2V21.7C1 22.4 1.6 23 2.2 23H7.7C8.4 23 9 22.4 9 21.8V18.3C9 17.6 8.4 17 7.8 17M6.5 17H3.5V15.5C3.5 14.7 4.2 14.2 5 14.2S6.5 14.7 6.5 15.5V17M21 3H11L3 11V11.44C3.61 11.17 4.29 11 5 11C7.6 11 9.8 13.06 9.8 15.5V15.75C10.53 16.36 11 17.28 11 18.3V21H22V4C22 3.45 21.55 3 21 3M19 16H16V14H19V16M20 11H5.83L11.83 5H20V11Z",
 "author": "Michael Richins"
 },
 {
@@ -9152,6 +10024,14 @@ const icons = [
 "author": "Michael Richins"
 },
 {
+"icon": "car-wrench",
+"google": "false",
+"search": "car-wrench,car-repair,mechanic,automotive",
+"name": "car-wrench",
+"path": "M20.96 16.45C20.97 16.3 21 16.15 21 16V16.5L20.96 16.45M11 16C11 16.71 11.15 17.39 11.42 18H6V19C6 19.55 5.55 20 5 20H4C3.45 20 3 19.55 3 19V11L5.08 5C5.28 4.42 5.84 4 6.5 4H17.5C18.16 4 18.72 4.42 18.92 5L21 11V16C21 13.24 18.76 11 16 11S11 13.24 11 16M8 13.5C8 12.67 7.33 12 6.5 12S5 12.67 5 13.5 5.67 15 6.5 15 8 14.33 8 13.5M19 10L17.5 5.5H6.5L5 10H19M22.87 21.19L18.76 17.08C19.17 16.04 18.94 14.82 18.08 13.97C17.18 13.06 15.83 12.88 14.74 13.38L16.68 15.32L15.33 16.68L13.34 14.73C12.8 15.82 13.05 17.17 13.93 18.08C14.79 18.94 16 19.16 17.05 18.76L21.16 22.86C21.34 23.05 21.61 23.05 21.79 22.86L22.83 21.83C23.05 21.65 23.05 21.33 22.87 21.19Z",
+"author": "Colton Wiscombe"
+},
+{
 "icon": "car",
 "google": "true",
 "search": "car,directions-car,drive-eta,time-to-leave,transportation + road,navigation,automotive",
@@ -9186,7 +10066,7 @@ const icons = [
 {
 "icon": "card-account-details-star-outline",
 "google": "false",
-"search": "card-account-details-star-outline,account,user",
+"search": "card-account-details-star-outline,card-account-details-favorite-outline,account,user",
 "name": "card-account-details-star-outline",
 "path": "M20 22.09L22.45 23.58L21.8 20.77L24 18.89L21.11 18.64L20 16L18.87 18.64L16 18.89L18.18 20.77L17.5 23.58L20 22.09M14.08 21H2C.91 20.96 .04 20.09 0 19V5C.04 3.91 .91 3.04 2 3H22C23.09 3.04 23.96 3.91 24 5V15.53C23.42 15 22.75 14.61 22 14.34V5H2V19H14.08C14.03 19.33 14 19.66 14 20C14 20.34 14.03 20.68 14.08 21M14 17H4V15.75C4 14.09 7.34 13.25 9 13.25C10.66 13.25 14 14.09 14 15.75V17M14 11H18V12H14V11M9 7C7.63 7 6.5 8.13 6.5 9.5C6.5 10.87 7.63 12 9 12C10.37 12 11.5 10.87 11.5 9.5C11.5 8.13 10.37 7 9 7M14 9H20V10H14V9M14 7H20V8H14V7Z",
 "author": "Michael Richins"
@@ -9194,7 +10074,7 @@ const icons = [
 {
 "icon": "card-account-details-star",
 "google": "false",
-"search": "card-account-details-star,account,user",
+"search": "card-account-details-star,card-account-details-favorite,account,user",
 "name": "card-account-details-star",
 "path": "M20 22.09L22.45 23.58L21.8 20.77L24 18.89L21.11 18.64L20 16L18.87 18.64L16 18.89L18.18 20.77L17.5 23.58L20 22.09M14.08 21H2C.95 21 0 20.05 0 19V5C0 3.95 .95 3 2 3H22C23.05 3 24 3.95 24 5V15.53C22.94 14.58 21.54 14 20 14C16.69 14 14 16.69 14 20C14 20.34 14.03 20.68 14.08 21M8 13.91C6 13.91 2 15 2 17V18H14V17C14 15 10 13.91 8 13.91M8 6C6.35 6 5 7.35 5 9C5 10.65 6.35 12 8 12C9.65 12 11 10.65 11 9C11 7.35 9.65 6 8 6M21 10H14V11H21V10M22 8H14V9H22V8M22 6H14V7H22V6Z",
 "author": "Michael Richins"
@@ -9302,6 +10182,22 @@ const icons = [
 "name": "card-minus",
 "path": "M23 18V20H15V18H23M19 13C20.09 13 21.12 13.3 22 13.81V6C22 4.89 21.11 4 20 4H4C2.9 4 2 4.89 2 6V18C2 19.11 2.9 20 4 20H13.09C13.04 19.67 13 19.34 13 19C13 15.69 15.69 13 19 13Z",
 "author": "Colton Wiscombe"
+},
+{
+"icon": "card-multiple-outline",
+"google": "false",
+"search": "card-multiple-outline",
+"name": "card-multiple-outline",
+"path": "M21 16V6H7V16H21M21 4C21.53 4 22.04 4.21 22.41 4.59C22.79 4.96 23 5.47 23 6V16C23 16.53 22.79 17.04 22.41 17.41C22.04 17.79 21.53 18 21 18H7C5.89 18 5 17.1 5 16V6C5 4.89 5.89 4 7 4H21M3 20H18V22H3C2.47 22 1.96 21.79 1.59 21.41C1.21 21.04 1 20.53 1 20V9H3V20Z",
+"author": "Jeff Anders"
+},
+{
+"icon": "card-multiple",
+"google": "false",
+"search": "card-multiple",
+"name": "card-multiple",
+"path": "M21 3C21.53 3 22.04 3.21 22.41 3.59C22.79 3.96 23 4.47 23 5V15C23 15.53 22.79 16.04 22.41 16.41C22.04 16.79 21.53 17 21 17H7C6.47 17 5.96 16.79 5.59 16.41C5.21 16.04 5 15.53 5 15V5C5 4.47 5.21 3.96 5.59 3.59C5.96 3.21 6.47 3 7 3H21M3 19H18V21H3C2.47 21 1.96 20.79 1.59 20.41C1.21 20.04 1 19.53 1 19V8H3V19Z",
+"author": "Jeff Anders"
 },
 {
 "icon": "card-off-outline",
@@ -9610,7 +10506,7 @@ const icons = [
 {
 "icon": "cash-marker",
 "google": "false",
-"search": "cash-marker,cod,cash-on-delivery,banking",
+"search": "cash-marker,cod,cash-on-delivery,cash-location,banking",
 "name": "cash-marker",
 "path": "M18.5,16.8C17.8,16.8 17.3,16.2 17.3,15.6C17.3,14.9 17.9,14.4 18.5,14.4C19.1,14.4 19.7,15 19.7,15.6C19.8,16.2 19.2,16.8 18.5,16.8M18.5,12C16.6,12 15,13.6 15,15.5C15,18.1 18.5,22 18.5,22C18.5,22 22,18.1 22,15.5C22,13.6 20.4,12 18.5,12M14.9,11.3C14.6,10 13.4,9 12,9C10.3,9 9,10.3 9,12C9,13.7 10.3,15 12,15C12.4,15 12.7,14.9 13,14.8C13.2,13.4 13.9,12.2 14.9,11.3M13,16H7A2,2 0 0,0 5,14V10A2,2 0 0,0 7,8H17A2,2 0 0,0 19,10C19,10 20,10 21,10.6V6H3V18H13.5C13.3,17.3 13.1,16.7 13,16Z",
 "author": "Michael Irigoyen"
@@ -9664,22 +10560,6 @@ const icons = [
 "author": "Contributors"
 },
 {
-"icon": "cash-usd-outline",
-"google": "true",
-"search": "cash-usd-outline,local-atm,money-usd,currency,banking",
-"name": "cash-usd-outline",
-"path": "M20,18H4V6H20M20,4H4C2.89,4 2,4.89 2,6V18A2,2 0 0,0 4,20H20A2,2 0 0,0 22,18V6C22,4.89 21.1,4 20,4M11,17H13V16H14A1,1 0 0,0 15,15V12A1,1 0 0,0 14,11H11V10H15V8H13V7H11V8H10A1,1 0 0,0 9,9V12A1,1 0 0,0 10,13H13V14H9V16H11V17Z",
-"author": "Google"
-},
-{
-"icon": "cash-usd",
-"google": "false",
-"search": "cash-usd,local-atm,money-usd,currency,banking",
-"name": "cash-usd",
-"path": "M20 4H4C2.89 4 2 4.89 2 6V18C2 19.11 2.9 20 4 20H20C21.11 20 22 19.11 22 18V6C22 4.89 21.1 4 20 4M15 10H11V11H14C14.55 11 15 11.45 15 12V15C15 15.55 14.55 16 14 16H13V17H11V16H9V14H13V13H10C9.45 13 9 12.55 9 12V9C9 8.45 9.45 8 10 8H11V7H13V8H15V10Z",
-"author": "Michael Irigoyen"
-},
-{
 "icon": "cash",
 "google": "false",
 "search": "cash,money,currency,banking,shopping",
@@ -9694,6 +10574,14 @@ const icons = [
 "name": "cassette",
 "path": "M4,5A2,2 0 0,0 2,7V17A2,2 0 0,0 4,19H6L7,17H17L18,19H20A2,2 0 0,0 22,17V7A2,2 0 0,0 20,5H4M6.5,10A1.5,1.5 0 0,1 8,11.5A1.5,1.5 0 0,1 6.5,13A1.5,1.5 0 0,1 5,11.5A1.5,1.5 0 0,1 6.5,10M9,10H15V13H9V10M17.5,10A1.5,1.5 0 0,1 19,11.5A1.5,1.5 0 0,1 17.5,13A1.5,1.5 0 0,1 16,11.5A1.5,1.5 0 0,1 17.5,10Z",
 "author": "GreenTurtwig"
+},
+{
+"icon": "cast-audio-variant",
+"google": "false",
+"search": "cast-audio-variant,apple-airplay",
+"name": "cast-audio-variant",
+"path": "M14.5 12C14.5 10.62 13.38 9.5 12 9.5C10.62 9.5 9.5 10.62 9.5 12C9.5 13 10.09 13.84 10.93 14.25L9.82 15.35C8.73 14.64 8 13.41 8 12C8 9.79 9.79 8 12 8C14.21 8 16 9.79 16 12C16 13.41 15.27 14.64 14.18 15.35L13.08 14.25C13.92 13.84 14.5 13 14.5 12M12 2C6.5 2 2 6.5 2 12C2 15.06 3.38 17.8 5.54 19.63L6.61 18.57C4.71 17 3.5 14.64 3.5 12C3.5 7.31 7.31 3.5 12 3.5C16.69 3.5 20.5 7.31 20.5 12C20.5 14.64 19.29 17 17.39 18.57L18.46 19.63C20.62 17.79 22 15.06 22 12C22 6.5 17.5 2 12 2M19 12C19 8.13 15.87 5 12 5C8.13 5 5 8.13 5 12C5 14.23 6.05 16.22 7.68 17.5L8.75 16.43C7.39 15.42 6.5 13.82 6.5 12C6.5 8.97 8.97 6.5 12 6.5C15.03 6.5 17.5 8.97 17.5 12C17.5 13.82 16.61 15.42 15.25 16.43L16.33 17.5C17.95 16.22 19 14.23 19 12M6 22H18L12 16L6 22Z",
+"author": "Colton Wiscombe"
 },
 {
 "icon": "cast-audio",
@@ -9728,6 +10616,14 @@ const icons = [
 "author": "Simran"
 },
 {
+"icon": "cast-variant",
+"google": "false",
+"search": "cast-variant,apple,airplay,home automation",
+"name": "cast-variant",
+"path": "M6,22H18L12,16M21,3H3A2,2 0 0,0 1,5V17A2,2 0 0,0 3,19H7V17H3V5H21V17H17V19H21A2,2 0 0,0 23,17V5A2,2 0 0,0 21,3Z",
+"author": "Contributors"
+},
+{
 "icon": "cast",
 "google": "true",
 "search": "cast,home automation",
@@ -9746,7 +10642,7 @@ const icons = [
 {
 "icon": "cat",
 "google": "false",
-"search": "cat,animal",
+"search": "cat,emoji-cat,emoticon-cat,animal",
 "name": "cat",
 "path": "M12,8L10.67,8.09C9.81,7.07 7.4,4.5 5,4.5C5,4.5 3.03,7.46 4.96,11.41C4.41,12.24 4.07,12.67 4,13.66L2.07,13.95L2.28,14.93L4.04,14.67L4.18,15.38L2.61,16.32L3.08,17.21L4.53,16.32C5.68,18.76 8.59,20 12,20C15.41,20 18.32,18.76 19.47,16.32L20.92,17.21L21.39,16.32L19.82,15.38L19.96,14.67L21.72,14.93L21.93,13.95L20,13.66C19.93,12.67 19.59,12.24 19.04,11.41C20.97,7.46 19,4.5 19,4.5C16.6,4.5 14.19,7.07 13.33,8.09L12,8M9,11A1,1 0 0,1 10,12A1,1 0 0,1 9,13A1,1 0 0,1 8,12A1,1 0 0,1 9,11M15,11A1,1 0 0,1 16,12A1,1 0 0,1 15,13A1,1 0 0,1 14,12A1,1 0 0,1 15,11M11,14H13L12.3,15.39C12.5,16.03 13.06,16.5 13.75,16.5A1.5,1.5 0 0,0 15.25,15H15.75A2,2 0 0,1 13.75,17C13,17 12.35,16.59 12,16V16H12C11.65,16.59 11,17 10.25,17A2,2 0 0,1 8.25,15H8.75A1.5,1.5 0 0,0 10.25,16.5C10.94,16.5 11.5,16.03 11.7,15.39L11,14Z",
 "author": "Austin Andrews"
@@ -9756,8 +10652,32 @@ const icons = [
 "google": "false",
 "search": "cctv,closed-circuit-television,security-camera,home automation",
 "name": "cctv",
-"path": "M18.15,4.94C17.77,4.91 17.37,5 17,5.2L8.35,10.2C7.39,10.76 7.07,12 7.62,12.94L9.12,15.53C9.67,16.5 10.89,16.82 11.85,16.27L13.65,15.23C13.92,15.69 14.32,16.06 14.81,16.27V18.04C14.81,19.13 15.7,20 16.81,20H22V18.04H16.81V16.27C17.72,15.87 18.31,14.97 18.31,14C18.31,13.54 18.19,13.11 17.97,12.73L20.5,11.27C21.47,10.71 21.8,9.5 21.24,8.53L19.74,5.94C19.4,5.34 18.79,5 18.15,4.94M6.22,13.17L2,13.87L2.75,15.17L4.75,18.63L5.5,19.93L8.22,16.63L6.22,13.17Z",
+"path": "M6.03 12.03L8.03 15.5L5.5 18.68L2 12.62L6.03 12.03M17 18V15.29C17.88 14.9 18.5 14.03 18.5 13C18.5 12.43 18.3 11.9 17.97 11.5L19.94 10.35C20.95 9.76 21.3 8.47 20.71 7.46L19.33 5.06C18.74 4.05 17.45 3.7 16.44 4.28L8.31 9C7.36 9.53 7.03 10.75 7.58 11.71L9.08 14.31C9.63 15.26 10.86 15.59 11.81 15.04L13.69 13.96C13.94 14.55 14.41 15.03 15 15.29V18C15 19.1 15.9 20 17 20H22V18H17Z",
 "author": "Roberto Graham"
+},
+{
+"icon": "ceiling-fan-light",
+"google": "false",
+"search": "ceiling-fan-light,ceiling-fan-on,home automation",
+"name": "ceiling-fan-light",
+"path": "M8 3V5H11V10.27C10.38 10.63 10 11.29 10 12V13H14V12C14 11.29 13.62 10.63 13 10.27V5H16V3H8M6 12C3.79 12 2 12.67 2 13.5C2 14.33 3.79 15 6 15S10 14.33 10 13.5C10 12.67 8.21 12 6 12M18 12C15.79 12 14 12.67 14 13.5C14 14.33 15.79 15 18 15S22 14.33 22 13.5C22 12.67 20.21 12 18 12M10 14V15C10 15.72 10.38 16.38 11 16.73C11.62 17.09 12.38 17.09 13 16.73C13.62 16.38 14 15.71 14 15V14H10M13 19V22H11V19H13M15.88 16.46L18 18.59L16.59 20L14.47 17.88L15.88 16.46M9.54 17.88L7.41 20L6 18.59L8.12 16.47L9.54 17.88",
+"author": "nilsfast"
+},
+{
+"icon": "ceiling-fan",
+"google": "false",
+"search": "ceiling-fan,home automation",
+"name": "ceiling-fan",
+"path": "M8 3V5H11V10.27C10.38 10.63 10 11.29 10 12V13H14V12C14 11.29 13.62 10.63 13 10.27V5H16V3H8M6 12C3.79 12 2 12.67 2 13.5S3.79 15 6 15 10 14.33 10 13.5 8.21 12 6 12M18 12C15.79 12 14 12.67 14 13.5S15.79 15 18 15 22 14.33 22 13.5 20.21 12 18 12M10 14V15C10 15.72 10.38 16.38 11 16.73C11.62 17.09 12.38 17.09 13 16.73C13.62 16.38 14 15.71 14 15V14H10Z",
+"author": "nilsfast"
+},
+{
+"icon": "ceiling-light-outline",
+"google": "false",
+"search": "ceiling-light-outline,home automation",
+"name": "ceiling-light-outline",
+"path": "M14.76 11L16.76 15H7.24L9.24 11H14.76M13 4H11V9H8L4 17H20L16 9H13V4M14 18H10C10 19.11 10.9 20 12 20S14 19.11 14 18Z",
+"author": "Contributors"
 },
 {
 "icon": "ceiling-light",
@@ -9766,14 +10686,6 @@ const icons = [
 "name": "ceiling-light",
 "path": "M8,9H11V4H13V9H16L20,17H4L8,9M14,18A2,2 0 0,1 12,20A2,2 0 0,1 10,18H14Z",
 "author": "GreenTurtwig"
-},
-{
-"icon": "cellphone-android",
-"google": "true",
-"search": "cellphone-android,mobile-phone-android,smartphone-android,cellphone,phone,device,tech",
-"name": "cellphone-android",
-"path": "M17.25,18H6.75V4H17.25M14,21H10V20H14M16,1H8A3,3 0 0,0 5,4V20A3,3 0 0,0 8,23H16A3,3 0 0,0 19,20V4A3,3 0 0,0 16,1Z",
-"author": "Google"
 },
 {
 "icon": "cellphone-arrow-down",
@@ -9800,6 +10712,14 @@ const icons = [
 "author": "Moma Design Studio"
 },
 {
+"icon": "cellphone-check",
+"google": "false",
+"search": "cellphone-check",
+"name": "cellphone-check",
+"path": "M14.54 23H7C5.9 23 5 22.11 5 21V3C5 1.89 5.89 1 7 1H17C18.1 1 19 1.89 19 3V13C18.3 13 17.63 13.13 17 13.35V5H7V19H13C13 20.54 13.58 21.94 14.54 23M17.75 22.16L15 19.16L16.16 18L17.75 19.59L21.34 16L22.5 17.41L17.75 22.16",
+"author": "Michael Irigoyen"
+},
+{
 "icon": "cellphone-cog",
 "google": "true",
 "search": "cellphone-cog,phonelink-setup,mobile-phone-settings-variant,smartphone-settings-variant,settings,cellphone,phone,device,tech",
@@ -9816,27 +10736,11 @@ const icons = [
 "author": "Google"
 },
 {
-"icon": "cellphone-erase",
-"google": "true",
-"search": "cellphone-erase,phonelink-erase,mobile-phone-erase,smartphone-erase,cellphone,phone,device,tech",
-"name": "cellphone-erase",
-"path": "M11,8.2L10,7.2L6,11.2L2,7.2L1,8.2L5,12.2L1,16.2L2,17.2L6,13.2L10,17.2L11,16.2L7,12.2L11,8.2M17,1H7A2,2 0 0,0 5,3V6H7V4H17V20H7V18H5V21A2,2 0 0,0 7,23H17A2,2 0 0,0 19,21V3A2,2 0 0,0 17,1Z",
-"author": "Google"
-},
-{
 "icon": "cellphone-information",
 "google": "true",
 "search": "cellphone-information,mobile-phone-information,smartphone-information,cellphone,phone",
 "name": "cellphone-information",
 "path": "M13 7H11V9H13V7M13 11H11V17H13V11M17 1H7C5.9 1 5 1.9 5 3V21C5 22.1 5.9 23 7 23H17C18.1 23 19 22.1 19 21V3C19 1.9 18.1 1 17 1M17 19H7V5H17V19Z",
-"author": "Google"
-},
-{
-"icon": "cellphone-iphone",
-"google": "true",
-"search": "cellphone-iphone,mobile-phone-iphone,smartphone-iphone,cellphone,phone,device,tech",
-"name": "cellphone-iphone",
-"path": "M16,18H7V4H16M11.5,22A1.5,1.5 0 0,1 10,20.5A1.5,1.5 0 0,1 11.5,19A1.5,1.5 0 0,1 13,20.5A1.5,1.5 0 0,1 11.5,22M15.5,1H7.5A2.5,2.5 0 0,0 5,3.5V20.5A2.5,2.5 0 0,0 7.5,23H15.5A2.5,2.5 0 0,0 18,20.5V3.5A2.5,2.5 0 0,0 15.5,1Z",
 "author": "Google"
 },
 {
@@ -9920,6 +10824,14 @@ const icons = [
 "author": "Google"
 },
 {
+"icon": "cellphone-remove",
+"google": "false",
+"search": "cellphone-remove,phonelink-erase,mobile-phone-erase,smartphone-erase,cellphone-erase,cellphone,phone,device,tech",
+"name": "cellphone-remove",
+"path": "M22.54 16.88L21.12 15.47L19 17.59L16.88 15.47L15.47 16.88L17.59 19L15.47 21.12L16.88 22.54L19 20.41L21.12 22.54L22.54 21.12L20.41 19L22.54 16.88M14.54 23H7C5.9 23 5 22.11 5 21V3C5 1.89 5.89 1 7 1H17C18.1 1 19 1.89 19 3V13C18.3 13 17.63 13.13 17 13.35V5H7V19H13C13 20.54 13.58 21.94 14.54 23Z",
+"author": "Michael Irigoyen"
+},
+{
 "icon": "cellphone-screenshot",
 "google": "true",
 "search": "cellphone-screenshot,cellphone,phone,device,tech",
@@ -9968,14 +10880,6 @@ const icons = [
 "author": "Google"
 },
 {
-"icon": "celtic-cross",
-"google": "false",
-"search": "celtic-cross,religion",
-"name": "celtic-cross",
-"path": "M17.8,8C17.26,5.89 15.61,4.24 13.5,3.7V2H10.5V3.7C8.39,4.24 6.74,5.89 6.2,8H4V11H6.2C6.74,13.11 8.39,14.76 10.5,15.3V22H13.5V15.3C15.61,14.76 17.26,13.11 17.8,11H19.97V8H17.8M12.04,9.53L14.5,11H15.76C15.35,12.03 14.53,12.84 13.5,13.26V12L12.06,9.56L12,9.5L11.94,9.56L10.5,12V13.26C9.47,12.84 8.66,12.03 8.24,11H9.5L11.96,9.53L12,9.5H11.96L9.5,8H8.24C8.65,6.97 9.47,6.16 10.5,5.74V7L11.94,9.44L12,9.5L12.06,9.44L13.5,7V5.74C14.53,6.16 15.35,6.97 15.76,8H14.5L12.04,9.5H12L12.04,9.53Z",
-"author": "Michael Irigoyen"
-},
-{
 "icon": "centos",
 "google": "false",
 "search": "centos",
@@ -10002,7 +10906,7 @@ const icons = [
 {
 "icon": "chair-rolling",
 "google": "false",
-"search": "chair-rolling",
+"search": "chair-rolling,office-chair,home automation",
 "name": "chair-rolling",
 "path": "M22 10V13H19V10H22M2 13H5V10H2V13M17 5C17 3.9 16.1 3 15 3H9C7.9 3 7 3.9 7 5V13H17V5M7 15H6V17H11V18L7 22H9.8L12 19.8L14.2 22H17L13 18V17H18V15H7Z",
 "author": "Michael Irigoyen"
@@ -10016,6 +10920,14 @@ const icons = [
 "author": "Austin Andrews"
 },
 {
+"icon": "chandelier",
+"google": "false",
+"search": "chandelier,ceiling-light,girandole,candelabra-lamp,suspended-light,home automation",
+"name": "chandelier",
+"path": "M15 13.1C15 14.76 13.66 16.1 12 16.1S9 14.76 9 13.1 10.34 10.1 12 10.1 15 11.44 15 13.1M9 2V3C9 4.11 9.9 5 11 5V9.1C11.32 9.04 11.66 9 12 9S12.68 9.04 13 9.1V5C14.11 5 15 4.11 15 3V2H9M4 11.1C2.34 11.1 1 12.44 1 14.1S2.34 17.1 4 17.1 7 15.76 7 14.1 5.66 11.1 4 11.1M20 11.1C18.34 11.1 17 12.44 17 14.1S18.34 17.1 20 17.1 23 15.76 23 14.1 21.66 11.1 20 11.1M20 18.1C19.32 18.1 18.67 17.96 18.08 17.71C17.6 17.95 17.07 18.1 16.5 18.1C15.39 18.1 14.41 17.57 13.77 16.77C13.22 17 12.63 17.1 12 17.1S10.78 17 10.23 16.77C9.59 17.57 8.61 18.1 7.5 18.1C6.93 18.1 6.4 17.95 5.92 17.71C5.33 17.96 4.68 18.1 4 18.1C3.73 18.1 3.46 18.06 3.2 18C4.21 19.29 5.76 20.1 7.5 20.1C8.83 20.1 10.05 19.63 11 18.84V21.1C11 21.65 11.45 22.1 12 22.1C12.55 22.1 13 21.65 13 21.1V18.84C13.95 19.63 15.17 20.1 16.5 20.1C18.24 20.1 19.79 19.29 20.8 18C20.54 18.06 20.27 18.1 20 18.1Z",
+"author": "Michael Irigoyen"
+},
+{
 "icon": "charity",
 "google": "true",
 "search": "charity,super-chat-for-good",
@@ -10026,7 +10938,7 @@ const icons = [
 {
 "icon": "chart-arc",
 "google": "false",
-"search": "chart-arc,math",
+"search": "chart-arc,report-arc,widget-arc,math",
 "name": "chart-arc",
 "path": "M16.18,19.6L14.17,16.12C15.15,15.4 15.83,14.28 15.97,13H20C19.83,15.76 18.35,18.16 16.18,19.6M13,7.03V3C17.3,3.26 20.74,6.7 21,11H16.97C16.74,8.91 15.09,7.26 13,7.03M7,12.5C7,13.14 7.13,13.75 7.38,14.3L3.9,16.31C3.32,15.16 3,13.87 3,12.5C3,7.97 6.54,4.27 11,4V8.03C8.75,8.28 7,10.18 7,12.5M11.5,21C8.53,21 5.92,19.5 4.4,17.18L7.88,15.17C8.7,16.28 10,17 11.5,17C12.14,17 12.75,16.87 13.3,16.62L15.31,20.1C14.16,20.68 12.87,21 11.5,21Z",
 "author": "Austin Andrews"
@@ -10034,7 +10946,7 @@ const icons = [
 {
 "icon": "chart-areaspline-variant",
 "google": "false",
-"search": "chart-areaspline-variant,math",
+"search": "chart-areaspline-variant,report-areaspline-variant,widget-areaspline-variant,graph-areaspline-variant,math",
 "name": "chart-areaspline-variant",
 "path": "M22,21H2V3H4V15.54L9.5,6L16,9.78L20.24,2.45L21.97,3.45L22,21Z",
 "author": "Michael Richins"
@@ -10042,7 +10954,7 @@ const icons = [
 {
 "icon": "chart-areaspline",
 "google": "false",
-"search": "chart-areaspline,math",
+"search": "chart-areaspline,report-areaspline,widget-areaspline,graph-areaspline,math",
 "name": "chart-areaspline",
 "path": "M17.45,15.18L22,7.31V19L22,21H2V3H4V15.54L9.5,6L16,9.78L20.24,2.45L21.97,3.45L16.74,12.5L10.23,8.75L4.31,19H6.57L10.96,11.44L17.45,15.18Z",
 "author": "Austin Andrews"
@@ -10050,7 +10962,7 @@ const icons = [
 {
 "icon": "chart-bar-stacked",
 "google": "false",
-"search": "chart-bar-stacked,math",
+"search": "chart-bar-stacked,report-bar-stacked,widget-bar-stacked,graph-bar-stacked,math",
 "name": "chart-bar-stacked",
 "path": "M22,21H2V3H4V19H6V17H10V19H12V16H16V19H18V17H22V21M18,14H22V16H18V14M12,6H16V9H12V6M16,15H12V10H16V15M6,10H10V12H6V10M10,16H6V13H10V16Z",
 "author": "Austin Andrews"
@@ -10058,7 +10970,7 @@ const icons = [
 {
 "icon": "chart-bar",
 "google": "false",
-"search": "chart-bar,math",
+"search": "chart-bar,report-bar,widget-bar,graph-bar,math",
 "name": "chart-bar",
 "path": "M22,21H2V3H4V19H6V10H10V19H12V6H16V19H18V14H22V21Z",
 "author": "Austin Andrews"
@@ -10066,7 +10978,7 @@ const icons = [
 {
 "icon": "chart-bell-curve-cumulative",
 "google": "false",
-"search": "chart-bell-curve-cumulative,math",
+"search": "chart-bell-curve-cumulative,report-bell-curve-cumulative,widget-bell-curve-cumulative,graph-bell-curve-cumulative,math",
 "name": "chart-bell-curve-cumulative",
 "path": "M4 19V20H22V22H2V2H4V17C7 17 10 15 12.1 11.4C15.1 6.4 18.4 4 22 4V6C19.2 6 16.5 8.1 13.9 12.5C11.3 16.6 7.7 19 4 19Z",
 "author": "Michael Irigoyen"
@@ -10074,7 +10986,7 @@ const icons = [
 {
 "icon": "chart-bell-curve",
 "google": "false",
-"search": "chart-bell-curve,math",
+"search": "chart-bell-curve,report-bell-curve,widget-bell-curve,graph-bell-curve,math",
 "name": "chart-bell-curve",
 "path": "M9.96,11.31C10.82,8.1 11.5,6 13,6C14.5,6 15.18,8.1 16.04,11.31C17,14.92 18.1,19 22,19V17C19.8,17 19,14.54 17.97,10.8C17.08,7.46 16.15,4 13,4C9.85,4 8.92,7.46 8.03,10.8C7.03,14.54 6.2,17 4,17V2H2V22H22V20H4V19C7.9,19 9,14.92 9.96,11.31Z",
 "author": "Michael Irigoyen"
@@ -10082,15 +10994,15 @@ const icons = [
 {
 "icon": "chart-box-outline",
 "google": "true",
-"search": "chart-box-outline,math",
+"search": "chart-box-outline,poll-box-outline,report-box-outline,widget-box-outline,graph-box-outline,math",
 "name": "chart-box-outline",
-"path": "M9 17H7V10H9V17M13 17H11V7H13V17M17 17H15V13H17V17M19.5 19.1H4.5V5H19.5V19.1M19.5 3H4.5C3.4 3 2.5 3.9 2.5 5V19C2.5 20.1 3.4 21 4.5 21H19.5C20.6 21 21.5 20.1 21.5 19V5C21.5 3.9 20.6 3 19.5 3Z",
+"path": "M9 17H7V10H9V17M13 17H11V7H13V17M17 17H15V13H17V17M19 19H5V5H19V19.1M19 3H5C3.9 3 3 3.9 3 5V19C3 20.1 3.9 21 5 21H19C20.1 21 21 20.1 21 19V5C21 3.9 20.1 3 19 3Z",
 "author": "Google"
 },
 {
 "icon": "chart-box-plus-outline",
 "google": "true",
-"search": "chart-box-plus-outline,math",
+"search": "chart-box-plus-outline,report-box-plus-outline,widget-box-plus-outline,graph-box-plus-outline,math",
 "name": "chart-box-plus-outline",
 "path": "M22 5V7H19V10H17V7H14V5H17V2H19V5H22M19 19H5V5H11V3H5C3.9 3 3 3.9 3 5V19C3 20.1 3.9 21 5 21H19C20.1 21 21 20.1 21 19V13H19V19M15 13V17H17V13H15M11 17H13V9H11V17M9 17V11H7V17H9Z",
 "author": "Google"
@@ -10098,7 +11010,7 @@ const icons = [
 {
 "icon": "chart-box",
 "google": "true",
-"search": "chart-box,math",
+"search": "chart-box,poll-box,report-box,widget-box,graph-box,math",
 "name": "chart-box",
 "path": "M19 3H5C3.9 3 3 3.9 3 5V19C3 20.1 3.9 21 5 21H19C20.1 21 21 20.1 21 19V5C21 3.9 20.1 3 19 3M9 17H7V10H9V17M13 17H11V7H13V17M17 17H15V13H17V17Z",
 "author": "Google"
@@ -10106,7 +11018,7 @@ const icons = [
 {
 "icon": "chart-bubble",
 "google": "true",
-"search": "chart-bubble,bubble-chart,math",
+"search": "chart-bubble,bubble-chart,report-bubble,widget-bubble,math",
 "name": "chart-bubble",
 "path": "M7.2,11.2C8.97,11.2 10.4,12.63 10.4,14.4C10.4,16.17 8.97,17.6 7.2,17.6C5.43,17.6 4,16.17 4,14.4C4,12.63 5.43,11.2 7.2,11.2M14.8,16A2,2 0 0,1 16.8,18A2,2 0 0,1 14.8,20A2,2 0 0,1 12.8,18A2,2 0 0,1 14.8,16M15.2,4A4.8,4.8 0 0,1 20,8.8C20,11.45 17.85,13.6 15.2,13.6A4.8,4.8 0 0,1 10.4,8.8C10.4,6.15 12.55,4 15.2,4Z",
 "author": "Google"
@@ -10114,7 +11026,7 @@ const icons = [
 {
 "icon": "chart-donut-variant",
 "google": "false",
-"search": "chart-donut-variant,chart-doughnut-variant,math",
+"search": "chart-donut-variant,chart-doughnut-variant,report-donut-variant,widget-donut-variant,math",
 "name": "chart-donut-variant",
 "path": "M13,2.05C18.05,2.55 22,6.82 22,12C22,13.45 21.68,14.83 21.12,16.07L18.5,14.54C18.82,13.75 19,12.9 19,12C19,8.47 16.39,5.57 13,5.08V2.05M12,19C14.21,19 16.17,18 17.45,16.38L20.05,17.91C18.23,20.39 15.3,22 12,22C6.47,22 2,17.5 2,12C2,6.81 5.94,2.55 11,2.05V5.08C7.61,5.57 5,8.47 5,12A7,7 0 0,0 12,19M12,6A6,6 0 0,1 18,12C18,14.97 15.84,17.44 13,17.92V14.83C14.17,14.42 15,13.31 15,12A3,3 0 0,0 12,9L11.45,9.05L9.91,6.38C10.56,6.13 11.26,6 12,6M6,12C6,10.14 6.85,8.5 8.18,7.38L9.72,10.05C9.27,10.57 9,11.26 9,12C9,13.31 9.83,14.42 11,14.83V17.92C8.16,17.44 6,14.97 6,12Z",
 "author": "Austin Andrews"
@@ -10122,7 +11034,7 @@ const icons = [
 {
 "icon": "chart-donut",
 "google": "true",
-"search": "chart-donut,chart-doughnut,data-usage,math",
+"search": "chart-donut,chart-doughnut,data-usage,report-donut,widget-donut,math",
 "name": "chart-donut",
 "path": "M13,2.05V5.08C16.39,5.57 19,8.47 19,12C19,12.9 18.82,13.75 18.5,14.54L21.12,16.07C21.68,14.83 22,13.45 22,12C22,6.82 18.05,2.55 13,2.05M12,19A7,7 0 0,1 5,12C5,8.47 7.61,5.57 11,5.08V2.05C5.94,2.55 2,6.81 2,12A10,10 0 0,0 12,22C15.3,22 18.23,20.39 20.05,17.91L17.45,16.38C16.17,18 14.21,19 12,19Z",
 "author": "Google"
@@ -10130,7 +11042,7 @@ const icons = [
 {
 "icon": "chart-gantt",
 "google": "false",
-"search": "chart-gantt,math",
+"search": "chart-gantt,report-gantt,timeline,widget-gantt,roadmap,math",
 "name": "chart-gantt",
 "path": "M2,5H10V2H12V22H10V18H6V15H10V13H4V10H10V8H2V5M14,5H17V8H14V5M14,10H19V13H14V10M14,15H22V18H14V15Z",
 "author": "Austin Andrews"
@@ -10138,7 +11050,7 @@ const icons = [
 {
 "icon": "chart-histogram",
 "google": "false",
-"search": "chart-histogram,math",
+"search": "chart-histogram,report-histogram,widget-histogram,graph-histogram,math",
 "name": "chart-histogram",
 "path": "M3,3H5V13H9V7H13V11H17V15H21V21H3V3Z",
 "author": "Austin Andrews"
@@ -10146,7 +11058,7 @@ const icons = [
 {
 "icon": "chart-line-stacked",
 "google": "false",
-"search": "chart-line-stacked,math",
+"search": "chart-line-stacked,report-line-stacked,widget-line-stacked,graph-line-stacked,math",
 "name": "chart-line-stacked",
 "path": "M17.45,15.18L22,6.81V19L22,21H2V3H4V15.54L4,19H4.31L6,19H6.57L10.96,11.44L17.45,15.18M22,3L21.97,3.45L17,11L10,6L6,12V3H22Z",
 "author": "Haley Halcyon"
@@ -10154,7 +11066,7 @@ const icons = [
 {
 "icon": "chart-line-variant",
 "google": "true",
-"search": "chart-line-variant,show-chart,math",
+"search": "chart-line-variant,show-chart,report-line-variant,widget-line-variant,graph-line-variant,math",
 "name": "chart-line-variant",
 "path": "M3.5,18.5L9.5,12.5L13.5,16.5L22,6.92L20.59,5.5L13.5,13.5L9.5,9.5L2,17L3.5,18.5Z",
 "author": "Google"
@@ -10162,7 +11074,7 @@ const icons = [
 {
 "icon": "chart-line",
 "google": "false",
-"search": "chart-line,math",
+"search": "chart-line,report-line,widget-line,graph-line,math",
 "name": "chart-line",
 "path": "M16,11.78L20.24,4.45L21.97,5.45L16.74,14.5L10.23,10.75L5.46,19H22V21H2V3H4V17.54L9.5,8L16,11.78Z",
 "author": "Austin Andrews"
@@ -10170,7 +11082,7 @@ const icons = [
 {
 "icon": "chart-multiline",
 "google": "true",
-"search": "chart-multiline,math",
+"search": "chart-multiline,report-multiline,widget-multiline,graph-multiline,math",
 "name": "chart-multiline",
 "path": "M22,6.92L20.59,5.5L17.74,8.72C15.68,6.4 12.83,5 9.61,5C6.72,5 4.07,6.16 2,8L3.42,9.42C5.12,7.93 7.27,7 9.61,7C12.35,7 14.7,8.26 16.38,10.24L13.5,13.5L9.5,9.5L2,17L3.5,18.5L9.5,12.5L13.5,16.5L17.55,11.93C18.3,13.28 18.8,14.83 19,16.5H21C20.78,14.18 20.05,12.09 18.96,10.34L22,6.92Z",
 "author": "Google"
@@ -10178,7 +11090,7 @@ const icons = [
 {
 "icon": "chart-multiple",
 "google": "false",
-"search": "chart-multiple,math",
+"search": "chart-multiple,report-multiple,widget-multiple,graph-multiple,math",
 "name": "chart-multiple",
 "path": "M22 16V18H6V2H8V13.57L13.71 4.57L16.87 6.68L19.29 4.26L20.71 5.68L17.13 9.29L14.29 7.4L8.82 16M4 20V4H2V22H22V20Z",
 "author": "Michael Richins"
@@ -10186,7 +11098,7 @@ const icons = [
 {
 "icon": "chart-pie",
 "google": "true",
-"search": "chart-pie,math",
+"search": "chart-pie,report-pie,widget-pie,graph-pie,math",
 "name": "chart-pie",
 "path": "M11,2V22C5.9,21.5 2,17.2 2,12C2,6.8 5.9,2.5 11,2M13,2V11H22C21.5,6.2 17.8,2.5 13,2M13,13V22C17.7,21.5 21.5,17.8 22,13H13Z",
 "author": "Google"
@@ -10194,7 +11106,7 @@ const icons = [
 {
 "icon": "chart-ppf",
 "google": "false",
-"search": "chart-ppf,chart-production-possibility-frontier,math",
+"search": "chart-ppf,chart-production-possibility-frontier,report-ppf,widget-ppf,graph-ppf,math",
 "name": "chart-ppf",
 "path": "M5 6V8C8.2 8 11.36 9.18 13.57 11.15C15.64 13 16.83 15.5 17 18H18.97A14 12.5 0 0 0 5 6M22 21H2V3H4V19H22Z",
 "author": "Simran"
@@ -10202,7 +11114,7 @@ const icons = [
 {
 "icon": "chart-sankey-variant",
 "google": "false",
-"search": "chart-sankey-variant,chart-snakey-variant,math",
+"search": "chart-sankey-variant,chart-snakey-variant,report-sankey-variant,widget-sankey-variant,graph-sankey-variant,math",
 "name": "chart-sankey-variant",
 "path": "M20 4V6H4V4H2V12H4V10C8.16 10 9.92 12.11 11.77 14.34S15.65 19 20 19V21H22V15H20V17C16.59 17 15.07 15.17 13.31 13.06C11.34 10.69 9.1 8 4 8H20V10H22V4Z",
 "author": "Michael Richins"
@@ -10210,7 +11122,7 @@ const icons = [
 {
 "icon": "chart-sankey",
 "google": "false",
-"search": "chart-sankey,chart-snakey,math",
+"search": "chart-sankey,chart-snakey,report-sankey,widget-sankey,graph-sankey,math",
 "name": "chart-sankey",
 "path": "M22 5H4V2H2V22H22V20H4V9C8.09 9 10.13 11 12.29 13.21S17.09 18 22 18V16C17.91 16 15.87 14 13.71 11.79S8.91 7 4 7H22Z",
 "author": "Michael Richins"
@@ -10218,7 +11130,7 @@ const icons = [
 {
 "icon": "chart-scatter-plot-hexbin",
 "google": "false",
-"search": "chart-scatter-plot-hexbin,chart-scatterplot-hexbin,math",
+"search": "chart-scatter-plot-hexbin,chart-scatterplot-hexbin,report-scatter-plot-hexbin,widget-scatter-plot-hexbin,graph-scatter-plot-hexbin,math",
 "name": "chart-scatter-plot-hexbin",
 "path": "M2,2H4V20H22V22H2V2M14,14.5L12,18H7.94L5.92,14.5L7.94,11H12L14,14.5M14.08,6.5L12.06,10H8L6,6.5L8,3H12.06L14.08,6.5M21.25,10.5L19.23,14H15.19L13.17,10.5L15.19,7H19.23L21.25,10.5Z",
 "author": "Austin Andrews"
@@ -10226,7 +11138,7 @@ const icons = [
 {
 "icon": "chart-scatter-plot",
 "google": "false",
-"search": "chart-scatter-plot,math",
+"search": "chart-scatter-plot,report-scatter-plot,widget-scatter-plot,graph-scatter-plot,math",
 "name": "chart-scatter-plot",
 "path": "M2,2H4V20H22V22H2V2M9,10A3,3 0 0,1 12,13A3,3 0 0,1 9,16A3,3 0 0,1 6,13A3,3 0 0,1 9,10M13,2A3,3 0 0,1 16,5A3,3 0 0,1 13,8A3,3 0 0,1 10,5A3,3 0 0,1 13,2M18,12A3,3 0 0,1 21,15A3,3 0 0,1 18,18A3,3 0 0,1 15,15A3,3 0 0,1 18,12Z",
 "author": "Michael Irigoyen"
@@ -10234,7 +11146,7 @@ const icons = [
 {
 "icon": "chart-timeline-variant-shimmer",
 "google": "true",
-"search": "chart-timeline-variant-shimmer",
+"search": "chart-timeline-variant-shimmer,report-timeline-variant-shimmer,widget-timeline-variant-shimmer,graph-timeline-variant-shimmer,report-line-shimmer,widget-line-shimmer,graph-line-shimmer",
 "name": "chart-timeline-variant-shimmer",
 "path": "M21 8C19.5 8 18.7 9.4 19.1 10.5L15.5 14.1C15.2 14 14.8 14 14.5 14.1L11.9 11.5C12.3 10.4 11.5 9 10 9C8.6 9 7.7 10.4 8.1 11.5L3.5 16C2.4 15.7 1 16.5 1 18C1 19.1 1.9 20 3 20C4.4 20 5.3 18.6 4.9 17.5L9.4 12.9C9.7 13 10.1 13 10.4 12.9L13 15.5C12.7 16.5 13.5 18 15 18C16.5 18 17.3 16.6 16.9 15.5L20.5 11.9C21.6 12.2 23 11.4 23 10C23 8.9 22.1 8 21 8M15 9L15.9 6.9L18 6L15.9 5.1L15 3L14.1 5.1L12 6L14.1 6.9L15 9M3.5 11L4 9L6 8.5L4 8L3.5 6L3 8L1 8.5L3 9L3.5 11Z",
 "author": "Google"
@@ -10242,7 +11154,7 @@ const icons = [
 {
 "icon": "chart-timeline-variant",
 "google": "true",
-"search": "chart-timeline-variant,math",
+"search": "chart-timeline-variant,report-timeline-variant,widget-timeline-variant,graph-timeline-variant,report-line,widget-line,graph-line,math",
 "name": "chart-timeline-variant",
 "path": "M3,14L3.5,14.07L8.07,9.5C7.89,8.85 8.06,8.11 8.59,7.59C9.37,6.8 10.63,6.8 11.41,7.59C11.94,8.11 12.11,8.85 11.93,9.5L14.5,12.07L15,12C15.18,12 15.35,12 15.5,12.07L19.07,8.5C19,8.35 19,8.18 19,8A2,2 0 0,1 21,6A2,2 0 0,1 23,8A2,2 0 0,1 21,10C20.82,10 20.65,10 20.5,9.93L16.93,13.5C17,13.65 17,13.82 17,14A2,2 0 0,1 15,16A2,2 0 0,1 13,14L13.07,13.5L10.5,10.93C10.18,11 9.82,11 9.5,10.93L4.93,15.5L5,16A2,2 0 0,1 3,18A2,2 0 0,1 1,16A2,2 0 0,1 3,14Z",
 "author": "Google"
@@ -10250,7 +11162,7 @@ const icons = [
 {
 "icon": "chart-timeline",
 "google": "false",
-"search": "chart-timeline,math",
+"search": "chart-timeline,report-timeline,widget-timeline,graph-timeline,roadmap,math",
 "name": "chart-timeline",
 "path": "M2,2H4V20H22V22H2V2M7,10H17V13H7V10M11,15H21V18H11V15M6,4H22V8H20V6H8V8H6V4Z",
 "author": "Austin Andrews"
@@ -10258,7 +11170,7 @@ const icons = [
 {
 "icon": "chart-tree",
 "google": "true",
-"search": "chart-tree,math",
+"search": "chart-tree,report-tree,widget-tree,math",
 "name": "chart-tree",
 "path": "M14,6H22V22H14V6M2,4H22V2H2V4M2,8H12V6H2V8M9,22H12V10H9V22M2,22H7V10H2V22Z",
 "author": "Google"
@@ -10408,22 +11320,6 @@ const icons = [
 "author": "Michael Richins"
 },
 {
-"icon": "check-box-multiple-outline",
-"google": "false",
-"search": "check-box-multiple-outline,check-boxes-outline,tick-box-multiple-outline",
-"name": "check-box-multiple-outline",
-"path": "M20,2H8A2,2 0 0,0 6,4V16A2,2 0 0,0 8,18H20A2,2 0 0,0 22,16V4A2,2 0 0,0 20,2M20,16H8V4H20V16M16,20V22H4A2,2 0 0,1 2,20V7H4V20H16M18.53,8.06L17.47,7L12.59,11.88L10.47,9.76L9.41,10.82L12.59,14L18.53,8.06Z",
-"author": "Michael Richins"
-},
-{
-"icon": "check-box-outline",
-"google": "false",
-"search": "check-box-outline",
-"name": "check-box-outline",
-"path": "M19,3H5A2,2 0 0,0 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V5A2,2 0 0,0 19,3M19,5V19H5V5H19M10,17L6,13L7.41,11.58L10,14.17L16.59,7.58L18,9",
-"author": "Michael Richins"
-},
-{
 "icon": "check-circle-outline",
 "google": "true",
 "search": "check-circle-outline,tick-circle-outline",
@@ -10442,10 +11338,10 @@ const icons = [
 {
 "icon": "check-decagram-outline",
 "google": "false",
-"search": "check-decagram-outline",
+"search": "check-decagram-outline,approve,approval,verified",
 "name": "check-decagram-outline",
 "path": "M23 12L20.6 9.2L20.9 5.5L17.3 4.7L15.4 1.5L12 3L8.6 1.5L6.7 4.7L3.1 5.5L3.4 9.2L1 12L3.4 14.8L3.1 18.5L6.7 19.3L8.6 22.5L12 21L15.4 22.5L17.3 19.3L20.9 18.5L20.6 14.8L23 12M18.7 16.9L16 17.5L14.6 19.9L12 18.8L9.4 19.9L8 17.5L5.3 16.9L5.5 14.1L3.7 12L5.5 9.9L5.3 7.1L8 6.5L9.4 4.1L12 5.2L14.6 4.1L16 6.5L18.7 7.1L18.5 9.9L20.3 12L18.5 14.1L18.7 16.9M16.6 7.6L18 9L10 17L6 13L7.4 11.6L10 14.2L16.6 7.6Z",
-"author": "Jeff Hilnbrand"
+"author": "Jeff Anders"
 },
 {
 "icon": "check-decagram",
@@ -10518,6 +11414,22 @@ const icons = [
 "name": "checkbook",
 "path": "M5,14H19V15H5V14M21,17V8H3V17H21M1,5H23V19H1V5M5,10H12V12H5V10Z",
 "author": "Google"
+},
+{
+"icon": "checkbox-blank-badge-outline",
+"google": "false",
+"search": "checkbox-blank-badge-outline,checkbox-blank-notification-outline,app-notification-outline,app-badge-outline,notification",
+"name": "checkbox-blank-badge-outline",
+"path": "M23 4.5C23 6.43 21.43 8 19.5 8S16 6.43 16 4.5 17.57 1 19.5 1 23 2.57 23 4.5M19.5 10C19.33 10 19.17 10 19 10V19H5V5H14.03C14 4.84 14 4.67 14 4.5C14 4 14.08 3.5 14.21 3H5C3.89 3 3 3.89 3 5V19C3 20.11 3.9 21 5 21H19C20.11 21 21 20.11 21 19V9.79C20.5 9.92 20 10 19.5 10Z",
+"author": "Michael Irigoyen"
+},
+{
+"icon": "checkbox-blank-badge",
+"google": "false",
+"search": "checkbox-blank-badge,checkbox-blank-notification,app-notification,app-badge,notification",
+"name": "checkbox-blank-badge",
+"path": "M23 4.5C23 6.43 21.43 8 19.5 8S16 6.43 16 4.5 17.57 1 19.5 1 23 2.57 23 4.5M19.5 10C16.47 10 14 7.53 14 4.5C14 4 14.08 3.5 14.21 3H5C3.89 3 3 3.89 3 5V19C3 20.11 3.9 21 5 21H19C20.11 21 21 20.11 21 19V9.79C20.5 9.92 20 10 19.5 10Z",
+"author": "Michael Irigoyen"
 },
 {
 "icon": "checkbox-blank-circle-outline",
@@ -10670,6 +11582,22 @@ const icons = [
 "name": "checkbox-multiple-marked",
 "path": "M22,16A2,2 0 0,1 20,18H8C6.89,18 6,17.1 6,16V4C6,2.89 6.89,2 8,2H20A2,2 0 0,1 22,4V16M16,20V22H4A2,2 0 0,1 2,20V7H4V20H16M13,14L20,7L18.59,5.59L13,11.17L9.91,8.09L8.5,9.5L13,14Z",
 "author": "Austin Andrews"
+},
+{
+"icon": "checkbox-multiple-outline",
+"google": "false",
+"search": "checkbox-multiple-outline,check-boxes-outline,tick-box-multiple-outline",
+"name": "checkbox-multiple-outline",
+"path": "M20,2H8A2,2 0 0,0 6,4V16A2,2 0 0,0 8,18H20A2,2 0 0,0 22,16V4A2,2 0 0,0 20,2M20,16H8V4H20V16M16,20V22H4A2,2 0 0,1 2,20V7H4V20H16M18.53,8.06L17.47,7L12.59,11.88L10.47,9.76L9.41,10.82L12.59,14L18.53,8.06Z",
+"author": "Michael Richins"
+},
+{
+"icon": "checkbox-outline",
+"google": "false",
+"search": "checkbox-outline",
+"name": "checkbox-outline",
+"path": "M19,3H5A2,2 0 0,0 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V5A2,2 0 0,0 19,3M19,5V19H5V5H19M10,17L6,13L7.41,11.58L10,14.17L16.59,7.58L18,9",
+"author": "Michael Richins"
 },
 {
 "icon": "checkerboard-minus",
@@ -11008,35 +11936,83 @@ const icons = [
 "author": "Google"
 },
 {
+"icon": "chili-alert-outline",
+"google": "false",
+"search": "chili-alert-outline",
+"name": "chili-alert-outline",
+"path": "M14 8.28L12.75 9L11 8L9.25 9L8 8.28C7.4 8.63 7 9.27 7 10V11C7 20 15 22 15 22V10C15 9.27 14.6 8.63 14 8.28M13 18.87C11.23 17.69 9.17 15.44 9 11.43L11 10.3L13 11.45V18.87M9.25 7.5L7.73 6.63C8.26 5.7 9.03 5 9.94 4.69C9.8 4.29 9.44 4 9 4V2C10.54 2 11.79 3.16 11.97 4.65C12.91 4.94 13.72 5.66 14.27 6.63L12.75 7.5L11 6.5L9.25 7.5M19 7V13H17V7H19M17 15H19V17H17V15Z",
+"author": "Colton Wiscombe"
+},
+{
+"icon": "chili-alert",
+"google": "false",
+"search": "chili-alert",
+"name": "chili-alert",
+"path": "M9.25 7.5L7.73 6.63C8.26 5.7 9.03 5 9.94 4.69C9.8 4.29 9.44 4 9 4V2C10.54 2 11.79 3.16 11.97 4.65C12.91 4.94 13.72 5.66 14.27 6.63L12.75 7.5L11 6.5L9.25 7.5M14 8.28L12.75 9L11 8L9.25 9L8 8.28C7.4 8.63 7 9.27 7 10V11C7 20 15 22 15 22V10C15 9.27 14.6 8.63 14 8.28M17 7V13H19V7H17M17 17H19V15H17V17Z",
+"author": "Colton Wiscombe"
+},
+{
+"icon": "chili-hot-outline",
+"google": "false",
+"search": "chili-hot-outline",
+"name": "chili-hot-outline",
+"path": "M10.94 4.7C10.81 4.3 10.45 4 10 4V2C10.77 2 11.47 2.29 12 2.77V4C12.45 4 12.81 4.3 12.94 4.7C11.83 5.08 10.93 6.05 10.43 7.32L8.86 6.42C9.38 5.6 10.11 5 10.94 4.7M10 11C10 10.23 10.23 9.5 10.6 8.91L9.26 8.15C8.5 8.44 8 9.16 8 10V11C8 18.05 12.9 20.8 15.03 21.66C12.41 19.62 10 16.2 10 11M8.94 4.7C8.81 4.3 8.45 4 8 4V2.77C7.47 2.29 6.77 2 6 2V4C6.45 4 6.81 4.3 6.94 4.7C6.11 5 5.38 5.6 4.86 6.42L6.43 7.32C6.93 6.05 7.83 5.08 8.94 4.7M6 11C6 10.23 6.23 9.5 6.6 8.91L5.26 8.15C4.5 8.44 4 9.16 4 10V11C4 18.05 8.9 20.8 11.03 21.66C8.41 19.62 6 16.2 6 11M20 10V22C20 22 12 20 12 11V10C12 9.27 12.4 8.63 13 8.28L14.25 9L16 8L17.75 9L19 8.28C19.6 8.63 20 9.27 20 10M18 18.87V11.45L16 10.3L14 11.43C14.17 15.44 16.23 17.69 18 18.87M12.73 6.63L14.25 7.5L16 6.5L17.75 7.5L19.27 6.63C18.72 5.66 17.91 4.94 16.97 4.65C16.79 3.16 15.54 2 14 2V4C14.44 4 14.8 4.29 14.94 4.69C14.03 5 13.26 5.7 12.73 6.63Z",
+"author": "Colton Wiscombe"
+},
+{
 "icon": "chili-hot",
 "google": "false",
 "search": "chili-hot,chilli-hot,pepper,spicy,food,drink",
 "name": "chili-hot",
-"path": "M17.75,9L18.95,8.24C19.58,8.58 20,9.24 20,10V21.75C20,21.75 12,20 12,11V10C12,9.27 12.39,8.63 12.97,8.28L14.43,9L16,8L17.75,9M14,2C15.53,2 16.8,3.15 17,4.64C18,4.93 18.81,5.67 19.22,6.63L17.75,7.5L16,6.5L14.43,7.5L12.76,6.67C13.15,5.72 13.95,5 14.94,4.66C14.8,4.28 14.43,4 14,4V2M10,10C10,18 13.63,19.84 16,21.75C16,21.75 8,20 8,11V10C8,9.27 8.39,8.63 8.97,8.28L10.3,8.94C10.11,9.25 10,9.61 10,10M10.43,7.5L8.76,6.67C9.15,5.72 9.95,5 10.94,4.66C10.8,4.28 10.43,4 10,4V2C10.77,2 11.47,2.29 12,2.76V4C12.43,4 12.8,4.28 12.94,4.66C11.95,5 11.15,5.72 10.43,7.5M6,10C6,18 9.63,19.84 12,21.75C12,21.75 4,20 4,11V10C4,9.27 4.39,8.63 4.97,8.28L6.3,8.94C6.11,9.25 6,9.61 6,10M6.43,7.5L4.76,6.67C5.15,5.72 5.95,5 6.94,4.66C6.8,4.28 6.43,4 6,4V2C6.77,2 7.47,2.29 8,2.76V4C8.43,4 8.8,4.28 8.94,4.66C7.95,5 7.15,5.72 6.43,7.5Z",
+"path": "M10.43 7.32L8.86 6.42C9.38 5.6 10.11 5 10.94 4.7C10.81 4.3 10.45 4 10 4V2C10.77 2 11.47 2.29 12 2.77V4C12.45 4 12.81 4.3 12.94 4.7C11.83 5.08 10.93 6.05 10.43 7.32M10 11C10 10.23 10.23 9.5 10.6 8.91L9.26 8.15C8.5 8.44 8 9.16 8 10V11C8 18.05 12.9 20.8 15.03 21.66C12.41 19.62 10 16.2 10 11M6.43 7.32L4.86 6.42C5.38 5.6 6.11 5 6.94 4.7C6.81 4.3 6.45 4 6 4V2C6.77 2 7.47 2.29 8 2.77V4C8.45 4 8.81 4.3 8.94 4.7C7.83 5.08 6.93 6.05 6.43 7.32M6 11C6 10.23 6.23 9.5 6.6 8.91L5.26 8.15C4.5 8.44 4 9.16 4 10V11C4 18.05 8.9 20.8 11.03 21.66C8.41 19.62 6 16.2 6 11M19 8.28L17.75 9L16 8L14.25 9L13 8.28C12.4 8.63 12 9.27 12 10V11C12 20 20 22 20 22V10C20 9.27 19.6 8.63 19 8.28M12.73 6.63L14.25 7.5L16 6.5L17.75 7.5L19.27 6.63C18.72 5.66 17.91 4.94 16.97 4.65C16.79 3.16 15.54 2 14 2V4C14.44 4 14.8 4.29 14.94 4.69C14.03 5 13.26 5.7 12.73 6.63Z",
 "author": "Andy Martinez"
+},
+{
+"icon": "chili-medium-outline",
+"google": "false",
+"search": "chili-medium-outline",
+"name": "chili-medium-outline",
+"path": "M8.43 7.32L6.86 6.42C7.38 5.6 8.11 5 8.94 4.7C8.81 4.3 8.45 4 8 4V2C8.77 2 9.47 2.29 10 2.77V4C10.45 4 10.81 4.3 10.94 4.7C9.83 5.08 8.93 6.05 8.43 7.32M8 11C8 10.23 8.23 9.5 8.6 8.91L7.26 8.15C6.5 8.44 6 9.16 6 10V11C6 18.05 10.9 20.8 13.03 21.66C10.41 19.62 8 16.2 8 11M18 10V22C18 22 10 20 10 11V10C10 9.27 10.4 8.63 11 8.28L12.25 9L14 8L15.75 9L17 8.28C17.6 8.63 18 9.27 18 10M16 18.87V11.45L14 10.3L12 11.43C12.17 15.44 14.23 17.69 16 18.87M10.73 6.63L12.25 7.5L14 6.5L15.75 7.5L17.27 6.63C16.72 5.66 15.91 4.94 14.97 4.65C14.79 3.16 13.54 2 12 2V4C12.44 4 12.8 4.29 12.94 4.69C12.03 5 11.26 5.7 10.73 6.63Z",
+"author": "Colton Wiscombe"
 },
 {
 "icon": "chili-medium",
 "google": "false",
 "search": "chili-medium,chilli-medium,pepper,spicy,food,drink",
 "name": "chili-medium",
-"path": "M15.75,9L16.95,8.24C17.58,8.58 18,9.24 18,10V21.75C18,21.75 10,20 10,11V10C10,9.27 10.39,8.63 10.97,8.28L12.43,9L14,8L15.75,9M12,2C13.53,2 14.8,3.15 15,4.64C16,4.93 16.81,5.67 17.22,6.63L15.75,7.5L14,6.5L12.43,7.5L10.76,6.67C11.15,5.72 11.95,5 12.94,4.66C12.8,4.28 12.43,4 12,4V2M8,10C8,18 11.63,19.84 14,21.75C14,21.75 6,20 6,11V10C6,9.27 6.39,8.63 6.97,8.28L8.3,8.94C8.11,9.25 8,9.61 8,10M8.43,7.5L6.76,6.67C7.15,5.72 7.95,5 8.94,4.66C8.8,4.28 8.43,4 8,4V2C8.77,2 9.47,2.29 10,2.76V4C10.43,4 10.8,4.28 10.94,4.66C9.95,5 9.15,5.72 8.43,7.5Z",
+"path": "M8.43 7.32L6.86 6.42C7.38 5.6 8.11 5 8.94 4.7C8.81 4.3 8.45 4 8 4V2C8.77 2 9.47 2.29 10 2.77V4C10.45 4 10.81 4.3 10.94 4.7C9.83 5.08 8.93 6.05 8.43 7.32M8 11C8 10.23 8.23 9.5 8.6 8.91L7.26 8.15C6.5 8.44 6 9.16 6 10V11C6 18.05 10.9 20.8 13.03 21.66C10.41 19.62 8 16.2 8 11M17 8.28L15.75 9L14 8L12.25 9L11 8.28C10.4 8.63 10 9.27 10 10V11C10 20 18 22 18 22V10C18 9.27 17.6 8.63 17 8.28M10.73 6.63L12.25 7.5L14 6.5L15.75 7.5L17.27 6.63C16.72 5.66 15.91 4.94 14.97 4.65C14.79 3.16 13.54 2 12 2V4C12.44 4 12.8 4.29 12.94 4.69C12.03 5 11.26 5.7 10.73 6.63Z",
 "author": "Andy Martinez"
+},
+{
+"icon": "chili-mild-outline",
+"google": "false",
+"search": "chili-mild-outline",
+"name": "chili-mild-outline",
+"path": "M10.25 7.5L8.73 6.63C9.26 5.7 10.03 5 10.94 4.69C10.8 4.29 10.44 4 10 4V2C11.54 2 12.79 3.16 12.97 4.65C13.91 4.94 14.72 5.66 15.27 6.63L13.75 7.5L12 6.5L10.25 7.5M16 10V22C16 22 8 20 8 11V10C8 9.27 8.4 8.63 9 8.28L10.25 9L12 8L13.75 9L15 8.28C15.6 8.63 16 9.27 16 10M14 11.45L12 10.3L10 11.43C10.17 15.44 12.23 17.69 14 18.87V11.45Z",
+"author": "Colton Wiscombe"
 },
 {
 "icon": "chili-mild",
 "google": "false",
-"search": "chili-mild,chilli-mild,pepper,spicy,food,drink",
+"search": "chili-mild,chilli-mild,pepper,spicy,food,drink,agriculture",
 "name": "chili-mild",
-"path": "M13.75,9L14.95,8.24C15.58,8.58 16,9.24 16,10V21.75C16,21.75 8,20 8,11V10C8,9.27 8.39,8.63 8.97,8.28L10.43,9L12,8L13.75,9M10,2C11.53,2 12.8,3.15 13,4.64C14,4.93 14.81,5.67 15.22,6.63L13.75,7.5L12,6.5L10.43,7.5L8.76,6.67C9.15,5.72 9.95,5 10.94,4.66C10.8,4.28 10.43,4 10,4V2Z",
+"path": "M16 10V22C16 22 8 20 8 11V10C8 9.27 8.4 8.63 9 8.28L10.25 9L12 8L13.75 9L15 8.28C15.6 8.63 16 9.27 16 10M12 6.5L13.75 7.5L15.27 6.63C14.72 5.66 13.91 4.94 12.97 4.65C12.79 3.16 11.54 2 10 2V4C10.44 4 10.8 4.29 10.94 4.69C10.03 5 9.26 5.7 8.73 6.63L10.25 7.5L12 6.5Z",
 "author": "Andy Martinez"
+},
+{
+"icon": "chili-off-outline",
+"google": "false",
+"search": "chili-off-outline",
+"name": "chili-off-outline",
+"path": "M15 8.28C15.6 8.63 16 9.27 16 10V12.8L11.5 8.29L12 8L13.75 9L15 8.28M12 6.5L13.75 7.5L15.27 6.63C14.72 5.66 13.91 4.94 12.97 4.65C12.79 3.16 11.54 2 10 2V4C10.44 4 10.8 4.29 10.94 4.69C10.26 4.92 9.66 5.37 9.17 5.97L10.54 7.34L12 6.5M22.11 21.46L20.84 22.73L16 17.89V22C16 22 8 20 8 11V10C8 9.97 8 9.94 8 9.9L1.11 3L2.39 1.73L22.11 21.46M14 15.89L10.07 11.96C10.38 15.63 12.31 17.74 14 18.87V15.89Z",
+"author": "Colton Wiscombe"
 },
 {
 "icon": "chili-off",
 "google": "false",
 "search": "chili-off,chilli-off,pepper-off,spicy-off,food,drink",
 "name": "chili-off",
-"path": "M20.8 22.7L16 17.9V21.8C16 21.8 8 20 8 11V10 9.9L1.1 3L2.4 1.7L22.1 21.4L20.8 22.7M13.8 9L12 8L11.5 8.3L16 12.8V10C16 9.2 15.6 8.6 15 8.2L13.8 9M12 6.5L13.8 7.5L15.3 6.6C14.9 5.6 14.1 4.9 13.1 4.6C12.8 3.2 11.5 2 10 2V4C10.4 4 10.8 4.3 10.9 4.7C10.2 4.9 9.6 5.4 9.2 6L10.6 7.4L12 6.5Z",
+"path": "M15 8.28C15.6 8.63 16 9.27 16 10V12.8L11.5 8.29L12 8L13.75 9L15 8.28M12 6.5L13.75 7.5L15.27 6.63C14.72 5.66 13.91 4.94 12.97 4.65C12.79 3.16 11.54 2 10 2V4C10.44 4 10.8 4.29 10.94 4.69C10.26 4.92 9.66 5.37 9.17 5.97L10.54 7.34L12 6.5M2.39 1.73L1.11 3L8 9.9C8 9.94 8 9.97 8 10V11C8 20 16 22 16 22V17.89L20.84 22.73L22.11 21.46L2.39 1.73Z",
 "author": "Michael Irigoyen"
 },
 {
@@ -11046,22 +12022,6 @@ const icons = [
 "name": "chip",
 "path": "M6,4H18V5H21V7H18V9H21V11H18V13H21V15H18V17H21V19H18V20H6V19H3V17H6V15H3V13H6V11H3V9H6V7H3V5H6V4M11,15V18H12V15H11M13,15V18H14V15H13M15,15V18H16V15H15Z",
 "author": "Austin Andrews"
-},
-{
-"icon": "christianity-outline",
-"google": "false",
-"search": "christianity-outline,religion-christian-outline,cross-outline,religion",
-"name": "christianity-outline",
-"path": "M15.5,6V1H8.5V6H3V13H8.5V23H15.5V13H21V6H15.5M19,11H13.5V21H10.5V11H5V8H10.5V3H13.5V8H19V11Z",
-"author": "Michael Irigoyen"
-},
-{
-"icon": "christianity",
-"google": "false",
-"search": "christianity,religion-christian,cross,religion",
-"name": "christianity",
-"path": "M10.5,2H13.5V8H19V11H13.5V22H10.5V11H5V8H10.5V2Z",
-"author": "Nick"
 },
 {
 "icon": "church",
@@ -11250,7 +12210,7 @@ const icons = [
 {
 "icon": "circle-small",
 "google": "false",
-"search": "circle-small,bullet,multiplication,math",
+"search": "circle-small,bullet,multiplication,dot,math",
 "name": "circle-small",
 "path": "M12,10A2,2 0 0,0 10,12C10,13.11 10.9,14 12,14C13.11,14 14,13.11 14,12A2,2 0 0,0 12,10Z",
 "author": "Michael Irigoyen"
@@ -11786,7 +12746,7 @@ const icons = [
 {
 "icon": "clock-digital",
 "google": "false",
-"search": "clock-digital,date,time",
+"search": "clock-digital,date,time,home automation",
 "name": "clock-digital",
 "path": "M2,6A2,2 0 0,0 0,8V16A2,2 0 0,0 2,18H22A2,2 0 0,0 24,16V8A2,2 0 0,0 22,6M2,8H22V16H2M3,9V10.5H6.25L3,15H4.75L8,10.5V9M9.25,9V10.5H10.75V9M12,9V10.5H13.5V15H15V9M17,9A1,1 0 0,0 16,10V14A1,1 0 0,0 17,15H20A1,1 0 0,0 21,14V10A1,1 0 0,0 20,9M17.5,10.5H19.5V13.5H17.5M9.25,13.5V15H10.75V13.5",
 "author": "GreenTurtwig"
@@ -12528,12 +13488,20 @@ const icons = [
 "author": "Contributors"
 },
 {
+"icon": "coffee-maker-outline",
+"google": "true",
+"search": "coffee-maker-outline,home automation",
+"name": "coffee-maker-outline",
+"path": "M18 6V4H20V2H6C4.9 2 4 2.9 4 4V20C4 21.1 4.9 22 6 22H20V20H15.97C17.2 19.09 18 17.64 18 16V11H8V16C8 17.64 8.81 19.09 10.03 20H6V4H8V6C8 6.55 8.45 7 9 7H17C17.55 7 18 6.55 18 6M10 16V13H16V16C16 17.65 14.65 19 13 19S10 17.65 10 16M13 8C13.55 8 14 8.45 14 9S13.55 10 13 10 12 9.55 12 9 12.45 8 13 8Z",
+"author": "Google"
+},
+{
 "icon": "coffee-maker",
-"google": "false",
+"google": "true",
 "search": "coffee-maker,espresso-maker,coffee-machine,espresso-machine,home automation,food,drink",
 "name": "coffee-maker",
-"path": "M21 1V4H7V21H21V23H2V3C2 1.89 2.89 1 4 1H21M22 13V15C22 16.11 21.11 17 20 17H18C18 20 15 20 14 20S10 20 10 17V11H20C21.11 11 22 11.9 22 13M20 13H18V15H20V13M17 9L19 5H9L11 9H17Z",
-"author": "Michael Irigoyen"
+"path": "M18 6V4H20V2H6C4.9 2 4 2.9 4 4V20C4 21.1 4.9 22 6 22H20V20H15.97C17.2 19.09 18 17.64 18 16V11H8V16C8 17.64 8.81 19.09 10.03 20H6V4H8V6C8 6.55 8.45 7 9 7H17C17.55 7 18 6.55 18 6M13 8C13.55 8 14 8.45 14 9S13.55 10 13 10 12 9.55 12 9 12.45 8 13 8Z",
+"author": "Google"
 },
 {
 "icon": "coffee-off-outline",
@@ -12586,7 +13554,7 @@ const icons = [
 {
 "icon": "coffin",
 "google": "false",
-"search": "coffin,holiday",
+"search": "coffin,death,dead,holiday",
 "name": "coffin",
 "path": "M8,22L5,8L8,2H16L19,8L16,22H8M11,6V8H9V10H11V15H13V10H15V8H13V6H11Z",
 "author": "Michael Irigoyen"
@@ -13176,17 +14144,9 @@ const icons = [
 "author": "Google"
 },
 {
-"icon": "concourse-ci",
-"google": "false",
-"search": "concourse-ci,developer,languages,brand,logo",
-"name": "concourse-ci",
-"path": "M10.94 12.09A1.06 1.06 0 1 0 11.91 10.95A1.06 1.06 0 0 0 10.94 12.09M13.54 13.21A2.62 2.62 0 0 1 12.58 13.88L12.57 13.89A11.17 11.17 0 0 0 13.87 16.92A4.83 4.83 0 0 1 12.92 17.3A4.9 4.9 0 0 1 12.24 17.44L12.16 17.45L12.06 17.46L11.87 17.47C11.75 17.47 11.64 17.5 11.5 17.47A5 5 0 0 1 10.79 17.4A5.13 5.13 0 0 1 10.09 17.23A4.78 4.78 0 0 1 9.46 17A5 5 0 0 1 8.93 16.68A4.45 4.45 0 0 1 8.5 16.38C8.38 16.29 8.28 16.19 8.2 16.12L7.95 15.87C7.95 15.87 8 15.97 8.16 16.15C8.24 16.23 8.32 16.34 8.44 16.45A4.93 4.93 0 0 0 8.82 16.82A5.21 5.21 0 0 0 9.33 17.2A5.08 5.08 0 0 0 9.96 17.56A5.43 5.43 0 0 0 10.68 17.85A5.5 5.5 0 0 0 11.46 18.03C11.6 18.06 11.74 18.07 11.88 18.08L12.07 18.1H12.27A5.5 5.5 0 0 0 13.07 18.05A5.61 5.61 0 0 0 14.39 17.7Q14.63 18.03 14.9 18.34L14.87 18.36L14.66 18.5H14.62C14.59 18.53 14.67 18.5 14.66 18.5H14.64L14.58 18.54L14.44 18.61L14.37 18.64L14.33 18.66L14.32 18.67H14.31C14.3 18.68 14.36 18.66 14.33 18.67H14.32L14.17 18.74Q14.09 18.77 14 18.81V18.82L13.93 18.84L13.84 18.87A6.5 6.5 0 0 1 12.25 19.26A6.4 6.4 0 0 1 11.31 19.3H11.19L11.07 19.29L10.81 19.27C10.65 19.24 10.5 19.23 10.33 19.2A6.59 6.59 0 0 1 8.5 18.57C8.35 18.5 8.21 18.43 8.08 18.35C7.95 18.27 7.83 18.19 7.71 18.11A6.64 6.64 0 0 1 7.07 17.6A6.35 6.35 0 0 1 6.57 17.11C6.43 16.96 6.32 16.82 6.22 16.7C6.13 16.58 6.06 16.5 6 16.42L5.94 16.32L6 16.43C6.04 16.5 6.1 16.6 6.18 16.73C6.26 16.86 6.36 17 6.5 17.18A6.5 6.5 0 0 0 6.94 17.73A6.86 6.86 0 0 0 7.55 18.31C7.67 18.41 7.78 18.5 7.91 18.6C8.04 18.7 8.17 18.79 8.31 18.88A7.12 7.12 0 0 0 9.21 19.37A7.2 7.2 0 0 0 10.2 19.74C10.37 19.8 10.55 19.83 10.73 19.87L11 19.92L11.11 19.94L11.25 19.96A7.27 7.27 0 0 0 12.29 20.03A7.38 7.38 0 0 0 14.14 19.77L14.23 19.74L14.28 19.73L14.34 19.71C14.4 19.69 14.46 19.68 14.5 19.66L14.68 19.6L14.85 19.54L15 19.5L15.06 19.45H15.08L15.13 19.43L15.14 19.42L15.17 19.41L15.39 19.3L15.67 19.16C15.86 19.34 16.06 19.5 16.26 19.69C16.26 19.69 17.23 20.69 17.76 20.28C18.26 19.89 17.68 18.68 17.68 18.68A11.2 11.2 0 0 0 13.54 13.21M10.16 11.57L10.15 11.56A11.18 11.18 0 0 0 6.91 11.11A4.72 4.72 0 0 1 7.34 9.39L7.38 9.31L7.42 9.23L7.5 9.06C7.57 8.96 7.62 8.85 7.69 8.75A4.97 4.97 0 0 1 8.14 8.17A5.05 5.05 0 0 1 8.66 7.67A4.77 4.77 0 0 1 9.2 7.27A5.06 5.06 0 0 1 9.74 7A4.88 4.88 0 0 1 10.22 6.78C10.37 6.72 10.5 6.69 10.61 6.66C10.82 6.6 10.95 6.58 10.95 6.58S10.82 6.59 10.6 6.61C10.5 6.63 10.35 6.64 10.19 6.68A4.94 4.94 0 0 0 9.67 6.82A5.34 5.34 0 0 0 9.08 7.05A5.08 5.08 0 0 0 8.45 7.39A5.47 5.47 0 0 0 7.82 7.84A5.55 5.55 0 0 0 7.25 8.41C7.16 8.5 7.08 8.63 7 8.74L6.88 8.89L6.82 8.97L6.76 9.06A5.5 5.5 0 0 0 6.38 9.77A5.61 5.61 0 0 0 5.97 11.14L5.96 11.16C5.7 11.18 5.43 11.21 5.16 11.26V11.12L5.17 10.87V10.82C5.17 10.78 5.16 10.88 5.16 10.87V10.84L5.17 10.77L5.18 10.62L5.19 10.54V10.5H5.2V10.47C5.2 10.46 5.19 10.5 5.19 10.5L5.22 10.32L5.24 10.14L5.25 10.12V10.11L5.24 10.13L5.25 10.12V10.11L5.26 10.07L5.27 9.97A6.5 6.5 0 0 1 6.26 7.59L6.32 7.5L6.39 7.4L6.55 7.19C6.65 7.07 6.74 6.94 6.86 6.82A6.61 6.61 0 0 1 8.37 5.59C8.5 5.5 8.64 5.43 8.77 5.37C8.9 5.29 9.04 5.24 9.17 5.18A6.76 6.76 0 0 1 9.94 4.9A6.5 6.5 0 0 1 10.62 4.74C10.82 4.69 11 4.68 11.15 4.66C11.3 4.64 11.42 4.64 11.5 4.63L11.62 4.62H11.5C11.42 4.62 11.3 4.61 11.15 4.61C11 4.61 10.82 4.61 10.61 4.63A6.41 6.41 0 0 0 9.9 4.73A7.03 7.03 0 0 0 9.08 4.93C8.94 5 8.79 5.03 8.65 5.09C8.5 5.14 8.35 5.21 8.2 5.28A7.26 7.26 0 0 0 7.31 5.78A7.33 7.33 0 0 0 6.47 6.42C6.33 6.54 6.2 6.68 6.07 6.8L5.9 7L5.82 7.09L5.72 7.19A7.25 7.25 0 0 0 5.12 8.04A7.38 7.38 0 0 0 4.36 9.75L4.33 9.84L4.32 9.89L4.3 9.95L4.25 10.13L4.21 10.29L4.18 10.5L4.15 10.63C4.14 10.65 4.14 10.67 4.14 10.7L4.13 10.72V10.78L4.12 10.81L4.09 11.06L4.05 11.5C3.79 11.57 3.53 11.65 3.28 11.74C3.28 11.74 1.93 12.05 2 12.72C2.08 13.35 3.41 13.5 3.41 13.5A11.21 11.21 0 0 0 10.24 12.74A2.62 2.62 0 0 1 10.16 11.57M19.7 10.84A7.19 7.19 0 0 0 19.53 9.79C19.5 9.62 19.43 9.45 19.38 9.27L19.3 9.03L19.26 8.91L19.21 8.77A7.23 7.23 0 0 0 18.75 7.83A7.35 7.35 0 0 0 17.62 6.35L17.55 6.28L17.5 6.25L17.47 6.2L17.33 6.08L17.21 5.97L17.06 5.85L16.94 5.75L16.89 5.7L16.88 5.69H16.87L16.83 5.66L16.8 5.64L16.59 5.5L16.32 5.31Q16.42 4.88 16.5 4.45S16.88 3.11 16.25 2.85C15.67 2.61 14.91 3.72 14.91 3.72A11.21 11.21 0 0 0 12.25 10.05A2.63 2.63 0 0 1 13.32 10.55A11.2 11.2 0 0 0 15.25 8A4.73 4.73 0 0 1 16.08 8.66A4.81 4.81 0 0 1 16.53 9.19L16.58 9.25L16.63 9.33L16.74 9.5C16.8 9.59 16.86 9.69 16.92 9.8A4.89 4.89 0 0 1 17.4 11.16A4.78 4.78 0 0 1 17.5 11.83A4.88 4.88 0 0 1 17.5 12.44A4.76 4.76 0 0 1 17.44 12.96C17.42 13.11 17.39 13.25 17.36 13.36C17.31 13.57 17.27 13.7 17.27 13.7L17.41 13.37C17.45 13.26 17.5 13.14 17.54 13A5.06 5.06 0 0 0 17.67 12.46A5.34 5.34 0 0 0 17.75 11.83A5.04 5.04 0 0 0 17.76 11.11A5.38 5.38 0 0 0 17.43 9.57C17.38 9.44 17.32 9.31 17.27 9.19L17.18 9L17.14 8.93L17.09 8.83A5.53 5.53 0 0 0 15.67 7.16C15.79 6.9 15.89 6.65 16 6.38L16.03 6.41L16.25 6.53L16.28 6.54V6.55H16.29C16.32 6.57 16.24 6.5 16.25 6.53H16.26L16.27 6.54L16.33 6.58L16.45 6.66L16.5 6.71L16.56 6.73L16.57 6.74H16.58L16.56 6.73H16.57L16.71 6.84L16.85 6.94L16.87 6.96L16.86 6.95L16.87 6.96L16.91 7L17 7.05A6.46 6.46 0 0 1 18.6 9.05L18.65 9.15L18.71 9.27L18.82 9.5C18.87 9.65 18.94 9.79 19 9.95A6.69 6.69 0 0 1 19.24 10.9A6.78 6.78 0 0 1 19.35 11.86C19.36 12 19.36 12.17 19.35 12.32C19.35 12.5 19.34 12.62 19.33 12.77A6.79 6.79 0 0 1 19.2 13.58A6.4 6.4 0 0 1 19 14.25C18.96 14.45 18.89 14.62 18.84 14.76C18.78 14.9 18.73 15 18.7 15.07L18.64 15.19L18.71 15.08C18.75 15 18.81 14.91 18.88 14.78C18.95 14.64 19.04 14.5 19.12 14.29A6.5 6.5 0 0 0 19.37 13.62A6.93 6.93 0 0 0 19.59 12.81C19.61 12.66 19.64 12.5 19.66 12.35C19.68 12.19 19.7 12.03 19.7 11.87A7.1 7.1 0 0 0 19.69 10.84",
-"author": "Contributors"
-},
-{
 "icon": "connection",
 "google": "false",
-"search": "connection,plug",
+"search": "connection,plug,home automation",
 "name": "connection",
 "path": "M21.4 7.5C22.2 8.3 22.2 9.6 21.4 10.3L18.6 13.1L10.8 5.3L13.6 2.5C14.4 1.7 15.7 1.7 16.4 2.5L18.2 4.3L21.2 1.3L22.6 2.7L19.6 5.7L21.4 7.5M15.6 13.3L14.2 11.9L11.4 14.7L9.3 12.6L12.1 9.8L10.7 8.4L7.9 11.2L6.4 9.8L3.6 12.6C2.8 13.4 2.8 14.7 3.6 15.4L5.4 17.2L1.4 21.2L2.8 22.6L6.8 18.6L8.6 20.4C9.4 21.2 10.7 21.2 11.4 20.4L14.2 17.6L12.8 16.2L15.6 13.3Z",
 "author": "Michael Irigoyen"
@@ -13482,7 +14442,7 @@ const icons = [
 {
 "icon": "controller-classic-outline",
 "google": "false",
-"search": "controller-classic-outline,gaming,rpg",
+"search": "controller-classic-outline,gamepad-classic-outline,gaming,rpg",
 "name": "controller-classic-outline",
 "path": "M17.5,7A5.5,5.5 0 0,1 23,12.5A5.5,5.5 0 0,1 17.5,18C15.79,18 14.27,17.22 13.26,16H10.74C9.73,17.22 8.21,18 6.5,18A5.5,5.5 0 0,1 1,12.5A5.5,5.5 0 0,1 6.5,7H17.5M6.5,9A3.5,3.5 0 0,0 3,12.5A3.5,3.5 0 0,0 6.5,16C7.9,16 9.1,15.18 9.66,14H14.34C14.9,15.18 16.1,16 17.5,16A3.5,3.5 0 0,0 21,12.5A3.5,3.5 0 0,0 17.5,9H6.5M5.75,10.25H7.25V11.75H8.75V13.25H7.25V14.75H5.75V13.25H4.25V11.75H5.75V10.25M16.75,12.5A1,1 0 0,1 17.75,13.5A1,1 0 0,1 16.75,14.5A1,1 0 0,1 15.75,13.5A1,1 0 0,1 16.75,12.5M18.75,10.5A1,1 0 0,1 19.75,11.5A1,1 0 0,1 18.75,12.5A1,1 0 0,1 17.75,11.5A1,1 0 0,1 18.75,10.5Z",
 "author": "Austin Andrews"
@@ -13490,7 +14450,7 @@ const icons = [
 {
 "icon": "controller-classic",
 "google": "false",
-"search": "controller-classic,gaming,rpg",
+"search": "controller-classic,gamepad-classic,gaming,rpg",
 "name": "controller-classic",
 "path": "M6,7H18A5,5 0 0,1 23,12A5,5 0 0,1 18,17C16.36,17 14.91,16.21 14,15H10C9.09,16.21 7.64,17 6,17A5,5 0 0,1 1,12A5,5 0 0,1 6,7M19.75,9.5A1.25,1.25 0 0,0 18.5,10.75A1.25,1.25 0 0,0 19.75,12A1.25,1.25 0 0,0 21,10.75A1.25,1.25 0 0,0 19.75,9.5M17.25,12A1.25,1.25 0 0,0 16,13.25A1.25,1.25 0 0,0 17.25,14.5A1.25,1.25 0 0,0 18.5,13.25A1.25,1.25 0 0,0 17.25,12M5,9V11H3V13H5V15H7V13H9V11H7V9H5Z",
 "author": "Austin Andrews"
@@ -13498,7 +14458,7 @@ const icons = [
 {
 "icon": "cookie-alert-outline",
 "google": "false",
-"search": "cookie-alert-outline,biscuit-alert-outline,food,drink",
+"search": "cookie-alert-outline,biscuit-alert-outline,food,drink,alert,error",
 "name": "cookie-alert-outline",
 "path": "M16 14.5C16 15.3 15.3 16 14.5 16S13 15.3 13 14.5 13.7 13 14.5 13C15.3 13 16 13.7 16 14.5M18.9 10.5C19 11 19 11.5 19 12C19 17 15 21 10 21S1 17 1 12 5 3 10 3C10 3 11 3 11 4V6H12C12 6 13 6 13 7V8H15C15 8 16 8 16 9V10H18C18 10 18.6 10 18.9 10.5M17 12H15.5C14.7 12 14 11.3 14 10.5V10H12.5C11.7 10 11 9.3 11 8.5V8H10.5C9.7 8 9 7.3 9 6.5V5.1C5.9 5.5 3.5 8 3.1 11.1C3.2 10.5 3.8 10 4.5 10C5.3 10 6 10.7 6 11.5S5.3 13 4.5 13C3.7 13 3.1 12.4 3 11.6C3 12.1 3 12.6 3.1 13.1C3.5 15.8 5.6 18 8.2 18.7C7.8 18.4 7.5 18 7.5 17.5C7.5 16.7 8.2 16 9 16S10.5 16.7 10.5 17.5C10.5 18.2 10 18.8 9.3 19C13.5 19.4 17 16.1 17 12M9.5 11C8.7 11 8 11.7 8 12.5S8.7 14 9.5 14 11 13.3 11 12.5 10.3 11 9.5 11M9 7.5C9 6.7 8.3 6 7.5 6S6 6.7 6 7.5 6.7 9 7.5 9 9 8.3 9 7.5M21 17H23V15H21V17M21 7V13H23V7H21Z",
 "author": "Colton Wiscombe"
@@ -13506,7 +14466,7 @@ const icons = [
 {
 "icon": "cookie-alert",
 "google": "false",
-"search": "cookie-alert,biscuit-alert,food,drink",
+"search": "cookie-alert,biscuit-alert,food,drink,alert,error",
 "name": "cookie-alert",
 "path": "M18 10H16V9C16 8 15 8 15 8H13V7C13 6 12 6 12 6H11V4C11 3 10 3 10 3C5 3 1 7 1 12S5 21 10 21 19 17 19 12C19 11.5 19 11 18.9 10.5C18.6 10 18 10 18 10M4.5 13C3.7 13 3 12.3 3 11.5S3.7 10 4.5 10 6 10.7 6 11.5 5.3 13 4.5 13M6 7.5C6 6.7 6.7 6 7.5 6S9 6.7 9 7.5 8.3 9 7.5 9 6 8.3 6 7.5M9 19C8.2 19 7.5 18.3 7.5 17.5S8.2 16 9 16 10.5 16.7 10.5 17.5 9.8 19 9 19M9.5 14C8.7 14 8 13.3 8 12.5S8.7 11 9.5 11 11 11.7 11 12.5 10.3 14 9.5 14M14.5 16C13.7 16 13 15.3 13 14.5S13.7 13 14.5 13C15.3 13 16 13.7 16 14.5S15.3 16 14.5 16M21 15H23V17H21V15M23 7V13H21V7H23Z",
 "author": "Colton Wiscombe"
@@ -13746,7 +14706,7 @@ const icons = [
 {
 "icon": "cosine-wave",
 "google": "false",
-"search": "cosine-wave,audio",
+"search": "cosine-wave,frequency,amplitude,audio",
 "name": "cosine-wave",
 "path": "M22 2V4C20.26 4 19 8.58 17.96 12.27C16.57 17.27 15.26 22 12 22C8.74 22 7.43 17.27 6.04 12.27C5 8.58 3.74 4 2 4V2C5.26 2 6.57 6.73 7.96 11.73C9 15.42 10.26 20 12 20C13.74 20 15 15.42 16.04 11.73C17.43 6.73 18.74 2 22 2Z",
 "author": "Haley Halcyon"
@@ -13760,9 +14720,25 @@ const icons = [
 "author": "Christopher Schreiner"
 },
 {
+"icon": "countertop-outline",
+"google": "true",
+"search": "countertop-outline,kitchen-counter-outline,sink-outline,home automation",
+"name": "countertop-outline",
+"path": "M22 10H18V7C18 5.34 16.66 4 15 4S12 5.34 12 7H14C14 6.45 14.45 6 15 6S16 6.45 16 7V10H8C9.1 10 10 9.1 10 8V4H4V8C4 9.1 4.9 10 6 10H2V12H4V20H20V12H22V10M6 6H8V8H6V6M6 18V12H11V18H6M18 18H13V12H18V18Z",
+"author": "Google"
+},
+{
+"icon": "countertop",
+"google": "true",
+"search": "countertop,kitchen-counter,sink,home automation",
+"name": "countertop",
+"path": "M18 10V7C18 5.34 16.66 4 15 4S12 5.34 12 7H14C14 6.45 14.45 6 15 6S16 6.45 16 7V10H8C9.1 10 10 9.1 10 8V4H4V8C4 9.1 4.9 10 6 10H2V12H4V20H20V12H22V10H18M13 18H11V12H13V18Z",
+"author": "Google"
+},
+{
 "icon": "cow",
 "google": "false",
-"search": "cow,animal,agriculture",
+"search": "cow,emoji-cow,emoticon-cow,animal,agriculture",
 "name": "cow",
 "path": "M10.5,18A0.5,0.5 0 0,1 11,18.5A0.5,0.5 0 0,1 10.5,19A0.5,0.5 0 0,1 10,18.5A0.5,0.5 0 0,1 10.5,18M13.5,18A0.5,0.5 0 0,1 14,18.5A0.5,0.5 0 0,1 13.5,19A0.5,0.5 0 0,1 13,18.5A0.5,0.5 0 0,1 13.5,18M10,11A1,1 0 0,1 11,12A1,1 0 0,1 10,13A1,1 0 0,1 9,12A1,1 0 0,1 10,11M14,11A1,1 0 0,1 15,12A1,1 0 0,1 14,13A1,1 0 0,1 13,12A1,1 0 0,1 14,11M18,18C18,20.21 15.31,22 12,22C8.69,22 6,20.21 6,18C6,17.1 6.45,16.27 7.2,15.6C6.45,14.6 6,13.35 6,12L6.12,10.78C5.58,10.93 4.93,10.93 4.4,10.78C3.38,10.5 1.84,9.35 2.07,8.55C2.3,7.75 4.21,7.6 5.23,7.9C5.82,8.07 6.45,8.5 6.82,8.96L7.39,8.15C6.79,7.05 7,4 10,3L9.91,3.14V3.14C9.63,3.58 8.91,4.97 9.67,6.47C10.39,6.17 11.17,6 12,6C12.83,6 13.61,6.17 14.33,6.47C15.09,4.97 14.37,3.58 14.09,3.14L14,3C17,4 17.21,7.05 16.61,8.15L17.18,8.96C17.55,8.5 18.18,8.07 18.77,7.9C19.79,7.6 21.7,7.75 21.93,8.55C22.16,9.35 20.62,10.5 19.6,10.78C19.07,10.93 18.42,10.93 17.88,10.78L18,12C18,13.35 17.55,14.6 16.8,15.6C17.55,16.27 18,17.1 18,18M12,16C9.79,16 8,16.9 8,18C8,19.1 9.79,20 12,20C14.21,20 16,19.1 16,18C16,16.9 14.21,16 12,16M12,14C13.12,14 14.17,14.21 15.07,14.56C15.65,13.87 16,13 16,12A4,4 0 0,0 12,8A4,4 0 0,0 8,12C8,13 8.35,13.87 8.93,14.56C9.83,14.21 10.88,14 12,14M14.09,3.14V3.14Z",
 "author": "Austin Andrews"
@@ -13840,9 +14816,25 @@ const icons = [
 "author": "Michael Richins"
 },
 {
+"icon": "credit-card-edit-outline",
+"google": "false",
+"search": "credit-card-edit-outline",
+"name": "credit-card-edit-outline",
+"path": "M13 18.9L19.1 12.8L21.2 14.9L15.1 21H13V18.9M21.4 11.3L22.7 12.6C22.9 12.8 22.9 13.1 22.7 13.3L21.7 14.3L19.6 12.3L20.6 11.3C20.7 11.2 20.8 11.1 21 11.1C21.2 11.1 21.3 11.2 21.4 11.3M11 18H4V12H17.1L22 7.1V6C22 4.9 21.1 4 20 4H4C2.9 4 2 4.9 2 6V18C2 19.1 2.9 20 4 20H11V18M4 6H20V8H4V6Z",
+"author": "Jeff Anders"
+},
+{
+"icon": "credit-card-edit",
+"google": "false",
+"search": "credit-card-edit",
+"name": "credit-card-edit",
+"path": "M20.6 11.3C20.7 11.2 20.8 11.1 21 11.1C21.1 11.1 21.3 11.2 21.4 11.3L22.6 12.5C22.8 12.7 22.8 13.1 22.6 13.3L21.6 14.3L19.6 12.3L20.6 11.3M13 18.9L19 12.8L21.1 14.9L15.1 21H13V18.9M11 19.1V18.1L11.6 17.5L18.1 11H4V8H20V9.1L22 7.1V6C22 4.9 21.1 4 20 4H4C3.5 4 3 4.2 2.6 4.6C2.2 5 2 5.5 2 6V18C2 18.5 2.2 19 2.6 19.4C3 19.8 3.5 20 4 20H11V19.1Z",
+"author": "Jeff Anders"
+},
+{
 "icon": "credit-card-marker-outline",
 "google": "false",
-"search": "credit-card-marker-outline,cod,payment-on-delivery,banking",
+"search": "credit-card-marker-outline,cod,payment-on-delivery-outline,credit-card-location-outline,banking",
 "name": "credit-card-marker-outline",
 "path": "M13.5,18H4V12H14.3C15.3,10.8 16.8,10 18.5,10C19.8,10 21,10.5 22,11.3V6A2,2 0 0,0 20,4H4A2,2 0 0,0 2,6V18A2,2 0 0,0 4,20H14.6C14.2,19.4 13.8,18.7 13.5,18M4,6H20V8H4V6M18.5,12C16.6,12 15,13.6 15,15.5C15,18.1 18.5,22 18.5,22C18.5,22 22,18.1 22,15.5C22,13.6 20.4,12 18.5,12M18.5,16.8C17.8,16.8 17.3,16.2 17.3,15.6C17.3,14.9 17.9,14.4 18.5,14.4C19.1,14.4 19.7,15 19.7,15.6C19.8,16.2 19.2,16.8 18.5,16.8Z",
 "author": "Michael Irigoyen"
@@ -13850,7 +14842,7 @@ const icons = [
 {
 "icon": "credit-card-marker",
 "google": "false",
-"search": "credit-card-marker,banking",
+"search": "credit-card-marker,credit-card-location,payment-on-delivery,banking",
 "name": "credit-card-marker",
 "path": "M18.5 12C16.6 12 15 13.6 15 15.5C15 18.1 18.5 22 18.5 22S22 18.1 22 15.5C22 13.6 20.4 12 18.5 12M18.5 16.8C17.8 16.8 17.3 16.2 17.3 15.6C17.3 14.9 17.9 14.4 18.5 14.4S19.7 15 19.7 15.6C19.8 16.2 19.2 16.8 18.5 16.8M14.55 20H4C2.9 20 2 19.11 2 18V6C2 4.89 2.9 4 4 4H20C21.11 4 22 4.89 22 6V11.3C21.42 10.81 20.74 10.44 20 10.22V8H4V11H15.39C13.96 12 13 13.66 13 15.5C13 17 13.72 18.61 14.55 20Z",
 "author": "Michael Irigoyen"
@@ -14136,6 +15128,38 @@ const icons = [
 "author": "Google"
 },
 {
+"icon": "cross-bolnisi",
+"google": "false",
+"search": "cross-bolnisi,religion",
+"name": "cross-bolnisi",
+"path": "M22,7L21.5,6.5C19.93,8 18.47,9.4 16.93,10.18C15.5,10.91 14.44,10.91 13,11C13.09,9.56 13.09,8.5 13.82,7.07C14.6,5.53 16,4.07 17.5,2.5L17,2C15.32,3.23 13.64,3.83 12,3.83C10.36,3.83 8.68,3.23 7,2L6.5,2.5C8,4.07 9.4,5.53 10.18,7.07C10.91,8.5 10.91,9.56 11,11C9.56,10.91 8.5,10.91 7.07,10.18C5.53,9.4 4.06,8 2.5,6.5L2,7C3.23,8.68 3.83,10.36 3.83,12C3.83,13.64 3.23,15.32 2,17L2.5,17.5C4.07,16 5.53,14.6 7.07,13.82C8.5,13.09 9.56,13.09 11,13C10.91,14.44 10.91,15.5 10.18,16.93C9.4,18.47 8,19.93 6.5,21.5L7,22C8.68,20.77 10.36,20.17 12,20.17C13.64,20.17 15.32,20.77 17,22L17.5,21.5C16,19.93 14.6,18.47 13.82,16.93C13.09,15.5 13.09,14.44 13,13C14.44,13.09 15.5,13.09 16.93,13.82C18.47,14.6 19.93,16 21.5,17.5L22,17C20.77,15.32 20.17,13.64 20.17,12C20.17,10.36 20.77,8.68 22,7Z",
+"author": "Michael Irigoyen"
+},
+{
+"icon": "cross-celtic",
+"google": "false",
+"search": "cross-celtic,religion",
+"name": "cross-celtic",
+"path": "M17.8,8C17.26,5.89 15.61,4.24 13.5,3.7V2H10.5V3.7C8.39,4.24 6.74,5.89 6.2,8H4V11H6.2C6.74,13.11 8.39,14.76 10.5,15.3V22H13.5V15.3C15.61,14.76 17.26,13.11 17.8,11H19.97V8H17.8M12.04,9.53L14.5,11H15.76C15.35,12.03 14.53,12.84 13.5,13.26V12L12.06,9.56L12,9.5L11.94,9.56L10.5,12V13.26C9.47,12.84 8.66,12.03 8.24,11H9.5L11.96,9.53L12,9.5H11.96L9.5,8H8.24C8.65,6.97 9.47,6.16 10.5,5.74V7L11.94,9.44L12,9.5L12.06,9.44L13.5,7V5.74C14.53,6.16 15.35,6.97 15.76,8H14.5L12.04,9.5H12L12.04,9.53Z",
+"author": "Michael Irigoyen"
+},
+{
+"icon": "cross-outline",
+"google": "false",
+"search": "cross-outline,religion-christian-outline,christianity-outline,religion",
+"name": "cross-outline",
+"path": "M15.5,6V1H8.5V6H3V13H8.5V23H15.5V13H21V6H15.5M19,11H13.5V21H10.5V11H5V8H10.5V3H13.5V8H19V11Z",
+"author": "Michael Irigoyen"
+},
+{
+"icon": "cross",
+"google": "false",
+"search": "cross,christianity,religion-christian,religion",
+"name": "cross",
+"path": "M10.5,2H13.5V8H19V11H13.5V22H10.5V11H5V8H10.5V2Z",
+"author": "Nick"
+},
+{
 "icon": "crosshairs-gps",
 "google": "true",
 "search": "crosshairs-gps,gps-fixed,my-location,navigation,geographic information system",
@@ -14166,6 +15190,22 @@ const icons = [
 "name": "crosshairs",
 "path": "M3.05,13H1V11H3.05C3.5,6.83 6.83,3.5 11,3.05V1H13V3.05C17.17,3.5 20.5,6.83 20.95,11H23V13H20.95C20.5,17.17 17.17,20.5 13,20.95V23H11V20.95C6.83,20.5 3.5,17.17 3.05,13M12,5A7,7 0 0,0 5,12A7,7 0 0,0 12,19A7,7 0 0,0 19,12A7,7 0 0,0 12,5Z",
 "author": "Google"
+},
+{
+"icon": "crown-circle-outline",
+"google": "false",
+"search": "crown-circle-outline,checkers-outline,gaming,rpg",
+"name": "crown-circle-outline",
+"path": "M12 2C6.47 2 2 6.5 2 12C2 17.5 6.5 22 12 22S22 17.5 22 12 17.5 2 12 2M12 20C7.58 20 4 16.42 4 12C4 7.58 7.58 4 12 4S20 7.58 20 12C20 16.42 16.42 20 12 20M8 14L7 8L10 10L12 7L14 10L17 8L16 14H8M8.56 16C8.22 16 8 15.78 8 15.44V15H16V15.44C16 15.78 15.78 16 15.44 16H8.56Z",
+"author": "Michael Irigoyen"
+},
+{
+"icon": "crown-circle",
+"google": "false",
+"search": "crown-circle,checkers,gaming,rpg",
+"name": "crown-circle",
+"path": "M12 2C6.47 2 2 6.5 2 12C2 17.5 6.5 22 12 22S22 17.5 22 12 17.5 2 12 2M16 15.44C16 15.78 15.78 16 15.44 16H8.56C8.22 16 8 15.78 8 15.44V15H16V15.44M16 14H8L7 8L10 10L12 7L14 10L17 8L16 14Z",
+"author": "Michael Irigoyen"
 },
 {
 "icon": "crown-outline",
@@ -14346,7 +15386,7 @@ const icons = [
 {
 "icon": "currency-btc",
 "google": "false",
-"search": "currency-btc,bitcoin,currency,brand,logo,banking",
+"search": "currency-btc,bitcoin,currency,banking",
 "name": "currency-btc",
 "path": "M6,4H8V2H10V4H12V2H14V4.03C16.25,4.28 18,6.18 18,8.5C18,9.8 17.45,11 16.56,11.8C17.73,12.61 18.5,13.97 18.5,15.5C18.5,18 16.5,20 14,20V22H12V20H10V22H8V20H6L6.5,18H8V6H6V4M10,13V18H14A2.5,2.5 0 0,0 16.5,15.5A2.5,2.5 0 0,0 14,13H10M10,6V11H13.5A2.5,2.5 0 0,0 16,8.5A2.5,2.5 0 0,0 13.5,6H13.5L10,6Z",
 "author": "Contributors"
@@ -14362,7 +15402,7 @@ const icons = [
 {
 "icon": "currency-eth",
 "google": "false",
-"search": "currency-eth,ethereum,xi,currency,brand,logo,banking",
+"search": "currency-eth,ethereum,xi,currency,banking",
 "name": "currency-eth",
 "path": "M6,5H18V7H6M7,11H17V13H7M5.5,17H18.5V19H5.5",
 "author": "Peter Noble"
@@ -14494,22 +15534,6 @@ const icons = [
 "name": "currency-twd",
 "path": "M3,11H21V13H15V19H21V21H15A2,2 0 0,1 13,19V13H10.35L5.73,21L4,20L8.04,13H3V11M5,3H19V5H5V3Z",
 "author": "Haley Halcyon"
-},
-{
-"icon": "currency-usd-circle-outline",
-"google": "false",
-"search": "currency-usd-circle-outline,coin-outline,currency,banking",
-"name": "currency-usd-circle-outline",
-"path": "M12,2A10,10 0 0,1 22,12A10,10 0 0,1 12,22A10,10 0 0,1 2,12A10,10 0 0,1 12,2M12,4A8,8 0 0,0 4,12A8,8 0 0,0 12,20A8,8 0 0,0 20,12A8,8 0 0,0 12,4M11,17V16H9V14H13V13H10A1,1 0 0,1 9,12V9A1,1 0 0,1 10,8H11V7H13V8H15V10H11V11H14A1,1 0 0,1 15,12V15A1,1 0 0,1 14,16H13V17H11Z",
-"author": "Austin Andrews"
-},
-{
-"icon": "currency-usd-circle",
-"google": "false",
-"search": "currency-usd-circle,coin,banking,currency",
-"name": "currency-usd-circle",
-"path": "M12 2A10 10 0 1 0 22 12A10 10 0 0 0 12 2M15 10H11V11H14A1 1 0 0 1 15 12V15A1 1 0 0 1 14 16H13V17H11V16H9V14H13V13H10A1 1 0 0 1 9 12V9A1 1 0 0 1 10 8H11V7H13V8H15Z",
-"author": "Michael Richins"
 },
 {
 "icon": "currency-usd-off",
@@ -14682,7 +15706,7 @@ const icons = [
 {
 "icon": "database-alert-outline",
 "google": "false",
-"search": "database-alert-outline,database",
+"search": "database-alert-outline,database,alert,error",
 "name": "database-alert-outline",
 "path": "M10 3C5.58 3 2 4.79 2 7V17C2 19.21 5.59 21 10 21S18 19.21 18 17V7C18 4.79 14.42 3 10 3M16 17C16 17.5 13.87 19 10 19S4 17.5 4 17V14.77C5.61 15.55 7.72 16 10 16S14.39 15.55 16 14.77V17M16 12.45C14.7 13.4 12.42 14 10 14S5.3 13.4 4 12.45V9.64C5.47 10.47 7.61 11 10 11S14.53 10.47 16 9.64V12.45M10 9C6.13 9 4 7.5 4 7S6.13 5 10 5 16 6.5 16 7 13.87 9 10 9M22 7V13H20V7H22M20 15H22V17H20V15Z",
 "author": "Colton Wiscombe"
@@ -14690,7 +15714,7 @@ const icons = [
 {
 "icon": "database-alert",
 "google": "false",
-"search": "database-alert,database",
+"search": "database-alert,database,alert,error",
 "name": "database-alert",
 "path": "M18 7C18 9.21 14.42 11 10 11S2 9.21 2 7 5.58 3 10 3 18 4.79 18 7M10 18C5.58 18 2 16.21 2 14V17C2 19.21 5.58 21 10 21S18 19.21 18 17V14C18 16.21 14.42 18 10 18M10 13C5.58 13 2 11.21 2 9V12C2 14.21 5.58 16 10 16S18 14.21 18 12V9C18 11.21 14.42 13 10 13M20 17H22V15H20V17M20 7V13H22V7H20Z",
 "author": "Colton Wiscombe"
@@ -14874,7 +15898,7 @@ const icons = [
 {
 "icon": "database-marker-outline",
 "google": "false",
-"search": "database-marker-outline,database",
+"search": "database-marker-outline,database-location-outline,database",
 "name": "database-marker-outline",
 "path": "M12 19C8.13 19 6 17.5 6 17V14.77C7.61 15.55 9.72 16 12 16C12.35 16 12.69 15.97 13.03 15.95C13 15.8 13 15.65 13 15.5C13 14.96 13.09 14.44 13.24 13.94C12.83 14 12.42 14 12 14C9.58 14 7.3 13.4 6 12.45V9.64C7.47 10.47 9.61 11 12 11S16.53 10.47 18 9.64V10.03C18.17 10 18.33 10 18.5 10C19 10 19.5 10.08 20 10.22V7C20 4.79 16.42 3 12 3S4 4.79 4 7V17C4 19.21 7.59 21 12 21C13.06 21 14.07 20.89 15 20.71C14.62 20.14 14.25 19.5 13.93 18.85C13.34 18.94 12.71 19 12 19M12 5C15.87 5 18 6.5 18 7S15.87 9 12 9 6 7.5 6 7 8.13 5 12 5M18.5 12C16.6 12 15 13.6 15 15.5C15 18.1 18.5 22 18.5 22S22 18.1 22 15.5C22 13.6 20.4 12 18.5 12M18.5 16.8C17.8 16.8 17.3 16.2 17.3 15.6C17.3 14.9 17.9 14.4 18.5 14.4S19.7 15 19.7 15.6C19.8 16.2 19.2 16.8 18.5 16.8Z",
 "author": "Colton Wiscombe"
@@ -14882,7 +15906,7 @@ const icons = [
 {
 "icon": "database-marker",
 "google": "false",
-"search": "database-marker,geographic information system,database",
+"search": "database-marker,database-location,geographic information system,database",
 "name": "database-marker",
 "path": "M18.5 12C16.6 12 15 13.6 15 15.5C15 18.1 18.5 22 18.5 22S22 18.1 22 15.5C22 13.6 20.4 12 18.5 12M18.5 16.8C17.8 16.8 17.3 16.2 17.3 15.6C17.3 14.9 17.9 14.4 18.5 14.4S19.7 15 19.7 15.6C19.8 16.2 19.2 16.8 18.5 16.8M4 12V9C4 11.21 7.58 13 12 13C12.57 13 13.13 12.97 13.67 12.91C13.25 13.69 13 14.57 13 15.5C13 15.65 13 15.81 13.03 15.96C12.69 16 12.35 16 12 16C7.58 16 4 14.21 4 12M4 7C4 4.79 7.58 3 12 3S20 4.79 20 7 16.42 11 12 11 4 9.21 4 7M15 20.71C14.07 20.9 13.06 21 12 21C7.58 21 4 19.21 4 17V14C4 16.21 7.58 18 12 18C12.5 18 13.03 17.97 13.5 17.93C13.9 18.91 14.44 19.87 15 20.71Z",
 "author": "Michael Irigoyen"
@@ -15402,10 +16426,18 @@ const icons = [
 {
 "icon": "devices",
 "google": "true",
-"search": "devices,monitor,watch,smartwatch,smartphone,cellphone,television,device,tech",
+"search": "devices,monitor,watch,smartwatch,smartphone,cellphone,television,device,tech,home automation",
 "name": "devices",
 "path": "M3 6H21V4H3C1.9 4 1 4.9 1 6V18C1 19.1 1.9 20 3 20H7V18H3V6M13 12H9V13.78C8.39 14.33 8 15.11 8 16C8 16.89 8.39 17.67 9 18.22V20H13V18.22C13.61 17.67 14 16.88 14 16S13.61 14.33 13 13.78V12M11 17.5C10.17 17.5 9.5 16.83 9.5 16S10.17 14.5 11 14.5 12.5 15.17 12.5 16 11.83 17.5 11 17.5M22 8H16C15.5 8 15 8.5 15 9V19C15 19.5 15.5 20 16 20H22C22.5 20 23 19.5 23 19V9C23 8.5 22.5 8 22 8M21 18H17V10H21V18Z",
 "author": "Google"
+},
+{
+"icon": "dharmachakra",
+"google": "false",
+"search": "dharmachakra,dharma-wheel,religion-buddhist,buddhism,religion",
+"name": "dharmachakra",
+"path": "M11,2V3C9.27,3.2 7.69,3.9 6.4,4.94L5.64,4.18L4.22,5.6L5,6.35C3.9,7.68 3.21,9.3 3,11H2V13H3C3.21,14.68 3.9,16.26 5,17.56L4.22,18.32L5.64,19.74L6.39,19C7.71,20.07 9.3,20.77 11,21V22H13V21C14.69,20.77 16.29,20.07 17.6,19L18.36,19.74L19.78,18.32L19,17.57C20.1,16.27 20.79,14.68 21,13H22V11H21C20.79,9.3 20.1,7.69 19,6.36L19.78,5.6L18.36,4.18L17.61,4.94C16.29,3.87 14.69,3.2 13,3V2H11M11,5V8L10,8.5L7.81,6.35C8.72,5.67 9.81,5.17 11,5M13,5C14.16,5.18 15.26,5.64 16.2,6.35L14,8.5L13,8V5M6.4,7.76L8.5,10L8,11H5C5.16,9.84 5.7,8.7 6.39,7.75L6.4,7.76M17.6,7.76C18.33,8.71 18.81,9.82 19,11H16L15.5,10L17.61,7.76H17.6M12,10C13.12,10 14,10.88 14,12C14,13.12 13.12,14 12,14C10.88,14 10,13.12 10,12C10,10.88 10.88,10 12,10M5,13H8L8.57,14L6.39,16.15C5.67,15.24 5.19,14.16 5,13V13M16,13H19C18.81,14.15 18.33,15.24 17.61,16.16L15.5,14L16,13M10,15.5L11,16V19C9.83,18.8 8.73,18.31 7.8,17.57L10,15.5M14,15.5L16.19,17.57C15.28,18.25 14.19,18.83 13,19V16L14,15.5Z",
+"author": "Nick"
 },
 {
 "icon": "diabetes",
@@ -15928,22 +16960,6 @@ const icons = [
 "author": "Google"
 },
 {
-"icon": "do-not-disturb-off",
-"google": "true",
-"search": "do-not-disturb-off",
-"name": "do-not-disturb-off",
-"path": "M17,11V13H15.54L20.22,17.68C21.34,16.07 22,14.11 22,12A10,10 0 0,0 12,2C9.89,2 7.93,2.66 6.32,3.78L13.54,11H17M2.27,2.27L1,3.54L3.78,6.32C2.66,7.93 2,9.89 2,12A10,10 0 0,0 12,22C14.11,22 16.07,21.34 17.68,20.22L20.46,23L21.73,21.73L2.27,2.27M7,13V11H8.46L10.46,13H7Z",
-"author": "Google"
-},
-{
-"icon": "do-not-disturb",
-"google": "true",
-"search": "do-not-disturb,no-entry",
-"name": "do-not-disturb",
-"path": "M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2M17,13H7V11H17V13Z",
-"author": "Google"
-},
-{
 "icon": "dock-bottom",
 "google": "false",
 "search": "dock-bottom",
@@ -16002,7 +17018,7 @@ const icons = [
 {
 "icon": "dog-service",
 "google": "false",
-"search": "dog-service,guide-dog,animal",
+"search": "dog-service,guide-dog,k9,canine,animal",
 "name": "dog-service",
 "path": "M14,8L17,11V21H15V15H8L6,18V21H4V15L5,14V11L2,8L3,7L5,9H7V12A1,1 0 0,0 8,13H12A1,1 0 0,0 13,12V9L14,8M19,5V3L15,7L18,10L19,9L20,10L22,8L19,5M11.5,9.5L4.5,2.5C4.23,2.22 3.79,2.22 3.5,2.5V2.5C3.22,2.77 3.22,3.21 3.5,3.5L10.5,10.5C10.77,10.78 11.21,10.78 11.5,10.5V10.5C11.78,10.23 11.78,9.79 11.5,9.5Z",
 "author": "Michael Richins"
@@ -16018,7 +17034,7 @@ const icons = [
 {
 "icon": "dog-side",
 "google": "false",
-"search": "dog-side,animal",
+"search": "dog-side,k9,canine,animal",
 "name": "dog-side",
 "path": "M19,3L15,7L18,10L19,9L20,10L22,8L19,5V3M3,7L2,8L5,11V14L4,15V21H6V18L8,15H15V21H17V11L14,8L13,9H5L3,7Z",
 "author": "Nick"
@@ -16026,7 +17042,7 @@ const icons = [
 {
 "icon": "dog",
 "google": "false",
-"search": "dog,animal",
+"search": "dog,emoji-dog,emoticon-dog,animal",
 "name": "dog",
 "path": "M18,4C16.29,4 15.25,4.33 14.65,4.61C13.88,4.23 13,4 12,4C11,4 10.12,4.23 9.35,4.61C8.75,4.33 7.71,4 6,4C3,4 1,12 1,14C1,14.83 2.32,15.59 4.14,15.9C4.78,18.14 7.8,19.85 11.5,20V15.72C10.91,15.35 10,14.68 10,14C10,13 12,13 12,13C12,13 14,13 14,14C14,14.68 13.09,15.35 12.5,15.72V20C16.2,19.85 19.22,18.14 19.86,15.9C21.68,15.59 23,14.83 23,14C23,12 21,4 18,4M4.15,13.87C3.65,13.75 3.26,13.61 3,13.5C3.25,10.73 5.2,6.4 6.05,6C6.59,6 7,6.06 7.37,6.11C5.27,8.42 4.44,12.04 4.15,13.87M9,12A1,1 0 0,1 8,11C8,10.46 8.45,10 9,10A1,1 0 0,1 10,11C10,11.56 9.55,12 9,12M15,12A1,1 0 0,1 14,11C14,10.46 14.45,10 15,10A1,1 0 0,1 16,11C16,11.56 15.55,12 15,12M19.85,13.87C19.56,12.04 18.73,8.42 16.63,6.11C17,6.06 17.41,6 17.95,6C18.8,6.4 20.75,10.73 21,13.5C20.75,13.61 20.36,13.75 19.85,13.87Z",
 "author": "Michael Irigoyen"
@@ -16128,6 +17144,30 @@ const icons = [
 "author": "Haley Halcyon"
 },
 {
+"icon": "door-sliding-lock",
+"google": "false",
+"search": "door-sliding-lock,patio-door-lock,french-door-lock,home automation,lock",
+"name": "door-sliding-lock",
+"path": "M21.8 17V15.5C21.8 14.1 20.4 13 19 13S16.2 14.1 16.2 15.5V17C15.6 17 15 17.6 15 18.2V21.7C15 22.4 15.6 23 16.2 23H21.7C22.4 23 23 22.4 23 21.8V18.3C23 17.6 22.4 17 21.8 17M20.5 17H17.5V15.5C17.5 14.7 18.2 14.2 19 14.2S20.5 14.7 20.5 15.5V17M13 11H15V13H13V11M9 13H7V11H9V13M13 19H12V5H17V11.44C17.61 11.17 18.29 11 19 11V5C19 3.9 18.1 3 17 3H5C3.9 3 3 3.9 3 5V19H2V21H13V19M10 19H5V5H10V19Z",
+"author": "Michael Irigoyen"
+},
+{
+"icon": "door-sliding-open",
+"google": "false",
+"search": "door-sliding-open,patio-door-open,french-door-open,home automation",
+"name": "door-sliding-open",
+"path": "M6 11V13H4V11H6M22 5H17V19H22V5M7 5H2L2 19H7V5M22 3C23.11 3 24 3.89 24 5V21H0V5C0 3.89 .894 3 2 3H9V19H15V3H22M20 11H18V13H20V11Z",
+"author": "Michael Irigoyen"
+},
+{
+"icon": "door-sliding",
+"google": "true",
+"search": "door-sliding,patio-door,french-door,home automation",
+"name": "door-sliding",
+"path": "M10 13H8V11H10V13M16 11H14V13H16V11M21 19V21H3V19H4V5C4 3.9 4.9 3 6 3H18C19.1 3 20 3.9 20 5V19H21M11 5H6V19H11V5M18 5H13V19H18V5Z",
+"author": "Google"
+},
+{
 "icon": "door",
 "google": "false",
 "search": "door,home automation",
@@ -16165,7 +17205,7 @@ const icons = [
 "search": "dots-grid",
 "name": "dots-grid",
 "path": "M12 16C13.1 16 14 16.9 14 18S13.1 20 12 20 10 19.1 10 18 10.9 16 12 16M12 10C13.1 10 14 10.9 14 12S13.1 14 12 14 10 13.1 10 12 10.9 10 12 10M12 4C13.1 4 14 4.9 14 6S13.1 8 12 8 10 7.1 10 6 10.9 4 12 4M6 16C7.1 16 8 16.9 8 18S7.1 20 6 20 4 19.1 4 18 4.9 16 6 16M6 10C7.1 10 8 10.9 8 12S7.1 14 6 14 4 13.1 4 12 4.9 10 6 10M6 4C7.1 4 8 4.9 8 6S7.1 8 6 8 4 7.1 4 6 4.9 4 6 4M18 16C19.1 16 20 16.9 20 18S19.1 20 18 20 16 19.1 16 18 16.9 16 18 16M18 10C19.1 10 20 10.9 20 12S19.1 14 18 14 16 13.1 16 12 16.9 10 18 10M18 4C19.1 4 20 4.9 20 6S19.1 8 18 8 16 7.1 16 6 16.9 4 18 4Z",
-"author": "Jeff Hilnbrand"
+"author": "Jeff Anders"
 },
 {
 "icon": "dots-hexagon",
@@ -16173,7 +17213,7 @@ const icons = [
 "search": "dots-hexagon",
 "name": "dots-hexagon",
 "path": "M16 12C16 10.9 16.9 10 18 10S20 10.9 20 12 19.1 14 18 14 16 13.1 16 12M10 12C10 10.9 10.9 10 12 10S14 10.9 14 12 13.1 14 12 14 10 13.1 10 12M4 12C4 10.9 4.9 10 6 10S8 10.9 8 12 7.1 14 6 14 4 13.1 4 12M13 18C13 16.9 13.9 16 15 16S17 16.9 17 18 16.1 20 15 20 13 19.1 13 18M7 18C7 16.9 7.9 16 9 16S11 16.9 11 18 10.1 20 9 20 7 19.1 7 18M13 6C13 4.9 13.9 4 15 4S17 4.9 17 6 16.1 8 15 8 13 7.1 13 6M7 6C7 4.9 7.9 4 9 4S11 4.9 11 6 10.1 8 9 8 7 7.1 7 6",
-"author": "Jeff Hilnbrand"
+"author": "Jeff Anders"
 },
 {
 "icon": "dots-horizontal-circle-outline",
@@ -16205,7 +17245,7 @@ const icons = [
 "search": "dots-square,perimeter",
 "name": "dots-square",
 "path": "M12 16C13.1 16 14 16.9 14 18S13.1 20 12 20 10 19.1 10 18 10.9 16 12 16M12 4C13.1 4 14 4.9 14 6S13.1 8 12 8 10 7.1 10 6 10.9 4 12 4M6 16C7.1 16 8 16.9 8 18S7.1 20 6 20 4 19.1 4 18 4.9 16 6 16M6 10C7.1 10 8 10.9 8 12S7.1 14 6 14 4 13.1 4 12 4.9 10 6 10M6 4C7.1 4 8 4.9 8 6S7.1 8 6 8 4 7.1 4 6 4.9 4 6 4M18 16C19.1 16 20 16.9 20 18S19.1 20 18 20 16 19.1 16 18 16.9 16 18 16M18 10C19.1 10 20 10.9 20 12S19.1 14 18 14 16 13.1 16 12 16.9 10 18 10M18 4C19.1 4 20 4.9 20 6S19.1 8 18 8 16 7.1 16 6 16.9 4 18 4Z",
-"author": "Jeff Hilnbrand"
+"author": "Jeff Anders"
 },
 {
 "icon": "dots-triangle",
@@ -16213,7 +17253,7 @@ const icons = [
 "search": "dots-triangle",
 "name": "dots-triangle",
 "path": "M12 16C13.1 16 14 16.9 14 18S13.1 20 12 20 10 19.1 10 18 10.9 16 12 16M15 10C16.1 10 17 10.9 17 12S16.1 14 15 14 13 13.1 13 12 13.9 10 15 10M6 16C7.1 16 8 16.9 8 18S7.1 20 6 20 4 19.1 4 18 4.9 16 6 16M9 10C10.1 10 11 10.9 11 12S10.1 14 9 14 7 13.1 7 12 7.9 10 9 10M12 4C13.1 4 14 4.9 14 6S13.1 8 12 8 10 7.1 10 6 10.9 4 12 4M18 16C19.1 16 20 16.9 20 18S19.1 20 18 20 16 19.1 16 18 16.9 16 18 16",
-"author": "Jeff Hilnbrand"
+"author": "Jeff Anders"
 },
 {
 "icon": "dots-vertical-circle-outline",
@@ -16238,14 +17278,6 @@ const icons = [
 "name": "dots-vertical",
 "path": "M12,16A2,2 0 0,1 14,18A2,2 0 0,1 12,20A2,2 0 0,1 10,18A2,2 0 0,1 12,16M12,10A2,2 0 0,1 14,12A2,2 0 0,1 12,14A2,2 0 0,1 10,12A2,2 0 0,1 12,10M12,4A2,2 0 0,1 14,6A2,2 0 0,1 12,8A2,2 0 0,1 10,6A2,2 0 0,1 12,4Z",
 "author": "Google"
-},
-{
-"icon": "douban",
-"google": "false",
-"search": "douban,brand,logo",
-"name": "douban",
-"path": "M20,6H4V4H20V6M20,18V20H4V18H7.33L6.26,14H5V8H19V14H17.74L16.67,18H20M7,12H17V10H7V12M9.4,18H14.6L15.67,14H8.33L9.4,18Z",
-"author": "Contributors"
 },
 {
 "icon": "download-box-outline",
@@ -16514,7 +17546,7 @@ const icons = [
 {
 "icon": "earth-arrow-right",
 "google": "false",
-"search": "earth-arrow-right",
+"search": "earth-arrow-right,globe-arrow-right,world-arrow-right,planet-arrow-right",
 "name": "earth-arrow-right",
 "path": "M19 21V19H15V17H19V15L22 18L19 21M12 18C12 15.8 13.2 13.9 15 12.8C14.9 12.3 14.5 12 14 12H8V10H10C10.6 10 11 9.6 11 9V7H13C14.1 7 15 6.1 15 5V4.6C17.9 5.8 20 8.6 20 12V12.3C20.7 12.5 21.3 12.9 21.9 13.4C22 13 22 12.5 22 12C22 6.5 17.5 2 12 2S2 6.5 2 12 6.5 22 12 22C12.5 22 13 22 13.4 21.9C12.5 20.8 12 19.5 12 18M11 19.9C7 19.4 4 16.1 4 12C4 11.4 4.1 10.8 4.2 10.2L9 15V16C9 17.1 9.9 18 11 18V19.9Z",
 "author": "Michael Irigoyen"
@@ -16522,7 +17554,7 @@ const icons = [
 {
 "icon": "earth-box-minus",
 "google": "false",
-"search": "earth-box-minus",
+"search": "earth-box-minus,globe-box-minus,world-box-minus,planet-box-minus",
 "name": "earth-box-minus",
 "path": "M22 17V19H14V17H22M5 3H19C20.1 3 21 3.89 21 5V12.8C20.39 12.45 19.72 12.2 19 12.08V5H15.78C15.67 6 14.83 6.79 13.8 6.79H11.8V8.79C11.8 9.35 11.35 9.79 10.8 9.79H8.8V11.79H14.8C15.23 11.79 15.6 12.06 15.74 12.44C13.6 13.31 12.07 15.39 12 17.83C10.7 17.79 9.8 16.9 9.8 15.79V14.79L5 10.29V19H12.08C12.2 19.72 12.45 20.39 12.8 21H5C3.9 21 3 20.11 3 19V5C3 3.89 3.89 3 5 3Z",
 "author": "Muhammet Balsoy"
@@ -16530,7 +17562,7 @@ const icons = [
 {
 "icon": "earth-box-off",
 "google": "false",
-"search": "earth-box-off",
+"search": "earth-box-off,globe-box-off,world-box-off,planet-box-off",
 "name": "earth-box-off",
 "path": "M23,4.27L21,6.27V19A2,2 0 0,1 19,21H6.27L4.27,23L3,21.72L21.72,3L23,4.27M5,3H19.18L17.18,5H15.78C15.67,6 14.83,6.79 13.8,6.79H11.8V8.79C11.8,9.35 11.35,9.79 10.8,9.79H8.8V11.79H10.38L8.55,13.62L5,10.29V17.18L3,19.18V5C3,3.89 3.89,3 5,3M11.8,19V17.79C11.17,17.79 10.6,17.5 10.23,17.04L8.27,19H11.8M15.8,12.79V15.79H16.8C17.69,15.79 18.74,16.38 19,17.18V8.27L15.33,11.94C15.61,12.12 15.8,12.43 15.8,12.79Z",
 "author": "GreenTurtwig"
@@ -16538,7 +17570,7 @@ const icons = [
 {
 "icon": "earth-box-plus",
 "google": "false",
-"search": "earth-box-plus",
+"search": "earth-box-plus,globe-box-plus,world-box-plus,planet-box-plus",
 "name": "earth-box-plus",
 "path": "M17 14H19V17H22V19H19V22H17V19H14V17H17V14M5 3H19C20.1 3 21 3.89 21 5V12.8C20.39 12.45 19.72 12.2 19 12.08V5H15.78C15.67 6 14.83 6.79 13.8 6.79H11.8V8.79C11.8 9.35 11.35 9.79 10.8 9.79H8.8V11.79H14.8C15.23 11.79 15.6 12.06 15.74 12.44C13.6 13.31 12.07 15.39 12 17.83C10.7 17.79 9.8 16.9 9.8 15.79V14.79L5 10.29V19H12.08C12.2 19.72 12.45 20.39 12.8 21H5C3.9 21 3 20.11 3 19V5C3 3.89 3.89 3 5 3Z",
 "author": "Muhammet Balsoy"
@@ -16546,7 +17578,7 @@ const icons = [
 {
 "icon": "earth-box-remove",
 "google": "false",
-"search": "earth-box-remove",
+"search": "earth-box-remove,globe-box-remove,world-box-remove,planet-box-remove",
 "name": "earth-box-remove",
 "path": "M14.46 15.88L15.88 14.46L18 16.59L20.12 14.47L21.54 15.88L19.41 18L21.54 20.12L20.12 21.54L18 19.41L15.88 21.54L14.46 20.12L16.59 18L14.47 15.88M5 3H19C20.1 3 21 3.89 21 5V12.8C20.39 12.45 19.72 12.2 19 12.08V5H15.78C15.67 6 14.83 6.79 13.8 6.79H11.8V8.79C11.8 9.35 11.35 9.79 10.8 9.79H8.8V11.79H14.8C15.23 11.79 15.6 12.06 15.74 12.44C13.6 13.31 12.07 15.39 12 17.83C10.7 17.79 9.8 16.9 9.8 15.79V14.79L5 10.29V19H12.08C12.2 19.72 12.45 20.39 12.8 21H5C3.9 21 3 20.11 3 19V5C3 3.89 3.89 3 5 3Z",
 "author": "Muhammet Balsoy"
@@ -16554,7 +17586,7 @@ const icons = [
 {
 "icon": "earth-box",
 "google": "false",
-"search": "earth-box",
+"search": "earth-box,globe-box,world-box,planet-box",
 "name": "earth-box",
 "path": "M5,3C3.89,3 3,3.89 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V5C21,3.89 20.1,3 19,3H5M15.78,5H19V17.18C18.74,16.38 17.69,15.79 16.8,15.79H15.8V12.79A1,1 0 0,0 14.8,11.79H8.8V9.79H10.8A1,1 0 0,0 11.8,8.79V6.79H13.8C14.83,6.79 15.67,6 15.78,5M5,10.29L9.8,14.79V15.79C9.8,16.9 10.7,17.79 11.8,17.79V19H5V10.29Z",
 "author": "GreenTurtwig"
@@ -16562,7 +17594,7 @@ const icons = [
 {
 "icon": "earth-minus",
 "google": "false",
-"search": "earth-minus",
+"search": "earth-minus,globe-minus,world-minus,planet-minus",
 "name": "earth-minus",
 "path": "M14 17H22V19H14V17M20 12C20 8.64 17.93 5.77 15 4.59V5C15 6.1 14.1 7 13 7H11V9C11 9.55 10.55 10 10 10H8V12H14C14.5 12 14.9 12.35 15 12.81C13.2 13.85 12 15.79 12 18C12 19.5 12.54 20.85 13.44 21.9L12 22C6.5 22 2 17.5 2 12C2 6.5 6.5 2 12 2C17.5 2 22 6.5 22 12L21.9 13.44C21.34 12.96 20.7 12.59 20 12.34L20 12M11 19.93V18C9.9 18 9 17.1 9 16V15L4.21 10.21C4.08 10.78 4 11.38 4 12C4 16.08 7.06 19.44 11 19.93Z",
 "author": "Muhammet Balsoy"
@@ -16570,7 +17602,7 @@ const icons = [
 {
 "icon": "earth-off",
 "google": "false",
-"search": "earth-off,geographic information system",
+"search": "earth-off,globe-off,world-off,planet-off,geographic information system",
 "name": "earth-off",
 "path": "M22,5.27L20.5,6.75C21.46,8.28 22,10.07 22,12A10,10 0 0,1 12,22C10.08,22 8.28,21.46 6.75,20.5L5.27,22L4,20.72L20.72,4L22,5.27M17.9,17.39C19.2,15.97 20,14.08 20,12C20,10.63 19.66,9.34 19.05,8.22L14.83,12.44C14.94,12.6 15,12.79 15,13V16H16C16.89,16 17.64,16.59 17.9,17.39M11,19.93V18C10.5,18 10.07,17.83 9.73,17.54L8.22,19.05C9.07,19.5 10,19.8 11,19.93M15,4.59V5A2,2 0 0,1 13,7H11V9A1,1 0 0,1 10,10H8V12H10.18L8.09,14.09L4.21,10.21C4.08,10.78 4,11.38 4,12C4,13.74 4.56,15.36 5.5,16.67L4.08,18.1C2.77,16.41 2,14.3 2,12A10,10 0 0,1 12,2C14.3,2 16.41,2.77 18.1,4.08L16.67,5.5C16.16,5.14 15.6,4.83 15,4.59Z",
 "author": "Austin Andrews"
@@ -16578,7 +17610,7 @@ const icons = [
 {
 "icon": "earth-plus",
 "google": "false",
-"search": "earth-plus",
+"search": "earth-plus,globe-plus,world-plus,planet-plus",
 "name": "earth-plus",
 "path": "M17 14H19V17H22V19H19V22H17V19H14V17H17V14M20 12C20 8.64 17.93 5.77 15 4.59V5C15 6.1 14.1 7 13 7H11V9C11 9.55 10.55 10 10 10H8V12H14C14.5 12 14.9 12.35 15 12.81C13.2 13.85 12 15.79 12 18C12 19.5 12.54 20.85 13.44 21.9L12 22C6.5 22 2 17.5 2 12C2 6.5 6.5 2 12 2C17.5 2 22 6.5 22 12L21.9 13.44C21.34 12.96 20.7 12.59 20 12.34L20 12M11 19.93V18C9.9 18 9 17.1 9 16V15L4.21 10.21C4.08 10.78 4 11.38 4 12C4 16.08 7.06 19.44 11 19.93Z",
 "author": "Muhammet Balsoy"
@@ -16586,7 +17618,7 @@ const icons = [
 {
 "icon": "earth-remove",
 "google": "false",
-"search": "earth-remove",
+"search": "earth-remove,globe-remove,world-remove,planet-remove",
 "name": "earth-remove",
 "path": "M14.46 15.88L15.88 14.46L18 16.59L20.12 14.47L21.54 15.88L19.41 18L21.54 20.12L20.12 21.54L18 19.41L15.88 21.54L14.46 20.12L16.59 18L14.47 15.88M20 12C20 8.64 17.93 5.77 15 4.59V5C15 6.1 14.1 7 13 7H11V9C11 9.55 10.55 10 10 10H8V12H14C14.5 12 14.9 12.35 15 12.81C13.2 13.85 12 15.79 12 18C12 19.5 12.54 20.85 13.44 21.9L12 22C6.5 22 2 17.5 2 12C2 6.5 6.5 2 12 2C17.5 2 22 6.5 22 12L21.9 13.44C21.34 12.96 20.7 12.59 20 12.34L20 12M11 19.93V18C9.9 18 9 17.1 9 16V15L4.21 10.21C4.08 10.78 4 11.38 4 12C4 16.08 7.06 19.44 11 19.93Z",
 "author": "Muhammet Balsoy"
@@ -16594,7 +17626,7 @@ const icons = [
 {
 "icon": "earth",
 "google": "true",
-"search": "earth,globe,public,planet,geographic information system",
+"search": "earth,globe,public,planet,world,geographic information system",
 "name": "earth",
 "path": "M17.9,17.39C17.64,16.59 16.89,16 16,16H15V13A1,1 0 0,0 14,12H8V10H10A1,1 0 0,0 11,9V7H13A2,2 0 0,0 15,5V4.59C17.93,5.77 20,8.64 20,12C20,14.08 19.2,15.97 17.9,17.39M11,19.93C7.05,19.44 4,16.08 4,12C4,11.38 4.08,10.78 4.21,10.21L9,15V16A2,2 0 0,0 11,18M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2Z",
 "author": "Google"
@@ -16610,7 +17642,7 @@ const icons = [
 {
 "icon": "egg-off-outline",
 "google": "false",
-"search": "egg-off-outline,food,drink",
+"search": "egg-off-outline,food,drink,agriculture",
 "name": "egg-off-outline",
 "path": "M22.11 21.46L2.39 1.73L1.11 3L6.1 8C5.1 10.28 4.5 12.76 4.5 14.5C4.5 18.64 7.86 22 12 22C14.23 22 16.22 21 17.59 19.5L20.84 22.73L22.11 21.46M12 20C8.97 20 6.5 17.53 6.5 14.5C6.5 13.08 6.95 11.25 7.63 9.5L16.17 18.06C15.16 19.24 13.67 20 12 20M9.36 6.16L7.92 4.72C9.1 3.11 10.5 2 12 2C16.14 2 19.5 10.36 19.5 14.5C19.5 15.06 19.43 15.6 19.32 16.12L17.5 14.29C17.38 10.46 14.28 4 12 4C11.17 4 10.22 4.87 9.36 6.16Z",
 "author": "Michael Irigoyen"
@@ -16618,7 +17650,7 @@ const icons = [
 {
 "icon": "egg-off",
 "google": "false",
-"search": "egg-off,food,drink",
+"search": "egg-off,food,drink,agriculture",
 "name": "egg-off",
 "path": "M22.1 21.5L2.4 1.7L1.1 3L6.1 8C5.1 10.3 4.5 12.8 4.5 14.5C4.5 18.6 7.9 22 12 22C14.2 22 16.2 21 17.6 19.5L20.8 22.7L22.1 21.5M19.5 14.5C19.5 10.4 16.1 2 12 2C10.5 2 9.1 3.1 7.9 4.7L19.3 16.1C19.4 15.6 19.5 15.1 19.5 14.5Z",
 "author": "Michael Irigoyen"
@@ -16626,7 +17658,7 @@ const icons = [
 {
 "icon": "egg-outline",
 "google": "false",
-"search": "egg-outline,food,drink",
+"search": "egg-outline,food,drink,agriculture",
 "name": "egg-outline",
 "path": "M12 4C14.32 4 17.5 10.7 17.5 14.5C17.5 17.53 15.03 20 12 20S6.5 17.53 6.5 14.5C6.5 10.7 9.68 4 12 4M12 2C7.86 2 4.5 10.36 4.5 14.5C4.5 18.64 7.86 22 12 22S19.5 18.64 19.5 14.5C19.5 10.36 16.14 2 12 2Z",
 "author": "Michael Irigoyen"
@@ -16634,7 +17666,7 @@ const icons = [
 {
 "icon": "egg",
 "google": "false",
-"search": "egg,food,drink",
+"search": "egg,food,drink,agriculture",
 "name": "egg",
 "path": "M19.5,14.5A7.5,7.5 0 0,1 12,22A7.5,7.5 0 0,1 4.5,14.5C4.5,10.36 7.86,2 12,2C16.14,2 19.5,10.36 19.5,14.5Z",
 "author": "Michael Richins"
@@ -17066,7 +18098,7 @@ const icons = [
 {
 "icon": "emoticon-angry-outline",
 "google": "false",
-"search": "emoticon-angry-outline,smiley-angry-outline,face-angry-outline,emoji",
+"search": "emoticon-angry-outline,smiley-angry-outline,face-angry-outline,emoji-angry-outline,emoji",
 "name": "emoticon-angry-outline",
 "path": "M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2M12,20A8,8 0 0,1 4,12A8,8 0 0,1 12,4A8,8 0 0,1 20,12A8,8 0 0,1 12,20M12,14C13.75,14 15.29,14.72 16.19,15.81L14.77,17.23C14.32,16.5 13.25,16 12,16C10.75,16 9.68,16.5 9.23,17.23L7.81,15.81C8.71,14.72 10.25,14 12,14M10,9.5C10,10.3 9.3,11 8.5,11C7.7,11 7,10.3 7,9.5V8L10,9.5M17,9.5C17,10.3 16.3,11 15.5,11C14.7,11 14,10.3 14,9.5L17,8V9.5",
 "author": "Michael Irigoyen"
@@ -17074,7 +18106,7 @@ const icons = [
 {
 "icon": "emoticon-angry",
 "google": "false",
-"search": "emoticon-angry,smiley-angry,face-angry,emoji",
+"search": "emoticon-angry,smiley-angry,face-angry,emoji-angry,emoji",
 "name": "emoticon-angry",
 "path": "M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2M7,9.5V8L10,9.5C10,10.3 9.3,11 8.5,11C7.7,11 7,10.3 7,9.5M14.77,17.23C14.32,16.5 13.25,16 12,16C10.75,16 9.68,16.5 9.23,17.23L7.81,15.81C8.71,14.72 10.25,14 12,14C13.75,14 15.29,14.72 16.19,15.81L14.77,17.23M17,9.5C17,10.3 16.3,11 15.5,11C14.7,11 14,10.3 14,9.5L17,8V9.5Z",
 "author": "Michael Irigoyen"
@@ -17082,7 +18114,7 @@ const icons = [
 {
 "icon": "emoticon-confused-outline",
 "google": "false",
-"search": "emoticon-confused-outline,face-confused-outline,emoji",
+"search": "emoticon-confused-outline,face-confused-outline,emoji-confused-outline,emoji",
 "name": "emoticon-confused-outline",
 "path": "M20 12A8 8 0 1 0 12 20A8 8 0 0 0 20 12M22 12A10 10 0 1 1 12 2A10 10 0 0 1 22 12M15.5 8A1.5 1.5 0 1 1 14 9.5A1.54 1.54 0 0 1 15.5 8M10 9.5A1.5 1.5 0 1 1 8.5 8A1.54 1.54 0 0 1 10 9.5M17 15H13A4 4 0 0 0 9.53 17L7.8 16A6 6 0 0 1 13 13H17Z",
 "author": "Michael Richins"
@@ -17090,7 +18122,7 @@ const icons = [
 {
 "icon": "emoticon-confused",
 "google": "false",
-"search": "emoticon-confused,face-confused,emoji",
+"search": "emoticon-confused,face-confused,emoji-confused,emoji",
 "name": "emoticon-confused",
 "path": "M12 2A10 10 0 1 0 22 12A10 10 0 0 0 12 2M8.5 8A1.5 1.5 0 1 1 7 9.5A1.54 1.54 0 0 1 8.5 8M17 16H13A4 4 0 0 0 9.53 18L7.8 17A6 6 0 0 1 13 14H17M15.5 11A1.5 1.5 0 1 1 17 9.5A1.54 1.54 0 0 1 15.5 11Z",
 "author": "Michael Richins"
@@ -17098,7 +18130,7 @@ const icons = [
 {
 "icon": "emoticon-cool-outline",
 "google": "false",
-"search": "emoticon-cool-outline,smiley-cool-outline,face-cool-outline,face-sunglasses-outline,emoji",
+"search": "emoticon-cool-outline,smiley-cool-outline,face-cool-outline,face-sunglasses-outline,emoji-cool-outline,emoji",
 "name": "emoticon-cool-outline",
 "path": "M19,10C19,11.38 16.88,12.5 15.5,12.5C14.12,12.5 12.75,11.38 12.75,10H11.25C11.25,11.38 9.88,12.5 8.5,12.5C7.12,12.5 5,11.38 5,10H4.25C4.09,10.64 4,11.31 4,12A8,8 0 0,0 12,20A8,8 0 0,0 20,12C20,11.31 19.91,10.64 19.75,10H19M12,4C9.04,4 6.45,5.61 5.07,8H18.93C17.55,5.61 14.96,4 12,4M22,12A10,10 0 0,1 12,22A10,10 0 0,1 2,12A10,10 0 0,1 12,2A10,10 0 0,1 22,12M12,17.23C10.25,17.23 8.71,16.5 7.81,15.42L9.23,14C9.68,14.72 10.75,15.23 12,15.23C13.25,15.23 14.32,14.72 14.77,14L16.19,15.42C15.29,16.5 13.75,17.23 12,17.23Z",
 "author": "Austin Andrews"
@@ -17106,7 +18138,7 @@ const icons = [
 {
 "icon": "emoticon-cool",
 "google": "false",
-"search": "emoticon-cool,smiley-cool,face-cool,face-sunglasses,emoji",
+"search": "emoticon-cool,smiley-cool,face-cool,face-sunglasses,emoji-cool,emoji",
 "name": "emoticon-cool",
 "path": "M3.22,7.22C4.91,4.11 8.21,2 12,2C15.79,2 19.09,4.11 20.78,7.22L20,8H4L3.22,7.22M21.4,8.6C21.78,9.67 22,10.81 22,12A10,10 0 0,1 12,22A10,10 0 0,1 2,12C2,10.81 2.22,9.67 2.6,8.6L4,10H5C5,11.38 7.12,12.5 8.5,12.5C9.88,12.5 11.25,11.38 11.25,10H12.75C12.75,11.38 14.12,12.5 15.5,12.5C16.88,12.5 19,11.38 19,10H20L21.4,8.6M16.19,15.42L14.77,14C14.32,14.72 13.25,15.23 12,15.23C10.75,15.23 9.68,14.72 9.23,14L7.81,15.42C8.71,16.5 10.25,17.23 12,17.23C13.75,17.23 15.29,16.5 16.19,15.42Z",
 "author": "Michael Irigoyen"
@@ -17114,7 +18146,7 @@ const icons = [
 {
 "icon": "emoticon-cry-outline",
 "google": "false",
-"search": "emoticon-cry-outline,smiley-cry-outline,face-cry-outline,emoji",
+"search": "emoticon-cry-outline,smiley-cry-outline,face-cry-outline,emoji-cry-outline,emoji",
 "name": "emoticon-cry-outline",
 "path": "M7.57,20C6.23,20 5.14,18.91 5.14,17.57C5.14,16.5 6.32,14.5 7.57,12.81C8.82,14.5 10,16.5 10,17.57A2.43,2.43 0 0,1 7.57,20M12,2A10,10 0 0,0 2,12C2,13.75 2.45,15.38 3.24,16.81C3.4,16 3.81,15.07 4.31,14.17C4.11,13.5 4,12.75 4,12A8,8 0 0,1 12,4A8,8 0 0,1 20,12A8,8 0 0,1 12,20C11.76,20 11.53,20 11.29,19.96C10.82,20.7 10.14,21.28 9.34,21.63C10.19,21.87 11.08,22 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2M12,14C11.59,14 11.19,14.04 10.81,14.12C11.16,14.75 11.47,15.4 11.69,16C11.79,16 11.89,16 12,16C13.25,16 14.32,16.5 14.77,17.23L16.19,15.81C15.29,14.72 13.75,14 12,14M15.5,8C14.7,8 14,8.7 14,9.5C14,10.3 14.7,11 15.5,11C16.3,11 17,10.3 17,9.5C17,8.7 16.3,8 15.5,8M10,9.5C10,8.7 9.3,8 8.5,8C7.7,8 7,8.7 7,9.5C7,10.3 7.7,11 8.5,11C9.3,11 10,10.3 10,9.5",
 "author": "Michael Irigoyen"
@@ -17122,7 +18154,7 @@ const icons = [
 {
 "icon": "emoticon-cry",
 "google": "false",
-"search": "emoticon-cry,smiley-cry,face-cry,emoji",
+"search": "emoticon-cry,smiley-cry,face-cry,emoji-cry,emoji",
 "name": "emoticon-cry",
 "path": "M5.14,17.57C5.14,16.5 6.32,14.5 7.57,12.81C8.82,14.5 10,16.5 10,17.57A2.43,2.43 0 0,1 7.57,20C6.23,20 5.14,18.91 5.14,17.57M22,12A10,10 0 0,1 12,22C11.08,22 10.18,21.86 9.33,21.63C10.9,20.95 12,19.39 12,17.57C12,17.12 11.89,16.6 11.69,16C11.79,16 11.89,16 12,16C13.25,16 14.32,16.5 14.77,17.23L16.19,15.81C15.29,14.72 13.75,14 12,14C11.59,14 11.19,14.04 10.81,14.12C10.38,13.36 9.85,12.53 9.19,11.63L8.71,11C9.42,10.87 10,10.23 10,9.5C10,8.7 9.3,8 8.5,8C7.7,8 7,8.7 7,9.5C7,9.69 7.04,9.87 7.11,10.04L5.96,11.63C4.4,13.75 3.5,15.5 3.23,16.81C2.45,15.38 2,13.74 2,12A10,10 0 0,1 12,2A10,10 0 0,1 22,12M17,9.5C17,8.7 16.3,8 15.5,8C14.7,8 14,8.7 14,9.5C14,10.3 14.7,11 15.5,11C16.3,11 17,10.3 17,9.5Z",
 "author": "Michael Irigoyen"
@@ -17130,7 +18162,7 @@ const icons = [
 {
 "icon": "emoticon-dead-outline",
 "google": "true",
-"search": "emoticon-dead-outline,smiley-dead-outline,face-dead-outline,emoji",
+"search": "emoticon-dead-outline,smiley-dead-outline,face-dead-outline,emoji-dead-outline,emoji",
 "name": "emoticon-dead-outline",
 "path": "M12,2C6.47,2 2,6.47 2,12C2,17.53 6.47,22 12,22A10,10 0 0,0 22,12C22,6.47 17.5,2 12,2M12,20A8,8 0 0,1 4,12A8,8 0 0,1 12,4A8,8 0 0,1 20,12A8,8 0 0,1 12,20M16.18,7.76L15.12,8.82L14.06,7.76L13,8.82L14.06,9.88L13,10.94L14.06,12L15.12,10.94L16.18,12L17.24,10.94L16.18,9.88L17.24,8.82L16.18,7.76M7.82,12L8.88,10.94L9.94,12L11,10.94L9.94,9.88L11,8.82L9.94,7.76L8.88,8.82L7.82,7.76L6.76,8.82L7.82,9.88L6.76,10.94L7.82,12M12,14C9.67,14 7.69,15.46 6.89,17.5H17.11C16.31,15.46 14.33,14 12,14Z",
 "author": "Google"
@@ -17138,7 +18170,7 @@ const icons = [
 {
 "icon": "emoticon-dead",
 "google": "true",
-"search": "emoticon-dead,smiley-dead,face-dead,emoji",
+"search": "emoticon-dead,smiley-dead,face-dead,emoji-dead,emoji",
 "name": "emoticon-dead",
 "path": "M12,2C6.47,2 2,6.47 2,12C2,17.53 6.47,22 12,22A10,10 0 0,0 22,12C22,6.47 17.5,2 12,2M6.76,8.82L7.82,7.76L8.88,8.82L9.94,7.76L11,8.82L9.94,9.88L11,10.94L9.94,12L8.88,10.94L7.82,12L6.76,10.94L7.82,9.88L6.76,8.82M6.89,17.5C7.69,15.46 9.67,14 12,14C14.33,14 16.31,15.46 17.11,17.5H6.89M17.24,10.94L16.18,12L15.12,10.94L14.06,12L13,10.94L14.06,9.88L13,8.82L14.06,7.76L15.12,8.82L16.18,7.76L17.24,8.82L16.18,9.88L17.24,10.94Z",
 "author": "Google"
@@ -17146,7 +18178,7 @@ const icons = [
 {
 "icon": "emoticon-devil-outline",
 "google": "false",
-"search": "emoticon-devil-outline,smiley-devil-outline,face-devil-outline,emoji",
+"search": "emoticon-devil-outline,smiley-devil-outline,face-devil-outline,emoji-devil-outline,emoji",
 "name": "emoticon-devil-outline",
 "path": "M1.5,2.09C2.4,3 3.87,3.73 5.69,4.25C7.41,2.84 9.61,2 12,2C14.39,2 16.59,2.84 18.31,4.25C20.13,3.73 21.6,3 22.5,2.09C22.47,3.72 21.65,5.21 20.28,6.4C21.37,8 22,9.92 22,12A10,10 0 0,1 12,22A10,10 0 0,1 2,12C2,9.92 2.63,8 3.72,6.4C2.35,5.21 1.53,3.72 1.5,2.09M20,12A8,8 0 0,0 12,4A8,8 0 0,0 4,12A8,8 0 0,0 12,20A8,8 0 0,0 20,12M10.5,10C10.5,10.8 9.8,11.5 9,11.5C8.2,11.5 7.5,10.8 7.5,10V8.5L10.5,10M16.5,10C16.5,10.8 15.8,11.5 15,11.5C14.2,11.5 13.5,10.8 13.5,10L16.5,8.5V10M12,17.23C10.25,17.23 8.71,16.5 7.81,15.42L9.23,14C9.68,14.72 10.75,15.23 12,15.23C13.25,15.23 14.32,14.72 14.77,14L16.19,15.42C15.29,16.5 13.75,17.23 12,17.23Z",
 "author": "Austin Andrews"
@@ -17154,7 +18186,7 @@ const icons = [
 {
 "icon": "emoticon-devil",
 "google": "false",
-"search": "emoticon-devil,smiley-devil,face-devil,emoji",
+"search": "emoticon-devil,smiley-devil,face-devil,emoji-devil,emoji",
 "name": "emoticon-devil",
 "path": "M22.5,2.09C21.6,3 20.13,3.73 18.31,4.25C16.59,2.84 14.39,2 12,2C9.61,2 7.41,2.84 5.69,4.25C3.87,3.73 2.4,3 1.5,2.09C1.53,3.72 2.35,5.21 3.72,6.4C2.63,8 2,9.92 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12C22,9.92 21.37,8 20.28,6.4C21.65,5.21 22.47,3.72 22.5,2.09M7.5,8.5L10.5,10C10.5,10.8 9.8,11.5 9,11.5C8.2,11.5 7.5,10.8 7.5,10V8.5M12,17.23C10.25,17.23 8.71,16.5 7.81,15.42L9.23,14C9.68,14.72 10.75,15.23 12,15.23C13.25,15.23 14.32,14.72 14.77,14L16.19,15.42C15.29,16.5 13.75,17.23 12,17.23M16.5,10C16.5,10.8 15.8,11.5 15,11.5C14.2,11.5 13.5,10.8 13.5,10L16.5,8.5V10Z",
 "author": "Austin Andrews"
@@ -17162,7 +18194,7 @@ const icons = [
 {
 "icon": "emoticon-excited-outline",
 "google": "true",
-"search": "emoticon-excited-outline,smiley-excited-outline,face-excited-outline,emoji",
+"search": "emoticon-excited-outline,smiley-excited-outline,face-excited-outline,emoji-excited-outline,emoji",
 "name": "emoticon-excited-outline",
 "path": "M12,2C6.47,2 2,6.47 2,12C2,17.53 6.47,22 12,22A10,10 0 0,0 22,12C22,6.47 17.5,2 12,2M12,20A8,8 0 0,1 4,12A8,8 0 0,1 12,4A8,8 0 0,1 20,12A8,8 0 0,1 12,20M13,9.94L14.06,11L15.12,9.94L16.18,11L17.24,9.94L15.12,7.82L13,9.94M8.88,9.94L9.94,11L11,9.94L8.88,7.82L6.76,9.94L7.82,11L8.88,9.94M12,17.5C14.33,17.5 16.31,16.04 17.11,14H6.89C7.69,16.04 9.67,17.5 12,17.5Z",
 "author": "Google"
@@ -17170,7 +18202,7 @@ const icons = [
 {
 "icon": "emoticon-excited",
 "google": "true",
-"search": "emoticon-excited,smiley-excited,face-excited,emoji",
+"search": "emoticon-excited,smiley-excited,face-excited,emoji-excited,emoji",
 "name": "emoticon-excited",
 "path": "M12,2C6.47,2 2,6.47 2,12C2,17.53 6.47,22 12,22A10,10 0 0,0 22,12C22,6.47 17.5,2 12,2M8.88,7.82L11,9.94L9.94,11L8.88,9.94L7.82,11L6.76,9.94L8.88,7.82M12,17.5C9.67,17.5 7.69,16.04 6.89,14H17.11C16.31,16.04 14.33,17.5 12,17.5M16.18,11L15.12,9.94L14.06,11L13,9.94L15.12,7.82L17.24,9.94L16.18,11Z",
 "author": "Google"
@@ -17178,7 +18210,7 @@ const icons = [
 {
 "icon": "emoticon-frown-outline",
 "google": "true",
-"search": "emoticon-frown-outline,face-frown-outline,emoji",
+"search": "emoticon-frown-outline,face-frown-outline,emoji-frown-outline,emoji",
 "name": "emoticon-frown-outline",
 "path": "M12 2C6.47 2 2 6.5 2 12S6.47 22 12 22C17.5 22 22 17.5 22 12S17.5 2 12 2M12 20C7.58 20 4 16.42 4 12S7.58 4 12 4 20 7.58 20 12 16.42 20 12 20M15.5 11C16.33 11 17 10.33 17 9.5S16.33 8 15.5 8 14 8.67 14 9.5 14.67 11 15.5 11M8.5 11C9.33 11 10 10.33 10 9.5S9.33 8 8.5 8 7 8.67 7 9.5 7.67 11 8.5 11M12 13.5C9.67 13.5 7.69 14.96 6.89 17H17.11C16.31 14.96 14.33 13.5 12 13.5Z",
 "author": "Google"
@@ -17186,7 +18218,7 @@ const icons = [
 {
 "icon": "emoticon-frown",
 "google": "false",
-"search": "emoticon-frown,face-frown,emoji",
+"search": "emoticon-frown,face-frown,emoji-frown,emoji",
 "name": "emoticon-frown",
 "path": "M12 2C6.47 2 2 6.5 2 12S6.47 22 12 22C17.5 22 22 17.5 22 12S17.5 2 12 2M15.5 8C16.33 8 17 8.67 17 9.5S16.33 11 15.5 11 14 10.33 14 9.5 14.67 8 15.5 8M8.5 8C9.33 8 10 8.67 10 9.5S9.33 11 8.5 11 7 10.33 7 9.5 7.67 8 8.5 8M6.89 17C7.69 14.96 9.67 13.5 12 13.5S16.31 14.96 17.11 17H6.89Z",
 "author": "Michael Irigoyen"
@@ -17194,7 +18226,7 @@ const icons = [
 {
 "icon": "emoticon-happy-outline",
 "google": "false",
-"search": "emoticon-happy-outline,smiley-happy-outline,face-happy-outline,emoji",
+"search": "emoticon-happy-outline,smiley-happy-outline,face-happy-outline,emoji-happy-outline,emoji",
 "name": "emoticon-happy-outline",
 "path": "M20,12A8,8 0 0,0 12,4A8,8 0 0,0 4,12A8,8 0 0,0 12,20A8,8 0 0,0 20,12M22,12A10,10 0 0,1 12,22A10,10 0 0,1 2,12A10,10 0 0,1 12,2A10,10 0 0,1 22,12M10,9.5C10,10.3 9.3,11 8.5,11C7.7,11 7,10.3 7,9.5C7,8.7 7.7,8 8.5,8C9.3,8 10,8.7 10,9.5M17,9.5C17,10.3 16.3,11 15.5,11C14.7,11 14,10.3 14,9.5C14,8.7 14.7,8 15.5,8C16.3,8 17,8.7 17,9.5M12,17.23C10.25,17.23 8.71,16.5 7.81,15.42L9.23,14C9.68,14.72 10.75,15.23 12,15.23C13.25,15.23 14.32,14.72 14.77,14L16.19,15.42C15.29,16.5 13.75,17.23 12,17.23Z",
 "author": "Gabriel"
@@ -17202,7 +18234,7 @@ const icons = [
 {
 "icon": "emoticon-happy",
 "google": "false",
-"search": "emoticon-happy,smiley-happy,face-happy,emoji",
+"search": "emoticon-happy,smiley-happy,face-happy,emoji-happy,emoji",
 "name": "emoticon-happy",
 "path": "M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2M7,9.5C7,8.7 7.7,8 8.5,8C9.3,8 10,8.7 10,9.5C10,10.3 9.3,11 8.5,11C7.7,11 7,10.3 7,9.5M12,17.23C10.25,17.23 8.71,16.5 7.81,15.42L9.23,14C9.68,14.72 10.75,15.23 12,15.23C13.25,15.23 14.32,14.72 14.77,14L16.19,15.42C15.29,16.5 13.75,17.23 12,17.23M15.5,11C14.7,11 14,10.3 14,9.5C14,8.7 14.7,8 15.5,8C16.3,8 17,8.7 17,9.5C17,10.3 16.3,11 15.5,11Z",
 "author": "Michael Irigoyen"
@@ -17210,7 +18242,7 @@ const icons = [
 {
 "icon": "emoticon-kiss-outline",
 "google": "false",
-"search": "emoticon-kiss-outline,smiley-kiss-outline,face-kiss-outline,emoji",
+"search": "emoticon-kiss-outline,smiley-kiss-outline,face-kiss-outline,emoji-kiss-outline,emoji",
 "name": "emoticon-kiss-outline",
 "path": "M9,9.5C9,10.3 8.3,11 7.5,11C6.7,11 6,10.3 6,9.5C6,8.7 6.7,8 7.5,8C8.3,8 9,8.7 9,9.5M16,9.5C16,10.3 15.3,11 14.5,11C13.7,11 13,10.3 13,9.5C13,8.7 13.7,8 14.5,8C15.3,8 16,8.7 16,9.5M14,14.12L11.88,12L10.82,13.06L11.88,14.12L10.82,15.18L11.88,16.24L10.82,17.3L11.88,18.36L14,16.24L12.94,15.18L14,14.12M16.85,13A2.05,2.05 0 0,0 14.8,15.05C14.8,15.62 15.03,16.12 15.4,16.5L18.9,20L22.4,16.5C22.77,16.13 23,15.61 23,15.05A2.05,2.05 0 0,0 20.95,13C20.4,13 19.87,13.23 19.5,13.6L18.9,14.2L18.3,13.61C17.93,13.23 17.4,13 16.85,13M15,18.92C13.82,19.6 12.46,20 11,20A8,8 0 0,1 3,12A8,8 0 0,1 11,4C15.26,4 18.73,7.33 19,11.5C19.58,11.19 20.26,11 20.95,11C20.45,5.95 16.18,2 11,2A10,10 0 0,0 1,12A10,10 0 0,0 11,22C13,22 14.88,21.4 16.45,20.38L15,18.92Z",
 "author": "Michael Irigoyen"
@@ -17218,7 +18250,7 @@ const icons = [
 {
 "icon": "emoticon-kiss",
 "google": "false",
-"search": "emoticon-kiss,smiley-kiss,face-kiss,emoji",
+"search": "emoticon-kiss,smiley-kiss,face-kiss,emoji-kiss,emoji",
 "name": "emoticon-kiss",
 "path": "M18.9,18.94L15.94,16C15.76,15.79 15.55,15.5 15.55,15.05A1.3,1.3 0 0,1 16.85,13.75C17.19,13.75 17.53,13.89 17.77,14.15L18.91,15.26L20.03,14.13C20.27,13.89 20.61,13.75 20.95,13.75A1.3,1.3 0 0,1 22.25,15.05C22.25,15.39 22.11,15.73 21.87,15.97L18.9,18.94M17.46,19.62C15.72,21.1 13.47,22 11,22A10,10 0 0,1 1,12A10,10 0 0,1 11,2A10,10 0 0,1 21,12C21,12.09 21,12.17 20.95,12.25C20.21,12.25 19.5,12.55 18.97,13.07L18.9,13.14L18.84,13.09C18.32,12.55 17.6,12.25 16.85,12.25A2.8,2.8 0 0,0 14.05,15.05C14.05,15.78 14.34,16.5 14.87,17.03L17.46,19.62M13,9.5C13,10.3 13.7,11 14.5,11C15.3,11 16,10.3 16,9.5C16,8.7 15.3,8 14.5,8C13.7,8 13,8.7 13,9.5M9,9.5C9,8.7 8.3,8 7.5,8C6.7,8 6,8.7 6,9.5C6,10.3 6.7,11 7.5,11C8.3,11 9,10.3 9,9.5M12.94,15.18L14,14.12L11.88,12L10.82,13.06L11.88,14.12L10.82,15.18L11.88,16.24L10.82,17.3L11.88,18.36L14,16.24L12.94,15.18Z",
 "author": "Michael Irigoyen"
@@ -17226,7 +18258,7 @@ const icons = [
 {
 "icon": "emoticon-lol-outline",
 "google": "false",
-"search": "emoticon-lol-outline,face-lol-outline,emoji",
+"search": "emoticon-lol-outline,face-lol-outline,emoji-lol-outline,emoji",
 "name": "emoticon-lol-outline",
 "path": "M6 11V12.5H7.5V14H9V11M12.5 6H11V9H14V7.5H12.5M9.8 17A5.5 5.5 0 0 0 17 9.8M6.34 6.34A8 8 0 0 1 15.08 4.62A4.11 4.11 0 0 1 15.73 2.72A10 10 0 0 0 2.73 15.72A4.11 4.11 0 0 1 4.63 15.07A8 8 0 0 1 6.34 6.34M17.66 17.66A8 8 0 0 1 8.92 19.38A4.11 4.11 0 0 1 8.27 21.28A10 10 0 0 0 21.27 8.28A4.11 4.11 0 0 1 19.37 8.93A8 8 0 0 1 17.66 17.66M6 11V12.5H7.5V14H9V11M9.8 17A5.5 5.5 0 0 0 17 9.8M12.5 6H11V9H14V7.5H12.5M6 11V12.5H7.5V14H9V11M12.5 6H11V9H14V7.5H12.5M9.8 17A5.5 5.5 0 0 0 17 9.8M4.93 21A2 2 0 0 1 2.93 19A2 2 0 0 1 4.93 17H6.93V19A2 2 0 0 1 4.93 21.07M19.07 2.93A2 2 0 0 1 21.07 4.93A2 2 0 0 1 19.07 6.93H17.07V4.93A2 2 0 0 1 19.07 2.93Z",
 "author": "Michael Richins"
@@ -17234,7 +18266,7 @@ const icons = [
 {
 "icon": "emoticon-lol",
 "google": "false",
-"search": "emoticon-lol,face-lol,emoji",
+"search": "emoticon-lol,face-lol,emoji-lol,emoji",
 "name": "emoticon-lol",
 "path": "M15.07 8.93V4.93A4.06 4.06 0 0 1 15.73 2.72A10 10 0 0 0 2.73 15.72A4.06 4.06 0 0 1 4.94 15.06H8.94V19.06A4.06 4.06 0 0 1 8.28 21.27A10 10 0 0 0 21.28 8.27A4.06 4.06 0 0 1 19.07 8.93M11 6H12.5V7.5H14V9H11M7.5 14V12.5H6V11H9V14M15.89 15.9A5.5 5.5 0 0 1 9.8 17L17 9.8A5.5 5.5 0 0 1 15.89 15.89M4.89 21.08A2 2 0 0 1 2.89 19.08A2 2 0 0 1 4.89 17.08H6.89V19.08A2 2 0 0 1 4.93 21.07M19.07 2.93A2 2 0 0 1 21.07 4.93A2 2 0 0 1 19.07 6.93H17.07V4.93A2 2 0 0 1 19.07 2.93Z",
 "author": "Michael Richins"
@@ -17242,7 +18274,7 @@ const icons = [
 {
 "icon": "emoticon-neutral-outline",
 "google": "false",
-"search": "emoticon-neutral-outline,smiley-neutral-outline,face-neutral-outline,emoji",
+"search": "emoticon-neutral-outline,smiley-neutral-outline,face-neutral-outline,emoji-neutral-outline,emoji",
 "name": "emoticon-neutral-outline",
 "path": "M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2M12,20A8,8 0 0,1 4,12A8,8 0 0,1 12,4A8,8 0 0,1 20,12A8,8 0 0,1 12,20M8.5,11A1.5,1.5 0 0,1 7,9.5A1.5,1.5 0 0,1 8.5,8A1.5,1.5 0 0,1 10,9.5A1.5,1.5 0 0,1 8.5,11M17,9.5A1.5,1.5 0 0,1 15.5,11A1.5,1.5 0 0,1 14,9.5A1.5,1.5 0 0,1 15.5,8A1.5,1.5 0 0,1 17,9.5M16,14V16H8V14H16Z",
 "author": "Austin Andrews"
@@ -17250,7 +18282,7 @@ const icons = [
 {
 "icon": "emoticon-neutral",
 "google": "false",
-"search": "emoticon-neutral,smiley-neutral,face-neutral,emoji",
+"search": "emoticon-neutral,smiley-neutral,face-neutral,emoji-neutral,emoji",
 "name": "emoticon-neutral",
 "path": "M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2M7,9.5A1.5,1.5 0 0,1 8.5,8A1.5,1.5 0 0,1 10,9.5A1.5,1.5 0 0,1 8.5,11A1.5,1.5 0 0,1 7,9.5M16,16H8V14H16V16M15.5,11A1.5,1.5 0 0,1 14,9.5A1.5,1.5 0 0,1 15.5,8A1.5,1.5 0 0,1 17,9.5A1.5,1.5 0 0,1 15.5,11Z",
 "author": "Michael Irigoyen"
@@ -17258,7 +18290,7 @@ const icons = [
 {
 "icon": "emoticon-outline",
 "google": "true",
-"search": "emoticon-outline,insert-emoticon,mood,sentiment-very-satisfied,tag-faces,smiley-outline,face-outline,emoji",
+"search": "emoticon-outline,insert-emoticon,mood,sentiment-very-satisfied,tag-faces,smiley-outline,face-outline,emoji-outline,emoji",
 "name": "emoticon-outline",
 "path": "M12,17.5C14.33,17.5 16.3,16.04 17.11,14H6.89C7.69,16.04 9.67,17.5 12,17.5M8.5,11A1.5,1.5 0 0,0 10,9.5A1.5,1.5 0 0,0 8.5,8A1.5,1.5 0 0,0 7,9.5A1.5,1.5 0 0,0 8.5,11M15.5,11A1.5,1.5 0 0,0 17,9.5A1.5,1.5 0 0,0 15.5,8A1.5,1.5 0 0,0 14,9.5A1.5,1.5 0 0,0 15.5,11M12,20A8,8 0 0,1 4,12A8,8 0 0,1 12,4A8,8 0 0,1 20,12A8,8 0 0,1 12,20M12,2C6.47,2 2,6.5 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2Z",
 "author": "Google"
@@ -17266,7 +18298,7 @@ const icons = [
 {
 "icon": "emoticon-poop-outline",
 "google": "false",
-"search": "emoticon-poop-outline,face-poop-outline,emoji",
+"search": "emoticon-poop-outline,face-poop-outline,emoji-poop-outline,emoji",
 "name": "emoticon-poop-outline",
 "path": "M21.42,13.87C21.2,13.41 20.84,12.94 20.25,12.64C19.85,12.39 19.5,12.26 19.24,12.2C19.5,11.25 19.13,10.5 18.62,9.94C17.85,9.12 17.06,9 17.06,9C17.32,8.5 17.42,7.9 17.28,7.32C17.12,6.61 16.73,6.16 16.22,5.86C15.7,5.55 15.06,5.4 14.4,5.28C14.08,5.22 12.75,5.03 12.2,4.27C11.75,3.65 11.74,2.53 11.62,2.2C11.57,2.07 11.5,2 11.36,2C11.15,2 10.87,2.12 10.57,2.32C10,2.7 8.85,3.9 8.4,5.1C8.06,6 8.05,6.82 8.19,7.43C7.63,7.53 7.22,7.71 7.06,7.78C6.55,8 5.47,8.96 5.37,10.45C5.34,10.89 5.41,11.34 5.5,11.78C5.5,11.86 5.5,11.94 5.5,12.03C4.88,12.22 4.53,12.43 4.5,12.44C4.18,12.56 3.65,12.93 3.5,13.13C3.15,13.53 2.92,14 2.79,14.5C2.5,15.59 2.6,16.83 3.13,17.83C3.42,18.39 3.82,19 4.26,19.43C5.7,20.91 8.18,21.47 10.14,21.79C10.96,21.93 11.8,22 12.63,22C14.22,22 15.8,21.73 17.26,21.13C20.61,19.74 21.5,17.5 21.64,16.89C21.93,15.5 21.57,14.19 21.42,13.87M16.05,11.33C16.61,11.36 17.04,11.84 17,12.4C16.96,12.95 16.5,13.38 15.91,13.34C15.35,13.31 14.92,12.83 14.96,12.28C15,11.75 15.42,11.35 15.94,11.33C16,11.33 16,11.33 16.05,11.33M20.18,16.55C20.17,16.57 19.7,18.5 16.69,19.74C15.47,20.25 14.1,20.5 12.63,20.5C11.9,20.5 11.14,20.44 10.38,20.31C8.76,20.05 6.5,19.56 5.31,18.36C5.04,18.09 4.72,17.63 4.46,17.13C4.12,16.5 4.04,15.65 4.24,14.88C4.32,14.58 4.45,14.32 4.63,14.12L4.65,14.09C4.74,14 4.95,13.88 5.03,13.84V13.84L5.14,13.8L5.26,13.74C5.32,13.7 5.46,13.63 5.67,13.55C6.13,14.81 7.28,15.7 8.59,15.7C8.67,15.7 8.74,15.69 8.82,15.69C9.65,15.63 10.41,15.22 10.94,14.55C11.47,13.89 11.73,13.04 11.66,12.17C11.54,10.5 10.22,9.16 8.64,9.11H8.62C8.5,9.11 8.4,9.11 8.31,9.12C8,9.15 7.73,9.23 7.46,9.34C7.55,9.24 7.63,9.17 7.66,9.15C7.79,9.1 8.07,9 8.45,8.91L10,8.63L9.65,7.09C9.61,6.9 9.53,6.35 9.81,5.63C9.96,5.2 10.27,4.76 10.58,4.38C10.68,4.65 10.81,4.91 11,5.15C11.77,6.23 13.12,6.58 14.06,6.74L14.13,6.76C14.6,6.84 15.13,6.95 15.46,7.15C15.67,7.28 15.76,7.41 15.82,7.67C15.87,7.87 15.84,8.1 15.73,8.31L15.21,9.2C13.95,9.5 12.95,10.64 12.79,12.06C12.59,13.87 13.78,15.46 15.5,15.68C15.62,15.69 15.74,15.7 15.85,15.7C16.56,15.7 17.25,15.44 17.82,14.95C18.23,14.59 18.54,14.13 18.74,13.62L18.9,13.66C19,13.68 19.17,13.74 19.45,13.91L19.5,13.95L19.57,14C19.78,14.08 19.94,14.26 20.05,14.5C20.13,14.67 20.38,15.6 20.18,16.55M7.64,12.45C7.57,11.9 7.97,11.39 8.53,11.32C8.57,11.31 8.6,11.31 8.64,11.31C9.15,11.3 9.61,11.67 9.67,12.19C9.73,12.74 9.33,13.25 8.77,13.32C8.21,13.39 7.7,13 7.64,12.45M8.71,16.15C9,16.14 9.26,16.23 9.5,16.28C10.68,16.5 11.7,16.53 12.19,16.53C12.68,16.53 13.69,16.5 14.86,16.28C15.27,16.2 15.74,16.03 16.11,16.28C16.59,16.6 16.24,17.75 15.5,18.53C15.04,19 13.97,19.91 12.19,19.91C10.41,19.91 9.33,19 8.88,18.53C8.14,17.75 7.79,16.6 8.26,16.28C8.4,16.19 8.55,16.15 8.71,16.15Z",
 "author": "Michael Irigoyen"
@@ -17274,7 +18306,7 @@ const icons = [
 {
 "icon": "emoticon-poop",
 "google": "false",
-"search": "emoticon-poop,smiley-poop,face-poop,emoji",
+"search": "emoticon-poop,smiley-poop,face-poop,emoji-poop,emoji",
 "name": "emoticon-poop",
 "path": "M11.36,2C11.15,2 10.87,2.12 10.57,2.32C10,2.7 8.85,3.9 8.4,5.1C8.06,6 8.05,6.82 8.19,7.43C7.63,7.53 7.22,7.71 7.06,7.78C6.55,8 5.47,8.96 5.37,10.45C5.34,10.97 5.41,11.5 5.57,12C4.91,12.19 4.53,12.43 4.5,12.44C4.18,12.56 3.65,12.93 3.5,13.13C3.15,13.53 2.92,14 2.79,14.5C2.5,15.59 2.6,16.83 3.13,17.83C3.42,18.39 3.82,19 4.26,19.43C5.7,20.91 8.18,21.47 10.14,21.79C12.53,22.19 15.03,22.05 17.26,21.13C20.61,19.74 21.5,17.5 21.64,16.89C21.93,15.5 21.57,14.19 21.42,13.87C21.2,13.41 20.84,12.94 20.25,12.64C19.85,12.39 19.5,12.26 19.24,12.2C19.5,11.25 19.13,10.5 18.62,9.94C17.85,9.12 17.06,9 17.06,9V9C17.32,8.5 17.42,7.9 17.28,7.32C17.12,6.61 16.73,6.16 16.22,5.86C15.7,5.55 15.06,5.4 14.4,5.28C14.08,5.22 12.75,5.03 12.2,4.27C11.75,3.65 11.74,2.53 11.62,2.2C11.57,2.07 11.5,2 11.36,2M16,9.61C16.07,9.61 16.13,9.62 16.19,9.62C17.62,9.78 18.64,11.16 18.47,12.69C18.3,14.22 17,15.34 15.57,15.18V15.18C14.14,15 13.12,13.65 13.29,12.11C13.45,10.66 14.64,9.56 16,9.61M8.62,9.61C9.95,9.65 11.06,10.78 11.16,12.21C11.28,13.75 10.21,15.08 8.78,15.19H8.77C7.34,15.3 6.08,14.14 5.96,12.6V12.6C5.85,11.06 6.92,9.73 8.35,9.62V9.62C8.44,9.61 8.53,9.61 8.62,9.61M8.64,11.31C8.6,11.31 8.57,11.31 8.53,11.32C7.97,11.39 7.57,11.9 7.64,12.45C7.7,13 8.21,13.39 8.77,13.32C9.33,13.25 9.73,12.74 9.67,12.19C9.61,11.67 9.15,11.3 8.64,11.31M15.94,11.33C15.42,11.35 15,11.75 14.96,12.28C14.92,12.83 15.35,13.31 15.91,13.34C16.5,13.38 16.96,12.95 17,12.4C17.04,11.84 16.61,11.36 16.05,11.33C16,11.33 16,11.33 15.94,11.33M8.71,16.15C9,16.14 9.26,16.23 9.5,16.28C10.68,16.5 11.7,16.53 12.19,16.53C12.68,16.53 13.69,16.5 14.86,16.28C15.27,16.2 15.74,16.03 16.11,16.28C16.59,16.6 16.24,17.75 15.5,18.53C15.04,19 13.97,19.91 12.19,19.91C10.41,19.91 9.33,19 8.88,18.53C8.14,17.75 7.79,16.6 8.26,16.28C8.4,16.19 8.55,16.15 8.71,16.15Z",
 "author": "Austin Andrews"
@@ -17282,7 +18314,7 @@ const icons = [
 {
 "icon": "emoticon-sad-outline",
 "google": "false",
-"search": "emoticon-sad-outline,smiley-sad-outline,face-sad-outline,emoji",
+"search": "emoticon-sad-outline,smiley-sad-outline,face-sad-outline,emoji-sad-outline,emoji",
 "name": "emoticon-sad-outline",
 "path": "M20,12A8,8 0 0,0 12,4A8,8 0 0,0 4,12A8,8 0 0,0 12,20A8,8 0 0,0 20,12M22,12A10,10 0 0,1 12,22A10,10 0 0,1 2,12A10,10 0 0,1 12,2A10,10 0 0,1 22,12M15.5,8C16.3,8 17,8.7 17,9.5C17,10.3 16.3,11 15.5,11C14.7,11 14,10.3 14,9.5C14,8.7 14.7,8 15.5,8M10,9.5C10,10.3 9.3,11 8.5,11C7.7,11 7,10.3 7,9.5C7,8.7 7.7,8 8.5,8C9.3,8 10,8.7 10,9.5M12,14C13.75,14 15.29,14.72 16.19,15.81L14.77,17.23C14.32,16.5 13.25,16 12,16C10.75,16 9.68,16.5 9.23,17.23L7.81,15.81C8.71,14.72 10.25,14 12,14Z",
 "author": "Gabriel"
@@ -17290,7 +18322,7 @@ const icons = [
 {
 "icon": "emoticon-sad",
 "google": "false",
-"search": "emoticon-sad,smiley-sad,face-sad,emoji",
+"search": "emoticon-sad,smiley-sad,face-sad,emoji-sad,emoji",
 "name": "emoticon-sad",
 "path": "M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2M7,9.5C7,8.7 7.7,8 8.5,8C9.3,8 10,8.7 10,9.5C10,10.3 9.3,11 8.5,11C7.7,11 7,10.3 7,9.5M14.77,17.23C14.32,16.5 13.25,16 12,16C10.75,16 9.68,16.5 9.23,17.23L7.81,15.81C8.71,14.72 10.25,14 12,14C13.75,14 15.29,14.72 16.19,15.81L14.77,17.23M15.5,11C14.7,11 14,10.3 14,9.5C14,8.7 14.7,8 15.5,8C16.3,8 17,8.7 17,9.5C17,10.3 16.3,11 15.5,11Z",
 "author": "Michael Irigoyen"
@@ -17298,7 +18330,7 @@ const icons = [
 {
 "icon": "emoticon-sick-outline",
 "google": "true",
-"search": "emoticon-sick-outline,face-sick-outline,fever-outline,emoji,medical,hospital",
+"search": "emoticon-sick-outline,face-sick-outline,fever-outline,emoji-sick-outline,emoji,medical,hospital",
 "name": "emoticon-sick-outline",
 "path": "M7.32 10.56L8.38 9.5L7.32 8.44L8.38 7.38L10.5 9.5L8.38 11.62L7.32 10.56M4.5 9C4.53 9 4.55 9 4.58 9C5.77 6.07 8.64 4 12 4C14.19 4 16.16 4.88 17.61 6.3C17.76 5.7 18.06 5 18.42 4.34C16.68 2.88 14.44 2 12 2C7.11 2 3.05 5.5 2.18 10.14C2.74 9.44 3.59 9 4.5 9M21 10.5C20.58 10.5 20.18 10.41 19.81 10.28C19.93 10.83 20 11.41 20 12C20 16.42 16.42 20 12 20C8.64 20 5.77 17.93 4.58 15C4.55 15 4.53 15 4.5 15C4 15 3.46 14.86 3 14.6C2.68 14.42 2.41 14.18 2.18 13.9C3.07 18.5 7.11 22 12 22C17.5 22 22 17.5 22 12C22 11.45 21.94 10.91 21.86 10.38C21.58 10.45 21.3 10.5 21 10.5M21 3C21 3 19 5.9 19 7S19.9 9 21 9 23 8.1 23 7 21 3 21 3M15.62 7.38L13.5 9.5L15.62 11.62L16.68 10.56L15.62 9.5L16.68 8.44L15.62 7.38M8.56 17C9.25 15.81 10.53 15 12 15S14.75 15.81 15.44 17H17.12C16.32 14.95 14.33 13.5 12 13.5C11.13 13.5 10.3 13.7 9.57 14.07L6 12C6 11.5 5.73 11 5.25 10.71C4.53 10.3 3.62 10.54 3.2 11.26C2.79 12 3.03 12.89 3.75 13.31C4.23 13.59 4.8 13.56 5.24 13.31L8.21 15.03C7.64 15.56 7.18 16.24 6.88 17H8.56Z",
 "author": "Google"
@@ -17306,7 +18338,7 @@ const icons = [
 {
 "icon": "emoticon-sick",
 "google": "true",
-"search": "emoticon-sick,face-sick,fever,emoji,medical,hospital",
+"search": "emoticon-sick,face-sick,fever,emoji-sick,emoji,medical,hospital",
 "name": "emoticon-sick",
 "path": "M21 9C19.9 9 19 8.1 19 7S21 3 21 3 23 5.9 23 7 22.1 9 21 9M17.5 7C17.5 6.27 17.91 5.29 18.42 4.34C16.68 2.88 14.44 2 12 2C6.47 2 2 6.5 2 12S6.47 22 12 22C17.5 22 22 17.5 22 12C22 11.45 21.94 10.91 21.86 10.38C21.58 10.45 21.3 10.5 21 10.5C19.07 10.5 17.5 8.93 17.5 7M15.62 7.38L16.68 8.44L15.62 9.5L16.68 10.56L15.62 11.62L13.5 9.5L15.62 7.38M7.32 8.44L8.38 7.38L10.5 9.5L8.38 11.62L7.32 10.56L8.38 9.5L7.32 8.44M15.44 17C14.75 15.81 13.47 15 12 15S9.25 15.81 8.56 17H6.88C7.18 16.24 7.64 15.57 8.22 15L5.24 13.3C4.79 13.56 4.23 13.58 3.75 13.3C3.03 12.89 2.79 11.97 3.2 11.25S4.53 10.29 5.25 10.7C5.73 11 6 11.5 6 12L9.57 14.06C10.3 13.7 11.12 13.5 12 13.5C14.33 13.5 16.32 14.95 17.12 17H15.44Z",
 "author": "Google"
@@ -17314,7 +18346,7 @@ const icons = [
 {
 "icon": "emoticon-tongue-outline",
 "google": "false",
-"search": "emoticon-tongue-outline,smiley-tongue-outline,face-tongue-outline,emoji",
+"search": "emoticon-tongue-outline,smiley-tongue-outline,face-tongue-outline,emoji-tongue-outline,emoji",
 "name": "emoticon-tongue-outline",
 "path": "M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2M12,20A8,8 0 0,1 4,12A8,8 0 0,1 12,4A8,8 0 0,1 20,12A8,8 0 0,1 12,20M9,10C8.26,10 7.61,10.4 7.27,11C7.1,10.71 7,10.36 7,10A2,2 0 0,1 9,8C10.11,8 11,8.9 11,10C11,10.36 10.9,10.71 10.73,11C10.39,10.4 9.74,10 9,10M17,10C17,10.36 16.9,10.71 16.73,11C16.39,10.4 15.74,10 15,10C14.26,10 13.61,10.4 13.27,11C13.1,10.71 13,10.36 13,10A2,2 0 0,1 15,8C16.11,8 17,8.9 17,10M16,13V15H15C15,17 14.1,18 13,18C11.9,18 11,17 11,15H8V13H16Z",
 "author": "Michael Irigoyen"
@@ -17322,7 +18354,7 @@ const icons = [
 {
 "icon": "emoticon-tongue",
 "google": "false",
-"search": "emoticon-tongue,smiley-tongue,face-tongue,emoji",
+"search": "emoticon-tongue,smiley-tongue,face-tongue,emoji-tongue,emoji",
 "name": "emoticon-tongue",
 "path": "M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2M7.27,11C7.1,10.71 7,10.36 7,10C7,8.89 7.89,8 9,8A2,2 0 0,1 11,10C11,10.36 10.9,10.71 10.73,11C10.39,10.4 9.74,10 9,10C8.26,10 7.61,10.4 7.27,11M16,15H15C15,17 14.1,18 13,18C11.9,18 11,17 11,15H8V13H16V15M16.73,11C16.39,10.4 15.74,10 15,10C14.26,10 13.61,10.4 13.27,11C13.1,10.71 13,10.36 13,10C13,8.89 13.89,8 15,8A2,2 0 0,1 17,10C17,10.36 16.9,10.71 16.73,11Z",
 "author": "Austin Andrews"
@@ -17330,7 +18362,7 @@ const icons = [
 {
 "icon": "emoticon-wink-outline",
 "google": "false",
-"search": "emoticon-wink-outline,smiley-wink-outline,face-wink-outline,emoji",
+"search": "emoticon-wink-outline,smiley-wink-outline,face-wink-outline,emoji-wink-outline,emoji",
 "name": "emoticon-wink-outline",
 "path": "M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2M12,20A8,8 0 0,1 4,12A8,8 0 0,1 12,4A8,8 0 0,1 20,12A8,8 0 0,1 12,20M10,9.5C10,10.3 9.3,11 8.5,11C7.7,11 7,10.3 7,9.5C7,8.7 7.7,8 8.5,8C9.3,8 10,8.7 10,9.5M12,17.23C10.25,17.23 8.71,16.5 7.81,15.42L9.23,14C9.68,14.72 10.75,15.23 12,15.23C13.25,15.23 14.32,14.72 14.77,14L16.19,15.42C15.29,16.5 13.75,17.23 12,17.23M17,10H13V9H17V10Z",
 "author": "Michael Irigoyen"
@@ -17338,7 +18370,7 @@ const icons = [
 {
 "icon": "emoticon-wink",
 "google": "false",
-"search": "emoticon-wink,smiley-wink,face-wink,emoji",
+"search": "emoticon-wink,smiley-wink,face-wink,emoji-wink,emoji",
 "name": "emoticon-wink",
 "path": "M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2M7,9.5C7,8.7 7.7,8 8.5,8C9.3,8 10,8.7 10,9.5C10,10.3 9.3,11 8.5,11C7.7,11 7,10.3 7,9.5M12,17.23C10.25,17.23 8.71,16.5 7.81,15.42L9.23,14C9.68,14.72 10.75,15.23 12,15.23C13.25,15.23 14.32,14.72 14.77,14L16.19,15.42C15.29,16.5 13.75,17.23 12,17.23M17,10H13V9H17V10Z",
 "author": "Michael Irigoyen"
@@ -17346,7 +18378,7 @@ const icons = [
 {
 "icon": "emoticon",
 "google": "true",
-"search": "emoticon,smiley,face,emoji",
+"search": "emoticon,smiley,face,emoji,emoji",
 "name": "emoticon",
 "path": "M12,2C6.47,2 2,6.5 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2M15.5,8A1.5,1.5 0 0,1 17,9.5A1.5,1.5 0 0,1 15.5,11A1.5,1.5 0 0,1 14,9.5A1.5,1.5 0 0,1 15.5,8M8.5,8A1.5,1.5 0 0,1 10,9.5A1.5,1.5 0 0,1 8.5,11A1.5,1.5 0 0,1 7,9.5A1.5,1.5 0 0,1 8.5,8M12,17.5C9.67,17.5 7.69,16.04 6.89,14H17.11C16.3,16.04 14.33,17.5 12,17.5Z",
 "author": "Google"
@@ -17610,7 +18642,7 @@ const icons = [
 {
 "icon": "exit-run",
 "google": "false",
-"search": "exit-run,emergency-exit",
+"search": "exit-run,emergency-exit,home automation",
 "name": "exit-run",
 "path": "M13.34,8.17C12.41,8.17 11.65,7.4 11.65,6.47A1.69,1.69 0 0,1 13.34,4.78C14.28,4.78 15.04,5.54 15.04,6.47C15.04,7.4 14.28,8.17 13.34,8.17M10.3,19.93L4.37,18.75L4.71,17.05L8.86,17.9L10.21,11.04L8.69,11.64V14.5H7V10.54L11.4,8.67L12.07,8.59C12.67,8.59 13.17,8.93 13.5,9.44L14.36,10.79C15.04,12 16.39,12.82 18,12.82V14.5C16.14,14.5 14.44,13.67 13.34,12.4L12.84,14.94L14.61,16.63V23H12.92V17.9L11.14,16.21L10.3,19.93M21,23H19V3H6V16.11L4,15.69V1H21V23M6,23H4V19.78L6,20.2V23Z",
 "author": "Simran"
@@ -17866,10 +18898,50 @@ const icons = [
 {
 "icon": "face-agent",
 "google": "false",
-"search": "face-agent,customer-service,support",
+"search": "face-agent,customer-service,support,emoji-agent,emoticon-agent",
 "name": "face-agent",
 "path": "M18.72,14.76C19.07,13.91 19.26,13 19.26,12C19.26,11.28 19.15,10.59 18.96,9.95C18.31,10.1 17.63,10.18 16.92,10.18C13.86,10.18 11.15,8.67 9.5,6.34C8.61,8.5 6.91,10.26 4.77,11.22C4.73,11.47 4.73,11.74 4.73,12A7.27,7.27 0 0,0 12,19.27C13.05,19.27 14.06,19.04 14.97,18.63C15.54,19.72 15.8,20.26 15.78,20.26C14.14,20.81 12.87,21.08 12,21.08C9.58,21.08 7.27,20.13 5.57,18.42C4.53,17.38 3.76,16.11 3.33,14.73H2V10.18H3.09C3.93,6.04 7.6,2.92 12,2.92C14.4,2.92 16.71,3.87 18.42,5.58C19.69,6.84 20.54,8.45 20.89,10.18H22V14.67H22V14.69L22,14.73H21.94L18.38,18L13.08,17.4V15.73H17.91L18.72,14.76M9.27,11.77C9.57,11.77 9.86,11.89 10.07,12.11C10.28,12.32 10.4,12.61 10.4,12.91C10.4,13.21 10.28,13.5 10.07,13.71C9.86,13.92 9.57,14.04 9.27,14.04C8.64,14.04 8.13,13.54 8.13,12.91C8.13,12.28 8.64,11.77 9.27,11.77M14.72,11.77C15.35,11.77 15.85,12.28 15.85,12.91C15.85,13.54 15.35,14.04 14.72,14.04C14.09,14.04 13.58,13.54 13.58,12.91A1.14,1.14 0 0,1 14.72,11.77Z",
 "author": "Contributors"
+},
+{
+"icon": "face-man-outline",
+"google": "true",
+"search": "face-man-outline,face-male-outline,emoji-man-outline,emoticon-man-outline,people,family",
+"name": "face-man-outline",
+"path": "M10.25,13A1.25,1.25 0 0,1 9,14.25A1.25,1.25 0 0,1 7.75,13A1.25,1.25 0 0,1 9,11.75A1.25,1.25 0 0,1 10.25,13M15,11.75A1.25,1.25 0 0,0 13.75,13A1.25,1.25 0 0,0 15,14.25A1.25,1.25 0 0,0 16.25,13A1.25,1.25 0 0,0 15,11.75M22,12A10,10 0 0,1 12,22A10,10 0 0,1 2,12A10,10 0 0,1 12,2A10,10 0 0,1 22,12M10.66,4.12C12.06,6.44 14.6,8 17.5,8C17.96,8 18.41,7.95 18.84,7.88C17.44,5.56 14.9,4 12,4C11.54,4 11.09,4.05 10.66,4.12M4.42,9.47C6.13,8.5 7.45,6.92 8.08,5.03C6.37,6 5.05,7.58 4.42,9.47M20,12C20,11.22 19.88,10.47 19.67,9.76C18.97,9.91 18.25,10 17.5,10C14.37,10 11.58,8.56 9.74,6.31C8.69,8.87 6.6,10.88 4,11.86C4,11.9 4,11.95 4,12C4,16.41 7.59,20 12,20C16.41,20 20,16.41 20,12Z",
+"author": "Google"
+},
+{
+"icon": "face-man-profile",
+"google": "true",
+"search": "face-man-profile,face-male-profile,emoji-man-profile,emoticon-man-profile,people,family",
+"name": "face-man-profile",
+"path": "M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2M12,8.39C13.57,9.4 15.42,10 17.42,10C18.2,10 18.95,9.91 19.67,9.74C19.88,10.45 20,11.21 20,12C20,16.41 16.41,20 12,20C9,20 6.39,18.34 5,15.89L6.75,14V13A1.25,1.25 0 0,1 8,11.75A1.25,1.25 0 0,1 9.25,13V14H12M16,11.75A1.25,1.25 0 0,0 14.75,13A1.25,1.25 0 0,0 16,14.25A1.25,1.25 0 0,0 17.25,13A1.25,1.25 0 0,0 16,11.75Z",
+"author": "Google"
+},
+{
+"icon": "face-man-shimmer-outline",
+"google": "false",
+"search": "face-man-shimmer-outline,face-retouching-natural-outline,face-male-shimmer-outline,emoji-man-shimmer-outline,emoticon-man-shimmer-outline,people,family,photography,health,beauty,account,user",
+"name": "face-man-shimmer-outline",
+"path": "M19.5 1L18.41 3.41L16 4.5L18.41 5.59L19.5 8L20.6 5.59L23 4.5L20.6 3.41L19.5 1M12 2C6.5 2 2 6.5 2 12C2 17.5 6.5 22 12 22C17.5 22 22 17.5 22 12C22 10.53 21.67 9.13 21.1 7.87L19.86 10.57C19.95 11.04 20 11.5 20 12C20 16.43 16.43 20 12 20C7.57 20 4 16.43 4 12C4 11.95 4 11.91 4 11.86A10 10 0 0 0 9.74 6.31C11.61 8.61 14.44 10 17.5 10C17.94 10 18.39 9.97 18.83 9.91L17.96 8C17.81 8 17.65 8 17.5 8C14.68 8 12.1 6.5 10.66 4.12C11.1 4.05 11.54 4 12 4C12.5 4 12.96 4.05 13.42 4.13L16.13 2.91C14.87 2.33 13.47 2 12 2M8.09 5A8 8 0 0 1 4.41 9.5C5.04 7.57 6.37 6 8.09 5M9 11.75A1.25 1.25 0 0 0 7.75 13A1.25 1.25 0 0 0 9 14.25A1.25 1.25 0 0 0 10.25 13A1.25 1.25 0 0 0 9 11.75M15 11.75A1.25 1.25 0 0 0 13.75 13A1.25 1.25 0 0 0 15 14.25A1.25 1.25 0 0 0 16.25 13A1.25 1.25 0 0 0 15 11.75Z",
+"author": "Simran"
+},
+{
+"icon": "face-man-shimmer",
+"google": "true",
+"search": "face-man-shimmer,face-retouching-natural,face-male-shimmer,emoji-man-shimmer,emoticon-man-shimmer,photography,account,user,health,beauty,people,family",
+"name": "face-man-shimmer",
+"path": "M18.41 3.41L16 4.5L18.41 5.59L19.5 8L20.6 5.59L23 4.5L20.6 3.41L19.5 1M12 2C6.5 2 2 6.5 2 12C2 17.5 6.5 22 12 22C17.5 22 22 17.5 22 12C22 10.53 21.67 9.13 21.1 7.87L19.86 10.59C19.94 11.05 20 11.5 20 12C20 16.43 16.43 20 12 20C7.57 20 4 16.43 4 12C4 11.96 4 11.91 4 11.87A10 10 0 0 0 9.74 6.31A10 10 0 0 0 17.5 10A10 10 0 0 0 18.83 9.91L17.35 6.65L12.6 4.5L16.13 2.9C14.87 2.33 13.47 2 12 2M9 11.75A1.25 1.25 0 0 0 7.75 13A1.25 1.25 0 0 0 9 14.25A1.25 1.25 0 0 0 10.25 13A1.25 1.25 0 0 0 9 11.75M15 11.75A1.25 1.25 0 0 0 13.75 13A1.25 1.25 0 0 0 15 14.25A1.25 1.25 0 0 0 16.25 13A1.25 1.25 0 0 0 15 11.75Z",
+"author": "Google"
+},
+{
+"icon": "face-man",
+"google": "true",
+"search": "face-man,face-male,emoji-man,emoticon-man,people,family",
+"name": "face-man",
+"path": "M9,11.75A1.25,1.25 0 0,0 7.75,13A1.25,1.25 0 0,0 9,14.25A1.25,1.25 0 0,0 10.25,13A1.25,1.25 0 0,0 9,11.75M15,11.75A1.25,1.25 0 0,0 13.75,13A1.25,1.25 0 0,0 15,14.25A1.25,1.25 0 0,0 16.25,13A1.25,1.25 0 0,0 15,11.75M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2M12,20C7.59,20 4,16.41 4,12C4,11.71 4,11.42 4.05,11.14C6.41,10.09 8.28,8.16 9.26,5.77C11.07,8.33 14.05,10 17.42,10C18.2,10 18.95,9.91 19.67,9.74C19.88,10.45 20,11.21 20,12C20,16.41 16.41,20 12,20Z",
+"author": "Google"
 },
 {
 "icon": "face-mask-outline",
@@ -17888,30 +18960,6 @@ const icons = [
 "author": "Michael Irigoyen"
 },
 {
-"icon": "face-outline",
-"google": "true",
-"search": "face-outline,people,family",
-"name": "face-outline",
-"path": "M10.25,13A1.25,1.25 0 0,1 9,14.25A1.25,1.25 0 0,1 7.75,13A1.25,1.25 0 0,1 9,11.75A1.25,1.25 0 0,1 10.25,13M15,11.75A1.25,1.25 0 0,0 13.75,13A1.25,1.25 0 0,0 15,14.25A1.25,1.25 0 0,0 16.25,13A1.25,1.25 0 0,0 15,11.75M22,12A10,10 0 0,1 12,22A10,10 0 0,1 2,12A10,10 0 0,1 12,2A10,10 0 0,1 22,12M10.66,4.12C12.06,6.44 14.6,8 17.5,8C17.96,8 18.41,7.95 18.84,7.88C17.44,5.56 14.9,4 12,4C11.54,4 11.09,4.05 10.66,4.12M4.42,9.47C6.13,8.5 7.45,6.92 8.08,5.03C6.37,6 5.05,7.58 4.42,9.47M20,12C20,11.22 19.88,10.47 19.67,9.76C18.97,9.91 18.25,10 17.5,10C14.37,10 11.58,8.56 9.74,6.31C8.69,8.87 6.6,10.88 4,11.86C4,11.9 4,11.95 4,12C4,16.41 7.59,20 12,20C16.41,20 20,16.41 20,12Z",
-"author": "Google"
-},
-{
-"icon": "face-profile-woman",
-"google": "false",
-"search": "face-profile-woman,people,family",
-"name": "face-profile-woman",
-"path": "M17.25 13C17.25 13.69 16.69 14.25 16 14.25S14.75 13.69 14.75 13 15.31 11.75 16 11.75 17.25 12.31 17.25 13M22 12C22 17.5 17.5 22 12 22H2V12C2 6.5 6.5 2 12 2S22 6.5 22 12M7 18C8.41 19.23 10 20 12 20C16.41 20 20 16.41 20 12C20 11.21 19.88 10.45 19.67 9.74C18.95 9.91 18.2 10 17.42 10C15.42 10 13.57 9.4 12 8.39C12 8.39 10.54 13.76 8.03 13C7.37 12.8 7 13.31 7 14",
-"author": "Michael Irigoyen"
-},
-{
-"icon": "face-profile",
-"google": "true",
-"search": "face-profile,people,family",
-"name": "face-profile",
-"path": "M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2M12,8.39C13.57,9.4 15.42,10 17.42,10C18.2,10 18.95,9.91 19.67,9.74C19.88,10.45 20,11.21 20,12C20,16.41 16.41,20 12,20C9,20 6.39,18.34 5,15.89L6.75,14V13A1.25,1.25 0 0,1 8,11.75A1.25,1.25 0 0,1 9.25,13V14H12M16,11.75A1.25,1.25 0 0,0 14.75,13A1.25,1.25 0 0,0 16,14.25A1.25,1.25 0 0,0 17.25,13A1.25,1.25 0 0,0 16,11.75Z",
-"author": "Google"
-},
-{
 "icon": "face-recognition",
 "google": "false",
 "search": "face-recognition,facial-recognition,scan,photography",
@@ -17920,33 +18968,25 @@ const icons = [
 "author": "Michael Richins"
 },
 {
-"icon": "face-shimmer-outline",
-"google": "false",
-"search": "face-shimmer-outline,face-retouching-natural-outline,people,family,photography,health,beauty,account,user",
-"name": "face-shimmer-outline",
-"path": "M19.5 1L18.41 3.41L16 4.5L18.41 5.59L19.5 8L20.6 5.59L23 4.5L20.6 3.41L19.5 1M12 2C6.5 2 2 6.5 2 12C2 17.5 6.5 22 12 22C17.5 22 22 17.5 22 12C22 10.53 21.67 9.13 21.1 7.87L19.86 10.57C19.95 11.04 20 11.5 20 12C20 16.43 16.43 20 12 20C7.57 20 4 16.43 4 12C4 11.95 4 11.91 4 11.86A10 10 0 0 0 9.74 6.31C11.61 8.61 14.44 10 17.5 10C17.94 10 18.39 9.97 18.83 9.91L17.96 8C17.81 8 17.65 8 17.5 8C14.68 8 12.1 6.5 10.66 4.12C11.1 4.05 11.54 4 12 4C12.5 4 12.96 4.05 13.42 4.13L16.13 2.91C14.87 2.33 13.47 2 12 2M8.09 5A8 8 0 0 1 4.41 9.5C5.04 7.57 6.37 6 8.09 5M9 11.75A1.25 1.25 0 0 0 7.75 13A1.25 1.25 0 0 0 9 14.25A1.25 1.25 0 0 0 10.25 13A1.25 1.25 0 0 0 9 11.75M15 11.75A1.25 1.25 0 0 0 13.75 13A1.25 1.25 0 0 0 15 14.25A1.25 1.25 0 0 0 16.25 13A1.25 1.25 0 0 0 15 11.75Z",
-"author": "Simran"
-},
-{
-"icon": "face-shimmer",
-"google": "true",
-"search": "face-shimmer,face-retouching-natural,photography,account,user,health,beauty,people,family",
-"name": "face-shimmer",
-"path": "M18.41 3.41L16 4.5L18.41 5.59L19.5 8L20.6 5.59L23 4.5L20.6 3.41L19.5 1M12 2C6.5 2 2 6.5 2 12C2 17.5 6.5 22 12 22C17.5 22 22 17.5 22 12C22 10.53 21.67 9.13 21.1 7.87L19.86 10.59C19.94 11.05 20 11.5 20 12C20 16.43 16.43 20 12 20C7.57 20 4 16.43 4 12C4 11.96 4 11.91 4 11.87A10 10 0 0 0 9.74 6.31A10 10 0 0 0 17.5 10A10 10 0 0 0 18.83 9.91L17.35 6.65L12.6 4.5L16.13 2.9C14.87 2.33 13.47 2 12 2M9 11.75A1.25 1.25 0 0 0 7.75 13A1.25 1.25 0 0 0 9 14.25A1.25 1.25 0 0 0 10.25 13A1.25 1.25 0 0 0 9 11.75M15 11.75A1.25 1.25 0 0 0 13.75 13A1.25 1.25 0 0 0 15 14.25A1.25 1.25 0 0 0 16.25 13A1.25 1.25 0 0 0 15 11.75Z",
-"author": "Google"
-},
-{
 "icon": "face-woman-outline",
 "google": "false",
-"search": "face-woman-outline,people,family",
+"search": "face-woman-outline,face-female-outline,emoji-woman-outline,emoticon-woman-outline,people,family",
 "name": "face-woman-outline",
 "path": "M12 2C6.5 2 2 6.5 2 12V22H22V12C22 6.5 17.5 2 12 2M12 4C14.9 4 17.44 5.56 18.84 7.88C18.41 7.95 17.96 8 17.5 8C14.6 8 12.06 6.44 10.66 4.12C11.09 4.05 11.54 4 12 4M8.08 5.03C7.45 6.92 6.13 8.5 4.42 9.47C5.05 7.58 6.37 6 8.08 5.03M4 11.86C6.6 10.88 8.69 8.87 9.74 6.31C11.58 8.56 14.37 10 17.5 10C18.25 10 18.97 9.91 19.67 9.76C19.88 10.47 20 11.22 20 12C20 16.41 16.41 20 12 20S4 16.41 4 12V11.86M4 20V18C4.57 18.75 5.25 19.43 6 20H4M20 20H18C18.75 19.43 19.43 18.75 20 18V20M13.75 13C13.75 12.31 14.31 11.75 15 11.75S16.25 12.31 16.25 13 15.69 14.25 15 14.25 13.75 13.69 13.75 13M7.75 13C7.75 12.31 8.31 11.75 9 11.75S10.25 12.31 10.25 13 9.69 14.25 9 14.25 7.75 13.69 7.75 13Z",
 "author": "Michael Irigoyen"
 },
 {
+"icon": "face-woman-profile",
+"google": "false",
+"search": "face-woman-profile,face-female-profile,emoji-woman-profile,emoticon-woman-profile,people,family",
+"name": "face-woman-profile",
+"path": "M17.25 13C17.25 13.69 16.69 14.25 16 14.25S14.75 13.69 14.75 13 15.31 11.75 16 11.75 17.25 12.31 17.25 13M22 12C22 17.5 17.5 22 12 22H2V12C2 6.5 6.5 2 12 2S22 6.5 22 12M7 18C8.41 19.23 10 20 12 20C16.41 20 20 16.41 20 12C20 11.21 19.88 10.45 19.67 9.74C18.95 9.91 18.2 10 17.42 10C15.42 10 13.57 9.4 12 8.39C12 8.39 10.54 13.76 8.03 13C7.37 12.8 7 13.31 7 14",
+"author": "Michael Irigoyen"
+},
+{
 "icon": "face-woman-shimmer-outline",
 "google": "false",
-"search": "face-woman-shimmer-outline,face-retouching-natural-woman-outline,people,family,photography,health,beauty,account,user",
+"search": "face-woman-shimmer-outline,face-retouching-natural-woman-outline,face-female-shimmer-outline,emoji-woman-shimmer-outline,emoticon-woman-shimmer-outline,people,family,photography,health,beauty,account,user",
 "name": "face-woman-shimmer-outline",
 "path": "M19.5 1L18.41 3.41L16 4.5L18.41 5.59L19.5 8L20.6 5.59L23 4.5L20.6 3.41M12 2C6.5 2 2 6.5 2 12V22H22V12C22 10.53 21.67 9.13 21.1 7.87L19.86 10.57C19.95 11.04 20 11.5 20 12C20 16.43 16.43 20 12 20C7.57 20 4 16.43 4 12C4 11.95 4 11.91 4 11.86C6.61 10.89 8.69 8.88 9.74 6.31C11.61 8.61 14.44 10 17.5 10C17.94 10 18.39 9.97 18.83 9.91L17.96 8C17.81 8 17.65 8 17.5 8C14.68 8 12.1 6.5 10.66 4.12C11.1 4.05 11.54 4 12 4C12.5 4 12.96 4.05 13.42 4.13L16.13 2.91C14.87 2.33 13.47 2 12 2M8.09 5C7.46 6.91 6.15 8.5 4.41 9.5C5.04 7.57 6.37 6 8.09 5M9 11.75C8.31 11.75 7.75 12.31 7.75 13C7.75 13.69 8.31 14.25 9 14.25C9.69 14.25 10.25 13.69 10.25 13C10.25 12.31 9.69 11.75 9 11.75M15 11.75C14.31 11.75 13.75 12.31 13.75 13C13.75 13.69 14.31 14.25 15 14.25C15.69 14.25 16.25 13.69 16.25 13C16.25 12.31 15.69 11.75 15 11.75M4 17.97C4.58 18.74 5.26 19.42 6.03 20H4M20 17.97V20H17.97C18.74 19.42 19.42 18.74 20 17.97Z",
 "author": "Simran"
@@ -17954,7 +18994,7 @@ const icons = [
 {
 "icon": "face-woman-shimmer",
 "google": "false",
-"search": "face-woman-shimmer,face-retouching-natural-woman,people,family,photography,health,beauty,account,user",
+"search": "face-woman-shimmer,face-retouching-natural-woman,face-female-shimmer,emoji-woman-shimmer,emoticon-woman-shimmer,people,family,photography,health,beauty,account,user",
 "name": "face-woman-shimmer",
 "path": "M19.5 1L18.41 3.41L16 4.5L18.41 5.59L19.5 8L20.6 5.59L23 4.5L20.6 3.41L19.5 1M12 2C6.5 2 2 6.5 2 12V22H22V12C22 10.53 21.67 9.13 21.1 7.87L19.86 10.59C19.94 11.05 20 11.5 20 12C20 16.43 16.43 20 12 20C7.57 20 4 16.43 4 12C4 11.96 4 11.91 4 11.87A10 10 0 0 0 9.74 6.31A10 10 0 0 0 17.5 10A10 10 0 0 0 18.83 9.91L17.35 6.65L12.6 4.5L16.13 2.9C14.87 2.33 13.47 2 12 2M9 11.75A1.25 1.25 0 0 0 7.75 13A1.25 1.25 0 0 0 9 14.25A1.25 1.25 0 0 0 10.25 13A1.25 1.25 0 0 0 9 11.75M15 11.75A1.25 1.25 0 0 0 13.75 13A1.25 1.25 0 0 0 15 14.25A1.25 1.25 0 0 0 16.25 13A1.25 1.25 0 0 0 15 11.75Z",
 "author": "Simran"
@@ -17962,18 +19002,10 @@ const icons = [
 {
 "icon": "face-woman",
 "google": "false",
-"search": "face-woman,people,family",
+"search": "face-woman,face-female,emoji-woman,emoticon-woman,people,family",
 "name": "face-woman",
 "path": "M13.75 13C13.75 12.31 14.31 11.75 15 11.75S16.25 12.31 16.25 13 15.69 14.25 15 14.25 13.75 13.69 13.75 13M22 12V22H2V12C2 6.5 6.5 2 12 2S22 6.5 22 12M4 12C4 16.41 7.59 20 12 20S20 16.41 20 12C20 11.21 19.88 10.45 19.67 9.74C18.95 9.91 18.2 10 17.42 10C14.05 10 11.07 8.33 9.26 5.77C8.28 8.16 6.41 10.09 4.05 11.14C4 11.42 4 11.71 4 12M9 14.25C9.69 14.25 10.25 13.69 10.25 13S9.69 11.75 9 11.75 7.75 12.31 7.75 13 8.31 14.25 9 14.25Z",
 "author": "Michael Irigoyen"
-},
-{
-"icon": "face",
-"google": "true",
-"search": "face,people,family",
-"name": "face",
-"path": "M9,11.75A1.25,1.25 0 0,0 7.75,13A1.25,1.25 0 0,0 9,14.25A1.25,1.25 0 0,0 10.25,13A1.25,1.25 0 0,0 9,11.75M15,11.75A1.25,1.25 0 0,0 13.75,13A1.25,1.25 0 0,0 15,14.25A1.25,1.25 0 0,0 16.25,13A1.25,1.25 0 0,0 15,11.75M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2M12,20C7.59,20 4,16.41 4,12C4,11.71 4,11.42 4.05,11.14C6.41,10.09 8.28,8.16 9.26,5.77C11.07,8.33 14.05,10 17.42,10C18.2,10 18.95,9.91 19.67,9.74C19.88,10.45 20,11.21 20,12C20,16.41 16.41,20 12,20Z",
-"author": "Google"
 },
 {
 "icon": "facebook-gaming",
@@ -18208,6 +19240,22 @@ const icons = [
 "author": "Contributors"
 },
 {
+"icon": "fence-electric",
+"google": "false",
+"search": "fence-electric,home automation",
+"name": "fence-electric",
+"path": "M9 9V11H7V9H5V11H3V9H1V21H3V19H5V21H7V19H9V21H11V19H13V21H15V19H17V21H19V19H21V21H23V9H21V11H19V9H17V11H15V9H13V11H11V9H9M3 13H5V17H3V13M7 13H9V17H7V13M11 13H13V17H11V13M15 13H17V17H15V13M19 13H21V17H19V13M7 4H11V2L17 5H13V7L7 4Z",
+"author": "Michael Irigoyen"
+},
+{
+"icon": "fence",
+"google": "false",
+"search": "fence,home automation",
+"name": "fence",
+"path": "M9 9V11H7V9H5V11H3V9H1V21H3V19H5V21H7V19H9V21H11V19H13V21H15V19H17V21H19V19H21V21H23V9H21V11H19V9H17V11H15V9H13V11H11V9H9M3 13H5V17H3V13M7 13H9V17H7V13M11 13H13V17H11V13M15 13H17V17H15V13M19 13H21V17H19V13Z",
+"author": "Michael Irigoyen"
+},
+{
 "icon": "fencing",
 "google": "true",
 "search": "fencing,sword-fight,sport",
@@ -18322,7 +19370,7 @@ const icons = [
 {
 "icon": "file-chart-outline",
 "google": "false",
-"search": "file-chart-outline,files,folders",
+"search": "file-chart-outline,file-graph-outline,file-report-outline,files,folders",
 "name": "file-chart-outline",
 "path": "M14 2H6C4.9 2 4 2.9 4 4V20C4 21.1 4.9 22 6 22H18C19.1 22 20 21.1 20 20V8L14 2M18 20H6V4H13V9H18V20M9 13V19H7V13H9M15 15V19H17V15H15M11 11V19H13V11H11Z",
 "author": "Terren"
@@ -18330,7 +19378,7 @@ const icons = [
 {
 "icon": "file-chart",
 "google": "false",
-"search": "file-chart,file-report,files,folders",
+"search": "file-chart,file-report,file-graph,files,folders",
 "name": "file-chart",
 "path": "M13,9H18.5L13,3.5V9M6,2H14L20,8V20A2,2 0 0,1 18,22H6C4.89,22 4,21.1 4,20V4C4,2.89 4.89,2 6,2M7,20H9V14H7V20M11,20H13V12H11V20M15,20H17V16H15V20Z",
 "author": "Simran"
@@ -18600,12 +19648,36 @@ const icons = [
 "author": "Google"
 },
 {
+"icon": "file-gif-box",
+"google": "false",
+"search": "file-gif-box",
+"name": "file-gif-box",
+"path": "M18 4H6C4.9 4 4 4.9 4 6V18C4 19.1 4.9 20 6 20H18C19.1 20 20 19.1 20 18V6C20 4.9 19.1 4 18 4M10 10.5H7.5V13.5H8.5V12H10V13.67C10 14.33 9.47 15 8.67 15H7.33C6.53 15 6 14.33 6 13.67V10.33C6 9.67 6.53 9 7.33 9H8.67C9.47 9 10 9.67 10 10.33V10.5M13 15H11.5V9H13V15M17.5 10.5H16V11.5H17.5V13H16V15H14.5V9H17.5V10.5Z",
+"author": "Michael Irigoyen"
+},
+{
 "icon": "file-hidden",
 "google": "false",
 "search": "file-hidden,files,folders",
 "name": "file-hidden",
 "path": "M13,9H14V11H11V7H13V9M18.5,9L16.38,6.88L17.63,5.63L20,8V10H18V11H15V9H18.5M13,3.5V2H12V4H13V6H11V4H9V2H8V4H6V5H4V4C4,2.89 4.89,2 6,2H14L16.36,4.36L15.11,5.61L13,3.5M20,20A2,2 0 0,1 18,22H16V20H18V19H20V20M18,15H20V18H18V15M12,22V20H15V22H12M8,22V20H11V22H8M6,22C4.89,22 4,21.1 4,20V18H6V20H7V22H6M4,14H6V17H4V14M4,10H6V13H4V10M18,11H20V14H18V11M4,6H6V9H4V6Z",
 "author": "Austin Andrews"
+},
+{
+"icon": "file-image-marker-outline",
+"google": "false",
+"search": "file-image-marker-outline,file-image-location-outline",
+"name": "file-image-marker-outline",
+"path": "M8.5 12C7.67 12 7 11.33 7 10.5S7.67 9 8.5 9 10 9.67 10 10.5 9.33 12 8.5 12M14 19C13.43 17.86 13 16.64 13 15.5C13 15.34 13 15.18 13.03 15.03L12 14L7 19H14M6 20V4H13V9H18V10.03C18.17 10 18.33 10 18.5 10C19 10 19.5 10.08 20 10.22V8L14 2H6C4.89 2 4 2.9 4 4V20C4 21.11 4.89 22 6 22H15.91C15.5 21.44 15 20.76 14.55 20H6M22 15.5C22 18.1 18.5 22 18.5 22S15 18.1 15 15.5C15 13.6 16.6 12 18.5 12S22 13.6 22 15.5M19.7 15.6C19.7 15 19.1 14.4 18.5 14.4S17.3 14.9 17.3 15.6C17.3 16.2 17.8 16.8 18.5 16.8S19.8 16.2 19.7 15.6Z",
+"author": "Colton Wiscombe"
+},
+{
+"icon": "file-image-marker",
+"google": "false",
+"search": "file-image-marker,file-image-location",
+"name": "file-image-marker",
+"path": "M6 20L12 14L13.03 15.03C13.28 12.26 15.68 10 18.5 10C19 10 19.5 10.08 20 10.22V8L14 2H6C4.89 2 4 2.89 4 4V20C4 21.1 4.89 22 6 22H15.91C15.5 21.44 15 20.76 14.55 20H6M13 3.5L18.5 9H13V3.5M8 9C9.11 9 10 9.9 10 11S9.11 13 8 13 6 12.11 6 11 6.9 9 8 9M18.5 12C16.6 12 15 13.6 15 15.5C15 18.1 18.5 22 18.5 22S22 18.1 22 15.5C22 13.6 20.4 12 18.5 12M18.5 16.8C17.8 16.8 17.3 16.2 17.3 15.6C17.3 14.9 17.9 14.4 18.5 14.4S19.7 15 19.7 15.6C19.8 16.2 19.2 16.8 18.5 16.8Z",
+"author": "Colton Wiscombe"
 },
 {
 "icon": "file-image-outline",
@@ -18638,6 +19710,14 @@ const icons = [
 "name": "file-import",
 "path": "M6,2C4.89,2 4,2.9 4,4V20A2,2 0 0,0 6,22H18A2,2 0 0,0 20,20V8L14,2M13,3.5L18.5,9H13M10.05,11.22L12.88,14.05L15,11.93V19H7.93L10.05,16.88L7.22,14.05",
 "author": "Simran"
+},
+{
+"icon": "file-jpg-box",
+"google": "false",
+"search": "file-jpg-box,file-jpeg-box,image-jpg-box,image-jpeg-box,files,folders",
+"name": "file-jpg-box",
+"path": "M11.5 10.5H12.5V11.5H11.5V10.5M20 6V18C20 19.1 19.1 20 18 20H6C4.9 20 4 19.1 4 18V6C4 4.9 4.9 4 6 4H18C19.1 4 20 4.9 20 6M9 9H7.5V13.5H6.5V12H5V13.5C5 14.61 5.9 15 7 15S9 14.61 9 13.5V9M14 10.5C14 9.67 13.33 9 12.5 9H10V15H11.5V13H12.5C13.33 13 14 12.33 14 11.5V10.5M19 10.33C19 9.67 18.47 9 17.67 9H16.33C15.53 9 15 9.67 15 10.33V13.67C15 14.33 15.53 15 16.33 15H17.67C18.47 15 19 14.33 19 13.67V12H17.5V13.5H16.5V10.5H19V10.33Z",
+"author": "Michael Irigoyen"
 },
 {
 "icon": "file-key-outline",
@@ -18686,6 +19766,22 @@ const icons = [
 "name": "file-lock",
 "path": "M6,2C4.89,2 4,2.9 4,4V20A2,2 0 0,0 6,22H18A2,2 0 0,0 20,20V8L14,2H6M13,3.5L18.5,9H13V3.5M12,11A3,3 0 0,1 15,14V15H16V19H8V15H9V14C9,12.36 10.34,11 12,11M12,13A1,1 0 0,0 11,14V15H13V14C13,13.47 12.55,13 12,13Z",
 "author": "Austin Andrews"
+},
+{
+"icon": "file-marker-outline",
+"google": "false",
+"search": "file-marker-outline,file-location-outline",
+"name": "file-marker-outline",
+"path": "M14.55 20C15 20.76 15.5 21.44 15.91 22H6C4.89 22 4 21.11 4 20V4C4 2.9 4.89 2 6 2H14L20 8V10.22C19.5 10.08 19 10 18.5 10C18.33 10 18.17 10 18 10.03V9H13V4H6V20H14.55M22 15.5C22 18.1 18.5 22 18.5 22S15 18.1 15 15.5C15 13.6 16.6 12 18.5 12S22 13.6 22 15.5M19.7 15.6C19.7 15 19.1 14.4 18.5 14.4S17.3 14.9 17.3 15.6C17.3 16.2 17.8 16.8 18.5 16.8S19.8 16.2 19.7 15.6Z",
+"author": "Colton Wiscombe"
+},
+{
+"icon": "file-marker",
+"google": "false",
+"search": "file-marker,file-location",
+"name": "file-marker",
+"path": "M18.5 10C19 10 19.5 10.08 20 10.22V8L14 2H6C4.89 2 4 2.89 4 4V20C4 21.11 4.89 22 6 22H15.91C14.7 20.41 13 17.78 13 15.5C13 12.5 15.5 10 18.5 10M13 3.5L18.5 9H13V3.5M18.5 12C16.6 12 15 13.6 15 15.5C15 18.1 18.5 22 18.5 22S22 18.1 22 15.5C22 13.6 20.4 12 18.5 12M18.5 16.8C17.8 16.8 17.3 16.2 17.3 15.6C17.3 14.9 17.9 14.4 18.5 14.4S19.7 15 19.7 15.6C19.8 16.2 19.2 16.8 18.5 16.8Z",
+"author": "Colton Wiscombe"
 },
 {
 "icon": "file-move-outline",
@@ -18744,36 +19840,12 @@ const icons = [
 "author": "Google"
 },
 {
-"icon": "file-pdf-box-outline",
-"google": "false",
-"search": "file-pdf-box-outline,file-acrobat-box-outline,files,folders",
-"name": "file-pdf-box-outline",
-"path": "M19 3H5C3.9 3 3 3.9 3 5V19C3 20.1 3.9 21 5 21H19C20.1 21 21 20.1 21 19V5C21 3.9 20.1 3 19 3M19 5V19H5V5H19M17.9 13.5C17.6 13 16.9 12.8 15.7 12.8C15.3 12.8 14.9 12.8 14.5 12.9C14.2 12.7 13.9 12.5 13.7 12.3C13.1 11.8 12.5 10.9 12.2 9.8V9.7C12.5 8.4 12.8 6.9 12.2 6.2C11.9 6.1 11.7 6 11.5 6H11.3C10.9 6 10.6 6.4 10.5 6.7C10.1 8 10.4 8.7 10.7 9.9C10.5 10.8 10.1 11.7 9.7 12.7C9.3 13.4 9 14 8.7 14.5C8.3 14.7 8 14.8 7.8 15C6.7 15.7 6.1 16.5 6 17V17.5L6.5 17.8C6.7 18 6.8 18 7 18C7.8 18 8.7 17.1 9.9 15H10C11 14.7 12.2 14.5 13.9 14.3C14.9 14.8 16.1 15 16.8 15C17.2 15 17.5 14.9 17.7 14.7C17.9 14.5 18 14.3 18 14.1C18 13.8 18 13.6 17.9 13.5M6.8 17.3C6.8 16.9 7.3 16.3 8 15.7C8.1 15.6 8.3 15.5 8.5 15.4C7.8 16.5 7.2 17.2 6.8 17.3M11.3 6.7C11.3 6.7 11.3 6.6 11.4 6.6H11.5C11.7 6.8 11.7 7.1 11.6 7.7V7.9C11.5 8.1 11.5 8.4 11.4 8.7C11.1 7.8 11.1 7.1 11.3 6.7M10.1 14.3H10C10.1 14 10.3 13.7 10.5 13.3C10.9 12.5 11.3 11.7 11.5 11C11.9 11.9 12.4 12.6 13 13.1C13.1 13.2 13.3 13.3 13.4 13.4C12.5 13.5 11.3 13.8 10.1 14.3M17.3 14.2H17.1C16.7 14.2 16 14 15.3 13.7C15.4 13.6 15.5 13.6 15.5 13.6C16.9 13.6 17.2 13.8 17.3 13.9L17.4 14C17.4 14.2 17.4 14.2 17.3 14.2Z",
-"author": "Michael Irigoyen"
-},
-{
 "icon": "file-pdf-box",
-"google": "true",
+"google": "false",
 "search": "file-pdf-box,file-acrobat-box,files,folders",
 "name": "file-pdf-box",
-"path": "M19,3A2,2 0 0,1 21,5V19A2,2 0 0,1 19,21H5C3.89,21 3,20.1 3,19V5C3,3.89 3.89,3 5,3H19M10.59,10.08C10.57,10.13 10.3,11.84 8.5,14.77C8.5,14.77 5,16.58 5.83,17.94C6.5,19 8.15,17.9 9.56,15.27C9.56,15.27 11.38,14.63 13.79,14.45C13.79,14.45 17.65,16.19 18.17,14.34C18.69,12.5 15.12,12.9 14.5,13.09C14.5,13.09 12.46,11.75 12,9.89C12,9.89 13.13,5.95 11.38,6C9.63,6.05 10.29,9.12 10.59,10.08M11.4,11.13C11.43,11.13 11.87,12.33 13.29,13.58C13.29,13.58 10.96,14.04 9.9,14.5C9.9,14.5 10.9,12.75 11.4,11.13M15.32,13.84C15.9,13.69 17.64,14 17.58,14.32C17.5,14.65 15.32,13.84 15.32,13.84M8.26,15.7C7.73,16.91 6.83,17.68 6.6,17.67C6.37,17.66 7.3,16.07 8.26,15.7M11.4,8.76C11.39,8.71 11.03,6.57 11.4,6.61C11.94,6.67 11.4,8.71 11.4,8.76Z",
-"author": "Google"
-},
-{
-"icon": "file-pdf-outline",
-"google": "false",
-"search": "file-pdf-outline,file-acrobat-outline,files,folders",
-"name": "file-pdf-outline",
-"path": "M14,2L20,8V20A2,2 0 0,1 18,22H6A2,2 0 0,1 4,20V4A2,2 0 0,1 6,2H14M18,20V9H13V4H6V20H18M10.92,12.31C10.68,11.54 10.15,9.08 11.55,9.04C12.95,9 12.03,12.16 12.03,12.16C12.42,13.65 14.05,14.72 14.05,14.72C14.55,14.57 17.4,14.24 17,15.72C16.57,17.2 13.5,15.81 13.5,15.81C11.55,15.95 10.09,16.47 10.09,16.47C8.96,18.58 7.64,19.5 7.1,18.61C6.43,17.5 9.23,16.07 9.23,16.07C10.68,13.72 10.9,12.35 10.92,12.31M11.57,13.15C11.17,14.45 10.37,15.84 10.37,15.84C11.22,15.5 13.08,15.11 13.08,15.11C11.94,14.11 11.59,13.16 11.57,13.15M14.71,15.32C14.71,15.32 16.46,15.97 16.5,15.71C16.57,15.44 15.17,15.2 14.71,15.32M9.05,16.81C8.28,17.11 7.54,18.39 7.72,18.39C7.9,18.4 8.63,17.79 9.05,16.81M11.57,11.26C11.57,11.21 12,9.58 11.57,9.53C11.27,9.5 11.56,11.22 11.57,11.26Z",
-"author": "Michael Irigoyen"
-},
-{
-"icon": "file-pdf",
-"google": "false",
-"search": "file-pdf,file-acrobat,files,folders",
-"name": "file-pdf",
-"path": "M13,9H18.5L13,3.5V9M6,2H14L20,8V20A2,2 0 0,1 18,22H6A2,2 0 0,1 4,20V4A2,2 0 0,1 6,2M10.1,11.4C10.08,11.44 9.81,13.16 8,16.09C8,16.09 4.5,17.91 5.33,19.27C6,20.35 7.65,19.23 9.07,16.59C9.07,16.59 10.89,15.95 13.31,15.77C13.31,15.77 17.17,17.5 17.7,15.66C18.22,13.8 14.64,14.22 14,14.41C14,14.41 12,13.06 11.5,11.2C11.5,11.2 12.64,7.25 10.89,7.3C9.14,7.35 9.8,10.43 10.1,11.4M10.91,12.44C10.94,12.45 11.38,13.65 12.8,14.9C12.8,14.9 10.47,15.36 9.41,15.8C9.41,15.8 10.41,14.07 10.91,12.44M14.84,15.16C15.42,15 17.17,15.31 17.1,15.64C17.04,15.97 14.84,15.16 14.84,15.16M7.77,17C7.24,18.24 6.33,19 6.1,19C5.87,19 6.8,17.4 7.77,17M10.91,10.07C10.91,10 10.55,7.87 10.91,7.92C11.45,8 10.91,10 10.91,10.07Z",
-"author": "Austin Andrews"
+"path": "M12,10.5H13V13.5H12V10.5M7,11.5H8V10.5H7V11.5M20,6V18A2,2 0 0,1 18,20H6A2,2 0 0,1 4,18V6A2,2 0 0,1 6,4H18A2,2 0 0,1 20,6M9.5,10.5A1.5,1.5 0 0,0 8,9H5.5V15H7V13H8A1.5,1.5 0 0,0 9.5,11.5V10.5M14.5,10.5A1.5,1.5 0 0,0 13,9H10.5V15H13A1.5,1.5 0 0,0 14.5,13.5V10.5M18.5,9H15.5V15H17V13H18.5V11.5H17V10.5H18.5V9Z",
+"author": "Contributors"
 },
 {
 "icon": "file-percent-outline",
@@ -18822,6 +19894,14 @@ const icons = [
 "name": "file-plus",
 "path": "M13,9H18.5L13,3.5V9M6,2H14L20,8V20A2,2 0 0,1 18,22H6C4.89,22 4,21.1 4,20V4C4,2.89 4.89,2 6,2M11,15V12H9V15H6V17H9V20H11V17H14V15H11Z",
 "author": "Austin Andrews"
+},
+{
+"icon": "file-png-box",
+"google": "false",
+"search": "file-png-box,files,folders",
+"name": "file-png-box",
+"path": "M6.5 10.5H7.5V11.5H6.5V10.5M20 6V18C20 19.1 19.1 20 18 20H6C4.9 20 4 19.1 4 18V6C4 4.9 4.9 4 6 4H18C19.1 4 20 4.9 20 6M9 10.5C9 9.67 8.33 9 7.5 9H5V15H6.5V13H7.5C8.33 13 9 12.33 9 11.5V10.5M14 9H12.5V11.5L11.5 9H10V15H11.5V12.5L12.5 15H14V9M19 10.33C19 9.67 18.47 9 17.67 9H16.33C15.53 9 15 9.67 15 10.33V13.67C15 14.33 15.53 15 16.33 15H17.67C18.47 15 19 14.33 19 13.67V12H17.5V13.5H16.5V10.5H19V10.33Z",
+"author": "Michael Irigoyen"
 },
 {
 "icon": "file-powerpoint-box-outline",
@@ -18994,7 +20074,7 @@ const icons = [
 {
 "icon": "file-star-outline",
 "google": "false",
-"search": "file-star-outline,files,folders",
+"search": "file-star-outline,file-favorite-outline,files,folders",
 "name": "file-star-outline",
 "path": "M14 2H6C4.9 2 4 2.9 4 4V20C4 21.1 4.9 22 6 22H18C19.1 22 20 21.1 20 20V8L14 2M18 20H6V4H13V9H18V20M9.5 18L10.2 15.2L8 13.3L10.9 13.1L12 10.4L13.1 13L16 13.2L13.8 15.1L14.5 17.9L12 16.5L9.5 18Z",
 "author": "Contributors"
@@ -19002,7 +20082,7 @@ const icons = [
 {
 "icon": "file-star",
 "google": "false",
-"search": "file-star,files,folders",
+"search": "file-star,file-favorite,files,folders",
 "name": "file-star",
 "path": "M14 2H6C4.89 2 4 2.9 4 4V20C4 21.1 4.9 22 6 22H18C19.1 22 20 21.1 20 20V8L14 2M14.5 18.9L12 17.5L9.5 19L10.2 16.2L8 14.3L10.9 14.1L12 11.4L13.1 14L16 14.2L13.8 16.1L14.5 18.9M13 9V3.5L18.5 9H13Z",
 "author": "Michael Irigoyen"
@@ -19362,7 +20442,7 @@ const icons = [
 {
 "icon": "finance",
 "google": "true",
-"search": "finance,chart-finance,banking,math",
+"search": "finance,chart-finance,report-finance,graph-bar,banking,math",
 "name": "finance",
 "path": "M6,16.5L3,19.44V11H6M11,14.66L9.43,13.32L8,14.64V7H11M16,13L13,16V3H16M18.81,12.81L17,11H22V16L20.21,14.21L13,21.36L9.53,18.34L5.75,22H3L9.47,15.66L13,18.64",
 "author": "Google"
@@ -19394,10 +20474,18 @@ const icons = [
 {
 "icon": "fire-alert",
 "google": "false",
-"search": "fire-alert",
+"search": "fire-alert,flame-alert,alert,error",
 "name": "fire-alert",
 "path": "M15.66 11.2C15.43 10.9 15.15 10.64 14.89 10.38C14.22 9.78 13.46 9.35 12.82 8.72C11.33 7.26 11 4.85 11.95 3C11 3.23 10.17 3.75 9.46 4.32C6.87 6.4 5.85 10.07 7.07 13.22C7.11 13.32 7.15 13.42 7.15 13.55C7.15 13.77 7 13.97 6.8 14.05C6.57 14.15 6.33 14.09 6.14 13.93C6.08 13.88 6.04 13.83 6 13.76C4.87 12.33 4.69 10.28 5.45 8.64C3.78 10 2.87 12.3 3 14.47C3.06 14.97 3.12 15.47 3.29 15.97C3.43 16.57 3.7 17.17 4 17.7C5.08 19.43 6.95 20.67 8.96 20.92C11.1 21.19 13.39 20.8 15.03 19.32C16.86 17.66 17.5 15 16.56 12.72L16.43 12.46C16.22 12 15.66 11.2 15.66 11.2M12.5 17.5C12.22 17.74 11.76 18 11.4 18.1C10.28 18.5 9.16 17.94 8.5 17.28C9.69 17 10.4 16.12 10.61 15.23C10.78 14.43 10.46 13.77 10.33 13C10.21 12.26 10.23 11.63 10.5 10.94C10.69 11.32 10.89 11.7 11.13 12C11.9 13 13.11 13.44 13.37 14.8C13.41 14.94 13.43 15.08 13.43 15.23C13.46 16.05 13.1 16.95 12.5 17.5H12.5M21 13H19V7H21V13M21 17H19V15H21V17Z",
 "author": "Colton Wiscombe"
+},
+{
+"icon": "fire-circle",
+"google": "false",
+"search": "fire-circle,flame-circle,hot-circle,gas-circle,natural-gas-circle,home automation",
+"name": "fire-circle",
+"path": "M14.66 14.18C14.69 14.29 14.7 14.4 14.7 14.5C14.73 15.15 14.44 15.85 13.97 16.28C13.75 16.47 13.39 16.67 13.11 16.75C12.23 17.06 11.35 16.62 10.83 16.11C11.77 15.89 12.32 15.21 12.5 14.5C12.62 13.89 12.37 13.38 12.27 12.78C12.17 12.2 12.19 11.71 12.4 11.18C12.55 11.47 12.71 11.77 12.9 12C13.5 12.78 14.45 13.12 14.66 14.18M22 12C22 17.5 17.5 22 12 22S2 17.5 2 12 6.5 2 12 2 22 6.5 22 12M17.16 12.56L17.06 12.36C16.9 12 16.45 11.38 16.45 11.38C16.27 11.15 16.05 10.94 15.85 10.74C15.32 10.27 14.73 9.94 14.22 9.45C13.05 8.31 12.79 6.44 13.54 5C12.79 5.18 12.14 5.58 11.58 6.03C9.55 7.65 8.75 10.5 9.71 12.95C9.74 13.03 9.77 13.11 9.77 13.21C9.77 13.38 9.65 13.53 9.5 13.6C9.31 13.67 9.13 13.63 9 13.5C8.93 13.46 8.9 13.42 8.87 13.37C8 12.26 7.84 10.66 8.43 9.39C7.12 10.45 6.41 12.24 6.5 13.92C6.56 14.31 6.6 14.7 6.74 15.09C6.85 15.56 7.06 16 7.3 16.44C8.14 17.78 9.61 18.75 11.19 18.94C12.87 19.15 14.67 18.85 15.96 17.7C17.4 16.4 17.9 14.33 17.16 12.56Z",
+"author": "Michael Irigoyen"
 },
 {
 "icon": "fire-extinguisher",
@@ -19434,7 +20522,7 @@ const icons = [
 {
 "icon": "fire-off",
 "google": "false",
-"search": "fire-off",
+"search": "fire-off,flame-off",
 "name": "fire-off",
 "path": "M22.11 21.46L2.39 1.73L1.11 3L7.09 9C5.66 10.36 4.88 12.47 5 14.47C5.06 14.97 5.12 15.47 5.29 15.97C5.43 16.57 5.7 17.17 6 17.7C7.08 19.43 8.95 20.67 10.96 20.92C13.1 21.19 15.39 20.8 17.03 19.32C17.1 19.26 17.15 19.18 17.22 19.11L20.84 22.73L22.11 21.46M8.8 14.05C8.57 14.15 8.33 14.09 8.14 13.93C8.08 13.88 8.04 13.83 8 13.76C7 12.47 6.74 10.69 7.26 9.15L8.58 10.47C8.58 11.4 8.73 12.33 9.07 13.22C9.11 13.32 9.15 13.42 9.15 13.55C9.15 13.77 9 13.97 8.8 14.05M14.5 17.5C14.22 17.74 13.76 18 13.4 18.1C12.28 18.5 11.16 17.94 10.5 17.28C11.69 17 12.4 16.12 12.61 15.23C12.66 15 12.66 14.76 12.64 14.53L15 16.88C14.85 17.11 14.69 17.33 14.5 17.5M18.92 15.72L9.65 6.46C10.12 5.65 10.72 4.92 11.46 4.32C12.17 3.75 13 3.23 13.95 3C13 4.85 13.33 7.26 14.82 8.72C15.46 9.35 16.22 9.78 16.89 10.38C17.15 10.64 17.43 10.9 17.66 11.2C17.66 11.2 18.22 12 18.43 12.46L18.56 12.72C18.96 13.69 19.06 14.72 18.92 15.72Z",
 "author": "Michael Irigoyen"
@@ -19450,7 +20538,7 @@ const icons = [
 {
 "icon": "fire",
 "google": "true",
-"search": "fire,whatshot,flame,home automation",
+"search": "fire,whatshot,flame,gas,natural-gas,hot,home automation",
 "name": "fire",
 "path": "M17.66 11.2C17.43 10.9 17.15 10.64 16.89 10.38C16.22 9.78 15.46 9.35 14.82 8.72C13.33 7.26 13 4.85 13.95 3C13 3.23 12.17 3.75 11.46 4.32C8.87 6.4 7.85 10.07 9.07 13.22C9.11 13.32 9.15 13.42 9.15 13.55C9.15 13.77 9 13.97 8.8 14.05C8.57 14.15 8.33 14.09 8.14 13.93C8.08 13.88 8.04 13.83 8 13.76C6.87 12.33 6.69 10.28 7.45 8.64C5.78 10 4.87 12.3 5 14.47C5.06 14.97 5.12 15.47 5.29 15.97C5.43 16.57 5.7 17.17 6 17.7C7.08 19.43 8.95 20.67 10.96 20.92C13.1 21.19 15.39 20.8 17.03 19.32C18.86 17.66 19.5 15 18.56 12.72L18.43 12.46C18.22 12 17.66 11.2 17.66 11.2M14.5 17.5C14.22 17.74 13.76 18 13.4 18.1C12.28 18.5 11.16 17.94 10.5 17.28C11.69 17 12.4 16.12 12.61 15.23C12.78 14.43 12.46 13.77 12.33 13C12.21 12.26 12.23 11.63 12.5 10.94C12.69 11.32 12.89 11.7 13.13 12C13.9 13 15.11 13.44 15.37 14.8C15.41 14.94 15.43 15.08 15.43 15.23C15.46 16.05 15.1 16.95 14.5 17.5H14.5Z",
 "author": "Google"
@@ -19486,6 +20574,14 @@ const icons = [
 "name": "fireplace",
 "path": "M22,22H2V20H22V22M22,6H2V3H22V6M20,7V19H17V11C17,11 14.5,10 12,10C9.5,10 7,11 7,11V19H4V7H20M14.5,14.67H14.47L14.81,15.22L14.87,15.34C15.29,16.35 15,17.5 14.21,18.24C13.5,18.9 12.5,19.07 11.58,18.95C10.71,18.84 9.9,18.29 9.45,17.53C9.3,17.3 9.19,17.03 9.13,16.77L9,16.11C8.96,15.15 9.34,14.14 10.06,13.54C9.73,14.26 9.81,15.16 10.3,15.79L10.36,15.87C10.44,15.94 10.55,15.97 10.64,15.92C10.73,15.89 10.8,15.8 10.8,15.7L10.76,15.56C10.23,14.17 10.68,12.55 11.79,11.63C12.1,11.38 12.5,11.15 12.87,11.05C12.46,11.87 12.61,12.93 13.25,13.57L14.14,14.3L14.5,14.67M13.11,17.44V17.44C13.37,17.2 13.53,16.8 13.5,16.44V16.25C13.38,15.65 12.85,15.46 12.5,15L12.26,14.55C12.13,14.85 12.12,15.13 12.17,15.46C12.23,15.8 12.37,16.09 12.29,16.44C12.2,16.83 11.9,17.22 11.37,17.35C11.67,17.64 12.15,17.87 12.64,17.71L13.11,17.44Z",
 "author": "Michael Irigoyen"
+},
+{
+"icon": "firewire",
+"google": "false",
+"search": "firewire",
+"name": "firewire",
+"path": "M12 10C13.1 10 14 10.9 14 12S13.1 14 12 14 10 13.1 10 12 10.9 10 12 10M12 8C9.8 8 8 9.8 8 12S9.8 16 12 16 16 14.2 16 12 14.2 8 12 8M15 17H9V19H15V17M15 20H9V22H15V20M6.3 10.6L10.5 6.4L9.2 4.9L4.9 9.2L6.3 10.6M4.2 8.5L8.4 4.3L7.1 2.8L2.8 7.1L4.2 8.5M15 17H9V19H15V17M13.4 6.3L17.6 10.5L21.1 7L16.9 2.8L13.4 6.3Z",
+"author": "Contributors"
 },
 {
 "icon": "firework-off",
@@ -19554,7 +20650,7 @@ const icons = [
 {
 "icon": "flag-checkered",
 "google": "false",
-"search": "flag-checkered",
+"search": "flag-checkered,goal,sport",
 "name": "flag-checkered",
 "path": "M14.4,6H20V16H13L12.6,14H7V21H5V4H14L14.4,6M14,14H16V12H18V10H16V8H14V10L13,8V6H11V8H9V6H7V8H9V10H7V12H9V10H11V12H13V10L14,12V14M11,10V8H13V10H11M14,10H16V12H14V10Z",
 "author": "Austin Andrews"
@@ -19677,14 +20773,6 @@ const icons = [
 "search": "flash-auto",
 "name": "flash-auto",
 "path": "M16.85,7.65L18,4L19.15,7.65M19,2H17L13.8,11H15.7L16.4,9H19.6L20.3,11H22.2M3,2V14H6V23L13,11H9L13,2H3Z",
-"author": "Google"
-},
-{
-"icon": "flash-circle",
-"google": "true",
-"search": "flash-circle,amp,offline-bolt,lightning-bolt-circle",
-"name": "flash-circle",
-"path": "M11.5,20L16.36,10.27H13V4L8,13.73H11.5V20M12,2C14.75,2 17.1,3 19.05,4.95C21,6.9 22,9.25 22,12C22,14.75 21,17.1 19.05,19.05C17.1,21 14.75,22 12,22C9.25,22 6.9,21 4.95,19.05C3,17.1 2,14.75 2,12C2,9.25 3,6.9 4.95,4.95C6.9,3 9.25,2 12,2Z",
 "author": "Google"
 },
 {
@@ -19968,6 +21056,14 @@ const icons = [
 "author": "Google"
 },
 {
+"icon": "floor-lamp-dual-outline",
+"google": "false",
+"search": "floor-lamp-dual-outline,floor-light-dual-outline,home automation",
+"name": "floor-lamp-dual-outline",
+"path": "M11.73 10.06L10.17 11.24L11 12.2V20H8V22H16V20H13V12.3L13.85 11.26L12.27 10.07L11.73 10.06M8.32 5.31L9.23 8.19L9 8.37L6.47 6.7L8.32 5.31M9.39 2L3 6.81L9.08 10.82L11.55 8.93L9.39 2M15.67 5.3L17.53 6.7L15 8.37L14.77 8.2L15.67 5.3M14.61 2L12.44 8.95L14.92 10.82L21 6.81L14.61 2Z",
+"author": "Michael Irigoyen"
+},
+{
 "icon": "floor-lamp-dual",
 "google": "false",
 "search": "floor-lamp-dual,floor-light-dual,home automation",
@@ -19976,12 +21072,44 @@ const icons = [
 "author": "Borre Haugen"
 },
 {
-"icon": "floor-lamp-variant",
+"icon": "floor-lamp-outline",
 "google": "false",
-"search": "floor-lamp-variant,floor-light-variant,home automation",
-"name": "floor-lamp-variant",
+"search": "floor-lamp-outline,floor-light-outline,home automation",
+"name": "floor-lamp-outline",
+"path": "M15 2L17 9H7L9 2M13.6 4H10.4L9.55 7H14.45M11 10H13V20H16V22H8V20H11Z",
+"author": "Contributors"
+},
+{
+"icon": "floor-lamp-torchiere-outline",
+"google": "false",
+"search": "floor-lamp-torchiere-outline",
+"name": "floor-lamp-torchiere-outline",
+"path": "M14 4L12.7 7H11.3L10 4H14M17 2H7L10 9H14L17 2M13 20H16V22H8V20H11V10H13V20Z",
+"author": "Michael Irigoyen"
+},
+{
+"icon": "floor-lamp-torchiere-variant-outline",
+"google": "false",
+"search": "floor-lamp-torchiere-variant-outline,floor-light-torchiere-variant-outline,home automation",
+"name": "floor-lamp-torchiere-variant-outline",
+"path": "M13.97 4L12.68 7H11.32L10.03 4H13.97M17 2H7L10 9H14L17 2M15.92 22L13 15V22H11V15L8.08 22H5.92L10.92 10H13.08L18.08 22H15.92Z",
+"author": "Michael Irigoyen"
+},
+{
+"icon": "floor-lamp-torchiere-variant",
+"google": "false",
+"search": "floor-lamp-torchiere-variant,floor-light-torchiere-variant,home automation",
+"name": "floor-lamp-torchiere-variant",
 "path": "M7 2L10 9H14L17 2H7M15.92 22L13 15V22H11V15L8.08 22H5.92L10.92 10H13.08L18.08 22H15.92Z",
 "author": "Borre Haugen"
+},
+{
+"icon": "floor-lamp-torchiere",
+"google": "false",
+"search": "floor-lamp-torchiere,floor-light-torchiere,home automation",
+"name": "floor-lamp-torchiere",
+"path": "M7 2L10 9H14L17 2H7M13 20H16V22H8V20H11V10H13V20Z",
+"author": "Michael Irigoyen"
 },
 {
 "icon": "floor-lamp",
@@ -20184,6 +21312,22 @@ const icons = [
 "author": "GreenTurtwig"
 },
 {
+"icon": "folder-eye-outline",
+"google": "false",
+"search": "folder-eye-outline",
+"name": "folder-eye-outline",
+"path": "M9.3 20H4C2.9 20 2 19.1 2 18V6C2 4.9 2.9 4 4 4H10L12 6H20C21.1 6 22 6.9 22 8V14.6C21.4 14.2 20.7 13.8 20 13.5V8H4V18H9.3C9.3 18.1 9.2 18.2 9.2 18.3L8.8 19L9.1 19.7C9.2 19.8 9.2 19.9 9.3 20M23 19C22.1 21.3 19.7 23 17 23S11.9 21.3 11 19C11.9 16.7 14.3 15 17 15S22.1 16.7 23 19M19.5 19C19.5 17.6 18.4 16.5 17 16.5S14.5 17.6 14.5 19 15.6 21.5 17 21.5 19.5 20.4 19.5 19M17 18C16.4 18 16 18.4 16 19S16.4 20 17 20 18 19.6 18 19 17.6 18 17 18",
+"author": "Michael Irigoyen"
+},
+{
+"icon": "folder-eye",
+"google": "false",
+"search": "folder-eye",
+"name": "folder-eye",
+"path": "M9.3 20H4C2.9 20 2 19.1 2 18V6C2 4.9 2.9 4 4 4H10L12 6H20C21.1 6 22 6.9 22 8V14.6C20.6 13.6 18.9 13 17 13C13.5 13 10.4 15.1 9.1 18.3L8.8 19L9.1 19.7C9.2 19.8 9.2 19.9 9.3 20M23 19C22.1 21.3 19.7 23 17 23S11.9 21.3 11 19C11.9 16.7 14.3 15 17 15S22.1 16.7 23 19M19.5 19C19.5 17.6 18.4 16.5 17 16.5S14.5 17.6 14.5 19 15.6 21.5 17 21.5 19.5 20.4 19.5 19M17 18C16.4 18 16 18.4 16 19S16.4 20 17 20 18 19.6 18 19 17.6 18 17 18",
+"author": "Michael Irigoyen"
+},
+{
 "icon": "folder-google-drive",
 "google": "true",
 "search": "folder-google-drive,folder-mydrive,files,folders",
@@ -20205,6 +21349,14 @@ const icons = [
 "search": "folder-heart,files,folders",
 "name": "folder-heart",
 "path": "M20 6H12L10 4H4C2.89 4 2 4.89 2 6V18C2 19.1 2.89 20 4 20H20C21.1 20 22 19.1 22 18V8C22 6.9 21.1 6 20 6M18.42 13.5L15 17L11.59 13.5C11.22 13.12 11 12.62 11 12.05C11 10.92 11.9 10 13 10C13.54 10 14.05 10.23 14.42 10.61L15 11.2L15.59 10.6C15.95 10.23 16.46 10 17 10C18.1 10 19 10.92 19 12.05C19 12.61 18.78 13.13 18.42 13.5Z",
+"author": "Michael Irigoyen"
+},
+{
+"icon": "folder-hidden",
+"google": "false",
+"search": "folder-hidden",
+"name": "folder-hidden",
+"path": "M9 4V8H6V4H9M4 16V13H2V16H4M2 12H4V9H2V12M18 8H22C22 6.89 21.1 6 20 6H18V8M22 13H20V16H22V13M20 9V12H22V9H20M9 20V18H6V20H9M5 18H4V17H2V18C2 19.11 2.9 20 4 20H5V18M20 17V18H18V20H20C21.11 20 22 19.11 22 18V17H20M4 8H5V4H4C2.89 4 2 4.89 2 6V8H4M17 18H14V20H17V18M13 18H10V20H13V18M17 6H14V8H17V6M10 8H13V6H12L10 4V8Z",
 "author": "Michael Irigoyen"
 },
 {
@@ -20298,7 +21450,7 @@ const icons = [
 {
 "icon": "folder-marker-outline",
 "google": "false",
-"search": "folder-marker-outline,geographic information system,files,folders",
+"search": "folder-marker-outline,folder-location-outline,geographic information system,files,folders",
 "name": "folder-marker-outline",
 "path": "M18.5 12C20.4 12 22 13.6 22 15.5C22 18.1 18.5 22 18.5 22C18.5 22 15 18.1 15 15.5C15 13.6 16.6 12 18.5 12M18.5 16.8C19.2 16.8 19.8 16.2 19.7 15.6C19.7 15 19.1 14.4 18.5 14.4C17.9 14.4 17.3 14.9 17.3 15.6C17.3 16.2 17.8 16.8 18.5 16.8M20 8H4V18H13.5C13.79 18.68 14.13 19.35 14.5 20H4C2.89 20 2 19.1 2 18L2 6C2 4.89 2.89 4 4 4H10L12 6H20C21.1 6 22 6.89 22 8V11.34C21.42 10.84 20.74 10.45 20 10.23V8Z",
 "author": "Contributors"
@@ -20306,7 +21458,7 @@ const icons = [
 {
 "icon": "folder-marker",
 "google": "false",
-"search": "folder-marker,geographic information system,files,folders",
+"search": "folder-marker,folder-location,geographic information system,files,folders",
 "name": "folder-marker",
 "path": "M10 4L12 6H20C21.1 6 22 6.89 22 8V11.34C21.04 10.5 19.82 10 18.5 10C15.5 10 13 12.65 13 15.5C13 16.97 13.65 18.55 14.5 20H4C2.89 20 2 19.1 2 18L2 6C2 4.89 2.89 4 4 4H10M18.5 12C20.4 12 22 13.6 22 15.5C22 18.1 18.5 22 18.5 22C18.5 22 15 18.1 15 15.5C15 13.6 16.6 12 18.5 12M18.5 16.8C19.2 16.8 19.8 16.2 19.7 15.6C19.7 15 19.1 14.4 18.5 14.4C17.9 14.4 17.3 14.9 17.3 15.6C17.3 16.2 17.8 16.8 18.5 16.8Z",
 "author": "Contributors"
@@ -20522,7 +21674,7 @@ const icons = [
 {
 "icon": "folder-star-multiple-outline",
 "google": "false",
-"search": "folder-star-multiple-outline,files,folders",
+"search": "folder-star-multiple-outline,folder-favorite-multiple-outline,files,folders",
 "name": "folder-star-multiple-outline",
 "path": "M2 6V20H20V22H2C.895 22 0 21.11 0 20V6H2M12.78 10.05L15.81 9.79L17 7L18.19 9.79L21.22 10.05L18.92 12.04L19.61 15L17 13.47L14.39 15L15.08 12.04L12.78 10.05M24 6V16C24 17.11 23.11 18 22 18H6C4.9 18 4 17.11 4 16V4C4 2.89 4.9 2 6 2H12L14 4H22C23.11 4 24 4.9 24 6M22 6H6V16H22V6Z",
 "author": "Michael Irigoyen"
@@ -20530,7 +21682,7 @@ const icons = [
 {
 "icon": "folder-star-multiple",
 "google": "false",
-"search": "folder-star-multiple,files,folders",
+"search": "folder-star-multiple,folder-favorite-multiple,files,folders",
 "name": "folder-star-multiple",
 "path": "M2 6H0V20C0 21.11 .895 22 2 22H20V20H2V6M22 4H14L12 2H6C4.89 2 4 2.89 4 4V16C4 17.1 4.89 18 6 18H22C23.11 18 24 17.1 24 16V6C24 4.89 23.11 4 22 4M19.94 15L17 13.27L14.06 15L14.84 11.66L12.25 9.42L15.66 9.13L17 6L18.34 9.13L21.75 9.42L19.16 11.66L19.94 15Z",
 "author": "Michael Irigoyen"
@@ -20538,7 +21690,7 @@ const icons = [
 {
 "icon": "folder-star-outline",
 "google": "true",
-"search": "folder-star-outline,folder-special-outline,files,folders",
+"search": "folder-star-outline,folder-special-outline,folder-favorite-outline,files,folders",
 "name": "folder-star-outline",
 "path": "M10.78 12.05L13.81 11.79L15 9L16.19 11.79L19.22 12.05L16.92 14.04L17.61 17L15 15.47L12.39 17L13.08 14.04L10.78 12.05M22 8V18C22 19.11 21.11 20 20 20H4C2.9 20 2 19.11 2 18V6C2 4.89 2.9 4 4 4H10L12 6H20C21.11 6 22 6.9 22 8M20 8H4V18H20V8Z",
 "author": "Google"
@@ -20546,7 +21698,7 @@ const icons = [
 {
 "icon": "folder-star",
 "google": "true",
-"search": "folder-star,folder-special,files,folders",
+"search": "folder-star,folder-special,folder-favorite,files,folders",
 "name": "folder-star",
 "path": "M20,6H12L10,4H4A2,2 0 0,0 2,6V18A2,2 0 0,0 4,20H20A2,2 0 0,0 22,18V8A2,2 0 0,0 20,6M17.94,17L15,15.28L12.06,17L12.84,13.67L10.25,11.43L13.66,11.14L15,8L16.34,11.14L19.75,11.43L17.16,13.67L17.94,17Z",
 "author": "Google"
@@ -20666,7 +21818,7 @@ const icons = [
 {
 "icon": "food-apple-outline",
 "google": "false",
-"search": "food-apple-outline,food,drink",
+"search": "food-apple-outline,food,drink,agriculture",
 "name": "food-apple-outline",
 "path": "M20,10C18.58,7.57 15.5,6.69 13,8V3H11V8C8.5,6.69 5.42,7.57 4,10C2,13 7,22 9,22C11,22 11,21 12,21C13,21 13,22 15,22C17,22 22,13 20,10M18.25,13.38C17.63,15.85 16.41,18.12 14.7,20C14.5,20 14.27,19.9 14.1,19.75C12.87,18.76 11.13,18.76 9.9,19.75C9.73,19.9 9.5,20 9.3,20C7.59,18.13 6.36,15.85 5.75,13.39C5.5,12.66 5.45,11.87 5.66,11.12C6.24,10.09 7.32,9.43 8.5,9.4C9.06,9.41 9.61,9.54 10.11,9.79L11,10.24H13L13.89,9.79C14.39,9.54 14.94,9.41 15.5,9.4C16.68,9.43 17.76,10.08 18.34,11.11C18.55,11.86 18.5,12.65 18.25,13.38M11,5C5.38,8.07 4.11,3.78 4.11,3.78C4.11,3.78 6.77,0.19 11,5Z",
 "author": "Michael Richins"
@@ -20674,7 +21826,7 @@ const icons = [
 {
 "icon": "food-apple",
 "google": "false",
-"search": "food-apple,food,drink",
+"search": "food-apple,food,drink,agriculture",
 "name": "food-apple",
 "path": "M20,10C22,13 17,22 15,22C13,22 13,21 12,21C11,21 11,22 9,22C7,22 2,13 4,10C6,7 9,7 11,8V5C5.38,8.07 4.11,3.78 4.11,3.78C4.11,3.78 6.77,0.19 11,5V3H13V8C15,7 18,7 20,10Z",
 "author": "Austin Andrews"
@@ -21154,7 +22306,7 @@ const icons = [
 {
 "icon": "format-horizontal-align-center",
 "google": "false",
-"search": "format-horizontal-align-center,format-horizontal-align-centre,text,content,format",
+"search": "format-horizontal-align-center,format-horizontal-align-centre,arrow-horizontal-collapse,text,content,format",
 "name": "format-horizontal-align-center",
 "path": "M19,16V13H23V11H19V8L15,12L19,16M5,8V11H1V13H5V16L9,12L5,8M11,20H13V4H11V20Z",
 "author": "Austin Andrews"
@@ -21626,7 +22778,7 @@ const icons = [
 {
 "icon": "format-vertical-align-center",
 "google": "true",
-"search": "format-vertical-align-center,format-vertical-align-centre,text,content,format",
+"search": "format-vertical-align-center,format-vertical-align-centre,arrow-vertical-collapse,text,content,format",
 "name": "format-vertical-align-center",
 "path": "M8,19H11V23H13V19H16L12,15L8,19M16,5H13V1H11V5H8L12,9L16,5M4,11V13H20V11H4Z",
 "author": "Google"
@@ -21770,7 +22922,7 @@ const icons = [
 {
 "icon": "fridge-industrial-alert-outline",
 "google": "false",
-"search": "fridge-industrial-alert-outline,home automation",
+"search": "fridge-industrial-alert-outline,home automation,alert,error",
 "name": "fridge-industrial-alert-outline",
 "path": "M8 15H6V10H8V15M17 4V19C17 20.11 16.11 21 15 21V22H13V21H7V22H5V21C3.9 21 3 20.11 3 19V4C3 2.9 3.9 2 5 2H15C16.11 2 17 2.9 17 4M15 4H5V19H15V4M19 17H21V15H19V17M19 7V13H21V7H19Z",
 "author": "Colton Wiscombe"
@@ -21778,7 +22930,7 @@ const icons = [
 {
 "icon": "fridge-industrial-alert",
 "google": "false",
-"search": "fridge-industrial-alert,home automation",
+"search": "fridge-industrial-alert,home automation,alert,error",
 "name": "fridge-industrial-alert",
 "path": "M15 2H5C3.9 2 3 2.9 3 4V19C3 20.11 3.9 21 5 21V22H7V21H13V22H15V21C16.11 21 17 20.11 17 19V4C17 2.9 16.11 2 15 2M8 15H6V10H8V15M21 7V13H19V7H21M19 15H21V17H19V15Z",
 "author": "Colton Wiscombe"
@@ -21850,7 +23002,7 @@ const icons = [
 {
 "icon": "fridge-variant-alert-outline",
 "google": "false",
-"search": "fridge-variant-alert-outline,home automation",
+"search": "fridge-variant-alert-outline,home automation,alert,error",
 "name": "fridge-variant-alert-outline",
 "path": "M15 2H5C3.9 2 3 2.9 3 4V19C3 20.11 3.9 21 5 21V22H7V21H13V22H15V21C16.11 21 17 20.11 17 19V4C17 2.9 16.11 2 15 2M9 19H5V14H8V10H5V4H9V19M15 19H11V4H15V19M19 15H21V17H19V15M21 7V13H19V7H21Z",
 "author": "Colton Wiscombe"
@@ -21858,7 +23010,7 @@ const icons = [
 {
 "icon": "fridge-variant-alert",
 "google": "false",
-"search": "fridge-variant-alert,home automation",
+"search": "fridge-variant-alert,home automation,alert,error",
 "name": "fridge-variant-alert",
 "path": "M17 4V19C17 20.11 16.11 21 15 21V22H13V21H10.5V2H15C16.11 2 17 2.9 17 4M5 2H9.5V21H7V22H5V21C3.9 21 3 20.11 3 19V4C3 2.9 3.9 2 5 2M8 10H5V14H8V10M19 7V13H21V7H19M19 17H21V15H19V17Z",
 "author": "Colton Wiscombe"
@@ -21906,7 +23058,7 @@ const icons = [
 {
 "icon": "fruit-cherries-off",
 "google": "false",
-"search": "fruit-cherries-off,food,drink",
+"search": "fruit-cherries-off,food,drink,agriculture",
 "name": "fruit-cherries-off",
 "path": "M22.1 21.5L2.4 1.7L1.1 3L8.7 10.6C8.3 11.6 7.9 12.5 7.6 13C5.6 13.2 4 14.9 4 17C4 19.2 5.8 21 8 21C9.1 21 10 20.6 10.7 19.9C10.3 19 10 18 10 17S10.3 15 10.7 14.1C10.3 13.7 9.7 13.4 9.2 13.2C9.4 12.8 9.6 12.3 9.9 11.7L12.8 14.6C12.3 15.3 12 16.1 12 17C12 19.2 13.8 21 16 21C16.9 21 17.7 20.7 18.3 20.2L20.8 22.7L22.1 21.5M8 15.5C7.2 15.5 6.5 16.2 6.5 17H5.5C5.5 15.6 6.6 14.5 8 14.5V15.5M14.5 17H13.5C13.5 16.5 13.6 16.1 13.8 15.7L14.6 16.5C14.5 16.7 14.5 16.8 14.5 17M20 16.8L16.2 13C18.2 13.1 19.9 14.8 20 16.8M11.3 8.1L10.1 6.9C10.7 5.1 11.2 3.3 11.2 2L12.6 1.9C12.7 2.3 12.7 2.8 12.8 3.4C13.4 3.3 15.5 3.3 17.8 5.1C20.5 7.1 19.8 10.9 19.8 10.9S17.4 11.3 14.7 9.2L13.8 8.3C14.1 9.5 14.5 10.7 14.9 11.7L12.6 9.4C12.3 8.4 12.1 7.4 11.9 6.4C11.7 7 11.5 7.6 11.3 8.1Z",
 "author": "Michael Irigoyen"
@@ -21914,7 +23066,7 @@ const icons = [
 {
 "icon": "fruit-cherries",
 "google": "false",
-"search": "fruit-cherries,food,drink",
+"search": "fruit-cherries,food,drink,agriculture",
 "name": "fruit-cherries",
 "path": "M16 13H15.5C14.8 11.7 14.3 10 13.8 8.3L14.7 9.2C17.4 11.3 19.8 10.9 19.8 10.9S20.5 7.1 17.8 5.1C15.5 3.3 13.4 3.3 12.8 3.4C12.7 2.8 12.7 2.3 12.6 1.9L11.2 2C11.2 5.2 8.5 11.1 7.6 13C5.6 13.2 4 14.9 4 17C4 19.2 5.8 21 8 21C9.1 21 10 20.6 10.7 19.9C10.3 19 10 18 10 17S10.3 15 10.7 14.1C10.3 13.7 9.7 13.4 9.2 13.2C9.9 11.7 11.1 9 11.9 6.4C12.3 8.7 13.1 11.4 14.1 13.5C12.9 14.2 12 15.5 12 17C12 19.2 13.8 21 16 21S20 19.2 20 17 18.2 13 16 13M8 15.5C7.2 15.5 6.5 16.2 6.5 17H5.5C5.5 15.6 6.6 14.5 8 14.5V15.5M16 15.5C15.2 15.5 14.5 16.2 14.5 17H13.5C13.5 15.6 14.6 14.5 16 14.5V15.5Z",
 "author": "Michael Irigoyen"
@@ -21922,7 +23074,7 @@ const icons = [
 {
 "icon": "fruit-citrus-off",
 "google": "false",
-"search": "fruit-citrus-off,food,drink",
+"search": "fruit-citrus-off,food,drink,agriculture",
 "name": "fruit-citrus-off",
 "path": "M22.1 21.5L2.4 1.7L1.1 3L4.4 6.3C3.4 7.5 2.9 8.9 2.8 10.2C2.1 10.7 1.8 11.5 2.1 12.3C2.4 13.1 3.2 13.6 4 13.6C5.1 14.9 6.9 15.7 9 15.9C9.1 14.5 9.6 13.3 10.3 12.2L11.8 13.7C11.3 14.5 11 15.5 11 16.5C11 19.5 13.5 22 16.5 22C17.5 22 18.5 21.7 19.3 21.2L20.8 22.7L22.1 21.5M13 16.5C13 16 13.1 15.6 13.3 15.1L15 16.8L13.3 18C13.1 17.5 13 17 13 16.5M13.9 18.8L15.7 17.6L16 17.9V20C15.2 19.8 14.4 19.4 13.9 18.8M17 19.9V18.9L17.8 19.7C17.5 19.8 17.3 19.9 17 19.9M20 16.8V16.5C20 16 19.9 15.5 19.7 15L18.8 15.6L18.1 14.9L19.1 14.2C18.6 13.6 17.8 13.2 17 13V13.8L14.6 11.4C15.2 11.2 15.9 11 16.5 11C19.5 11 22 13.5 22 16.5C22 17.2 21.9 17.8 21.6 18.4L20 16.8M13 9.8L7.1 3.9C7.9 3.4 8.8 3 9.7 2.7C13.8 1.3 18 2.1 20 4.4C20.8 4.4 21.6 4.9 21.9 5.7C22.2 6.5 21.9 7.3 21.2 7.8C21.2 8.6 21 9.4 20.6 10.2C19.4 9.5 18 9 16.5 9C15.3 9 14.1 9.3 13 9.8Z",
 "author": "Michael Irigoyen"
@@ -21930,7 +23082,7 @@ const icons = [
 {
 "icon": "fruit-citrus",
 "google": "false",
-"search": "fruit-citrus,fruit-lemon,fruit-lime,food,drink",
+"search": "fruit-citrus,fruit-lemon,fruit-lime,food,drink,agriculture",
 "name": "fruit-citrus",
 "path": "M9 15.9C6.9 15.7 5.1 14.9 4 13.6C3.2 13.6 2.4 13.1 2.1 12.3C1.8 11.5 2.1 10.7 2.8 10.2C2.9 7.2 5.6 4.1 9.7 2.7C13.8 1.3 18 2.1 20 4.4C20.8 4.4 21.6 4.9 21.9 5.7C22.2 6.5 21.9 7.3 21.2 7.8C21.2 8.6 21 9.4 20.6 10.2C19.4 9.5 18 9 16.5 9C12.6 9 9.3 12 9 15.9M22 16.5C22 19.5 19.5 22 16.5 22S11 19.5 11 16.5 13.5 11 16.5 11 22 13.5 22 16.5M13.3 18L15.6 16.5L13.3 15C13.1 15.5 13 16 13 16.5S13.1 17.5 13.3 18M16 17.4L13.9 18.8C14.4 19.4 15.2 19.8 16 20V17.4M16 13.1C15.2 13.2 14.4 13.6 13.9 14.3L16 15.7V13.1M17 15.6L19.1 14.2C18.6 13.6 17.8 13.2 17 13V15.6M19.1 18.8L17 17.4V19.9C17.8 19.8 18.6 19.4 19.1 18.8M20 16.5C20 16 19.9 15.5 19.7 15L17.4 16.5L19.7 18C19.9 17.5 20 17 20 16.5Z",
 "author": "Michael Irigoyen"
@@ -21938,7 +23090,7 @@ const icons = [
 {
 "icon": "fruit-grapes-outline",
 "google": "false",
-"search": "fruit-grapes-outline,food,drink",
+"search": "fruit-grapes-outline,food,drink,agriculture",
 "name": "fruit-grapes-outline",
 "path": "M19 12C19 10.61 18.05 9.47 16.78 9.12C16.92 8.78 17 8.4 17 8C17 6.34 15.66 5 14 5C13.57 5 13.17 5.1 12.81 5.26C13 4.19 13.39 2.59 14.4 2.2L13.6 1C11.9 1.77 11.4 4.09 11.26 5.29C10.87 5.11 10.45 5 10 5C8.34 5 7 6.34 7 8C7 8.4 7.08 8.77 7.22 9.12C5.94 9.46 5 10.62 5 12C5 13.39 5.95 14.54 7.23 14.88C7.09 15.22 7 15.6 7 16C7 17.39 7.94 18.54 9.22 18.88C9.08 19.23 9 19.61 9 20C9 21.66 10.34 23 12 23S15 21.66 15 20C15 19.61 14.92 19.23 14.78 18.88C16.06 18.54 17 17.39 17 16C17 15.6 16.92 15.23 16.77 14.88C18.05 14.54 19 13.39 19 12M16.31 9.88V9.9H16.3L16.31 9.88M14 6.5C14.83 6.5 15.5 7.17 15.5 8S14.83 9.5 14 9.5 12.5 8.83 12.5 8 13.17 6.5 14 6.5M13.5 12C13.5 12.83 12.83 13.5 12 13.5S10.5 12.83 10.5 12 11.17 10.5 12 10.5 13.5 11.17 13.5 12M10 6.5C10.83 6.5 11.5 7.17 11.5 8S10.83 9.5 10 9.5 8.5 8.83 8.5 8 9.17 6.5 10 6.5M6.5 12C6.5 11.17 7.17 10.5 8 10.5S9.5 11.17 9.5 12 8.83 13.5 8 13.5 6.5 12.83 6.5 12M8.5 16C8.5 15.17 9.17 14.5 10 14.5S11.5 15.17 11.5 16 10.83 17.5 10 17.5 8.5 16.83 8.5 16M12 21.5C11.17 21.5 10.5 20.83 10.5 20S11.17 18.5 12 18.5 13.5 19.17 13.5 20 12.83 21.5 12 21.5M14 17.5C13.17 17.5 12.5 16.83 12.5 16S13.17 14.5 14 14.5 15.5 15.17 15.5 16 14.83 17.5 14 17.5M16 13.5C15.17 13.5 14.5 12.83 14.5 12S15.17 10.5 16 10.5 17.5 11.17 17.5 12 16.83 13.5 16 13.5Z",
 "author": "Michael Irigoyen"
@@ -21946,7 +23098,7 @@ const icons = [
 {
 "icon": "fruit-grapes",
 "google": "false",
-"search": "fruit-grapes,food,drink",
+"search": "fruit-grapes,food,drink,agriculture",
 "name": "fruit-grapes",
 "path": "M14 12C14 13.1 13.1 14 12 14S10 13.1 10 12 10.9 10 12 10 14 10.9 14 12M7 10C5.9 10 5 10.9 5 12S5.9 14 7 14 9 13.1 9 12 8.1 10 7 10M17 10C15.9 10 15 10.9 15 12S15.9 14 17 14 19 13.1 19 12 18.1 10 17 10M14.5 6C13.4 6 12.5 6.9 12.5 8S13.4 10 14.5 10 16.5 9.1 16.5 8 15.6 6 14.5 6M9.5 6C8.4 6 7.5 6.9 7.5 8S8.4 10 9.5 10 11.5 9.1 11.5 8 10.6 6 9.5 6M14.5 14C13.4 14 12.5 14.9 12.5 16S13.4 18 14.5 18 16.5 17.1 16.5 16 15.6 14 14.5 14M9.5 14C8.4 14 7.5 14.9 7.5 16S8.4 18 9.5 18 11.5 17.1 11.5 16 10.6 14 9.5 14M12 18C10.9 18 10 18.9 10 20S10.9 22 12 22 14 21.1 14 20 13.1 18 12 18M14.4 2.2L13.6 1C11.4 2 11.2 5.6 11.2 6H12.7C12.8 5.2 13.1 2.7 14.4 2.2Z",
 "author": "Michael Irigoyen"
@@ -21954,7 +23106,7 @@ const icons = [
 {
 "icon": "fruit-pineapple",
 "google": "false",
-"search": "fruit-pineapple,fruit-ananas,food,drink",
+"search": "fruit-pineapple,fruit-ananas,food,drink,agriculture",
 "name": "fruit-pineapple",
 "path": "M14.4 7.7C16.4 6.4 19 7 19 7C17.2 4.6 15.1 4.7 13.6 5.2V5C14.7 3.4 16.9 3.5 16.9 3.5C15.3 2.1 13.9 2.5 13 3C12.5 1.8 12 1 12 1C11.6 1.7 11.3 2.4 11 3.1C10.1 2.5 8.6 2.1 7 3.5C7 3.5 9.3 3.5 10.4 5.2C8.9 4.7 6.8 4.6 5 7C5 7 7.6 6.4 9.6 7.7C7.5 8.9 6 11.7 6 15C6 19.4 8.7 23 12 23S18 19.4 18 15C18 11.7 16.5 8.9 14.4 7.7M15.8 16.8C15.7 17.2 15.6 17.6 15.4 18L14 16L12.5 18L14.1 20.1C13.8 20.3 13.6 20.5 13.3 20.7L12 19L10.7 20.7C10.4 20.6 10.1 20.4 9.9 20.1L11.5 18L10 16L8.5 17.9C8.4 17.5 8.2 17.1 8.1 16.7L9.5 15L8.2 13.2C8.3 12.8 8.4 12.4 8.6 12L10 14L11.5 12L9.9 9.9C10.2 9.7 10.4 9.5 10.7 9.3L12 11L13.3 9.3C13.6 9.4 13.9 9.6 14.1 9.9L12.5 12L14 14L15.5 12.1C15.6 12.5 15.8 12.9 15.9 13.3L14.5 15L15.8 16.8M12 13L13.5 15L12 17L10.5 15L12 13Z",
 "author": "Michael Irigoyen"
@@ -21962,7 +23114,7 @@ const icons = [
 {
 "icon": "fruit-watermelon",
 "google": "false",
-"search": "fruit-watermelon,food,drink",
+"search": "fruit-watermelon,food,drink,agriculture",
 "name": "fruit-watermelon",
 "path": "M16.4 16.4C19.8 13 19.8 7.5 16.4 4.2L4.2 16.4C7.5 19.8 13 19.8 16.4 16.4M16 7C16.6 7 17 7.4 17 8C17 8.6 16.6 9 16 9S15 8.6 15 8C15 7.4 15.4 7 16 7M16 11C16.6 11 17 11.4 17 12C17 12.6 16.6 13 16 13S15 12.6 15 12C15 11.4 15.4 11 16 11M12 11C12.6 11 13 11.4 13 12C13 12.6 12.6 13 12 13S11 12.6 11 12C11 11.4 11.4 11 12 11M12 15C12.6 15 13 15.4 13 16C13 16.6 12.6 17 12 17S11 16.6 11 16C11 15.4 11.4 15 12 15M8 17C7.4 17 7 16.6 7 16C7 15.4 7.4 15 8 15S9 15.4 9 16C9 16.6 8.6 17 8 17M18.6 18.6C14 23.2 6.6 23.2 2 18.6L3.4 17.2C7.2 21 13.3 21 17.1 17.2C20.9 13.4 20.9 7.3 17.1 3.5L18.6 2C23.1 6.6 23.1 14 18.6 18.6Z",
 "author": "Michael Irigoyen"
@@ -22058,7 +23210,7 @@ const icons = [
 {
 "icon": "gamepad-circle-down",
 "google": "false",
-"search": "gamepad-circle-down,gaming,rpg",
+"search": "gamepad-circle-down,controller-circle-down,gaming,rpg",
 "name": "gamepad-circle-down",
 "path": "M5,8A4,4 0 0,1 9,12A4,4 0 0,1 5,16A4,4 0 0,1 1,12A4,4 0 0,1 5,8M12,1A4,4 0 0,1 16,5A4,4 0 0,1 12,9A4,4 0 0,1 8,5A4,4 0 0,1 12,1M12,15A4,4 0 0,1 16,19A4,4 0 0,1 12,23A4,4 0 0,1 8,19A4,4 0 0,1 12,15M19,8A4,4 0 0,1 23,12A4,4 0 0,1 19,16A4,4 0 0,1 15,12A4,4 0 0,1 19,8M12,3A2,2 0 0,0 10,5A2,2 0 0,0 12,7A2,2 0 0,0 14,5A2,2 0 0,0 12,3M5,10A2,2 0 0,0 3,12A2,2 0 0,0 5,14A2,2 0 0,0 7,12A2,2 0 0,0 5,10M19,10A2,2 0 0,0 17,12A2,2 0 0,0 19,14A2,2 0 0,0 21,12A2,2 0 0,0 19,10Z",
 "author": "Haley Halcyon"
@@ -22066,7 +23218,7 @@ const icons = [
 {
 "icon": "gamepad-circle-left",
 "google": "false",
-"search": "gamepad-circle-left,gaming,rpg",
+"search": "gamepad-circle-left,controller-circle-left,gaming,rpg",
 "name": "gamepad-circle-left",
 "path": "M5,8A4,4 0 0,1 9,12A4,4 0 0,1 5,16A4,4 0 0,1 1,12A4,4 0 0,1 5,8M12,1A4,4 0 0,1 16,5A4,4 0 0,1 12,9A4,4 0 0,1 8,5A4,4 0 0,1 12,1M12,15A4,4 0 0,1 16,19A4,4 0 0,1 12,23A4,4 0 0,1 8,19A4,4 0 0,1 12,15M19,8A4,4 0 0,1 23,12A4,4 0 0,1 19,16A4,4 0 0,1 15,12A4,4 0 0,1 19,8M19,10A2,2 0 0,0 17,12A2,2 0 0,0 19,14A2,2 0 0,0 21,12A2,2 0 0,0 19,10M12,17A2,2 0 0,0 10,19A2,2 0 0,0 12,21A2,2 0 0,0 14,19A2,2 0 0,0 12,17M12,3A2,2 0 0,0 10,5A2,2 0 0,0 12,7A2,2 0 0,0 14,5A2,2 0 0,0 12,3Z",
 "author": "Haley Halcyon"
@@ -22074,7 +23226,7 @@ const icons = [
 {
 "icon": "gamepad-circle-outline",
 "google": "false",
-"search": "gamepad-circle-outline,gaming,rpg",
+"search": "gamepad-circle-outline,controller-circle-outline,gaming,rpg",
 "name": "gamepad-circle-outline",
 "path": "M5,8A4,4 0 0,1 9,12A4,4 0 0,1 5,16A4,4 0 0,1 1,12A4,4 0 0,1 5,8M5,10A2,2 0 0,0 3,12A2,2 0 0,0 5,14A2,2 0 0,0 7,12A2,2 0 0,0 5,10M12,1A4,4 0 0,1 16,5A4,4 0 0,1 12,9A4,4 0 0,1 8,5A4,4 0 0,1 12,1M12,3A2,2 0 0,0 10,5A2,2 0 0,0 12,7A2,2 0 0,0 14,5A2,2 0 0,0 12,3M12,15A4,4 0 0,1 16,19A4,4 0 0,1 12,23A4,4 0 0,1 8,19A4,4 0 0,1 12,15M12,17A2,2 0 0,0 10,19A2,2 0 0,0 12,21A2,2 0 0,0 14,19A2,2 0 0,0 12,17M19,8A4,4 0 0,1 23,12A4,4 0 0,1 19,16A4,4 0 0,1 15,12A4,4 0 0,1 19,8M19,10A2,2 0 0,0 17,12A2,2 0 0,0 19,14A2,2 0 0,0 21,12A2,2 0 0,0 19,10Z",
 "author": "Haley Halcyon"
@@ -22082,7 +23234,7 @@ const icons = [
 {
 "icon": "gamepad-circle-right",
 "google": "false",
-"search": "gamepad-circle-right,gaming,rpg",
+"search": "gamepad-circle-right,controller-circle-right,gaming,rpg",
 "name": "gamepad-circle-right",
 "path": "M5,8A4,4 0 0,1 9,12A4,4 0 0,1 5,16A4,4 0 0,1 1,12A4,4 0 0,1 5,8M12,1A4,4 0 0,1 16,5A4,4 0 0,1 12,9A4,4 0 0,1 8,5A4,4 0 0,1 12,1M12,15A4,4 0 0,1 16,19A4,4 0 0,1 12,23A4,4 0 0,1 8,19A4,4 0 0,1 12,15M19,8A4,4 0 0,1 23,12A4,4 0 0,1 19,16A4,4 0 0,1 15,12A4,4 0 0,1 19,8M12,3A2,2 0 0,0 10,5A2,2 0 0,0 12,7A2,2 0 0,0 14,5A2,2 0 0,0 12,3M5,10A2,2 0 0,0 3,12A2,2 0 0,0 5,14A2,2 0 0,0 7,12A2,2 0 0,0 5,10M12,17A2,2 0 0,0 10,19A2,2 0 0,0 12,21A2,2 0 0,0 14,19A2,2 0 0,0 12,17Z",
 "author": "Haley Halcyon"
@@ -22090,7 +23242,7 @@ const icons = [
 {
 "icon": "gamepad-circle-up",
 "google": "false",
-"search": "gamepad-circle-up,gaming,rpg",
+"search": "gamepad-circle-up,controller-circle-up,gaming,rpg",
 "name": "gamepad-circle-up",
 "path": "M5,8A4,4 0 0,1 9,12A4,4 0 0,1 5,16A4,4 0 0,1 1,12A4,4 0 0,1 5,8M12,1A4,4 0 0,1 16,5A4,4 0 0,1 12,9A4,4 0 0,1 8,5A4,4 0 0,1 12,1M12,15A4,4 0 0,1 16,19A4,4 0 0,1 12,23A4,4 0 0,1 8,19A4,4 0 0,1 12,15M19,8A4,4 0 0,1 23,12A4,4 0 0,1 19,16A4,4 0 0,1 15,12A4,4 0 0,1 19,8M5,10A2,2 0 0,0 3,12A2,2 0 0,0 5,14A2,2 0 0,0 7,12A2,2 0 0,0 5,10M19,10A2,2 0 0,0 17,12A2,2 0 0,0 19,14A2,2 0 0,0 21,12A2,2 0 0,0 19,10M12,17A2,2 0 0,0 10,19A2,2 0 0,0 12,21A2,2 0 0,0 14,19A2,2 0 0,0 12,17Z",
 "author": "Haley Halcyon"
@@ -22098,7 +23250,7 @@ const icons = [
 {
 "icon": "gamepad-circle",
 "google": "false",
-"search": "gamepad-circle,gaming,rpg",
+"search": "gamepad-circle,controller-circle,gaming,rpg",
 "name": "gamepad-circle",
 "path": "M5,8A4,4 0 0,1 9,12A4,4 0 0,1 5,16A4,4 0 0,1 1,12A4,4 0 0,1 5,8M12,1A4,4 0 0,1 16,5A4,4 0 0,1 12,9A4,4 0 0,1 8,5A4,4 0 0,1 12,1M12,15A4,4 0 0,1 16,19A4,4 0 0,1 12,23A4,4 0 0,1 8,19A4,4 0 0,1 12,15M19,8A4,4 0 0,1 23,12A4,4 0 0,1 19,16A4,4 0 0,1 15,12A4,4 0 0,1 19,8Z",
 "author": "Haley Halcyon"
@@ -22106,7 +23258,7 @@ const icons = [
 {
 "icon": "gamepad-down",
 "google": "false",
-"search": "gamepad-down,gaming,rpg",
+"search": "gamepad-down,controller-down,gaming,rpg",
 "name": "gamepad-down",
 "path": "M9,2V7.5L12,10.5L15,7.5V2H9M2,9V15H7.5L10.5,12L7.5,9H2M16.5,9L13.5,12L16.5,15H22V9H16.5M12,13.5L9,16.5V22H15V16.5L12,13.5M11,18H13V20H11V18Z",
 "author": "GreenTurtwig"
@@ -22114,7 +23266,7 @@ const icons = [
 {
 "icon": "gamepad-left",
 "google": "false",
-"search": "gamepad-left,gaming,rpg",
+"search": "gamepad-left,controller-left,gaming,rpg",
 "name": "gamepad-left",
 "path": "M9,2V7.5L12,10.5L15,7.5V2H9M2,9V15H7.5L10.5,12L7.5,9H2M16.5,9L13.5,12L16.5,15H22V9H16.5M4,11H6V13H4V11M12,13.5L9,16.5V22H15V16.5L12,13.5Z",
 "author": "GreenTurtwig"
@@ -22122,7 +23274,7 @@ const icons = [
 {
 "icon": "gamepad-right",
 "google": "false",
-"search": "gamepad-right,gaming,rpg",
+"search": "gamepad-right,controller-right,gaming,rpg",
 "name": "gamepad-right",
 "path": "M9,2V7.5L12,10.5L15,7.5V2H9M2,9V15H7.5L10.5,12L7.5,9H2M16.5,9L13.5,12L16.5,15H22V9H16.5M18,11H20V13H18V11M12,13.5L9,16.5V22H15V16.5L12,13.5Z",
 "author": "GreenTurtwig"
@@ -22130,7 +23282,7 @@ const icons = [
 {
 "icon": "gamepad-round-down",
 "google": "false",
-"search": "gamepad-round-down,gaming,rpg",
+"search": "gamepad-round-down,controller-round-down,gaming,rpg",
 "name": "gamepad-round-down",
 "path": "M4,8H8V4A2,2 0 0,1 10,2H14A2,2 0 0,1 16,4V8H20A2,2 0 0,1 22,10V14A2,2 0 0,1 20,16H16V20A2,2 0 0,1 14,22H10A2,2 0 0,1 8,20V16H4A2,2 0 0,1 2,14V10A2,2 0 0,1 4,8M10,16V20H14V16H10Z",
 "author": "Haley Halcyon"
@@ -22138,7 +23290,7 @@ const icons = [
 {
 "icon": "gamepad-round-left",
 "google": "false",
-"search": "gamepad-round-left,gaming,rpg",
+"search": "gamepad-round-left,controller-round-left,gaming,rpg",
 "name": "gamepad-round-left",
 "path": "M4,8H8V4A2,2 0 0,1 10,2H14A2,2 0 0,1 16,4V8H20A2,2 0 0,1 22,10V14A2,2 0 0,1 20,16H16V20A2,2 0 0,1 14,22H10A2,2 0 0,1 8,20V16H4A2,2 0 0,1 2,14V10A2,2 0 0,1 4,8M4,10V14H8V10H4Z",
 "author": "Haley Halcyon"
@@ -22146,7 +23298,7 @@ const icons = [
 {
 "icon": "gamepad-round-outline",
 "google": "false",
-"search": "gamepad-round-outline,gaming,rpg",
+"search": "gamepad-round-outline,controller-round-outline,gaming,rpg",
 "name": "gamepad-round-outline",
 "path": "M4,8H8V4A2,2 0 0,1 10,2H14A2,2 0 0,1 16,4V8H20A2,2 0 0,1 22,10V14A2,2 0 0,1 20,16H16V20A2,2 0 0,1 14,22H10A2,2 0 0,1 8,20V16H4A2,2 0 0,1 2,14V10A2,2 0 0,1 4,8M4,10V14H10V20H14V14H20V10H14V4H10V10H4Z",
 "author": "Haley Halcyon"
@@ -22154,7 +23306,7 @@ const icons = [
 {
 "icon": "gamepad-round-right",
 "google": "false",
-"search": "gamepad-round-right,gaming,rpg",
+"search": "gamepad-round-right,controller-round-right,gaming,rpg",
 "name": "gamepad-round-right",
 "path": "M4,8H8V4A2,2 0 0,1 10,2H14A2,2 0 0,1 16,4V8H20A2,2 0 0,1 22,10V14A2,2 0 0,1 20,16H16V20A2,2 0 0,1 14,22H10A2,2 0 0,1 8,20V16H4A2,2 0 0,1 2,14V10A2,2 0 0,1 4,8M16,10V14H20V10H16Z",
 "author": "Haley Halcyon"
@@ -22162,7 +23314,7 @@ const icons = [
 {
 "icon": "gamepad-round-up",
 "google": "false",
-"search": "gamepad-round-up,gaming,rpg",
+"search": "gamepad-round-up,controller-round-up,gaming,rpg",
 "name": "gamepad-round-up",
 "path": "M4,8H8V4A2,2 0 0,1 10,2H14A2,2 0 0,1 16,4V8H20A2,2 0 0,1 22,10V14A2,2 0 0,1 20,16H16V20A2,2 0 0,1 14,22H10A2,2 0 0,1 8,20V16H4A2,2 0 0,1 2,14V10A2,2 0 0,1 4,8M10,4V8H14V4H10Z",
 "author": "Haley Halcyon"
@@ -22170,7 +23322,7 @@ const icons = [
 {
 "icon": "gamepad-round",
 "google": "false",
-"search": "gamepad-round,gaming,rpg",
+"search": "gamepad-round,controller-round,gaming,rpg",
 "name": "gamepad-round",
 "path": "M4,8H8V4A2,2 0 0,1 10,2H14A2,2 0 0,1 16,4V8H20A2,2 0 0,1 22,10V14A2,2 0 0,1 20,16H16V20A2,2 0 0,1 14,22H10A2,2 0 0,1 8,20V16H4A2,2 0 0,1 2,14V10A2,2 0 0,1 4,8Z",
 "author": "Haley Halcyon"
@@ -22178,7 +23330,7 @@ const icons = [
 {
 "icon": "gamepad-square-outline",
 "google": "true",
-"search": "gamepad-square-outline,gaming,rpg",
+"search": "gamepad-square-outline,controller-square-outline,gaming,rpg",
 "name": "gamepad-square-outline",
 "path": "M21,6H3A2,2 0 0,0 1,8V16A2,2 0 0,0 3,18H21A2,2 0 0,0 23,16V8A2,2 0 0,0 21,6M21,16H3V8H21M6,15H8V13H10V11H8V9H6V11H4V13H6M14.5,12A1.5,1.5 0 0,1 16,13.5A1.5,1.5 0 0,1 14.5,15A1.5,1.5 0 0,1 13,13.5A1.5,1.5 0 0,1 14.5,12M18.5,9A1.5,1.5 0 0,1 20,10.5A1.5,1.5 0 0,1 18.5,12A1.5,1.5 0 0,1 17,10.5A1.5,1.5 0 0,1 18.5,9Z",
 "author": "Google"
@@ -22186,7 +23338,7 @@ const icons = [
 {
 "icon": "gamepad-square",
 "google": "true",
-"search": "gamepad-square,gaming,rpg",
+"search": "gamepad-square,controller-square,gaming,rpg",
 "name": "gamepad-square",
 "path": "M21,6H3A2,2 0 0,0 1,8V16A2,2 0 0,0 3,18H21A2,2 0 0,0 23,16V8A2,2 0 0,0 21,6M11,13H8V16H6V13H3V11H6V8H8V11H11M15.5,15A1.5,1.5 0 0,1 14,13.5A1.5,1.5 0 0,1 15.5,12A1.5,1.5 0 0,1 17,13.5A1.5,1.5 0 0,1 15.5,15M19.5,12A1.5,1.5 0 0,1 18,10.5A1.5,1.5 0 0,1 19.5,9A1.5,1.5 0 0,1 21,10.5A1.5,1.5 0 0,1 19.5,12Z",
 "author": "Google"
@@ -22194,7 +23346,7 @@ const icons = [
 {
 "icon": "gamepad-up",
 "google": "false",
-"search": "gamepad-up,gaming,rpg",
+"search": "gamepad-up,controller-up,gaming,rpg",
 "name": "gamepad-up",
 "path": "M9,2V7.5L12,10.5L15,7.5V2H9M11,4H13V6H11V4M2,9V15H7.5L10.5,12L7.5,9H2M16.5,9L13.5,12L16.5,15H22V9H16.5M12,13.5L9,16.5V22H15V16.5L12,13.5Z",
 "author": "GreenTurtwig"
@@ -22202,7 +23354,7 @@ const icons = [
 {
 "icon": "gamepad-variant-outline",
 "google": "false",
-"search": "gamepad-variant-outline,gaming,rpg",
+"search": "gamepad-variant-outline,controller-variant-outline,gaming,rpg",
 "name": "gamepad-variant-outline",
 "path": "M6,9H8V11H10V13H8V15H6V13H4V11H6V9M18.5,9A1.5,1.5 0 0,1 20,10.5A1.5,1.5 0 0,1 18.5,12A1.5,1.5 0 0,1 17,10.5A1.5,1.5 0 0,1 18.5,9M15.5,12A1.5,1.5 0 0,1 17,13.5A1.5,1.5 0 0,1 15.5,15A1.5,1.5 0 0,1 14,13.5A1.5,1.5 0 0,1 15.5,12M17,5A7,7 0 0,1 24,12A7,7 0 0,1 17,19C15.04,19 13.27,18.2 12,16.9C10.73,18.2 8.96,19 7,19A7,7 0 0,1 0,12A7,7 0 0,1 7,5H17M7,7A5,5 0 0,0 2,12A5,5 0 0,0 7,17C8.64,17 10.09,16.21 11,15H13C13.91,16.21 15.36,17 17,17A5,5 0 0,0 22,12A5,5 0 0,0 17,7H7Z",
 "author": "Michael Richins"
@@ -22210,7 +23362,7 @@ const icons = [
 {
 "icon": "gamepad-variant",
 "google": "false",
-"search": "gamepad-variant,gaming,rpg",
+"search": "gamepad-variant,controller-variant,gaming,rpg",
 "name": "gamepad-variant",
 "path": "M7,6H17A6,6 0 0,1 23,12A6,6 0 0,1 17,18C15.22,18 13.63,17.23 12.53,16H11.47C10.37,17.23 8.78,18 7,18A6,6 0 0,1 1,12A6,6 0 0,1 7,6M6,9V11H4V13H6V15H8V13H10V11H8V9H6M15.5,12A1.5,1.5 0 0,0 14,13.5A1.5,1.5 0 0,0 15.5,15A1.5,1.5 0 0,0 17,13.5A1.5,1.5 0 0,0 15.5,12M18.5,9A1.5,1.5 0 0,0 17,10.5A1.5,1.5 0 0,0 18.5,12A1.5,1.5 0 0,0 20,10.5A1.5,1.5 0 0,0 18.5,9Z",
 "author": "Austin Andrews"
@@ -22218,7 +23370,7 @@ const icons = [
 {
 "icon": "gamepad",
 "google": "true",
-"search": "gamepad,games,home automation,gaming,rpg",
+"search": "gamepad,games,controller,home automation,gaming,rpg",
 "name": "gamepad",
 "path": "M16.5,9L13.5,12L16.5,15H22V9M9,16.5V22H15V16.5L12,13.5M7.5,9H2V15H7.5L10.5,12M15,7.5V2H9V7.5L12,10.5L15,7.5Z",
 "author": "Google"
@@ -22256,6 +23408,14 @@ const icons = [
 "author": "Michael Richins"
 },
 {
+"icon": "garage-lock",
+"google": "false",
+"search": "garage-lock,home automation",
+"name": "garage-lock",
+"path": "M20.8 16V14.5C20.8 13.1 19.4 12 18 12S15.2 13.1 15.2 14.5V16C14.6 16 14 16.6 14 17.2V20.7C14 21.4 14.6 22 15.2 22H20.7C21.4 22 22 21.4 22 20.8V17.3C22 16.6 21.4 16 20.8 16M19.5 16H16.5V14.5C16.5 13.7 17.2 13.2 18 13.2S19.5 13.7 19.5 14.5V16M5 12H13V14H5V12M5 15H12.95C12.42 15.54 12.08 16.24 12 17H5V15M12 20H5V18H12V20M14 11H4V20H2V9L9 5L16 9V10.44C15.19 10.8 14.5 11.36 14 12.06V11Z",
+"author": "Michael Irigoyen"
+},
+{
 "icon": "garage-open-variant",
 "google": "false",
 "search": "garage-open-variant,home automation",
@@ -22270,6 +23430,14 @@ const icons = [
 "name": "garage-open",
 "path": "M19,20H17V11H7V20H5V9L12,5L19,9V20M8,12H16V14H8V12Z",
 "author": "Alex Efremo"
+},
+{
+"icon": "garage-variant-lock",
+"google": "false",
+"search": "garage-variant-lock,home automation",
+"name": "garage-variant-lock",
+"path": "M21.8 16V14.5C21.8 13.1 20.4 12 19 12S16.2 13.1 16.2 14.5V16C15.6 16 15 16.6 15 17.2V20.7C15 21.4 15.6 22 16.2 22H21.7C22.4 22 23 21.4 23 20.8V17.3C23 16.6 22.4 16 21.8 16M20.5 16H17.5V14.5C17.5 13.7 18.2 13.2 19 13.2S20.5 13.7 20.5 14.5V16M5 12H15.04C14.61 12.59 14.35 13.27 14.26 14H5V12M16.06 11H4V20H2V9L12 5L22 9V11.04C21.17 10.4 20.13 10 19 10C17.9 10 16.88 10.39 16.06 11M13 20H5V18H13V20M5 15H13.95C13.42 15.54 13.08 16.24 13 17H5V15Z",
+"author": "Michael Irigoyen"
 },
 {
 "icon": "garage-variant",
@@ -22328,6 +23496,14 @@ const icons = [
 "author": "Google"
 },
 {
+"icon": "gate-alert",
+"google": "false",
+"search": "gate-alert,home automation",
+"name": "gate-alert",
+"path": "M21 17H19V19H21V17M21 9H19V15H21V9M17 13V11H15V6H13V11H11V6H9V11H7V7H5V11H3V9H1V21H3V19H5V21H7V19H9V21H11V19H13V21H15V19H17V17H15V13H17M5 17H3V13H5V17M9 17H7V13H9V17M13 17H11V13H13V17Z",
+"author": "Michael Irigoyen"
+},
+{
 "icon": "gate-and",
 "google": "false",
 "search": "gate-and,logic-gate-and",
@@ -22336,11 +23512,19 @@ const icons = [
 "author": "Nick"
 },
 {
+"icon": "gate-arrow-left",
+"google": "false",
+"search": "gate-arrow-left,home automation",
+"name": "gate-arrow-left",
+"path": "M9 6H7V11H5V6H3V11H2V13H3V14.81C3.62 14.45 4.3 14.21 5 14.09V13H7V14.09C7.7 14.21 8.38 14.45 9 14.81V13H11V16.69C11.65 17.67 12 18.82 12 20C12 20.34 11.97 20.67 11.91 21H13V19H15V21H17V9H15V11H13V7H11V11H9V6M15 13V17H13V13H15M2 20L5 23V21H9V19H5V17L2 20Z",
+"author": "Michael Irigoyen"
+},
+{
 "icon": "gate-arrow-right",
 "google": "false",
 "search": "gate-arrow-right,home automation",
 "name": "gate-arrow-right",
-"path": "M15 5V10H13V6H11V10H9V8H7V20H9V18H11V20H12.09A6 6 0 0 1 12 19A6 6 0 0 1 13 15.69V12H15V13.81A6 6 0 0 1 17 13.09V12H19V13.09A6 6 0 0 1 21 13.81V12H22V10H21V5H19V10H17V5H15M9 12H11V16H9V12M19 16V18H15V20H19V22L22 19L19 16Z",
+"path": "M15 6V11H13V7H11V11H9V9H7V21H9V19H11V21H12.09C12.03 20.67 12 20.34 12 20C12 18.82 12.35 17.67 13 16.69V13H15V14.81C15.62 14.45 16.3 14.21 17 14.09V13H19V14.09C19.7 14.21 20.38 14.45 21 14.81V13H22V11H21V6H19V11H17V6H15M9 13H11V17H9V13M19 17V19H15V21H19V23L22 20L19 17Z",
 "author": "Simran"
 },
 {
@@ -22372,7 +23556,7 @@ const icons = [
 "google": "false",
 "search": "gate-open,home automation",
 "name": "gate-open",
-"path": "M7 20V6H5V10H3V8H1V20H3V18H5V20H7M3 16V12H5V16H3M21 8V10H19V6H17V20H19V18H21V20H23V8H21M21 16H19V12H21V16Z",
+"path": "M7 21V7H5V11H3V9H1V21H3V19H5V21H7M3 17V13H5V17H3M21 9V11H19V7H17V21H19V19H21V21H23V9H21M21 17H19V13H21V17Z",
 "author": "Simran"
 },
 {
@@ -22404,7 +23588,7 @@ const icons = [
 "google": "false",
 "search": "gate,home automation",
 "name": "gate",
-"path": "M9,5V10H7V6H5V10H3V8H1V20H3V18H5V20H7V18H9V20H11V18H13V20H15V18H17V20H19V18H21V20H23V8H21V10H19V6H17V10H15V5H13V10H11V5H9M3,12H5V16H3V12M7,12H9V16H7V12M11,12H13V16H11V12M15,12H17V16H15V12M19,12H21V16H19V12Z",
+"path": "M9 6V11H7V7H5V11H3V9H1V21H3V19H5V21H7V19H9V21H11V19H13V21H15V19H17V21H19V19H21V21H23V9H21V11H19V7H17V11H15V6H13V11H11V6H9M3 13H5V17H3V13M7 13H9V17H7V13M11 13H13V17H11V13M15 13H17V17H15V13M19 13H21V17H19V13Z",
 "author": "Simran"
 },
 {
@@ -22678,14 +23862,6 @@ const icons = [
 "name": "ghost",
 "path": "M12,2A9,9 0 0,0 3,11V22L6,19L9,22L12,19L15,22L18,19L21,22V11A9,9 0 0,0 12,2M9,8A2,2 0 0,1 11,10A2,2 0 0,1 9,12A2,2 0 0,1 7,10A2,2 0 0,1 9,8M15,8A2,2 0 0,1 17,10A2,2 0 0,1 15,12A2,2 0 0,1 13,10A2,2 0 0,1 15,8Z",
 "author": "Simran"
-},
-{
-"icon": "gif",
-"google": "true",
-"search": "gif",
-"name": "gif",
-"path": "M11,8H13V16H11V8M7.67,8H4.33C3.53,8 3,8.67 3,9.33V14.67C3,15.33 3.53,16 4.33,16H7.67C8.47,16 9,15.33 9,14.67V12H7V14H5V10H9V9.33C9,8.67 8.47,8 7.67,8M21,10V8H15V16H17V14H19.5V12H17V10H21Z",
-"author": "Google"
 },
 {
 "icon": "gift-off-outline",
@@ -23050,7 +24226,7 @@ const icons = [
 {
 "icon": "google-controller-off",
 "google": "true",
-"search": "google-controller-off,gaming,rpg",
+"search": "google-controller-off,google-gamepad-off,gaming,rpg",
 "name": "google-controller-off",
 "path": "M2,5.27L3.28,4L20,20.72L18.73,22L12.73,16H7.97L5,19C4.67,19.3 4.23,19.5 3.75,19.5A1.75,1.75 0 0,1 2,17.75V17.5L3,10.12C3.1,9.09 3.53,8.17 4.19,7.46L2,5.27M5,10V11H7V13H8V11.27L6.73,10H5M16.5,6C18.86,6 20.79,7.81 21,10.12L22,17.5V17.75C22,18.41 21.64,19 21.1,19.28L7.82,6H16.5M16.5,8A0.75,0.75 0 0,0 15.75,8.75A0.75,0.75 0 0,0 16.5,9.5A0.75,0.75 0 0,0 17.25,8.75A0.75,0.75 0 0,0 16.5,8M14.75,9.75A0.75,0.75 0 0,0 14,10.5A0.75,0.75 0 0,0 14.75,11.25A0.75,0.75 0 0,0 15.5,10.5A0.75,0.75 0 0,0 14.75,9.75M18.25,9.75A0.75,0.75 0 0,0 17.5,10.5A0.75,0.75 0 0,0 18.25,11.25A0.75,0.75 0 0,0 19,10.5A0.75,0.75 0 0,0 18.25,9.75M16.5,11.5A0.75,0.75 0 0,0 15.75,12.25A0.75,0.75 0 0,0 16.5,13A0.75,0.75 0 0,0 17.25,12.25A0.75,0.75 0 0,0 16.5,11.5Z",
 "author": "Google"
@@ -23058,7 +24234,7 @@ const icons = [
 {
 "icon": "google-controller",
 "google": "true",
-"search": "google-controller,gaming,rpg",
+"search": "google-controller,google-gamepad,gaming,rpg",
 "name": "google-controller",
 "path": "M7.97,16L5,19C4.67,19.3 4.23,19.5 3.75,19.5A1.75,1.75 0 0,1 2,17.75V17.5L3,10.12C3.21,7.81 5.14,6 7.5,6H16.5C18.86,6 20.79,7.81 21,10.12L22,17.5V17.75A1.75,1.75 0 0,1 20.25,19.5C19.77,19.5 19.33,19.3 19,19L16.03,16H7.97M7,8V10H5V11H7V13H8V11H10V10H8V8H7M16.5,8A0.75,0.75 0 0,0 15.75,8.75A0.75,0.75 0 0,0 16.5,9.5A0.75,0.75 0 0,0 17.25,8.75A0.75,0.75 0 0,0 16.5,8M14.75,9.75A0.75,0.75 0 0,0 14,10.5A0.75,0.75 0 0,0 14.75,11.25A0.75,0.75 0 0,0 15.5,10.5A0.75,0.75 0 0,0 14.75,9.75M18.25,9.75A0.75,0.75 0 0,0 17.5,10.5A0.75,0.75 0 0,0 18.25,11.25A0.75,0.75 0 0,0 19,10.5A0.75,0.75 0 0,0 18.25,9.75M16.5,11.5A0.75,0.75 0 0,0 15.75,12.25A0.75,0.75 0 0,0 16.5,13A0.75,0.75 0 0,0 17.25,12.25A0.75,0.75 0 0,0 16.5,11.5Z",
 "author": "Google"
@@ -23082,7 +24258,7 @@ const icons = [
 {
 "icon": "google-earth",
 "google": "true",
-"search": "google-earth,brand,logo",
+"search": "google-earth,marble,brand,logo",
 "name": "google-earth",
 "path": "M12,12.14C11.09,10.77 10.14,9.78 9.14,9.19C8.14,8.59 7.27,8.38 6.5,8.55C5.77,8.73 5.14,9.14 4.64,9.8C4.2,10.39 4,11.06 4,11.81V12C4,12.78 4.11,13.58 4.36,14.39C4.45,14.64 4.5,14.64 4.55,14.39C4.67,13.77 4.96,13.31 5.41,13.03C5.87,12.75 6.47,12.76 7.22,13.05C7.97,13.35 8.7,14 9.42,14.95C10.7,16.67 12.2,17.72 13.92,18.09C16.14,18.41 17.81,17.7 18.94,16C19.25,15.39 19.5,14.86 19.64,14.39C19.73,14.08 19.69,14.05 19.5,14.3C19.03,14.92 18.4,15.33 17.6,15.5C16.8,15.7 15.89,15.5 14.86,15C13.83,14.43 12.88,13.5 12,12.14M16.97,8.16C15.41,5.81 13.72,4.5 11.91,4.17C10.47,3.95 8.91,4.45 7.22,5.67C7,5.83 6.9,5.91 6.91,5.93C6.93,5.95 7.06,5.89 7.31,5.77C9.81,4.55 12.22,5.83 14.53,9.61C15.03,10.45 15.55,11.11 16.1,11.58C16.65,12.05 17.16,12.33 17.65,12.42C18.13,12.5 18.57,12.5 18.96,12.38C19.35,12.25 19.7,12.05 20,11.77C20,11.17 19.91,10.5 19.69,9.8C19.19,9.92 18.74,9.88 18.35,9.68C17.96,9.5 17.5,8.97 16.97,8.16M12,2C14.75,2 17.1,3 19.05,4.95C21,6.9 22,9.25 22,12C22,14.75 21,17.1 19.05,19.05C17.1,21 14.75,22 12,22C9.25,22 6.9,21 4.95,19.05C3,17.1 2,14.75 2,12C2,9.25 3,6.9 4.95,4.95C6.9,3 9.25,2 12,2Z",
 "author": "Google"
@@ -23160,14 +24336,6 @@ const icons = [
 "author": "Google"
 },
 {
-"icon": "google-photos",
-"google": "true",
-"search": "google-photos",
-"name": "google-photos",
-"path": "M10,13C10.55,13 11,13.18 11.41,13.57C11.8,13.96 12,14.44 12,15V22C12,22.17 11.91,22.27 11.72,22.27C11.66,22.27 11.58,22.22 11.5,22.13L7,17.67V13H10M12.5,1.88L17,6.33V11H14C13.45,11 13,10.82 12.59,10.43C12.2,10.04 12,9.56 12,9V2C12,1.83 12.09,1.73 12.28,1.73C12.34,1.73 12.42,1.78 12.5,1.88M22,12C22.17,12 22.27,12.09 22.27,12.28C22.27,12.34 22.22,12.42 22.13,12.5L17.67,17H13V14C13,13.45 13.18,13 13.57,12.59C13.96,12.2 14.44,12 15,12H22M6.33,7H11V10C11,10.55 10.82,11 10.43,11.41C10.04,11.8 9.56,12 9,12H2C1.83,12 1.73,11.91 1.73,11.72C1.73,11.66 1.78,11.58 1.88,11.5L6.33,7Z",
-"author": "Google"
-},
-{
 "icon": "google-play",
 "google": "true",
 "search": "google-play,brand,logo",
@@ -23224,10 +24392,18 @@ const icons = [
 "author": "Google"
 },
 {
-"icon": "gradient",
+"icon": "gradient-horizontal",
+"google": "false",
+"search": "gradient-horizontal,drawing,art",
+"name": "gradient-horizontal",
+"path": "M9 13V11H11V13M11 15V13H13V15M11 11V9H13V11M9 9V7H11V9M9 17V15H11V17M3 5V19C3 20.1 3.9 21 5 21H19C20.1 21 21 20.1 21 19V5C21 3.9 20.1 3 19 3H5C3.9 3 3 3.9 3 5M18 15V17H16V15M18 11V13H16V11M18 7V9H16V7M11 5V7H13V5H15V7H13V9H15V11H13V13H15V15H13V17H15V19H13V17H11V19H5V5Z",
+"author": "Jeff Anders"
+},
+{
+"icon": "gradient-vertical",
 "google": "true",
-"search": "gradient",
-"name": "gradient",
+"search": "gradient-vertical,drawing,art",
+"name": "gradient-vertical",
 "path": "M11,9H13V11H11V9M9,11H11V13H9V11M13,11H15V13H13V11M15,9H17V11H15V9M7,9H9V11H7V9M19,3H5A2,2 0 0,0 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V5A2,2 0 0,0 19,3M9,18H7V16H9V18M13,18H11V16H13V18M17,18H15V16H17V18M19,11H17V13H19V15H17V13H15V15H13V13H11V15H9V13H7V15H5V13H7V11H5V5H19V11Z",
 "author": "Google"
 },
@@ -23302,6 +24478,14 @@ const icons = [
 "name": "greater-than",
 "path": "M5.5,4.14L4.5,5.86L15,12L4.5,18.14L5.5,19.86L19,12L5.5,4.14Z",
 "author": "Nick"
+},
+{
+"icon": "greenhouse",
+"google": "false",
+"search": "greenhouse,glasshouse,hothouse,home automation,agriculture,nature",
+"name": "greenhouse",
+"path": "M12 3L4 9V21H20V9L12 3M10 10H14V19H10V10M16 10H18V13H16V10M15.33 8H8.67L12 5.5L15.33 8M8 10V13H6V10H8M6 15H8V19H6V15M16 19V15H18V19H16Z",
+"author": "Jeff Anders"
 },
 {
 "icon": "grid-large",
@@ -23418,17 +24602,57 @@ const icons = [
 {
 "icon": "halloween",
 "google": "false",
-"search": "halloween,pumpkin-face,pumpkin-carved,jack-o-lantern,holiday",
+"search": "halloween,pumpkin-face,pumpkin-carved,jack-o-lantern,emoji-halloween,emoticon-halloween,holiday",
 "name": "halloween",
 "path": "M6.5,6C7.47,6 8.37,6.5 9.11,7.38C9.66,6.79 10.31,6.36 11,6.15V4A2,2 0 0,1 13,2H15V4H13V6.15C13.69,6.36 14.34,6.79 14.89,7.38C15.63,6.5 16.53,6 17.5,6C20,6 22,9.36 22,13.5C22,17.64 20,21 17.5,21C16.53,21 15.63,20.5 14.89,19.62C14.08,20.5 13.08,21 12,21C10.92,21 9.92,20.5 9.11,19.62C8.37,20.5 7.47,21 6.5,21C4,21 2,17.64 2,13.5C2,9.36 4,6 6.5,6M9,10L7.75,12.25H10.25L9,10M15,10L13.75,12.25H16.25L15,10M8,17H10L11,16L12,17H14L15,16L16,17L17.5,14L13.92,14.62L13,16L12,15H10L9,16L8,15L6,14L8,17Z",
 "author": "Austin Andrews"
+},
+{
+"icon": "hamburger-check",
+"google": "false",
+"search": "hamburger-check,burger-check,food,drink",
+"name": "hamburger-check",
+"path": "M21 9H3C3 9 3 3 12 3S21 9 21 9M13.35 17H3V18C3 19.66 4.34 21 6 21H13.35C13.13 20.37 13 19.7 13 19C13 18.3 13.13 17.63 13.35 17M21.86 13.73C21.95 13.5 22 13.26 22 13C22 11.9 21.11 11 20 11H11L8.5 13L6 11H4C2.9 11 2 11.9 2 13S2.9 15 4 15H14.54C15.64 13.78 17.23 13 19 13C20.04 13 21 13.26 21.86 13.73M21.34 15.84L17.75 19.43L16.16 17.84L15 19L17.75 22L22.5 17.25L21.34 15.84Z",
+"author": "Colton Wiscombe"
+},
+{
+"icon": "hamburger-minus",
+"google": "false",
+"search": "hamburger-minus,burger-minus,food,drink",
+"name": "hamburger-minus",
+"path": "M21 9H3C3 9 3 3 12 3S21 9 21 9M13.35 17H3V18C3 19.66 4.34 21 6 21H13.35C13.13 20.37 13 19.7 13 19C13 18.3 13.13 17.63 13.35 17M21.86 13.73C21.95 13.5 22 13.26 22 13C22 11.9 21.11 11 20 11H11L8.5 13L6 11H4C2.9 11 2 11.9 2 13S2.9 15 4 15H14.54C15.64 13.78 17.23 13 19 13C20.04 13 21 13.26 21.86 13.73M15 18V20H23V18H15Z",
+"author": "Colton Wiscombe"
+},
+{
+"icon": "hamburger-off",
+"google": "false",
+"search": "hamburger-off,burger-off,fast-food-off,food-off,food,drink",
+"name": "hamburger-off",
+"path": "M20 11C21.11 11 22 11.9 22 13S21.11 15 20 15H18.2L14.2 11H20M20.42 19.77L20.42 19.76L17.66 17H17.65L15.65 15H15.66L11.66 11H11.66L9.66 9H9.66L2.39 1.73L1.11 3L4.12 6C3 7.5 3 9 3 9H7.11L9.11 11H4C2.9 11 2 11.9 2 13S2.9 15 4 15H13.11L15.11 17H3V18C3 19.66 4.34 21 6 21H18C18.33 21 18.65 20.93 18.94 20.83L20.84 22.73L22.11 21.46L20.42 19.77M21 9C21 9 21 3 12 3C9.88 3 8.28 3.34 7.05 3.85L12.2 9H21Z",
+"author": "Colton Wiscombe"
+},
+{
+"icon": "hamburger-plus",
+"google": "false",
+"search": "hamburger-plus,burger-plus,burger-add,food,drink",
+"name": "hamburger-plus",
+"path": "M21 9H3C3 9 3 3 12 3S21 9 21 9M13.35 17H3V18C3 19.66 4.34 21 6 21H13.35C13.13 20.37 13 19.7 13 19C13 18.3 13.13 17.63 13.35 17M21.86 13.73C21.95 13.5 22 13.26 22 13C22 11.9 21.11 11 20 11H11L8.5 13L6 11H4C2.9 11 2 11.9 2 13S2.9 15 4 15H14.54C15.64 13.78 17.23 13 19 13C20.04 13 21 13.26 21.86 13.73M20 18V15H18V18H15V20H18V23H20V20H23V18H20Z",
+"author": "Colton Wiscombe"
+},
+{
+"icon": "hamburger-remove",
+"google": "false",
+"search": "hamburger-remove,burger-remove,food,drink",
+"name": "hamburger-remove",
+"path": "M21 9H3C3 9 3 3 12 3S21 9 21 9M13.35 17H3V18C3 19.66 4.34 21 6 21H13.35C13.13 20.37 13 19.7 13 19C13 18.3 13.13 17.63 13.35 17M21.86 13.73C21.95 13.5 22 13.26 22 13C22 11.9 21.11 11 20 11H11L8.5 13L6 11H4C2.9 11 2 11.9 2 13S2.9 15 4 15H14.54C15.64 13.78 17.23 13 19 13C20.04 13 21 13.26 21.86 13.73M22.54 16.88L21.12 15.47L19 17.59L16.88 15.47L15.47 16.88L17.59 19L15.47 21.12L16.88 22.54L19 20.41L21.12 22.54L22.54 21.12L20.41 19L22.54 16.88Z",
+"author": "Colton Wiscombe"
 },
 {
 "icon": "hamburger",
 "google": "false",
 "search": "hamburger,burger,fast-food,food,food,drink",
 "name": "hamburger",
-"path": "M2,16H22V18C22,19.11 21.11,20 20,20H4C2.89,20 2,19.11 2,18V16M6,4H18C20.22,4 22,5.78 22,8V10H2V8C2,5.78 3.78,4 6,4M4,11H15L17,13L19,11H20C21.11,11 22,11.89 22,13C22,14.11 21.11,15 20,15H4C2.89,15 2,14.11 2,13C2,11.89 2.89,11 4,11Z",
+"path": "M22 13C22 14.11 21.11 15 20 15H4C2.9 15 2 14.11 2 13S2.9 11 4 11H13L15.5 13L18 11H20C21.11 11 22 11.9 22 13M12 3C3 3 3 9 3 9H21C21 9 21 3 12 3M3 18C3 19.66 4.34 21 6 21H18C19.66 21 21 19.66 21 18V17H3V18Z",
 "author": "Haley Halcyon"
 },
 {
@@ -23456,6 +24680,102 @@ const icons = [
 "author": "Google"
 },
 {
+"icon": "hand-back-left-off-outline",
+"google": "false",
+"search": "hand-back-left-off-outline",
+"name": "hand-back-left-off-outline",
+"path": "M22.11 21.46L2.39 1.73L1.11 3L3.56 5.45C3.21 5.87 3 6.41 3 7V16C3 20.42 6.58 24 11 24C13.94 24 16.62 22.45 18.12 20L20.84 22.73L22.11 21.46M11 22C7.69 22 5 19.31 5 16V7C5 6.97 5 6.94 5 6.91L6 7.89V12H8V9.89L9 10.89V12H10.11L16.65 18.54C15.57 20.64 13.41 22 11 22M8 4.8L6.21 3C6.59 2.12 7.47 1.5 8.5 1.5C8.73 1.5 8.96 1.53 9.17 1.59C9.54 .66 10.44 0 11.5 0C12.73 0 13.75 .89 13.96 2.06C14.13 2 14.31 2 14.5 2C15.88 2 17 3.12 17 4.5V10.39C17.34 10.08 17.76 9.85 18.22 9.73L19 9.5C19.82 9.29 20.69 9.61 21.18 10.35C21.56 10.92 21.58 11.66 21.33 12.3L19.67 16.47L18.13 14.93L19.5 11.45L19 11.59C18.5 11.71 18.15 12.05 18 12.5L17.34 14.14L15 11.8V4.5C15 4.22 14.78 4 14.5 4S14 4.22 14 4.5V10.8L12 8.8V2.5C12 2.22 11.78 2 11.5 2S11 2.22 11 2.5V7.8L9 5.8V4C9 3.72 8.78 3.5 8.5 3.5S8 3.72 8 4V4.8Z",
+"author": "Michael Irigoyen"
+},
+{
+"icon": "hand-back-left-off",
+"google": "false",
+"search": "hand-back-left-off",
+"name": "hand-back-left-off",
+"path": "M22.11 21.46L2.39 1.73L1.11 3L3.21 5.1C3.09 5.29 3 5.5 3 5.75V16C3 20.42 6.58 24 11 24C13.93 24 16.58 22.39 17.97 19.86L20.84 22.73L22.11 21.46M5.5 12V7.39L6.5 8.39V12H5.5M10 12H9V10.89L10 11.89V12M16 12.8L13.5 10.3V3.25C13.5 2.56 14.06 2 14.75 2S16 2.56 16 3.25V12.8M19.5 16.28L17.16 13.96L18.16 11.47C18.38 10.92 18.84 10.5 19.4 10.31L20.19 10.05C21 9.79 21.74 10.58 21.43 11.37L19.5 16.28M9 5.8L6.5 3.3V2.75C6.5 2.06 7.06 1.5 7.75 1.5S9 2.06 9 2.75V5.8M12.5 9.3L10 6.8V1.25C10 .56 10.56 0 11.25 0S12.5 .56 12.5 1.25V9.3Z",
+"author": "Michael Irigoyen"
+},
+{
+"icon": "hand-back-left-outline",
+"google": "true",
+"search": "hand-back-left-outline",
+"name": "hand-back-left-outline",
+"path": "M3 16C3 20.42 6.58 24 11 24C14.43 24 17.5 21.91 18.77 18.73L21.33 12.3C21.58 11.66 21.56 10.92 21.18 10.35C20.69 9.61 19.82 9.29 19 9.5L18.22 9.73C17.76 9.85 17.34 10.08 17 10.39V4.5C17 3.12 15.88 2 14.5 2C14.31 2 14.13 2 13.96 2.06C13.75 .89 12.73 0 11.5 0C10.44 0 9.54 .66 9.17 1.59C8.96 1.53 8.73 1.5 8.5 1.5C7.12 1.5 6 2.62 6 4V4.55C5.84 4.5 5.67 4.5 5.5 4.5C4.12 4.5 3 5.62 3 7V16M5 7C5 6.72 5.22 6.5 5.5 6.5S6 6.72 6 7V12H8V4C8 3.72 8.22 3.5 8.5 3.5S9 3.72 9 4V12H11V2.5C11 2.22 11.22 2 11.5 2S12 2.22 12 2.5V12H14V4.5C14 4.22 14.22 4 14.5 4S15 4.22 15 4.5V15H17L18 12.5C18.15 12.05 18.5 11.71 19 11.59L19.5 11.45L16.91 18C15.95 20.41 13.61 22 11 22C7.69 22 5 19.31 5 16V7Z",
+"author": "Google"
+},
+{
+"icon": "hand-back-left",
+"google": "true",
+"search": "hand-back-left",
+"name": "hand-back-left",
+"path": "M3 16V5.75C3 5.06 3.56 4.5 4.25 4.5S5.5 5.06 5.5 5.75V12H6.5V2.75C6.5 2.06 7.06 1.5 7.75 1.5C8.44 1.5 9 2.06 9 2.75V12H10V1.25C10 .56 10.56 0 11.25 0S12.5 .56 12.5 1.25V12H13.5V3.25C13.5 2.56 14.06 2 14.75 2S16 2.56 16 3.25V15H16.75L18.16 11.47C18.38 10.92 18.84 10.5 19.4 10.31L20.19 10.05C21 9.79 21.74 10.58 21.43 11.37L18.4 19C17.19 22 14.26 24 11 24C6.58 24 3 20.42 3 16Z",
+"author": "Google"
+},
+{
+"icon": "hand-back-right-off-outline",
+"google": "false",
+"search": "hand-back-right-off-outline",
+"name": "hand-back-right-off-outline",
+"path": "M22.11 21.46L2.39 1.73L1.11 3L7 8.89V10.39C6.66 10.08 6.24 9.85 5.78 9.73L5 9.5C4.18 9.29 3.31 9.61 2.82 10.35C2.44 10.92 2.42 11.66 2.67 12.3L5.23 18.73C6.5 21.91 9.57 24 13 24C15.5 24 17.7 22.85 19.17 21.06L20.84 22.73L22.11 21.46M13 22C10.39 22 8.05 20.41 7.09 18L4.5 11.45L5 11.59C5.5 11.71 5.85 12.05 6 12.5L7 15H9V10.89L17.75 19.64C16.66 21.07 14.94 22 13 22M9 5.8L7.09 3.89C7.36 2.8 8.33 2 9.5 2C9.69 2 9.87 2 10.04 2.06C10.25 .89 11.27 0 12.5 0C13.56 0 14.46 .66 14.83 1.59C15.04 1.53 15.27 1.5 15.5 1.5C16.88 1.5 18 2.62 18 4V4.55C18.16 4.5 18.33 4.5 18.5 4.5C19.88 4.5 21 5.62 21 7V16C21 16.56 20.94 17.11 20.83 17.63L19 15.8V7C19 6.72 18.78 6.5 18.5 6.5S18 6.72 18 7V12H16V4C16 3.72 15.78 3.5 15.5 3.5S15 3.72 15 4V11.8L13 9.8V2.5C13 2.22 12.78 2 12.5 2S12 2.22 12 2.5V8.8L10 6.8V4.5C10 4.22 9.78 4 9.5 4S9 4.22 9 4.5V5.8Z",
+"author": "Michael Irigoyen"
+},
+{
+"icon": "hand-back-right-off",
+"google": "false",
+"search": "hand-back-right-off",
+"name": "hand-back-right-off",
+"path": "M20.84 22.73L19.17 21.06C17.7 22.85 15.5 24 13 24C9.74 24 6.81 22 5.6 19L2.57 11.37C2.26 10.58 3 9.79 3.81 10.05L4.6 10.31C5.16 10.5 5.62 10.92 5.84 11.47L7.25 15H8V9.89L1.11 3L2.39 1.73L22.11 21.46L20.84 22.73M14 1.25C14 .56 13.44 0 12.75 0S11.5 .56 11.5 1.25V8.3L14 10.8V1.25M21 16V5.75C21 5.06 20.44 4.5 19.75 4.5S18.5 5.06 18.5 5.75V12H17.5V2.75C17.5 2.06 16.94 1.5 16.25 1.5S15 2.06 15 2.75V11.8L20.83 17.63C20.94 17.11 21 16.56 21 16M10.5 3.25C10.5 2.56 9.94 2 9.25 2S8 2.56 8 3.25V4.8L10.5 7.3V3.25Z",
+"author": "Michael Irigoyen"
+},
+{
+"icon": "hand-back-right-outline",
+"google": "true",
+"search": "hand-back-right-outline",
+"name": "hand-back-right-outline",
+"path": "M21 7C21 5.62 19.88 4.5 18.5 4.5C18.33 4.5 18.16 4.5 18 4.55V4C18 2.62 16.88 1.5 15.5 1.5C15.27 1.5 15.04 1.53 14.83 1.59C14.46 .66 13.56 0 12.5 0C11.27 0 10.25 .89 10.04 2.06C9.87 2 9.69 2 9.5 2C8.12 2 7 3.12 7 4.5V10.39C6.66 10.08 6.24 9.85 5.78 9.73L5 9.5C4.18 9.29 3.31 9.61 2.82 10.35C2.44 10.92 2.42 11.66 2.67 12.3L5.23 18.73C6.5 21.91 9.57 24 13 24C17.42 24 21 20.42 21 16V7M19 16C19 19.31 16.31 22 13 22C10.39 22 8.05 20.41 7.09 18L4.5 11.45L5 11.59C5.5 11.71 5.85 12.05 6 12.5L7 15H9V4.5C9 4.22 9.22 4 9.5 4S10 4.22 10 4.5V12H12V2.5C12 2.22 12.22 2 12.5 2S13 2.22 13 2.5V12H15V4C15 3.72 15.22 3.5 15.5 3.5S16 3.72 16 4V12H18V7C18 6.72 18.22 6.5 18.5 6.5S19 6.72 19 7V16Z",
+"author": "Google"
+},
+{
+"icon": "hand-back-right",
+"google": "true",
+"search": "hand-back-right",
+"name": "hand-back-right",
+"path": "M13 24C9.74 24 6.81 22 5.6 19L2.57 11.37C2.26 10.58 3 9.79 3.81 10.05L4.6 10.31C5.16 10.5 5.62 10.92 5.84 11.47L7.25 15H8V3.25C8 2.56 8.56 2 9.25 2S10.5 2.56 10.5 3.25V12H11.5V1.25C11.5 .56 12.06 0 12.75 0S14 .56 14 1.25V12H15V2.75C15 2.06 15.56 1.5 16.25 1.5C16.94 1.5 17.5 2.06 17.5 2.75V12H18.5V5.75C18.5 5.06 19.06 4.5 19.75 4.5S21 5.06 21 5.75V16C21 20.42 17.42 24 13 24Z",
+"author": "Google"
+},
+{
+"icon": "hand-front-left-outline",
+"google": "true",
+"search": "hand-front-left-outline",
+"name": "hand-front-left-outline",
+"path": "M3 10.5V15.5C3 20.19 6.81 24 11.5 24S20 20.19 20 15.5V7C20 5.62 18.88 4.5 17.5 4.5C17.33 4.5 17.16 4.5 17 4.55V4C17 2.62 15.88 1.5 14.5 1.5C14.27 1.5 14.04 1.53 13.83 1.59C13.46 .66 12.56 0 11.5 0C10.27 0 9.25 .89 9.04 2.06C8.87 2 8.69 2 8.5 2C7.12 2 6 3.12 6 4.5V8.05C5.84 8 5.67 8 5.5 8C4.12 8 3 9.12 3 10.5M5 10.5C5 10.22 5.22 10 5.5 10S6 10.22 6 10.5V15C7.66 15 9 16.34 9 18H11C11 15.95 9.77 14.19 8 13.42V4.5C8 4.22 8.22 4 8.5 4S9 4.22 9 4.5V11H11V2.5C11 2.22 11.22 2 11.5 2S12 2.22 12 2.5V11H14V4C14 3.72 14.22 3.5 14.5 3.5S15 3.72 15 4V12H17V7C17 6.72 17.22 6.5 17.5 6.5S18 6.72 18 7V15.5C18 19.09 15.09 22 11.5 22S5 19.09 5 15.5V10.5Z",
+"author": "Google"
+},
+{
+"icon": "hand-front-left",
+"google": "true",
+"search": "hand-front-left",
+"name": "hand-front-left",
+"path": "M3 9.25V15.75C3 20.31 6.69 24 11.25 24S19.5 20.31 19.5 15.75V5.75C19.5 5.06 18.94 4.5 18.25 4.5S17 5.06 17 5.75V12H16V2.75C16 2.06 15.44 1.5 14.75 1.5S13.5 2.06 13.5 2.75V11H12.5V1.25C12.5 .56 11.94 0 11.25 0S10 .56 10 1.25V11H9V3.25C9 2.56 8.44 2 7.75 2C7.06 2 6.5 2.56 6.5 3.25V14.03C8.47 14.28 10 15.96 10 18H9C9 16.35 7.65 15 6 15H5.5V9.25C5.5 8.56 4.94 8 4.25 8S3 8.56 3 9.25Z",
+"author": "Google"
+},
+{
+"icon": "hand-front-right-outline",
+"google": "true",
+"search": "hand-front-right-outline",
+"name": "hand-front-right-outline",
+"path": "M18.5 8C18.33 8 18.16 8 18 8.05V4.5C18 3.12 16.88 2 15.5 2C15.31 2 15.13 2 14.96 2.06C14.75 .89 13.73 0 12.5 0C11.44 0 10.54 .66 10.17 1.59C9.96 1.53 9.73 1.5 9.5 1.5C8.12 1.5 7 2.62 7 4V4.55C6.84 4.5 6.67 4.5 6.5 4.5C5.12 4.5 4 5.62 4 7V15.5C4 20.19 7.81 24 12.5 24S21 20.19 21 15.5V10.5C21 9.12 19.88 8 18.5 8M19 15.5C19 19.09 16.09 22 12.5 22S6 19.09 6 15.5V7C6 6.72 6.22 6.5 6.5 6.5S7 6.72 7 7V12H9V4C9 3.72 9.22 3.5 9.5 3.5S10 3.72 10 4V11H12V2.5C12 2.22 12.22 2 12.5 2S13 2.22 13 2.5V11H15V4.5C15 4.22 15.22 4 15.5 4S16 4.22 16 4.5V13.42C14.23 14.19 13 15.95 13 18H15C15 16.34 16.34 15 18 15V10.5C18 10.22 18.22 10 18.5 10S19 10.22 19 10.5V15.5Z",
+"author": "Google"
+},
+{
+"icon": "hand-front-right",
+"google": "true",
+"search": "hand-front-right",
+"name": "hand-front-right",
+"path": "M19.75 8C19.06 8 18.5 8.56 18.5 9.25V15H18C16.35 15 15 16.35 15 18H14C14 15.96 15.53 14.28 17.5 14.03V3.25C17.5 2.56 16.94 2 16.25 2C15.56 2 15 2.56 15 3.25V11H14V1.25C14 .56 13.44 0 12.75 0S11.5 .56 11.5 1.25V11H10.5V2.75C10.5 2.06 9.94 1.5 9.25 1.5S8 2.06 8 2.75V12H7V5.75C7 5.06 6.44 4.5 5.75 4.5S4.5 5.06 4.5 5.75V15.75C4.5 20.31 8.19 24 12.75 24S21 20.31 21 15.75V9.25C21 8.56 20.44 8 19.75 8Z",
+"author": "Google"
+},
+{
 "icon": "hand-heart-outline",
 "google": "false",
 "search": "hand-heart-outline",
@@ -23470,14 +24790,6 @@ const icons = [
 "name": "hand-heart",
 "path": "M20 17Q20.86 17 21.45 17.6T22.03 19L14 22L7 20V11H8.95L16.22 13.69Q17 14 17 14.81 17 15.28 16.66 15.63T15.8 16H13L11.25 15.33L10.92 16.27L13 17H20M16 3.23Q17.06 2 18.7 2 20.06 2 21 3T22 5.3Q22 6.33 21 7.76T19.03 10.15 16 13Q13.92 11.11 12.94 10.15T10.97 7.76 10 5.3Q10 3.94 10.97 3T13.31 2Q14.91 2 16 3.23M.984 11H5V22H.984V11Z",
 "author": "Google"
-},
-{
-"icon": "hand-left",
-"google": "false",
-"search": "hand-left",
-"name": "hand-left",
-"path": "M3,6.58V18.67C3,20.5 4.5,22 6.33,22H12.42C13.32,22 14.17,21.64 14.79,21L21.33,14.36C21.33,14.36 20.28,13.33 20.25,13.32C20.07,13.16 19.84,13.07 19.59,13.07C19.41,13.07 19.24,13.12 19.09,13.21C19.06,13.22 15.5,15.26 15.5,15.26V5.33A1.25,1.25 0 0,0 14.25,4.08A1.25,1.25 0 0,0 13,5.33V11.17H12.17V3.25A1.25,1.25 0 0,0 10.92,2A1.25,1.25 0 0,0 9.67,3.25V11.17H8.83V4.08A1.25,1.25 0 0,0 7.58,2.83A1.25,1.25 0 0,0 6.33,4.08V11.17H5.5V6.58A1.25,1.25 0 0,0 4.25,5.33A1.25,1.25 0 0,0 3,6.58Z",
-"author": "Michael Irigoyen"
 },
 {
 "icon": "hand-okay",
@@ -23536,14 +24848,6 @@ const icons = [
 "author": "Michael Irigoyen"
 },
 {
-"icon": "hand-right",
-"google": "true",
-"search": "hand-right",
-"name": "hand-right",
-"path": "M21,6.58V18.67A3.33,3.33 0 0,1 17.67,22H11.58C10.68,22 9.83,21.64 9.21,21L2.67,14.36C2.67,14.36 3.72,13.33 3.75,13.32C3.93,13.16 4.16,13.07 4.41,13.07C4.59,13.07 4.76,13.12 4.91,13.21C4.94,13.22 8.5,15.26 8.5,15.26V5.33A1.25,1.25 0 0,1 9.75,4.08A1.25,1.25 0 0,1 11,5.33V11.17H11.83V3.25A1.25,1.25 0 0,1 13.08,2C13.78,2 14.33,2.56 14.33,3.25V11.17H15.17V4.08C15.17,3.39 15.72,2.83 16.42,2.83A1.25,1.25 0 0,1 17.67,4.08V11.17H18.5V6.58A1.25,1.25 0 0,1 19.75,5.33A1.25,1.25 0 0,1 21,6.58Z",
-"author": "Google"
-},
-{
 "icon": "hand-saw",
 "google": "false",
 "search": "hand-saw,hardware,tools",
@@ -23576,12 +24880,20 @@ const icons = [
 "author": "Moma Design Studio"
 },
 {
-"icon": "hand",
-"google": "false",
-"search": "hand",
-"name": "hand",
-"path": "M6.58,19H14.58V22H6.58V19M19.74,11.6C19.55,11.4 19.29,11.28 19,11.28L18.78,11.31L15.58,13V11.83L16.09,2.9C16.12,2.35 15.7,1.87 15.15,1.84C14.6,1.81 14.12,2.23 14.09,2.78L13.82,7.47H13.58L12.54,7.58V2A1,1 0 0,0 11.54,1C11,1 10.54,1.45 10.54,2V8.41L9.72,8.78L9.03,3.32C8.96,2.77 8.46,2.38 7.91,2.45C7.36,2.5 6.97,3 7.04,3.57L7.81,9.63L7.43,9.8C7.3,9.85 7.18,9.93 7.07,10L5.97,6.11C5.81,5.54 5.25,5.2 4.71,5.34C4.18,5.5 3.88,6.08 4.04,6.65L6.61,15.77C6.61,15.8 6.63,15.84 6.64,15.87L6.67,16H6.68C6.9,16.57 7.47,17 8.08,17H14.58C14.97,17 15.32,16.84 15.58,16.57L20.5,12.37L19.74,11.6Z",
-"author": "Michael Irigoyen"
+"icon": "hand-wave-outline",
+"google": "true",
+"search": "hand-wave-outline,greeting-outline,farewell-outline",
+"name": "hand-wave-outline",
+"path": "M7.03 4.95L3.5 8.5C.17 11.81 .17 17.19 3.5 20.5S12.19 23.83 15.5 20.5L21.5 14.5C22.5 13.53 22.5 11.94 21.5 10.96C21.4 10.84 21.27 10.73 21.13 10.64L21.5 10.25C22.5 9.28 22.5 7.69 21.5 6.71C21.36 6.55 21.17 6.41 21 6.3C21.38 5.38 21.21 4.28 20.46 3.53C19.59 2.66 18.24 2.57 17.26 3.25C17.16 3.1 17.05 2.96 16.92 2.83C15.95 1.86 14.36 1.86 13.38 2.83L10.87 5.34C10.78 5.2 10.67 5.07 10.55 4.95C9.58 4 8 4 7.03 4.95M8.44 6.37C8.64 6.17 8.95 6.17 9.15 6.37S9.35 6.88 9.15 7.08L5.97 10.26C7.14 11.43 7.14 13.33 5.97 14.5L7.38 15.91C8.83 14.46 9.2 12.34 8.5 10.55L14.8 4.25C15 4.05 15.31 4.05 15.5 4.25S15.71 4.76 15.5 4.96L10.91 9.56L12.32 10.97L18.33 4.96C18.53 4.76 18.84 4.76 19.04 4.96C19.24 5.16 19.24 5.47 19.04 5.67L13.03 11.68L14.44 13.09L19.39 8.14C19.59 7.94 19.9 7.94 20.1 8.14C20.3 8.34 20.3 8.65 20.1 8.85L14.44 14.5L15.85 15.92L19.39 12.38C19.59 12.18 19.9 12.18 20.1 12.38C20.3 12.58 20.3 12.89 20.1 13.09L14.1 19.1C11.56 21.64 7.45 21.64 4.91 19.1S2.37 12.45 4.91 9.91L8.44 6.37M23 17C23 20.31 20.31 23 17 23V21.5C19.5 21.5 21.5 19.5 21.5 17H23M1 7C1 3.69 3.69 1 7 1V2.5C4.5 2.5 2.5 4.5 2.5 7H1Z",
+"author": "Google"
+},
+{
+"icon": "hand-wave",
+"google": "true",
+"search": "hand-wave,greeting,farewell",
+"name": "hand-wave",
+"path": "M23 17C23 20.31 20.31 23 17 23V21.5C19.5 21.5 21.5 19.5 21.5 17H23M1 7C1 3.69 3.69 1 7 1V2.5C4.5 2.5 2.5 4.5 2.5 7H1M8 4.32L3.41 8.92C.19 12.14 .19 17.37 3.41 20.59S11.86 23.81 15.08 20.59L22.15 13.5C22.64 13.03 22.64 12.24 22.15 11.75C21.66 11.26 20.87 11.26 20.38 11.75L15.96 16.17L15.25 15.46L21.79 8.92C22.28 8.43 22.28 7.64 21.79 7.15S20.5 6.66 20 7.15L14.19 13L13.5 12.27L20.37 5.38C20.86 4.89 20.86 4.1 20.37 3.61S19.09 3.12 18.6 3.61L11.71 10.5L11 9.8L16.5 4.32C17 3.83 17 3.04 16.5 2.55S15.22 2.06 14.73 2.55L7.11 10.17C8.33 11.74 8.22 14 6.78 15.45L6.07 14.74C7.24 13.57 7.24 11.67 6.07 10.5L5.72 10.15L9.79 6.08C10.28 5.59 10.28 4.8 9.79 4.31C9.29 3.83 8.5 3.83 8 4.32Z",
+"author": "Google"
 },
 {
 "icon": "handball",
@@ -23598,6 +24910,14 @@ const icons = [
 "name": "handcuffs",
 "path": "M20.24 6.76C18.4 4.91 15.65 4.53 13.42 5.59L12.46 4.63C12.07 4.24 11.44 4.24 11.05 4.63L10.97 4.72C10.83 3.75 10 3 9 3C7.9 3 7 3.9 7 5C7 5.09 7 5.18 7.03 5.26C6.42 5.61 6 6.25 6 7C6 7.46 6.16 7.87 6.42 8.21C6.17 8.39 6 8.67 6 9V10.35C3.67 11.17 2 13.39 2 16C2 19.31 4.69 22 8 22S14 19.31 14 16C14 13.39 12.33 11.17 10 10.35V9C10 8.67 9.83 8.39 9.58 8.21C9.84 7.87 10 7.46 10 7C10 6.91 10 6.82 9.97 6.74C10.15 6.64 10.3 6.5 10.43 6.38C11.36 6.88 12 7.86 12 9V9.08C12.13 9.15 12.25 9.25 12.38 9.33C12.57 8.91 12.83 8.5 13.17 8.17C14.73 6.61 17.27 6.61 18.83 8.17C20.39 9.73 20.39 12.27 18.83 13.83C18.03 14.63 17 15 15.93 15C16 15.32 16 15.66 16 16C16 16.34 15.97 16.67 15.93 17C17.5 17 19.05 16.43 20.24 15.24C22.59 12.9 22.59 9.1 20.24 6.76M9 4C9.55 4 10 4.45 10 5C10 5.33 9.83 5.61 9.58 5.79C9.22 5.31 8.65 5 8 5C8 4.45 8.45 4 9 4M7.42 6.21C7.78 6.69 8.35 7 9 7C9 7.55 8.55 8 8 8S7 7.55 7 7C7 6.67 7.17 6.39 7.42 6.21M12 16C12 18.21 10.21 20 8 20S4 18.21 4 16C4 13.79 5.79 12 8 12S12 13.79 12 16Z",
 "author": "Michael Irigoyen"
+},
+{
+"icon": "hands-pray",
+"google": "false",
+"search": "hands-pray",
+"name": "hands-pray",
+"path": "M11.43 9.67C11.47 9.78 11.5 9.88 11.5 10V15.22C11.5 15.72 11.31 16.2 10.97 16.57L8.18 19.62L4.78 16.22L6 15L8.8 2.86C8.92 2.36 9.37 2 9.89 2C10.5 2 11 2.5 11 3.11V8.07C10.84 8.03 10.67 8 10.5 8C9.4 8 8.5 8.9 8.5 10V13C8.5 13.28 8.72 13.5 9 13.5S9.5 13.28 9.5 13V10C9.5 9.45 9.95 9 10.5 9C10.69 9 10.85 9.07 11 9.16C11.12 9.23 11.21 9.32 11.3 9.42C11.33 9.46 11.36 9.5 11.38 9.55C11.4 9.59 11.42 9.63 11.43 9.67M2 19L6 22L7.17 20.73L3.72 17.28L2 19M18 15L15.2 2.86C15.08 2.36 14.63 2 14.11 2C13.5 2 13 2.5 13 3.11V8.07C13.16 8.03 13.33 8 13.5 8C14.6 8 15.5 8.9 15.5 10V13C15.5 13.28 15.28 13.5 15 13.5S14.5 13.28 14.5 13V10C14.5 9.45 14.05 9 13.5 9C13.31 9 13.15 9.07 13 9.16C12.88 9.23 12.79 9.32 12.71 9.42C12.68 9.46 12.64 9.5 12.62 9.55C12.6 9.59 12.58 9.63 12.57 9.67C12.53 9.78 12.5 9.88 12.5 10V15.22C12.5 15.72 12.69 16.2 13.03 16.57L15.82 19.62L19.22 16.22L18 15M20.28 17.28L16.83 20.73L18 22L22 19L20.28 17.28Z",
+"author": "Colton Wiscombe"
 },
 {
 "icon": "handshake-outline",
@@ -24396,16 +25716,8 @@ const icons = [
 "google": "true",
 "search": "hiking,sport",
 "name": "hiking",
-"path": "M9.8,8.9L7,23H9.1L10.9,15L13,17V23H15V15.5L12.9,13.5L13.5,10.5C14.63,11.81 16.29,12.73 18.15,12.95L16,23H17L20,9L19.04,8.8L18.58,11C16.86,10.85 15.44,9.89 14.7,8.6L13.7,7C13.5,6.65 13.2,6.37 12.84,6.2C12.5,6 12.08,5.96 11.68,6C11.28,6.09 10.92,6.27 10.63,6.55C10.34,6.83 10.14,7.19 10.06,7.58L9.8,8.9M7.08,6.92L9.4,7.38L8.4,12.46L6.08,12L7.08,6.92M13.5,5.5A2,2 0 0,0 15.5,3.5A2,2 0 0,0 13.5,1.5A2,2 0 0,0 11.5,3.5A2,2 0 0,0 13.5,5.5Z",
+"path": "M17.47 8.67H19V23H17.47V12.6C16.67 12.44 15.92 12.14 15.21 11.71S13.9 10.78 13.39 10.2L12.77 13.27L15 15.47V23H13V17L10.76 14.8L8.89 23H6.73C6.73 23 9.86 7.22 9.89 7.09C10 6.61 10.22 6.24 10.59 6C10.96 5.73 11.33 5.6 11.71 5.6C12.1 5.6 12.46 5.69 12.79 5.87C13.13 6.04 13.39 6.29 13.58 6.61L14.64 8.24C14.93 8.78 15.32 9.25 15.81 9.63S16.86 10.3 17.47 10.5V8.67M8.55 5.89L7.4 5.65C6.83 5.5 6.31 5.62 5.84 5.94C5.38 6.26 5.1 6.7 5 7.28L4.19 11.26C4.16 11.55 4.22 11.81 4.38 12.05C4.54 12.29 4.75 12.42 5 12.46L7.21 12.89L8.55 5.89M13 1C11.9 1 11 1.9 11 3S11.9 5 13 5 15 4.11 15 3 14.11 1 13 1Z",
 "author": "Google"
-},
-{
-"icon": "hinduism",
-"google": "false",
-"search": "hinduism,religion-hindu,om,religion",
-"name": "hinduism",
-"path": "M15,2L13.5,3.5L15,5L16.5,3.5L15,2M11,3C10,9 17,10 20,6L18,4.5C17,6 13,8 11,3M9,7C7,7 4.5,8.5 4.5,8.5L6,11C7,10 9,9.5 10,10C12,11 9,13 7,12V15.5C10,14 12,16 11,17.5C8,22 3,16 3,13C1,19 6,22 9,22C12,22 14,20 12.5,15H14C12.5,19.5 18,24 21,18C22,16 22,9.5 17,9.5C13,9.5 14,15 10.5,13.5C14,10 12,7 9,7M19,12C22,15 15,21 15,15C15,13 17,10.5 19,12Z",
-"author": "Nick"
 },
 {
 "icon": "history",
@@ -24450,7 +25762,7 @@ const icons = [
 {
 "icon": "home-alert-outline",
 "google": "false",
-"search": "home-alert-outline,home automation",
+"search": "home-alert-outline,home automation,alert,error",
 "name": "home-alert-outline",
 "path": "M12 5.7L17 10.2V18H7V10.2L12 5.7M19 20V12H22L12 3L2 12H5V20M13 8H11V13H13V8M13 15H11V17H13V15",
 "author": "Michael Irigoyen"
@@ -24466,7 +25778,7 @@ const icons = [
 {
 "icon": "home-analytics",
 "google": "false",
-"search": "home-analytics,chart-home,home-chart,home automation",
+"search": "home-analytics,chart-home,home-chart,home-report,home automation",
 "name": "home-analytics",
 "path": "M12,3L2,12H5V20H19V12H22M9,18H7V12H9M13,18H11V10H13M17,18H15V14H17",
 "author": "Michael Richins"
@@ -24518,14 +25830,6 @@ const icons = [
 "name": "home-city",
 "path": "M0,21V10L7.5,5L15,10V21H10V14H5V21H0M24,2V21H17V8.93L16,8.27V6H14V6.93L10,4.27V2H24M21,14H19V16H21V14M21,10H19V12H21V10M21,6H19V8H21V6Z",
 "author": "Google"
-},
-{
-"icon": "home-currency-usd",
-"google": "false",
-"search": "home-currency-usd,banking",
-"name": "home-currency-usd",
-"path": "M12,3L22,12H19V20H5V12H2L12,3M9.22,8.93C8.75,9.4 8.5,10.03 8.5,10.75C8.5,12.43 10.54,13.07 11.76,13.46C13.26,13.93 13.47,14.21 13.5,14.25C13.5,15 12.15,15 12,15V15C11.37,15 11.03,14.88 10.86,14.78C10.67,14.67 10.5,14.5 10.5,14H8.5C8.5,15.43 9.24,16.16 9.85,16.5C10.18,16.7 10.57,16.84 11,16.92V18H13V16.91C14.53,16.61 15.5,15.62 15.5,14.25C15.5,12.67 13.88,12.03 12.36,11.55C10.8,11.06 10.53,10.77 10.5,10.75C10.5,10.5 10.57,10.41 10.64,10.34C10.85,10.13 11.36,10 12,10V10C12.68,10 13.5,10.13 13.5,10.75H15.5C15.5,9.34 14.56,8.37 13,8.09V7H11V8.08C10.26,8.21 9.65,8.5 9.22,8.93Z",
-"author": "Nick"
 },
 {
 "icon": "home-edit-outline",
@@ -24690,7 +25994,7 @@ const icons = [
 {
 "icon": "home-map-marker",
 "google": "false",
-"search": "home-map-marker,house-map-marker,home automation,navigation",
+"search": "home-map-marker,house-map-marker,home-location,home automation,navigation",
 "name": "home-map-marker",
 "path": "M12,3L2,12H5V20H19V12H22L12,3M12,7.7C14.1,7.7 15.8,9.4 15.8,11.5C15.8,14.5 12,18 12,18C12,18 8.2,14.5 8.2,11.5C8.2,9.4 9.9,7.7 12,7.7M12,10A1.5,1.5 0 0,0 10.5,11.5A1.5,1.5 0 0,0 12,13A1.5,1.5 0 0,0 13.5,11.5A1.5,1.5 0 0,0 12,10Z",
 "author": "Simran"
@@ -24784,6 +26088,22 @@ const icons = [
 "author": "Michael Irigoyen"
 },
 {
+"icon": "home-switch-outline",
+"google": "false",
+"search": "home-switch-outline,home-swap-outline,home automation",
+"name": "home-switch-outline",
+"path": "M8 3L1 9H3V15H7V11H9V15H13V9H15L8 3M11.5 9V13.5H10.5V9.5H5.5V13.5H4.5V8L8 5L11.5 8V9M9 16V18H15V16L18 19L15 22V20H9V22L6 19L9 16M23 9H21V15H15V10H19L13.54 5.11L16 3L23 9Z",
+"author": "Michael Irigoyen"
+},
+{
+"icon": "home-switch",
+"google": "false",
+"search": "home-switch,home-swap,home automation",
+"name": "home-switch",
+"path": "M6.5 15V11H9.5V15H13V9H15L8 3L1 9H3V15H6.5M9 16V18H15V16L18 19L15 22V20H9V22L6 19L9 16M23 9H21V15H15V10H19L13.54 5.11L16 3L23 9Z",
+"author": "Michael Irigoyen"
+},
+{
 "icon": "home-thermometer-outline",
 "google": "false",
 "search": "home-thermometer-outline,home-climate-outline,home-temperature-outline,home automation",
@@ -24840,9 +26160,17 @@ const icons = [
 "author": "Michael Richins"
 },
 {
+"icon": "hoop-house",
+"google": "false",
+"search": "hoop-house,green-house,agriculture,home automation",
+"name": "hoop-house",
+"path": "M12 5C6.5 5 2 9.5 2 15V21H22V15C22 9.5 17.5 5 12 5M12 7C14.53 7 16.78 8.17 18.25 10H5.76C7.22 8.17 9.47 7 12 7M8 19H4V15C4 13.94 4.21 12.93 4.58 12H8V19M14 19H10V12H14V19M20 19H16V12H19.42C19.79 12.93 20 13.94 20 15V19Z",
+"author": "Jeff Anders"
+},
+{
 "icon": "hops",
 "google": "false",
-"search": "hops,food,drink",
+"search": "hops,food,drink,agriculture",
 "name": "hops",
 "path": "M21,12C21,12 12.5,10 12.5,2C12.5,2 21,2 21,12M3,12C3,2 11.5,2 11.5,2C11.5,10 3,12 3,12M12,6.5C12,6.5 13,8.66 15,10.5C14.76,14.16 12,16 12,16C12,16 9.24,14.16 9,10.5C11,8.66 12,6.5 12,6.5M20.75,13.25C20.75,13.25 20,17 18,19C18,19 15.53,17.36 14.33,14.81C15.05,13.58 15.5,12.12 15.75,11.13C17.13,12.18 18.75,13 20.75,13.25M15.5,18.25C14.5,20.25 12,21.75 12,21.75C12,21.75 9.5,20.25 8.5,18.25C8.5,18.25 9.59,17.34 10.35,15.8C10.82,16.35 11.36,16.79 12,17C12.64,16.79 13.18,16.35 13.65,15.8C14.41,17.34 15.5,18.25 15.5,18.25M3.25,13.25C5.25,13 6.87,12.18 8.25,11.13C8.5,12.12 8.95,13.58 9.67,14.81C8.47,17.36 6,19 6,19C4,17 3.25,13.25 3.25,13.25Z",
 "author": "Austin Andrews"
@@ -24866,7 +26194,7 @@ const icons = [
 {
 "icon": "horse-human",
 "google": "false",
-"search": "horse-human,horseback-riding,horse-riding,equestrian,transportation + other",
+"search": "horse-human,horseback-riding,horse-riding,equestrian,transportation + other,agriculture",
 "name": "horse-human",
 "path": "M10 3.5C10 2.67 10.67 2 11.5 2S13 2.67 13 3.5 12.33 5 11.5 5 10 4.33 10 3.5M22 8V11.5L20.97 11.85C20.8 13.06 19.76 14 18.5 14H18.42C18.28 14.68 17.95 15.29 17.5 15.78V22H15V17C14.92 17 14.84 17 14.75 17C14.54 17 14.33 16.97 14.13 16.94L9.69 16.2L8.57 18.21L9.32 22H6.78L6 18.25C5.97 17.95 6 17.65 6.16 17.39L7.18 15.58C6.2 15.03 5.53 14 5.5 12.81C5.46 12.96 5.44 13.18 5.47 13.5C5.5 13.94 5.61 14.59 5.54 15.31C5.5 16.03 5.17 16.77 4.75 17.26C4.32 17.75 3.85 18.09 3.35 18.35L2.65 17.65C2.84 17.18 3.03 16.76 3.07 16.37C3.13 16 3.06 15.7 2.95 15.43L2.42 14.3C2.21 13.79 1.95 13.05 2 12.18C2.03 11.33 2.5 10.22 3.39 9.61C4.29 9 5.26 8.91 6.05 9.08C6.55 9.18 7.06 9.42 7.5 9.76C7.87 9.59 8.3 9.5 8.75 9.5H9V8.11C9 7.11 9.68 6.19 10.66 6.03C11.92 5.82 13 6.79 13 8V9.5H14.5V9C14.5 6.79 16.29 5 18.5 5H22L21.11 6.34C21.65 6.7 22 7.31 22 8M20 11.2L18.96 9.54C18.83 9.33 18.5 9.42 18.5 9.67V13C19.33 13 20 12.33 20 11.5V11.2Z",
 "author": "Colton Wiscombe"
@@ -24874,7 +26202,7 @@ const icons = [
 {
 "icon": "horse-variant",
 "google": "false",
-"search": "horse-variant,animal",
+"search": "horse-variant,equestrian-variant,animal,agriculture",
 "name": "horse-variant",
 "path": "M20 8V16L17 17L13.91 11.5C13.65 11.04 12.92 11.27 13 11.81L14 21L4 17L5.15 8.94C5.64 5.53 8.56 3 12 3H20L18.42 5.37C19.36 5.88 20 6.86 20 8Z",
 "author": "Colton Wiscombe"
@@ -24882,7 +26210,7 @@ const icons = [
 {
 "icon": "horse",
 "google": "false",
-"search": "horse,transportation + other,animal",
+"search": "horse,equestrian,transportation + other,animal,agriculture",
 "name": "horse",
 "path": "M22 6V9.5L20.5 10L18.96 7.54C18.83 7.33 18.5 7.42 18.5 7.67V11.25C18.5 12.23 18.11 13.11 17.5 13.78V21H15V15C14.92 15 14.84 15 14.75 15C14.54 15 14.33 14.97 14.13 14.94L9.69 14.2L8.57 16.21L9.53 21H7L6 16.25C5.97 15.95 6 15.65 6.16 15.39L7.18 13.58C6.2 13.03 5.53 12 5.5 10.81C5.46 10.96 5.44 11.18 5.47 11.5C5.5 11.94 5.61 12.59 5.54 13.31C5.5 14.03 5.17 14.77 4.75 15.26C4.32 15.75 3.85 16.09 3.35 16.35L2.65 15.65C2.84 15.18 3.03 14.76 3.07 14.37C3.13 14 3.06 13.7 2.95 13.43L2.42 12.3C2.21 11.79 1.95 11.05 2 10.18C2.03 9.33 2.5 8.22 3.39 7.61C4.29 7 5.26 6.92 6.05 7.08C6.55 7.18 7.06 7.42 7.5 7.76C7.87 7.59 8.3 7.5 8.75 7.5H14.5V7C14.5 4.79 16.29 3 18.5 3H22L21.11 4.34C21.65 4.7 22 5.31 22 6Z",
 "author": "Colton Wiscombe"
@@ -24890,7 +26218,7 @@ const icons = [
 {
 "icon": "horseshoe",
 "google": "false",
-"search": "horseshoe,luck,sport",
+"search": "horseshoe,luck,sport,agriculture",
 "name": "horseshoe",
 "path": "M19,4H20V1H16V4C16,4 18,8 18,12C18,16 16,19 12,19C8,19 6,16 6,12C6,8 8,4 8,4V1H4V4H5C5,4 2,8 2,14C2,19 7,23 12,23C17,23 22,19 22,14C22,8 19,4 19,4M4,13C3.4,13 3,12.6 3,12C3,11.4 3.4,11 4,11C4.6,11 5,11.4 5,12C5,12.6 4.6,13 4,13M6,19C5.4,19 5,18.6 5,18C5,17.4 5.4,17 6,17C6.6,17 7,17.4 7,18C7,18.6 6.6,19 6,19M12,22C11.4,22 11,21.6 11,21C11,20.4 11.4,20 12,20C12.6,20 13,20.4 13,21C13,21.6 12.6,22 12,22M18,19C17.4,19 17,18.6 17,18C17,17.4 17.4,17 18,17C18.6,17 19,17.4 19,18C19,18.6 18.6,19 18,19M20,13C19.4,13 19,12.6 19,12C19,11.4 19.4,11 20,11C20.6,11 21,11.4 21,12C21,12.6 20.6,13 20,13Z",
 "author": "Michael Irigoyen"
@@ -24922,7 +26250,7 @@ const icons = [
 {
 "icon": "hospital-marker",
 "google": "false",
-"search": "hospital-marker,medical,hospital",
+"search": "hospital-marker,hospital-location,medical,hospital",
 "name": "hospital-marker",
 "path": "M12,2C15.86,2 19,5.13 19,9C19,14.25 12,22 12,22C12,22 5,14.25 5,9A7,7 0 0,1 12,2M9,6V12H11V10H13V12H15V6H13V8H11V6H9Z",
 "author": "Austin Andrews"
@@ -25064,11 +26392,19 @@ const icons = [
 "author": "Google"
 },
 {
+"icon": "human-greeting-variant",
+"google": "true",
+"search": "human-greeting-variant,human-hello-variant,people,family",
+"name": "human-greeting-variant",
+"path": "M1.5,4V5.5C1.5,9.65 3.71,13.28 7,15.3V20H22V18C22,15.34 16.67,14 14,14C14,14 13.83,14 13.75,14C9,14 5,10 5,5.5V4M14,4A4,4 0 0,0 10,8A4,4 0 0,0 14,12A4,4 0 0,0 18,8A4,4 0 0,0 14,4Z",
+"author": "Google"
+},
+{
 "icon": "human-greeting",
 "google": "true",
-"search": "human-greeting,people,family",
+"search": "human-greeting,human-hello,human-welcome,people,family",
 "name": "human-greeting",
-"path": "M1.5,4V5.5C1.5,9.65 3.71,13.28 7,15.3V20H22V18C22,15.34 16.67,14 14,14C14,14 13.83,14 13.75,14C9,14 5,10 5,5.5V4M14,4A4,4 0 0,0 10,8A4,4 0 0,0 14,12A4,4 0 0,0 18,8A4,4 0 0,0 14,4Z",
+"path": "M12 2C13.1 2 14 2.9 14 4S13.1 6 12 6 10 5.1 10 4 10.9 2 12 2M15.9 8.1C15.5 7.7 14.8 7 13.5 7H11C8.2 7 6 4.8 6 2H4C4 5.2 6.1 7.8 9 8.7V22H11V16H13V22H15V10.1L19 14L20.4 12.6L15.9 8.1Z",
 "author": "Google"
 },
 {
@@ -25088,6 +26424,22 @@ const icons = [
 "author": "Google"
 },
 {
+"icon": "human-male-board-poll",
+"google": "false",
+"search": "human-male-board-poll,teach-poll",
+"name": "human-male-board-poll",
+"path": "M20 17C21.1 17 22 16.1 22 15V4C22 2.9 21.1 2 20 2H9.5C9.8 2.6 10 3.3 10 4H20V15H11V17M15 7V9H9V22H7V16H5V22H3V14H1.5V9C1.5 7.9 2.4 7 3.5 7H15M8 4C8 5.1 7.1 6 6 6S4 5.1 4 4 4.9 2 6 2 8 2.9 8 4M17 6H19V14H17V6M14 10H16V14H14V10M11 10H13V14H11V10Z",
+"author": "Contributors"
+},
+{
+"icon": "human-male-board",
+"google": "false",
+"search": "human-male-board,teacher,teaching,lecture,college,blackboard,whiteboard,human-man-board",
+"name": "human-male-board",
+"path": "M20,17A2,2 0 0,0 22,15V4A2,2 0 0,0 20,2H9.46C9.81,2.61 10,3.3 10,4H20V15H11V17M15,7V9H9V22H7V16H5V22H3V14H1.5V9A2,2 0 0,1 3.5,7H15M8,4A2,2 0 0,1 6,6A2,2 0 0,1 4,4A2,2 0 0,1 6,2A2,2 0 0,1 8,4Z",
+"author": "Michael Richins"
+},
+{
 "icon": "human-male-boy",
 "google": "false",
 "search": "human-male-boy,father,dad,man-child,people,family",
@@ -25102,6 +26454,14 @@ const icons = [
 "name": "human-male-child",
 "path": "M7 2C5.9 2 5 2.9 5 4S5.9 6 7 6 9 5.11 9 4 8.11 2 7 2M5 7C3.89 7 3 7.89 3 9V15H5V22H10V11.6L12.53 16H14.97L16 14.66V22H20V17H21V14C21 12.89 20.11 12 19 12H16.5C15.9 12 15.37 12.26 15 12.68C14.67 13.1 14.32 13.56 14 14H13.69L10 7.66C9.84 7.38 9.22 7 8.5 7H5M18 8C17.17 8 16.5 8.67 16.5 9.5S17.17 11 18 11 19.5 10.33 19.5 9.5 18.83 8 18 8Z",
 "author": "Moma Design Studio"
+},
+{
+"icon": "human-male-female-child",
+"google": "true",
+"search": "human-male-female-child,family,mom-dad-child,people,family",
+"name": "human-male-female-child",
+"path": "M16 4C16 2.9 16.9 2 18 2S20 2.9 20 4 19.1 6 18 6 16 5.1 16 4M20 22V16H22.5L20 8.4C19.7 7.6 19 7 18.1 7H18C17.1 7 16.4 7.6 16.1 8.4L15.2 11C16.3 11.6 17 12.7 17 14.1V22.1H20M12.5 11.5C13.3 11.5 14 10.8 14 10S13.3 8.5 12.5 8.5 11 9.2 11 10 11.7 11.5 12.5 11.5M5.5 6C6.6 6 7.5 5.1 7.5 4S6.6 2 5.5 2 3.5 2.9 3.5 4 4.4 6 5.5 6M7.5 22V15H9V9C9 7.9 8.1 7 7 7H4C2.9 7 2 7.9 2 9V15H3.5V22H7.5M14 22V18H15V14C15 13.2 14.3 12.5 13.5 12.5H11.5C10.7 12.5 10 13.2 10 14V18H11V22H14Z",
+"author": "Google"
 },
 {
 "icon": "human-male-female",
@@ -25296,86 +26656,6 @@ const icons = [
 "author": "Haley Halcyon"
 },
 {
-"icon": "iframe-array-outline",
-"google": "false",
-"search": "iframe-array-outline,developer,languages",
-"name": "iframe-array-outline",
-"path": "M21 2H3C1.9 2 1 2.9 1 4V20C1 21.1 1.9 22 3 22H21C22.1 22 23 21.1 23 20V4C23 2.9 22.1 2 21 2M21 20H3V6H21V20M6 8V18H10V16H8V10H10V8H6M16 16H14V18H18V8H14V10H16V16",
-"author": "Michael Irigoyen"
-},
-{
-"icon": "iframe-array",
-"google": "false",
-"search": "iframe-array,developer,languages",
-"name": "iframe-array",
-"path": "M21 2H3C1.9 2 1 2.9 1 4V20C1 21.1 1.9 22 3 22H21C22.1 22 23 21.1 23 20V4C23 2.9 22.1 2 21 2M10 11H8V18H10V20H6V9H10V11M18 20H14V18H16V11H14V9H18V20M21 7H3V4H21V7Z",
-"author": "Michael Irigoyen"
-},
-{
-"icon": "iframe-braces-outline",
-"google": "false",
-"search": "iframe-braces-outline,developer,languages",
-"name": "iframe-braces-outline",
-"path": "M21 2H3C1.9 2 1 2.9 1 4V20C1 21.1 1.9 22 3 22H21C22.1 22 23 21.1 23 20V4C23 2.9 22.1 2 21 2M21 20H3V6H21V20M9 8C7.9 8 7 8.9 7 10C7 11.1 6.1 12 5 12V14C6.1 14 7 14.9 7 16C7 17.1 7.9 18 9 18H11V16H9V15C9 13.9 8.1 13 7 13C8.1 13 9 12.1 9 11V10H11V8M15 8C16.1 8 17 8.9 17 10C17 11.1 17.9 12 19 12V14C17.9 14 17 14.9 17 16C17 17.1 16.1 18 15 18H13V16H15V15C15 13.9 15.9 13 17 13C15.9 13 15 12.1 15 11V10H13V8H15Z",
-"author": "Michael Irigoyen"
-},
-{
-"icon": "iframe-braces",
-"google": "false",
-"search": "iframe-braces,developer,languages",
-"name": "iframe-braces",
-"path": "M21 2H3C1.9 2 1 2.9 1 4V20C1 21.1 1.9 22 3 22H21C22.1 22 23 21.1 23 20V4C23 2.9 22.1 2 21 2M11 11H9V12.5C9 13.6 8.1 14.5 7 14.5C8.1 14.5 9 15.4 9 16.5V18H11V20H9C7.9 20 7 19.1 7 18V17.5C7 16.4 6.1 15.5 5 15.5V13.5C6.1 13.5 7 12.6 7 11.5V11C7 9.9 7.9 9 9 9H11V11M19 15.5C17.9 15.5 17 16.4 17 17.5V18C17 19.1 16.1 20 15 20H13V18H15V16.5C15 15.4 15.9 14.5 17 14.5C15.9 14.5 15 13.6 15 12.5V11H13V9H15C16.1 9 17 9.9 17 11V11.5C17 12.6 17.9 13.5 19 13.5V15.5M21 7H3V4H21V7Z",
-"author": "Michael Irigoyen"
-},
-{
-"icon": "iframe-outline",
-"google": "false",
-"search": "iframe-outline,developer,languages",
-"name": "iframe-outline",
-"path": "M9.5,8.5L11,10L8,13L11,16L9.5,17.5L5,13L9.5,8.5M14.5,17.5L13,16L16,13L13,10L14.5,8.5L19,13L14.5,17.5M21,2H3A2,2 0 0,0 1,4V20A2,2 0 0,0 3,22H21A2,2 0 0,0 23,20V4A2,2 0 0,0 21,2M21,20H3V6H21V20Z",
-"author": "Michael Richins"
-},
-{
-"icon": "iframe-parentheses-outline",
-"google": "false",
-"search": "iframe-parentheses-outline,developer,languages",
-"name": "iframe-parentheses-outline",
-"path": "M21 2H3C1.9 2 1 2.9 1 4V20C1 21.1 1.9 22 3 22H21C22.1 22 23 21.1 23 20V4C23 2.9 22.1 2 21 2M21 20H3V6H21V20M15.6 8C17.1 9.3 18 11.1 18 13C18 14.9 17.1 16.7 15.6 18L14 17.4C15.3 16.4 16 14.7 16 13S15.3 9.6 14 8.6L15.6 8M8.4 8L10 8.6C8.7 9.6 8 11.3 8 13S8.7 16.4 10 17.4L8.4 18C6.9 16.7 6 14.9 6 13S6.9 9.3 8.4 8Z",
-"author": "Michael Irigoyen"
-},
-{
-"icon": "iframe-parentheses",
-"google": "false",
-"search": "iframe-parentheses,developer,languages",
-"name": "iframe-parentheses",
-"path": "M21 2H3C1.9 2 1 2.9 1 4V20C1 21.1 1.9 22 3 22H21C22.1 22 23 21.1 23 20V4C23 2.9 22.1 2 21 2M10 19.4L8.4 20C6.9 18.6 6 16.6 6 14.5S6.9 10.4 8.4 9L10 9.6C8.7 10.7 8 12.6 8 14.5S8.7 18.2 10 19.4M15.6 20L14 19.4C15.3 18.2 16 16.4 16 14.5S15.3 10.8 14 9.6L15.6 9C17.1 10.4 18 12.4 18 14.5C18 16.6 17.1 18.6 15.6 20M21 7H3V4H21V7Z",
-"author": "Michael Irigoyen"
-},
-{
-"icon": "iframe-variable-outline",
-"google": "false",
-"search": "iframe-variable-outline,developer,languages",
-"name": "iframe-variable-outline",
-"path": "M21 2H3C1.9 2 1 2.9 1 4V20C1 21.1 1.9 22 3 22H21C22.1 22 23 21.1 23 20V4C23 2.9 22.1 2 21 2M21 20H3V6H21V20M16.6 8C18.1 9.3 19 11.1 19 13C19 14.9 18.1 16.7 16.6 18L15 17.4C16.3 16.4 17 14.7 17 13S16.3 9.6 15 8.6L16.6 8M7.4 8L9 8.6C7.7 9.6 7 11.3 7 13S7.7 16.4 9 17.4L7.4 18C5.9 16.7 5 14.9 5 13S5.9 9.3 7.4 8M12.1 12L13.5 10H15L12.8 13L14.1 16H12.8L12 14L10.6 16H9L11.3 12.9L10 10H11.3L12.1 12Z",
-"author": "Michael Irigoyen"
-},
-{
-"icon": "iframe-variable",
-"google": "false",
-"search": "iframe-variable,developer,languages",
-"name": "iframe-variable",
-"path": "M21 2H3C1.9 2 1 2.9 1 4V20C1 21.1 1.9 22 3 22H21C22.1 22 23 21.1 23 20V4C23 2.9 22.1 2 21 2M7.4 20C5.9 18.6 5 16.6 5 14.5S5.9 10.4 7.4 9L9 9.6C7.7 10.7 7 12.6 7 14.5S7.7 18.2 9 19.4L7.4 20M12.7 18L11.9 16L10.5 18H9L11.3 14.9L10 12H11.3L12.1 14L13.5 12H15L12.8 15L14.1 18H12.7M16.6 20L15 19.4C16.3 18.2 17 16.4 17 14.5S16.3 10.8 15 9.6L16.6 9C18.1 10.4 19 12.4 19 14.5C19 16.6 18.1 18.6 16.6 20M21 7H3V4H21V7Z",
-"author": "Michael Irigoyen"
-},
-{
-"icon": "iframe",
-"google": "false",
-"search": "iframe,developer,languages",
-"name": "iframe",
-"path": "M21,2H3A2,2 0 0,0 1,4V20A2,2 0 0,0 3,22H21A2,2 0 0,0 23,20V4A2,2 0 0,0 21,2M11,17.5L9.5,19L5,14.5L9.5,10L11,11.5L8,14.5L11,17.5M14.5,19L13,17.5L16,14.5L13,11.5L14.5,10L19,14.5L14.5,19M21,7H3V4H21V7Z",
-"author": "Michael Richins"
-},
-{
 "icon": "image-album",
 "google": "true",
 "search": "image-album,photo-album,book-image",
@@ -25534,6 +26814,22 @@ const icons = [
 "name": "image-frame",
 "path": "M10,14.29L6.5,19H17.46L14.75,15.46L12.78,17.8L10,14.29M5,21V7H18.96V21H5M12,2.4L14.61,5.03H9.37L12,2.4M5,5.03C4.5,5.03 4,5.22 3.61,5.61C3.2,6 3,6.46 3,7V21C3,21.5 3.2,22 3.61,22.39C4,22.8 4.5,23 5,23H18.96C19.5,23 19.96,22.8 20.37,22.39C20.77,22 21,21.5 21,21V7C21,6.46 20.77,6 20.37,5.61C19.96,5.22 19.5,5.03 18.96,5.03H16L12,1L7.96,5.03H5Z",
 "author": "Google"
+},
+{
+"icon": "image-marker-outline",
+"google": "false",
+"search": "image-marker-outline,image-location-outline",
+"name": "image-marker-outline",
+"path": "M14 19C14.36 19.72 14.78 20.4 15.19 21H5C3.9 21 3 20.11 3 19V5C3 3.9 3.9 3 5 3H19C20.11 3 21 3.9 21 5V10.63C20.39 10.3 19.71 10.09 19 10.03V5H5V19H14M13.96 12.29L11.21 15.83L9.25 13.47L6.5 17H13.22C13.09 16.5 13 16 13 15.5C13 14.35 13.38 13.26 14 12.37L13.96 12.29M22 15.5C22 18.1 18.5 22 18.5 22S15 18.1 15 15.5C15 13.6 16.6 12 18.5 12S22 13.6 22 15.5M19.7 15.6C19.7 15 19.1 14.4 18.5 14.4S17.3 14.9 17.3 15.6C17.3 16.2 17.8 16.8 18.5 16.8S19.8 16.2 19.7 15.6Z",
+"author": "Colton Wiscombe"
+},
+{
+"icon": "image-marker",
+"google": "false",
+"search": "image-marker,image-location",
+"name": "image-marker",
+"path": "M13.55 18C13.97 19.08 14.59 20.12 15.19 21H5C3.9 21 3 20.11 3 19V5C3 3.9 3.9 3 5 3H19C20.1 3 21 3.89 21 5V10.63C20.25 10.23 19.39 10 18.5 10C16.29 10 14.33 11.39 13.47 13.33L11 16.5L8.5 13.5L5 18H13.55M22 15.5C22 18.1 18.5 22 18.5 22S15 18.1 15 15.5C15 13.6 16.6 12 18.5 12S22 13.6 22 15.5M19.7 15.6C19.7 15 19.1 14.4 18.5 14.4S17.3 14.9 17.3 15.6C17.3 16.2 17.8 16.8 18.5 16.8S19.8 16.2 19.7 15.6Z",
+"author": "Colton Wiscombe"
 },
 {
 "icon": "image-minus",
@@ -25808,6 +27104,22 @@ const icons = [
 "author": "Austin Andrews"
 },
 {
+"icon": "information-off-outline",
+"google": "false",
+"search": "information-off-outline",
+"name": "information-off-outline",
+"path": "M22.1 21.5L2.4 1.7L1.1 3L4.1 6C2.8 7.6 2 9.7 2 12C2 17.5 6.5 22 12 22C14.3 22 16.4 21.2 18 19.9L20.8 22.7L22.1 21.5M12 20C7.6 20 4 16.4 4 12C4 10.3 4.6 8.7 5.5 7.4L11 12.9V17H13V14.9L16.6 18.5C15.3 19.4 13.7 20 12 20M8.2 5L6.7 3.5C8.3 2.6 10.1 2 12 2C17.5 2 22 6.5 22 12C22 13.9 21.4 15.7 20.5 17.3L19 15.8C19.6 14.7 20 13.4 20 12C20 7.6 16.4 4 12 4C10.6 4 9.3 4.4 8.2 5M11 7H13V9H11V7Z",
+"author": "Michael Irigoyen"
+},
+{
+"icon": "information-off",
+"google": "false",
+"search": "information-off",
+"name": "information-off",
+"path": "M22.1 21.5L2.4 1.7L1.1 3L4.1 6C2.8 7.6 2 9.7 2 12C2 17.5 6.5 22 12 22C14.3 22 16.4 21.2 18 19.9L20.8 22.7L22.1 21.5M13 17H11V12.9L13 14.9V17M11 7.8L6.7 3.5C8.3 2.6 10.1 2 12 2C17.5 2 22 6.5 22 12C22 13.9 21.4 15.7 20.5 17.3L12.2 9H13V7H11V7.8Z",
+"author": "Michael Irigoyen"
+},
+{
 "icon": "information-outline",
 "google": "true",
 "search": "information-outline,info-outline,about-outline,information-circle-outline,info-circle-outline,about-circle-outline",
@@ -25904,12 +27216,20 @@ const icons = [
 "author": "GreenTurtwig"
 },
 {
-"icon": "islam",
-"google": "false",
-"search": "islam,religion-islamic,star-and-crescent,religion-muslim,religion",
-"name": "islam",
-"path": "M12.3,2C12.2,2 12.1,2 12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22C15,22 16.7,21 18.5,19.5C13,21 8,17 8,12C8,7 13,3 18.5,4.5C16.86,2.86 14.62,1.96 12.3,2M16.8,6.2L15.3,9.7L11.6,10L14.5,12.5L13.6,16L16.8,14L20,16L19,12.5L22,10L18.3,9.7L16.8,6.2Z",
-"author": "Nick"
+"icon": "iron-outline",
+"google": "true",
+"search": "iron-outline,flatiron-outline,smoothing-iron-outline,home automation,clothing",
+"name": "iron-outline",
+"path": "M21 6C19.34 6 18 7.34 18 9V13C18 13.55 17.55 14 17 14V10C17 8.34 15.66 7 14 7H10C8.34 7 7 8.34 7 10H9C9 9.45 9.45 9 10 9H14C14.55 9 15 9.45 15 10V11H6C3.79 11 2 12.79 2 15V18H17V16C18.66 16 20 14.66 20 13V9C20 8.45 20.45 8 21 8H22V6H21M15 16H4V15C4 13.9 4.9 13 6 13H15V16Z",
+"author": "Google"
+},
+{
+"icon": "iron",
+"google": "true",
+"search": "iron,flatiron,smoothing-iron,home automation,clothing",
+"name": "iron",
+"path": "M21 6C19.34 6 18 7.34 18 9V13C18 13.55 17.55 14 17 14V10C17 8.34 15.66 7 14 7H10C8.34 7 7 8.34 7 10H9C9 9.45 9.45 9 10 9H14C14.55 9 15 9.45 15 10V11H6C3.79 11 2 12.79 2 15V18H17V16C18.66 16 20 14.66 20 13V9C20 8.45 20.45 8 21 8H22V6H21Z",
+"author": "Google"
 },
 {
 "icon": "island",
@@ -25984,14 +27304,6 @@ const icons = [
 "author": "Contributors"
 },
 {
-"icon": "judaism",
-"google": "false",
-"search": "judaism,jewish,religion-judaic,star-of-david,magen-david,religion",
-"name": "judaism",
-"path": "M12,2L9.1,7H3.3L6.3,12L3.3,17H9.1L12,22L14.9,17H20.7L17.7,12L20.7,7H14.9L12,2M12,5L13.2,7H10.8L12,5M8.2,8.5L7.1,10.5L5.9,8.5H8.2M10,8.5H14L16,12L14,15.5H10L8,12L10,8.5M18,8.5L16.8,10.5L15.7,8.5H18M7.1,13.5L8.2,15.5H6L7.1,13.5M16.9,13.5L18.1,15.5H15.8L16.9,13.5M13.3,17L12,19L10.8,17H13.3Z",
-"author": "Nick"
-},
-{
 "icon": "jump-rope",
 "google": "false",
 "search": "jump-rope,sport",
@@ -26010,7 +27322,7 @@ const icons = [
 {
 "icon": "kangaroo",
 "google": "false",
-"search": "kangaroo,animal",
+"search": "kangaroo,marsupial,animal",
 "name": "kangaroo",
 "path": "M19.8 6.59L19 7.97V10.04L17.69 11.61L17.31 13.25L16 14L15.5 13.12L16.44 12.59L16.7 11.45L16.7 11.45L16.77 11.15L16.77 11.15V11.15L17.47 10.31C17.65 10.1 17.62 9.78 17.41 9.61C17.2 9.43 16.88 9.46 16.7 9.67L15.85 10.69L15.56 11.93C15.38 11.96 15.2 12 15 12C14.31 12 13.68 11.76 13.23 11.4C13.15 12.7 12.73 13.81 12.13 14.43L10.5 16.19L9.96 19.79L8.07 21L7.53 20.17L9.04 19.19L9.5 15.92L9.5 15.91L10 14.54C9.47 14.08 9.08 13.28 8.88 12.3L8.71 12.61C8.35 13.25 8 13.9 7.56 14.56C7.11 15.2 6.66 15.9 5.78 16.44C5.34 16.72 4.7 16.84 4.17 16.73C3.61 16.61 3.14 16.26 2.86 15.89C2.31 15.13 2.15 14.35 2 13.62L2.97 13.36C3.2 14 3.5 14.65 3.88 15C4.26 15.33 4.57 15.26 4.84 15C5.16 14.73 5.47 14.15 5.73 13.55C6 12.94 6.22 12.28 6.45 11.6C6.93 10.24 7.39 8.82 8.2 7.36C8.62 6.64 9.13 5.89 9.92 5.22C10.7 4.55 11.73 4 13 4S15.7 5.22 16.58 6.34C17 6.89 17.87 6.82 18.22 6.21L19.14 4.63C19 4.58 18.89 4.5 18.79 4.4C18.4 4 18.4 3.38 18.79 3L19.93 4.13C19.96 4.13 20 4.11 20 4.11C20.41 4.11 20.75 4.35 20.91 4.69L22 7L21 7.5L19.8 6.59Z",
 "author": "Colton Wiscombe"
@@ -26022,6 +27334,14 @@ const icons = [
 "name": "karate",
 "path": "M19,1.27C18.04,0.72 16.82,1.04 16.27,2C15.71,2.95 16.04,4.18 17,4.73C17.95,5.28 19.17,4.96 19.73,4C20.28,3.04 19.95,1.82 19,1.27M21.27,9.34L18.7,13.79L16.96,12.79L18.69,9.79L17.14,8.5L14,13.92V22H12V13.39L2.47,7.89L3.47,6.16L11.27,10.66L13.67,6.5L7.28,4.17L8,2.29L14.73,4.74L15,4.84C15.39,5 15.76,5.15 16.12,5.35L16.96,5.84C17.31,6.04 17.65,6.28 17.96,6.54L18.19,6.74L21.27,9.34Z",
 "author": "Michael Richins"
+},
+{
+"icon": "kayaking",
+"google": "true",
+"search": "kayaking,sport",
+"name": "kayaking",
+"path": "M22 23V21C20.58 21.05 19.21 20.9 18 20C16.23 21.25 13.77 21.25 12 20C10.23 21.25 7.77 21.25 6 20C4.79 20.9 3.42 21.05 2 21V23C3.38 23.05 4.79 22.94 6 22.25C7.84 23.25 10.16 23.25 12 22.25C13.84 23.25 16.16 23.25 18 22.25C19.21 22.94 20.62 23.05 22 23M23.39 17.21C21.13 16.29 18.3 15.56 15.66 15.22L19.36 6.88L20.67 6.41L22 3.41L18.8 2L17.5 4.95L18 6.27L16.31 9.97L13.5 11.47L11 10.2C10.95 10.14 10.86 10.09 10.74 10.06C9.82 9.73 8.77 10.32 8.5 11.23L7.13 15.41C6.59 15.18 1.25 16.97 .915 17.12L0 17.47C1.33 18.04 2.2 18.39 3.94 18.88C4.75 18.63 5.44 18.09 6 17.47C7.5 19.42 10.5 19.42 12 17.47C13.5 19.42 16.5 19.42 18 17.47C18.56 18.09 19.25 18.63 20.06 18.88L22.95 17.91L24 17.47L23.39 17.21M14.06 15.08C13.07 15 12.06 15 11.06 15L11.77 12.83L13.5 13.77L15 12.92L14.06 15.08M14 7.5C14 8.61 13.11 9.5 12 9.5S10 8.61 10 7.5 10.9 5.5 12 5.5 14 6.4 14 7.5Z",
+"author": "Google"
 },
 {
 "icon": "keg",
@@ -26186,7 +27506,7 @@ const icons = [
 {
 "icon": "key-star",
 "google": "false",
-"search": "key-star,primary-key,sql-primary-key",
+"search": "key-star,primary-key,sql-primary-key,key-favorite",
 "name": "key-star",
 "path": "M6.5 3C4 3 2 5 2 7.5S4 12 6.5 12C8.46 12 10.13 10.75 10.74 9H15V12H18V9H22V6H10.74C10.13 4.25 8.46 3 6.5 3M6.5 6C7.33 6 8 6.67 8 7.5S7.33 9 6.5 9 5 8.33 5 7.5 5.67 6 6.5 6M12 14L10.87 16.64L8 16.89L10.18 18.77L9.5 21.58L12 20.09L14.45 21.58L13.8 18.77L16 16.89L13.11 16.64Z",
 "author": "Haley Halcyon"
@@ -26400,6 +27720,14 @@ const icons = [
 "author": "Michael Richins"
 },
 {
+"icon": "keyboard-tab-reverse",
+"google": "false",
+"search": "keyboard-tab-reverse",
+"name": "keyboard-tab-reverse",
+"path": "M4 6H2V18H4M11 6L5 12L11 18L12.41 16.58L8.83 13H23V11H8.83L12.41 7.41L11 6Z",
+"author": "Michael Irigoyen"
+},
+{
 "icon": "keyboard-tab",
 "google": "true",
 "search": "keyboard-tab",
@@ -26440,6 +27768,14 @@ const icons = [
 "author": "Contributors"
 },
 {
+"icon": "kitesurfing",
+"google": "true",
+"search": "kitesurfing",
+"name": "kitesurfing",
+"path": "M16.5 4.5L15.5 3.43L17.92 1H20L16.5 4.5M20.96 23C19.9 23 18.9 22.75 17.96 22.25C16.12 23.25 13.81 23.25 11.97 22.25C10.13 23.25 7.82 23.25 6 22.25C4.77 22.94 3.36 23.05 2 23V21C3.41 21.05 4.77 20.9 6 20C7.74 21.25 10.21 21.25 11.97 20C13.74 21.25 16.2 21.25 17.96 20C19.17 20.9 20.54 21.05 21.94 21V23H20.96M20.35 12.26C18.3 11.5 16.14 12.61 14.08 13.36L12.39 11.5H9.58V8C11.89 8.19 14.29 7.67 15.9 5.96L14.5 4.56C13.6 5.46 12.3 6 11 6H8C6.89 6 5.95 6.92 6 8C6.07 9.35 5.67 12.73 6.45 13.87L8 16.82C7.43 17.23 6.93 17.62 6.5 18C8.09 19.5 10.65 19.17 11.97 17.5C12.91 18.59 14.45 19.3 15.9 18.83C17.45 17.77 22.74 14 20.35 12.26M11.43 14.65C11 14.89 10.16 15.37 9.82 15.61L8.97 13.59L11.46 13.5L12.16 14.25L11.43 14.65M8 1C6.9 1 6 1.9 6 3S6.9 5 8 5 10 4.11 10 3 9.11 1 8 1Z",
+"author": "Google"
+},
+{
 "icon": "klingon",
 "google": "false",
 "search": "klingon",
@@ -26458,7 +27794,7 @@ const icons = [
 {
 "icon": "knife",
 "google": "false",
-"search": "knife",
+"search": "knife,silverware-knife,cutlery-knife",
 "name": "knife",
 "path": "M20.62,2C23.97,7.61 12.47,20.15 12.47,20.15L9.6,17.28L4.91,22L2.77,19.86L20.62,2Z",
 "author": "Augustin Ursu"
@@ -26466,7 +27802,7 @@ const icons = [
 {
 "icon": "koala",
 "google": "false",
-"search": "koala",
+"search": "koala,marsupial,emoji-koala,emoticon-koala,animal",
 "name": "koala",
 "path": "M19 3C18.1 3 15.5 3 14.3 6.1C13.9 6 13.4 6 13 6H11C10.6 6 10.1 6 9.7 6.1C8.5 3 5.9 3 5 3C4 3 1 4 1 9C1 12.6 3.5 13.6 5 13.9V15C5 18.3 7.7 21 11 21H13C16.3 21 19 18.3 19 15V13.9C20.5 13.6 23 12.6 23 9C23 4 20 3 19 3M5 12V12.4C2.9 11.8 3.3 9.5 4.3 8.7C4 8.3 3 9 3 8.6C3 8.1 4.8 7.4 5.1 7.3C4.8 6.8 3.6 7 3.6 6.6C3.6 6.3 4.8 5.8 5.8 6C6.3 6.1 6.9 6.3 7.4 6.7C6 8 5 9.8 5 12M8.5 15C6.5 15 6.5 12 8.5 12C10.5 12 10.5 15 8.5 15M12.5 18H11.5C10.8 18 10.3 17.3 10.6 16.7L11.3 13.7C11.4 13.3 11.8 13.1 12.1 13C12.4 13 12.7 13.2 12.9 13.7L13.6 16.7C13.7 17.3 13.2 18 12.5 18M15.5 15C13.5 15 13.5 12 15.5 12C17.5 12 17.5 15 15.5 15M19.7 8.6C20.7 9.4 21.1 11.7 19 12.3C19.1 10.1 18.1 8 16.6 6.7C17.1 6.3 17.7 6.1 18.2 6C19.2 5.8 20.4 6.2 20.4 6.6C20.4 7 19.2 6.8 18.9 7.2C19.2 7.4 21 8.1 21 8.6C21 9 20.1 8.3 19.7 8.6Z",
 "author": "Contributors"
@@ -26592,12 +27928,28 @@ const icons = [
 "author": "Austin Andrews"
 },
 {
+"icon": "lamp-outline",
+"google": "false",
+"search": "lamp-outline",
+"name": "lamp-outline",
+"path": "M14.56 4L17.23 12H6.78L9.44 4H14.56M16 2H8L4 14H20L16 2M11 15H13V20H18V22H6V20H11V15Z",
+"author": "Michael Irigoyen"
+},
+{
 "icon": "lamp",
 "google": "false",
 "search": "lamp,home automation",
 "name": "lamp",
 "path": "M8,2H16L20,14H4L8,2M11,15H13V20H18V22H6V20H11V15Z",
 "author": "GreenTurtwig"
+},
+{
+"icon": "lamps-outline",
+"google": "false",
+"search": "lamps-outline",
+"name": "lamps-outline",
+"path": "M8.5 4L9.35 7H4.65L5.5 4H8.5M10 2H4L2 9H12L10 2M6 10H8V20H11V22H3V20H6V10M18.5 10L19.35 13H14.65L15.5 10H18.5M20 8H14L12 15H22L20 8M16 16H18V20H21V22H13V20H16V16Z",
+"author": "Michael Irigoyen"
 },
 {
 "icon": "lamps",
@@ -26832,36 +28184,12 @@ const icons = [
 "author": "Contributors"
 },
 {
-"icon": "laptop-chromebook",
-"google": "true",
-"search": "laptop-chromebook,device,tech,home automation",
-"name": "laptop-chromebook",
-"path": "M20,15H4V5H20M14,18H10V17H14M22,18V3H2V18H0V20H24V18H22Z",
-"author": "Google"
-},
-{
-"icon": "laptop-mac",
-"google": "true",
-"search": "laptop-mac,device,tech,home automation",
-"name": "laptop-mac",
-"path": "M12,19A1,1 0 0,1 11,18A1,1 0 0,1 12,17A1,1 0 0,1 13,18A1,1 0 0,1 12,19M4,5H20V16H4M20,18A2,2 0 0,0 22,16V5C22,3.89 21.1,3 20,3H4C2.89,3 2,3.89 2,5V16A2,2 0 0,0 4,18H0A2,2 0 0,0 2,20H22A2,2 0 0,0 24,18H20Z",
-"author": "Google"
-},
-{
 "icon": "laptop-off",
 "google": "false",
 "search": "laptop-off,device,tech",
 "name": "laptop-off",
 "path": "M1,4.27L2.28,3L20,20.72L18.73,22L16.73,20H0V18H4C2.89,18 2,17.1 2,16V6C2,5.78 2.04,5.57 2.1,5.37L1,4.27M4,16H12.73L4,7.27V16M20,16V6H7.82L5.82,4H20A2,2 0 0,1 22,6V16A2,2 0 0,1 20,18H24V20H21.82L17.82,16H20Z",
 "author": "Michael Richins"
-},
-{
-"icon": "laptop-windows",
-"google": "true",
-"search": "laptop-windows,device,tech,home automation",
-"name": "laptop-windows",
-"path": "M3,4H21A1,1 0 0,1 22,5V16A1,1 0 0,1 21,17H22L24,20V21H0V20L2,17H3A1,1 0 0,1 2,16V5A1,1 0 0,1 3,4M4,6V15H20V6H4Z",
-"author": "Google"
 },
 {
 "icon": "laptop",
@@ -27042,7 +28370,7 @@ const icons = [
 {
 "icon": "leaf-off",
 "google": "false",
-"search": "leaf-off,nature,food,drink",
+"search": "leaf-off,nature,food,drink,agriculture",
 "name": "leaf-off",
 "path": "M20.84 22.73L15.14 17.03C13.26 18.79 10.92 20 8 20C7.64 20 7.14 19.87 6.66 19.7L5.71 22L3.82 21.34C5.15 18.03 6.5 14.32 9.66 11.55L8.77 10.66C6.76 12.03 4.86 14.1 3.75 17.25C3.75 17.25 2 15.5 2 13.5C2 12 3.12 9.32 5.72 7.61L1.11 3L2.39 1.73C2.39 1.73 16.39 15.74 16.39 15.74L22.11 21.46L20.84 22.73M17 8C15.35 8.37 13.93 8.88 12.7 9.5L17.5 14.29C20.87 9.35 22 3 22 3C21.03 4.95 14.35 5.24 9.38 6.18L12.15 8.95C14.81 8 17 8 17 8Z",
 "author": "Michael Irigoyen"
@@ -27050,7 +28378,7 @@ const icons = [
 {
 "icon": "leaf",
 "google": "false",
-"search": "leaf,nature,food,drink",
+"search": "leaf,nature,food,drink,agriculture",
 "name": "leaf",
 "path": "M17,8C8,10 5.9,16.17 3.82,21.34L5.71,22L6.66,19.7C7.14,19.87 7.64,20 8,20C19,20 22,3 22,3C21,5 14,5.25 9,6.25C4,7.25 2,11.5 2,13.5C2,15.5 3.75,17.25 3.75,17.25C7,8 17,8 17,8Z",
 "author": "Austin Andrews"
@@ -27192,12 +28520,36 @@ const icons = [
 "author": "Simran"
 },
 {
+"icon": "light-recessed",
+"google": "false",
+"search": "light-recessed,can-light,pot-light,high-hat-light,hi-hat-light,downlight,home automation",
+"name": "light-recessed",
+"path": "M12 7C6.5 7 2 9.46 2 12.5S6.5 18 12 18 22 15.54 22 12.5 17.5 7 12 7M16.5 10C16.5 10.4 14.9 11.54 12 11.54S7.5 10.4 7.5 10C7.5 9.91 7.65 9.74 7.9 9.55C9.06 9.21 10.44 9 12 9S14.94 9.21 16.1 9.55C16.35 9.74 16.5 9.91 16.5 10M12 16C7.12 16 4 13.93 4 12.5C4 11.81 4.73 11 6.03 10.29C6.3 11.83 8.87 13.04 12 13.04C15.13 13.04 17.7 11.83 17.97 10.29C19.27 11 20 11.81 20 12.5C20 13.93 16.88 16 12 16Z",
+"author": "Michael Irigoyen"
+},
+{
 "icon": "light-switch",
 "google": "true",
 "search": "light-switch,home automation",
 "name": "light-switch",
 "path": "M7,1A2,2 0 0,0 5,3V21A2,2 0 0,0 7,23H17A2,2 0 0,0 19,21V3A2,2 0 0,0 17,1H7M7,3H17V21H7V3M9,6V18H15V6H9M10,7H14V11H10V7M10,13H14V17H10V13Z",
 "author": "Google"
+},
+{
+"icon": "lightbulb-auto-outline",
+"google": "false",
+"search": "lightbulb-auto-outline,lightbulb-automatic-outline,lightbulb-motion-outline,home automation",
+"name": "lightbulb-auto-outline",
+"path": "M9 2C12.87 2 16 5.13 16 9C16 11.38 14.81 13.47 13 14.74V17C13 17.55 12.55 18 12 18H6C5.45 18 5 17.55 5 17V14.74C3.19 13.47 2 11.38 2 9C2 5.13 5.13 2 9 2M6 21V20H12V21C12 21.55 11.55 22 11 22H7C6.45 22 6 21.55 6 21M9 4C6.24 4 4 6.24 4 9C4 11.05 5.23 12.81 7 13.58V16H11V13.58C12.77 12.81 14 11.05 14 9C14 6.24 11.76 4 9 4M19 13H17L13.8 22H15.7L16.4 20H19.6L20.3 22H22.2L19 13M16.85 18.65L18 15L19.15 18.65H16.85Z",
+"author": "Michael Irigoyen"
+},
+{
+"icon": "lightbulb-auto",
+"google": "false",
+"search": "lightbulb-auto,lightbulb-automatic,lightbulb-motion,home automation",
+"name": "lightbulb-auto",
+"path": "M9 2C5.13 2 2 5.13 2 9C2 11.38 3.19 13.47 5 14.74V17C5 17.55 5.45 18 6 18H12C12.55 18 13 17.55 13 17V14.74C14.81 13.47 16 11.38 16 9C16 5.13 12.87 2 9 2M6 21C6 21.55 6.45 22 7 22H11C11.55 22 12 21.55 12 21V20H6V21M19 13H17L13.8 22H15.7L16.4 20H19.6L20.3 22H22.2L19 13M16.85 18.65L18 15L19.15 18.65H16.85Z",
+"author": "Michael Irigoyen"
 },
 {
 "icon": "lightbulb-cfl-off",
@@ -27229,6 +28581,22 @@ const icons = [
 "search": "lightbulb-cfl,bulb-cfl,home automation",
 "name": "lightbulb-cfl",
 "path": "M10.5 2C11.88 2 13 3.12 13 4.5V14H14V4.47C14 3.56 13.63 2.7 13 2.05C13.17 2 13.33 2 13.5 2C14.88 2 16 3.12 16 4.5V14H17V17C17 17.55 16.55 18 16 18H8C7.45 18 7 17.55 7 17V14H8V4.5C8 3.12 9.12 2 10.5 2M10.5 4C10.22 4 10 4.22 10 4.5V14H11V4.5C11 4.22 10.78 4 10.5 4M9 20H15V21C15 21.55 14.55 22 14 22H10C9.45 22 9 21.55 9 21V20Z",
+"author": "GreenTurtwig"
+},
+{
+"icon": "lightbulb-fluorescent-tube-outline",
+"google": "false",
+"search": "lightbulb-fluorescent-tube-outline,home automation",
+"name": "lightbulb-fluorescent-tube-outline",
+"path": "M7.05 2.81L6.5 3.34L5.11 1.92L3.87 3.16L5.28 4.58L4.58 5.28L3.16 3.87L1.92 5.11L3.34 6.5L2.81 7.05L4.22 8.46L15.54 19.78L16.95 21.19L17.5 20.66L18.89 22.08L20.13 20.84L18.72 19.43L19.43 18.72L20.84 20.13L22.08 18.89L20.66 17.5L21.19 16.95L19.78 15.54L8.46 4.22M7.05 5.64L18.36 16.95L16.95 18.36L5.64 7.05Z",
+"author": "GreenTurtwig"
+},
+{
+"icon": "lightbulb-fluorescent-tube",
+"google": "false",
+"search": "lightbulb-fluorescent-tube,home automation",
+"name": "lightbulb-fluorescent-tube",
+"path": "M7.05 2.81L6.5 3.34L5.11 1.92L3.87 3.16L5.28 4.58L4.58 5.28L3.16 3.87L1.92 5.11L3.34 6.5L2.81 7.05L16.95 21.19L17.5 20.66L18.89 22.08L20.13 20.84L18.72 19.43L19.42 18.72L20.84 20.13L22.08 18.9L20.66 17.5L21.19 16.95L7.05 2.81Z",
 "author": "GreenTurtwig"
 },
 {
@@ -27336,6 +28704,38 @@ const icons = [
 "author": "Austin Andrews"
 },
 {
+"icon": "lightbulb-spot-off",
+"google": "false",
+"search": "lightbulb-spot-off,lightbulb-halogen-off,lightbulb-gu10-off,home automation",
+"name": "lightbulb-spot-off",
+"path": "M20.84 22.73L15.11 17H9L9 14C6.5 12.57 4 11 4 6V5.89L1.11 3L2.39 1.73L22.11 21.46L20.84 22.73M22 4V2H5.2L7.2 4H22M20 6H9.2L16.37 13.17C18.33 11.87 20 10.07 20 6M13 22H15V19H13V22M9 22H11V19H9L9 22Z",
+"author": "Michael Irigoyen"
+},
+{
+"icon": "lightbulb-spot",
+"google": "false",
+"search": "lightbulb-spot,lightbulb-halogen,lightbulb-gu10,home automation",
+"name": "lightbulb-spot",
+"path": "M9 19H11V22H9L9 19M13 22H15V19H13V22M2 2V4H22V2H2M9 14L9 17H15V14C17.5 12.57 20 11 20 6H4C4 11 6.5 12.57 9 14Z",
+"author": "GreenTurtwig"
+},
+{
+"icon": "lightbulb-variant-outline",
+"google": "false",
+"search": "lightbulb-variant-outline,lightbulb-edison-outline,lightbulb-filament-outline,home automation",
+"name": "lightbulb-variant-outline",
+"path": "M12 2C8.13 2 5 5.13 5 9C5 11.38 6.19 13.47 8 14.74V17C8 17.55 8.45 18 9 18H15C15.55 18 16 17.55 16 17V14.74C17.81 13.47 19 11.38 19 9C19 5.13 15.87 2 12 2M14 13.58V16H13V11.41L14.71 9.71C15.1 9.32 15.1 8.68 14.71 8.29C14.32 7.9 13.68 7.9 13.29 8.29L12 9.59L10.71 8.29C10.32 7.9 9.68 7.9 9.29 8.29C8.9 8.68 8.9 9.32 9.29 9.71L11 11.41V16H10V13.58C8.23 12.81 7 11.05 7 9C7 6.24 9.24 4 12 4S17 6.24 17 9C17 11.05 15.77 12.81 14 13.58M9 20H15V21C15 21.55 14.55 22 14 22H10C9.45 22 9 21.55 9 21V20Z",
+"author": "Michael Irigoyen"
+},
+{
+"icon": "lightbulb-variant",
+"google": "false",
+"search": "lightbulb-variant,lightbulb-edison,lightbulb-filament,home automation",
+"name": "lightbulb-variant",
+"path": "M9 20H15V21C15 21.55 14.55 22 14 22H10C9.45 22 9 21.55 9 21V20M19 9C19 11.38 17.81 13.47 16 14.74V17C16 17.55 15.55 18 15 18H9C8.45 18 8 17.55 8 17V14.74C6.19 13.47 5 11.38 5 9C5 5.13 8.13 2 12 2S19 5.13 19 9M14.71 8.29C14.32 7.9 13.68 7.9 13.29 8.29L12 9.59L10.71 8.29C10.32 7.9 9.68 7.9 9.29 8.29C8.9 8.68 8.9 9.32 9.29 9.71L11 11.41V16H13V11.41L14.71 9.71C15.1 9.32 15.1 8.68 14.71 8.29Z",
+"author": "Michael Irigoyen"
+},
+{
 "icon": "lightbulb",
 "google": "true",
 "search": "lightbulb,idea,bulb,home automation",
@@ -27360,9 +28760,17 @@ const icons = [
 "author": "Michael Irigoyen"
 },
 {
+"icon": "lightning-bolt-circle",
+"google": "true",
+"search": "lightning-bolt-circle,amp,offline-bolt,flash-circle,electricity-circle,energy-circle,thunder-circle,storm-circle,home automation",
+"name": "lightning-bolt-circle",
+"path": "M11.5,20L16.36,10.27H13V4L8,13.73H11.5V20M12,2C14.75,2 17.1,3 19.05,4.95C21,6.9 22,9.25 22,12C22,14.75 21,17.1 19.05,19.05C17.1,21 14.75,22 12,22C9.25,22 6.9,21 4.95,19.05C3,17.1 2,14.75 2,12C2,9.25 3,6.9 4.95,4.95C6.9,3 9.25,2 12,2Z",
+"author": "Google"
+},
+{
 "icon": "lightning-bolt-outline",
 "google": "false",
-"search": "lightning-bolt-outline",
+"search": "lightning-bolt-outline,thunder-outline,storm-outline,energy-outline,electricity-outline,home automation",
 "name": "lightning-bolt-outline",
 "path": "M11 9.47V11H14.76L13 14.53V13H9.24L11 9.47M13 1L6 15H11V23L18 9H13V1Z",
 "author": "Brooke Clifton"
@@ -27370,10 +28778,18 @@ const icons = [
 {
 "icon": "lightning-bolt",
 "google": "false",
-"search": "lightning-bolt",
+"search": "lightning-bolt,thunder,storm,energy,electricity,home automation",
 "name": "lightning-bolt",
 "path": "M11 15H6L13 1V9H18L11 23V15Z",
 "author": "Brooke Clifton"
+},
+{
+"icon": "line-scan",
+"google": "false",
+"search": "line-scan",
+"name": "line-scan",
+"path": "M17 22V20H20V17H22V20.5C22 20.9 21.8 21.2 21.5 21.5C21.2 21.8 20.8 22 20.5 22H17M7 22H3.5C3.1 22 2.8 21.8 2.5 21.5C2.2 21.2 2 20.8 2 20.5V17H4V20H7V22M17 2H20.5C20.9 2 21.2 2.2 21.5 2.5C21.8 2.8 22 3.1 22 3.5V7H20V4H17V2M7 2V4H4V7H2V3.5C2 3.1 2.2 2.8 2.5 2.5S3.1 2 3.5 2H7M19 11H5V13H19V11Z",
+"author": "Contributors"
 },
 {
 "icon": "lingerie",
@@ -27518,6 +28934,14 @@ const icons = [
 "name": "lipstick",
 "path": "M9 23C8.45 23 8 22.55 8 22V13C8 12.45 8.45 12 9 12H15C15.55 12 16 12.45 16 13V22C16 22.55 15.55 23 15 23H9M10 11C9.45 11 9 10.55 9 10V5.25C9 5.25 11 3 11.75 1C12.83 1.67 13.92 2.33 14.46 3.83C15 5.33 15 7.67 15 10C15 10.55 14.55 11 14 11H10Z",
 "author": "Contributors"
+},
+{
+"icon": "liquid-spot",
+"google": "false",
+"search": "liquid-spot,ink-spot,puddle,water,blood,spill,oil,dirty,automotive,medical,hospital",
+"name": "liquid-spot",
+"path": "M18.14 16.7C17.23 18.21 16.08 17.73 15 17.09S12.9 15.68 12.25 16.59C11.54 17.37 12.09 18.62 12.37 19.72C12.65 20.83 12.67 21.79 10.9 22C9.5 21.81 9.58 20.65 9.81 19.42C10.04 18.19 10.4 16.89 9.5 16.43C8.78 15.95 8.28 16.78 7.65 17.6C7 18.41 6.26 19.2 5.04 18.62C3.94 17.71 4.36 17.18 4.94 16.5S6.27 14.91 5.84 13.31C5.66 12.66 4.76 12.81 3.87 12.79C3 12.77 2.12 12.59 2.03 11.29C1.96 10.5 2.55 10.18 3.16 9.93C3.78 9.68 4.41 9.5 4.42 8.87C4.45 8.26 4.04 7.83 3.78 7.38S3.41 6.46 4.03 5.76C5.08 4.9 5.92 5.63 6.76 6.42S8.43 8.04 9.46 7.39C10.28 6.85 9.53 5.9 8.95 4.97S7.96 3.15 9.46 2.74C10.76 2.38 11.26 3.27 11.71 4.3C12.17 5.33 12.57 6.5 13.67 6.71C15.24 7 16.38 5.16 17.47 3.7S19.63 1.15 21 2.95C22.5 4.84 21.07 5.72 19.4 6.5C17.73 7.23 15.81 7.87 16.27 9.28C16.54 10.1 17.42 9.65 18.35 9.34C19.27 9.03 20.26 8.86 20.74 10.27C21.25 11.76 20.04 12.1 18.68 12.24C17.32 12.38 15.8 12.32 15.7 13C15.59 13.71 16.5 14 17.29 14.42C18.08 14.85 18.75 15.42 18.14 16.7M20.5 19C19.55 19 19.06 18.26 19.06 17.5C19.06 16.74 19.54 16 20.5 16C21.5 16 22 16.74 22 17.5C22 18.26 21.5 19 20.5 19Z",
+"author": "Michael Irigoyen"
 },
 {
 "icon": "list-status",
@@ -27944,6 +29368,22 @@ const icons = [
 "author": "Michael Irigoyen"
 },
 {
+"icon": "magazine-pistol",
+"google": "false",
+"search": "magazine-pistol,ammunition-pistol",
+"name": "magazine-pistol",
+"path": "M14 1L12 3H7L9 21H8V23H18V21L16 1M9 5H12L12.24 7H9.24M9.47 9H12.47L12.71 11H9.71M9.94 13H12.94L13.18 15H10.18M10.41 17H13.41L13.65 19H10.65Z",
+"author": "Contributors"
+},
+{
+"icon": "magazine-rifle",
+"google": "false",
+"search": "magazine-rifle,ammunition-rifle",
+"name": "magazine-rifle",
+"path": "M7 1V3H8V13L5 19L14 23L18 13V3H19V1M10 3H16V5H11.88V13.45L9.6 18.14L8 17.5L10 13.5Z",
+"author": "Contributors"
+},
+{
 "icon": "magnet-on",
 "google": "false",
 "search": "magnet-on",
@@ -28170,7 +29610,7 @@ const icons = [
 {
 "icon": "map-marker-alert-outline",
 "google": "false",
-"search": "map-marker-alert-outline,navigation,alert,error,geographic information system",
+"search": "map-marker-alert-outline,location-alert-outline,location-warning-outline,navigation,alert,error,geographic information system",
 "name": "map-marker-alert-outline",
 "path": "M12,2A7,7 0 0,1 19,9C19,14.25 12,22 12,22C12,22 5,14.25 5,9A7,7 0 0,1 12,2M12,4A5,5 0 0,0 7,9C7,10 7,12 12,18.71C17,12 17,10 17,9A5,5 0 0,0 12,4M11,6H13V11H11V6M11,13H13V15H11V13Z",
 "author": "François Risoud"
@@ -28178,7 +29618,7 @@ const icons = [
 {
 "icon": "map-marker-alert",
 "google": "false",
-"search": "map-marker-alert,navigation,alert,error,geographic information system",
+"search": "map-marker-alert,location-alert,location-warning,navigation,alert,error,geographic information system",
 "name": "map-marker-alert",
 "path": "M12 2C15.9 2 19 5.1 19 9C19 14.2 12 22 12 22S5 14.2 5 9C5 5.1 8.1 2 12 2M11 6V12H13V6H11M11 14V16H13V14H11Z",
 "author": "François Risoud"
@@ -28186,7 +29626,7 @@ const icons = [
 {
 "icon": "map-marker-check-outline",
 "google": "false",
-"search": "map-marker-check-outline,navigation,geographic information system",
+"search": "map-marker-check-outline,location-check-outline,where-to-vote-outline,navigation,geographic information system",
 "name": "map-marker-check-outline",
 "path": "M12 4C14.8 4 17 6.2 17 9C17 11.9 14.1 16.2 12 18.9C9.9 16.2 7 11.9 7 9C7 6.2 9.2 4 12 4M12 2C8.1 2 5 5.1 5 9C5 14.2 12 22 12 22S19 14.2 19 9C19 5.1 15.9 2 12 2M11.3 14L16.2 9L14.8 7.6L11.3 11.2L9.7 9.6L8.3 11L11.3 14Z",
 "author": "Michael Irigoyen"
@@ -28194,7 +29634,7 @@ const icons = [
 {
 "icon": "map-marker-check",
 "google": "true",
-"search": "map-marker-check,map-marker-tick,where-to-vote,navigation,geographic information system",
+"search": "map-marker-check,map-marker-tick,where-to-vote,location-check,navigation,geographic information system",
 "name": "map-marker-check",
 "path": "M12,2C15.86,2 19,5.14 19,9C19,14.25 12,22 12,22C12,22 5,14.25 5,9C5,5.14 8.14,2 12,2M10.47,14L17,7.41L15.6,6L10.47,11.18L8.4,9.09L7,10.5L10.47,14Z",
 "author": "Google"
@@ -28202,7 +29642,7 @@ const icons = [
 {
 "icon": "map-marker-circle",
 "google": "true",
-"search": "map-marker-circle,explore-nearby,navigation,geographic information system",
+"search": "map-marker-circle,explore-nearby,location-circle,navigation,geographic information system",
 "name": "map-marker-circle",
 "path": "M12,20A8,8 0 0,1 4,12A8,8 0 0,1 12,4A8,8 0 0,1 20,12A8,8 0 0,1 12,20M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2M12,12.5A1.5,1.5 0 0,1 10.5,11A1.5,1.5 0 0,1 12,9.5A1.5,1.5 0 0,1 13.5,11A1.5,1.5 0 0,1 12,12.5M12,7.2C9.9,7.2 8.2,8.9 8.2,11C8.2,14 12,17.5 12,17.5C12,17.5 15.8,14 15.8,11C15.8,8.9 14.1,7.2 12,7.2Z",
 "author": "Google"
@@ -28210,7 +29650,7 @@ const icons = [
 {
 "icon": "map-marker-distance",
 "google": "false",
-"search": "map-marker-distance,navigation,geographic information system",
+"search": "map-marker-distance,location-distance,navigation,geographic information system",
 "name": "map-marker-distance",
 "path": "M6.5,8.11C5.61,8.11 4.89,7.39 4.89,6.5A1.61,1.61 0 0,1 6.5,4.89C7.39,4.89 8.11,5.61 8.11,6.5V6.5A1.61,1.61 0 0,1 6.5,8.11M6.5,2C4,2 2,4 2,6.5C2,9.87 6.5,14.86 6.5,14.86C6.5,14.86 11,9.87 11,6.5C11,4 9,2 6.5,2M17.5,8.11A1.61,1.61 0 0,1 15.89,6.5C15.89,5.61 16.61,4.89 17.5,4.89C18.39,4.89 19.11,5.61 19.11,6.5A1.61,1.61 0 0,1 17.5,8.11M17.5,2C15,2 13,4 13,6.5C13,9.87 17.5,14.86 17.5,14.86C17.5,14.86 22,9.87 22,6.5C22,4 20,2 17.5,2M17.5,16C16.23,16 15.1,16.8 14.68,18H9.32C8.77,16.44 7.05,15.62 5.5,16.17C3.93,16.72 3.11,18.44 3.66,20C4.22,21.56 5.93,22.38 7.5,21.83C8.35,21.53 9,20.85 9.32,20H14.69C15.24,21.56 16.96,22.38 18.5,21.83C20.08,21.28 20.9,19.56 20.35,18C19.92,16.8 18.78,16 17.5,16V16M17.5,20.5A1.5,1.5 0 0,1 16,19A1.5,1.5 0 0,1 17.5,17.5A1.5,1.5 0 0,1 19,19A1.5,1.5 0 0,1 17.5,20.5Z",
 "author": "Michael Richins"
@@ -28218,7 +29658,7 @@ const icons = [
 {
 "icon": "map-marker-down",
 "google": "false",
-"search": "map-marker-down,navigation,geographic information system",
+"search": "map-marker-down,location-down,navigation,geographic information system",
 "name": "map-marker-down",
 "path": "M12 2A7 7 0 0 0 5 9C5 14.25 12 22 12 22S19 14.25 19 9A7 7 0 0 0 12 2M7.5 10H10V5H14V10H16.5L12 14.5Z",
 "author": "François Risoud"
@@ -28226,7 +29666,7 @@ const icons = [
 {
 "icon": "map-marker-left-outline",
 "google": "false",
-"search": "map-marker-left-outline,navigation,geographic information system",
+"search": "map-marker-left-outline,location-left-outline,navigation,geographic information system",
 "name": "map-marker-left-outline",
 "path": "M15 6.5C16.38 6.5 17.5 7.62 17.5 9S16.38 11.5 15 11.5 12.5 10.38 12.5 9 13.62 6.5 15 6.5M15 2C18.87 2 22 5.13 22 9C22 14.25 15 22 15 22S8 14.25 8 9C8 5.13 11.13 2 15 2M10 9C10 10 10 12 15 18.71C20 12 20 10 20 9C20 6.24 17.76 4 15 4S10 6.24 10 9M6 7L1 12L6 17V7Z",
 "author": "Michael Irigoyen"
@@ -28234,7 +29674,7 @@ const icons = [
 {
 "icon": "map-marker-left",
 "google": "false",
-"search": "map-marker-left,navigation,geographic information system",
+"search": "map-marker-left,location-left,navigation,geographic information system",
 "name": "map-marker-left",
 "path": "M15 11.5C13.62 11.5 12.5 10.38 12.5 9S13.62 6.5 15 6.5 17.5 7.62 17.5 9 16.38 11.5 15 11.5M8 9C8 14.25 15 22 15 22S22 14.25 22 9C22 5.13 18.87 2 15 2S8 5.13 8 9M6 7L1 12L6 17V7Z",
 "author": "Michael Irigoyen"
@@ -28242,7 +29682,7 @@ const icons = [
 {
 "icon": "map-marker-minus-outline",
 "google": "false",
-"search": "map-marker-minus-outline,geographic information system,navigation",
+"search": "map-marker-minus-outline,location-minus-outline,geographic information system,navigation",
 "name": "map-marker-minus-outline",
 "path": "M15 17H23V19H15V17M9 6.5C10.4 6.5 11.5 7.6 11.5 9S10.4 11.5 9 11.5 6.5 10.4 6.5 9 7.6 6.5 9 6.5M9 2C12.9 2 16 5.1 16 9C16 14.2 9 22 9 22S2 14.2 2 9C2 5.1 5.1 2 9 2M9 4C6.2 4 4 6.2 4 9C4 10 4 12 9 18.7C14 12 14 10 14 9C14 6.2 11.8 4 9 4Z",
 "author": "Michael Irigoyen"
@@ -28250,7 +29690,7 @@ const icons = [
 {
 "icon": "map-marker-minus",
 "google": "false",
-"search": "map-marker-minus,navigation,geographic information system",
+"search": "map-marker-minus,location-minus,navigation,geographic information system",
 "name": "map-marker-minus",
 "path": "M9,11.5A2.5,2.5 0 0,0 11.5,9A2.5,2.5 0 0,0 9,6.5A2.5,2.5 0 0,0 6.5,9A2.5,2.5 0 0,0 9,11.5M9,2C12.86,2 16,5.13 16,9C16,14.25 9,22 9,22C9,22 2,14.25 2,9A7,7 0 0,1 9,2M15,17H23V19H15V17Z",
 "author": "Simran"
@@ -28258,7 +29698,7 @@ const icons = [
 {
 "icon": "map-marker-multiple-outline",
 "google": "false",
-"search": "map-marker-multiple-outline,navigation,geographic information system",
+"search": "map-marker-multiple-outline,locations-outline,location-multiple-outline,map-markers-outline,navigation,geographic information system",
 "name": "map-marker-multiple-outline",
 "path": "M11.5 9C11.5 7.62 12.62 6.5 14 6.5C15.1 6.5 16.03 7.21 16.37 8.19C16.45 8.45 16.5 8.72 16.5 9C16.5 10.38 15.38 11.5 14 11.5C12.91 11.5 12 10.81 11.64 9.84C11.55 9.58 11.5 9.29 11.5 9M5 9C5 13.5 10.08 19.66 11 20.81L10 22C10 22 3 14.25 3 9C3 5.83 5.11 3.15 8 2.29C6.16 3.94 5 6.33 5 9M14 2C17.86 2 21 5.13 21 9C21 14.25 14 22 14 22C14 22 7 14.25 7 9C7 5.13 10.14 2 14 2M14 4C11.24 4 9 6.24 9 9C9 10 9 12 14 18.71C19 12 19 10 19 9C19 6.24 16.76 4 14 4Z",
 "author": "Austin Andrews"
@@ -28266,7 +29706,7 @@ const icons = [
 {
 "icon": "map-marker-multiple",
 "google": "false",
-"search": "map-marker-multiple,map-markers,navigation,geographic information system",
+"search": "map-marker-multiple,map-markers,location-multiple,locations,navigation,geographic information system",
 "name": "map-marker-multiple",
 "path": "M14,11.5A2.5,2.5 0 0,0 16.5,9A2.5,2.5 0 0,0 14,6.5A2.5,2.5 0 0,0 11.5,9A2.5,2.5 0 0,0 14,11.5M14,2C17.86,2 21,5.13 21,9C21,14.25 14,22 14,22C14,22 7,14.25 7,9A7,7 0 0,1 14,2M5,9C5,13.5 10.08,19.66 11,20.81L10,22C10,22 3,14.25 3,9C3,5.83 5.11,3.15 8,2.29C6.16,3.94 5,6.33 5,9Z",
 "author": "Austin Andrews"
@@ -28274,7 +29714,7 @@ const icons = [
 {
 "icon": "map-marker-off-outline",
 "google": "false",
-"search": "map-marker-off-outline,navigation,geographic information system",
+"search": "map-marker-off-outline,location-off-outline,navigation,geographic information system",
 "name": "map-marker-off-outline",
 "path": "M20 19.7L3.3 3L2 4.3L5.2 7.5C5.1 8 5 8.5 5 9C5 14.2 12 22 12 22S13.7 20.1 15.4 17.6L18.8 21L20 19.7M12 18.7C7.4 12.5 7 10.4 7 9.3L13.8 16.1C13.3 16.9 12.7 17.7 12 18.7M8.4 5.6L7 4.2C8.2 2.8 10 2 12 2C15.9 2 19 5.1 19 9C19 10.7 18.3 12.6 17.3 14.5L15.8 13C17 10.6 17 9.6 17 9C17 6.2 14.8 4 12 4C10.6 4 9.3 4.6 8.4 5.6M12 6.5C13.4 6.5 14.5 7.6 14.5 9C14.5 9.7 14.2 10.4 13.7 10.9L10.2 7.4C10.6 6.8 11.3 6.5 12 6.5Z",
 "author": "Michael Irigoyen"
@@ -28290,7 +29730,7 @@ const icons = [
 {
 "icon": "map-marker-outline",
 "google": "true",
-"search": "map-marker-outline,navigation,geographic information system",
+"search": "map-marker-outline,location-outline,address-marker-outline,location-on-outline,place-outline,navigation,geographic information system",
 "name": "map-marker-outline",
 "path": "M12,6.5A2.5,2.5 0 0,1 14.5,9A2.5,2.5 0 0,1 12,11.5A2.5,2.5 0 0,1 9.5,9A2.5,2.5 0 0,1 12,6.5M12,2A7,7 0 0,1 19,9C19,14.25 12,22 12,22C12,22 5,14.25 5,9A7,7 0 0,1 12,2M12,4A5,5 0 0,0 7,9C7,10 7,12 12,18.71C17,12 17,10 17,9A5,5 0 0,0 12,4Z",
 "author": "Google"
@@ -28298,7 +29738,7 @@ const icons = [
 {
 "icon": "map-marker-path",
 "google": "false",
-"search": "map-marker-path,navigation,geographic information system",
+"search": "map-marker-path,location-path,navigation,geographic information system",
 "name": "map-marker-path",
 "path": "M18,15A3,3 0 0,1 21,18A3,3 0 0,1 18,21C16.69,21 15.58,20.17 15.17,19H14V17H15.17C15.58,15.83 16.69,15 18,15M18,17A1,1 0 0,0 17,18A1,1 0 0,0 18,19A1,1 0 0,0 19,18A1,1 0 0,0 18,17M18,8A1.43,1.43 0 0,0 19.43,6.57C19.43,5.78 18.79,5.14 18,5.14C17.21,5.14 16.57,5.78 16.57,6.57A1.43,1.43 0 0,0 18,8M18,2.57A4,4 0 0,1 22,6.57C22,9.56 18,14 18,14C18,14 14,9.56 14,6.57A4,4 0 0,1 18,2.57M8.83,17H10V19H8.83C8.42,20.17 7.31,21 6,21A3,3 0 0,1 3,18C3,16.69 3.83,15.58 5,15.17V14H7V15.17C7.85,15.47 8.53,16.15 8.83,17M6,17A1,1 0 0,0 5,18A1,1 0 0,0 6,19A1,1 0 0,0 7,18A1,1 0 0,0 6,17M6,3A3,3 0 0,1 9,6C9,7.31 8.17,8.42 7,8.83V10H5V8.83C3.83,8.42 3,7.31 3,6A3,3 0 0,1 6,3M6,5A1,1 0 0,0 5,6A1,1 0 0,0 6,7A1,1 0 0,0 7,6A1,1 0 0,0 6,5M11,19V17H13V19H11M7,13H5V11H7V13Z",
 "author": "Austin Andrews"
@@ -28306,7 +29746,7 @@ const icons = [
 {
 "icon": "map-marker-plus-outline",
 "google": "false",
-"search": "map-marker-plus-outline,geographic information system,navigation",
+"search": "map-marker-plus-outline,map-marker-add-outline,location-plus-outline,location-add-outline,geographic information system,navigation",
 "name": "map-marker-plus-outline",
 "path": "M15 17H18V14H20V17H23V19H20V22H18V19H15V17M9 6.5C10.4 6.5 11.5 7.6 11.5 9S10.4 11.5 9 11.5 6.5 10.4 6.5 9 7.6 6.5 9 6.5M9 2C12.9 2 16 5.1 16 9C16 14.2 9 22 9 22S2 14.2 2 9C2 5.1 5.1 2 9 2M9 4C6.2 4 4 6.2 4 9C4 10 4 12 9 18.7C14 12 14 10 14 9C14 6.2 11.8 4 9 4Z",
 "author": "Michael Irigoyen"
@@ -28314,7 +29754,7 @@ const icons = [
 {
 "icon": "map-marker-plus",
 "google": "false",
-"search": "map-marker-plus,add-location,navigation,geographic information system",
+"search": "map-marker-plus,location-plus,map-marker-add,location-add,navigation,geographic information system",
 "name": "map-marker-plus",
 "path": "M9,11.5A2.5,2.5 0 0,0 11.5,9A2.5,2.5 0 0,0 9,6.5A2.5,2.5 0 0,0 6.5,9A2.5,2.5 0 0,0 9,11.5M9,2C12.86,2 16,5.13 16,9C16,14.25 9,22 9,22C9,22 2,14.25 2,9A7,7 0 0,1 9,2M15,17H18V14H20V17H23V19H20V22H18V19H15V17Z",
 "author": "Simran"
@@ -28322,7 +29762,7 @@ const icons = [
 {
 "icon": "map-marker-question-outline",
 "google": "true",
-"search": "map-marker-question-outline,navigation,geographic information system",
+"search": "map-marker-question-outline,location-question-outline,navigation,geographic information system",
 "name": "map-marker-question-outline",
 "path": "M12,1C7.59,1 4,4.59 4,9C4,14.57 10.96,22.34 11.26,22.67L12,23.5L12.74,22.67C13.04,22.34 20,14.57 20,9C20,4.59 16.41,1 12,1M12,20.47C9.82,17.86 6,12.54 6,9A6,6 0 0,1 12,3A6,6 0 0,1 18,9C18,12.83 13.75,18.36 12,20.47M11.13,14H12.88V15.75H11.13M12,5A3.5,3.5 0 0,0 8.5,8.5H10.25A1.75,1.75 0 0,1 12,6.75A1.75,1.75 0 0,1 13.75,8.5C13.75,10.26 11.13,10.04 11.13,12.88H12.88C12.88,10.91 15.5,10.69 15.5,8.5A3.5,3.5 0 0,0 12,5Z",
 "author": "Google"
@@ -28330,7 +29770,7 @@ const icons = [
 {
 "icon": "map-marker-question",
 "google": "true",
-"search": "map-marker-question,navigation,geographic information system",
+"search": "map-marker-question,location-question,navigation,geographic information system",
 "name": "map-marker-question",
 "path": "M12,2C8.14,2 5,5.14 5,9C5,14.25 12,22 12,22C12,22 19,14.25 19,9C19,5.14 15.86,2 12,2M12.88,15.75H11.13V14H12.88M12.88,12.88H11.13C11.13,10.04 13.75,10.26 13.75,8.5A1.75,1.75 0 0,0 12,6.75A1.75,1.75 0 0,0 10.25,8.5H8.5A3.5,3.5 0 0,1 12,5A3.5,3.5 0 0,1 15.5,8.5C15.5,10.69 12.88,10.91 12.88,12.88Z",
 "author": "Google"
@@ -28338,7 +29778,7 @@ const icons = [
 {
 "icon": "map-marker-radius-outline",
 "google": "false",
-"search": "map-marker-radius-outline,navigation,geographic information system",
+"search": "map-marker-radius-outline,location-radius-outline,navigation,geographic information system,home automation",
 "name": "map-marker-radius-outline",
 "path": "M12 4C14.2 4 16 5.8 16 8C16 10.1 13.9 13.5 12 15.9C10.1 13.4 8 10.1 8 8C8 5.8 9.8 4 12 4M12 2C8.7 2 6 4.7 6 8C6 12.5 12 19 12 19S18 12.4 18 8C18 4.7 15.3 2 12 2M12 6C10.9 6 10 6.9 10 8S10.9 10 12 10 14 9.1 14 8 13.1 6 12 6M20 19C20 21.2 16.4 23 12 23S4 21.2 4 19C4 17.7 5.2 16.6 7.1 15.8L7.7 16.7C6.7 17.2 6 17.8 6 18.5C6 19.9 8.7 21 12 21S18 19.9 18 18.5C18 17.8 17.3 17.2 16.2 16.7L16.8 15.8C18.8 16.6 20 17.7 20 19Z",
 "author": "Michael Irigoyen"
@@ -28346,7 +29786,7 @@ const icons = [
 {
 "icon": "map-marker-radius",
 "google": "false",
-"search": "map-marker-radius,navigation,geographic information system",
+"search": "map-marker-radius,location-radius,navigation,geographic information system,home automation",
 "name": "map-marker-radius",
 "path": "M12,2C15.31,2 18,4.66 18,7.95C18,12.41 12,19 12,19C12,19 6,12.41 6,7.95C6,4.66 8.69,2 12,2M12,6A2,2 0 0,0 10,8A2,2 0 0,0 12,10A2,2 0 0,0 14,8A2,2 0 0,0 12,6M20,19C20,21.21 16.42,23 12,23C7.58,23 4,21.21 4,19C4,17.71 5.22,16.56 7.11,15.83L7.75,16.74C6.67,17.19 6,17.81 6,18.5C6,19.88 8.69,21 12,21C15.31,21 18,19.88 18,18.5C18,17.81 17.33,17.19 16.25,16.74L16.89,15.83C18.78,16.56 20,17.71 20,19Z",
 "author": "Austin Andrews"
@@ -28354,7 +29794,7 @@ const icons = [
 {
 "icon": "map-marker-remove-outline",
 "google": "false",
-"search": "map-marker-remove-outline,geographic information system,navigation",
+"search": "map-marker-remove-outline,location-remove-outline,geographic information system,navigation",
 "name": "map-marker-remove-outline",
 "path": "M16.6 14.2L15.2 15.6L17.6 18L15.2 20.4L16.6 21.8L19 19.4L21.4 21.8L22.8 20.4L20.4 18L22.8 15.6L21.4 14.2L19 16.6M9 6.5C10.4 6.5 11.5 7.6 11.5 9S10.4 11.5 9 11.5 6.5 10.4 6.5 9 7.6 6.5 9 6.5M9 2C12.9 2 16 5.1 16 9C16 14.2 9 22 9 22S2 14.2 2 9C2 5.1 5.1 2 9 2M9 4C6.2 4 4 6.2 4 9C4 10 4 12 9 18.7C14 12 14 10 14 9C14 6.2 11.8 4 9 4Z",
 "author": "Michael Irigoyen"
@@ -28362,7 +29802,7 @@ const icons = [
 {
 "icon": "map-marker-remove-variant",
 "google": "false",
-"search": "map-marker-remove-variant,navigation,geographic information system",
+"search": "map-marker-remove-variant,location-remove-variant-outline,navigation,geographic information system",
 "name": "map-marker-remove-variant",
 "path": "M12,2C8.14,2 5,5.14 5,9C5,14.25 12,22 12,22C12,22 19,14.25 19,9C19,5.14 15.86,2 12,2M9.59,5.17L12,7.58L14.41,5.17L15.83,6.58L13.41,9L15.83,11.41L14.41,12.83L12,10.41L9.59,12.83L8.17,11.41L10.59,9L8.17,6.58",
 "author": "GreenTurtwig"
@@ -28370,7 +29810,7 @@ const icons = [
 {
 "icon": "map-marker-remove",
 "google": "false",
-"search": "map-marker-remove,navigation,geographic information system",
+"search": "map-marker-remove,location-remove,navigation,geographic information system",
 "name": "map-marker-remove",
 "path": "M9,2C5.14,2 2,5.14 2,9C2,14.25 9,22 9,22C9,22 16,14.25 16,9A7,7 0 0,0 9,2M9,6.5A2.5,2.5 0 0,1 11.5,9A2.5,2.5 0 0,1 9,11.5A2.5,2.5 0 0,1 6.5,9A2.5,2.5 0 0,1 9,6.5M16.58,14.16L15.17,15.58L17.58,18L15.17,20.41L16.58,21.82L19,19.41L21.41,21.82L22.83,20.41L20.41,18L22.83,15.58L21.41,14.16L19,16.58",
 "author": "GreenTurtwig"
@@ -28378,7 +29818,7 @@ const icons = [
 {
 "icon": "map-marker-right-outline",
 "google": "false",
-"search": "map-marker-right-outline,navigation,geographic information system",
+"search": "map-marker-right-outline,location-right-outline,navigation,geographic information system",
 "name": "map-marker-right-outline",
 "path": "M9 6.5C10.38 6.5 11.5 7.62 11.5 9S10.38 11.5 9 11.5 6.5 10.38 6.5 9 7.62 6.5 9 6.5M9 2C12.87 2 16 5.13 16 9C16 14.25 9 22 9 22S2 14.25 2 9C2 5.13 5.13 2 9 2M9 4C6.24 4 4 6.24 4 9C4 10 4 12 9 18.71C14 12 14 10 14 9C14 6.24 11.76 4 9 4M18 17L23 12L18 7V17Z",
 "author": "Michael Irigoyen"
@@ -28386,7 +29826,7 @@ const icons = [
 {
 "icon": "map-marker-right",
 "google": "false",
-"search": "map-marker-right,navigation,geographic information system",
+"search": "map-marker-right,location-right,navigation,geographic information system",
 "name": "map-marker-right",
 "path": "M9 11.5C7.62 11.5 6.5 10.38 6.5 9S7.62 6.5 9 6.5 11.5 7.62 11.5 9 10.38 11.5 9 11.5M9 2C5.13 2 2 5.13 2 9C2 14.25 9 22 9 22S16 14.25 16 9C16 5.13 12.87 2 9 2M18 17L23 12L18 7V17Z",
 "author": "Michael Irigoyen"
@@ -28394,7 +29834,7 @@ const icons = [
 {
 "icon": "map-marker-star-outline",
 "google": "false",
-"search": "map-marker-star-outline,map-marker-favorite-outline,navigation",
+"search": "map-marker-star-outline,map-marker-favorite-outline,location-star-outline,location-favorite-outline,navigation",
 "name": "map-marker-star-outline",
 "path": "M12 2C15.9 2 19 5.1 19 9C19 14.2 12 22 12 22S5 14.2 5 9C5 5.1 8.1 2 12 2M12 4C9.2 4 7 6.2 7 9C7 10 7 12 12 18.7C17 12 17 10 17 9C17 6.2 14.8 4 12 4M12 11.5L14.4 13L13.8 10.2L16 8.3L13.1 8.1L12 5.4L10.9 8L8 8.3L10.2 10.2L9.5 13L12 11.5Z",
 "author": "Michael Irigoyen"
@@ -28402,7 +29842,7 @@ const icons = [
 {
 "icon": "map-marker-star",
 "google": "false",
-"search": "map-marker-star,map-marker-favorite,navigation",
+"search": "map-marker-star,map-marker-favorite,location-star,location-favorite,navigation",
 "name": "map-marker-star",
 "path": "M12 2C8.1 2 5 5.1 5 9C5 14.2 12 22 12 22S19 14.2 19 9C19 5.1 15.9 2 12 2M14.5 13L12 11.5L9.5 13L10.2 10.2L8 8.3L10.9 8.1L12 5.4L13.1 8L16 8.3L13.8 10.2L14.5 13Z",
 "author": "Michael Irigoyen"
@@ -28410,7 +29850,7 @@ const icons = [
 {
 "icon": "map-marker-up",
 "google": "false",
-"search": "map-marker-up,navigation,geographic information system",
+"search": "map-marker-up,location-up,navigation,geographic information system",
 "name": "map-marker-up",
 "path": "M12 2A7 7 0 0 0 5 9C5 14.25 12 22 12 22S19 14.25 19 9A7 7 0 0 0 12 2M16.5 9H14V14H10V9H7.5L12 4.5Z",
 "author": "François Risoud"
@@ -28654,6 +30094,22 @@ const icons = [
 "name": "memory",
 "path": "M17,17H7V7H17M21,11V9H19V7C19,5.89 18.1,5 17,5H15V3H13V5H11V3H9V5H7C5.89,5 5,5.89 5,7V9H3V11H5V13H3V15H5V17A2,2 0 0,0 7,19H9V21H11V19H13V21H15V19H17A2,2 0 0,0 19,17V15H21V13H19V11M13,13H11V11H13M15,9H9V15H15V9Z",
 "author": "Google"
+},
+{
+"icon": "menorah-fire",
+"google": "false",
+"search": "menorah-fire,menorah-flame,candle-flame,candelabra-flame,candelabra-fire,candle-fire,candelabrum-fire,candelabrum-flame,religion",
+"name": "menorah-fire",
+"path": "M21.5 11.15V10C21.5 9.45 21.05 9 20.5 9H19.5C18.95 9 18.5 9.45 18.5 10V11H17.5V10C17.5 9.45 17.05 9 16.5 9H15.5C14.95 9 14.5 9.45 14.5 10V11H13.5V8C13.5 7.45 13.05 7 12.5 7H11.5C10.95 7 10.5 7.45 10.5 8V11H9.5V10C9.5 9.45 9.05 9 8.5 9H7.5C6.95 9 6.5 9.45 6.5 10V11H5.5V10C5.5 9.45 5.05 9 4.5 9H3.5C2.95 9 2.5 9.45 2.5 10V11.15C2.21 11.33 2 11.63 2 12C2 12.55 2.45 13 3 13H4.25C4.95 14.92 6.94 17.58 11 17.95V20H10C8.9 20 8 20.9 8 22H16C16 20.9 15.11 20 14 20H13V17.95C17.06 17.57 19.05 14.92 19.75 13H21C21.55 13 22 12.55 22 12C22 11.63 21.79 11.33 21.5 11.15M6.45 13H11V15.94C8.34 15.63 7.05 14.11 6.45 13M13 15.94V13H17.55C16.95 14.11 15.66 15.63 13 15.94M12 6C12.83 6 13.5 5.33 13.5 4.5C13.5 3.67 12.83 2 12 2S10.5 3.67 10.5 4.5C10.5 5.33 11.17 6 12 6M12 4.25C12.28 4.25 12.5 4.47 12.5 4.75S12.28 5.25 12 5.25 11.5 5.03 11.5 4.75 11.72 4.25 12 4.25M16 8C16.83 8 17.5 7.33 17.5 6.5C17.5 5.67 16.83 4 16 4S14.5 5.67 14.5 6.5C14.5 7.33 15.17 8 16 8M16 6.25C16.28 6.25 16.5 6.47 16.5 6.75S16.28 7.25 16 7.25 15.5 7.03 15.5 6.75 15.72 6.25 16 6.25M20 8C20.83 8 21.5 7.33 21.5 6.5C21.5 5.67 20.83 4 20 4S18.5 5.67 18.5 6.5C18.5 7.33 19.17 8 20 8M20 6.25C20.28 6.25 20.5 6.47 20.5 6.75S20.28 7.25 20 7.25 19.5 7.03 19.5 6.75 19.72 6.25 20 6.25M4 8C4.83 8 5.5 7.33 5.5 6.5C5.5 5.67 4.83 4 4 4S2.5 5.67 2.5 6.5C2.5 7.33 3.17 8 4 8M4 6.25C4.28 6.25 4.5 6.47 4.5 6.75S4.28 7.25 4 7.25 3.5 7.03 3.5 6.75 3.72 6.25 4 6.25M8 8C8.83 8 9.5 7.33 9.5 6.5C9.5 5.67 8.83 4 8 4S6.5 5.67 6.5 6.5C6.5 7.33 7.17 8 8 8M8 6.25C8.28 6.25 8.5 6.47 8.5 6.75S8.28 7.25 8 7.25 7.5 7.03 7.5 6.75 7.72 6.25 8 6.25Z",
+"author": "Colton Wiscombe"
+},
+{
+"icon": "menorah",
+"google": "false",
+"search": "menorah,candelabrum,candelabra,candle,religion",
+"name": "menorah",
+"path": "M21 11V6L19 5V11H17V6L15 5V11H13V3L11 2V11H9V6L7 5V11H5V6L3 5V11C2.45 11 2 11.45 2 12S2.45 13 3 13H4.25C4.95 14.92 6.94 17.58 11 17.95V20H10C8.9 20 8 20.9 8 22H16C16 20.9 15.11 20 14 20H13V17.95C17.06 17.57 19.05 14.92 19.75 13H21C21.55 13 22 12.55 22 12S21.55 11 21 11M11 15.94C8.34 15.63 7.05 14.11 6.45 13H11V15.94M13 15.94V13H17.55C16.95 14.11 15.66 15.63 13 15.94Z",
+"author": "Colton Wiscombe"
 },
 {
 "icon": "menu-down-outline",
@@ -29048,6 +30504,22 @@ const icons = [
 "author": "Michael Richins"
 },
 {
+"icon": "message-star-outline",
+"google": "false",
+"search": "message-star-outline",
+"name": "message-star-outline",
+"path": "M20 2H4C2.9 2 2 2.9 2 4V22L6 18H20C21.1 18 22 17.1 22 16V4C22 2.9 21.1 2 20 2M20 16H5.2L4 17.2V4H20V16M12 12.4L14.6 14L13.9 11L16.2 9L13.2 8.7L12 6L10.8 8.8L7.8 9L10.1 11L9.4 14L12 12.4Z",
+"author": "Contributors"
+},
+{
+"icon": "message-star",
+"google": "false",
+"search": "message-star",
+"name": "message-star",
+"path": "M20 2H4C2.9 2 2 2.9 2 4V22L6 18H20C21.1 18 22 17.1 22 16V4C22 2.9 21.1 2 20 2M14.6 14L12 12.4L9.4 14L10.1 11L7.8 9L10.8 8.7L12 6L13.2 8.8L16.2 9.1L13.9 11.1L14.6 14Z",
+"author": "Contributors"
+},
+{
 "icon": "message-text-clock-outline",
 "google": "false",
 "search": "message-text-clock-outline,date,time",
@@ -29256,14 +30728,6 @@ const icons = [
 "author": "Contributors"
 },
 {
-"icon": "microsoft-edge-legacy",
-"google": "false",
-"search": "microsoft-edge-legacy,brand,logo",
-"name": "microsoft-edge-legacy",
-"path": "M 2.73675,10.8077C 3.8293,-1.36109 22.5157,-1.36109 21.1971,13.5579L 8.61392,13.5579C 8.61392,17.8527 14.4157,19.209 19.5394,16.3081L 19.5394,20.5276C 13.2478,23.8806 4.9972,21.4318 4.9972,14.0853C 4.9972,8.58476 9.97019,6.8142 9.97019,6.8142C 9.97019,6.8142 8.57624,8.58489 8.53857,10.0542L 15.6967,10.0542C 15.6967,2.93376 5.90137,5.57095 2.73675,10.8077 Z",
-"author": "Contributors"
-},
-{
 "icon": "microsoft-edge",
 "google": "false",
 "search": "microsoft-edge,microsoft-edge,brand,logo",
@@ -29386,7 +30850,7 @@ const icons = [
 {
 "icon": "microsoft-xbox-controller-battery-alert",
 "google": "false",
-"search": "microsoft-xbox-controller-battery-alert,xbox-controller-battery-warning,battery,gaming,rpg,alert,error",
+"search": "microsoft-xbox-controller-battery-alert,xbox-controller-battery-warning,microsoft-xbox-gamepad-battery-alert,battery,gaming,rpg,alert,error",
 "name": "microsoft-xbox-controller-battery-alert",
 "path": "M21,19V7H15V19H21M21.67,5C22.4,5 23,5.6 23,6.33V19.67A1.33,1.33 0 0,1 21.67,21H14.33C13.6,21 13,20.4 13,19.67V16.75H7.75C5.75,16.75 5,19 3,20C1,20 -0.5,17 3.5,8.5H3.75L4.19,7.67C4.19,7.67 7,6 8.33,7.23H13V6.33A1.33,1.33 0 0,1 14.33,5H16V3H20V5H21.67M11,8A1,1 0 0,0 10,9A1,1 0 0,0 11,10A1,1 0 0,0 12,9A1,1 0 0,0 11,8M17,9H19V14H17V9M17,15H19V17H17V15Z",
 "author": "Austin Andrews"
@@ -29394,7 +30858,7 @@ const icons = [
 {
 "icon": "microsoft-xbox-controller-battery-charging",
 "google": "false",
-"search": "microsoft-xbox-controller-battery-charging,gaming,rpg,battery",
+"search": "microsoft-xbox-controller-battery-charging,microsoft-xbox-gamepad-battery-charging,gaming,rpg,battery",
 "name": "microsoft-xbox-controller-battery-charging",
 "path": "M20,5H21.67C22.4,5 23,5.6 23,6.33V19.67A1.33,1.33 0 0,1 21.67,21H14.33C13.6,21 13,20.4 13,19.67V16.75H7.75C5.75,16.75 5,19 3,20C1,20 -0.5,17 3.5,8.5H3.75L4.19,7.67C4.19,7.67 7,6 8.33,7.23H13V6.33A1.33,1.33 0 0,1 14.33,5H16V3H20V5M21,7H15V19H21V7M15.5,14L18.5,7.5V12H20.5L17.5,18.5V14H15.5M11,8A1,1 0 0,0 10,9A1,1 0 0,0 11,10A1,1 0 0,0 12,9A1,1 0 0,0 11,8Z",
 "author": "Contributors"
@@ -29402,7 +30866,7 @@ const icons = [
 {
 "icon": "microsoft-xbox-controller-battery-empty",
 "google": "false",
-"search": "microsoft-xbox-controller-battery-empty,battery,gaming,rpg",
+"search": "microsoft-xbox-controller-battery-empty,microsoft-xbox-gamepad-battery-empty,battery,gaming,rpg",
 "name": "microsoft-xbox-controller-battery-empty",
 "path": "M21,19V7H15V19H21M21.67,5C22.4,5 23,5.6 23,6.33V19.67A1.33,1.33 0 0,1 21.67,21H14.33C13.6,21 13,20.4 13,19.67V16.75H7.75C5.75,16.75 5,19 3,20C1,20 -0.5,17 3.5,8.5H3.75L4.19,7.67C4.19,7.67 7,6 8.33,7.23H13V6.33A1.33,1.33 0 0,1 14.33,5H16V3H20V5H21.67M11,8A1,1 0 0,0 10,9A1,1 0 0,0 11,10A1,1 0 0,0 12,9A1,1 0 0,0 11,8Z",
 "author": "Austin Andrews"
@@ -29410,7 +30874,7 @@ const icons = [
 {
 "icon": "microsoft-xbox-controller-battery-full",
 "google": "false",
-"search": "microsoft-xbox-controller-battery-full,battery,gaming,rpg",
+"search": "microsoft-xbox-controller-battery-full,microsoft-xbox-gamepad-battery-full,battery,gaming,rpg",
 "name": "microsoft-xbox-controller-battery-full",
 "path": "M21.67,5C22.4,5 23,5.6 23,6.33V19.67A1.33,1.33 0 0,1 21.67,21H14.33C13.6,21 13,20.4 13,19.67V16.75H7.75C5.75,16.75 5,19 3,20C1,20 -0.5,17 3.5,8.5H3.75L4.19,7.67C4.19,7.67 7,6 8.33,7.23H13V6.33A1.33,1.33 0 0,1 14.33,5H16V3H20V5H21.67M11,8A1,1 0 0,0 10,9A1,1 0 0,0 11,10A1,1 0 0,0 12,9A1,1 0 0,0 11,8Z",
 "author": "Austin Andrews"
@@ -29418,7 +30882,7 @@ const icons = [
 {
 "icon": "microsoft-xbox-controller-battery-low",
 "google": "false",
-"search": "microsoft-xbox-controller-battery-low,battery,gaming,rpg",
+"search": "microsoft-xbox-controller-battery-low,microsoft-xbox-gamepad-battery-low,battery,gaming,rpg",
 "name": "microsoft-xbox-controller-battery-low",
 "path": "M21,16V7H15V16H21M21.67,5C22.4,5 23,5.6 23,6.33V19.67A1.33,1.33 0 0,1 21.67,21H14.33C13.6,21 13,20.4 13,19.67V16.75H7.75C5.75,16.75 5,19 3,20C1,20 -0.5,17 3.5,8.5H3.75L4.19,7.67C4.19,7.67 7,6 8.33,7.23H13V6.33A1.33,1.33 0 0,1 14.33,5H16V3H20V5H21.67M11,8A1,1 0 0,0 10,9A1,1 0 0,0 11,10A1,1 0 0,0 12,9A1,1 0 0,0 11,8Z",
 "author": "Austin Andrews"
@@ -29426,7 +30890,7 @@ const icons = [
 {
 "icon": "microsoft-xbox-controller-battery-medium",
 "google": "false",
-"search": "microsoft-xbox-controller-battery-medium,battery,gaming,rpg",
+"search": "microsoft-xbox-controller-battery-medium,microsoft-xbox-gamepad-battery-medium,battery,gaming,rpg",
 "name": "microsoft-xbox-controller-battery-medium",
 "path": "M21,12V7H15V12H21M21.67,5C22.4,5 23,5.6 23,6.33V19.67A1.33,1.33 0 0,1 21.67,21H14.33C13.6,21 13,20.4 13,19.67V16.75H7.75C5.75,16.75 5,19 3,20C1,20 -0.5,17 3.5,8.5H3.75L4.19,7.67C4.19,7.67 7,6 8.33,7.23H13V6.33A1.33,1.33 0 0,1 14.33,5H16V3H20V5H21.67M11,8A1,1 0 0,0 10,9A1,1 0 0,0 11,10A1,1 0 0,0 12,9A1,1 0 0,0 11,8Z",
 "author": "Austin Andrews"
@@ -29434,7 +30898,7 @@ const icons = [
 {
 "icon": "microsoft-xbox-controller-battery-unknown",
 "google": "false",
-"search": "microsoft-xbox-controller-battery-unknown,battery,gaming,rpg",
+"search": "microsoft-xbox-controller-battery-unknown,microsoft-xbox-gamepad-battery-unknown,battery,gaming,rpg",
 "name": "microsoft-xbox-controller-battery-unknown",
 "path": "M21.67,5C22.4,5 23,5.6 23,6.33V19.67A1.33,1.33 0 0,1 21.67,21H14.33C13.6,21 13,20.4 13,19.67V16.75H7.75C5.75,16.75 5,19 3,20C1,20 -0.5,17 3.5,8.5H3.75L4.19,7.67C4.19,7.67 7,6 8.33,7.23H13V6.33A1.33,1.33 0 0,1 14.33,5H16V3H20V5H21.67M11,8A1,1 0 0,0 10,9A1,1 0 0,0 11,10A1,1 0 0,0 12,9A1,1 0 0,0 11,8M18.19,8C17.32,8 16.62,8.2 16.08,8.59C15.56,9 15.3,9.57 15.31,10.36L15.32,10.39H17.25C17.26,10.09 17.35,9.86 17.53,9.7C17.71,9.55 17.93,9.47 18.19,9.47C18.5,9.47 18.76,9.57 18.94,9.75C19.12,9.94 19.2,10.2 19.2,10.5C19.2,10.82 19.13,11.09 18.97,11.32C18.83,11.55 18.62,11.75 18.36,11.91C17.85,12.25 17.5,12.55 17.31,12.82C17.11,13.08 17,13.5 17,14H19C19,13.69 19.04,13.44 19.13,13.26C19.22,13.08 19.39,12.9 19.64,12.74C20.09,12.5 20.46,12.21 20.75,11.81C21.04,11.41 21.19,11 21.19,10.5C21.19,9.74 20.92,9.13 20.38,8.68C19.85,8.23 19.12,8 18.19,8M17,15V17H19V15H17Z",
 "author": "Austin Andrews"
@@ -29450,7 +30914,7 @@ const icons = [
 {
 "icon": "microsoft-xbox-controller-off",
 "google": "false",
-"search": "microsoft-xbox-controller-off,gaming,rpg",
+"search": "microsoft-xbox-controller-off,microsoft-xbox-gamepad-off,gaming,rpg",
 "name": "microsoft-xbox-controller-off",
 "path": "M2,5.27L3.28,4L20,20.72L18.73,22L12.5,15.75H8.75C6.75,15.75 6,18 4,19C2,19 0.5,16.04 4.42,7.69L2,5.27M9.33,6.23H14.67C16,5 18.81,6.67 18.81,6.67L19.25,7.5H19.5C23,15 22.28,18.2 20.69,18.87L7.62,5.8C8.25,5.73 8.87,5.81 9.33,6.23M12,7A1,1 0 0,0 11,8A1,1 0 0,0 12,9A1,1 0 0,0 13,8A1,1 0 0,0 12,7Z",
 "author": "Austin Andrews"
@@ -29466,7 +30930,7 @@ const icons = [
 {
 "icon": "microsoft-xbox-controller",
 "google": "false",
-"search": "microsoft-xbox-controller,gaming,rpg",
+"search": "microsoft-xbox-controller,microsoft-xbox-gamepad,gaming,rpg",
 "name": "microsoft-xbox-controller",
 "path": "M8.75,15.75C6.75,15.75 6,18 4,19C2,19 0.5,16 4.5,7.5H4.75L5.19,6.67C5.19,6.67 8,5 9.33,6.23H14.67C16,5 18.81,6.67 18.81,6.67L19.25,7.5H19.5C23.5,16 22,19 20,19C18,18 17.25,15.75 15.25,15.75H8.75M12,7A1,1 0 0,0 11,8A1,1 0 0,0 12,9A1,1 0 0,0 13,8A1,1 0 0,0 12,7Z",
 "author": "Austin Andrews"
@@ -29477,14 +30941,6 @@ const icons = [
 "search": "microsoft-xbox,xbox-live,microsoft,social media,brand,logo,gaming,rpg",
 "name": "microsoft-xbox",
 "path": "M6.43,3.72C6.5,3.66 6.57,3.6 6.62,3.56C8.18,2.55 10,2 12,2C13.88,2 15.64,2.5 17.14,3.42C17.25,3.5 17.54,3.69 17.7,3.88C16.25,2.28 12,5.7 12,5.7C10.5,4.57 9.17,3.8 8.16,3.5C7.31,3.29 6.73,3.5 6.46,3.7M19.34,5.21C19.29,5.16 19.24,5.11 19.2,5.06C18.84,4.66 18.38,4.56 18,4.59C17.61,4.71 15.9,5.32 13.8,7.31C13.8,7.31 16.17,9.61 17.62,11.96C19.07,14.31 19.93,16.16 19.4,18.73C21,16.95 22,14.59 22,12C22,9.38 21,7 19.34,5.21M15.73,12.96C15.08,12.24 14.13,11.21 12.86,9.95C12.59,9.68 12.3,9.4 12,9.1C12,9.1 11.53,9.56 10.93,10.17C10.16,10.94 9.17,11.95 8.61,12.54C7.63,13.59 4.81,16.89 4.65,18.74C4.65,18.74 4,17.28 5.4,13.89C6.3,11.68 9,8.36 10.15,7.28C10.15,7.28 9.12,6.14 7.82,5.35L7.77,5.32C7.14,4.95 6.46,4.66 5.8,4.62C5.13,4.67 4.71,5.16 4.71,5.16C3.03,6.95 2,9.35 2,12A10,10 0 0,0 12,22C14.93,22 17.57,20.74 19.4,18.73C19.4,18.73 19.19,17.4 17.84,15.5C17.53,15.07 16.37,13.69 15.73,12.96Z",
-"author": "Contributors"
-},
-{
-"icon": "microsoft-yammer",
-"google": "false",
-"search": "microsoft-yammer,brand,logo",
-"name": "microsoft-yammer",
-"path": "M22 12Q22 12.43 21.97 12.94 21.95 13.45 21.89 13.97 21.84 14.5 21.76 15 21.68 15.5 21.56 15.89 21.5 16.07 21.38 16.19 21.24 16.3 21.04 16.3 20.95 16.3 20.66 16.23 20.37 16.16 20.03 16.07L19.39 15.88Q19.09 15.79 18.96 15.76 18.75 16.54 18.41 17.38 18.08 18.21 17.65 19 17.22 19.8 16.7 20.5 16.18 21.25 15.61 21.82L15.43 21.95Q15.33 22 15.21 22 15 22 14.84 21.84L10.1 17.11H2.85Q2.5 17.11 2.25 16.86 2 16.61 2 16.26V7.74Q2 7.39 2.25 7.14 2.5 6.89 2.85 6.89H10.1L14.83 2.16Q15 2 15.21 2 15.33 2 15.42 2.05 15.5 2.09 15.59 2.18 15.85 2.44 16.08 2.71 16.3 3 16.5 3.28 18.23 5.55 18.96 8.28 19.14 8.23 19.44 8.14 19.74 8.05 20.06 7.96 20.37 7.87 20.65 7.8 20.92 7.74 21.04 7.74 21.24 7.74 21.38 7.85 21.5 7.97 21.56 8.15 21.68 8.56 21.77 9.05 21.85 9.55 21.91 10.06 21.96 10.57 22 11.08V12M9.82 9.37Q9.82 9.06 9.62 8.85 9.4 8.64 9.1 8.64 8.9 8.64 8.72 8.74 8.55 8.85 8.45 9.03L7.15 11.47L5.89 9.03Q5.77 8.8 5.57 8.72 5.37 8.64 5.13 8.64 4.82 8.64 4.61 8.85 4.4 9.06 4.4 9.36 4.4 9.57 4.5 9.73L6.25 12.87Q6.27 12.91 6.29 12.97 6.3 13.03 6.3 13.08V14.63Q6.3 15 6.56 15.19 6.81 15.36 7.15 15.36 7.39 15.36 7.54 15.27 7.68 15.18 7.76 15.03 7.84 14.88 7.87 14.69 7.9 14.5 7.9 14.28 7.9 14 7.88 13.76 7.86 13.5 7.86 13.28 7.86 13.14 7.87 13.03 7.88 12.93 7.93 12.85L9.73 9.73Q9.83 9.55 9.83 9.37M15.17 3.63L11.8 7Q12 7.12 12.1 7.31 12.22 7.5 12.22 7.74V10.07L17.72 8.61Q17.34 7.19 16.71 6 16.08 4.77 15.17 3.63M17.73 15.42L12.22 13.95V16.26Q12.22 16.5 12.1 16.69 12 16.88 11.8 17L15.18 20.37Q16.07 19.29 16.72 18.04 17.37 16.79 17.73 15.43V15.42M20.47 14.84Q20.6 14.14 20.66 13.43 20.72 12.73 20.72 12 20.72 11.29 20.66 10.59 20.6 9.89 20.47 9.19 18.4 9.74 16.35 10.29 14.3 10.83 12.22 11.39 12.21 11.55 12.21 11.7V12.32L12.22 12.63Q14.3 13.19 16.35 13.73 18.4 14.27 20.47 14.84Z",
 "author": "Contributors"
 },
 {
@@ -29688,6 +31144,22 @@ const icons = [
 "author": "Google"
 },
 {
+"icon": "mirror-rectangle",
+"google": "false",
+"search": "mirror-rectangle,home automation",
+"name": "mirror-rectangle",
+"path": "M8.29 10.28L11.53 7.03L12.59 8.09L9.35 11.34L8.29 10.28M8.7 14.61L14.36 8.95L15.42 10L9.76 15.67L8.7 14.61M18 3V21H6V3H18M20 1H4V23H20V1Z",
+"author": "Michael Irigoyen"
+},
+{
+"icon": "mirror-variant",
+"google": "false",
+"search": "mirror-variant,home automation",
+"name": "mirror-variant",
+"path": "M8.29 10.28L11.53 7.03L12.59 8.09L9.35 11.34L8.29 10.28M8.7 14.61L14.36 8.95L15.42 10L9.76 15.67L8.7 14.61M14.17 3L18 6.83V17.17L14.17 21H9.83L6 17.17V6.83L9.83 3H14.17M15 1H9L4 6V18L9 23H15L20 18V6L15 1Z",
+"author": "Michael Irigoyen"
+},
+{
 "icon": "mirror",
 "google": "false",
 "search": "mirror,home automation",
@@ -29738,7 +31210,7 @@ const icons = [
 {
 "icon": "monitor-cellphone-star",
 "google": "true",
-"search": "monitor-cellphone-star,important-devices,monitor-mobile-phone-star,monitor-smartphone-star,cellphone,phone,device,tech",
+"search": "monitor-cellphone-star,important-devices,monitor-mobile-phone-star,monitor-smartphone-star,monitor-cellphone-favorite,cellphone,phone,device,tech",
 "name": "monitor-cellphone-star",
 "path": "M23,11H18A1,1 0 0,0 17,12V21A1,1 0 0,0 18,22H23A1,1 0 0,0 24,21V12A1,1 0 0,0 23,11M23,20H18V13H23V20M20,2H2C0.89,2 0,2.89 0,4V16A2,2 0 0,0 2,18H9V20H7V22H15V20H13V18H15V16H2V4H20V9H22V4C22,2.89 21.1,2 20,2M11.97,9L11,6L10.03,9H7L9.47,10.76L8.53,13.67L11,11.87L13.47,13.67L12.53,10.76L15,9H11.97Z",
 "author": "Google"
@@ -29750,14 +31222,6 @@ const icons = [
 "name": "monitor-cellphone",
 "path": "M23,11H18A1,1 0 0,0 17,12V21A1,1 0 0,0 18,22H23A1,1 0 0,0 24,21V12A1,1 0 0,0 23,11M23,20H18V13H23V20M20,2H2C0.89,2 0,2.89 0,4V16A2,2 0 0,0 2,18H9V20H7V22H15V20H13V18H15V16H2V4H20V9H22V4C22,2.89 21.1,2 20,2Z",
 "author": "Google"
-},
-{
-"icon": "monitor-clean",
-"google": "false",
-"search": "monitor-clean,device,tech",
-"name": "monitor-clean",
-"path": "M21 16H3V4H21M21 2H3C1.89 2 1 2.89 1 4V16C1 17.11 1.9 18 3 18H10V20H8V22H16V20H14V18H21C22.11 18 23 17.11 23 16V4C23 2.89 22.1 2 21 2M15 5.5L14.38 6.87L13 7.5L14.38 8.13L15 9.5L15.63 8.13L17 7.5L15.63 6.87L15 5.5M10.5 7.5L9.41 9.91L7 11L9.41 12.09L10.5 14.5L11.6 12.09L14 11L11.6 9.91L10.5 7.5",
-"author": "Contributors"
 },
 {
 "icon": "monitor-dashboard",
@@ -29824,6 +31288,14 @@ const icons = [
 "author": "Google"
 },
 {
+"icon": "monitor-shimmer",
+"google": "false",
+"search": "monitor-shimmer,monitor-clean,device,tech",
+"name": "monitor-shimmer",
+"path": "M21 16H3V4H21M21 2H3C1.89 2 1 2.89 1 4V16C1 17.11 1.9 18 3 18H10V20H8V22H16V20H14V18H21C22.11 18 23 17.11 23 16V4C23 2.89 22.1 2 21 2M15 5.5L14.38 6.87L13 7.5L14.38 8.13L15 9.5L15.63 8.13L17 7.5L15.63 6.87L15 5.5M10.5 7.5L9.41 9.91L7 11L9.41 12.09L10.5 14.5L11.6 12.09L14 11L11.6 9.91L10.5 7.5",
+"author": "Contributors"
+},
+{
 "icon": "monitor-speaker-off",
 "google": "true",
 "search": "monitor-speaker-off,device,tech",
@@ -29842,7 +31314,7 @@ const icons = [
 {
 "icon": "monitor-star",
 "google": "false",
-"search": "monitor-star,device,tech",
+"search": "monitor-star,monitor-favorite,device,tech",
 "name": "monitor-star",
 "path": "M21,16V4H3V16H21M21,2A2,2 0 0,1 23,4V16A2,2 0 0,1 21,18H14V20H16V22H8V20H10V18H3C1.89,18 1,17.1 1,16V4C1,2.89 1.89,2 3,2H21M12.97,9H16L13.53,10.76L14.47,13.67L12,11.87L9.53,13.67L10.47,10.76L8,9H11.03L12,6L12.97,9Z",
 "author": "Austin Andrews"
@@ -29957,6 +31429,30 @@ const icons = [
 "search": "more",
 "name": "more",
 "path": "M19,13.5A1.5,1.5 0 0,1 17.5,12A1.5,1.5 0 0,1 19,10.5A1.5,1.5 0 0,1 20.5,12A1.5,1.5 0 0,1 19,13.5M14,13.5A1.5,1.5 0 0,1 12.5,12A1.5,1.5 0 0,1 14,10.5A1.5,1.5 0 0,1 15.5,12A1.5,1.5 0 0,1 14,13.5M9,13.5A1.5,1.5 0 0,1 7.5,12A1.5,1.5 0 0,1 9,10.5A1.5,1.5 0 0,1 10.5,12A1.5,1.5 0 0,1 9,13.5M22,3H7C6.31,3 5.77,3.35 5.41,3.88L0,12L5.41,20.11C5.77,20.64 6.37,21 7.06,21H22A2,2 0 0,0 24,19V5C24,3.89 23.1,3 22,3Z",
+"author": "Google"
+},
+{
+"icon": "mortar-pestle-plus",
+"google": "true",
+"search": "mortar-pestle-plus,chemist,local-pharmacy,mortar-pestle,pharmaceutical,medical,hospital",
+"name": "mortar-pestle-plus",
+"path": "M16,14H13V17H11V14H8V12H11V9H13V12H16M21,5H18.35L19.5,1.85L17.15,1L15.69,5H3V7L5,13L3,19V21H21V19L19,13L21,7V5Z",
+"author": "Google"
+},
+{
+"icon": "mortar-pestle",
+"google": "false",
+"search": "mortar-pestle",
+"name": "mortar-pestle",
+"path": "M21 7L19 13L21 19V21H3V19L5 13L3 7V5H15.7L17.2 1L19.5 1.8L18.3 5H21V7Z",
+"author": "Colton Wiscombe"
+},
+{
+"icon": "mosque",
+"google": "true",
+"search": "mosque,islam,muslim,places,religion",
+"name": "mosque",
+"path": "M24 7C24 5.9 22 4 22 4S20 5.9 20 7C20 7.7 20.4 8.4 21 8.7V13H19V11C19 10.1 18.3 9.3 17.5 9.1C17.8 8.5 18 7.9 18 7.1C18 5.8 17.4 4.6 16.3 3.9L12 1L7.7 3.8C6.7 4.6 6 5.8 6 7.1C6 7.8 6.2 8.5 6.6 9.1C5.7 9.3 5 10.1 5 11V13H3V8.7C3.6 8.4 4 7.7 4 7C4 5.9 2 4 2 4S0 5.9 0 7C0 7.7 .4 8.4 1 8.7V21H11V17C11 16.5 11.4 16 12 16S13 16.5 13 17V21H23V8.7C23.6 8.4 24 7.7 24 7M8.9 5.5L12 3.4L15.1 5.5C15.7 5.9 16 6.4 16 7.1C16 8.1 15.1 9 14.1 9H9.9C8.9 9 8 8.1 8 7.1C8 6.4 8.3 5.9 8.9 5.5M21 19H15V17C15 15.4 13.6 14 12 14S9 15.4 9 17V19H3V15H7V11H17V15H21V19Z",
 "author": "Google"
 },
 {
@@ -30386,7 +31882,7 @@ const icons = [
 {
 "icon": "movie-open-star-outline",
 "google": "false",
-"search": "movie-open-star-outline,slate-open-star-outline,clapperboard-open-star-outline,film-open-star-outline,video,movie",
+"search": "movie-open-star-outline,slate-open-star-outline,clapperboard-open-star-outline,film-open-star-outline,movie-open-favorite-outline,video,movie",
 "name": "movie-open-star-outline",
 "path": "M19.65 6.5L16.91 2.96L20.84 2.18L21.62 6.1L19.65 6.5M16.71 7.07L13.97 3.54L12 3.93L14.75 7.46L16.71 7.07M4.16 5.5L3.18 5.69C2.1 5.9 1.39 6.96 1.61 8.04L2 10L6.9 9.03L4.16 5.5M11.81 8.05L9.07 4.5L7.1 4.91L9.85 8.44L11.81 8.05M4 20V12H20V13.09C20.72 13.21 21.39 13.46 22 13.81V10H2V20C2 21.11 2.9 22 4 22H13.81C13.46 21.39 13.22 20.72 13.09 20H4M23 17.89L20.11 17.64L19 15L17.87 17.64L15 17.89L17.18 19.77L16.5 22.58L19 21.09L21.45 22.58L20.8 19.77L23 17.89Z",
 "author": "Colton Wiscombe"
@@ -30394,7 +31890,7 @@ const icons = [
 {
 "icon": "movie-open-star",
 "google": "false",
-"search": "movie-open-star,slate-open-star,clapperboard-open-star,film-open-star,video,movie",
+"search": "movie-open-star,slate-open-star,clapperboard-open-star,film-open-star,movie-open-favorite,video,movie",
 "name": "movie-open-star",
 "path": "M19.65 6.5L16.91 2.96L20.84 2.18L21.62 6.1L19.65 6.5M16.71 7.07L13.97 3.54L12 3.93L14.75 7.46L16.71 7.07M19 13C20.1 13 21.12 13.3 22 13.81V10H2V20C2 21.11 2.9 22 4 22H13.81C13.3 21.12 13 20.1 13 19C13 15.69 15.69 13 19 13M4.16 5.5L3.18 5.69C2.1 5.91 1.4 6.96 1.61 8.04L2 10L6.9 9.03L4.16 5.5M11.81 8.05L9.07 4.5L7.1 4.91L9.85 8.44L11.81 8.05M23 17.89L20.11 17.64L19 15L17.87 17.64L15 17.89L17.18 19.77L16.5 22.58L19 21.09L21.45 22.58L20.8 19.77L23 17.89Z",
 "author": "Colton Wiscombe"
@@ -30506,7 +32002,7 @@ const icons = [
 {
 "icon": "movie-star-outline",
 "google": "false",
-"search": "movie-star-outline,slate-star-outline,clapperboard-star-outline,film-star-outline,video,movie",
+"search": "movie-star-outline,slate-star-outline,clapperboard-star-outline,film-star-outline,movie-favorite-outline,video,movie",
 "name": "movie-star-outline",
 "path": "M13 19C13 19.34 13.04 19.67 13.09 20H4C2.9 20 2 19.11 2 18V6C2 4.89 2.9 4 4 4H5L7 8H10L8 4H10L12 8H15L13 4H15L17 8H20L18 4H22V13.81C21.39 13.46 20.72 13.22 20 13.09V10H5.76L4 6.47V18H13.09C13.04 18.33 13 18.66 13 19M23 17.89L20.11 17.64L19 15L17.87 17.64L15 17.89L17.18 19.77L16.5 22.58L19 21.09L21.45 22.58L20.8 19.77L23 17.89Z",
 "author": "Colton Wiscombe"
@@ -30514,7 +32010,7 @@ const icons = [
 {
 "icon": "movie-star",
 "google": "false",
-"search": "movie-star,slate-star,clapperboard-star,film-star,video,movie",
+"search": "movie-star,slate-star,clapperboard-star,film-star,movie-favorite,video,movie",
 "name": "movie-star",
 "path": "M13 19C13 19.34 13.04 19.67 13.09 20H4C2.9 20 2 19.11 2 18V6C2 4.89 2.9 4 4 4H5L7 8H10L8 4H10L12 8H15L13 4H15L17 8H20L18 4H22V13.81C21.12 13.3 20.1 13 19 13C15.69 13 13 15.69 13 19M23 17.89L20.11 17.64L19 15L17.87 17.64L15 17.89L17.18 19.77L16.5 22.58L19 21.09L21.45 22.58L20.8 19.77L23 17.89Z",
 "author": "Colton Wiscombe"
@@ -30570,7 +32066,7 @@ const icons = [
 {
 "icon": "mushroom-off-outline",
 "google": "false",
-"search": "mushroom-off-outline,food,drink,nature",
+"search": "mushroom-off-outline,food,drink,nature,agriculture",
 "name": "mushroom-off-outline",
 "path": "M22.1 21.5L2.4 1.7L1.1 3L4.1 6C2.8 7.6 2 9.7 2 12C2 13.1 2.9 14 4 14H12.1L13.1 15H9L8 18.5L7.7 19.5C7.4 20.6 8.1 21.7 9.1 21.9L9.7 22H14.4C15.5 22 16.4 21.1 16.4 20L16.3 19.5L16 18.5L15.8 17.6L20.9 22.7L22.1 21.5M4 12C4 10.3 4.6 8.7 5.5 7.4L6.2 8.1C6.1 8.4 6 8.7 6 9C6 10.1 6.9 11 8 11C8.3 11 8.6 10.9 8.9 10.8L10.1 12H4M9.7 20L10 19L10.6 17H13.6L14.2 19L14.5 20H9.7M16 11C14.9 11 14 10.1 14 9S14.9 7 16 7 18 7.9 18 9 17.1 11 16 11M8.2 5L6.7 3.5C8.3 2.6 10.1 2 12 2C17.5 2 22 6.5 22 12C22 13.1 21.1 14 20 14H17.2L15.2 12H20C20 8.3 17.4 5.1 14 4.2C13.9 5.2 13 6 12 6S10.1 5.2 10 4.2C9.4 4.4 8.7 4.7 8.2 5Z",
 "author": "Michael Irigoyen"
@@ -30578,7 +32074,7 @@ const icons = [
 {
 "icon": "mushroom-off",
 "google": "false",
-"search": "mushroom-off,food,drink,nature",
+"search": "mushroom-off,food,drink,nature,agriculture",
 "name": "mushroom-off",
 "path": "M22.1 21.5L2.4 1.7L1.1 3L4.1 6C2.8 7.6 2 9.7 2 12C2 13.1 2.9 14 4 14H12.1L13.1 15H9L7.7 19.5V20C7.7 21.1 8.6 22 9.7 22H14.4C15.5 22 16.4 21.1 16.4 20L16.3 19.5L15.8 17.7L20.9 22.8L22.1 21.5M7 12C5.9 12 5 11.1 5 10C5 9.2 5.5 8.4 6.3 8.1L8.9 10.7C8.6 11.5 7.8 12 7 12M10 6C10 4.9 10.9 4 12 4S14 4.9 14 6 13.1 8 12 8C11.5 8 11.1 7.8 10.7 7.5L17.2 14H20C21.1 14 22 13.1 22 12C22 6.5 17.5 2 12 2C10.1 2 8.3 2.6 6.7 3.5L10.4 7.2C10.2 6.9 10 6.5 10 6M17 8C18.1 8 19 8.9 19 10S18.1 12 17 12 15 11.1 15 10 15.9 8 17 8Z",
 "author": "Michael Irigoyen"
@@ -30586,7 +32082,7 @@ const icons = [
 {
 "icon": "mushroom-outline",
 "google": "false",
-"search": "mushroom-outline,fungus-outline,nature,food,drink",
+"search": "mushroom-outline,fungus-outline,nature,food,drink,agriculture",
 "name": "mushroom-outline",
 "path": "M4,12H20C20,8.27 17.44,5.13 14,4.25C13.86,5.24 13,6 12,6C11,6 10.14,5.24 10,4.25C6.56,5.13 4,8.27 4,12M12,2A10,10 0 0,1 22,12A2,2 0 0,1 20,14H4A2,2 0 0,1 2,12A10,10 0 0,1 12,2M13.5,17H10.5L9.92,19L9.65,20H14.35L14.08,19L13.5,17M15,15L16,18.5L16.27,19.45L16.35,20C16.35,21.1 15.45,22 14.35,22H9.65L9.17,21.94C8.1,21.66 7.45,20.57 7.73,19.5L8,18.5L9,15H15M16,7A2,2 0 0,1 18,9A2,2 0 0,1 16,11A2,2 0 0,1 14,9A2,2 0 0,1 16,7M8,7A2,2 0 0,1 10,9A2,2 0 0,1 8,11A2,2 0 0,1 6,9A2,2 0 0,1 8,7Z",
 "author": "Contributors"
@@ -30594,7 +32090,7 @@ const icons = [
 {
 "icon": "mushroom",
 "google": "false",
-"search": "mushroom,fungus,nature,food,drink",
+"search": "mushroom,fungus,nature,food,drink,agriculture",
 "name": "mushroom",
 "path": "M12,2A10,10 0 0,1 22,12A2,2 0 0,1 20,14H4A2,2 0 0,1 2,12A10,10 0 0,1 12,2M12,8A2,2 0 0,0 14,6A2,2 0 0,0 12,4A2,2 0 0,0 10,6A2,2 0 0,0 12,8M17,12A2,2 0 0,0 19,10A2,2 0 0,0 17,8A2,2 0 0,0 15,10A2,2 0 0,0 17,12M7,12A2,2 0 0,0 9,10A2,2 0 0,0 7,8A2,2 0 0,0 5,10A2,2 0 0,0 7,12M15,15L16.27,19.45L16.35,20C16.35,21.1 15.45,22 14.35,22H9.65A2,2 0 0,1 7.65,20L7.73,19.45L9,15H15Z",
 "author": "Contributors"
@@ -31202,7 +32698,7 @@ const icons = [
 {
 "icon": "nfc-variant-off",
 "google": "false",
-"search": "nfc-variant-off",
+"search": "nfc-variant-off,near-field-communication-off,home automation",
 "name": "nfc-variant-off",
 "path": "M1.25,2.05L21.95,22.75L20.7,24L18.7,22H4A2,2 0 0,1 2,20V5.3L0,3.3L1.25,2.05M3.81,2C3.87,2 3.94,2 4,2H20C21.11,2 22,2.89 22,4V20C22,20.06 22,20.13 22,20.19L20,18.2V4H5.8L3.81,2M6,9.3L4,7.3V20H16.7L14.7,18H6V9.3M18,16.2L16,14.2V8H13V10.28C13.6,10.62 14,11.26 14,12C14,12.06 14,12.13 14,12.19L11,9.2V8A2,2 0 0,1 13,6H18V16.2M8,16H12.7L8,11.3V16M10,8H9.8L7.8,6H10V8Z",
 "author": "TheChilliPL"
@@ -31210,7 +32706,7 @@ const icons = [
 {
 "icon": "nfc-variant",
 "google": "true",
-"search": "nfc-variant,near-field-communication-variant",
+"search": "nfc-variant,near-field-communication-variant,home automation",
 "name": "nfc-variant",
 "path": "M18,6H13A2,2 0 0,0 11,8V10.28C10.41,10.62 10,11.26 10,12A2,2 0 0,0 12,14C13.11,14 14,13.1 14,12C14,11.26 13.6,10.62 13,10.28V8H16V16H8V8H10V6H8L6,6V18H18M20,20H4V4H20M20,2H4A2,2 0 0,0 2,4V20A2,2 0 0,0 4,22H20C21.11,22 22,21.1 22,20V4C22,2.89 21.11,2 20,2Z",
 "author": "Google"
@@ -31304,25 +32800,73 @@ const icons = [
 "author": "Nick"
 },
 {
+"icon": "note-alert-outline",
+"google": "false",
+"search": "note-alert-outline,paper-alert-outline,post-it-note-alert-outline,sticky-note-alert-outline,alert,error",
+"name": "note-alert-outline",
+"path": "M3 3C1.89 3 1 3.89 1 5V19C1 20.1 1.89 21 3 21H17C18.11 21 19 20.11 19 19V9L13 3H3M17 19H3V5H10V12H17V19M12 10V4.5L17.5 10H12M23 7V13H21V7H23M21 15H23V17H21V15Z",
+"author": "Colton Wiscombe"
+},
+{
+"icon": "note-alert",
+"google": "false",
+"search": "note-alert,paper-alert,sticky-note-alert,post-it-note-alert,alert,error",
+"name": "note-alert",
+"path": "M3 3C1.89 3 1 3.89 1 5V19C1 20.11 1.9 21 3 21H17C18.11 21 19 20.11 19 19V9L13 3H3M12 10V4.5L17.5 10H12M23 7V13H21V7H23M21 15H23V17H21V15Z",
+"author": "Colton Wiscombe"
+},
+{
+"icon": "note-check-outline",
+"google": "false",
+"search": "note-check-outline,paper-check-outline,sticky-note-check-outline,post-it-note-check-outline",
+"name": "note-check-outline",
+"path": "M5 19V5H12V12H19V13C19.7 13 20.37 13.13 21 13.35V9L15 3H5C3.89 3 3 3.89 3 5V19C3 20.1 3.89 21 5 21H13.35C13.13 20.37 13 19.7 13 19H5M14 4.5L19.5 10H14V4.5M22.5 17.25L17.75 22L15 19L16.16 17.84L17.75 19.43L21.34 15.84L22.5 17.25Z",
+"author": "Colton Wiscombe"
+},
+{
+"icon": "note-check",
+"google": "false",
+"search": "note-check,paper-check,sticky-note-check,post-it-note-check",
+"name": "note-check",
+"path": "M19 13C19.7 13 20.37 13.13 21 13.35V9L15 3H5C3.89 3 3 3.89 3 5V19C3 20.11 3.9 21 5 21H13.35C13.13 20.37 13 19.7 13 19C13 15.69 15.69 13 19 13M14 4.5L19.5 10H14V4.5M22.5 17.25L17.75 22L15 19L16.16 17.84L17.75 19.43L21.34 15.84L22.5 17.25Z",
+"author": "Colton Wiscombe"
+},
+{
+"icon": "note-edit-outline",
+"google": "false",
+"search": "note-edit-outline,paper-edit-outline,sticky-note-edit-outline,post-it-note-edit-outline",
+"name": "note-edit-outline",
+"path": "M18.13 12L19.39 10.74C19.83 10.3 20.39 10.06 21 10V9L15 3H5C3.89 3 3 3.89 3 5V19C3 20.1 3.89 21 5 21H11V19.13L11.13 19H5V5H12V12H18.13M14 4.5L19.5 10H14V4.5M19.13 13.83L21.17 15.87L15.04 22H13V19.96L19.13 13.83M22.85 14.19L21.87 15.17L19.83 13.13L20.81 12.15C21 11.95 21.33 11.95 21.53 12.15L22.85 13.47C23.05 13.67 23.05 14 22.85 14.19Z",
+"author": "Colton Wiscombe"
+},
+{
+"icon": "note-edit",
+"google": "false",
+"search": "note-edit,paper-edit,sticky-note-edit,post-it-note-edit",
+"name": "note-edit",
+"path": "M21 10V9L15 3H5C3.89 3 3 3.89 3 5V19C3 20.11 3.9 21 5 21H11V19.13L19.39 10.74C19.83 10.3 20.39 10.06 21 10M14 4.5L19.5 10H14V4.5M22.85 14.19L21.87 15.17L19.83 13.13L20.81 12.15C21 11.95 21.33 11.95 21.53 12.15L22.85 13.47C23.05 13.67 23.05 14 22.85 14.19M19.13 13.83L21.17 15.87L15.04 22H13V19.96L19.13 13.83Z",
+"author": "Colton Wiscombe"
+},
+{
 "icon": "note-minus-outline",
 "google": "false",
-"search": "note-minus-outline",
+"search": "note-minus-outline,paper-minus-outline,sticky-note-minus-outline,post-it-note-minus-outline",
 "name": "note-minus-outline",
-"path": "M16 3H4C2.89 3 2 3.89 2 5V19C2 20.1 2.89 21 4 21H20C21.11 21 22 20.11 22 19V9L16 3M20 19H4V5H13V12H20V19M15 10V4.5L20.5 10H15M6 13H12V15H6V13Z",
+"path": "M23 18V20H15V18H23M13 19C13 19.7 13.13 20.37 13.35 21H5C3.89 21 3 20.1 3 19V5C3 3.89 3.89 3 5 3H15L21 9V13.35C20.37 13.13 19.7 13 19 13V12H12V5H5V19H13M14 10H19.5L14 4.5V10Z",
 "author": "Colton Wiscombe"
 },
 {
 "icon": "note-minus",
 "google": "false",
-"search": "note-minus",
+"search": "note-minus,paper-minus,sticky-note-minus,post-it-note-minus",
 "name": "note-minus",
-"path": "M15 3H5C3.89 3 3 3.89 3 5V19C3 20.1 3.89 21 5 21H19C20.11 21 21 20.11 21 19V9L15 3M14 15H6V13H14V15M14 10V4.5L19.5 10H14Z",
+"path": "M19 13C19.7 13 20.37 13.13 21 13.35V9L15 3H5C3.89 3 3 3.89 3 5V19C3 20.11 3.9 21 5 21H13.35C13.13 20.37 13 19.7 13 19C13 15.69 15.69 13 19 13M14 4.5L19.5 10H14V4.5M23 18V20H15V18H23Z",
 "author": "Colton Wiscombe"
 },
 {
 "icon": "note-multiple-outline",
 "google": "false",
-"search": "note-multiple-outline,notes-outline",
+"search": "note-multiple-outline,notes-outline,papers-outline,sticky-notes-outline,post-it-notes-outline",
 "name": "note-multiple-outline",
 "path": "M3,6V22H21V24H3A2,2 0 0,1 1,22V6H3M16,9H21.5L16,3.5V9M7,2H17L23,8V18A2,2 0 0,1 21,20H7C5.89,20 5,19.1 5,18V4A2,2 0 0,1 7,2M7,4V18H21V11H14V4H7Z",
 "author": "Austin Andrews"
@@ -31330,15 +32874,31 @@ const icons = [
 {
 "icon": "note-multiple",
 "google": "false",
-"search": "note-multiple,notes",
+"search": "note-multiple,notes,papers,sticky-notes,post-it-notes",
 "name": "note-multiple",
 "path": "M16,9H21.5L16,3.5V9M7,2H17L23,8V18A2,2 0 0,1 21,20H7C5.89,20 5,19.1 5,18V4A2,2 0 0,1 7,2M3,6V22H21V24H3A2,2 0 0,1 1,22V6H3Z",
 "author": "Austin Andrews"
 },
 {
+"icon": "note-off-outline",
+"google": "false",
+"search": "note-off-outline,paper-off-outline,sticky-note-off-outline,post-it-note-off-outline",
+"name": "note-off-outline",
+"path": "M12 5V8.8L15.2 12H19V15.8L21 17.8V9L15 3H6.2L8.2 5H12M14 4.5L19.5 10H14V4.5M20.7 20.05L20.7 20.04L19 18.34V18.35L12.66 12H12.66L12 11.34V11.35L6.14 5.5L2.39 1.73L1.11 3L3 4.9C3 4.93 3 4.97 3 5V19C3 20.1 3.89 21 5 21H19C19.03 21 19.07 21 19.1 21L20.84 22.73L22.11 21.46L20.7 20.05M5 19V6.89L17.11 19H5Z",
+"author": "Colton Wiscombe"
+},
+{
+"icon": "note-off",
+"google": "false",
+"search": "note-off,paper-off,sticky-note-off,post-it-note-off",
+"name": "note-off",
+"path": "M22.11 21.46L20.84 22.73L19.1 21C19.07 21 19.03 21 19 21H5C3.9 21 3 20.11 3 19V5C3 4.97 3 4.93 3 4.9L1.11 3L2.39 1.73L20.7 20.04L20.7 20.05L22.11 21.46M21 17.8L6.2 3H15L21 9V17.8M19.5 10L14 4.5V10H19.5Z",
+"author": "Colton Wiscombe"
+},
+{
 "icon": "note-outline",
 "google": "false",
-"search": "note-outline,paper-outline",
+"search": "note-outline,paper-outline,sticky-note-outline,post-it-note-outline",
 "name": "note-outline",
 "path": "M14,10H19.5L14,4.5V10M5,3H15L21,9V19A2,2 0 0,1 19,21H5C3.89,21 3,20.1 3,19V5C3,3.89 3.89,3 5,3M5,5V19H19V12H12V5H5Z",
 "author": "Austin Andrews"
@@ -31346,17 +32906,17 @@ const icons = [
 {
 "icon": "note-plus-outline",
 "google": "false",
-"search": "note-plus-outline,note-add-outline",
+"search": "note-plus-outline,note-add-outline,paper-plus-outline,paper-add-outline,sticky-note-plus-outline,sticky-note-add-outline,post-it-note-plus-outline,post-it-note-add-outline",
 "name": "note-plus-outline",
-"path": "M15,10H20.5L15,4.5V10M4,3H16L22,9V19A2,2 0 0,1 20,21H4C2.89,21 2,20.1 2,19V5C2,3.89 2.89,3 4,3M4,5V19H20V12H13V5H4M8,17V15H6V13H8V11H10V13H12V15H10V17H8Z",
+"path": "M5 19V5H12V12H19V13C19.7 13 20.37 13.13 21 13.35V9L15 3H5C3.89 3 3 3.89 3 5V19C3 20.1 3.89 21 5 21H13.35C13.13 20.37 13 19.7 13 19H5M14 4.5L19.5 10H14V4.5M23 18V20H20V23H18V20H15V18H18V15H20V18H23Z",
 "author": "Austin Andrews"
 },
 {
 "icon": "note-plus",
 "google": "false",
-"search": "note-plus,note-add",
+"search": "note-plus,note-add,paper-plus,paper-add,sticky-note-plus,sticky-note-add,post-it-note-plus,post-it-note-add",
 "name": "note-plus",
-"path": "M14,10H19.5L14,4.5V10M5,3H15L21,9V19A2,2 0 0,1 19,21H5C3.89,21 3,20.1 3,19V5C3,3.89 3.89,3 5,3M9,18H11V15H14V13H11V10H9V13H6V15H9V18Z",
+"path": "M19 13C19.7 13 20.37 13.13 21 13.35V9L15 3H5C3.89 3 3 3.89 3 5V19C3 20.11 3.9 21 5 21H13.35C13.13 20.37 13 19.7 13 19C13 15.69 15.69 13 19 13M14 4.5L19.5 10H14V4.5M23 18V20H20V23H18V20H15V18H18V15H20V18H23Z",
 "author": "Austin Andrews"
 },
 {
@@ -31364,21 +32924,21 @@ const icons = [
 "google": "false",
 "search": "note-remove-outline",
 "name": "note-remove-outline",
-"path": "M16 3H4C2.89 3 2 3.89 2 5V19C2 20.1 2.89 21 4 21H20C21.11 21 22 20.11 22 19V9L16 3M20 19H4V5H13V12H20V19M15 10V4.5L20.5 10H15M11.83 12.59L10.41 14L11.83 15.41L10.41 16.83L9 15.41L7.59 16.83L6.17 15.41L7.59 14L6.17 12.59L7.59 11.17L9 12.59L10.41 11.17L11.83 12.59Z",
+"path": "M5 19V5H12V12H19V13C19.7 13 20.37 13.13 21 13.35V9L15 3H5C3.89 3 3 3.89 3 5V19C3 20.1 3.89 21 5 21H13.35C13.13 20.37 13 19.7 13 19H5M14 4.5L19.5 10H14V4.5M20.41 19L22.54 21.12L21.12 22.54L19 20.41L16.88 22.54L15.47 21.12L17.59 19L15.47 16.88L16.88 15.47L19 17.59L21.12 15.47L22.54 16.88L20.41 19Z",
 "author": "Colton Wiscombe"
 },
 {
 "icon": "note-remove",
 "google": "false",
-"search": "note-remove",
+"search": "note-remove,paper-remove,sticky-note-remove,post-it-note-remove",
 "name": "note-remove",
-"path": "M15 3H5C3.89 3 3 3.89 3 5V19C3 20.1 3.89 21 5 21H19C20.11 21 21 20.11 21 19V9L15 3M13.54 16.12L12.12 17.54L10 15.41L7.88 17.54L6.47 16.12L8.59 14L6.47 11.88L7.88 10.47L10 12.59L12.12 10.47L13.54 11.88L11.41 14L13.54 16.12M14 10V4.5L19.5 10H14Z",
+"path": "M19 13C19.7 13 20.37 13.13 21 13.35V9L15 3H5C3.89 3 3 3.89 3 5V19C3 20.11 3.9 21 5 21H13.35C13.13 20.37 13 19.7 13 19C13 15.69 15.69 13 19 13M14 4.5L19.5 10H14V4.5M20.41 19L22.54 21.12L21.12 22.54L19 20.41L16.88 22.54L15.47 21.12L17.59 19L15.47 16.88L16.88 15.47L19 17.59L21.12 15.47L22.54 16.88L20.41 19Z",
 "author": "Colton Wiscombe"
 },
 {
 "icon": "note-search-outline",
 "google": "false",
-"search": "note-search-outline",
+"search": "note-search-outline,paper-search-outline,sticky-note-search-outline,post-it-note-search-outline",
 "name": "note-search-outline",
 "path": "M15 3H5C3.89 3 3 3.89 3 5V10.82C3.6 10.24 4.28 9.8 5 9.5V5H12V10.82C12.03 10.85 12.07 10.87 12.1 10.9C12.44 11.24 12.73 11.61 12.97 12H19V19H12.97C12.73 19.39 12.44 19.76 12.1 20.1C11.74 20.45 11.35 20.74 10.94 21H19C20.11 21 21 20.11 21 19V9L15 3M14 10V4.5L19.5 10H14M7.5 11C5 11 3 13 3 15.5C3 16.38 3.25 17.21 3.69 17.9L.61 21L2 22.39L5.12 19.32C5.81 19.75 6.63 20 7.5 20C10 20 12 18 12 15.5S10 11 7.5 11M7.5 18C6.12 18 5 16.88 5 15.5S6.12 13 7.5 13 10 14.12 10 15.5 8.88 18 7.5 18Z",
 "author": "Colton Wiscombe"
@@ -31386,7 +32946,7 @@ const icons = [
 {
 "icon": "note-search",
 "google": "false",
-"search": "note-search",
+"search": "note-search,paper-search,sticky-note-search,post-it-note-search",
 "name": "note-search",
 "path": "M15 3H5C3.89 3 3 3.89 3 5V10.82C5.55 8.37 9.59 8.4 12.1 10.9C14.63 13.44 14.63 17.56 12.1 20.1C11.74 20.45 11.35 20.74 10.94 21H19C20.11 21 21 20.11 21 19V9L15 3M14 10V4.5L19.5 10H14M7.5 11C5 11 3 13 3 15.5C3 16.38 3.25 17.21 3.69 17.9L.61 21L2 22.39L5.12 19.32C5.81 19.75 6.63 20 7.5 20C10 20 12 18 12 15.5S10 11 7.5 11M7.5 18C6.12 18 5 16.88 5 15.5S6.12 13 7.5 13 10 14.12 10 15.5 8.88 18 7.5 18Z",
 "author": "Colton Wiscombe"
@@ -31394,7 +32954,7 @@ const icons = [
 {
 "icon": "note-text-outline",
 "google": "false",
-"search": "note-text-outline",
+"search": "note-text-outline,paper-text-outline,sticky-note-text-outline,post-it-note-text-outline",
 "name": "note-text-outline",
 "path": "M15 3H5A2 2 0 0 0 3 5V19A2 2 0 0 0 5 21H19A2 2 0 0 0 21 19V9L15 3M19 19H5V5H14V10H19M17 14H7V12H17M14 17H7V15H14",
 "author": "Michael Richins"
@@ -31402,7 +32962,7 @@ const icons = [
 {
 "icon": "note-text",
 "google": "false",
-"search": "note-text",
+"search": "note-text,paper-text,sticky-note-text,post-it-note-text",
 "name": "note-text",
 "path": "M14,10H19.5L14,4.5V10M5,3H15L21,9V19A2,2 0 0,1 19,21H5C3.89,21 3,20.1 3,19V5C3,3.89 3.89,3 5,3M5,12V14H19V12H5M5,16V18H14V16H5Z",
 "author": "Austin Andrews"
@@ -31410,7 +32970,7 @@ const icons = [
 {
 "icon": "note",
 "google": "false",
-"search": "note,paper",
+"search": "note,paper,sticky-note,post-it-note",
 "name": "note",
 "path": "M14,10V4.5L19.5,10M5,3C3.89,3 3,3.89 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V9L15,3H5Z",
 "author": "Austin Andrews"
@@ -31514,7 +33074,7 @@ const icons = [
 {
 "icon": "notebook",
 "google": "false",
-"search": "notebook,journal,planner",
+"search": "notebook,journal,planner,diary",
 "name": "notebook",
 "path": "M3,7V5H5V4C5,2.89 5.9,2 7,2H13V9L15.5,7.5L18,9V2H19C20.05,2 21,2.95 21,4V20C21,21.05 20.05,22 19,22H7C5.95,22 5,21.05 5,20V19H3V17H5V13H3V11H5V7H3M7,11H5V13H7V11M7,7V5H5V7H7M7,19V17H5V19H7Z",
 "author": "Contributors"
@@ -32416,6 +33976,14 @@ const icons = [
 "author": "Austin Andrews"
 },
 {
+"icon": "om",
+"google": "false",
+"search": "om,religion-hindu,hinduism,religion",
+"name": "om",
+"path": "M15,2L13.5,3.5L15,5L16.5,3.5L15,2M11,3C10,9 17,10 20,6L18,4.5C17,6 13,8 11,3M9,7C7,7 4.5,8.5 4.5,8.5L6,11C7,10 9,9.5 10,10C12,11 9,13 7,12V15.5C10,14 12,16 11,17.5C8,22 3,16 3,13C1,19 6,22 9,22C12,22 14,20 12.5,15H14C12.5,19.5 18,24 21,18C22,16 22,9.5 17,9.5C13,9.5 14,15 10.5,13.5C14,10 12,7 9,7M19,12C22,15 15,21 15,15C15,13 17,10.5 19,12Z",
+"author": "Nick"
+},
+{
 "icon": "omega",
 "google": "false",
 "search": "omega,ohm,electrical-resistance",
@@ -32626,7 +34194,7 @@ const icons = [
 {
 "icon": "package-down",
 "google": "true",
-"search": "package-down,archive,box-down",
+"search": "package-down,archive,box-down,this-side-down",
 "name": "package-down",
 "path": "M5.12,5L5.93,4H17.93L18.87,5M12,17.5L6.5,12H10V10H14V12H17.5L12,17.5M20.54,5.23L19.15,3.55C18.88,3.21 18.47,3 18,3H6C5.53,3 5.12,3.21 4.84,3.55L3.46,5.23C3.17,5.57 3,6 3,6.5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V6.5C21,6 20.83,5.57 20.54,5.23Z",
 "author": "Google"
@@ -32634,7 +34202,7 @@ const icons = [
 {
 "icon": "package-up",
 "google": "false",
-"search": "package-up,unarchive,box-up",
+"search": "package-up,unarchive,box-up,this-side-up",
 "name": "package-up",
 "path": "M20.54,5.23C20.83,5.57 21,6 21,6.5V19A2,2 0 0,1 19,21H5A2,2 0 0,1 3,19V6.5C3,6 3.17,5.57 3.46,5.23L4.84,3.55C5.12,3.21 5.53,3 6,3H18C18.47,3 18.88,3.21 19.15,3.55L20.54,5.23M5.12,5H18.87L17.93,4H5.93L5.12,5M12,9.5L6.5,15H10V17H14V15H17.5L12,9.5Z",
 "author": "Austin Andrews"
@@ -32666,7 +34234,7 @@ const icons = [
 {
 "icon": "page-first",
 "google": "true",
-"search": "page-first,first-page",
+"search": "page-first,first-page,chevron-left-first",
 "name": "page-first",
 "path": "M18.41,16.59L13.82,12L18.41,7.41L17,6L11,12L17,18L18.41,16.59M6,6H8V18H6V6Z",
 "author": "Google"
@@ -32674,7 +34242,7 @@ const icons = [
 {
 "icon": "page-last",
 "google": "true",
-"search": "page-last,last-page",
+"search": "page-last,last-page,chevron-right-last",
 "name": "page-last",
 "path": "M5.59,7.41L10.18,12L5.59,16.59L7,18L13,12L7,6L5.59,7.41M16,6H18V18H16V6Z",
 "author": "Google"
@@ -32978,7 +34546,7 @@ const icons = [
 {
 "icon": "panda",
 "google": "false",
-"search": "panda,animal",
+"search": "panda,emoji-panda,emoticon-panda,animal",
 "name": "panda",
 "path": "M12,3C13.74,3 15.36,3.5 16.74,4.35C17.38,3.53 18.38,3 19.5,3A3.5,3.5 0 0,1 23,6.5C23,8 22.05,9.28 20.72,9.78C20.9,10.5 21,11.23 21,12A9,9 0 0,1 12,21A9,9 0 0,1 3,12C3,11.23 3.1,10.5 3.28,9.78C1.95,9.28 1,8 1,6.5A3.5,3.5 0 0,1 4.5,3C5.62,3 6.62,3.53 7.26,4.35C8.64,3.5 10.26,3 12,3M12,5A7,7 0 0,0 5,12A7,7 0 0,0 12,19A7,7 0 0,0 19,12A7,7 0 0,0 12,5M16.19,10.3C16.55,11.63 16.08,12.91 15.15,13.16C14.21,13.42 13.17,12.54 12.81,11.2C12.45,9.87 12.92,8.59 13.85,8.34C14.79,8.09 15.83,8.96 16.19,10.3M7.81,10.3C8.17,8.96 9.21,8.09 10.15,8.34C11.08,8.59 11.55,9.87 11.19,11.2C10.83,12.54 9.79,13.42 8.85,13.16C7.92,12.91 7.45,11.63 7.81,10.3M12,14C12.6,14 13.13,14.19 13.5,14.5L12.5,15.5C12.5,15.92 12.84,16.25 13.25,16.25A0.75,0.75 0 0,0 14,15.5A0.5,0.5 0 0,1 14.5,15A0.5,0.5 0 0,1 15,15.5A1.75,1.75 0 0,1 13.25,17.25C12.76,17.25 12.32,17.05 12,16.72C11.68,17.05 11.24,17.25 10.75,17.25A1.75,1.75 0 0,1 9,15.5A0.5,0.5 0 0,1 9.5,15A0.5,0.5 0 0,1 10,15.5A0.75,0.75 0 0,0 10.75,16.25A0.75,0.75 0 0,0 11.5,15.5L10.5,14.5C10.87,14.19 11.4,14 12,14Z",
 "author": "Austin Andrews"
@@ -33078,6 +34646,14 @@ const icons = [
 "name": "parachute",
 "path": "M21.2,10.95L12,23L2.78,10.96L2.87,10.88C3.08,10.67 3.33,10.5 3.58,10.36L10.73,19.69L8.58,13L9.24,11.81L12,20.38L14.73,11.8L15.4,13L13.27,19.69L20.41,10.35C20.66,10.5 20.9,10.64 21.1,10.85L21.2,10.95M5,9C6.5,9 7.81,9.86 8.5,11.1C9.17,9.86 10.47,9 12,9C13.5,9 14.8,9.85 15.5,11.09C16.16,9.84 17.47,9 19,9C20.09,9 21.09,9.42 21.81,10.14C20.94,5.5 16.88,2 12,2C7.09,2 3.03,5.5 2.16,10.17C2.89,9.45 3.89,9 5,9Z",
 "author": "Michael Irigoyen"
+},
+{
+"icon": "paragliding",
+"google": "true",
+"search": "paragliding,parasail,paraglide",
+"name": "paragliding",
+"path": "M12 17C10.9 17 10 16.11 10 15S10.9 13 12 13 14 13.9 14 15 13.11 17 12 17M19 14H17C17 16.76 14.76 19 12 19S7 16.76 7 14H5C5 16.79 6.64 19.19 9 20.32V23H15V20.32C17.36 19.19 19 16.79 19 14M23 7.76C23.04 8.56 22.05 9.06 21.41 8.6C21.27 8.46 21.16 8.44 21 8.32L18.97 13H17L15.5 6.73C13.21 6.5 10.79 6.5 8.5 6.73L7 13H5.03L3 8.32C2.84 8.44 2.73 8.46 2.59 8.6C1.95 9.06 .959 8.56 1 7.76V4C1 4 1 1 12 1S23 4 23 4M6.9 7C6 7.2 5.15 7.43 4.37 7.71L5.87 11.27L6.9 7M19.63 7.71C18.85 7.43 18 7.2 17.1 7L18.13 11.27L19.63 7.71Z",
+"author": "Google"
 },
 {
 "icon": "parking",
@@ -33208,14 +34784,6 @@ const icons = [
 "author": "Simran"
 },
 {
-"icon": "pdf-box",
-"google": "true",
-"search": "pdf-box,files,folders",
-"name": "pdf-box",
-"path": "M12,10.5H13V13.5H12V10.5M7,11.5H8V10.5H7V11.5M20,6V18A2,2 0 0,1 18,20H6A2,2 0 0,1 4,18V6A2,2 0 0,1 6,4H18A2,2 0 0,1 20,6M9.5,10.5A1.5,1.5 0 0,0 8,9H5.5V15H7V13H8A1.5,1.5 0 0,0 9.5,11.5V10.5M14.5,10.5A1.5,1.5 0 0,0 13,9H10.5V15H13A1.5,1.5 0 0,0 14.5,13.5V10.5M18.5,9H15.5V15H17V13H18.5V11.5H17V10.5H18.5V9Z",
-"author": "Google"
-},
-{
 "icon": "peace",
 "google": "false",
 "search": "peace",
@@ -33226,7 +34794,7 @@ const icons = [
 {
 "icon": "peanut-off-outline",
 "google": "false",
-"search": "peanut-off-outline,allergen-off-outline,food-allergy-off-outline,food,drink",
+"search": "peanut-off-outline,allergen-off-outline,food-allergy-off-outline,food,drink,agriculture",
 "name": "peanut-off-outline",
 "path": "M22.11 21.46L20.84 22.73L17.69 19.58C17.36 20.21 16.93 20.77 16.41 21.25C14.86 22.71 12.69 23.31 10.61 22.85C7.1 22.1 4.87 18.64 5.62 15.13C5.87 13.95 6.45 12.87 7.28 12C7.62 11.64 7.62 11.08 7.28 10.72C6.63 9.91 6.21 8.95 6.04 7.93L1.11 3L2.39 1.73L22.11 21.46M15.3 19.56C15.69 19.13 16 18.63 16.19 18.08L13.75 15.64C13.57 15.87 13.29 16 13 16C12.45 16 12 15.55 12 15C12 14.71 12.13 14.43 12.36 14.25L9.55 11.44C9.53 12.18 9.24 12.88 8.73 13.41C7.03 15.22 7.13 18.07 8.94 19.77L8.95 19.78C10.76 21.47 13.61 21.37 15.3 19.56M14 17C12.71 17 12.72 19 14 19C15.28 19 15.29 17 14 17M6.9 3.7L8.43 5.23C8.68 4.71 9.05 4.25 9.5 3.89C10.2 3.31 11.09 3 12 3H12.88C13.47 3.14 14 3.41 14.5 3.79C16.22 5.17 16.5 7.69 15.12 9.41C14.7 9.93 14.46 10.58 14.45 11.25L18.32 15.12C18.07 13.97 17.5 12.92 16.72 12.06C16.37 11.7 16.33 11.13 16.62 10.72C16.62 10.72 18 9 18 7S15.97.997 12 .997 6.9 3.7 6.9 3.7M12 17C12 15.71 10 15.72 10 17C10 18.28 12 18.29 12 17M13 5C11.71 5 11.72 7 13 7C14.28 7 14.29 5 13 5Z",
 "author": "Michael Richins"
@@ -33234,7 +34802,7 @@ const icons = [
 {
 "icon": "peanut-off",
 "google": "false",
-"search": "peanut-off,allergen-off,food-allergy-off,food,drink",
+"search": "peanut-off,allergen-off,food-allergy-off,food,drink,agriculture",
 "name": "peanut-off",
 "path": "M15.9 10.12A5 5 0 0 0 13.08 2.12A5.74 5.74 0 0 0 12 2A5 5 0 0 0 7.68 4.5L16.38 13.18A4.35 4.35 0 0 0 16.04 12.77A2 2 0 0 1 15.9 10.12M13 7A1 1 0 1 1 14 6A1 1 0 0 1 13 7M7 6.39L2.39 1.73L1.11 3L7.8 9.69C7.9 9.84 8 10 8.11 10.12A2 2 0 0 1 8 12.72A5.5 5.5 0 0 0 10.81 21.87A5.42 5.42 0 0 0 12 22A5.5 5.5 0 0 0 17 18.86L20.87 22.73L22.14 21.46M11 18A1 1 0 1 1 12 17A1 1 0 0 1 11 18M14 19A1 1 0 1 1 15 18A1 1 0 0 1 14 19M13 16A1 1 0 0 1 12 15A1 1 0 0 1 12.35 14.24L13.76 15.65A1 1 0 0 1 13 16Z",
 "author": "Michael Richins"
@@ -33242,7 +34810,7 @@ const icons = [
 {
 "icon": "peanut-outline",
 "google": "false",
-"search": "peanut-outline,allergen-outline,food-allergy-outline,food,drink",
+"search": "peanut-outline,allergen-outline,food-allergy-outline,food,drink,agriculture",
 "name": "peanut-outline",
 "path": "M12 23C11.53 23 11.07 22.95 10.61 22.85C7.1 22.1 4.87 18.64 5.62 15.13C5.87 13.95 6.45 12.87 7.28 12C7.62 11.64 7.62 11.08 7.28 10.72C5.2 8.14 5.6 4.36 8.18 2.28S14.54.607 16.62 3.19C18.39 5.38 18.39 8.5 16.62 10.72C16.33 11.13 16.37 11.7 16.72 12.06C19.17 14.68 19.04 18.8 16.41 21.25C15.22 22.37 13.64 23 12 23M12 3C11.09 3 10.2 3.31 9.5 3.89C8.55 4.65 8 5.79 8 7C8 7.91 8.31 8.79 8.88 9.5C9.84 10.64 9.77 12.33 8.73 13.41C7.03 15.22 7.13 18.07 8.94 19.77S13.6 21.38 15.3 19.56C16.92 17.83 16.92 15.14 15.3 13.41C14.23 12.32 14.15 10.6 15.12 9.41C16.5 7.69 16.22 5.17 14.5 3.79C14 3.41 13.47 3.14 12.88 3C12.59 3 12.29 3 12 3M12 6C12 6.55 12.45 7 13 7S14 6.55 14 6 13.55 5 13 5 12 5.45 12 6M14 19C14.55 19 15 18.55 15 18S14.55 17 14 17 13 17.45 13 18 13.45 19 14 19M13 16C13.55 16 14 15.55 14 15S13.55 14 13 14 12 14.45 12 15 12.45 16 13 16M11 18C11.55 18 12 17.55 12 17S11.55 16 11 16 10 16.45 10 17 10.45 18 11 18Z",
 "author": "Michael Richins"
@@ -33250,7 +34818,7 @@ const icons = [
 {
 "icon": "peanut",
 "google": "false",
-"search": "peanut,allergen,food-allergy,food,drink",
+"search": "peanut,allergen,food-allergy,food,drink,agriculture",
 "name": "peanut",
 "path": "M16 12.77A2 2 0 0 1 15.86 10.12A5 5 0 0 0 13.04 2.12A5.74 5.74 0 0 0 12 2A5 5 0 0 0 7 7A5 5 0 0 0 8.11 10.12A2 2 0 0 1 8 12.72A5.5 5.5 0 0 0 10.81 21.87A5.42 5.42 0 0 0 12 22A5.5 5.5 0 0 0 16 12.77M13 5A1 1 0 1 1 12 6A1 1 0 0 1 13 5M11 18A1 1 0 1 1 12 17A1 1 0 0 1 11 18M12 15A1 1 0 1 1 13 16A1 1 0 0 1 12 15M14 19A1 1 0 1 1 15 18A1 1 0 0 1 14 19Z",
 "author": "Michael Richins"
@@ -33458,7 +35026,7 @@ const icons = [
 {
 "icon": "penguin",
 "google": "false",
-"search": "penguin,animal",
+"search": "penguin,emoji-penguin,emoticon-penguin,animal",
 "name": "penguin",
 "path": "M19,16C19,17.72 18.37,19.3 17.34,20.5C17.75,20.89 18,21.41 18,22H6C6,21.41 6.25,20.89 6.66,20.5C5.63,19.3 5,17.72 5,16H3C3,14.75 3.57,13.64 4.46,12.91L4.47,12.89C6,11.81 7,10 7,8V7A5,5 0 0,1 12,2A5,5 0 0,1 17,7V8C17,10 18,11.81 19.53,12.89L19.54,12.91C20.43,13.64 21,14.75 21,16H19M16,16A4,4 0 0,0 12,12A4,4 0 0,0 8,16A4,4 0 0,0 12,20A4,4 0 0,0 16,16M10,9L12,10.5L14,9L12,7.5L10,9M10,5A1,1 0 0,0 9,6A1,1 0 0,0 10,7A1,1 0 0,0 11,6A1,1 0 0,0 10,5M14,5A1,1 0 0,0 13,6A1,1 0 0,0 14,7A1,1 0 0,0 15,6A1,1 0 0,0 14,5Z",
 "author": "Augustin Ursu"
@@ -33528,12 +35096,12 @@ const icons = [
 "author": "Michael Irigoyen"
 },
 {
-"icon": "pharmacy",
-"google": "true",
-"search": "pharmacy,chemist,local-pharmacy,mortar-pestle,pharmaceutical,medical,hospital",
-"name": "pharmacy",
-"path": "M16,14H13V17H11V14H8V12H11V9H13V12H16M21,5H18.35L19.5,1.85L17.15,1L15.69,5H3V7L5,13L3,19V21H21V19L19,13L21,7V5Z",
-"author": "Google"
+"icon": "ph",
+"google": "false",
+"search": "ph,acid,base,potential-of-hydrogen,power-of-hydrogen,science,home automation",
+"name": "ph",
+"path": "M13 7V17H15V13H17V17H19V7H17V11H15V7H13M11 15V13C11 11.9 10.11 11 9 11H5V21H7V17H9C10.11 17 11 16.11 11 15M9 15H7V13H9V15Z",
+"author": "Michael Irigoyen"
 },
 {
 "icon": "phone-alert-outline",
@@ -33968,12 +35536,20 @@ const icons = [
 "author": "Simran"
 },
 {
+"icon": "piano-off",
+"google": "true",
+"search": "piano-off,music",
+"name": "piano-off",
+"path": "M22.11 21.46L2.39 1.73L1.11 3L2 3.89V20C2 21.11 2.9 22 4 22H20.11L20.84 22.73L22.11 21.46M8 20H4V5.89L6.8 8.69V13C6.8 13.56 7.24 14 7.79 14H8V20M15 20H9V14H9.31C9.86 14 10.3 13.56 10.3 13V12.19L15 16.89V20M16 20V17.89L18.11 20H16M10.3 7.1L5.2 2H20C21.11 2 22 2.9 22 4V18.8L20 16.8V4H17.25V13C17.25 13.3 17.13 13.55 16.93 13.73L13.75 10.55V4H10.3V7.1Z",
+"author": "Google"
+},
+{
 "icon": "piano",
-"google": "false",
+"google": "true",
 "search": "piano,music",
 "name": "piano",
-"path": "M4,3H20A2,2 0 0,1 22,5V19A2,2 0 0,1 20,21H4A2,2 0 0,1 2,19V5A2,2 0 0,1 4,3M4,5V19H8V13H6.75V5H4M9,19H15V13H13.75V5H10.25V13H9V19M16,19H20V5H17.25V13H16V19Z",
-"author": "Austin Andrews"
+"path": "M20 2H4C2.9 2 2 2.9 2 4V20C2 21.11 2.9 22 4 22H20C21.11 22 22 21.11 22 20V4C22 2.9 21.11 2 20 2M14.74 14H15V20H9V14H9.31C9.86 14 10.3 13.56 10.3 13V4H13.75V13C13.75 13.56 14.19 14 14.74 14M4 4H6.8V13C6.8 13.56 7.24 14 7.79 14H8V20H4V4M20 20H16V14H16.26C16.81 14 17.25 13.56 17.25 13V4H20V20Z",
+"author": "Google"
 },
 {
 "icon": "pickaxe",
@@ -34033,43 +35609,43 @@ const icons = [
 },
 {
 "icon": "pig-variant-outline",
-"google": "false",
-"search": "pig-variant-outline",
+"google": "true",
+"search": "pig-variant-outline,agriculture,animal",
 "name": "pig-variant-outline",
-"path": "M9 12C8.4 12 8 11.6 8 11S8.4 10 9 10 10 10.4 10 11 9.6 12 9 12M22 12H20C20 8.7 16.4 6 12 6C11.2 6 10.3 6.1 9.6 6.3L7 5V7.3C5.5 8.2 4.5 9.5 4.1 11H2V15H5.1C5.6 15.6 6.2 16.2 7 16.7V20H9V17.6C9.9 17.9 10.9 18 12 18S14.1 17.8 15 17.6V20H17V16.7C18.1 16 19 15.1 19.5 14H22V12M12 16C8.7 16 6 14.2 6 12S8.7 8 12 8 18 9.8 18 12 15.3 16 12 16Z",
-"author": "Michael Irigoyen"
+"path": "M15 10C15 9.45 15.45 9 16 9C16.55 9 17 9.45 17 10S16.55 11 16 11 15 10.55 15 10M22 7.5V14.47L19.18 15.41L17.5 21H12V19H10V21H4.5C4.5 21 2 12.54 2 9.5S4.46 4 7.5 4H12.5C13.41 2.79 14.86 2 16.5 2C17.33 2 18 2.67 18 3.5C18 3.71 17.96 3.9 17.88 4.08C17.74 4.42 17.62 4.81 17.56 5.23L19.83 7.5H22M20 9.5H19L15.5 6C15.5 5.35 15.59 4.71 15.76 4.09C14.79 4.34 14 5.06 13.67 6H7.5C5.57 6 4 7.57 4 9.5C4 11.38 5.22 16.15 6 19H8V17H14V19H16L17.56 13.85L20 13.03V9.5Z",
+"author": "Google"
 },
 {
 "icon": "pig-variant",
-"google": "false",
+"google": "true",
 "search": "pig-variant,animal,agriculture",
 "name": "pig-variant",
-"path": "M20 12C20 8.69 16.42 6 12 6C11.15 6 10.34 6.1 9.57 6.28L7 5V7.32C5.5 8.22 4.45 9.5 4.12 11H2V15H5.08C5.58 15.65 6.23 16.22 7 16.68V20H9V17.56C9.93 17.84 10.94 18 12 18S14.07 17.84 15 17.56V20H17V16.68C18.15 16 19.03 15.06 19.54 14H22V12H20M7 11C6.45 11 6 10.55 6 10S6.45 9 7 9 8 9.45 8 10 7.55 11 7 11Z",
-"author": "Alex Efremo"
+"path": "M19.83 7.5L17.56 5.23C17.63 4.81 17.74 4.42 17.88 4.08C17.96 3.9 18 3.71 18 3.5C18 2.67 17.33 2 16.5 2C14.86 2 13.41 2.79 12.5 4H7.5C4.46 4 2 6.46 2 9.5S4.5 21 4.5 21H10V19H12V21H17.5L19.18 15.41L22 14.47V7.5H19.83M16 11C15.45 11 15 10.55 15 10S15.45 9 16 9C16.55 9 17 9.45 17 10S16.55 11 16 11Z",
+"author": "Google"
 },
 {
 "icon": "pig",
 "google": "false",
-"search": "pig,animal,agriculture",
+"search": "pig,emoji-pig,emoticon-pig,animal,agriculture",
 "name": "pig",
 "path": "M9.5,9A1.5,1.5 0 0,0 8,10.5A1.5,1.5 0 0,0 9.5,12A1.5,1.5 0 0,0 11,10.5A1.5,1.5 0 0,0 9.5,9M14.5,9A1.5,1.5 0 0,0 13,10.5A1.5,1.5 0 0,0 14.5,12A1.5,1.5 0 0,0 16,10.5A1.5,1.5 0 0,0 14.5,9M12,4L12.68,4.03C13.62,3.24 14.82,2.59 15.72,2.35C17.59,1.85 20.88,2.23 21.31,3.83C21.62,5 20.6,6.45 19.03,7.38C20.26,8.92 21,10.87 21,13A9,9 0 0,1 12,22A9,9 0 0,1 3,13C3,10.87 3.74,8.92 4.97,7.38C3.4,6.45 2.38,5 2.69,3.83C3.12,2.23 6.41,1.85 8.28,2.35C9.18,2.59 10.38,3.24 11.32,4.03L12,4M10,16A1,1 0 0,1 11,17A1,1 0 0,1 10,18A1,1 0 0,1 9,17A1,1 0 0,1 10,16M14,16A1,1 0 0,1 15,17A1,1 0 0,1 14,18A1,1 0 0,1 13,17A1,1 0 0,1 14,16M12,13C9.24,13 7,15.34 7,17C7,18.66 9.24,20 12,20C14.76,20 17,18.66 17,17C17,15.34 14.76,13 12,13M7.76,4.28C7.31,4.16 4.59,4.35 4.59,4.35C4.59,4.35 6.8,6.1 7.24,6.22C7.69,6.34 9.77,6.43 9.91,5.9C10.06,5.36 8.2,4.4 7.76,4.28M16.24,4.28C15.8,4.4 13.94,5.36 14.09,5.9C14.23,6.43 16.31,6.34 16.76,6.22C17.2,6.1 19.41,4.35 19.41,4.35C19.41,4.35 16.69,4.16 16.24,4.28Z",
 "author": "Austin Andrews"
 },
 {
 "icon": "piggy-bank-outline",
-"google": "false",
+"google": "true",
 "search": "piggy-bank-outline,banking",
 "name": "piggy-bank-outline",
-"path": "M22 14H20C20 11.6 18.2 9.6 15.5 8.6C15 9.4 14.1 10 13 10C11.7 10 10.7 9.2 10.2 8.2C10 8.2 9.8 8.3 9.5 8.3L7 7V9.3C5.5 10.2 4.4 11.5 4.1 13H2V17H5.1C5.6 17.6 6.2 18.2 7 18.7V22H9V19.6C9.9 19.9 10.9 20 12 20S14.1 19.8 15 19.6V22H17V18.7C18.1 18 19 17.1 19.5 16H22V14M12 18C8.7 18 6 16.2 6 14C6 12.5 7.4 11.1 9.4 10.4C10.3 11.4 11.6 12 13 12C14.1 12 15.1 11.7 16 11C17.3 11.8 18 12.9 18 14C18 16.2 15.3 18 12 18M13 3C13.6 3 14 3.4 14 4S13.6 5 13 5 12 4.6 12 4 12.4 3 13 3M13 1C11.3 1 10 2.3 10 4S11.3 7 13 7 16 5.7 16 4 14.7 1 13 1M10 13C10 13.6 9.6 14 9 14S8 13.6 8 13 8.4 12 9 12 10 12.4 10 13",
-"author": "Contributors"
+"path": "M15 10C15 9.45 15.45 9 16 9C16.55 9 17 9.45 17 10S16.55 11 16 11 15 10.55 15 10M8 9H13V7H8V9M22 7.5V14.47L19.18 15.41L17.5 21H12V19H10V21H4.5C4.5 21 2 12.54 2 9.5S4.46 4 7.5 4H12.5C13.41 2.79 14.86 2 16.5 2C17.33 2 18 2.67 18 3.5C18 3.71 17.96 3.9 17.88 4.08C17.74 4.42 17.62 4.81 17.56 5.23L19.83 7.5H22M20 9.5H19L15.5 6C15.5 5.35 15.59 4.71 15.76 4.09C14.79 4.34 14 5.06 13.67 6H7.5C5.57 6 4 7.57 4 9.5C4 11.38 5.22 16.15 6 19H8V17H14V19H16L17.56 13.85L20 13.03V9.5Z",
+"author": "Google"
 },
 {
 "icon": "piggy-bank",
-"google": "false",
+"google": "true",
 "search": "piggy-bank,banking",
 "name": "piggy-bank",
-"path": "M13 1C14.66 1 16 2.34 16 4S14.66 7 13 7 10 5.66 10 4 11.34 1 13 1M20 14C20 11.64 18.17 9.6 15.5 8.62C15 9.45 14.06 10 13 10C11.76 10 10.69 9.24 10.24 8.17C10 8.2 9.78 8.23 9.57 8.29L7 7V9.32C5.5 10.22 4.45 11.5 4.12 13H2V17H5.08C5.58 17.65 6.23 18.22 7 18.68V22H9V19.56C9.93 19.84 10.94 20 12 20S14.07 19.84 15 19.56V22H17V18.68C18.15 18 19.03 17.06 19.54 16H22V14H20M7 13C6.45 13 6 12.55 6 12S6.45 11 7 11 8 11.45 8 12 7.55 13 7 13Z",
-"author": "Alex Efremo"
+"path": "M19.83 7.5L17.56 5.23C17.63 4.81 17.74 4.42 17.88 4.08C17.96 3.9 18 3.71 18 3.5C18 2.67 17.33 2 16.5 2C14.86 2 13.41 2.79 12.5 4H7.5C4.46 4 2 6.46 2 9.5S4.5 21 4.5 21H10V19H12V21H17.5L19.18 15.41L22 14.47V7.5H19.83M13 9H8V7H13V9M16 11C15.45 11 15 10.55 15 10S15.45 9 16 9C16.55 9 17 9.45 17 10S16.55 11 16 11Z",
+"author": "Google"
 },
 {
 "icon": "pill",
@@ -34410,7 +35986,7 @@ const icons = [
 {
 "icon": "playlist-star",
 "google": "true",
-"search": "playlist-star",
+"search": "playlist-star,playlist-favorite",
 "name": "playlist-star",
 "path": "M17,19.09L19.45,20.58L18.8,17.77L21,15.89L18.11,15.64L17,13L15.87,15.64L13,15.89L15.18,17.77L14.5,20.58L17,19.09M4,14H12V16H4V14M4,6H16V8H4V6M4,10H16V12H4V10Z",
 "author": "Google"
@@ -34526,14 +36102,6 @@ const icons = [
 "name": "plus-network",
 "path": "M16,11V9H13V6H11V9H8V11H11V14H13V11H16M17,3A2,2 0 0,1 19,5V15A2,2 0 0,1 17,17H13V19H14A1,1 0 0,1 15,20H22V22H15A1,1 0 0,1 14,23H10A1,1 0 0,1 9,22H2V20H9A1,1 0 0,1 10,19H11V17H7C5.89,17 5,16.1 5,15V5A2,2 0 0,1 7,3H17Z",
 "author": "Austin Andrews"
-},
-{
-"icon": "plus-one",
-"google": "true",
-"search": "plus-one",
-"name": "plus-one",
-"path": "M10,8V12H14V14H10V18H8V14H4V12H8V8H10M14.5,6.08L19,5V18H17V7.4L14.5,7.9V6.08Z",
-"author": "Google"
 },
 {
 "icon": "plus-outline",
@@ -34656,25 +36224,9 @@ const icons = [
 "author": "Michael Irigoyen"
 },
 {
-"icon": "poll-box-outline",
-"google": "true",
-"search": "poll-box-outline",
-"name": "poll-box-outline",
-"path": "M9 17H7V10H9M13 17H11V7H13M17 17H15V13H17M19.5 19.1H4.5V5H19.5M19.5 3H4.5C3.4 3 2.5 3.9 2.5 5V19C2.5 20.1 3.4 21 4.5 21H19.5C20.6 21 21.5 20.1 21.5 19V5C21.5 3.9 20.6 3 19.5 3Z",
-"author": "Google"
-},
-{
-"icon": "poll-box",
-"google": "true",
-"search": "poll-box,assessment,insert-chart",
-"name": "poll-box",
-"path": "M17,17H15V13H17M13,17H11V7H13M9,17H7V10H9M19,3H5C3.89,3 3,3.89 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V5C21,3.89 20.1,3 19,3Z",
-"author": "Google"
-},
-{
 "icon": "poll",
 "google": "false",
-"search": "poll,bar-chart",
+"search": "poll,bar-chart,report,performance,analytics",
 "name": "poll",
 "path": "M3,22V8H7V22H3M10,22V2H14V22H10M17,22V14H21V22H17Z",
 "author": "Austin Andrews"
@@ -34698,7 +36250,7 @@ const icons = [
 {
 "icon": "pool",
 "google": "false",
-"search": "pool,swimming-pool,places",
+"search": "pool,swimming-pool,places,home automation",
 "name": "pool",
 "path": "M2,15C3.67,14.25 5.33,13.5 7,13.17V5A3,3 0 0,1 10,2C11.31,2 12.42,2.83 12.83,4H10A1,1 0 0,0 9,5V6H14V5A3,3 0 0,1 17,2C18.31,2 19.42,2.83 19.83,4H17A1,1 0 0,0 16,5V14.94C18,14.62 20,13 22,13V15C19.78,15 17.56,17 15.33,17C13.11,17 10.89,15 8.67,15C6.44,15 4.22,16 2,17V15M14,8H9V10H14V8M14,12H9V13C10.67,13.16 12.33,14.31 14,14.79V12M2,19C4.22,18 6.44,17 8.67,17C10.89,17 13.11,19 15.33,19C17.56,19 19.78,17 22,17V19C19.78,19 17.56,21 15.33,21C13.11,21 10.89,19 8.67,19C6.44,19 4.22,20 2,21V19Z",
 "author": "Austin Andrews"
@@ -34888,6 +36440,14 @@ const icons = [
 "author": "GreenTurtwig"
 },
 {
+"icon": "power-socket-ch",
+"google": "false",
+"search": "power-socket-ch,plug-socket-ch,power-socket-type-j,plug-socket-type-j,power-socket-switzerland,plug-socket-switzerland,home automation",
+"name": "power-socket-ch",
+"path": "M19.78 2H4.22C3 2 2 3 2 4.22V19.78C2 21 3 22 4.22 22H19.78C21 22 22 21 22 19.78V4.22C22 3 21 2 19.78 2M20 13L16.55 16.45C16.19 16.81 15.75 17 15.3 17H8.7C8.25 17 7.81 16.81 7.45 16.45L4 13C3.5 12.5 3.5 11.5 4 11L7.45 7.55C7.81 7.19 8.25 7 8.7 7H15.3C15.75 7 16.19 7.19 16.55 7.55L20 11C20.5 11.5 20.5 12.5 20 13M10.5 14C10.5 13.17 11.17 12.5 12 12.5S13.5 13.17 13.5 14 12.83 15.5 12 15.5 10.5 14.83 10.5 14M15.5 12C15.5 11.17 16.17 10.5 17 10.5S18.5 11.17 18.5 12 17.83 13.5 17 13.5 15.5 12.83 15.5 12M5.5 12C5.5 11.17 6.17 10.5 7 10.5S8.5 11.17 8.5 12 7.83 13.5 7 13.5 5.5 12.83 5.5 12Z",
+"author": "Contributors"
+},
+{
 "icon": "power-socket-de",
 "google": "false",
 "search": "power-socket-de,home automation",
@@ -35072,12 +36632,28 @@ const icons = [
 "author": "Michael Irigoyen"
 },
 {
+"icon": "printer-off-outline",
+"google": "true",
+"search": "printer-off-outline,printer",
+"name": "printer-off-outline",
+"path": "M1.41 1.6L22.36 22.55L20.95 23.96L18 21H6V17H2V11C2 9.34 3.34 8 5 8L0 3L1.41 1.6M6 15V13H10L7 10H5C4.45 10 4 10.45 4 11V15H6M8 19H16L12 15H8V19M8 5V5.36L6 3.36V3H18V8H19C20.66 8 22 9.34 22 11V17H19.66L15.66 13H18V15L20 15V11C20 10.45 19.55 10 19 10H12.66L10.66 8H16V5H8M19 11.5C19 12.06 18.55 12.5 18 12.5C17.45 12.5 17 12.06 17 11.5C17 10.96 17.45 10.5 18 10.5C18.55 10.5 19 10.96 19 11.5Z",
+"author": "Google"
+},
+{
 "icon": "printer-off",
 "google": "false",
 "search": "printer-off,printer",
 "name": "printer-off",
 "path": "M6,3V4.18L8.82,7H18V3H6M2.28,3L1,4.27L4.75,8C3.19,8.15 2,9.44 2,11V17H6V21H17.73L19.73,23L21,21.72L2.28,3M9.82,8L18.82,17H22V11A3,3 0 0,0 19,8H9.82M19,10A1,1 0 0,1 20,11A1,1 0 0,1 19,12A1,1 0 0,1 18,11A1,1 0 0,1 19,10M8,14H10.73L15.73,19H8V14Z",
 "author": "GreenTurtwig"
+},
+{
+"icon": "printer-outline",
+"google": "true",
+"search": "printer-outline,printer",
+"name": "printer-outline",
+"path": "M19 8C20.66 8 22 9.34 22 11V17H18V21H6V17H2V11C2 9.34 3.34 8 5 8H6V3H18V8H19M8 5V8H16V5H8M16 19V15H8V19H16M18 15H20V11C20 10.45 19.55 10 19 10H5C4.45 10 4 10.45 4 11V15H6V13H18V15M19 11.5C19 12.05 18.55 12.5 18 12.5C17.45 12.5 17 12.05 17 11.5C17 10.95 17.45 10.5 18 10.5C18.55 10.5 19 10.95 19 11.5Z",
+"author": "Google"
 },
 {
 "icon": "printer-pos",
@@ -35184,12 +36760,28 @@ const icons = [
 "author": "Austin Andrews"
 },
 {
+"icon": "progress-pencil",
+"google": "false",
+"search": "progress-pencil",
+"name": "progress-pencil",
+"path": "M15.84 10.2L14.83 11.21L12.76 9.18L13.77 8.16C13.97 7.95 14.31 7.94 14.55 8.16L15.84 9.41C16.05 9.62 16.06 9.96 15.84 10.2M8 13.91L12.17 9.72L14.24 11.8L10.08 16H8V13.91M13 2V4C17.39 4.54 20.5 8.53 19.96 12.92C19.5 16.56 16.64 19.43 13 19.88V21.88C18.5 21.28 22.45 16.34 21.85 10.85C21.33 6.19 17.66 2.5 13 2M11 2C9.04 2.18 7.19 2.95 5.67 4.2L7.1 5.74C8.22 4.84 9.57 4.26 11 4.06V2.06M4.26 5.67C3 7.19 2.24 9.04 2.05 11H4.05C4.24 9.58 4.8 8.23 5.69 7.1L4.26 5.67M2.06 13C2.26 14.96 3.03 16.81 4.27 18.33L5.69 16.9C4.81 15.77 4.24 14.42 4.06 13H2.06M7.06 18.37L5.67 19.74C7.18 21 9.04 21.79 11 22V20C9.58 19.82 8.23 19.25 7.1 18.37H7.06Z",
+"author": "Contributors"
+},
+{
 "icon": "progress-question",
 "google": "false",
 "search": "progress-question",
 "name": "progress-question",
 "path": "M13 2.03V4.05C17.39 4.59 20.5 8.58 19.96 12.97C19.5 16.61 16.64 19.5 13 19.93V21.93C18.5 21.38 22.5 16.5 21.95 11C21.5 6.25 17.73 2.5 13 2.03M11 2.06C9.05 2.25 7.19 3 5.67 4.26L7.1 5.74C8.22 4.84 9.57 4.26 11 4.06V2.06M4.26 5.67C3 7.19 2.25 9.04 2.05 11H4.05C4.24 9.58 4.8 8.23 5.69 7.1L4.26 5.67M2.06 13C2.26 14.96 3.03 16.81 4.27 18.33L5.69 16.9C4.81 15.77 4.24 14.42 4.06 13H2.06M7.1 18.37L5.67 19.74C7.18 21 9.04 21.79 11 22V20C9.58 19.82 8.23 19.25 7.1 18.37M20 4H44M13 18H11V16H13V18M13 15H11C11 11.75 14 12 14 10C14 8.9 13.1 8 12 8S10 8.9 10 10H8C8 7.79 9.79 6 12 6S16 7.79 16 10C16 12.5 13 12.75 13 15Z",
 "author": "Michael Irigoyen"
+},
+{
+"icon": "progress-star",
+"google": "false",
+"search": "progress-star",
+"name": "progress-star",
+"path": "M13 2V4C17.39 4.54 20.5 8.53 19.96 12.92C19.5 16.56 16.64 19.43 13 19.88V21.88C18.5 21.28 22.45 16.34 21.85 10.85C21.33 6.19 17.66 2.5 13 2M11 2C9.04 2.18 7.19 2.95 5.67 4.2L7.1 5.74C8.22 4.84 9.57 4.26 11 4.06V2.06M4.26 5.67C3 7.19 2.24 9.04 2.05 11H4.05C4.24 9.58 4.8 8.23 5.69 7.1L4.26 5.67M2.06 13C2.26 14.96 3.03 16.81 4.27 18.33L5.69 16.9C4.81 15.77 4.24 14.42 4.06 13H2.06M7.06 18.37L5.67 19.74C7.18 21 9.04 21.79 11 22V20C9.58 19.82 8.23 19.25 7.1 18.37H7.06M8.58 16.8L9.5 12.91L6.5 10.33L10.45 9.96L12 6.35L13.55 10L17.5 10.33L14.5 12.91L15.42 16.8L12 14.74L8.58 16.8",
+"author": "Contributors"
 },
 {
 "icon": "progress-upload",
@@ -35208,12 +36800,60 @@ const icons = [
 "author": "Michael Irigoyen"
 },
 {
+"icon": "projector-screen-off-outline",
+"google": "false",
+"search": "projector-screen-off-outline,home automation",
+"name": "projector-screen-off-outline",
+"path": "M20.84 22.73L22.11 21.46L2.39 1.73L1.11 3L5 6.89V14H11V16.59L6.79 20.79L8.21 22.21L11 19.41V22H13V19.41L15.79 22.21L17.21 20.79L13 16.59V14.89L20.84 22.73M7 12V8.89L10.11 12H7M8.2 5L5.2 2H20C20.55 2 21 2.45 21 3V4C21 4.55 20.55 5 20 5H19V14H17.2L15.2 12H17V5H8.2Z",
+"author": "Contributors"
+},
+{
+"icon": "projector-screen-off",
+"google": "false",
+"search": "projector-screen-off,home automation",
+"name": "projector-screen-off",
+"path": "M13 14.89V16.59L17.21 20.79L15.79 22.21L13 19.41V22H11V19.41L8.21 22.21L6.79 20.79L11 16.59V14H5V6.89L1.11 3L2.39 1.73L22.11 21.46L20.84 22.73L13 14.89M19 14V5H20C20.55 5 21 4.55 21 4V3C21 2.45 20.55 2 20 2H5.2L17.2 14H19Z",
+"author": "Contributors"
+},
+{
 "icon": "projector-screen-outline",
 "google": "false",
-"search": "projector-screen-outline",
+"search": "projector-screen-outline,home automation",
 "name": "projector-screen-outline",
 "path": "M20 2H4C3.45 2 3 2.45 3 3V4C3 4.55 3.45 5 4 5H5V14H11V16.59L6.79 20.79L8.21 22.21L11 19.41V22H13V19.41L15.79 22.21L17.21 20.79L13 16.59V14H19V5H20C20.55 5 21 4.55 21 4V3C21 2.45 20.55 2 20 2M17 12H7V5H17V12Z",
 "author": "Michael Irigoyen"
+},
+{
+"icon": "projector-screen-variant-off-outline",
+"google": "false",
+"search": "projector-screen-variant-off-outline,home automation",
+"name": "projector-screen-variant-off-outline",
+"path": "M22.11 21.46L2.39 1.73L1.11 3L4.11 6H4C3.45 6 3 6.45 3 7V8C3 8.55 3.45 9 4 9H5V18H16.11L20.84 22.73L22.11 21.46M7 16V9H7.11L14.11 16H7M12.2 9L9.2 6H20C20.55 6 21 6.45 21 7V8C21 8.55 20.55 9 20 9H19V15.8L17 13.8V9H12.2Z",
+"author": "Contributors"
+},
+{
+"icon": "projector-screen-variant-off",
+"google": "false",
+"search": "projector-screen-variant-off,home automation",
+"name": "projector-screen-variant-off",
+"path": "M20.84 22.73L16.11 18H5V9H4C3.45 9 3 8.55 3 8V7C3 6.45 3.45 6 4 6H4.11L1.11 3L2.39 1.73L22.11 21.46L20.84 22.73M19 9H20C20.55 9 21 8.55 21 8V7C21 6.45 20.55 6 20 6H9.2L19 15.8V9Z",
+"author": "Contributors"
+},
+{
+"icon": "projector-screen-variant-outline",
+"google": "false",
+"search": "projector-screen-variant-outline,home automation",
+"name": "projector-screen-variant-outline",
+"path": "M20 6H4C3.45 6 3 6.45 3 7V8C3 8.55 3.45 9 4 9H5V18H19V9H20C20.55 9 21 8.55 21 8V7C21 6.45 20.55 6 20 6M17 16H7V9H17V16Z",
+"author": "Contributors"
+},
+{
+"icon": "projector-screen-variant",
+"google": "false",
+"search": "projector-screen-variant,home automation",
+"name": "projector-screen-variant",
+"path": "M19 18V9H20C20.55 9 21 8.55 21 8V7C21 6.45 20.55 6 20 6H4C3.45 6 3 6.45 3 7V8C3 8.55 3.45 9 4 9H5V18H19Z",
+"author": "Contributors"
 },
 {
 "icon": "projector-screen",
@@ -35410,7 +37050,7 @@ const icons = [
 {
 "icon": "puzzle-star-outline",
 "google": "false",
-"search": "puzzle-star-outline,gaming,rpg",
+"search": "puzzle-star-outline,puzzle-favorite-outline,gaming,rpg",
 "name": "puzzle-star-outline",
 "path": "M13.2 22V21.7C13.2 20.21 12 19 10.5 19C9 19 7.8 20.21 7.8 21.7V22H4C2.9 22 2 21.11 2 20V16.2H2.3C3.79 16.2 5 15 5 13.5S3.79 10.8 2.3 10.8H2V7C2 5.9 2.9 5 4 5H7.04C7.28 3.3 8.74 2 10.5 2S13.72 3.3 13.96 5H17C18.11 5 19 5.9 19 7V10.04C20.45 10.25 21.61 11.34 21.91 12.76C21.05 12.28 20.06 12 19 12C18.89 12 18.78 12 18.67 12C18.61 12 18.56 12 18.5 12H17V7H12V5.5C12 4.67 11.33 4 10.5 4S9 4.67 9 5.5V7H4V9.12C5.76 9.8 7 11.5 7 13.5S5.75 17.2 4 17.88V20H6.12C6.8 18.25 8.5 17 10.5 17C11.43 17 12.29 17.28 13 17.74C13 17.83 13 17.91 13 18C13 19.54 13.58 20.94 14.54 22H13.2M19 20.09L16.5 21.58L17.18 18.77L15 16.89L17.87 16.64L19 14L20.11 16.64L23 16.89L20.8 18.77L21.45 21.58L19 20.09",
 "author": "Michael Irigoyen"
@@ -35418,7 +37058,7 @@ const icons = [
 {
 "icon": "puzzle-star",
 "google": "false",
-"search": "puzzle-star,gaming,rpg",
+"search": "puzzle-star,puzzle-favorite,gaming,rpg",
 "name": "puzzle-star",
 "path": "M19 20.09L21.45 21.58L20.8 18.77L23 16.89L20.11 16.64L19 14L17.87 16.64L15 16.89L17.18 18.77L16.5 21.58L19 20.09M23 13.5C23 13.5 23 13.5 23 13.53C21.94 12.58 20.54 12 19 12C15.69 12 13 14.69 13 18C13 18.34 13.04 18.67 13.09 19H12.75C12.27 18.27 11.44 17.8 10.5 17.8C9 17.8 7.8 19 7.8 20.5V22H4C2.9 22 2 21.11 2 20V16.2H3.5C5 16.2 6.2 15 6.2 13.5S5 10.8 3.5 10.8H2V7C2 5.9 2.9 5 4 5H8V3.5C8 2.12 9.12 1 10.5 1S13 2.12 13 3.5V5H17C18.1 5 19 5.89 19 7V11H20.5C21.88 11 23 12.12 23 13.5Z",
 "author": "Michael Irigoyen"
@@ -35538,7 +37178,7 @@ const icons = [
 {
 "icon": "rabbit",
 "google": "false",
-"search": "rabbit,bunny,animal",
+"search": "rabbit,bunny,hare,animal",
 "name": "rabbit",
 "path": "M18.05,21L15.32,16.26C15.32,14.53 14.25,13.42 12.95,13.42C12.05,13.42 11.27,13.92 10.87,14.66C11.2,14.47 11.59,14.37 12,14.37C13.3,14.37 14.36,15.43 14.36,16.73C14.36,18.04 13.31,19.11 12,19.11H15.3V21H6.79C6.55,21 6.3,20.91 6.12,20.72C5.75,20.35 5.75,19.75 6.12,19.38V19.38L6.62,18.88C6.28,18.73 6,18.5 5.72,18.26C5.5,18.76 5,19.11 4.42,19.11C3.64,19.11 3,18.47 3,17.68C3,16.9 3.64,16.26 4.42,16.26L4.89,16.34V14.37C4.89,11.75 7,9.63 9.63,9.63H9.65C11.77,9.64 13.42,10.47 13.42,9.16C13.42,8.23 13.62,7.86 13.96,7.34C13.23,7 12.4,6.79 11.53,6.79C11,6.79 10.58,6.37 10.58,5.84C10.58,5.41 10.86,5.05 11.25,4.93L10.58,4.89C10.06,4.89 9.63,4.47 9.63,3.95C9.63,3.42 10.06,3 10.58,3H11.53C13.63,3 15.47,4.15 16.46,5.85L16.74,5.84C17.45,5.84 18.11,6.07 18.65,6.45L19.1,6.83C21.27,8.78 21,10.1 21,10.11C21,11.39 19.94,12.44 18.65,12.44L18.16,12.39V12.47C18.16,13.58 17.68,14.57 16.93,15.27L20.24,21H18.05M18.16,7.74C17.63,7.74 17.21,8.16 17.21,8.68C17.21,9.21 17.63,9.63 18.16,9.63C18.68,9.63 19.11,9.21 19.11,8.68C19.11,8.16 18.68,7.74 18.16,7.74Z",
 "author": "Augustin Ursu"
@@ -35570,7 +37210,7 @@ const icons = [
 {
 "icon": "radiator-disabled",
 "google": "false",
-"search": "radiator-disabled,heater-disabled",
+"search": "radiator-disabled,heater-disabled,home automation",
 "name": "radiator-disabled",
 "path": "M20,12H4A2,2 0 0,0 2,14V22H4V20H20V22H22V14A2,2 0 0,0 20,12M7,17A1,1 0 0,1 6,18A1,1 0 0,1 5,17V15A1,1 0 0,1 6,14A1,1 0 0,1 7,15V17M11,17A1,1 0 0,1 10,18A1,1 0 0,1 9,17V15A1,1 0 0,1 10,14A1,1 0 0,1 11,15V17M15,17A1,1 0 0,1 14,18A1,1 0 0,1 13,17V15A1,1 0 0,1 14,14A1,1 0 0,1 15,15V17M19,17A1,1 0 0,1 18,18A1,1 0 0,1 17,17V15A1,1 0 0,1 18,14A1,1 0 0,1 19,15V17Z",
 "author": "Michael Irigoyen"
@@ -35578,7 +37218,7 @@ const icons = [
 {
 "icon": "radiator-off",
 "google": "false",
-"search": "radiator-off,heater-off",
+"search": "radiator-off,heater-off,home automation",
 "name": "radiator-off",
 "path": "M3.28,2L2,3.27L4.77,6.04L5.64,7.39L4.22,9.6L5.95,10.5L7.23,8.5L10.73,12H4A2,2 0 0,0 2,14V22H4V20H18.73L20,21.27V22H22V20.73L22,20.72V20.72L3.28,2M7,17A1,1 0 0,1 6,18A1,1 0 0,1 5,17V15A1,1 0 0,1 6,14A1,1 0 0,1 7,15V17M11,17A1,1 0 0,1 10,18A1,1 0 0,1 9,17V15A1,1 0 0,1 10,14A1,1 0 0,1 11,15V17M15,17A1,1 0 0,1 14,18A1,1 0 0,1 13,17V15C13,14.79 13.08,14.61 13.18,14.45L15,16.27V17M16.25,9.5L17.67,7.3L16.25,5.1L18.25,2L20,2.89L18.56,5.1L20,7.3V7.31L18,10.4L16.25,9.5M22,14V18.18L19,15.18V15A1,1 0 0,0 18,14C17.95,14 17.9,14 17.85,14.03L15.82,12H20C21.11,12 22,12.9 22,14M11.64,7.3L10.22,5.1L12.22,2L13.95,2.89L12.53,5.1L13.95,7.3L13.94,7.31L12.84,9L11.44,7.62L11.64,7.3M7.5,3.69L6.1,2.28L6.22,2.09L7.95,3L7.5,3.69Z",
 "author": "Michael Irigoyen"
@@ -36368,6 +38008,14 @@ const icons = [
 "author": "Google"
 },
 {
+"icon": "repeat-variant",
+"google": "false",
+"search": "repeat-variant,twitter-retweet,arrow",
+"name": "repeat-variant",
+"path": "M6,5.75L10.25,10H7V16H13.5L15.5,18H7A2,2 0 0,1 5,16V10H1.75L6,5.75M18,18.25L13.75,14H17V8H10.5L8.5,6H17A2,2 0 0,1 19,8V14H22.25L18,18.25Z",
+"author": "Austin Andrews"
+},
+{
 "icon": "repeat",
 "google": "true",
 "search": "repeat",
@@ -36682,7 +38330,7 @@ const icons = [
 {
 "icon": "robot-angry-outline",
 "google": "false",
-"search": "robot-angry-outline",
+"search": "robot-angry-outline,emoji-robot-angry-outline,emoticon-robot-angry-outline",
 "name": "robot-angry-outline",
 "path": "M22 14H21C21 10.13 17.87 7 14 7H13V5.73C13.6 5.39 14 4.74 14 4C14 2.9 13.11 2 12 2S10 2.9 10 4C10 4.74 10.4 5.39 11 5.73V7H10C6.13 7 3 10.13 3 14H2C1.45 14 1 14.45 1 15V18C1 18.55 1.45 19 2 19H3V20C3 21.11 3.9 22 5 22H19C20.11 22 21 21.11 21 20V19H22C22.55 19 23 18.55 23 18V15C23 14.45 22.55 14 22 14M21 17H19V20H5V17H3V16H5V14C5 11.24 7.24 9 10 9H14C16.76 9 19 11.24 19 14V16H21V17M17.5 15.5C17.5 16.61 16.61 17.5 15.5 17.5C14.53 17.5 13.73 16.81 13.54 15.9L16.5 13.78C17.1 14.13 17.5 14.76 17.5 15.5M7.5 13.78L10.46 15.9C10.28 16.81 9.47 17.5 8.5 17.5C7.4 17.5 6.5 16.61 6.5 15.5C6.5 14.76 6.9 14.13 7.5 13.78Z",
 "author": "Colton Wiscombe"
@@ -36690,7 +38338,7 @@ const icons = [
 {
 "icon": "robot-angry",
 "google": "false",
-"search": "robot-angry",
+"search": "robot-angry,emoji-robot-angry,emoticon-robot-angry",
 "name": "robot-angry",
 "path": "M22 14H21C21 10.13 17.87 7 14 7H13V5.73C13.6 5.39 14 4.74 14 4C14 2.9 13.11 2 12 2S10 2.9 10 4C10 4.74 10.4 5.39 11 5.73V7H10C6.13 7 3 10.13 3 14H2C1.45 14 1 14.45 1 15V18C1 18.55 1.45 19 2 19H3V20C3 21.11 3.9 22 5 22H19C20.11 22 21 21.11 21 20V19H22C22.55 19 23 18.55 23 18V15C23 14.45 22.55 14 22 14M7.5 18C6.12 18 5 16.88 5 15.5C5 14.68 5.4 13.96 6 13.5L9.83 16.38C9.5 17.32 8.57 18 7.5 18M16.5 18C15.43 18 14.5 17.32 14.17 16.38L18 13.5C18.6 13.96 19 14.68 19 15.5C19 16.88 17.88 18 16.5 18Z",
 "author": "Colton Wiscombe"
@@ -36698,7 +38346,7 @@ const icons = [
 {
 "icon": "robot-confused-outline",
 "google": "false",
-"search": "robot-confused-outline",
+"search": "robot-confused-outline,emoji-robot-confused-outline,emoticon-robot-confused-outline",
 "name": "robot-confused-outline",
 "path": "M19 8H20V9H19V8M20 5H19V7H20V6H20.5C20.78 6 21 5.78 21 5.5V3.5C21 3.22 20.78 3 20.5 3H18V4H20V5M17 3H16V7H17V3M13.5 15.5C13.5 16.61 14.4 17.5 15.5 17.5S17.5 16.61 17.5 15.5 16.61 13.5 15.5 13.5 13.5 14.4 13.5 15.5M17 8H16V9H17V8M22 14H21C21 12.5 20.53 11.13 19.74 10H16.97C18.19 10.91 19 12.36 19 14V16H21V17H19V20H5V17H3V16H5V14C5 11.24 7.24 9 10 9H14C14.34 9 14.68 9.04 15 9.1V7.08C14.67 7.03 14.34 7 14 7H13V5.73C13.6 5.39 14 4.74 14 4C14 2.9 13.11 2 12 2S10 2.9 10 4C10 4.74 10.4 5.39 11 5.73V7H10C6.13 7 3 10.13 3 14H2C1.45 14 1 14.45 1 15V18C1 18.55 1.45 19 2 19H3V20C3 21.11 3.9 22 5 22H19C20.11 22 21 21.11 21 20V19H22C22.55 19 23 18.55 23 18V15C23 14.45 22.55 14 22 14M8.5 13.5C7.4 13.5 6.5 14.4 6.5 15.5S7.4 17.5 8.5 17.5 10.5 16.61 10.5 15.5 9.61 13.5 8.5 13.5Z",
 "author": "Colton Wiscombe"
@@ -36706,7 +38354,7 @@ const icons = [
 {
 "icon": "robot-confused",
 "google": "false",
-"search": "robot-confused",
+"search": "robot-confused,emoji-robot-confused,emoticon-robot-confused",
 "name": "robot-confused",
 "path": "M20 4H18V3H20.5C20.78 3 21 3.22 21 3.5V5.5C21 5.78 20.78 6 20.5 6H20V7H19V5H20V4M19 9H20V8H19V9M17 3H16V7H17V3M23 15V18C23 18.55 22.55 19 22 19H21V20C21 21.11 20.11 22 19 22H5C3.9 22 3 21.11 3 20V19H2C1.45 19 1 18.55 1 18V15C1 14.45 1.45 14 2 14H3C3 10.13 6.13 7 10 7H11V5.73C10.4 5.39 10 4.74 10 4C10 2.9 10.9 2 12 2S14 2.9 14 4C14 4.74 13.6 5.39 13 5.73V7H14C14.34 7 14.67 7.03 15 7.08V10H19.74C20.53 11.13 21 12.5 21 14H22C22.55 14 23 14.45 23 15M10 15.5C10 14.12 8.88 13 7.5 13S5 14.12 5 15.5 6.12 18 7.5 18 10 16.88 10 15.5M19 15.5C19 14.12 17.88 13 16.5 13S14 14.12 14 15.5 15.12 18 16.5 18 19 16.88 19 15.5M17 8H16V9H17V8Z",
 "author": "Colton Wiscombe"
@@ -36714,7 +38362,7 @@ const icons = [
 {
 "icon": "robot-dead-outline",
 "google": "false",
-"search": "robot-dead-outline",
+"search": "robot-dead-outline,emoji-robot-dead-outline,emoticon-robot-dead-outline",
 "name": "robot-dead-outline",
 "path": "M10.62 14.44L9.56 15.5L10.62 16.56L9.56 17.62L8.5 16.56L7.44 17.62L6.38 16.56L7.44 15.5L6.38 14.44L7.44 13.38L8.5 14.44L9.56 13.38L10.62 14.44M16.56 13.38L15.5 14.44L14.44 13.38L13.38 14.44L14.44 15.5L13.38 16.56L14.44 17.62L15.5 16.56L16.56 17.62L17.62 16.56L16.56 15.5L17.62 14.44L16.56 13.38M23 15V18C23 18.55 22.55 19 22 19H21V20C21 21.11 20.11 22 19 22H5C3.9 22 3 21.11 3 20V19H2C1.45 19 1 18.55 1 18V15C1 14.45 1.45 14 2 14H3C3 10.13 6.13 7 10 7H11V5.73C10.4 5.39 10 4.74 10 4C10 2.9 10.9 2 12 2S14 2.9 14 4C14 4.74 13.6 5.39 13 5.73V7H14C17.87 7 21 10.13 21 14H22C22.55 14 23 14.45 23 15M21 16H19V14C19 11.24 16.76 9 14 9H10C7.24 9 5 11.24 5 14V16H3V17H5V20H19V17H21V16Z",
 "author": "Colton Wiscombe"
@@ -36722,7 +38370,7 @@ const icons = [
 {
 "icon": "robot-dead",
 "google": "false",
-"search": "robot-dead",
+"search": "robot-dead,emoji-robot-dead,emoticon-robot-dead",
 "name": "robot-dead",
 "path": "M22 14H21C21 10.13 17.87 7 14 7H13V5.73C13.6 5.39 14 4.74 14 4C14 2.9 13.11 2 12 2S10 2.9 10 4C10 4.74 10.4 5.39 11 5.73V7H10C6.13 7 3 10.13 3 14H2C1.45 14 1 14.45 1 15V18C1 18.55 1.45 19 2 19H3V20C3 21.11 3.9 22 5 22H19C20.11 22 21 21.11 21 20V19H22C22.55 19 23 18.55 23 18V15C23 14.45 22.55 14 22 14M9.86 16.68L8.68 17.86L7.5 16.68L6.32 17.86L5.14 16.68L6.32 15.5L5.14 14.32L6.32 13.14L7.5 14.32L8.68 13.14L9.86 14.32L8.68 15.5L9.86 16.68M18.86 16.68L17.68 17.86L16.5 16.68L15.32 17.86L14.14 16.68L15.32 15.5L14.14 14.32L15.32 13.14L16.5 14.32L17.68 13.14L18.86 14.32L17.68 15.5L18.86 16.68Z",
 "author": "Colton Wiscombe"
@@ -36730,7 +38378,7 @@ const icons = [
 {
 "icon": "robot-excited-outline",
 "google": "false",
-"search": "robot-excited-outline",
+"search": "robot-excited-outline,emoji-robot-excited-outline,emoticon-robot-excited-outline",
 "name": "robot-excited-outline",
 "path": "M22 14H21C21 10.13 17.87 7 14 7H13V5.73C13.6 5.39 14 4.74 14 4C14 2.9 13.11 2 12 2S10 2.9 10 4C10 4.74 10.4 5.39 11 5.73V7H10C6.13 7 3 10.13 3 14H2C1.45 14 1 14.45 1 15V18C1 18.55 1.45 19 2 19H3V20C3 21.11 3.9 22 5 22H19C20.11 22 21 21.11 21 20V19H22C22.55 19 23 18.55 23 18V15C23 14.45 22.55 14 22 14M21 17H19V20H5V17H3V16H5V14C5 11.24 7.24 9 10 9H14C16.76 9 19 11.24 19 14V16H21V17M8.5 13.5L10.86 15.86L9.68 17.04L8.5 15.86L7.32 17.04L6.14 15.86L8.5 13.5M15.5 13.5L17.86 15.86L16.68 17.04L15.5 15.86L14.32 17.04L13.14 15.86L15.5 13.5Z",
 "author": "Colton Wiscombe"
@@ -36738,7 +38386,7 @@ const icons = [
 {
 "icon": "robot-excited",
 "google": "false",
-"search": "robot-excited",
+"search": "robot-excited,emoticon-robot-excited,emoji-robot-excited",
 "name": "robot-excited",
 "path": "M22 14H21C21 10.13 17.87 7 14 7H13V5.73C13.6 5.39 14 4.74 14 4C14 2.9 13.11 2 12 2S10 2.9 10 4C10 4.74 10.4 5.39 11 5.73V7H10C6.13 7 3 10.13 3 14H2C1.45 14 1 14.45 1 15V18C1 18.55 1.45 19 2 19H3V20C3 21.11 3.9 22 5 22H19C20.11 22 21 21.11 21 20V19H22C22.55 19 23 18.55 23 18V15C23 14.45 22.55 14 22 14M8.68 17.04L7.5 15.86L6.32 17.04L5.14 15.86L7.5 13.5L9.86 15.86L8.68 17.04M17.68 17.04L16.5 15.86L15.32 17.04L14.14 15.86L16.5 13.5L18.86 15.86L17.68 17.04Z",
 "author": "Colton Wiscombe"
@@ -36746,7 +38394,7 @@ const icons = [
 {
 "icon": "robot-happy-outline",
 "google": "false",
-"search": "robot-happy-outline",
+"search": "robot-happy-outline,emoji-robot-happy-outline,emoticon-robot-happy-outline",
 "name": "robot-happy-outline",
 "path": "M10.5 15.5C10.5 15.87 10.4 16.2 10.22 16.5C9.88 15.91 9.24 15.5 8.5 15.5S7.12 15.91 6.78 16.5C6.61 16.2 6.5 15.87 6.5 15.5C6.5 14.4 7.4 13.5 8.5 13.5S10.5 14.4 10.5 15.5M23 15V18C23 18.55 22.55 19 22 19H21V20C21 21.11 20.11 22 19 22H5C3.9 22 3 21.11 3 20V19H2C1.45 19 1 18.55 1 18V15C1 14.45 1.45 14 2 14H3C3 10.13 6.13 7 10 7H11V5.73C10.4 5.39 10 4.74 10 4C10 2.9 10.9 2 12 2S14 2.9 14 4C14 4.74 13.6 5.39 13 5.73V7H14C17.87 7 21 10.13 21 14H22C22.55 14 23 14.45 23 15M21 16H19V14C19 11.24 16.76 9 14 9H10C7.24 9 5 11.24 5 14V16H3V17H5V20H19V17H21V16M15.5 13.5C14.4 13.5 13.5 14.4 13.5 15.5C13.5 15.87 13.61 16.2 13.78 16.5C14.12 15.91 14.76 15.5 15.5 15.5S16.88 15.91 17.22 16.5C17.4 16.2 17.5 15.87 17.5 15.5C17.5 14.4 16.61 13.5 15.5 13.5Z",
 "author": "Colton Wiscombe"
@@ -36754,7 +38402,7 @@ const icons = [
 {
 "icon": "robot-happy",
 "google": "false",
-"search": "robot-happy",
+"search": "robot-happy,emoji-robot-happy,emoticon-robot-happy",
 "name": "robot-happy",
 "path": "M22 14H21C21 10.13 17.87 7 14 7H13V5.73C13.6 5.39 14 4.74 14 4C14 2.9 13.11 2 12 2S10 2.9 10 4C10 4.74 10.4 5.39 11 5.73V7H10C6.13 7 3 10.13 3 14H2C1.45 14 1 14.45 1 15V18C1 18.55 1.45 19 2 19H3V20C3 21.11 3.9 22 5 22H19C20.11 22 21 21.11 21 20V19H22C22.55 19 23 18.55 23 18V15C23 14.45 22.55 14 22 14M9.79 16.5C9.4 15.62 8.53 15 7.5 15S5.6 15.62 5.21 16.5C5.08 16.19 5 15.86 5 15.5C5 14.12 6.12 13 7.5 13S10 14.12 10 15.5C10 15.86 9.92 16.19 9.79 16.5M18.79 16.5C18.4 15.62 17.5 15 16.5 15S14.6 15.62 14.21 16.5C14.08 16.19 14 15.86 14 15.5C14 14.12 15.12 13 16.5 13S19 14.12 19 15.5C19 15.86 18.92 16.19 18.79 16.5Z",
 "author": "Colton Wiscombe"
@@ -36778,7 +38426,7 @@ const icons = [
 {
 "icon": "robot-love",
 "google": "false",
-"search": "robot-love",
+"search": "robot-love,emoji-robot-love,emoticon-robot-love",
 "name": "robot-love",
 "path": "M22 14H21C21 10.13 17.87 7 14 7H13V5.73C13.6 5.39 14 4.74 14 4C14 2.9 13.11 2 12 2S10 2.9 10 4C10 4.74 10.4 5.39 11 5.73V7H10C6.13 7 3 10.13 3 14H2C1.45 14 1 14.45 1 15V18C1 18.55 1.45 19 2 19H3V20C3 21.11 3.9 22 5 22H19C20.11 22 21 21.11 21 20V19H22C22.55 19 23 18.55 23 18V15C23 14.45 22.55 14 22 14M9.7 15.45L8.97 16.18L7.5 17.65L5.3 15.45C4.9 15.05 4.9 14.39 5.3 14C5.71 13.58 6.36 13.58 6.77 14L7.5 14.72L8.23 14C8.64 13.58 9.29 13.58 9.7 14C10.1 14.39 10.1 15.05 9.7 15.45M18.7 15.45L17.97 16.18L16.5 17.65L14.3 15.45C13.9 15.05 13.9 14.39 14.3 14C14.71 13.58 15.36 13.58 15.77 14L16.5 14.72L17.23 14C17.64 13.58 18.29 13.58 18.7 14C19.1 14.39 19.1 15.05 18.7 15.45Z",
 "author": "Colton Wiscombe"
@@ -36810,7 +38458,7 @@ const icons = [
 {
 "icon": "robot-off",
 "google": "false",
-"search": "robot-off",
+"search": "robot-off,emoji-robot-off,emoticon-robot-off",
 "name": "robot-off",
 "path": "M23 15V18C23 18.5 22.64 18.88 22.17 18.97L18.97 15.77C19 15.68 19 15.59 19 15.5C19 14.12 17.88 13 16.5 13C16.41 13 16.32 13 16.23 13.03L10.2 7H11V5.73C10.4 5.39 10 4.74 10 4C10 2.9 10.9 2 12 2S14 2.9 14 4C14 4.74 13.6 5.39 13 5.73V7H14C17.87 7 21 10.13 21 14H22C22.55 14 23 14.45 23 15M22.11 21.46L20.84 22.73L19.89 21.78C19.62 21.92 19.32 22 19 22H5C3.9 22 3 21.11 3 20V19H2C1.45 19 1 18.55 1 18V15C1 14.45 1.45 14 2 14H3C3 11.53 4.29 9.36 6.22 8.11L1.11 3L2.39 1.73L22.11 21.46M10 15.5C10 14.12 8.88 13 7.5 13S5 14.12 5 15.5 6.12 18 7.5 18 10 16.88 10 15.5M16.07 17.96L14.04 15.93C14.23 16.97 15.04 17.77 16.07 17.96Z",
 "author": "Colton Wiscombe"
@@ -36818,7 +38466,7 @@ const icons = [
 {
 "icon": "robot-outline",
 "google": "false",
-"search": "robot-outline",
+"search": "robot-outline,emoji-robot-outline,emoticon-robot-outline",
 "name": "robot-outline",
 "path": "M17.5 15.5C17.5 16.61 16.61 17.5 15.5 17.5S13.5 16.61 13.5 15.5 14.4 13.5 15.5 13.5 17.5 14.4 17.5 15.5M8.5 13.5C7.4 13.5 6.5 14.4 6.5 15.5S7.4 17.5 8.5 17.5 10.5 16.61 10.5 15.5 9.61 13.5 8.5 13.5M23 15V18C23 18.55 22.55 19 22 19H21V20C21 21.11 20.11 22 19 22H5C3.9 22 3 21.11 3 20V19H2C1.45 19 1 18.55 1 18V15C1 14.45 1.45 14 2 14H3C3 10.13 6.13 7 10 7H11V5.73C10.4 5.39 10 4.74 10 4C10 2.9 10.9 2 12 2S14 2.9 14 4C14 4.74 13.6 5.39 13 5.73V7H14C17.87 7 21 10.13 21 14H22C22.55 14 23 14.45 23 15M21 16H19V14C19 11.24 16.76 9 14 9H10C7.24 9 5 11.24 5 14V16H3V17H5V20H19V17H21V16Z",
 "author": "Colton Wiscombe"
@@ -36842,7 +38490,7 @@ const icons = [
 {
 "icon": "robot",
 "google": "false",
-"search": "robot",
+"search": "robot,emoji-robot,emoticon-robot,home automation",
 "name": "robot",
 "path": "M12,2A2,2 0 0,1 14,4C14,4.74 13.6,5.39 13,5.73V7H14A7,7 0 0,1 21,14H22A1,1 0 0,1 23,15V18A1,1 0 0,1 22,19H21V20A2,2 0 0,1 19,22H5A2,2 0 0,1 3,20V19H2A1,1 0 0,1 1,18V15A1,1 0 0,1 2,14H3A7,7 0 0,1 10,7H11V5.73C10.4,5.39 10,4.74 10,4A2,2 0 0,1 12,2M7.5,13A2.5,2.5 0 0,0 5,15.5A2.5,2.5 0 0,0 7.5,18A2.5,2.5 0 0,0 10,15.5A2.5,2.5 0 0,0 7.5,13M16.5,13A2.5,2.5 0 0,0 14,15.5A2.5,2.5 0 0,0 16.5,18A2.5,2.5 0 0,0 19,15.5A2.5,2.5 0 0,0 16.5,13Z",
 "author": "GreenTurtwig"
@@ -36892,7 +38540,7 @@ const icons = [
 "google": "false",
 "search": "roller-skate-off,sport",
 "name": "roller-skate-off",
-"path": "M20.84 22.73L18.73 20.62C18.32 21.43 17.5 22 16.5 22C15.12 22 14 20.88 14 19.5C14 18.5 14.57 17.68 15.38 17.27L14.11 16H4V5.89L1.11 3L2.39 1.73L22.11 21.46L20.84 22.73M19 15C19 10 14 10 14 10H13.2L18.72 15.5C19 15.27 19 15 19 15M11.64 7.5L11.43 6H9.24V4.5H11.21L11 3H6.2L10.7 7.5H11.64M6.5 17C5.12 17 4 18.12 4 19.5S5.12 22 6.5 22 9 20.88 9 19.5 7.88 17 6.5 17Z",
+"path": "M20.84 22.73L18.95 20.84C18.78 22.06 17.75 23 16.5 23C15.1 23 14 21.88 14 20.5C14 19.24 14.93 18.2 16.14 18.03L15.11 17H3V4.9L1.11 3L2.39 1.73L22.11 21.46L20.84 22.73M9 5H11.5V2H5.2L8.5 5.32C8.59 5.13 8.77 5 9 5M12.56 9.36C12.18 9 11.9 8.5 11.82 8H11.2L12.56 9.36M19.5 12.95C18.55 10.9 15.82 10.56 13.91 10.05C13.45 10.03 13 9.77 12.6 9.4L20 16.79C20 15.45 20.06 13.76 19.5 12.95M9.2 6L10.2 7H11.5V6H9.2M6.5 18C5.1 18 4 19.12 4 20.5C4 21.88 5.1 23 6.5 23S9 21.88 9 20.5C9 19.12 7.86 18 6.5 18Z",
 "author": "Michael Irigoyen"
 },
 {
@@ -36900,7 +38548,7 @@ const icons = [
 "google": "false",
 "search": "roller-skate,sport",
 "name": "roller-skate",
-"path": "M19,15C19,15 19,16 17,16C15,16 4,16 4,16V3H11L11.21,4.5H9.24V6H11.43L11.64,7.5H9.24V9H11.86L12,10H14C14,10 19,10 19,15M6.5,17A2.5,2.5 0 0,0 4,19.5A2.5,2.5 0 0,0 6.5,22A2.5,2.5 0 0,0 9,19.5A2.5,2.5 0 0,0 6.5,17M16.5,17A2.5,2.5 0 0,0 14,19.5A2.5,2.5 0 0,0 16.5,22A2.5,2.5 0 0,0 19,19.5A2.5,2.5 0 0,0 16.5,17Z",
+"path": "M6.5 18C5.1 18 4 19.12 4 20.5S5.1 23 6.5 23 9 21.88 9 20.5 7.86 18 6.5 18M16.5 18C15.1 18 14 19.12 14 20.5S15.1 23 16.5 23 19 21.88 19 20.5 17.86 18 16.5 18M20 17C20 15.63 20.09 13.81 19.5 12.95C18.55 10.9 15.82 10.56 13.91 10.05C13 10 12 9 11.82 8H9C8.71 8 8.5 7.78 8.5 7.5C8.5 7.22 8.71 7 9 7H11.5V6H9C8.71 6 8.5 5.78 8.5 5.5C8.5 5.22 8.71 5 9 5H11.5V2H3V17H20Z",
 "author": "Michael Irigoyen"
 },
 {
@@ -36908,7 +38556,7 @@ const icons = [
 "google": "false",
 "search": "rollerblade-off,sport",
 "name": "rollerblade-off",
-"path": "M20.84 22.73L19.32 21.21C18.86 21.69 18.22 22 17.5 22C16.12 22 15 20.88 15 19.5C15 18.78 15.31 18.14 15.79 17.68L14.11 16H4V5.89L1.11 3L2.39 1.73L22.11 21.46L20.84 22.73M11.64 7.5L11.43 6H9.24V4.5H11.21L11 3H6.2L10.7 7.5H11.64M19 15C19 10 14 10 14 10H13.2L18.72 15.5C19 15.27 19 15 19 15M11.5 17C10.12 17 9 18.12 9 19.5S10.12 22 11.5 22 14 20.88 14 19.5 12.88 17 11.5 17M5.5 17C4.12 17 3 18.12 3 19.5S4.12 22 5.5 22 8 20.88 8 19.5 6.88 17 5.5 17Z",
+"path": "M20.84 22.73L20.32 22.21C19.86 22.69 19.22 23 18.5 23C17.12 23 16 21.88 16 20.5C16 19.78 16.31 19.14 16.79 18.68L15.11 17H3V4.9L1.11 3L2.39 1.73L22.11 21.46L20.84 22.73M19.5 12.95C18.55 10.9 15.82 10.56 13.91 10.05C13.45 10.03 13 9.77 12.6 9.4L20 16.79C20 15.45 20.06 13.76 19.5 12.95M9.2 6L10.2 7H11.5V6H9.2M12.56 9.36C12.18 9 11.9 8.5 11.82 8H11.2L12.56 9.36M11.5 18C10.12 18 9 19.12 9 20.5C9 21.88 10.12 23 11.5 23S14 21.88 14 20.5C14 19.12 12.88 18 11.5 18M9 5H11.5V2H5.2L8.5 5.32C8.59 5.13 8.77 5 9 5M4.5 18C3.12 18 2 19.12 2 20.5C2 21.88 3.12 23 4.5 23S7 21.88 7 20.5C7 19.12 5.88 18 4.5 18Z",
 "author": "Michael Irigoyen"
 },
 {
@@ -36916,7 +38564,7 @@ const icons = [
 "google": "false",
 "search": "rollerblade,sport",
 "name": "rollerblade",
-"path": "M19,15C19,15 19,16 17,16C15,16 4,16 4,16V3H11L11.21,4.5H9.24V6H11.43L11.64,7.5H9.24V9H11.86L12,10H14C14,10 19,10 19,15M5.5,17A2.5,2.5 0 0,0 3,19.5A2.5,2.5 0 0,0 5.5,22A2.5,2.5 0 0,0 8,19.5A2.5,2.5 0 0,0 5.5,17M17.5,17A2.5,2.5 0 0,0 15,19.5A2.5,2.5 0 0,0 17.5,22A2.5,2.5 0 0,0 20,19.5A2.5,2.5 0 0,0 17.5,17M11.5,17A2.5,2.5 0 0,0 9,19.5A2.5,2.5 0 0,0 11.5,22A2.5,2.5 0 0,0 14,19.5A2.5,2.5 0 0,0 11.5,17Z",
+"path": "M4.5 18C3.12 18 2 19.12 2 20.5S3.12 23 4.5 23 7 21.88 7 20.5 5.88 18 4.5 18M18.5 18C17.12 18 16 19.12 16 20.5S17.12 23 18.5 23 21 21.88 21 20.5 19.88 18 18.5 18M20 17C20 15.63 20.09 13.81 19.5 12.95C18.55 10.9 15.82 10.56 13.91 10.05C13 10 12 9 11.82 8H9C8.71 8 8.5 7.78 8.5 7.5C8.5 7.22 8.71 7 9 7H11.5V6H9C8.71 6 8.5 5.78 8.5 5.5C8.5 5.22 8.71 5 9 5H11.5V2H3V17H20M11.5 18C10.12 18 9 19.12 9 20.5S10.12 23 11.5 23 14 21.88 14 20.5 12.88 18 11.5 18Z",
 "author": "Michael Irigoyen"
 },
 {
@@ -37289,11 +38937,11 @@ const icons = [
 },
 {
 "icon": "sail-boat",
-"google": "false",
-"search": "sail-boat,boat,sport,transportation + water",
+"google": "true",
+"search": "sail-boat,sailing,boat,sport,transportation + water",
 "name": "sail-boat",
-"path": "M14,3L5,14H14M3,16L6,21H18L21,16",
-"author": "GreenTurtwig"
+"path": "M3 13.5L11 2.03V13.5H3M12.5 13.5C13.85 9.75 13.67 4.71 12.5 1C17.26 2.54 20.9 8.4 20.96 13.5H12.5M21.1 17.08C20.69 17.72 20.21 18.27 19.65 18.74C19 18.45 18.42 18 17.96 17.5C16.47 19.43 13.46 19.43 11.97 17.5C10.5 19.43 7.47 19.43 6 17.5C5.5 18 4.95 18.45 4.3 18.74C3.16 17.8 2.3 16.46 2 15H21.94C21.78 15.75 21.5 16.44 21.1 17.08M20.96 23C19.9 23 18.9 22.75 17.96 22.25C16.12 23.25 13.81 23.25 11.97 22.25C10.13 23.25 7.82 23.25 6 22.25C4.77 22.94 3.36 23.05 2 23V21C3.41 21.05 4.77 20.9 6 20C7.74 21.25 10.21 21.25 11.97 20C13.74 21.25 16.2 21.25 17.96 20C19.17 20.9 20.54 21.05 21.94 21V23H20.96Z",
+"author": "Google"
 },
 {
 "icon": "sale",
@@ -37344,11 +38992,19 @@ const icons = [
 "author": "Google"
 },
 {
+"icon": "sausage-off",
+"google": "false",
+"search": "sausage-off,food,drink",
+"name": "sausage-off",
+"path": "M20.8 22.7L16.3 18.2C14.2 19.9 11.4 21 8.5 21C7.1 21 5.9 20.2 5.3 19L3 20.5V14.5L5.3 16C5.8 14.8 7.1 14 8.5 14C9.5 14 10.5 13.7 11.3 13.2L1.1 3L2.4 1.7L22.1 21.4L20.8 22.7M21 8.5C21 7.1 20.2 5.9 19 5.3L20.5 3H14.5L16 5.3C14.8 5.8 14 7.1 14 8.5C14 9.2 13.9 9.8 13.6 10.4L18.7 15.6C20.2 13.6 21 11.1 21 8.5Z",
+"author": "Contributors"
+},
+{
 "icon": "sausage",
 "google": "false",
 "search": "sausage,food,drink",
 "name": "sausage",
-"path": "M3.5,3H9.5L7.96,5.32C9.16,5.87 10,7.09 10,8.5A5.5,5.5 0 0,0 15.5,14C16.91,14 18.13,14.84 18.68,16.04L21,14.5V20.5L18.68,18.96C18.13,20.16 16.91,21 15.5,21A12.5,12.5 0 0,1 3,8.5C3,7.09 3.84,5.87 5.04,5.32L3.5,3Z",
+"path": "M19 5.3C20.2 5.8 21 7.1 21 8.5C21 15.4 15.4 21 8.5 21C7.1 21 5.9 20.2 5.3 19L3 20.5V14.5L5.3 16C5.9 14.8 7.1 14 8.5 14C11.5 14 14 11.5 14 8.5C14 7.1 14.8 5.9 16 5.3L14.5 3H20.5L19 5.3Z",
 "author": "Nick"
 },
 {
@@ -37378,7 +39034,7 @@ const icons = [
 {
 "icon": "scale-balance",
 "google": "false",
-"search": "scale-balance,science",
+"search": "scale-balance,justice,legal,science",
 "name": "scale-balance",
 "path": "M12,3C10.73,3 9.6,3.8 9.18,5H3V7H4.95L2,14C1.53,16 3,17 5.5,17C8,17 9.56,16 9,14L6.05,7H9.17C9.5,7.85 10.15,8.5 11,8.83V20H2V22H22V20H13V8.82C13.85,8.5 14.5,7.85 14.82,7H17.95L15,14C14.53,16 16,17 18.5,17C21,17 22.56,16 22,14L19.05,7H21V5H14.83C14.4,3.8 13.27,3 12,3M12,5A1,1 0 0,1 13,6A1,1 0 0,1 12,7A1,1 0 0,1 11,6A1,1 0 0,1 12,5M5.5,10.25L7,14H4L5.5,10.25M18.5,10.25L20,14H17L18.5,10.25Z",
 "author": "Simran"
@@ -37658,7 +39314,7 @@ const icons = [
 {
 "icon": "search-web",
 "google": "false",
-"search": "search-web",
+"search": "search-web,search-globe,global-search,internet-search",
 "name": "search-web",
 "path": "M15.5,14L20.5,19L19,20.5L14,15.5V14.71L13.73,14.43C12.59,15.41 11.11,16 9.5,16A6.5,6.5 0 0,1 3,9.5A6.5,6.5 0 0,1 9.5,3A6.5,6.5 0 0,1 16,9.5C16,11.11 15.41,12.59 14.43,13.73L14.71,14H15.5M9.5,4.5L8.95,4.53C8.71,5.05 8.34,5.93 8.07,7H10.93C10.66,5.93 10.29,5.05 10.05,4.53C9.87,4.5 9.69,4.5 9.5,4.5M13.83,7C13.24,5.97 12.29,5.17 11.15,4.78C11.39,5.31 11.7,6.08 11.93,7H13.83M5.17,7H7.07C7.3,6.08 7.61,5.31 7.85,4.78C6.71,5.17 5.76,5.97 5.17,7M4.5,9.5C4.5,10 4.58,10.53 4.73,11H6.87L6.75,9.5L6.87,8H4.73C4.58,8.47 4.5,9 4.5,9.5M14.27,11C14.42,10.53 14.5,10 14.5,9.5C14.5,9 14.42,8.47 14.27,8H12.13C12.21,8.5 12.25,9 12.25,9.5C12.25,10 12.21,10.5 12.13,11H14.27M7.87,8L7.75,9.5L7.87,11H11.13C11.21,10.5 11.25,10 11.25,9.5C11.25,9 11.21,8.5 11.13,8H7.87M9.5,14.5C9.68,14.5 9.86,14.5 10.03,14.47C10.28,13.95 10.66,13.07 10.93,12H8.07C8.34,13.07 8.72,13.95 8.97,14.47L9.5,14.5M13.83,12H11.93C11.7,12.92 11.39,13.69 11.15,14.22C12.29,13.83 13.24,13.03 13.83,12M5.17,12C5.76,13.03 6.71,13.83 7.85,14.22C7.61,13.69 7.3,12.92 7.07,12H5.17Z",
 "author": "Michael Richins"
@@ -37874,7 +39530,7 @@ const icons = [
 {
 "icon": "select-marker",
 "google": "false",
-"search": "select-marker",
+"search": "select-marker,select-location",
 "name": "select-marker",
 "path": "M4 3H5V5H3V4C3 3.45 3.45 3 4 3M20 3C20.55 3 21 3.45 21 4V5H19V3H20M15 5V3H17V5H15M11 5V3H13V5H11M7 5V3H9V5H7M11 21V19H13V21H11M7 21V19H9V21H7M4 21C3.45 21 3 20.55 3 20V19H5V21H4M3 15H5V17H3V15M3 11H5V13H3V11M3 7H5V9H3V7M21 7V9H19V7H21M19.5 13C21.4 13 23 14.6 23 16.5C23 19.1 19.5 23 19.5 23C19.5 23 16 19.1 16 16.5C16 14.6 17.6 13 19.5 13M19.5 17.8C20.2 17.8 20.8 17.2 20.7 16.6C20.7 16 20.1 15.4 19.5 15.4C18.9 15.4 18.3 15.9 18.3 16.6C18.3 17.2 18.8 17.8 19.5 17.8Z",
 "author": "Contributors"
@@ -37882,7 +39538,7 @@ const icons = [
 {
 "icon": "select-multiple-marker",
 "google": "false",
-"search": "select-multiple-marker",
+"search": "select-multiple-marker,select-multiple-location",
 "name": "select-multiple-marker",
 "path": "M7 4H8V6H6V5C6 4.45 6.45 4 7 4M19 4C19.55 4 20 4.45 20 5V6H18V4H19M14 6V4H16V6H14M10 6V4H12V6H10M10 18V16H12V18H10M7 18C6.45 18 6 17.55 6 17V16H8V18H7M6 12H8V14H6V12M6 8H8V10H6V8M20 8V10H18V8H20M3 8H4V20H14.58L16.03 22L3 22C2.45 22 2 21.55 2 21V9C2 8.45 2.45 8 3 8M18.5 12C20.4 12 22 13.6 22 15.5C22 18.1 18.5 22 18.5 22C18.5 22 15 18.1 15 15.5C15 13.6 16.6 12 18.5 12M18.5 16.8C19.2 16.8 19.8 16.2 19.7 15.6C19.7 15 19.1 14.4 18.5 14.4C17.9 14.4 17.3 14.9 17.3 15.6C17.3 16.2 17.8 16.8 18.5 16.8Z",
 "author": "Austin Andrews"
@@ -37910,6 +39566,14 @@ const icons = [
 "name": "select-place",
 "path": "M4 3H5V5H3V4C3 3.5 3.5 3 4 3M20 3C20.5 3 21 3.5 21 4V5H19V3H20M15 5V3H17V5H15M11 5V3H13V5H11M7 5V3H9V5H7M21 12C21 12.5 20.5 13 20 13H19V11H21V12M15 13V11H17V13H15M11 13V11H13V13H11M7 13V11H9V13H7M4 13C3.5 13 3 12.5 3 12V11H5V13H4M3 7H5V9H3V7M21 7V9H19V7H21M7 16L12 21L17 16H7Z",
 "author": "Michael Irigoyen"
+},
+{
+"icon": "select-remove",
+"google": "false",
+"search": "select-remove",
+"name": "select-remove",
+"path": "M21 20C21 20.55 20.55 21 20 21H19V19H21V20M15 21V19H17V21H15M11 21V19H13V21H11M7 21V19H9V21H7M4 21C3.45 21 3 20.55 3 20V19H5V21H4M3 15H5V17H3V15M21 15V17H19V15H21M14.59 8L12 10.59L9.41 8L8 9.41L10.59 12L8 14.59L9.41 16L12 13.41L14.59 16L16 14.59L13.41 12L16 9.41L14.59 8M3 11H5V13H3V11M21 11V13H19V11H21M3 7H5V9H3V7M21 7V9H19V7H21M4 3H5V5H3V4C3 3.45 3.45 3 4 3M20 3C20.55 3 21 3.45 21 4V5H19V3H20M15 5V3H17V5H15M11 5V3H13V5H11M7 5V3H9V5H7Z",
+"author": "Contributors"
 },
 {
 "icon": "select-search",
@@ -37944,6 +39608,14 @@ const icons = [
 "author": "Google"
 },
 {
+"icon": "selection-ellipse-remove",
+"google": "false",
+"search": "selection-ellipse-remove",
+"name": "selection-ellipse-remove",
+"path": "M6.35 20.25L7.56 18.66C8.42 19.23 9.39 19.64 10.43 19.85L10.16 21.83C8.77 21.57 7.5 21 6.35 20.25M16.43 18.66L17.64 20.26C16.5 21.03 15.23 21.57 13.84 21.83L13.57 19.85C14.61 19.64 15.57 19.23 16.43 18.66M19.84 13.59L21.83 13.86C21.57 15.25 21 16.54 20.24 17.66L18.65 16.45C19.22 15.6 19.63 14.63 19.84 13.59M2.17 13.84L4.15 13.57C4.36 14.61 4.77 15.58 5.34 16.44L3.75 17.65C3 16.5 2.43 15.23 2.17 13.84M14.59 8L12 10.59L9.41 8L8 9.41L10.59 12L8 14.59L9.41 16L12 13.41L14.59 16L16 14.59L13.41 12L16 9.41L14.59 8M18.66 7.56L20.25 6.35C21.03 7.5 21.58 8.78 21.83 10.18L19.85 10.45C19.64 9.4 19.23 8.42 18.66 7.56M4.15 10.43L2.17 10.16C2.43 8.77 3 7.5 3.75 6.35L5.34 7.56C4.77 8.42 4.36 9.39 4.15 10.43M13.57 4.15L13.84 2.17C15.23 2.43 16.5 3 17.65 3.75L16.44 5.34C15.58 4.77 14.61 4.36 13.57 4.15M7.56 5.34L6.35 3.75C7.5 3 8.77 2.43 10.16 2.17L10.43 4.15C9.39 4.36 8.42 4.77 7.56 5.34Z",
+"author": "Contributors"
+},
+{
 "icon": "selection-ellipse",
 "google": "false",
 "search": "selection-ellipse",
@@ -37954,7 +39626,7 @@ const icons = [
 {
 "icon": "selection-marker",
 "google": "false",
-"search": "selection-marker",
+"search": "selection-marker,selection-location",
 "name": "selection-marker",
 "path": "M2 4C2 2.89 2.9 2 4 2H7V4H4V7H2V4M22 4V7H20V4H17V2H20C21.1 2 22 2.89 22 4M2 20V17H4V20H7V22H4C2.9 22 2 21.11 2 20M10 2H14V4H10V2M10 20H14V22H10V20M2 10H4V14H2V10M18.5 13C20.4 13 22 14.6 22 16.5C22 19.1 18.5 23 18.5 23C18.5 23 15 19.1 15 16.5C15 14.6 16.6 13 18.5 13M18.5 17.8C19.2 17.8 19.8 17.2 19.7 16.6C19.7 16 19.1 15.4 18.5 15.4C17.9 15.4 17.3 15.9 17.3 16.6C17.3 17.2 17.8 17.8 18.5 17.8M20 10H22V12.34C21.42 11.84 20.74 11.45 20 11.23V10Z",
 "author": "Contributors"
@@ -37962,7 +39634,7 @@ const icons = [
 {
 "icon": "selection-multiple-marker",
 "google": "false",
-"search": "selection-multiple-marker",
+"search": "selection-multiple-marker,selection-multiple-location",
 "name": "selection-multiple-marker",
 "path": "M7 4H9V6H8V7H6V5C6 4.45 6.45 4 7 4M19 4C19.55 4 20 4.45 20 5V7H18V6H17V4H19M11 6V4H15V6H11M7 18C6.45 18 6 17.55 6 17V15H8V16H9V18H7M6 9H8V13H6V9M3 8H4V20H14.58L16.03 22L3 22C2.45 22 2 21.55 2 21V9C2 8.45 2.45 8 3 8M18.5 12C20.4 12 22 13.6 22 15.5C22 18.1 18.5 22 18.5 22C18.5 22 15 18.1 15 15.5C15 13.6 16.6 12 18.5 12M18.5 16.8C19.2 16.8 19.8 16.2 19.7 15.6C19.7 15 19.1 14.4 18.5 14.4C17.9 14.4 17.3 14.9 17.3 15.6C17.3 16.2 17.8 16.8 18.5 16.8M11 18V16H13C13.09 16.66 13.27 17.33 13.5 18H11M20 9V10.23C19.5 10.08 19 10 18.5 10L18 10.03V9H20Z",
 "author": "Austin Andrews"
@@ -37982,6 +39654,14 @@ const icons = [
 "name": "selection-off",
 "path": "M0.5,3.77L1.78,2.5L21.5,22.22L20.23,23.5L18.73,22H17V20.27L3.73,7H2V5.27L0.5,3.77M4,2H7V4H5.82L3.83,2H4M22,4V7H20V4H17V2H20A2,2 0 0,1 22,4M20,17H22V20L22,20.17L20,18.18V17M2,20V17H4V20H7V22H4A2,2 0 0,1 2,20M10,2H14V4H10V2M10,20H14V22H10V20M20,10H22V14H20V10M2,10H4V14H2V10Z",
 "author": "Austin Andrews"
+},
+{
+"icon": "selection-remove",
+"google": "false",
+"search": "selection-remove",
+"name": "selection-remove",
+"path": "M20 20V17H22V20C22 21.11 21.1 22 20 22H17V20H20M2 20V17H4V20H7V22H4C2.9 22 2 21.1 2 20M10 20H14V22H10V20M14.59 8L12 10.59L9.41 8L8 9.41L10.59 12L8 14.59L9.41 16L12 13.41L14.59 16L16 14.59L13.41 12L16 9.41L14.59 8M20 10H22V14H20V10M2 10H4V14H2V10M2 4C2 2.89 2.9 2 4 2H7V4H4V7H2V4M22 4V7H20V4H17V2H20C21.1 2 22 2.9 22 4M10 2H14V4H10V2Z",
+"author": "Contributors"
 },
 {
 "icon": "selection-search",
@@ -38218,7 +39898,7 @@ const icons = [
 {
 "icon": "set-none",
 "google": "false",
-"search": "set-none,set-null,set-not,database",
+"search": "set-none,set-null,set-not,venn-diagram,database",
 "name": "set-none",
 "path": "M9,5A7,7 0 0,0 2,12A7,7 0 0,0 9,19C10.04,19 11.06,18.76 12,18.32C12.94,18.76 13.96,19 15,19A7,7 0 0,0 22,12A7,7 0 0,0 15,5C13.96,5 12.94,5.24 12,5.68C11.06,5.24 10.04,5 9,5M9,7C9.34,7 9.67,7.03 10,7.1C8.72,8.41 8,10.17 8,12C8,13.83 8.72,15.59 10,16.89C9.67,16.96 9.34,17 9,17A5,5 0 0,1 4,12A5,5 0 0,1 9,7M15,7A5,5 0 0,1 20,12A5,5 0 0,1 15,17C14.66,17 14.33,16.97 14,16.9C15.28,15.59 16,13.83 16,12C16,10.17 15.28,8.41 14,7.11C14.33,7.04 14.66,7 15,7M12,8C13.26,8.95 14,10.43 14,12C14,13.57 13.26,15.05 12,16C10.74,15.05 10,13.57 10,12C10,10.43 10.74,8.95 12,8Z",
 "author": "Simran"
@@ -38341,7 +40021,7 @@ const icons = [
 "search": "shape-square-rounded-plus",
 "name": "shape-square-rounded-plus",
 "path": "M17 2H19V5H22V7H19V10H17V7H14V5H17V2M7 5H11V7H7C5.9 7 5 7.9 5 9V17C5 18.11 5.9 19 7 19H15C16.11 19 17 18.11 17 17V13H19V17C19 19.21 17.21 21 15 21H7C4.79 21 3 19.21 3 17V9C3 6.79 4.79 5 7 5Z",
-"author": "Jeff Hilnbrand"
+"author": "Jeff Anders"
 },
 {
 "icon": "shape",
@@ -38442,7 +40122,7 @@ const icons = [
 {
 "icon": "sheep",
 "google": "false",
-"search": "sheep,animal,agriculture",
+"search": "sheep,emoji-sheep,emoticon-sheep,animal,agriculture",
 "name": "sheep",
 "path": "M20,8.5A2.5,2.5 0 0,1 17.5,11C16.42,11 15.5,10.31 15.16,9.36C14.72,9.75 14.14,10 13.5,10C12.94,10 12.42,9.81 12,9.5C11.58,9.81 11.07,10 10.5,10C9.86,10 9.28,9.75 8.84,9.36C8.5,10.31 7.58,11 6.5,11A2.5,2.5 0 0,1 4,8.5C4,7.26 4.91,6.23 6.1,6.04C6.04,5.87 6,5.69 6,5.5A1.5,1.5 0 0,1 7.5,4C7.7,4 7.89,4.04 8.06,4.11C8.23,3.47 8.81,3 9.5,3C9.75,3 10,3.07 10.18,3.17C10.5,2.5 11.19,2 12,2C12.81,2 13.5,2.5 13.82,3.17C14,3.07 14.25,3 14.5,3C15.19,3 15.77,3.47 15.94,4.11C16.11,4.04 16.3,4 16.5,4A1.5,1.5 0 0,1 18,5.5C18,5.69 17.96,5.87 17.9,6.04C19.09,6.23 20,7.26 20,8.5M10,12A1,1 0 0,0 9,13A1,1 0 0,0 10,14A1,1 0 0,0 11,13A1,1 0 0,0 10,12M14,12A1,1 0 0,0 13,13A1,1 0 0,0 14,14A1,1 0 0,0 15,13A1,1 0 0,0 14,12M20.23,10.66C19.59,11.47 18.61,12 17.5,12C17.05,12 16.62,11.9 16.21,11.73C16.2,14.28 15.83,17.36 14.45,18.95C13.93,19.54 13.3,19.86 12.5,19.96V18H11.5V19.96C10.7,19.86 10.07,19.55 9.55,18.95C8.16,17.35 7.79,14.29 7.78,11.74C7.38,11.9 6.95,12 6.5,12C5.39,12 4.41,11.47 3.77,10.66C2.88,11.55 2,12 2,12C2,12 3,14 5,14C5.36,14 5.64,13.96 5.88,13.91C6.22,17.73 7.58,22 12,22C16.42,22 17.78,17.73 18.12,13.91C18.36,13.96 18.64,14 19,14C21,14 22,12 22,12C22,12 21.12,11.55 20.23,10.66Z",
 "author": "Michael Irigoyen"
@@ -38450,7 +40130,7 @@ const icons = [
 {
 "icon": "shield-account-outline",
 "google": "false",
-"search": "shield-account-outline,security-account-outline,shield-user-outline,shield-person-outline,account,user",
+"search": "shield-account-outline,security-account-outline,shield-user-outline,shield-person-outline,alarm-arm-home-outline,account,user,home automation",
 "name": "shield-account-outline",
 "path": "M12,1L3,5V11C3,16.55 6.84,21.74 12,23C17.16,21.74 21,16.55 21,11V5L12,1M12,3.18L19,6.3V11.22C19,12.92 18.5,14.65 17.65,16.17C16,14.94 13.26,14.5 12,14.5C10.74,14.5 8,14.94 6.35,16.17C5.5,14.65 5,12.92 5,11.22V6.3L12,3.18M12,6A3.5,3.5 0 0,0 8.5,9.5A3.5,3.5 0 0,0 12,13A3.5,3.5 0 0,0 15.5,9.5A3.5,3.5 0 0,0 12,6M12,8A1.5,1.5 0 0,1 13.5,9.5A1.5,1.5 0 0,1 12,11A1.5,1.5 0 0,1 10.5,9.5A1.5,1.5 0 0,1 12,8M12,16.5C13.57,16.5 15.64,17.11 16.53,17.84C15.29,19.38 13.7,20.55 12,21C10.3,20.55 8.71,19.38 7.47,17.84C8.37,17.11 10.43,16.5 12,16.5Z",
 "author": "GreenTurtwig"
@@ -38474,7 +40154,7 @@ const icons = [
 {
 "icon": "shield-account",
 "google": "false",
-"search": "shield-account,security-account,shield-user,shield-person,account,user",
+"search": "shield-account,security-account,shield-user,shield-person,alarm-arm-home,account,user,home automation",
 "name": "shield-account",
 "path": "M12,1L3,5V11C3,16.55 6.84,21.74 12,23C17.16,21.74 21,16.55 21,11V5L12,1M12,5A3,3 0 0,1 15,8A3,3 0 0,1 12,11A3,3 0 0,1 9,8A3,3 0 0,1 12,5M17.13,17C15.92,18.85 14.11,20.24 12,20.92C9.89,20.24 8.08,18.85 6.87,17C6.53,16.5 6.24,16 6,15.47C6,13.82 8.71,12.47 12,12.47C15.29,12.47 18,13.79 18,15.47C17.76,16 17.47,16.5 17.13,17Z",
 "author": "Michael Richins"
@@ -38602,7 +40282,7 @@ const icons = [
 {
 "icon": "shield-home-outline",
 "google": "false",
-"search": "shield-home-outline,shield-house-outline,home automation",
+"search": "shield-home-outline,shield-house-outline,alarm-arm-home,home automation",
 "name": "shield-home-outline",
 "path": "M21,11C21,16.55 17.16,21.74 12,23C6.84,21.74 3,16.55 3,11V5L12,1L21,5V11M12,21C15.75,20 19,15.54 19,11.22V6.3L12,3.18L5,6.3V11.22C5,15.54 8.25,20 12,21M11,14H13V17H16V12H18L12,7L6,12H8V17H11V14",
 "author": "Michael Irigoyen"
@@ -38610,7 +40290,7 @@ const icons = [
 {
 "icon": "shield-home",
 "google": "false",
-"search": "shield-home,security-home,shield-house,home automation",
+"search": "shield-home,security-home,shield-house,alarm-arm-home,home automation",
 "name": "shield-home",
 "path": "M11,13H13V16H16V11H18L12,6L6,11H8V16H11V13M12,1L21,5V11C21,16.55 17.16,21.74 12,23C6.84,21.74 3,16.55 3,11V5L12,1Z",
 "author": "Austin Andrews"
@@ -38650,7 +40330,7 @@ const icons = [
 {
 "icon": "shield-lock-outline",
 "google": "false",
-"search": "shield-lock-outline,lock",
+"search": "shield-lock-outline,alarm-arm-away-outline,security-lock-outline,lock,home automation",
 "name": "shield-lock-outline",
 "path": "M21,11C21,16.55 17.16,21.74 12,23C6.84,21.74 3,16.55 3,11V5L12,1L21,5V11M12,21C15.75,20 19,15.54 19,11.22V6.3L12,3.18L5,6.3V11.22C5,15.54 8.25,20 12,21M14.8,11V9.5C14.8,8.1 13.4,7 12,7C10.6,7 9.2,8.1 9.2,9.5V11C8.6,11 8,11.6 8,12.2V15.7C8,16.4 8.6,17 9.2,17H14.7C15.4,17 16,16.4 16,15.8V12.3C16,11.6 15.4,11 14.8,11M13.5,11H10.5V9.5C10.5,8.7 11.2,8.2 12,8.2C12.8,8.2 13.5,8.7 13.5,9.5V11Z",
 "author": "Michael Irigoyen"
@@ -38658,10 +40338,26 @@ const icons = [
 {
 "icon": "shield-lock",
 "google": "false",
-"search": "shield-lock,security-lock,lock",
+"search": "shield-lock,security-lock,alarm-arm-away,lock,home automation",
 "name": "shield-lock",
 "path": "M12,1L3,5V11C3,16.55 6.84,21.74 12,23C17.16,21.74 21,16.55 21,11V5L12,1M12,7C13.4,7 14.8,8.1 14.8,9.5V11C15.4,11 16,11.6 16,12.3V15.8C16,16.4 15.4,17 14.7,17H9.2C8.6,17 8,16.4 8,15.7V12.2C8,11.6 8.6,11 9.2,11V9.5C9.2,8.1 10.6,7 12,7M12,8.2C11.2,8.2 10.5,8.7 10.5,9.5V11H13.5V9.5C13.5,8.7 12.8,8.2 12,8.2Z",
 "author": "GreenTurtwig"
+},
+{
+"icon": "shield-moon-outline",
+"google": "false",
+"search": "shield-moon-outline,alarm-arm-night-outline,home automation",
+"name": "shield-moon-outline",
+"path": "M21 11C21 16.55 17.16 21.74 12 23C6.84 21.74 3 16.55 3 11V5L12 1L21 5V11M12 21C15.75 20 19 15.54 19 11.22V6.3L12 3.18L5 6.3V11.22C5 15.54 8.25 20 12 21M9 14.33C10.76 16.5 14.13 16.57 15.97 14.4C16.2 14.13 16.05 13.72 15.71 13.66C14.42 13.45 13.23 12.68 12.53 11.46C11.82 10.24 11.75 8.83 12.21 7.6C12.33 7.27 12.05 6.94 11.7 7C8.36 7.62 6.81 11.61 9 14.33",
+"author": "Michael Irigoyen"
+},
+{
+"icon": "shield-moon",
+"google": "false",
+"search": "shield-moon,alarm-arm-night,home automation",
+"name": "shield-moon",
+"path": "M12 1L3 5V11C3 16.55 6.84 21.74 12 23C17.16 21.74 21 16.55 21 11V5L12 1M15.97 14.41C14.13 16.58 10.76 16.5 9 14.34C6.82 11.62 8.36 7.62 11.7 7C12.04 6.95 12.33 7.28 12.21 7.61C11.75 8.84 11.82 10.25 12.53 11.47C13.24 12.69 14.42 13.46 15.71 13.67C16.05 13.72 16.2 14.14 15.97 14.41Z",
+"author": "Michael Irigoyen"
 },
 {
 "icon": "shield-off-outline",
@@ -38746,7 +40442,7 @@ const icons = [
 {
 "icon": "shield-star-outline",
 "google": "false",
-"search": "shield-star-outline,badge-outline",
+"search": "shield-star-outline,badge-outline,shield-favorite-outline",
 "name": "shield-star-outline",
 "path": "M21 11C21 16.55 17.16 21.74 12 23C6.84 21.74 3 16.55 3 11V5L12 1L21 5V11M12 21C15.75 20 19 15.54 19 11.22V6.3L12 3.18L5 6.3V11.22C5 15.54 8.25 20 12 21M15.05 16L11.97 14.15L8.9 16L9.71 12.5L7 10.16L10.58 9.85L11.97 6.55L13.37 9.84L16.95 10.15L14.23 12.5L15.05 16",
 "author": "Michael Irigoyen"
@@ -38754,7 +40450,7 @@ const icons = [
 {
 "icon": "shield-star",
 "google": "false",
-"search": "shield-star,badge",
+"search": "shield-star,badge,shield-favorite",
 "name": "shield-star",
 "path": "M12 1L3 5V11C3 16.55 6.84 21.74 12 23C17.16 21.74 21 16.55 21 11V5L12 1M15.08 16L12 14.15L8.93 16L9.74 12.5L7.03 10.16L10.61 9.85L12 6.55L13.39 9.84L16.97 10.15L14.26 12.5L15.08 16Z",
 "author": "Michael Irigoyen"
@@ -38797,6 +40493,14 @@ const icons = [
 "search": "shield,gaming,rpg",
 "name": "shield",
 "path": "M12,1L3,5V11C3,16.55 6.84,21.74 12,23C17.16,21.74 21,16.55 21,11V5L12,1Z",
+"author": "Austin Andrews"
+},
+{
+"icon": "shimmer",
+"google": "false",
+"search": "shimmer,sparkles",
+"name": "shimmer",
+"path": "M10.6 9.6L9 15L7.4 9.6L2 8L7.4 6.4L9 1L10.6 6.4L16 8L10.6 9.6M17 14.2L21 12L18.8 16L21 20L17 17.8L13 20L15.2 16L13 12L17 14.2M10 16L8.3 19L10 22L7 20.3L4 22L5.7 19L4 16L7 17.7L10 16",
 "author": "Austin Andrews"
 },
 {
@@ -38893,7 +40597,7 @@ const icons = [
 "search": "shore",
 "name": "shore",
 "path": "M20 12H22V14H20C18.6 14 17.3 13.6 16 13C13.5 14.3 10.5 14.3 8 13C6.7 13.6 5.4 14 4 14H2V12H4C5.4 12 6.8 11.5 8 10.7C10.4 12.4 13.6 12.4 16 10.7C17.2 11.5 18.6 12 20 12M20 6H22V8H20C18.6 8 17.3 7.7 16 7C13.5 8.3 10.5 8.3 8 7C6.7 7.7 5.4 8 4 8H2V6H4C5.4 6 6.8 5.5 8 4.7C10.4 6.4 13.6 6.4 16 4.7C17.2 5.5 18.6 6 20 6M22 20H2V18H22",
-"author": "Jeff Hilnbrand"
+"author": "Jeff Anders"
 },
 {
 "icon": "shovel-off",
@@ -38922,7 +40626,7 @@ const icons = [
 {
 "icon": "shower",
 "google": "false",
-"search": "shower,home automation",
+"search": "shower,bathtub,home automation",
 "name": "shower",
 "path": "M21,14V15C21,16.91 19.93,18.57 18.35,19.41L19,22H17L16.5,20C16.33,20 16.17,20 16,20H8C7.83,20 7.67,20 7.5,20L7,22H5L5.65,19.41C4.07,18.57 3,16.91 3,15V14H2V12H20V5A1,1 0 0,0 19,4C18.5,4 18.12,4.34 18,4.79C18.63,5.33 19,6.13 19,7H13A3,3 0 0,1 16,4C16.06,4 16.11,4 16.17,4C16.58,2.84 17.69,2 19,2A3,3 0 0,1 22,5V14H21V14M19,14H5V15A3,3 0 0,0 8,18H16A3,3 0 0,0 19,15V14Z",
 "author": "Augustin Ursu"
@@ -39029,7 +40733,7 @@ const icons = [
 "search": "sign-pole",
 "name": "sign-pole",
 "path": "M11 3L12 2L13 3V20C14.11 20 15 20.9 15 22H9C9 20.9 9.9 20 11 20V3Z",
-"author": "Jeff Hilnbrand"
+"author": "Jeff Anders"
 },
 {
 "icon": "sign-real-estate",
@@ -39202,7 +40906,7 @@ const icons = [
 {
 "icon": "silverware-clean",
 "google": "false",
-"search": "silverware-clean,silverware-shimmer,food,drink",
+"search": "silverware-clean,silverware-shimmer,cutlery-clean,food,drink",
 "name": "silverware-clean",
 "path": "M15 0L14.38 1.37L13 2L14.38 2.63L15 4L15.63 2.63L17 2L15.63 1.37L15 0M10.5 2L9.41 4.41L7 5.5L9.41 6.59L10.5 9L11.6 6.59L14 5.5L11.6 4.41L10.5 2M18.89 5.14C17.56 5.06 16.04 5.65 14.84 6.84C13.25 8.43 12.75 10.58 13.46 12.11L3.7 21.87L5.11 23.28L12 16.41L18.88 23.29L20.29 21.88L13.41 15L14.88 13.53C16.41 14.24 18.56 13.74 20.15 12.15C22.06 10.24 22.43 7.5 20.96 6.03C20.41 5.5 19.68 5.19 18.89 5.14M3.91 5.5C2.35 7.06 2.35 9.59 3.91 11.16L8.1 15.34L10.93 12.5L3.91 5.5Z",
 "author": "Simran"
@@ -39210,7 +40914,7 @@ const icons = [
 {
 "icon": "silverware-fork-knife",
 "google": "true",
-"search": "silverware-fork-knife,restaurant,fortnite,food,drink",
+"search": "silverware-fork-knife,restaurant,fortnite,cutlery-fork-knife,place-setting,food,drink",
 "name": "silverware-fork-knife",
 "path": "M11,9H9V2H7V9H5V2H3V9C3,11.12 4.66,12.84 6.75,12.97V22H9.25V12.97C11.34,12.84 13,11.12 13,9V2H11V9M16,6V14H18.5V22H21V2C18.24,2 16,4.24 16,6Z",
 "author": "Google"
@@ -39218,7 +40922,7 @@ const icons = [
 {
 "icon": "silverware-fork",
 "google": "false",
-"search": "silverware-fork,food,drink",
+"search": "silverware-fork,cutlery-fork,food,drink",
 "name": "silverware-fork",
 "path": "M5.12,21.29L3.71,19.88L13.36,10.22L13.16,10C12.38,9.23 12.38,7.97 13.16,7.19L17.5,2.82L18.43,3.74L15.19,7L16.15,7.94L19.39,4.69L20.31,5.61L17.06,8.85L18,9.81L21.26,6.56L22.18,7.5L17.81,11.84C17.03,12.62 15.77,12.62 15,11.84L14.78,11.64L5.12,21.29Z",
 "author": "Austin Andrews"
@@ -39226,7 +40930,7 @@ const icons = [
 {
 "icon": "silverware-spoon",
 "google": "false",
-"search": "silverware-spoon,food,drink",
+"search": "silverware-spoon,cutlery-spoon,food,drink",
 "name": "silverware-spoon",
 "path": "M14.88,11.53L5.12,21.29L3.71,19.88L13.47,10.12C12.76,8.59 13.26,6.44 14.85,4.85C16.76,2.93 19.5,2.57 20.96,4.03C22.43,5.5 22.07,8.24 20.15,10.15C18.56,11.74 16.41,12.24 14.88,11.53Z",
 "author": "Austin Andrews"
@@ -39234,7 +40938,7 @@ const icons = [
 {
 "icon": "silverware-variant",
 "google": "false",
-"search": "silverware-variant,food,drink,places",
+"search": "silverware-variant,cutlery-variant,food,drink,places",
 "name": "silverware-variant",
 "path": "M8.1,13.34L3.91,9.16C2.35,7.59 2.35,5.06 3.91,3.5L10.93,10.5L8.1,13.34M13.41,13L20.29,19.88L18.88,21.29L12,14.41L5.12,21.29L3.71,19.88L13.36,10.22L13.16,10C12.38,9.23 12.38,7.97 13.16,7.19L17.5,2.82L18.43,3.74L15.19,7L16.15,7.94L19.39,4.69L20.31,5.61L17.06,8.85L18,9.81L21.26,6.56L22.18,7.5L17.81,11.84C17.03,12.62 15.77,12.62 15,11.84L14.78,11.64L13.41,13Z",
 "author": "Austin Andrews"
@@ -39242,7 +40946,7 @@ const icons = [
 {
 "icon": "silverware",
 "google": "true",
-"search": "silverware,local-dining,restaurant-menu,local-restaurant,food,drink",
+"search": "silverware,local-dining,restaurant-menu,local-restaurant,cutlery,food,drink",
 "name": "silverware",
 "path": "M8.1,13.34L3.91,9.16C2.35,7.59 2.35,5.06 3.91,3.5L10.93,10.5L8.1,13.34M14.88,11.53L13.41,13L20.29,19.88L18.88,21.29L12,14.41L5.12,21.29L3.71,19.88L13.47,10.12C12.76,8.59 13.26,6.44 14.85,4.85C16.76,2.93 19.5,2.57 20.96,4.03C22.43,5.5 22.07,8.24 20.15,10.15C18.56,11.74 16.41,12.24 14.88,11.53Z",
 "author": "Google"
@@ -39250,7 +40954,7 @@ const icons = [
 {
 "icon": "sim-alert-outline",
 "google": "false",
-"search": "sim-alert-outline,cellphone,phone",
+"search": "sim-alert-outline,cellphone,phone,alert,error",
 "name": "sim-alert-outline",
 "path": "M13 13H11V7H13M13 17H11V15H13M18 4V20H6V8.8L10.8 4H18M18 2H10L4 8V20C4 21.1 4.9 22 6 22H18C19.1 22 20 21.1 20 20V4C20 2.9 19.1 2 18 2Z",
 "author": "Michael Irigoyen"
@@ -39314,7 +41018,7 @@ const icons = [
 {
 "icon": "sine-wave",
 "google": "false",
-"search": "sine-wave,alternating-current,current-ac,wave,analog,audio",
+"search": "sine-wave,alternating-current,current-ac,wave,analog,frequency,amplitude,audio",
 "name": "sine-wave",
 "path": "M16.5,21C13.5,21 12.31,16.76 11.05,12.28C10.14,9.04 9,5 7.5,5C4.11,5 4,11.93 4,12H2C2,11.63 2.06,3 7.5,3C10.5,3 11.71,7.25 12.97,11.74C13.83,14.8 15,19 16.5,19C19.94,19 20.03,12.07 20.03,12H22.03C22.03,12.37 21.97,21 16.5,21Z",
 "author": "Nick"
@@ -39392,11 +41096,19 @@ const icons = [
 "author": "Austin Andrews"
 },
 {
+"icon": "skate-off",
+"google": "false",
+"search": "skate-off",
+"name": "skate-off",
+"path": "M19 15.81L13.36 10.16C15.22 10.62 17.63 11.05 18.53 12.95C18.95 13.57 19 14.71 19 15.81M20.95 17C20.92 17.21 20.87 17.41 20.8 17.6L22.32 19.12C22.68 18.5 22.92 17.77 23 17H20.95M10.5 7V6H9.2L10.2 7H10.5M22.11 21.46L20.84 22.73L19.66 21.55C19 21.83 18.27 22 17.5 22H1V20H5V18H2.03V3.92L1.11 3L2.03 2.09V2H2.12L2.39 1.73L22.11 21.46M14 18H7V20H14V18M18.06 19.95L16.11 18H16V20H17.5C17.69 20 17.88 20 18.06 19.95M10.5 5V2H5.2L8.2 5H10.5Z",
+"author": "Michael Irigoyen"
+},
+{
 "icon": "skate",
 "google": "true",
 "search": "skate,ice-skate,sport",
 "name": "skate",
-"path": "M21.1,16.5C20.36,16.17 19.5,16.5 19.19,17.26C19.06,17.58 18.8,17.87 18.5,18H3V21H17.97C19.68,21 21.22,20 21.88,18.41C22.2,17.67 21.86,16.81 21.1,16.5M19,15C19,15 19,16 17,16C15,16 4,16 4,16V3H11L11.21,4.5H9.24V6H11.43L11.64,7.5H9.24V9H11.86L12,10H14C14,10 19,10 19,15Z",
+"path": "M20.95 17C20.7 18.69 19.26 20 17.5 20H16V18H19C18.93 16.72 19.26 14.04 18.53 12.95C17.56 10.9 14.83 10.56 12.93 10.05C12 10 11 9 10.84 8H8C7.72 8 7.5 7.78 7.5 7.5C7.5 7.22 7.72 7 8 7H10.5V6H8C7.72 6 7.5 5.78 7.5 5.5C7.5 5.22 7.72 5 8 5H10.5V2H2.03V18H5V20H1V22H17.5C20.36 22 22.72 19.8 23 17H20.95M14 20H7V18H14V20Z",
 "author": "Google"
 },
 {
@@ -39405,6 +41117,14 @@ const icons = [
 "search": "skateboard,sport",
 "name": "skateboard",
 "path": "M9 14.5C9 15.33 8.33 16 7.5 16S6 15.33 6 14.5 6.67 13 7.5 13 9 13.67 9 14.5M16.5 13C15.67 13 15 13.67 15 14.5S15.67 16 16.5 16C17.33 16 18 15.33 18 14.5S17.33 13 16.5 13M21.59 9.19C21.14 8.87 20.5 8.97 20.19 9.41L20.06 9.59C19.88 9.85 19.57 10 19.26 10L4.74 10C4.43 10 4.13 9.85 3.94 9.59L3.81 9.41C3.5 8.97 2.86 8.87 2.41 9.19C1.96 9.5 1.87 10.15 2.19 10.59L2.32 10.77C2.88 11.54 3.79 12 4.74 12H19.26C20.21 12 21.12 11.54 21.68 10.77L21.81 10.59C22.13 10.15 22.04 9.5 21.59 9.19Z",
+"author": "Google"
+},
+{
+"icon": "skateboarding",
+"google": "true",
+"search": "skateboarding,sport",
+"name": "skateboarding",
+"path": "M19.78 18.39C19.93 18.54 20 18.7 20 18.88C20 19 19.94 19.17 19.82 19.32C19.44 19.85 18.96 20.26 18.37 20.56C17.78 20.85 17.15 21 16.47 21H7.53C6.82 21 6.17 20.85 5.59 20.56C5 20.26 4.5 19.85 4.13 19.32C4.04 19.17 4 19.03 4 18.88C4 18.7 4.07 18.54 4.2 18.39S4.5 18.17 4.71 18.17C4.94 18.17 5.13 18.27 5.28 18.5C5.69 19 6.22 19.36 6.87 19.54L9.82 15.96L8.54 12.07C8.36 11.5 8.44 11 8.76 10.5L11 6.86H8.8L7 9.77L5.41 8.76L7.75 5H13.12C13.54 5 13.87 5.12 14.14 5.35C14.4 5.59 14.58 5.8 14.67 5.97L15.15 7.12C15.5 7.89 16 8.5 16.7 9C17.4 9.45 18.18 9.69 19.03 9.69V11.59C17.94 11.59 16.95 11.32 16.03 10.79C15.12 10.26 14.4 9.57 13.87 8.71L12.16 11.41L16.21 13.93V19.59H16.47C16.92 19.59 17.33 19.5 17.73 19.28S18.46 18.81 18.72 18.5C18.87 18.27 19.05 18.17 19.25 18.17S19.63 18.25 19.78 18.39M14.36 15.25L11.05 13.18L12 16.32L9.24 19.59H14.36V15.25M15 1C13.9 1 13 1.9 13 3S13.9 5 15 5 17 4.11 17 3 16.11 1 15 1M8 21.5C7.59 21.5 7.25 21.84 7.25 22.25S7.59 23 8 23C8.41 23 8.75 22.66 8.75 22.25S8.41 21.5 8 21.5M16 21.5C15.59 21.5 15.25 21.84 15.25 22.25S15.59 23 16 23 16.75 22.66 16.75 22.25 16.41 21.5 16 21.5Z",
 "author": "Google"
 },
 {
@@ -39425,11 +41145,11 @@ const icons = [
 },
 {
 "icon": "ski-cross-country",
-"google": "false",
-"search": "ski-cross-country,sport",
+"google": "true",
+"search": "ski-cross-country,nordic-walking,sport",
 "name": "ski-cross-country",
-"path": "M15 1.2C16 1.2 16.8 2 16.8 3S16 4.8 15 4.8 13.2 4 13.2 3 14 1.2 15 1.2M11 23V21.7H9.3L11.7 14.9L14 18V21.7H13V23H20V21.7H15.8V16.5L13.3 12L14 9.2L15.1 11H20V9.1H16.4L14.4 5.8C14.1 5.3 13.5 5 12.9 5C12.7 5 12.6 5.1 12.4 5.1L7 6.8V12H8.8V8.3L11 7.7L7.4 21.7H4V23",
-"author": "Michael Irigoyen"
+"path": "M19 14H17.6V22H19V14M6.44 22H5L7 14H8.44L6.44 22M8.76 9.54V13H7V8.32L11.61 6.31C12.04 6.14 12.5 6.13 12.96 6.27S13.79 6.69 14.06 7.1L15 8.58C15.37 9.25 15.9 9.95 16.62 10.37C17.33 10.79 18.13 11 19 11V12.83C18 12.83 17 12.62 16.13 12.2S14.5 11.06 13.88 10.37L13.31 13.16L15.28 15V22H13.4V16.5L11.5 14.55L9.77 22H7.8L10.43 8.89L8.76 9.54M16 4C16 5.11 15.11 6 14 6S12 5.11 12 4 12.9 2 14 2 16 2.9 16 4Z",
+"author": "Google"
 },
 {
 "icon": "ski-water",
@@ -39441,11 +41161,11 @@ const icons = [
 },
 {
 "icon": "ski",
-"google": "false",
+"google": "true",
 "search": "ski,sport",
 "name": "ski",
-"path": "M15.3 18.3L17 12.9L18.4 13.3L16.7 18.7L15.3 18.3M17.3 5.2C18.2 5.2 19 4.4 19 3.5S18.3 1.8 17.3 1.8C16.4 1.8 15.6 2.6 15.6 3.5S16.4 5.2 17.3 5.2M21.3 19.8C20.7 20.1 20.1 20.4 19.4 20.5C18.7 20.6 18 20.6 17.3 20.4L11 18.5L13.4 11.7L10.9 8.7L13.8 7.1C13.8 7.1 14.9 10 15 10.3S15.3 10.8 15.6 10.9L19.7 12.1L20.2 10.3L19.3 9.9L19.9 7.8L18.5 7.4L18 9.4L16.8 8.9L15.4 5C15 4.2 14 3.8 13.1 4.2L8.5 6.7C7.6 7.2 7.3 8.3 7.8 9.1C7.9 9.3 10.8 12.3 10.8 12.3L9.1 18L2.3 16L2 17.3L16.9 21.7C18.6 22.2 20.4 22 22 21.1L21.3 19.8Z",
-"author": "Michael Irigoyen"
+"path": "M17.92 13.32C17.67 13.28 16.71 13 16.46 12.89L14.39 19.37L11.3 18.24L13.5 12.47L10.45 9L13 7.54C13.45 8.67 14.17 9.62 15.12 10.4S17.16 11.67 18.38 11.86L19.5 8.43L18.06 7.96L17.54 9.56C16.88 9.28 16.3 8.86 15.8 8.32C15.3 7.77 14.94 7.13 14.72 6.41L14.39 5.33C14.27 4.93 14.04 4.61 13.71 4.37C13.38 4.14 13 4 12.63 3.97C12.24 3.94 11.86 4 11.5 4.21L8 6.23C7.63 6.44 7.36 6.74 7.19 7.12C7 7.5 6.96 7.88 7 8.29S7.26 9.06 7.54 9.37L11.11 13.08L9.42 17.54L2.47 15.05L2 16.46L16.04 21.58C16.82 21.86 17.65 22 18.53 22C19.15 22 19.76 21.92 20.36 21.77C20.95 21.61 21.5 21.39 22 21.11L20.87 20C20.12 20.33 19.34 20.5 18.53 20.5C17.87 20.5 17.21 20.39 16.55 20.17L15.8 19.89L17.92 13.32M19 3C19 4.11 18.11 5 17 5S15 4.11 15 3 15.9 1 17 1 19 1.9 19 3Z",
+"author": "Google"
 },
 {
 "icon": "skip-backward-outline",
@@ -39632,6 +41352,14 @@ const icons = [
 "author": "Michael Irigoyen"
 },
 {
+"icon": "sledding",
+"google": "true",
+"search": "sledding,sport",
+"name": "sledding",
+"path": "M22.91 16.64C22.75 15.95 22.44 15.34 21.97 14.81C21.5 14.28 20.91 13.91 20.2 13.69L19.77 15.14C20.43 15.33 20.91 15.73 21.23 16.36C21.54 17 21.58 17.62 21.37 18.27C21.15 18.93 20.73 19.41 20.12 19.73S18.88 20.08 18.23 19.86L14.9 18.79L15.37 17.38L18.7 18.46L19.16 17L17.2 16.4L15.14 11.91C14.95 11.5 14.66 11.19 14.27 10.97C13.88 10.75 13.45 10.67 13 10.74L10.88 11.11L11.91 7.84C12.06 7.37 12.03 6.91 11.81 6.5C11.6 6.04 11.24 5.74 10.74 5.59C10.33 5.46 9.91 5.5 9.47 5.68L4 8V12.1L2.4 11.58L1.94 13L5.87 14.3L5.4 15.7L1.47 14.44L1 15.84L17.76 21.32C18.45 21.54 19.13 21.57 19.82 21.41C20.5 21.26 21.12 20.94 21.65 20.5C22.18 20 22.55 19.43 22.77 18.74C23 18 23.07 17.32 22.91 16.64M6 9.33L7.93 8.5L6.9 11.67C6.74 12.14 6.79 12.61 7.04 13.08L6 12.75V9.33M13.5 18.32L6.81 16.17L7.27 14.76L13.92 16.92L13.5 18.32M9.47 13.87L13.45 13L14.62 15.56L9.47 13.87M14 3C14 4.11 13.11 5 12 5S10 4.11 10 3 10.9 1 12 1 14 1.9 14 3Z",
+"author": "Google"
+},
+{
 "icon": "sleep-off",
 "google": "false",
 "search": "sleep-off",
@@ -39728,12 +41456,60 @@ const icons = [
 "author": "Simran"
 },
 {
+"icon": "smoke-detector-off-outline",
+"google": "false",
+"search": "smoke-detector-off-outline,home automation",
+"name": "smoke-detector-off-outline",
+"path": "M8.2 5L6.2 3H19C20.11 3 21 3.9 21 5V17.8L19 15.8V5H8.2M17.5 14.32C17.82 13.6 18 12.83 18 12C18 8.68 15.31 6 12 6C11.17 6 10.4 6.18 9.68 6.5L11.27 8.07C11.5 8.03 11.75 8 12 8C14.21 8 16 9.79 16 12C16 12.25 15.97 12.5 15.93 12.73L17.5 14.32M22.11 21.46L20.84 22.73L19.1 21C19.07 21 19.03 21 19 21H5C3.89 21 3 20.1 3 19V5C3 4.97 3 4.93 3 4.9L1.11 3L2.39 1.73L22.11 21.46M8 12C8 14.21 9.79 16 12 16C12.62 16 13.19 15.85 13.71 15.6L8.4 10.29C8.15 10.81 8 11.39 8 12M17.11 19L15.19 17.08C14.26 17.66 13.17 18 12 18C8.69 18 6 15.31 6 12C6 10.83 6.34 9.74 6.92 8.81L5 6.89V19H17.11Z",
+"author": "Colton Wiscombe"
+},
+{
+"icon": "smoke-detector-off",
+"google": "false",
+"search": "smoke-detector-off,home automation",
+"name": "smoke-detector-off",
+"path": "M12 8C14.21 8 16 9.79 16 12C16 12.25 15.97 12.5 15.93 12.73L11.27 8.07C11.5 8.03 11.75 8 12 8M12 6C15.31 6 18 8.68 18 12C18 12.83 17.82 13.6 17.5 14.32L21 17.8V5C21 3.9 20.11 3 19 3H6.2L9.68 6.5C10.4 6.18 11.17 6 12 6M22.11 21.46L20.84 22.73L19.1 21C19.07 21 19.03 21 19 21H5C3.89 21 3 20.1 3 19V5C3 4.97 3 4.93 3 4.9L1.11 3L2.39 1.73L22.11 21.46M15.19 17.08L13.71 15.6C13.19 15.85 12.62 16 12 16C9.79 16 8 14.21 8 12C8 11.39 8.15 10.81 8.4 10.29L6.92 8.81C6.34 9.74 6 10.83 6 12C6 15.31 8.69 18 12 18C13.17 18 14.26 17.66 15.19 17.08Z",
+"author": "Colton Wiscombe"
+},
+{
+"icon": "smoke-detector-outline",
+"google": "false",
+"search": "smoke-detector-outline",
+"name": "smoke-detector-outline",
+"path": "M19 3H5C3.89 3 3 3.89 3 5V19C3 20.1 3.89 21 5 21H19C20.11 21 21 20.11 21 19V5C21 3.9 20.11 3 19 3M19 19H5V5H19V19M12 18C15.31 18 18 15.31 18 12C18 8.68 15.31 6 12 6C8.68 6 6 8.68 6 12C6 15.31 8.69 18 12 18M12 8C14.21 8 16 9.79 16 12S14.21 16 12 16 8 14.21 8 12 9.79 8 12 8Z",
+"author": "Colton Wiscombe"
+},
+{
+"icon": "smoke-detector-variant-off",
+"google": "false",
+"search": "smoke-detector-variant-off,home automation",
+"name": "smoke-detector-variant-off",
+"path": "M22.11 21.46L2.39 1.73L1.11 3L4.06 5.95C2.77 7.63 2 9.72 2 12C2 17.5 6.5 22 12 22C14.28 22 16.37 21.23 18.05 19.94L20.84 22.73L22.11 21.46M12 20C7.59 20 4 16.41 4 12C4 10.28 4.56 8.69 5.5 7.38L6.93 8.82C6.35 9.75 6 10.83 6 12C6 13.3 6.42 14.5 7.11 15.47L7.83 14.75C7.31 13.96 7 13 7 12C7 11.11 7.25 10.28 7.66 9.55L8.4 10.3C8.15 10.81 8 11.39 8 12C8 12.74 8.22 13.43 8.57 14L9.3 13.29C9.11 12.89 9 12.46 9 12C9 11.67 9.07 11.36 9.18 11.07L12.93 14.82C12.64 14.93 12.33 15 12 15C11.54 15 11.11 14.89 10.72 14.7L10 15.43C10.58 15.79 11.26 16 12 16C12.61 16 13.19 15.85 13.71 15.6L14.45 16.34C13.72 16.75 12.89 17 12 17C11 17 10.04 16.69 9.25 16.17L8.53 16.89C9.5 17.59 10.7 18 12 18C13.17 18 14.25 17.65 15.18 17.07L16.62 18.5C15.32 19.44 13.72 20 12 20M12 8C12.74 8 13.43 8.22 14 8.57L13.29 9.3C12.96 9.15 12.6 9.06 12.23 9.03L11.28 8.08C11.5 8.03 11.75 8 12 8M14.97 11.77C14.94 11.4 14.86 11.04 14.7 10.72L15.43 10C15.79 10.58 16 11.26 16 12C16 12.25 15.97 12.5 15.92 12.72L14.97 11.77M14.75 7.83C13.96 7.31 13 7 12 7C11.46 7 10.94 7.09 10.45 7.25L9.69 6.5C10.4 6.18 11.18 6 12 6C13.3 6 14.5 6.42 15.47 7.11L14.75 7.83M8.18 5L6.72 3.5C8.25 2.56 10.06 2 12 2C17.5 2 22 6.5 22 12C22 13.94 21.44 15.75 20.5 17.28L19 15.83C19.65 14.69 20 13.38 20 12C20 7.59 16.41 4 12 4C10.62 4 9.31 4.35 8.18 5M16.75 13.55C16.91 13.06 17 12.54 17 12C17 11 16.69 10.04 16.17 9.25L16.89 8.53C17.59 9.5 18 10.7 18 12C18 12.83 17.82 13.6 17.5 14.32L16.75 13.55Z",
+"author": "Michael Irigoyen"
+},
+{
+"icon": "smoke-detector-variant",
+"google": "false",
+"search": "smoke-detector-variant,home automation",
+"name": "smoke-detector-variant",
+"path": "M12 4C16.41 4 20 7.59 20 12S16.41 20 12 20 4 16.41 4 12 7.59 4 12 4M12 2C6.5 2 2 6.5 2 12S6.5 22 12 22 22 17.5 22 12 17.5 2 12 2M12 11C11.45 11 11 11.45 11 12S11.45 13 12 13 13 12.55 13 12 12.55 11 12 11M10.72 9.3C11.11 9.11 11.54 9 12 9S12.89 9.11 13.29 9.3L14 8.57C13.43 8.22 12.74 8 12 8S10.58 8.22 10 8.57L10.72 9.3M15 12C15 12.46 14.89 12.89 14.7 13.29L15.43 14C15.79 13.43 16 12.74 16 12S15.79 10.58 15.43 10L14.7 10.72C14.89 11.11 15 11.54 15 12M9 12C9 11.54 9.11 11.11 9.3 10.72L8.57 10C8.22 10.58 8 11.26 8 12S8.22 13.43 8.57 14L9.3 13.29C9.11 12.89 9 12.46 9 12M13.29 14.7C12.89 14.89 12.46 15 12 15S11.11 14.89 10.72 14.7L10 15.43C10.58 15.79 11.26 16 12 16S13.43 15.79 14 15.43L13.29 14.7M16.89 8.53L16.17 9.25C16.69 10.04 17 11 17 12S16.69 13.96 16.17 14.75L16.89 15.47C17.59 14.5 18 13.3 18 12S17.59 9.5 16.89 8.53M9.25 7.83C10.04 7.31 11 7 12 7S13.96 7.31 14.75 7.83L15.47 7.11C14.5 6.42 13.3 6 12 6S9.5 6.42 8.53 7.11L9.25 7.83M14.75 16.17C13.96 16.69 13 17 12 17S10.04 16.69 9.25 16.17L8.53 16.89C9.5 17.59 10.7 18 12 18S14.5 17.59 15.47 16.89L14.75 16.17M7.83 14.75C7.31 13.96 7 13 7 12S7.31 10.04 7.83 9.25L7.11 8.53C6.42 9.5 6 10.7 6 12S6.42 14.5 7.11 15.47L7.83 14.75Z",
+"author": "Michael Irigoyen"
+},
+{
 "icon": "smoke-detector",
 "google": "true",
 "search": "smoke-detector,nest-protect,subwoofer,device,tech,home automation",
 "name": "smoke-detector",
 "path": "M12,18A6,6 0 0,0 18,12C18,8.68 15.31,6 12,6C8.68,6 6,8.68 6,12A6,6 0 0,0 12,18M19,3A2,2 0 0,1 21,5V19A2,2 0 0,1 19,21H5C3.89,21 3,20.1 3,19V5C3,3.89 3.89,3 5,3H19M8,12A4,4 0 0,1 12,8A4,4 0 0,1 16,12A4,4 0 0,1 12,16A4,4 0 0,1 8,12Z",
 "author": "Google"
+},
+{
+"icon": "smoke",
+"google": "false",
+"search": "smoke,smog,fire",
+"name": "smoke",
+"path": "M17 19V22H15V19C15 17.9 14.1 17 13 17H10C7.2 17 5 14.8 5 12C5 10.8 5.4 9.8 6.1 8.9C3.8 8.5 2 6.4 2 4C2 3.3 2.2 2.6 2.4 2H4.8C4.3 2.5 4 3.2 4 4C4 5.7 5.3 7 7 7H10V9C8.3 9 7 10.3 7 12S8.3 15 10 15H13C15.2 15 17 16.8 17 19M17.9 8.9C20.2 8.5 22 6.4 22 4C22 3.3 21.8 2.6 21.6 2H19.2C19.7 2.5 20 3.2 20 4C20 5.7 18.7 7 17 7H15.8C15.9 7.3 16 7.6 16 8C16 9.7 14.7 11 13 11V13C15.8 13 18 15.2 18 18V22H20V18C20 15.3 18.5 13 16.2 11.8C17.1 11.1 17.7 10.1 17.9 8.9Z",
+"author": "Michael Irigoyen"
 },
 {
 "icon": "smoking-off",
@@ -39770,7 +41546,7 @@ const icons = [
 {
 "icon": "snail",
 "google": "false",
-"search": "snail,animal",
+"search": "snail,gastropod,animal",
 "name": "snail",
 "path": "M20.31 8.03L21.24 4.95C21.67 4.85 22 4.47 22 4C22 3.45 21.55 3 21 3S20 3.45 20 4C20 4.26 20.11 4.5 20.27 4.68L19.5 7.26L18.73 4.68C18.89 4.5 19 4.26 19 4C19 3.45 18.55 3 18 3S17 3.45 17 4C17 4.47 17.33 4.85 17.76 4.95L18.69 8.03C17.73 8.18 17 9 17 10V12.25C15.65 9.16 12.63 7 9.11 7C5.19 7 2 10.26 2 14.26C2 16.1 2.82 17.75 4.1 18.85L2.88 19C2.38 19.06 2 19.5 2 20C2 20.55 2.45 21 3 21L19.12 21C20.16 21 21 20.16 21 19.12V11.72C21.6 11.38 22 10.74 22 10C22 9 21.27 8.18 20.31 8.03M15.6 17.41L12.07 17.86C12.5 17.1 12.8 16.21 12.8 15.26C12.8 12.94 10.95 11.06 8.67 11.06C8.14 11.06 7.62 11.18 7.14 11.41C6.65 11.66 6.44 12.26 6.69 12.75C6.93 13.25 7.53 13.45 8.03 13.21C8.23 13.11 8.45 13.06 8.67 13.06C9.85 13.06 10.8 14.04 10.8 15.26C10.8 16.92 9.5 18.27 7.89 18.27C5.75 18.27 4 16.47 4 14.26C4 11.36 6.29 9 9.11 9C12.77 9 15.75 12.06 15.75 15.82C15.75 16.36 15.69 16.89 15.6 17.41Z",
 "author": "Colton Wiscombe"
@@ -39778,7 +41554,7 @@ const icons = [
 {
 "icon": "snake",
 "google": "false",
-"search": "snake,animal",
+"search": "snake,reptile,animal",
 "name": "snake",
 "path": "M19.5 17H18C19.1 17 20 16.1 20 15S19.1 13 18 13V9C18 8 18 7 16.92 6.14C16.97 5.93 17 5.72 17 5.5C17 3.57 15 2 12.5 2C10.24 2 8.38 3.31 8.07 5H6L3.71 2.79L3 3.5L5 5.5L3 7.5L3.71 8.21L6 6H8.07C8.38 7.69 10.24 9 12.5 9C13 9 13.5 8.92 13.93 8.8C13.97 8.87 14 8.94 14 9V13H8C6.9 13 6 13.9 6 15S6.9 17 8 17H6.5C5.12 17 4 18.12 4 19.5C4 19.67 4 19.84 4.05 20H4C2.9 20 2 20.9 2 22H19.5C20.88 22 22 20.88 22 19.5S20.88 17 19.5 17M12 5C11.45 5 11 4.55 11 4S11.45 3 12 3 13 3.45 13 4 12.55 5 12 5Z",
 "author": "Colton Wiscombe"
@@ -39793,11 +41569,11 @@ const icons = [
 },
 {
 "icon": "snowboard",
-"google": "false",
+"google": "true",
 "search": "snowboard,sport",
 "name": "snowboard",
-"path": "M15.4 5.4C15.4 4.3 16.3 3.4 17.4 3.4C18.5 3.4 19.4 4.3 19.4 5.4C19.4 6.5 18.5 7.4 17.4 7.4C16.3 7.4 15.4 6.5 15.4 5.4M22 19.2C21.4 19.8 20.8 20.2 20.1 20.5C19.4 20.8 18.6 21 17.8 21H6.2C5.4 21 4.6 20.8 3.9 20.5C3.2 20.2 2.6 19.8 2 19.2L2.9 18.3C3.3 18.7 3.8 19.1 4.4 19.3C4.9 19.6 5.4 19.7 5.9 19.7L9.7 16L8.5 12.5C8.3 11.9 8.6 11.4 9.1 11L11 9H6V7H14C14.5 7 14.7 7.1 15 7.3L17.3 9.5C18.3 10.5 19.5 11 20.9 11L21 13.1C19.1 13.1 17.4 12.4 15.9 11L15.2 10.3L12.9 12.7L15 15V19.7H17.8C18.4 19.7 19 19.6 19.6 19.3C20.2 19.1 20.7 18.7 21.1 18.3L22 19.2M8.8 19.7H13V15.8L11.7 14.6V16.8L8.8 19.7Z",
-"author": "Michael Irigoyen"
+"path": "M21.87 20.37C21.76 20.2 21.62 20.09 21.43 20.06C21.18 20 20.96 20.05 20.78 20.2C20.43 20.5 20.04 20.73 19.58 20.86C19.13 21 18.66 21 18.16 20.9L17.04 20.62L16 14.46L12.74 11.79L14.5 8.94C15.08 9.85 15.85 10.58 16.83 11.14C17.81 11.7 18.88 12 20.03 12V9.97C19.09 9.97 18.26 9.72 17.53 9.22S16.26 8.07 15.92 7.26L15.36 6.05C15.26 5.86 15.08 5.64 14.82 5.39C14.55 5.14 14.19 5 13.72 5H8.07L5.54 9L7.27 10.06L9.14 7H11.5L9 10.95C8.69 11.42 8.6 11.93 8.72 12.5L9.56 15.95L6.06 18.29L5.59 18.19C5.13 18.1 4.7 17.91 4.33 17.61C3.96 17.31 3.68 16.96 3.5 16.56C3.4 16.31 3.23 16.17 3 16.14C2.76 16.08 2.56 16.11 2.39 16.23S2.12 16.5 2.09 16.7C2.06 16.85 2.07 17 2.13 17.17C2.42 17.79 2.83 18.33 3.37 18.78C3.92 19.23 4.55 19.5 5.27 19.64L17.88 22.35C18.6 22.5 19.29 22.5 19.96 22.3C20.63 22.12 21.23 21.79 21.76 21.32C21.88 21.23 21.96 21.11 22 20.95C22 20.73 22 20.54 21.87 20.37M8.77 18.89L11.81 16.89L11.34 13.57L14.19 15.58L14.94 20.2L8.77 18.89M18 3C18 4.11 17.11 5 16 5S14 4.11 14 3 14.9 1 16 1 18 1.9 18 3Z",
+"author": "Google"
 },
 {
 "icon": "snowflake-alert",
@@ -39846,6 +41622,14 @@ const icons = [
 "name": "snowman",
 "path": "M17,17A5,5 0 0,1 12,22A5,5 0 0,1 7,17C7,15.5 7.65,14.17 8.69,13.25C8.26,12.61 8,11.83 8,11C8,10.86 8,10.73 8,10.59L5.04,8.87L4.83,8.71L2.29,9.39L2.03,8.43L4.24,7.84L2.26,6.69L2.76,5.82L4.74,6.97L4.15,4.75L5.11,4.5L5.8,7.04L6.04,7.14L8.73,8.69C9.11,8.15 9.62,7.71 10.22,7.42C9.5,6.87 9,6 9,5A3,3 0 0,1 12,2A3,3 0 0,1 15,5C15,6 14.5,6.87 13.78,7.42C14.38,7.71 14.89,8.15 15.27,8.69L17.96,7.14L18.2,7.04L18.89,4.5L19.85,4.75L19.26,6.97L21.24,5.82L21.74,6.69L19.76,7.84L21.97,8.43L21.71,9.39L19.17,8.71L18.96,8.87L16,10.59V11C16,11.83 15.74,12.61 15.31,13.25C16.35,14.17 17,15.5 17,17Z",
 "author": "Austin Andrews"
+},
+{
+"icon": "snowmobile",
+"google": "true",
+"search": "snowmobile,transportation + flying,sport",
+"name": "snowmobile",
+"path": "M20.34 17.93L18.4 16C19.5 15.91 22.66 15.53 22.97 13.36C23 13.12 22.92 12.89 22.78 12.7C22.12 11.82 19.88 9.07 15 5H12V7H14L16 9L12 11L3 10L1 13L5.58 14.38L2.58 16.09C2.22 16.26 1 16.89 1 18.05C1 18.4 1 18.89 1.33 19.32C1.83 20 2.71 20 3 20H9C10.26 20 12.53 19.13 12.93 16H15.59L17.59 18H15V20H20C21.65 20 23 18.65 23 17H21C21 17.43 20.73 17.79 20.34 17.93M9 18H3.25C3.33 17.95 3.41 17.91 3.5 17.87L8.22 15.17L10.92 16C10.58 17.84 9.28 18 9 18Z",
+"author": "Google"
 },
 {
 "icon": "soccer-field",
@@ -39914,7 +41698,7 @@ const icons = [
 {
 "icon": "solar-panel-large",
 "google": "false",
-"search": "solar-panel-large",
+"search": "solar-panel-large,solar-panel-energy,solar-panel-electricity,home automation",
 "name": "solar-panel-large",
 "path": "M3,6H6V3H3V6M8,3V6H11V3H8M13,3V6H16V3H13M18,3V6H21V3H18M21,8H18V11H21V8M21,13H18V16H21V13M16,16V13H13V16H16M11,16V13H8V16H11M6,16V13H3V16H6M3,11H6V8H3V11M13,8V11H16V8H13M8,8V11H11V8H8M3,1H21A2,2 0 0,1 23,3V16A2,2 0 0,1 21,18H15V21H18V23H13V18H11V23H6V21H9V18H3A2,2 0 0,1 1,16V3A2,2 0 0,1 3,1Z",
 "author": "Contributors"
@@ -39922,7 +41706,7 @@ const icons = [
 {
 "icon": "solar-panel",
 "google": "false",
-"search": "solar-panel",
+"search": "solar-panel,solar-energy,solar-electricity,home automation",
 "name": "solar-panel",
 "path": "M4,2H20A2,2 0 0,1 22,4V14A2,2 0 0,1 20,16H15V20H18V22H13V16H11V22H6V20H9V16H4A2,2 0 0,1 2,14V4A2,2 0 0,1 4,2M4,4V8H11V4H4M4,14H11V10H4V14M20,14V10H13V14H20M20,4H13V8H20V4Z",
 "author": "Contributors"
@@ -39930,7 +41714,7 @@ const icons = [
 {
 "icon": "solar-power",
 "google": "false",
-"search": "solar-power",
+"search": "solar-power,solar-energy,solar-electricity,home automation",
 "name": "solar-power",
 "path": "M11.45,2V5.55L15,3.77L11.45,2M10.45,8L8,10.46L11.75,11.71L10.45,8M2,11.45L3.77,15L5.55,11.45H2M10,2H2V10C2.57,10.17 3.17,10.25 3.77,10.25C7.35,10.26 10.26,7.35 10.27,3.75C10.26,3.16 10.17,2.57 10,2M17,22V16H14L19,7V13H22L17,22Z",
 "author": "Michael Richins"
@@ -40184,6 +41968,14 @@ const icons = [
 "author": "Simran"
 },
 {
+"icon": "soundbar",
+"google": "false",
+"search": "soundbar,speaker-bar,home automation",
+"name": "soundbar",
+"path": "M4 8C2.9 8 2 8.9 2 10V14C2 15.11 2.9 16 4 16H20C21.11 16 22 15.11 22 14V10C22 8.9 21.11 8 20 8M9 10C10.11 10 11 10.9 11 12C11 13.11 10.11 14 9 14C7.9 14 7 13.11 7 12C7 10.9 7.9 10 9 10M15 10C16.11 10 17 10.9 17 12C17 13.11 16.11 14 15 14C13.9 14 13 13.11 13 12C13 10.9 13.9 10 15 10M5 11C5.55 11 6 11.45 6 12C6 12.55 5.55 13 5 13C4.45 13 4 12.55 4 12C4 11.45 4.45 11 5 11M9 11C8.45 11 8 11.45 8 12C8 12.55 8.45 13 9 13C9.55 13 10 12.55 10 12C10 11.45 9.55 11 9 11M15 11C14.45 11 14 11.45 14 12C14 12.55 14.45 13 15 13C15.55 13 16 12.55 16 12C16 11.45 15.55 11 15 11M19 11C19.55 11 20 11.45 20 12C20 12.55 19.55 13 19 13C18.45 13 18 12.55 18 12C18 11.45 18.45 11 19 11Z",
+"author": "GreenTurtwig"
+},
+{
 "icon": "soundcloud",
 "google": "false",
 "search": "soundcloud,brand,logo",
@@ -40400,14 +42192,6 @@ const icons = [
 "author": "GreenTurtwig"
 },
 {
-"icon": "sparkles",
-"google": "false",
-"search": "sparkles",
-"name": "sparkles",
-"path": "M10.6 9.6L9 15L7.4 9.6L2 8L7.4 6.4L9 1L10.6 6.4L16 8L10.6 9.6M17 14.2L21 12L18.8 16L21 20L17 17.8L13 20L15.2 16L13 12L17 14.2M10 16L8.3 19L10 22L7 20.3L4 22L5.7 19L4 16L7 17.7L10 16",
-"author": "Austin Andrews"
-},
-{
 "icon": "speaker-bluetooth",
 "google": "false",
 "search": "speaker-bluetooth,audio",
@@ -40482,7 +42266,7 @@ const icons = [
 {
 "icon": "spider-thread",
 "google": "false",
-"search": "spider-thread,arachnid-thread,holiday,nature,animal",
+"search": "spider-thread,arachnid-thread,bug,holiday,nature,animal",
 "name": "spider-thread",
 "path": "M13 2V7.08A5.47 5.47 0 0 0 12 7A5.47 5.47 0 0 0 11 7.08V2M16.9 15A5 5 0 0 1 16.73 15.55L20 17.42V22H18V18.58L15.74 17.29A4.94 4.94 0 0 1 8.26 17.29L6 18.58V22H4V17.42L7.27 15.55A5 5 0 0 1 7.1 15H5.3L2.55 16.83L1.45 15.17L4.7 13H7.1A5 5 0 0 1 7.37 12.12L5.81 11.12L2.24 12L1.76 10L6.19 8.92L8.5 10.45A5 5 0 0 1 15.5 10.45L17.77 8.92L22.24 10L21.76 12L18.19 11.11L16.63 12.11A5 5 0 0 1 16.9 13H19.3L22.55 15.16L21.45 16.82L18.7 15M11 14A1 1 0 1 0 10 15A1 1 0 0 0 11 14M15 14A1 1 0 1 0 14 15A1 1 0 0 0 15 14Z",
 "author": "Michael Richins"
@@ -40498,7 +42282,7 @@ const icons = [
 {
 "icon": "spider",
 "google": "false",
-"search": "spider,arachnid,holiday,nature,animal",
+"search": "spider,arachnid,bug,holiday,nature,animal",
 "name": "spider",
 "path": "M21.29 16.71L22.71 15.29L19.5 12.11L16.5 11.26L18.41 11L22.6 7.8L21.4 6.2L17.59 9.05L14.91 9.5L18.11 6.31L17 1.76L15 2.24L15.86 5.69L14.76 6.83A3 3 0 0 0 9.24 6.83L8.11 5.69L9 2.24L7 1.76L5.89 6.31L9.09 9.5L6.4 9.05L2.6 6.2L1.4 7.8L5.6 11L7.46 11.31L4.46 12.16L1.29 15.29L2.71 16.71L5.5 13.89L7.87 13.22L4 16.54V22H6V17.46L7.56 16.12A4.5 4.5 0 0 0 16.44 16.12L18 17.46V22H20V16.54L16.13 13.22L18.5 13.89Z",
 "author": "Michael Richins"
@@ -40669,7 +42453,7 @@ const icons = [
 "search": "square-rounded-outline",
 "name": "square-rounded-outline",
 "path": "M8 3H16C18.76 3 21 5.24 21 8V16C21 18.76 18.76 21 16 21H8C5.24 21 3 18.76 3 16V8C3 5.24 5.24 3 8 3M8 5C6.34 5 5 6.34 5 8V16C5 17.66 6.34 19 8 19H16C17.66 19 19 17.66 19 16V8C19 6.34 17.66 5 16 5H8Z",
-"author": "Jeff Hilnbrand"
+"author": "Jeff Anders"
 },
 {
 "icon": "square-rounded",
@@ -40677,7 +42461,7 @@ const icons = [
 "search": "square-rounded",
 "name": "square-rounded",
 "path": "M8 3H16C18.76 3 21 5.24 21 8V16C21 18.76 18.76 21 16 21H8C5.24 21 3 18.76 3 16V8C3 5.24 5.24 3 8 3Z",
-"author": "Jeff Hilnbrand"
+"author": "Jeff Anders"
 },
 {
 "icon": "square-small",
@@ -40810,7 +42594,7 @@ const icons = [
 {
 "icon": "star-box-multiple-outline",
 "google": "false",
-"search": "star-box-multiple-outline",
+"search": "star-box-multiple-outline,favorite-box-multiple-outline",
 "name": "star-box-multiple-outline",
 "path": "M4 6V20H18V22H3C2.4 22 2 21.6 2 21V6H4M12.1 10.6L10.2 8.8L12.8 8.4L14 6L15.2 8.4L17.8 8.8L15.9 10.7L16.3 13.3L14 12L11.6 13.2L12.1 10.6M8 2H20C21.11 2 22 2.9 22 4V16C22 17.11 21.11 18 20 18H8C6.9 18 6 17.11 6 16V4C6 2.9 6.9 2 8 2M8 4V16H20V4H8Z",
 "author": "Yaroslav Bandura"
@@ -40818,7 +42602,7 @@ const icons = [
 {
 "icon": "star-box-multiple",
 "google": "false",
-"search": "star-box-multiple",
+"search": "star-box-multiple,favorite-box-multiple",
 "name": "star-box-multiple",
 "path": "M4 6V20H18V22H3C2.4 22 2 21.6 2 21V6H4M8 2H20C21.11 2 22 2.9 22 4V16C22 17.11 21.11 18 20 18H8C6.9 18 6 17.11 6 16V4C6 2.9 6.9 2 8 2M16.3 13.3L15.9 10.7L17.8 8.8L15.2 8.4L14 6L12.8 8.4L10.2 8.8L12.1 10.6L11.6 13.2L14 12L16.3 13.3Z",
 "author": "Yaroslav Bandura"
@@ -40826,7 +42610,7 @@ const icons = [
 {
 "icon": "star-box-outline",
 "google": "false",
-"search": "star-box-outline",
+"search": "star-box-outline,favorite-box-outline",
 "name": "star-box-outline",
 "path": "M15.58,17L12,14.84L8.42,17L9.37,12.93L6.21,10.2L10.38,9.84L12,6L13.62,9.83L17.79,10.19L14.63,12.92L15.58,17M19,3A2,2 0 0,1 21,5V19C21,20.11 20.1,21 19,21H5A2,2 0 0,1 3,19V5A2,2 0 0,1 5,3H19M5,5V19H19V5H5Z",
 "author": "Austin Andrews"
@@ -40834,7 +42618,7 @@ const icons = [
 {
 "icon": "star-box",
 "google": "false",
-"search": "star-box",
+"search": "star-box,favorite-box",
 "name": "star-box",
 "path": "M19,3A2,2 0 0,1 21,5V19C21,20.11 20.1,21 19,21H5A2,2 0 0,1 3,19V5A2,2 0 0,1 5,3H19M15.58,17L14.63,12.92L17.79,10.19L13.62,9.83L12,6L10.38,9.84L6.21,10.2L9.37,12.93L8.42,17L12,14.84L15.58,17Z",
 "author": "Austin Andrews"
@@ -40842,7 +42626,7 @@ const icons = [
 {
 "icon": "star-check-outline",
 "google": "false",
-"search": "star-check-outline,shape",
+"search": "star-check-outline,favorite-check-outline,shape",
 "name": "star-check-outline",
 "path": "M5.8 21L7.4 14L2 9.2L9.2 8.6L12 2L14.8 8.6L22 9.2L18.8 12H18C17.3 12 16.6 12.1 15.9 12.4L18.1 10.5L13.7 10.1L12 6.1L10.3 10.1L5.9 10.5L9.2 13.4L8.2 17.7L12 15.4L12.5 15.7C12.3 16.2 12.1 16.8 12.1 17.3L5.8 21M17.8 21.2L15 18.2L16.2 17L17.8 18.6L21.4 15L22.6 16.4L17.8 21.2",
 "author": "Michael Irigoyen"
@@ -40850,7 +42634,7 @@ const icons = [
 {
 "icon": "star-check",
 "google": "false",
-"search": "star-check,shape",
+"search": "star-check,favorite-check,shape",
 "name": "star-check",
 "path": "M5.8 21L7.4 14L2 9.2L9.2 8.6L12 2L14.8 8.6L22 9.2L18.8 12H18C14.9 12 12.4 14.3 12 17.3L5.8 21M17.8 21.2L22.6 16.4L21.3 15L17.7 18.6L16.2 17L15 18.2L17.8 21.2",
 "author": "Michael Irigoyen"
@@ -40858,7 +42642,7 @@ const icons = [
 {
 "icon": "star-circle-outline",
 "google": "true",
-"search": "star-circle-outline,feature-highlight",
+"search": "star-circle-outline,feature-highlight,favorite-circle-outline",
 "name": "star-circle-outline",
 "path": "M8.58,17.25L9.5,13.36L6.5,10.78L10.45,10.41L12,6.8L13.55,10.45L17.5,10.78L14.5,13.36L15.42,17.25L12,15.19L8.58,17.25M12,2A10,10 0 0,1 22,12A10,10 0 0,1 12,22A10,10 0 0,1 2,12A10,10 0 0,1 12,2M12,4A8,8 0 0,0 4,12A8,8 0 0,0 12,20A8,8 0 0,0 20,12A8,8 0 0,0 12,4Z",
 "author": "Google"
@@ -40866,7 +42650,7 @@ const icons = [
 {
 "icon": "star-circle",
 "google": "true",
-"search": "star-circle,stars",
+"search": "star-circle,stars,favorite-circle",
 "name": "star-circle",
 "path": "M16.23,18L12,15.45L7.77,18L8.89,13.19L5.16,9.96L10.08,9.54L12,5L13.92,9.53L18.84,9.95L15.11,13.18L16.23,18M12,2C6.47,2 2,6.5 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2Z",
 "author": "Google"
@@ -40874,7 +42658,7 @@ const icons = [
 {
 "icon": "star-cog-outline",
 "google": "false",
-"search": "star-cog-outline",
+"search": "star-cog-outline,favorite-cog-outline",
 "name": "star-cog-outline",
 "path": "M10.29 10.13L5.91 10.5L9.23 13.38L8.24 17.66L12 15.39L12.76 15.85C12.5 16.33 12.32 16.85 12.19 17.39L12 17.27L5.82 21L7.45 13.97L2 9.24L9.19 8.63L12 2L14.81 8.63L22 9.24L18.8 12C17.29 12.05 15.91 12.57 14.78 13.43L14.77 13.38L18.09 10.5L13.71 10.13L12 6.09L10.29 10.13M23.83 20.64L22.83 22.37C22.76 22.5 22.63 22.5 22.5 22.5L21.27 22C21 22.18 20.73 22.34 20.43 22.47L20.24 23.79C20.22 23.91 20.11 24 20 24H18C17.86 24 17.76 23.91 17.74 23.79L17.55 22.47C17.24 22.35 16.96 22.18 16.7 22L15.46 22.5C15.34 22.5 15.21 22.5 15.15 22.37L14.15 20.64C14.09 20.53 14.12 20.4 14.21 20.32L15.27 19.5C15.25 19.33 15.24 19.17 15.24 19S15.25 18.67 15.27 18.5L14.21 17.68C14.11 17.6 14.09 17.47 14.15 17.36L15.15 15.63C15.22 15.5 15.35 15.5 15.46 15.5L16.7 16C16.96 15.82 17.25 15.66 17.55 15.53L17.74 14.21C17.76 14.09 17.87 14 18 14H20C20.11 14 20.22 14.09 20.23 14.21L20.42 15.53C20.73 15.65 21 15.82 21.27 16L22.5 15.5C22.63 15.5 22.76 15.5 22.82 15.63L23.82 17.36C23.88 17.47 23.85 17.6 23.76 17.68L22.7 18.5C22.73 18.67 22.74 18.83 22.74 19S22.72 19.33 22.7 19.5L23.77 20.32C23.86 20.4 23.89 20.53 23.83 20.64M20.5 19C20.5 18.17 19.83 17.5 19 17.5S17.5 18.17 17.5 19 18.16 20.5 19 20.5C19.83 20.5 20.5 19.83 20.5 19Z",
 "author": "Colton Wiscombe"
@@ -40882,15 +42666,31 @@ const icons = [
 {
 "icon": "star-cog",
 "google": "false",
-"search": "star-cog",
+"search": "star-cog,favorite-cog",
 "name": "star-cog",
 "path": "M18.8 12C15.59 12.1 12.91 14.37 12.19 17.39L12 17.27L5.82 21L7.45 13.97L2 9.24L9.19 8.62L12 2L14.81 8.62L22 9.24L18.8 12M23.83 20.64L22.83 22.37C22.76 22.5 22.63 22.5 22.5 22.5L21.27 22C21 22.18 20.73 22.34 20.43 22.47L20.24 23.79C20.22 23.91 20.11 24 20 24H18C17.86 24 17.76 23.91 17.74 23.79L17.55 22.47C17.24 22.35 16.96 22.18 16.7 22L15.46 22.5C15.34 22.5 15.21 22.5 15.15 22.37L14.15 20.64C14.09 20.53 14.12 20.4 14.21 20.32L15.27 19.5C15.25 19.33 15.24 19.17 15.24 19S15.25 18.67 15.27 18.5L14.21 17.68C14.11 17.6 14.09 17.47 14.15 17.36L15.15 15.63C15.22 15.5 15.35 15.5 15.46 15.5L16.7 16C16.96 15.82 17.25 15.66 17.55 15.53L17.74 14.21C17.76 14.09 17.87 14 18 14H20C20.11 14 20.22 14.09 20.23 14.21L20.42 15.53C20.73 15.65 21 15.82 21.27 16L22.5 15.5C22.63 15.5 22.76 15.5 22.82 15.63L23.82 17.36C23.88 17.47 23.85 17.6 23.76 17.68L22.7 18.5C22.73 18.67 22.74 18.83 22.74 19S22.72 19.33 22.7 19.5L23.77 20.32C23.86 20.4 23.89 20.53 23.83 20.64M20.5 19C20.5 18.17 19.83 17.5 19 17.5S17.5 18.17 17.5 19 18.16 20.5 19 20.5C19.83 20.5 20.5 19.83 20.5 19Z",
 "author": "Colton Wiscombe"
 },
 {
+"icon": "star-crescent",
+"google": "false",
+"search": "star-crescent,islam,religion-islamic,religion-muslim,religion",
+"name": "star-crescent",
+"path": "M12.3,2C12.2,2 12.1,2 12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22C15,22 16.7,21 18.5,19.5C13,21 8,17 8,12C8,7 13,3 18.5,4.5C16.86,2.86 14.62,1.96 12.3,2M16.8,6.2L15.3,9.7L11.6,10L14.5,12.5L13.6,16L16.8,14L20,16L19,12.5L22,10L18.3,9.7L16.8,6.2Z",
+"author": "Nick"
+},
+{
+"icon": "star-david",
+"google": "false",
+"search": "star-david,jewish,religion-judaic,judaism,magen-david,religion",
+"name": "star-david",
+"path": "M12,2L9.1,7H3.3L6.3,12L3.3,17H9.1L12,22L14.9,17H20.7L17.7,12L20.7,7H14.9L12,2M12,5L13.2,7H10.8L12,5M8.2,8.5L7.1,10.5L5.9,8.5H8.2M10,8.5H14L16,12L14,15.5H10L8,12L10,8.5M18,8.5L16.8,10.5L15.7,8.5H18M7.1,13.5L8.2,15.5H6L7.1,13.5M16.9,13.5L18.1,15.5H15.8L16.9,13.5M13.3,17L12,19L10.8,17H13.3Z",
+"author": "Nick"
+},
+{
 "icon": "star-face",
 "google": "true",
-"search": "star-face,gaming,rpg",
+"search": "star-face,favorite-face,emoji-star,emoticon-star,gaming,rpg",
 "name": "star-face",
 "path": "M12,2.5L8.42,8.06L2,9.74L6.2,14.88L5.82,21.5L12,19.09L18.18,21.5L17.8,14.88L22,9.74L15.58,8.06L12,2.5M9.38,10.5C10,10.5 10.5,11 10.5,11.63A1.12,1.12 0 0,1 9.38,12.75C8.75,12.75 8.25,12.25 8.25,11.63C8.25,11 8.75,10.5 9.38,10.5M14.63,10.5C15.25,10.5 15.75,11 15.75,11.63A1.12,1.12 0 0,1 14.63,12.75C14,12.75 13.5,12.25 13.5,11.63C13.5,11 14,10.5 14.63,10.5M9,15H15C14.5,16.21 13.31,17 12,17C10.69,17 9.5,16.21 9,15Z",
 "author": "Google"
@@ -40914,7 +42714,7 @@ const icons = [
 {
 "icon": "star-half-full",
 "google": "true",
-"search": "star-half-full",
+"search": "star-half-full,favorite-half-full",
 "name": "star-half-full",
 "path": "M12,15.4V6.1L13.71,10.13L18.09,10.5L14.77,13.39L15.76,17.67M22,9.24L14.81,8.63L12,2L9.19,8.63L2,9.24L7.45,13.97L5.82,21L12,17.27L18.18,21L16.54,13.97L22,9.24Z",
 "author": "Google"
@@ -40922,7 +42722,7 @@ const icons = [
 {
 "icon": "star-half",
 "google": "false",
-"search": "star-half,shape",
+"search": "star-half,favorite-half,shape",
 "name": "star-half",
 "path": "M12 2L9.19 8.62L2 9.24L7.45 13.97L5.82 21L12 17.27V2Z",
 "author": "Simran"
@@ -40930,7 +42730,7 @@ const icons = [
 {
 "icon": "star-minus-outline",
 "google": "false",
-"search": "star-minus-outline,shape",
+"search": "star-minus-outline,favorite-minus-outline,shape",
 "name": "star-minus-outline",
 "path": "M5.8 21L7.4 14L2 9.2L9.2 8.6L12 2L14.8 8.6L22 9.2L18.8 12H18C17.3 12 16.6 12.1 15.9 12.4L18.1 10.5L13.7 10.1L12 6.1L10.3 10.1L5.9 10.5L9.2 13.4L8.2 17.7L12 15.4L12.5 15.7C12.3 16.2 12.1 16.8 12.1 17.3L5.8 21M14 17V19H22V17H14Z",
 "author": "Michael Irigoyen"
@@ -40938,7 +42738,7 @@ const icons = [
 {
 "icon": "star-minus",
 "google": "false",
-"search": "star-minus,shape",
+"search": "star-minus,favorite-minus,shape",
 "name": "star-minus",
 "path": "M5.8 21L7.4 14L2 9.2L9.2 8.6L12 2L14.8 8.6L22 9.2L18.8 12H18C14.9 12 12.4 14.3 12 17.3L5.8 21M14 17V19H22V17H14Z",
 "author": "Michael Irigoyen"
@@ -40946,7 +42746,7 @@ const icons = [
 {
 "icon": "star-off-outline",
 "google": "false",
-"search": "star-off-outline",
+"search": "star-off-outline,favorite-off-outline",
 "name": "star-off-outline",
 "path": "M22.1 21.5L2.4 1.7L1.1 3L6.9 8.8L2 9.2L7.5 14L5.9 21L12.1 17.3L18.3 21L18 19.8L20.9 22.7L22.1 21.5M15.8 17.7L12 15.4L8.2 17.7L9.2 13.4L5.9 10.5L8.4 10.3L15.8 17.7M11.2 8L10 6.8L12 2L14.8 8.6L22 9.2L16.9 13.6L15.8 12.5L18.2 10.5L13.8 10.1L12.1 6.1L11.2 8Z",
 "author": "Michael Irigoyen"
@@ -40954,7 +42754,7 @@ const icons = [
 {
 "icon": "star-off",
 "google": "false",
-"search": "star-off",
+"search": "star-off,favorite-off",
 "name": "star-off",
 "path": "M20.8 22.7L17.9 19.8L18.2 21L12 17.3L5.8 21L7.4 14L2 9.2L6.9 8.8L1.1 3L2.4 1.7L22.1 21.4L20.8 22.7M22 9.2L14.8 8.6L12 2L10 6.8L16.9 13.7L22 9.2Z",
 "author": "Austin Andrews"
@@ -40962,7 +42762,7 @@ const icons = [
 {
 "icon": "star-outline",
 "google": "true",
-"search": "star-outline,star-border,shape",
+"search": "star-outline,star-border,favorite-outline,shape",
 "name": "star-outline",
 "path": "M12,15.39L8.24,17.66L9.23,13.38L5.91,10.5L10.29,10.13L12,6.09L13.71,10.13L18.09,10.5L14.77,13.38L15.76,17.66M22,9.24L14.81,8.63L12,2L9.19,8.63L2,9.24L7.45,13.97L5.82,21L12,17.27L18.18,21L16.54,13.97L22,9.24Z",
 "author": "Google"
@@ -40970,7 +42770,7 @@ const icons = [
 {
 "icon": "star-plus-outline",
 "google": "false",
-"search": "star-plus-outline,shape",
+"search": "star-plus-outline,star-add-outline,favorite-plus-outline,favorite-add-outline,shape",
 "name": "star-plus-outline",
 "path": "M5.8 21L7.4 14L2 9.2L9.2 8.6L12 2L14.8 8.6L22 9.2L18.8 12H18C17.3 12 16.6 12.1 15.9 12.4L18.1 10.5L13.7 10.1L12 6.1L10.3 10.1L5.9 10.5L9.2 13.4L8.2 17.7L12 15.4L12.5 15.7C12.3 16.2 12.1 16.8 12.1 17.3L5.8 21M17 14V17H14V19H17V22H19V19H22V17H19V14H17Z",
 "author": "Michael Irigoyen"
@@ -40978,7 +42778,7 @@ const icons = [
 {
 "icon": "star-plus",
 "google": "false",
-"search": "star-plus,shape",
+"search": "star-plus,favorite-plus,star-add,favorite-add,shape",
 "name": "star-plus",
 "path": "M5.8 21L7.4 14L2 9.2L9.2 8.6L12 2L14.8 8.6L22 9.2L18.8 12H18C14.9 12 12.4 14.3 12 17.3L5.8 21M17 14V17H14V19H17V22H19V19H22V17H19V14H17Z",
 "author": "Michael Irigoyen"
@@ -40986,7 +42786,7 @@ const icons = [
 {
 "icon": "star-remove-outline",
 "google": "false",
-"search": "star-remove-outline,shape",
+"search": "star-remove-outline,favorite-remove-outline,shape",
 "name": "star-remove-outline",
 "path": "M5.8 21L7.4 14L2 9.2L9.2 8.6L12 2L14.8 8.6L22 9.2L18.8 12H18C17.3 12 16.6 12.1 15.9 12.4L18.1 10.5L13.7 10.1L12 6.1L10.3 10.1L5.9 10.5L9.2 13.4L8.2 17.7L12 15.4L12.5 15.7C12.3 16.2 12.1 16.8 12.1 17.3L5.8 21M20.1 14.5L18 16.6L15.9 14.5L14.5 15.9L16.6 18L14.5 20.1L15.9 21.5L18 19.4L20.1 21.5L21.5 20.1L19.4 18L21.5 15.9L20.1 14.5Z",
 "author": "Michael Irigoyen"
@@ -40994,7 +42794,7 @@ const icons = [
 {
 "icon": "star-remove",
 "google": "false",
-"search": "star-remove,shape",
+"search": "star-remove,favorite-remove,shape",
 "name": "star-remove",
 "path": "M5.8 21L7.4 14L2 9.2L9.2 8.6L12 2L14.8 8.6L22 9.2L18.8 12H18C14.9 12 12.4 14.3 12 17.3L5.8 21M20.1 14.5L18 16.6L15.9 14.5L14.5 15.9L16.6 18L14.5 20.1L15.9 21.5L18 19.4L20.1 21.5L21.5 20.1L19.4 18L21.5 15.9L20.1 14.5Z",
 "author": "Michael Irigoyen"
@@ -41002,7 +42802,7 @@ const icons = [
 {
 "icon": "star-settings-outline",
 "google": "false",
-"search": "star-settings-outline",
+"search": "star-settings-outline,favorite-settings-outline",
 "name": "star-settings-outline",
 "path": "M11 22H13V24H11V22M7 24H9V22H7V24M15 24H17V22H15V24M16.54 13.97L18.18 21L12 17.27L5.82 21L7.45 13.97L2 9.24L9.19 8.63L12 2L14.81 8.63L22 9.24L16.54 13.97M15.76 17.66L14.77 13.38L18.09 10.5L13.71 10.13L12 6.09L10.29 10.13L5.91 10.5L9.23 13.38L8.24 17.66L12 15.39L15.76 17.66Z",
 "author": "Colton Wiscombe"
@@ -41010,7 +42810,7 @@ const icons = [
 {
 "icon": "star-settings",
 "google": "false",
-"search": "star-settings",
+"search": "star-settings,favorite-settings",
 "name": "star-settings",
 "path": "M7 22H9V24H7V22M11 24H13V22H11V24M15 24H17V22H15V24M22 9.24L14.81 8.62L12 2L9.19 8.62L2 9.24L7.45 13.97L5.82 21L12 17.27L18.18 21L16.54 13.97L22 9.24Z",
 "author": "Colton Wiscombe"
@@ -41018,7 +42818,7 @@ const icons = [
 {
 "icon": "star-shooting-outline",
 "google": "false",
-"search": "star-shooting-outline",
+"search": "star-shooting-outline,favorite-shooting-outline",
 "name": "star-shooting-outline",
 "path": "M23 7.5L16.53 6.96L14 1L11.47 6.96L5 7.5L9.9 11.77L8.44 18.1L14 14.74L19.56 18.1L18.09 11.77L23 7.5M16.14 12.23L16.54 13.94L15.03 13.03L14 12.41L12.97 13.03L11.46 13.94L11.85 12.23L12.13 11.05L11.22 10.26L9.88 9.1L11.64 8.95L12.84 8.85L13.31 7.74L14 6.12L14.69 7.74L15.16 8.85L16.36 8.95L18.11 9.1L16.78 10.26L15.86 11.05L16.14 12.23M1.16 12C.861 11.5 .989 10.89 1.45 10.59L4.18 8.79L5.75 10.15L2.55 12.26C2.38 12.37 2.19 12.43 2 12.43C1.68 12.43 1.36 12.27 1.16 12M1.45 20.16L7.31 16.31L7 17.76L6.66 19.13L2.55 21.84C2.38 21.95 2.19 22 2 22C1.68 22 1.36 21.84 1.16 21.55C.861 21.09 .989 20.47 1.45 20.16M7.32 11.5L8.24 12.31L7.97 13.5L2.55 17.05C2.38 17.16 2.19 17.21 2 17.21C1.68 17.21 1.36 17.06 1.16 16.76C.861 16.3 .989 15.68 1.45 15.38L7.32 11.5Z",
 "author": "Colton Wiscombe"
@@ -41026,7 +42826,7 @@ const icons = [
 {
 "icon": "star-shooting",
 "google": "false",
-"search": "star-shooting",
+"search": "star-shooting,favorite-shooting",
 "name": "star-shooting",
 "path": "M18.09 11.77L19.56 18.1L14 14.74L8.44 18.1L9.9 11.77L5 7.5L11.47 6.96L14 1L16.53 6.96L23 7.5L18.09 11.77M2 12.43C2.19 12.43 2.38 12.37 2.55 12.26L5.75 10.15L4.18 8.79L1.45 10.59C.989 10.89 .861 11.5 1.16 12C1.36 12.27 1.68 12.43 2 12.43M1.16 21.55C1.36 21.84 1.68 22 2 22C2.19 22 2.38 21.95 2.55 21.84L6.66 19.13L7 17.76L7.31 16.31L1.45 20.16C.989 20.47 .861 21.09 1.16 21.55M1.45 15.38C.989 15.68 .861 16.3 1.16 16.76C1.36 17.06 1.68 17.21 2 17.21C2.19 17.21 2.38 17.16 2.55 17.05L7.97 13.5L8.24 12.31L7.32 11.5L1.45 15.38Z",
 "author": "Colton Wiscombe"
@@ -41050,7 +42850,7 @@ const icons = [
 {
 "icon": "star",
 "google": "true",
-"search": "star,grade,star-rate,shape",
+"search": "star,grade,star-rate,favorite,shape",
 "name": "star",
 "path": "M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z",
 "author": "Google"
@@ -41229,6 +43029,22 @@ const icons = [
 "search": "sticker-remove",
 "name": "sticker-remove",
 "path": "M18.5 2H5.5C3.6 2 2 3.6 2 5.5V18.5C2 20.4 3.6 22 5.5 22H16L22 16V5.5C22 3.6 20.4 2 18.5 2M12 13.4L9.9 15.5L8.5 14.1L10.6 12L8.5 9.9L9.9 8.5L12 10.6L14.1 8.5L15.5 9.9L13.4 12L15.5 14.1L14.1 15.5L12 13.4M15 20V18.5C15 16.6 16.6 15 18.5 15H20L15 20Z",
+"author": "Colton Wiscombe"
+},
+{
+"icon": "sticker-text-outline",
+"google": "false",
+"search": "sticker-text-outline",
+"name": "sticker-text-outline",
+"path": "M18.5 2H5.5C3.6 2 2 3.6 2 5.5V18.5C2 20.4 3.6 22 5.5 22H16L22 16V5.5C22 3.6 20.4 2 18.5 2M20.1 15H18.6C16.7 15 15.1 16.6 15.1 18.5V20H5.8C4.8 20 4 19.2 4 18.2V5.8C4 4.8 4.8 4 5.8 4H18.3C19.3 4 20.1 4.8 20.1 5.8V15M7 7H17V9H7V7M7 11H17V13H7V11M7 15H13V17H7V15Z",
+"author": "Colton Wiscombe"
+},
+{
+"icon": "sticker-text",
+"google": "false",
+"search": "sticker-text",
+"name": "sticker-text",
+"path": "M18.5 2H5.5C3.6 2 2 3.6 2 5.5V18.5C2 20.4 3.6 22 5.5 22H16L22 16V5.5C22 3.6 20.4 2 18.5 2M6 7H18V9H6V7M6 11H18V13H6V11M13 17H6V15H13V17M15 20V18.5C15 16.6 16.6 15 18.5 15H20L15 20Z",
 "author": "Colton Wiscombe"
 },
 {
@@ -41464,12 +43280,44 @@ const icons = [
 "author": "Austin Andrews"
 },
 {
+"icon": "sun-snowflake",
+"google": "true",
+"search": "sun-snowflake,hot-cold,heat-cool,weather,home automation",
+"name": "sun-snowflake",
+"path": "M12 .69L8.69 4H4V8.69L.69 12L4 15.31V20H8.69L12 23.31L13 22.31V17.83L16.24 21.07L17.66 19.66L13 15V13H15L19.66 17.66L21.07 16.24L17.83 13H22V11H17.83L21.07 7.76L19.66 6.34L15 11H13V9L17.66 4.34L16.24 2.93L13 6.17V1.69M11 6.09V8.13C9.24 8.59 8 10.18 8 12C8 13.82 9.24 15.41 11 15.87V17.91C8.12 17.42 6 14.93 6 12C6 9.07 8.11 6.57 11 6.09Z",
+"author": "Google"
+},
+{
+"icon": "sun-wireless-outline",
+"google": "false",
+"search": "sun-wireless-outline,weather-sun-wireless-outline,illuminance-outline,uv-ray-outline,ultraviolet-outline,home automation,weather",
+"name": "sun-wireless-outline",
+"path": "M11 1L13.39 4.42C12.65 4.15 11.84 4 11 4S9.35 4.15 8.61 4.42L11 1M2.34 6L6.5 5.65C5.9 6.16 5.36 6.78 4.94 7.5C4.5 8.24 4.25 9 4.11 9.79L2.34 6M2.36 16L4.12 12.23C4.26 13 4.53 13.78 4.95 14.5C5.37 15.24 5.91 15.86 6.5 16.37L2.36 16M19.65 6L17.88 9.79C17.74 9 17.47 8.23 17.05 7.5C16.63 6.78 16.1 6.15 15.5 5.64L19.65 6M23 13H21C21 15.05 20.22 17.1 18.66 18.66C17.09 20.23 15.05 21 13 21V23C15.56 23 18.12 22 20.07 20.07S23 15.56 23 13M19 13H17C17 14 16.61 15.05 15.83 15.83C15.05 16.61 14 17 13 17V19C14.54 19 16.08 18.41 17.25 17.24C18.41 16.08 19 14.54 19 13M11 8C12.65 8 14 9.35 14 11S12.65 14 11 14 8 12.65 8 11 9.35 8 11 8M11 6C8.24 6 6 8.24 6 11S8.24 16 11 16 16 13.76 16 11 13.76 6 11 6Z",
+"author": "Michael Irigoyen"
+},
+{
+"icon": "sun-wireless",
+"google": "false",
+"search": "sun-wireless,weather-sun-wireless,illuminance,uv-ray,ultraviolet,home automation,weather",
+"name": "sun-wireless",
+"path": "M11 6C13.76 6 16 8.24 16 11S13.76 16 11 16 6 13.76 6 11 8.24 6 11 6M11 1L13.39 4.42C12.65 4.15 11.84 4 11 4S9.35 4.15 8.61 4.42L11 1M2.34 6L6.5 5.65C5.9 6.16 5.36 6.78 4.94 7.5C4.5 8.24 4.25 9 4.11 9.79L2.34 6M2.36 16L4.12 12.23C4.26 13 4.53 13.78 4.95 14.5C5.37 15.24 5.91 15.86 6.5 16.37L2.36 16M19.65 6L17.88 9.79C17.74 9 17.47 8.23 17.05 7.5C16.63 6.78 16.1 6.15 15.5 5.64L19.65 6M23 13H21C21 15.05 20.22 17.1 18.66 18.66C17.09 20.23 15.05 21 13 21V23C15.56 23 18.12 22 20.07 20.07S23 15.56 23 13M19 13H17C17 14 16.61 15.05 15.83 15.83C15.05 16.61 14 17 13 17V19C14.54 19 16.08 18.41 17.25 17.24C18.41 16.08 19 14.54 19 13",
+"author": "Michael Irigoyen"
+},
+{
 "icon": "sunglasses",
 "google": "false",
 "search": "sunglasses,clothing",
 "name": "sunglasses",
 "path": "M7,17H4C2.38,17 0.96,15.74 0.76,14.14L0.26,11.15C0.15,10.3 0.39,9.5 0.91,8.92C1.43,8.34 2.19,8 3,8H9C9.83,8 10.58,8.35 11.06,8.96C11.17,9.11 11.27,9.27 11.35,9.45C11.78,9.36 12.22,9.36 12.64,9.45C12.72,9.27 12.82,9.11 12.94,8.96C13.41,8.35 14.16,8 15,8H21C21.81,8 22.57,8.34 23.09,8.92C23.6,9.5 23.84,10.3 23.74,11.11L23.23,14.18C23.04,15.74 21.61,17 20,17H17C15.44,17 13.92,15.81 13.54,14.3L12.64,11.59C12.26,11.31 11.73,11.31 11.35,11.59L10.43,14.37C10.07,15.82 8.56,17 7,17Z",
 "author": "Simran"
+},
+{
+"icon": "surfing",
+"google": "true",
+"search": "surfing",
+"name": "surfing",
+"path": "M22 23V21C20.59 21.05 19.22 20.9 18 20C16.24 21.25 13.77 21.25 12 20C10.23 21.25 7.76 21.25 6 20C4.78 20.9 3.41 21.05 2 21V23C3.37 23.05 4.78 22.94 6 22.25C7.84 23.25 10.15 23.25 12 22.25C13.85 23.25 16.16 23.25 18 22.25C19.22 22.94 20.63 23.05 22 23M20.5 11.97V9.95C18.74 9.96 17 9 16.18 7.41L15.29 5.86C15 5.4 14.55 5.11 14.07 4.97L8.5 3.94L5 6.38L6.13 8L8.95 6.1L10.97 6.43L8.81 7.88C8.21 8.29 7.88 9 8 9.71L8.53 12.81C7.12 12.26 3.21 11 3 13.23C3.36 15.67 6.07 17.32 8.06 18.82C9.5 19.29 11.06 18.58 12 17.46C13.32 19.16 15.89 19.46 17.5 18C17.03 17.58 16.5 17.15 16 16.8V12.95L12.19 9.95L14.44 8.44C15.62 10.59 18 12 20.5 11.97M14 14V15.47C14 15.43 11.66 14.16 11.81 14.24L10.73 13.7L10.31 11.08L14 14M19 3.5C19 4.61 18.11 5.5 17 5.5S15 4.61 15 3.5 15.9 1.5 17 1.5 19 2.4 19 3.5Z",
+"author": "Google"
 },
 {
 "icon": "surround-sound-2-0",
@@ -42053,7 +43901,7 @@ const icons = [
 "search": "table-picnic",
 "name": "table-picnic",
 "path": "M4 6H20V9H18L18.22 11H23V13H18.44L19 18H16.5L15.94 13H8.06L7.5 18H5L5.56 13H1V11H5.78L6 9H4M15.5 9H8.5L8.29 11H15.71Z",
-"author": "Jeff Hilnbrand"
+"author": "Jeff Anders"
 },
 {
 "icon": "table-plus",
@@ -42162,7 +44010,7 @@ const icons = [
 {
 "icon": "table-tennis",
 "google": "true",
-"search": "table-tennis,sport",
+"search": "table-tennis,ping-pong,whiff-whaff,sport",
 "name": "table-tennis",
 "path": "M18.5,14C19.9,14 21,15.1 21,16.5C21,17.9 19.9,19 18.5,19C17.1,19 16,17.9 16,16.5C16,15.1 17.1,14 18.5,14M7,15C7,15 8,16 8,17V20.5C8,21.3 8.7,22 9.5,22C10.3,22 11,21.3 11,20.5V17C11,16 12,15 12,15H7M8,14H11C11,14 16,14 16,9C16,4 12,2 9.5,2C7,2 3,4 3,9C3,14 8,14 8,14Z",
 "author": "Google"
@@ -42198,14 +44046,6 @@ const icons = [
 "name": "tablet-dashboard",
 "path": "M19,18H5V6H19M21,4H3C1.89,4 1,4.89 1,6V18A2,2 0 0,0 3,20H21A2,2 0 0,0 23,18V6C23,4.89 22.1,4 21,4M7,8H13V13H7V8M14,8H17V10H14V8M17,11V16H14V11H17M7,14H13V16H7V14Z",
 "author": "Michael Irigoyen"
-},
-{
-"icon": "tablet-ipad",
-"google": "true",
-"search": "tablet-ipad,tablet-mac,device,tech",
-"name": "tablet-ipad",
-"path": "M19,19H4V3H19M11.5,23A1.5,1.5 0 0,1 10,21.5A1.5,1.5 0 0,1 11.5,20A1.5,1.5 0 0,1 13,21.5A1.5,1.5 0 0,1 11.5,23M18.5,0H4.5A2.5,2.5 0 0,0 2,2.5V21.5A2.5,2.5 0 0,0 4.5,24H18.5A2.5,2.5 0 0,0 21,21.5V2.5A2.5,2.5 0 0,0 18.5,0Z",
-"author": "Google"
 },
 {
 "icon": "tablet",
@@ -42290,7 +44130,7 @@ const icons = [
 {
 "icon": "tag-faces",
 "google": "true",
-"search": "tag-faces",
+"search": "tag-faces,tag-emoji,tag-emoticon",
 "name": "tag-faces",
 "path": "M15,18C11.68,18 9,15.31 9,12C9,8.68 11.68,6 15,6A6,6 0 0,1 21,12A6,6 0 0,1 15,18M4,13A1,1 0 0,1 3,12A1,1 0 0,1 4,11A1,1 0 0,1 5,12A1,1 0 0,1 4,13M22,3H7.63C6.97,3 6.38,3.32 6,3.81L0,12L6,20.18C6.38,20.68 6.97,21 7.63,21H22A2,2 0 0,0 24,19V5C24,3.89 23.1,3 22,3M13,11A1,1 0 0,0 14,10A1,1 0 0,0 13,9A1,1 0 0,0 12,10A1,1 0 0,0 13,11M15,16C16.86,16 18.35,14.72 18.8,13H11.2C11.65,14.72 13.14,16 15,16M17,11A1,1 0 0,0 18,10A1,1 0 0,0 17,9A1,1 0 0,0 16,10A1,1 0 0,0 17,11Z",
 "author": "Google"
@@ -42432,6 +44272,14 @@ const icons = [
 "author": "Contributors"
 },
 {
+"icon": "tangram",
+"google": "false",
+"search": "tangram,puzzle,gaming,rpg",
+"name": "tangram",
+"path": "M20 2H4C2.9 2 2 2.9 2 4V20C2 21.1 2.9 22 4 22H20C21.1 22 22 21.1 22 20V4C22 2.9 21.1 2 20 2M18.59 4L12 10.59L5.41 4H18.59M13.41 12L16.5 8.91L19.59 12L16.5 15.09L13.41 12M14.59 16H9.41L12 13.41L14.59 16M4 5.41L10.59 12L4 18.59V5.41M11.59 20H5.41L7.41 18H13.59L11.59 20M20 20H14.41L20 14.41V20M20 9.59L17.91 7.5L20 5.41V9.59Z",
+"author": "Jeff Anders"
+},
+{
 "icon": "tank",
 "google": "false",
 "search": "tank",
@@ -42512,27 +44360,11 @@ const icons = [
 "author": "Google"
 },
 {
-"icon": "teach",
-"google": "false",
-"search": "teach,teacher,teaching,lecture,college,blackboard,whiteboard,human-male-board",
-"name": "teach",
-"path": "M20,17A2,2 0 0,0 22,15V4A2,2 0 0,0 20,2H9.46C9.81,2.61 10,3.3 10,4H20V15H11V17M15,7V9H9V22H7V16H5V22H3V14H1.5V9A2,2 0 0,1 3.5,7H15M8,4A2,2 0 0,1 6,6A2,2 0 0,1 4,4A2,2 0 0,1 6,2A2,2 0 0,1 8,4Z",
-"author": "Michael Richins"
-},
-{
 "icon": "teamviewer",
 "google": "false",
 "search": "teamviewer,brand,logo",
 "name": "teamviewer",
 "path": "M10.04 9.2L9.3 11H14.75L14 9.2L19.55 12L14 14.8L14.75 13H9.3L10.04 14.8L4.5 12L10.04 9.2M20.83 22H3.17C2.53 22 2 21.5 2 20.83V3.17C2 2.53 2.53 2 3.17 2H20.83C21.5 2 22 2.53 22 3.17V20.83C22 21.47 21.5 22 20.83 22M11.93 3.76C7.41 3.82 3.78 7.5 3.76 12C3.72 16.5 7.35 20.2 11.86 20.24H12C16.53 20.18 20.18 16.53 20.24 12C20.31 7.5 16.74 3.83 12.26 3.76C12.15 3.75 12.04 3.76 11.93 3.76Z",
-"author": "Contributors"
-},
-{
-"icon": "telegram",
-"google": "false",
-"search": "telegram,brand,logo",
-"name": "telegram",
-"path": "M9.78,18.65L10.06,14.42L17.74,7.5C18.08,7.19 17.67,7.04 17.22,7.31L7.74,13.3L3.64,12C2.76,11.75 2.75,11.14 3.84,10.7L19.81,4.54C20.54,4.21 21.24,4.72 20.96,5.84L18.24,18.65C18.05,19.56 17.5,19.78 16.74,19.36L12.6,16.3L10.61,18.23C10.38,18.46 10.19,18.65 9.78,18.65Z",
 "author": "Contributors"
 },
 {
@@ -42576,14 +44408,6 @@ const icons = [
 "author": "GreenTurtwig"
 },
 {
-"icon": "television-clean",
-"google": "false",
-"search": "television-clean,device,tech",
-"name": "television-clean",
-"path": "M21 17H3V5H21M21 3H3C1.9 3 1 3.9 1 5V17C1 18.11 1.9 19 3 19H8V21H16V19H21C22.11 19 23 18.11 23 17V5C23 3.9 22.11 3 21 3M15 6.5L14.38 7.87L13 8.5L14.38 9.13L15 10.5L15.63 9.13L17 8.5L15.63 7.87L15 6.5M10.5 8.5L9.41 10.91L7 12L9.41 13.09L10.5 15.5L11.6 13.09L14 12L11.6 10.91L10.5 8.5",
-"author": "Contributors"
-},
-{
 "icon": "television-guide",
 "google": "false",
 "search": "television-guide,device,tech,home automation",
@@ -42614,6 +44438,14 @@ const icons = [
 "name": "television-play",
 "path": "M21,3H3C1.89,3 1,3.89 1,5V17A2,2 0 0,0 3,19H8V21H16V19H21A2,2 0 0,0 23,17V5C23,3.89 22.1,3 21,3M21,17H3V5H21M16,11L9,15V7",
 "author": "Google"
+},
+{
+"icon": "television-shimmer",
+"google": "false",
+"search": "television-shimmer,television-clean,device,tech",
+"name": "television-shimmer",
+"path": "M21 17H3V5H21M21 3H3C1.9 3 1 3.9 1 5V17C1 18.11 1.9 19 3 19H8V21H16V19H21C22.11 19 23 18.11 23 17V5C23 3.9 22.11 3 21 3M15 6.5L14.38 7.87L13 8.5L14.38 9.13L15 10.5L15.63 9.13L17 8.5L15.63 7.87L15 6.5M10.5 8.5L9.41 10.91L7 12L9.41 13.09L10.5 15.5L11.6 13.09L14 12L11.6 10.91L10.5 8.5",
+"author": "Contributors"
 },
 {
 "icon": "television-stop",
@@ -42840,6 +44672,14 @@ const icons = [
 "author": "Google"
 },
 {
+"icon": "text-long",
+"google": "true",
+"search": "text-long,text-subject",
+"name": "text-long",
+"path": "M4,5H20V7H4V5M4,9H20V11H4V9M4,13H20V15H4V13M4,17H14V19H4V17Z",
+"author": "Google"
+},
+{
 "icon": "text-recognition",
 "google": "false",
 "search": "text-recognition",
@@ -42869,14 +44709,6 @@ const icons = [
 "search": "text-short",
 "name": "text-short",
 "path": "M4,9H20V11H4V9M4,13H14V15H4V13Z",
-"author": "Google"
-},
-{
-"icon": "text-subject",
-"google": "true",
-"search": "text-subject",
-"name": "text-subject",
-"path": "M4,5H20V7H4V5M4,9H20V11H4V9M4,13H20V15H4V13M4,17H14V19H4V17Z",
 "author": "Google"
 },
 {
@@ -42922,7 +44754,7 @@ const icons = [
 {
 "icon": "theater",
 "google": "false",
-"search": "theater,cinema,theatre,places",
+"search": "theater,cinema,theatre,places,home automation",
 "name": "theater",
 "path": "M4,15H6A2,2 0 0,1 8,17V19H9V17A2,2 0 0,1 11,15H13A2,2 0 0,1 15,17V19H16V17A2,2 0 0,1 18,15H20A2,2 0 0,1 22,17V19H23V22H1V19H2V17A2,2 0 0,1 4,15M11,7L15,10L11,13V7M4,2H20A2,2 0 0,1 22,4V13.54C21.41,13.19 20.73,13 20,13V4H4V13C3.27,13 2.59,13.19 2,13.54V4A2,2 0 0,1 4,2Z",
 "author": "Austin Andrews"
@@ -43420,7 +45252,7 @@ const icons = [
 "google": "true",
 "search": "toggle-switch-off-outline",
 "name": "toggle-switch-off-outline",
-"path": "M7,10A2,2 0 0,1 9,12A2,2 0 0,1 7,14A2,2 0 0,1 5,12A2,2 0 0,1 7,10M17,7A5,5 0 0,1 22,12A5,5 0 0,1 17,17H7A5,5 0 0,1 2,12A5,5 0 0,1 7,7H17M7,9A3,3 0 0,0 4,12A3,3 0 0,0 7,15H17A3,3 0 0,0 20,12A3,3 0 0,0 17,9H7Z",
+"path": "M17 6H7c-3.31 0-6 2.69-6 6s2.69 6 6 6h10c3.31 0 6-2.69 6-6s-2.69-6-6-6zm0 10H7c-2.21 0-4-1.79-4-4s1.79-4 4-4h10c2.21 0 4 1.79 4 4s-1.79 4-4 4zM7 9c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z",
 "author": "Google"
 },
 {
@@ -43436,7 +45268,7 @@ const icons = [
 "google": "true",
 "search": "toggle-switch-outline",
 "name": "toggle-switch-outline",
-"path": "M17,10A2,2 0 0,1 19,12A2,2 0 0,1 17,14A2,2 0 0,1 15,12A2,2 0 0,1 17,10M17,7A5,5 0 0,1 22,12A5,5 0 0,1 17,17H7A5,5 0 0,1 2,12A5,5 0 0,1 7,7H17M7,9A3,3 0 0,0 4,12A3,3 0 0,0 7,15H17A3,3 0 0,0 20,12A3,3 0 0,0 17,9H7Z",
+"path": "M17 6H7C3.69 6 1 8.69 1 12S3.69 18 7 18H17C20.31 18 23 15.31 23 12S20.31 6 17 6M17 16H7C4.79 16 3 14.21 3 12S4.79 8 7 8H17C19.21 8 21 9.79 21 12S19.21 16 17 16M17 9C15.34 9 14 10.34 14 12S15.34 15 17 15 20 13.66 20 12 18.66 9 17 9Z",
 "author": "Google"
 },
 {
@@ -43666,7 +45498,7 @@ const icons = [
 {
 "icon": "tortoise",
 "google": "false",
-"search": "tortoise",
+"search": "tortoise,turtle,reptile,animal",
 "name": "tortoise",
 "path": "M19.31,5.6C18.09,5.56 16.88,6.5 16.5,8C16,10 16,10 15,11C13,13 10,14 4,15C3,15.16 2.5,15.5 2,16C4,16 6,16 4.5,17.5L3,19H6L8,17C10,18 11.33,18 13.33,17L14,19H17L16,16C16,16 17,12 18,11C19,10 19,11 20,11C21,11 22,10 22,8.5C22,8 22,7 20.5,6C20.15,5.76 19.74,5.62 19.31,5.6M9,6A6,6 0 0,0 3,12C3,12.6 3.13,13.08 3.23,13.6C9.15,12.62 12.29,11.59 13.93,9.94L14.43,9.44C13.44,7.34 11.32,6 9,6Z",
 "author": "Nick"
@@ -43714,7 +45546,7 @@ const icons = [
 {
 "icon": "toy-brick-marker-outline",
 "google": "false",
-"search": "toy-brick-marker-outline,lego,plugin,extension",
+"search": "toy-brick-marker-outline,extension-outline,lego-location-outline,toy-brick-location-outline,plugin-outline,lego-outline",
 "name": "toy-brick-marker-outline",
 "path": "M18.5 12A3.54 3.54 0 0 0 15 15.5C15 18.1 18.5 22 18.5 22S22 18.1 22 15.5A3.54 3.54 0 0 0 18.5 12M18.5 16.8A1.2 1.2 0 1 1 18.5 14.4A1.29 1.29 0 0 1 19.7 15.6A1.15 1.15 0 0 1 18.5 16.8M19 6V5A2 2 0 0 0 17 3H15A2 2 0 0 0 13 5V6H11V5A2 2 0 0 0 9 3H7A2 2 0 0 0 5 5V6H3V20H14.54A15.55 15.55 0 0 1 13.54 18H5V8H19V10A5.11 5.11 0 0 1 21 10.6V6Z",
 "author": "Michael Richins"
@@ -43722,7 +45554,7 @@ const icons = [
 {
 "icon": "toy-brick-marker",
 "google": "false",
-"search": "toy-brick-marker,lego,plugin,extension",
+"search": "toy-brick-marker,lego,plugin,extension,lego-location,toy-brick-location",
 "name": "toy-brick-marker",
 "path": "M19 6V5A2 2 0 0 0 17 3H15A2 2 0 0 0 13 5V6H11V5A2 2 0 0 0 9 3H7A2 2 0 0 0 5 5V6H3V20H14.54A9.55 9.55 0 0 1 13 15.5A5.58 5.58 0 0 1 18.5 10A5.3 5.3 0 0 1 21 10.63V6M18.5 12A3.54 3.54 0 0 0 15 15.5C15 18.1 18.5 22 18.5 22S22 18.1 22 15.5A3.54 3.54 0 0 0 18.5 12M18.5 16.8A1.2 1.2 0 1 1 18.5 14.4A1.29 1.29 0 0 1 19.7 15.6A1.15 1.15 0 0 1 18.5 16.8Z",
 "author": "Michael Richins"
@@ -43864,9 +45696,17 @@ const icons = [
 "author": "Michael Richins"
 },
 {
+"icon": "traffic-light-outline",
+"google": "true",
+"search": "traffic-light-outline,traffic-signal-outline,transportation + road",
+"name": "traffic-light-outline",
+"path": "M20 10H17V8.86C18.72 8.41 20 6.86 20 5H17V4C17 3.45 16.55 3 16 3H8C7.45 3 7 3.45 7 4V5H4C4 6.86 5.28 8.41 7 8.86V10H4C4 11.86 5.28 13.41 7 13.86V15H4C4 16.86 5.28 18.41 7 18.86V20C7 20.55 7.45 21 8 21H16C16.55 21 17 20.55 17 20V18.86C18.72 18.41 20 16.86 20 15H17V13.86C18.72 13.41 20 11.86 20 10M15 19H9V5H15V19M12 18C12.83 18 13.5 17.33 13.5 16.5S12.83 15 12 15 10.5 15.67 10.5 16.5 11.17 18 12 18M12 13.5C12.83 13.5 13.5 12.83 13.5 12S12.83 10.5 12 10.5 10.5 11.17 10.5 12 11.17 13.5 12 13.5M12 9C12.83 9 13.5 8.33 13.5 7.5S12.83 6 12 6 10.5 6.67 10.5 7.5 11.17 9 12 9Z",
+"author": "Google"
+},
+{
 "icon": "traffic-light",
 "google": "true",
-"search": "traffic-light,transportation + road",
+"search": "traffic-light,traffic-signal,transportation + road",
 "name": "traffic-light",
 "path": "M12,9A2,2 0 0,1 10,7C10,5.89 10.9,5 12,5C13.11,5 14,5.89 14,7A2,2 0 0,1 12,9M12,14A2,2 0 0,1 10,12C10,10.89 10.9,10 12,10C13.11,10 14,10.89 14,12A2,2 0 0,1 12,14M12,19A2,2 0 0,1 10,17C10,15.89 10.9,15 12,15C13.11,15 14,15.89 14,17A2,2 0 0,1 12,19M20,10H17V8.86C18.72,8.41 20,6.86 20,5H17V4A1,1 0 0,0 16,3H8A1,1 0 0,0 7,4V5H4C4,6.86 5.28,8.41 7,8.86V10H4C4,11.86 5.28,13.41 7,13.86V15H4C4,16.86 5.28,18.41 7,18.86V20A1,1 0 0,0 8,21H16A1,1 0 0,0 17,20V18.86C18.72,18.41 20,16.86 20,15H17V13.86C18.72,13.41 20,11.86 20,10Z",
 "author": "Google"
@@ -44005,7 +45845,7 @@ const icons = [
 "search": "transit-connection-horizontal,transportation + other",
 "name": "transit-connection-horizontal",
 "path": "M12 9C10.7 9 9.6 9.8 9.2 11H6.8C6.4 9.8 5.3 9 4 9C2.3 9 1 10.3 1 12S2.3 15 4 15C5.3 15 6.4 14.2 6.8 13H9.2C9.6 14.2 10.7 15 12 15S14.4 14.2 14.8 13H17.2C17.6 14.2 18.7 15 20 15C21.7 15 23 13.7 23 12S21.7 9 20 9C18.7 9 17.6 9.8 17.2 11H14.8C14.4 9.8 13.3 9 12 9M3 12C3 11.4 3.4 11 4 11S5 11.4 5 12 4.6 13 4 13 3 12.6 3 12M21 12C21 12.6 20.6 13 20 13S19 12.6 19 12 19.4 11 20 11 21 11.4 21 12Z",
-"author": "Jeff Hilnbrand"
+"author": "Jeff Anders"
 },
 {
 "icon": "transit-connection-variant",
@@ -44037,7 +45877,7 @@ const icons = [
 "search": "transit-skip,transportation + other",
 "name": "transit-skip",
 "path": "M21 12C21 8 18.5 4.7 15 3.5C14.7 2.1 13.5 1 12 1C10.3 1 9 2.3 9 4S10.3 7 12 7C13.1 7 14.1 6.4 14.6 5.5C17.2 6.5 19 9 19 12C19 14.9 17.2 17.5 14.6 18.5C14.1 17.6 13.1 17 12 17C10.3 17 9 18.3 9 20S10.3 23 12 23C13.5 23 14.7 21.9 15 20.5C18.5 19.3 21 15.9 21 12M12 5C11.4 5 11 4.6 11 4S11.4 3 12 3 13 3.4 13 4 12.6 5 12 5M12 21C11.4 21 11 20.6 11 20S11.4 19 12 19 13 19.4 13 20 12.6 21 12 21M12 9C13.7 9 15 10.3 15 12S13.7 15 12 15 9 13.7 9 12 10.3 9 12 9Z",
-"author": "Jeff Hilnbrand"
+"author": "Jeff Anders"
 },
 {
 "icon": "transit-transfer",
@@ -44110,6 +45950,22 @@ const icons = [
 "name": "tray-alert",
 "path": "M2 12H4V17H20V12H22V17A2 2 0 0 1 20 19H4A2 2 0 0 1 2 17M13 12H11V14H13M13 4H11V10H13Z",
 "author": "Michael Richins"
+},
+{
+"icon": "tray-arrow-down",
+"google": "false",
+"search": "tray-arrow-down,tray-download,arrow",
+"name": "tray-arrow-down",
+"path": "M2 12H4V17H20V12H22V17C22 18.11 21.11 19 20 19H4C2.9 19 2 18.11 2 17V12M12 15L17.55 9.54L16.13 8.13L13 11.25V2H11V11.25L7.88 8.13L6.46 9.55L12 15Z",
+"author": "Contributors"
+},
+{
+"icon": "tray-arrow-up",
+"google": "false",
+"search": "tray-arrow-up,tray-upload,arrow",
+"name": "tray-arrow-up",
+"path": "M2 12H4V17H20V12H22V17C22 18.11 21.11 19 20 19H4C2.9 19 2 18.11 2 17V12M12 2L6.46 7.46L7.88 8.88L11 5.75V15H13V5.75L16.13 8.88L17.55 7.45L12 2Z",
+"author": "Contributors"
 },
 {
 "icon": "tray-full",
@@ -44458,7 +46314,7 @@ const icons = [
 {
 "icon": "turkey",
 "google": "false",
-"search": "turkey,thanksgiving,animal,holiday",
+"search": "turkey,thanksgiving,animal,holiday,agriculture",
 "name": "turkey",
 "path": "M10.5 19.44C9.75 19.8 8.9 20 8 20C4.69 20 2 17.31 2 14V9C2 5.69 4.69 3 8 3L10.5 7.58C8.1 8.81 6.5 11 6.5 13.5C6.5 16 8.11 18.2 10.5 19.44M16 18.94V20H17C17.55 20 18 20.45 18 21S17.55 22 17 22H14C13.45 22 13 21.55 13 21S13.45 20 14 20V18.94C10.61 18.56 8 16.27 8 13.5C8 10.46 11.13 8 15 8C15.19 8 15.37 8 15.56 8C14.84 6.63 14 5.23 14 4C14 2.9 14.9 2 16 2C18.21 2 20 3.79 20 6H18C18 6 22 9 22 13.5C22 16.27 19.39 18.56 16 18.94M16 4C16 4.55 16.45 5 17 5S18 4.55 18 4 17.55 3 17 3 16 3.45 16 4M17 12C17 10.9 16.11 10 15 10C12.79 10 11 11.79 11 14H15C16.11 14 17 13.11 17 12Z",
 "author": "Colton Wiscombe"
@@ -44482,7 +46338,7 @@ const icons = [
 {
 "icon": "turtle",
 "google": "false",
-"search": "turtle,animal",
+"search": "turtle,reptile,animal",
 "name": "turtle",
 "path": "M8.47,5.95C8.95,5.67 9.47,5.44 10,5.28V4C10,2.9 10.87,2 11.97,1.97C13.13,2 14,2.9 14,4V5.28C14.53,5.45 15.05,5.67 15.53,5.95L13.93,8.07H10.07L8.47,5.95M19,12C19,12.5 18.95,12.95 18.86,13.4L16.33,12.62L15.14,8.96L16.74,6.85C17.17,7.25 17.55,7.7 17.88,8.2C18.67,8.13 19.43,8.25 20.11,8.59C21.14,9.12 21.84,10.13 22,11.28L19,11.64C19,11.76 19,11.88 19,12M5,12C5,11.88 5,11.76 5,11.65L2,11.28C2.16,10.13 2.86,9.12 3.89,8.59C4.57,8.25 5.34,8.13 6.08,8.26C6.41,7.75 6.79,7.28 7.24,6.87L8.86,8.95L7.67,12.62L5.14,13.4C5.05,12.95 5,12.5 5,12M10.24,9.57H13.76L14.85,12.93L12,15L9.15,12.93L10.24,9.57M8.13,14.05L11.25,16.31V18.96C10.68,18.9 10.13,18.77 9.62,18.58L8.39,21.34C7.33,20.87 6.57,19.9 6.37,18.76C6.23,18 6.35,17.24 6.69,16.56C6.24,16.04 5.87,15.46 5.59,14.82L8.13,14.05M15.87,14.05L18.41,14.82C18.13,15.46 17.76,16.04 17.31,16.56C17.65,17.24 17.77,18 17.64,18.76C17.43,19.9 16.67,20.87 15.61,21.34L14.39,18.58C13.86,18.77 13.33,18.94 12.75,19V16.31L15.87,14.05Z",
 "author": "Nick"
@@ -44494,14 +46350,6 @@ const icons = [
 "name": "twitch",
 "path": "M11.64 5.93H13.07V10.21H11.64M15.57 5.93H17V10.21H15.57M7 2L3.43 5.57V18.43H7.71V22L11.29 18.43H14.14L20.57 12V2M19.14 11.29L16.29 14.14H13.43L10.93 16.64V14.14H7.71V3.43H19.14Z",
 "author": "Contributors"
-},
-{
-"icon": "twitter-retweet",
-"google": "false",
-"search": "twitter-retweet",
-"name": "twitter-retweet",
-"path": "M6,5.75L10.25,10H7V16H13.5L15.5,18H7A2,2 0 0,1 5,16V10H1.75L6,5.75M18,18.25L13.75,14H17V8H10.5L8.5,6H17A2,2 0 0,1 19,8V14H22.25L18,18.25Z",
-"author": "Austin Andrews"
 },
 {
 "icon": "twitter",
@@ -44682,7 +46530,7 @@ const icons = [
 {
 "icon": "unicorn-variant",
 "google": "false",
-"search": "unicorn-variant,animal",
+"search": "unicorn-variant,fantasy-variant,animal",
 "name": "unicorn-variant",
 "path": "M20 12V19L17 20L14 15.33C13.71 14.89 13 15.14 13.08 15.67L14 23L4 18L4.96 12.75C5.56 9.42 8.46 7 11.84 7H13L19 1L17 7H20L18.42 9.37C19.36 9.88 20 10.86 20 12Z",
 "author": "Colton Wiscombe"
@@ -44690,7 +46538,7 @@ const icons = [
 {
 "icon": "unicorn",
 "google": "false",
-"search": "unicorn,animal",
+"search": "unicorn,fantasy,animal",
 "name": "unicorn",
 "path": "M22 5L21.11 6.34C21.65 6.7 22 7.31 22 8V11.5L20.5 12L18.96 9.54C18.83 9.33 18.5 9.42 18.5 9.67V13.25C18.5 14.23 18.11 15.11 17.5 15.78V22H15V17C14.92 17 14.84 17 14.75 17C14.54 17 14.33 16.97 14.13 16.94L9.45 16.16L8.57 18.12L9.54 22H6.96L6.04 18.3C5.97 18.03 6 17.74 6.11 17.5L7 15.5C6.12 14.92 5.53 13.94 5.5 12.81C5.46 12.96 5.44 13.18 5.47 13.5C5.5 13.94 5.61 14.59 5.54 15.31C5.5 16.03 5.18 16.77 4.76 17.26C4.32 17.75 3.85 18.09 3.35 18.35L2.65 17.65C2.84 17.18 3.03 16.76 3.07 16.37C3.13 16 3.06 15.7 2.95 15.43L2.42 14.3C2.21 13.79 1.95 13.05 2 12.18C2.03 11.33 2.5 10.22 3.39 9.61C4.29 9 5.26 8.91 6.05 9.08C6.55 9.18 7.06 9.42 7.5 9.76C7.87 9.59 8.3 9.5 8.75 9.5H14.5V9C14.5 6.79 16.29 5 18.5 5L22 2L21 5H22Z",
 "author": "Colton Wiscombe"
@@ -44717,14 +46565,6 @@ const icons = [
 "search": "unreal,unreal-engine,brand,logo,gaming,rpg",
 "name": "unreal",
 "path": "M2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2A10,10 0 0,0 2,12M5.24,18.76C3.43,16.95 2.44,14.55 2.44,12C2.44,9.45 3.43,7.05 5.24,5.24C7.05,3.43 9.45,2.44 12,2.44C14.55,2.44 16.95,3.43 18.76,5.24C20.57,7.05 21.56,9.45 21.56,12C21.56,14.55 20.57,16.95 18.76,18.76C16.95,20.57 14.55,21.56 12,21.56C9.45,21.56 7.05,20.57 5.24,18.76M6.35,9.5C4.34,11.79 4.73,13.68 4.73,13.68C4.73,13.68 5.28,12.38 6.61,11C7.25,10.37 7.72,10.15 8.04,10.15C8.4,10.15 8.57,10.41 8.57,10.65V15.29C8.57,15.75 8.27,15.85 8,15.84C7.77,15.84 7.55,15.76 7.55,15.76C8.92,17.73 12.19,18 12.19,18L13.63,16.5H13.67L15,17.63C17.39,16.21 18.55,13.58 18.55,13.58C17.5,14.7 16.79,14.97 16.39,14.96C16.03,14.96 15.88,14.75 15.88,14.75C15.87,14.65 15.82,8.9 15.89,8.9C16.31,8.13 17.63,6.56 17.63,6.56C15.16,7.05 13.81,8.66 13.81,8.66C13.41,8.35 12.59,8.4 12.59,8.4C12.97,8.61 13.35,9.21 13.35,9.72V14.65C13.35,14.65 12.5,15.38 11.88,15.38C11.5,15.38 11.27,15.17 11.14,15C11.05,14.88 11,14.79 11,14.79V8.69C10.93,8.75 10.82,8.8 10.71,8.8C10.57,8.79 10.43,8.73 10.34,8.53C10.26,8.38 10.22,8.15 10.22,7.83C10.22,6.7 11.5,5.96 11.5,5.96C9.87,6.39 8.36,7.22 6.35,9.5",
-"author": "Contributors"
-},
-{
-"icon": "untappd",
-"google": "false",
-"search": "untappd,brand,logo",
-"name": "untappd",
-"path": "M14.41,4C14.41,4 14.94,4.39 14.97,4.71C14.97,4.81 14.73,4.85 14.68,4.93C14.62,5 14.7,5.15 14.65,5.21C14.59,5.26 14.5,5.26 14.41,5.41C14.33,5.56 12.07,10.09 11.73,10.63C11.59,11.03 11.47,12.46 11.37,12.66C11.26,12.85 6.34,19.84 6.16,20.05C5.67,20.63 4.31,20.3 3.28,19.56C2.3,18.86 1.74,17.7 2.11,17.16C2.27,16.93 7.15,9.92 7.29,9.75C7.44,9.58 8.75,9 9.07,8.71C9.47,8.22 12.96,4.54 13.07,4.42C13.18,4.3 13.15,4.2 13.18,4.13C13.22,4.06 13.38,4.08 13.43,4C13.5,3.93 13.39,3.71 13.5,3.68C13.59,3.64 13.96,3.67 14.41,4M10.85,4.44L11.74,5.37L10.26,6.94L9.46,5.37C9.38,5.22 9.28,5.22 9.22,5.17C9.17,5.11 9.24,4.97 9.19,4.89C9.13,4.81 8.9,4.83 8.9,4.73C8.9,4.62 9.05,4.28 9.5,3.96C9.5,3.96 10.06,3.6 10.37,3.68C10.47,3.71 10.43,3.95 10.5,4C10.54,4.1 10.7,4.08 10.73,4.15C10.77,4.21 10.73,4.32 10.85,4.44M21.92,17.15C22.29,17.81 21.53,19 20.5,19.7C19.5,20.39 18.21,20.54 17.83,20C17.66,19.78 12.67,12.82 12.56,12.62C12.45,12.43 12.32,11 12.18,10.59L12.15,10.55C12.45,10 13.07,8.77 13.73,7.47C14.3,8.06 14.75,8.56 14.88,8.72C15.21,9 16.53,9.58 16.68,9.75C16.82,9.92 21.78,16.91 21.92,17.15Z",
 "author": "Contributors"
 },
 {
@@ -45752,28 +47592,12 @@ const icons = [
 "author": "Michael Irigoyen"
 },
 {
-"icon": "vk",
-"google": "false",
-"search": "vk,vkontakte,brand,logo",
-"name": "vk",
-"path": "M15.07 2H8.93C3.33 2 2 3.33 2 8.93V15.07C2 20.67 3.33 22 8.93 22H15.07C20.67 22 22 20.67 22 15.07V8.93C22 3.33 20.67 2 15.07 2M18.15 16.27H16.69C16.14 16.27 15.97 15.82 15 14.83C14.12 14 13.74 13.88 13.53 13.88C13.24 13.88 13.15 13.96 13.15 14.38V15.69C13.15 16.04 13.04 16.26 12.11 16.26C10.57 16.26 8.86 15.32 7.66 13.59C5.85 11.05 5.36 9.13 5.36 8.75C5.36 8.54 5.43 8.34 5.85 8.34H7.32C7.69 8.34 7.83 8.5 7.97 8.9C8.69 11 9.89 12.8 10.38 12.8C10.57 12.8 10.65 12.71 10.65 12.25V10.1C10.6 9.12 10.07 9.03 10.07 8.68C10.07 8.5 10.21 8.34 10.44 8.34H12.73C13.04 8.34 13.15 8.5 13.15 8.88V11.77C13.15 12.08 13.28 12.19 13.38 12.19C13.56 12.19 13.72 12.08 14.05 11.74C15.1 10.57 15.85 8.76 15.85 8.76C15.95 8.55 16.11 8.35 16.5 8.35H17.93C18.37 8.35 18.47 8.58 18.37 8.89C18.19 9.74 16.41 12.25 16.43 12.25C16.27 12.5 16.21 12.61 16.43 12.9C16.58 13.11 17.09 13.55 17.43 13.94C18.05 14.65 18.53 15.24 18.66 15.65C18.77 16.06 18.57 16.27 18.15 16.27Z",
-"author": "Contributors"
-},
-{
 "icon": "vlc",
 "google": "false",
 "search": "vlc,brand,logo",
 "name": "vlc",
 "path": "M12,1C11.58,1 11.19,1.23 11,1.75L9.88,4.88C10.36,5.4 11.28,5.5 12,5.5C12.72,5.5 13.64,5.4 14.13,4.88L13,1.75C12.82,1.25 12.42,1 12,1M8.44,8.91L7,12.91C8.07,14.27 10.26,14.5 12,14.5C13.74,14.5 15.93,14.27 17,12.91L15.56,8.91C14.76,9.83 13.24,10 12,10C10.76,10 9.24,9.83 8.44,8.91M5.44,15C4.62,15 3.76,15.65 3.53,16.44L2.06,21.56C1.84,22.35 2.3,23 3.13,23H20.88C21.7,23 22.16,22.35 21.94,21.56L20.47,16.44C20.24,15.65 19.38,15 18.56,15H17.75L18.09,15.97C18.21,16.29 18.29,16.69 18.09,16.97C16.84,18.7 14.14,19 12,19C9.86,19 7.16,18.7 5.91,16.97C5.71,16.69 5.79,16.29 5.91,15.97L6.25,15H5.44Z",
 "author": "Contributors"
-},
-{
-"icon": "voice-off",
-"google": "true",
-"search": "voice-off",
-"name": "voice-off",
-"path": "M2,3.27L3.28,2L22,20.72L20.73,22L16.73,18C16.9,18.31 17,18.64 17,19V21H1V19C1,16.34 6.33,15 9,15C10.77,15 13.72,15.59 15.5,16.77L11.12,12.39C10.5,12.78 9.78,13 9,13A4,4 0 0,1 5,9C5,8.22 5.22,7.5 5.61,6.88L2,3.27M9,5A4,4 0 0,1 13,9V9.17L8.83,5H9M16.76,5.36C18.78,7.56 18.78,10.61 16.76,12.63L15.08,10.94C15.92,9.76 15.92,8.23 15.08,7.05L16.76,5.36M20.07,2C24,6.05 23.97,12.11 20.07,16L18.44,14.37C21.21,11.19 21.21,6.65 18.44,3.63L20.07,2Z",
-"author": "Google"
 },
 {
 "icon": "voicemail",
@@ -45920,6 +47744,22 @@ const icons = [
 "author": "Google"
 },
 {
+"icon": "wall-sconce-flat-outline",
+"google": "false",
+"search": "wall-sconce-flat-outline,home automation",
+"name": "wall-sconce-flat-outline",
+"path": "M5 5V11H19V5H5M17 9H7V7H17V9M5.27 13.32L3.5 15.09L4.91 16.5L6.68 14.73L5.27 13.32M18.73 13.32L17.32 14.73L19.09 16.5L20.5 15.09L18.73 13.32M11 16V19H13V16H11Z",
+"author": "Contributors"
+},
+{
+"icon": "wall-sconce-flat-variant-outline",
+"google": "false",
+"search": "wall-sconce-flat-variant-outline,home automation",
+"name": "wall-sconce-flat-variant-outline",
+"path": "M5 13V19H19V13H5M17 17H7V15H17V17M18.73 10.68L20.5 8.91L19.09 7.5L17.32 9.27L18.73 10.68M5.27 10.68L6.68 9.27L4.91 7.5L3.5 8.91L5.27 10.68M13 8V5H11V8H13Z",
+"author": "Contributors"
+},
+{
 "icon": "wall-sconce-flat-variant",
 "google": "false",
 "search": "wall-sconce-flat-variant,pot-light-flat-variant,home automation",
@@ -45934,6 +47774,30 @@ const icons = [
 "name": "wall-sconce-flat",
 "path": "M5,5V11H19V5H5M5.27,13.32L3.5,15.09L4.91,16.5L6.68,14.73L5.27,13.32M18.73,13.32L17.32,14.73L19.09,16.5L20.5,15.09L18.73,13.32M11,16V19H13V16H11Z",
 "author": "GreenTurtwig"
+},
+{
+"icon": "wall-sconce-outline",
+"google": "false",
+"search": "wall-sconce-outline,home automation",
+"name": "wall-sconce-outline",
+"path": "M13.7 6L15.92 11H10.08L12.3 6H13.7M15 4H11L7 13H19L15 4M4 14V22H6V19H14V14H12V17H6V14H4Z",
+"author": "Michael Irigoyen"
+},
+{
+"icon": "wall-sconce-round-outline",
+"google": "false",
+"search": "wall-sconce-round-outline,home automation",
+"name": "wall-sconce-round-outline",
+"path": "M13 19V16H11V19H13M19.09 16.5L20.5 15.09L18.73 13.32L17.32 14.73L19.09 16.5M4.91 16.5L6.68 14.73L5.27 13.32L3.5 15.09L4.91 16.5M12 6C13.04 6 14.08 6.28 15 6.81C16.26 7.5 17.19 8.67 17.66 10H6.34C6.81 8.67 7.74 7.5 9 6.81C9.92 6.28 10.96 6 12 6M12 4C10.63 4 9.25 4.36 8 5.07C5.5 6.5 4 9.14 4 12H20C20 9.14 18.5 6.5 16 5.07C14.75 4.36 13.38 4 12 4Z",
+"author": "Michael Irigoyen"
+},
+{
+"icon": "wall-sconce-round-variant-outline",
+"google": "false",
+"search": "wall-sconce-round-variant-outline,home automation",
+"name": "wall-sconce-round-variant-outline",
+"path": "M11 5V8H13V5H11M4.91 7.5L3.5 8.91L5.27 10.68L6.68 9.27L4.91 7.5M19.09 7.5L17.32 9.27L18.73 10.68L20.5 8.91L19.09 7.5M17.66 14C17.19 15.33 16.26 16.5 15 17.19C14.08 17.72 13.04 18 12 18S9.92 17.72 9 17.19C7.74 16.5 6.81 15.33 6.34 14H17.66M20 12H4C4 14.86 5.5 17.5 8 18.93C9.25 19.65 10.63 20 12 20S14.75 19.65 16 18.93C18.5 17.5 20 14.86 20 12Z",
+"author": "Michael Irigoyen"
 },
 {
 "icon": "wall-sconce-round-variant",
@@ -46208,6 +48072,14 @@ const icons = [
 "author": "Colton Wiscombe"
 },
 {
+"icon": "water-circle",
+"google": "false",
+"search": "water-circle,drop-circle,blood-circle,ink-circle,home automation",
+"name": "water-circle",
+"path": "M12 2C6.5 2 2 6.5 2 12S6.5 22 12 22 22 17.5 22 12 17.5 2 12 2M12 19C9.24 19 7 16.76 7 14C7 10.67 12 5.04 12 5.04S17 10.67 17 14C17 16.76 14.76 19 12 19Z",
+"author": "Michael Irigoyen"
+},
+{
 "icon": "water-minus-outline",
 "google": "false",
 "search": "water-minus-outline,drop-minus-outline,blood-minus-outline,ink-minus-outline",
@@ -46320,6 +48192,14 @@ const icons = [
 "author": "Colton Wiscombe"
 },
 {
+"icon": "water-sync",
+"google": "false",
+"search": "water-sync,water-recycle,water-reuse,agriculture",
+"name": "water-sync",
+"path": "M12 3.2C12 3.2 6 10 6 14C6 17.3 8.7 20 12 20S18 17.3 18 14C18 10 12 3.2 12 3.2M12 8.5V10C14.2 10 16 11.8 16 14C16 14.8 15.8 15.6 15.3 16.2L14.2 15.1C14.4 14.8 14.5 14.4 14.5 14C14.5 12.6 13.4 11.5 12 11.5V13L9.8 10.8L12 8.5M8.7 11.8L9.8 12.9C9.6 13.2 9.5 13.6 9.5 14C9.5 15.4 10.6 16.5 12 16.5V15L14.2 17.2L12 19.5V18C9.8 18 8 16.2 8 14C8 13.2 8.2 12.4 8.7 11.8Z",
+"author": "Contributors"
+},
+{
 "icon": "water-well-outline",
 "google": "false",
 "search": "water-well-outline",
@@ -46338,7 +48218,7 @@ const icons = [
 {
 "icon": "water",
 "google": "true",
-"search": "water,drop,blood,water-drop,trans-fat,ink",
+"search": "water,drop,blood,water-drop,trans-fat,ink,home automation,health,beauty,food,drink",
 "name": "water",
 "path": "M12,20A6,6 0 0,1 6,14C6,10 12,3.25 12,3.25C12,3.25 18,10 18,14A6,6 0 0,1 12,20Z",
 "author": "Google"
@@ -46642,10 +48522,26 @@ const icons = [
 {
 "icon": "web-box",
 "google": "false",
-"search": "web-box,language-box,geographic information system",
+"search": "web-box,language-box,globe-box,internet-box,geographic information system",
 "name": "web-box",
 "path": "M8.95 13.4H6.58A5.5 5.5 0 0 1 6.58 10.6H8.95A11.56 11.56 0 0 0 8.85 12A11.56 11.56 0 0 0 8.95 13.4M7.16 9.2H9.2A12.06 12.06 0 0 1 10.18 6.71A5.55 5.55 0 0 0 7.16 9.2M16.84 9.2A5.59 5.59 0 0 0 13.81 6.71A10.95 10.95 0 0 1 14.78 9.2M12 17.57A9.5 9.5 0 0 0 13.34 14.8H10.66A9.5 9.5 0 0 0 12 17.57M12 6.42A9.53 9.53 0 0 0 10.66 9.2H13.34A9.53 9.53 0 0 0 12 6.42M7.16 14.8A5.61 5.61 0 0 0 10.18 17.29A12.06 12.06 0 0 1 9.2 14.8M21 5V19A2 2 0 0 1 19 21H5A2 2 0 0 1 3 19V5A2 2 0 0 1 5 3H19A2 2 0 0 1 21 5M19 12A7 7 0 1 0 12 19A7 7 0 0 0 19 12M15.15 12A11.56 11.56 0 0 1 15.05 13.4H17.42A5.5 5.5 0 0 0 17.42 10.6H15.05A11.56 11.56 0 0 1 15.15 12M13.81 17.29A5.62 5.62 0 0 0 16.84 14.8H14.78A10.95 10.95 0 0 1 13.81 17.29M10.36 10.6A8.81 8.81 0 0 0 10.36 13.4H13.64A10.3 10.3 0 0 0 13.75 12A10.21 10.21 0 0 0 13.64 10.6Z",
 "author": "Contributors"
+},
+{
+"icon": "web-cancel",
+"google": "false",
+"search": "web-cancel",
+"name": "web-cancel",
+"path": "M13.82 14H9.66C9.56 13.34 9.5 12.68 9.5 12S9.56 10.65 9.66 10H14.34C14.43 10.65 14.5 11.32 14.5 12C14.5 12.5 14.46 13 14.4 13.46C15 12.96 15.72 12.57 16.5 12.32C16.5 12.21 16.5 12.11 16.5 12C16.5 11.32 16.44 10.66 16.36 10H19.74C19.9 10.64 20 11.31 20 12C20 12.06 20 12.12 20 12.18C20.7 12.35 21.35 12.63 21.95 13C22 12.68 22 12.34 22 12C22 6.5 17.5 2 12 2C6.47 2 2 6.5 2 12C2 17.5 6.5 22 12 22C12.34 22 12.68 22 13 21.95C12.59 21.29 12.29 20.55 12.13 19.75C12.09 19.82 12.05 19.89 12 19.96C11.17 18.76 10.5 17.43 10.09 16H12.5C12.81 15.25 13.26 14.58 13.82 14M18.92 8H15.97C15.65 6.75 15.19 5.55 14.59 4.44C16.43 5.07 17.96 6.34 18.92 8M12 4.03C12.83 5.23 13.5 6.57 13.91 8H10.09C10.5 6.57 11.17 5.23 12 4.03M4.26 14C4.1 13.36 4 12.69 4 12S4.1 10.64 4.26 10H7.64C7.56 10.66 7.5 11.32 7.5 12S7.56 13.34 7.64 14H4.26M5.08 16H8C8.35 17.25 8.8 18.45 9.4 19.56C7.57 18.93 6.03 17.65 5.08 16M8 8H5.08C6.03 6.34 7.57 5.06 9.4 4.44C8.8 5.55 8.35 6.75 8 8M18.5 14C16 14 14 16 14 18.5S16 23 18.5 23 23 21 23 18.5 21 14 18.5 14M18.5 21.5C16.84 21.5 15.5 20.16 15.5 18.5C15.5 17.94 15.65 17.42 15.92 17L20 21.08C19.58 21.35 19.06 21.5 18.5 21.5M21.08 20L17 15.92C17.42 15.65 17.94 15.5 18.5 15.5C20.16 15.5 21.5 16.84 21.5 18.5C21.5 19.06 21.35 19.58 21.08 20Z",
+"author": "Colton Wiscombe"
+},
+{
+"icon": "web-check",
+"google": "false",
+"search": "web-check",
+"name": "web-check",
+"path": "M16.5 12C16.5 11.32 16.44 10.66 16.36 10H19.74C19.9 10.64 20 11.31 20 12C20 12.37 19.97 12.73 19.92 13.08C20.61 13.18 21.25 13.4 21.84 13.72C21.94 13.16 22 12.59 22 12C22 6.5 17.5 2 12 2C6.47 2 2 6.5 2 12C2 17.5 6.5 22 12 22C12.59 22 13.16 21.94 13.72 21.84C13.26 21 13 20.03 13 19C13 18.71 13.03 18.43 13.07 18.15C12.75 18.78 12.4 19.39 12 19.96C11.17 18.76 10.5 17.43 10.09 16H13.81C14.41 14.96 15.31 14.12 16.4 13.6C16.46 13.07 16.5 12.54 16.5 12M12 4.03C12.83 5.23 13.5 6.57 13.91 8H10.09C10.5 6.57 11.17 5.23 12 4.03M4.26 14C4.1 13.36 4 12.69 4 12S4.1 10.64 4.26 10H7.64C7.56 10.66 7.5 11.32 7.5 12S7.56 13.34 7.64 14H4.26M5.08 16H8C8.35 17.25 8.8 18.45 9.4 19.56C7.57 18.93 6.03 17.65 5.08 16M8 8H5.08C6.03 6.34 7.57 5.06 9.4 4.44C8.8 5.55 8.35 6.75 8 8M14.34 14H9.66C9.56 13.34 9.5 12.68 9.5 12S9.56 10.65 9.66 10H14.34C14.43 10.65 14.5 11.32 14.5 12S14.43 13.34 14.34 14M14.59 4.44C16.43 5.07 17.96 6.34 18.92 8H15.97C15.65 6.75 15.19 5.55 14.59 4.44M22.5 17.25L17.75 22L15 19L16.16 17.84L17.75 19.43L21.34 15.84L22.5 17.25Z",
+"author": "Colton Wiscombe"
 },
 {
 "icon": "web-clock",
@@ -46656,9 +48552,57 @@ const icons = [
 "author": "frankgrinaert"
 },
 {
+"icon": "web-minus",
+"google": "false",
+"search": "web-minus",
+"name": "web-minus",
+"path": "M16.5 12C16.5 11.32 16.44 10.66 16.36 10H19.74C19.9 10.64 20 11.31 20 12C20 12.37 19.97 12.73 19.92 13.08C20.61 13.18 21.25 13.4 21.84 13.72C21.94 13.16 22 12.59 22 12C22 6.5 17.5 2 12 2C6.47 2 2 6.5 2 12C2 17.5 6.5 22 12 22C12.59 22 13.16 21.94 13.72 21.84C13.26 21 13 20.03 13 19C13 18.71 13.03 18.43 13.07 18.15C12.75 18.78 12.4 19.39 12 19.96C11.17 18.76 10.5 17.43 10.09 16H13.81C14.41 14.96 15.31 14.12 16.4 13.6C16.46 13.07 16.5 12.54 16.5 12M12 4.03C12.83 5.23 13.5 6.57 13.91 8H10.09C10.5 6.57 11.17 5.23 12 4.03M4.26 14C4.1 13.36 4 12.69 4 12S4.1 10.64 4.26 10H7.64C7.56 10.66 7.5 11.32 7.5 12S7.56 13.34 7.64 14H4.26M5.08 16H8C8.35 17.25 8.8 18.45 9.4 19.56C7.57 18.93 6.03 17.65 5.08 16M8 8H5.08C6.03 6.34 7.57 5.06 9.4 4.44C8.8 5.55 8.35 6.75 8 8M14.34 14H9.66C9.56 13.34 9.5 12.68 9.5 12S9.56 10.65 9.66 10H14.34C14.43 10.65 14.5 11.32 14.5 12S14.43 13.34 14.34 14M14.59 4.44C16.43 5.07 17.96 6.34 18.92 8H15.97C15.65 6.75 15.19 5.55 14.59 4.44M23 18V20H15V18H23Z",
+"author": "Colton Wiscombe"
+},
+{
+"icon": "web-off",
+"google": "false",
+"search": "web-off",
+"name": "web-off",
+"path": "M9.4 4.44C9.19 4.83 9 5.23 8.84 5.64L10.37 7.17C10.78 6.05 11.33 5 12 4.03C12.83 5.23 13.5 6.57 13.91 8H11.2L13.2 10H14.34C14.4 10.41 14.44 10.84 14.47 11.27L16.44 13.24C16.47 12.83 16.5 12.42 16.5 12C16.5 11.32 16.44 10.66 16.36 10H19.74C19.9 10.64 20 11.31 20 12S19.9 13.36 19.74 14H17.2L20.5 17.28C21.44 15.75 22 13.94 22 12C22 6.5 17.5 2 12 2C10.06 2 8.25 2.56 6.72 3.5L8.18 5C8.57 4.77 9 4.58 9.4 4.44M18.92 8H15.97C15.65 6.75 15.19 5.55 14.59 4.44C16.43 5.07 17.96 6.34 18.92 8M2.39 1.73L1.11 3L4.06 5.95C2.77 7.63 2 9.73 2 12C2 17.5 6.5 22 12 22C14.28 22 16.37 21.23 18.06 19.95L20.84 22.73L22.11 21.46L2.39 1.73M5.5 7.37L6.11 8H5.08C5.2 7.78 5.34 7.58 5.5 7.37M4.26 14C4.1 13.36 4 12.69 4 12S4.1 10.64 4.26 10H7.64C7.56 10.66 7.5 11.32 7.5 12S7.56 13.34 7.64 14H4.26M5.08 16H8C8.35 17.25 8.8 18.45 9.4 19.56C7.57 18.93 6.03 17.65 5.08 16M9.5 12C9.5 11.8 9.5 11.61 9.53 11.42L12.11 14H9.66C9.56 13.34 9.5 12.68 9.5 12M12 19.96C11.17 18.76 10.5 17.43 10.09 16H13.91C13.5 17.43 12.83 18.76 12 19.96M14.59 19.56C14.96 18.88 15.26 18.15 15.5 17.41L16.62 18.5C16 18.95 15.32 19.31 14.59 19.56Z",
+"author": "Colton Wiscombe"
+},
+{
+"icon": "web-plus",
+"google": "false",
+"search": "web-plus",
+"name": "web-plus",
+"path": "M16.5 12C16.5 11.32 16.44 10.66 16.36 10H19.74C19.9 10.64 20 11.31 20 12C20 12.37 19.97 12.73 19.92 13.08C20.61 13.18 21.25 13.4 21.84 13.72C21.94 13.16 22 12.59 22 12C22 6.5 17.5 2 12 2C6.47 2 2 6.5 2 12C2 17.5 6.5 22 12 22C12.59 22 13.16 21.94 13.72 21.84C13.26 21 13 20.03 13 19C13 18.71 13.03 18.43 13.07 18.15C12.75 18.78 12.4 19.39 12 19.96C11.17 18.76 10.5 17.43 10.09 16H13.81C14.41 14.96 15.31 14.12 16.4 13.6C16.46 13.07 16.5 12.54 16.5 12M12 4.03C12.83 5.23 13.5 6.57 13.91 8H10.09C10.5 6.57 11.17 5.23 12 4.03M4.26 14C4.1 13.36 4 12.69 4 12S4.1 10.64 4.26 10H7.64C7.56 10.66 7.5 11.32 7.5 12S7.56 13.34 7.64 14H4.26M5.08 16H8C8.35 17.25 8.8 18.45 9.4 19.56C7.57 18.93 6.03 17.65 5.08 16M8 8H5.08C6.03 6.34 7.57 5.06 9.4 4.44C8.8 5.55 8.35 6.75 8 8M14.34 14H9.66C9.56 13.34 9.5 12.68 9.5 12S9.56 10.65 9.66 10H14.34C14.43 10.65 14.5 11.32 14.5 12S14.43 13.34 14.34 14M14.59 4.44C16.43 5.07 17.96 6.34 18.92 8H15.97C15.65 6.75 15.19 5.55 14.59 4.44M23 18V20H20V23H18V20H15V18H18V15H20V18H23Z",
+"author": "Colton Wiscombe"
+},
+{
+"icon": "web-refresh",
+"google": "false",
+"search": "web-refresh",
+"name": "web-refresh",
+"path": "M13.82 14H9.66C9.56 13.34 9.5 12.68 9.5 12S9.56 10.65 9.66 10H14.34C14.43 10.65 14.5 11.32 14.5 12C14.5 12.5 14.46 13 14.4 13.46C15 12.96 15.72 12.57 16.5 12.32C16.5 12.21 16.5 12.11 16.5 12C16.5 11.32 16.44 10.66 16.36 10H19.74C19.9 10.64 20 11.31 20 12C20 12.06 20 12.12 20 12.18C20.7 12.35 21.35 12.63 21.95 13C22 12.68 22 12.34 22 12C22 6.5 17.5 2 12 2C6.47 2 2 6.5 2 12C2 17.5 6.5 22 12 22C12.34 22 12.68 22 13 21.95C12.59 21.29 12.29 20.55 12.13 19.75C12.09 19.82 12.05 19.89 12 19.96C11.17 18.76 10.5 17.43 10.09 16H12.5C12.81 15.25 13.26 14.58 13.82 14M18.92 8H15.97C15.65 6.75 15.19 5.55 14.59 4.44C16.43 5.07 17.96 6.34 18.92 8M12 4.03C12.83 5.23 13.5 6.57 13.91 8H10.09C10.5 6.57 11.17 5.23 12 4.03M4.26 14C4.1 13.36 4 12.69 4 12S4.1 10.64 4.26 10H7.64C7.56 10.66 7.5 11.32 7.5 12S7.56 13.34 7.64 14H4.26M5.08 16H8C8.35 17.25 8.8 18.45 9.4 19.56C7.57 18.93 6.03 17.65 5.08 16M8 8H5.08C6.03 6.34 7.57 5.06 9.4 4.44C8.8 5.55 8.35 6.75 8 8M20.83 15.67L22 14.5V18.5H18L19.77 16.73C19.32 16.28 18.69 16 18 16C16.62 16 15.5 17.12 15.5 18.5S16.62 21 18 21C18.82 21 19.54 20.61 20 20H21.71C21.12 21.47 19.68 22.5 18 22.5C15.79 22.5 14 20.71 14 18.5S15.79 14.5 18 14.5C19.11 14.5 20.11 14.95 20.83 15.67Z",
+"author": "Colton Wiscombe"
+},
+{
+"icon": "web-remove",
+"google": "false",
+"search": "web-remove",
+"name": "web-remove",
+"path": "M16.5 12C16.5 11.32 16.44 10.66 16.36 10H19.74C19.9 10.64 20 11.31 20 12C20 12.37 19.97 12.73 19.92 13.08C20.61 13.18 21.25 13.4 21.84 13.72C21.94 13.16 22 12.59 22 12C22 6.5 17.5 2 12 2C6.47 2 2 6.5 2 12C2 17.5 6.5 22 12 22C12.59 22 13.16 21.94 13.72 21.84C13.26 21 13 20.03 13 19C13 18.71 13.03 18.43 13.07 18.15C12.75 18.78 12.4 19.39 12 19.96C11.17 18.76 10.5 17.43 10.09 16H13.81C14.41 14.96 15.31 14.12 16.4 13.6C16.46 13.07 16.5 12.54 16.5 12M12 4.03C12.83 5.23 13.5 6.57 13.91 8H10.09C10.5 6.57 11.17 5.23 12 4.03M4.26 14C4.1 13.36 4 12.69 4 12S4.1 10.64 4.26 10H7.64C7.56 10.66 7.5 11.32 7.5 12S7.56 13.34 7.64 14H4.26M5.08 16H8C8.35 17.25 8.8 18.45 9.4 19.56C7.57 18.93 6.03 17.65 5.08 16M8 8H5.08C6.03 6.34 7.57 5.06 9.4 4.44C8.8 5.55 8.35 6.75 8 8M14.34 14H9.66C9.56 13.34 9.5 12.68 9.5 12S9.56 10.65 9.66 10H14.34C14.43 10.65 14.5 11.32 14.5 12S14.43 13.34 14.34 14M14.59 4.44C16.43 5.07 17.96 6.34 18.92 8H15.97C15.65 6.75 15.19 5.55 14.59 4.44M20.41 19L22.54 21.12L21.12 22.54L19 20.41L16.88 22.54L15.47 21.12L17.59 19L15.47 16.88L16.88 15.47L19 17.59L21.12 15.47L22.54 16.88L20.41 19Z",
+"author": "Colton Wiscombe"
+},
+{
+"icon": "web-sync",
+"google": "false",
+"search": "web-sync",
+"name": "web-sync",
+"path": "M16.5 11.74C16.5 11.15 16.43 10.58 16.36 10H19.74C19.82 10.33 19.89 10.67 19.93 11C20.65 11.07 21.34 11.23 22 11.5C21.71 6.21 17.35 2 12 2C6.47 2 2 6.5 2 12C2 17.5 6.5 22 12 22C12.87 22 13.71 21.88 14.5 21.67C13.71 20.71 13.18 19.5 13.04 18.2C12.73 18.81 12.39 19.4 12 19.96C11.17 18.76 10.5 17.43 10.09 16H13.18C13.35 15.28 13.64 14.61 14.03 14H9.66C9.56 13.34 9.5 12.68 9.5 12S9.56 10.65 9.66 10H14.34C14.43 10.65 14.5 11.32 14.5 12C14.5 12.5 14.46 13 14.4 13.5C14.97 12.76 15.68 12.17 16.5 11.74M4.26 14C4.1 13.36 4 12.69 4 12S4.1 10.64 4.26 10H7.64C7.56 10.66 7.5 11.32 7.5 12S7.56 13.34 7.64 14H4.26M5.08 16H8C8.35 17.25 8.8 18.45 9.4 19.56C7.57 18.93 6.03 17.65 5.08 16M8 8H5.08C6.03 6.34 7.57 5.06 9.4 4.44C8.8 5.55 8.35 6.75 8 8M10.09 8C10.5 6.57 11.17 5.23 12 4.03C12.83 5.23 13.5 6.57 13.91 8H10.09M18.92 8H15.97C15.65 6.75 15.19 5.55 14.59 4.44C16.43 5.07 17.96 6.34 18.92 8M23 17.5C23 18.32 22.75 19.08 22.33 19.71L21.24 18.62C21.41 18.28 21.5 17.9 21.5 17.5C21.5 16.12 20.38 15 19 15V16.5L16.75 14.25L19 12V13.5C21.21 13.5 23 15.29 23 17.5M19 18.5L21.25 20.75L19 23V21.5C16.79 21.5 15 19.71 15 17.5C15 16.68 15.25 15.92 15.67 15.29L16.76 16.38C16.59 16.72 16.5 17.1 16.5 17.5C16.5 18.88 17.62 20 19 20V18.5Z",
+"author": "Colton Wiscombe"
+},
+{
 "icon": "web",
 "google": "true",
-"search": "web,language,geographic information system",
+"search": "web,language,globe,internet,world-wide-web,geographic information system",
 "name": "web",
 "path": "M16.36,14C16.44,13.34 16.5,12.68 16.5,12C16.5,11.32 16.44,10.66 16.36,10H19.74C19.9,10.64 20,11.31 20,12C20,12.69 19.9,13.36 19.74,14M14.59,19.56C15.19,18.45 15.65,17.25 15.97,16H18.92C17.96,17.65 16.43,18.93 14.59,19.56M14.34,14H9.66C9.56,13.34 9.5,12.68 9.5,12C9.5,11.32 9.56,10.65 9.66,10H14.34C14.43,10.65 14.5,11.32 14.5,12C14.5,12.68 14.43,13.34 14.34,14M12,19.96C11.17,18.76 10.5,17.43 10.09,16H13.91C13.5,17.43 12.83,18.76 12,19.96M8,8H5.08C6.03,6.34 7.57,5.06 9.4,4.44C8.8,5.55 8.35,6.75 8,8M5.08,16H8C8.35,17.25 8.8,18.45 9.4,19.56C7.57,18.93 6.03,17.65 5.08,16M4.26,14C4.1,13.36 4,12.69 4,12C4,11.31 4.1,10.64 4.26,10H7.64C7.56,10.66 7.5,11.32 7.5,12C7.5,12.68 7.56,13.34 7.64,14M12,4.03C12.83,5.23 13.5,6.57 13.91,8H10.09C10.5,6.57 11.17,5.23 12,4.03M18.92,8H15.97C15.65,6.75 15.19,5.55 14.59,4.44C16.43,5.07 17.96,6.34 18.92,8M12,2C6.47,2 2,6.5 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2Z",
 "author": "Google"
@@ -46842,7 +48786,7 @@ const icons = [
 {
 "icon": "wifi-alert",
 "google": "false",
-"search": "wifi-alert",
+"search": "wifi-alert,alert,error",
 "name": "wifi-alert",
 "path": "M20.24 5H18V7.25C16.16 6.45 14.13 6 12 6C8.62 6 5.5 7.12 3 9L1.2 6.6C4.21 4.34 7.95 3 12 3C14.97 3 17.77 3.73 20.24 5M8.4 16.2L12 21L15.6 16.2C14.6 15.45 13.35 15 12 15S9.4 15.45 8.4 16.2M4.8 11.4L6.6 13.8C8.1 12.67 9.97 12 12 12S15.9 12.67 17.4 13.8L18 13V10.62C16.23 9.59 14.19 9 12 9C9.3 9 6.81 9.89 4.8 11.4M20 17H22V15H20V17M20 7V13H22V7H20Z",
 "author": "Colton Wiscombe"
@@ -46938,7 +48882,7 @@ const icons = [
 {
 "icon": "wifi-marker",
 "google": "false",
-"search": "wifi-marker",
+"search": "wifi-marker,wifi-location",
 "name": "wifi-marker",
 "path": "M12 6C8.62 6 5.5 7.12 3 9L1.2 6.6C4.21 4.34 7.95 3 12 3S19.79 4.34 22.8 6.6L21 9C18.5 7.12 15.38 6 12 6M13 15.09C12.69 15.03 12.35 15 12 15C10.65 15 9.4 15.45 8.4 16.2L12 21L13.8 18.6C13.33 17.58 13 16.5 13 15.5C13 15.36 13 15.23 13 15.09M12 9C9.3 9 6.81 9.89 4.8 11.4L6.6 13.8C8.1 12.67 9.97 12 12 12C12.73 12 13.43 12.09 14.1 12.25C14.86 11.25 15.93 10.5 17.17 10.18C15.6 9.43 13.85 9 12 9M22 15.5C22 18.1 18.5 22 18.5 22S15 18.1 15 15.5C15 13.6 16.6 12 18.5 12S22 13.6 22 15.5M19.7 15.6C19.7 15 19.1 14.4 18.5 14.4S17.3 14.9 17.3 15.6C17.3 16.2 17.8 16.8 18.5 16.8S19.8 16.2 19.7 15.6Z",
 "author": "Colton Wiscombe"
@@ -46994,7 +48938,7 @@ const icons = [
 {
 "icon": "wifi-star",
 "google": "false",
-"search": "wifi-star,wifi-favourite,network-favourite",
+"search": "wifi-star,wifi-favourite,network-favourite,wifi-favorite,network-favorite",
 "name": "wifi-star",
 "path": "M12,6C8.6,6 5.5,7.1 3,9L1.2,6.6C4.2,4.3 8,3 12,3C16,3 19.8,4.3 22.8,6.6L21,9C18.5,7.1 15.4,6 12,6M13,19C13,17.7 13.4,16.4 14.2,15.4C13.5,15.2 12.8,15 12,15C10.7,15 9.4,15.5 8.4,16.2L12,21L13,19.6C13,19.4 13,19.2 13,19M16.8,13.4C17.1,13.3 17.5,13.2 17.9,13.1L19.2,11.4C17.2,9.9 14.7,9 12,9C9.3,9 6.8,9.9 4.8,11.4L6.6,13.8C8.1,12.7 10,12 12,12C13.8,12 15.4,12.5 16.8,13.4M16.5,22.6L17.2,19.8L15,17.9L17.9,17.7L19,15L20.1,17.6L23,17.8L20.8,19.7L21.5,22.5L19,21.1L16.5,22.6Z",
 "author": "Michael Irigoyen"
@@ -47202,7 +49146,7 @@ const icons = [
 {
 "icon": "wind-turbine",
 "google": "true",
-"search": "wind-turbine",
+"search": "wind-turbine,wind-power,wind-electricity,home automation",
 "name": "wind-turbine",
 "path": "M13.33,11.67L16.21,14.58C17.62,13.16 16.21,11.75 16.21,11.75L14.72,10.24C14.9,9.86 15,9.44 15,9C15,7.95 14.46,7.03 13.64,6.5L15,2.11C13.09,1.53 12.5,3.44 12.5,3.44L11.69,6.03C10.46,6.16 9.46,7 9.13,8.18L4.67,9.63C5.31,11.53 7.2,10.9 7.2,10.9L9.27,10.23C9.61,10.97 10.23,11.54 11,11.82V19C11,19 9,19 9,21C9,21.5 9,21.81 9,22H15V21C15,21 15,19 13,19V11.82C13.12,11.78 13.23,11.72 13.33,11.67M10.5,9A1.5,1.5 0 0,1 12,7.5A1.5,1.5 0 0,1 13.5,9A1.5,1.5 0 0,1 12,10.5A1.5,1.5 0 0,1 10.5,9Z",
 "author": "Google"
@@ -47306,7 +49250,7 @@ const icons = [
 {
 "icon": "wiper-wash",
 "google": "false",
-"search": "wiper-wash,wiper-fluid,washer-fluid",
+"search": "wiper-wash,wiper-fluid,washer-fluid,automotive",
 "name": "wiper-wash",
 "path": "M13,6C13,5.7 13.1,4.6 13.8,3.8L12,2.4L10.2,3.9C10.9,4.6 11,5.7 11,6C4.7,6.4 2,11 2,11L9,18C9,18 9.7,16.7 11,16.2V18.3C10.4,18.6 10,19.3 10,20A2,2 0 0,0 12,22A2,2 0 0,0 14,20C14,19.3 13.6,18.6 13,18.3V16.2C14.3,16.7 15,18 15,18L22,11C22,11 19.3,6.5 13,6M11,14.1C10.2,14.3 9.5,14.6 8.9,15.1L4.7,10.9C5.8,9.8 7.8,8.3 11,8.1V14.1M15.1,15.1C14.5,14.7 13.8,14.3 13,14.1V8.1C16.2,8.4 18.2,9.8 19.3,10.9L15.1,15.1M18,1.3L17.3,3.2C16.6,2.9 15.5,2.9 14.7,3.2L14,1.3C15.2,0.9 16.8,0.9 18,1.3M21,6H19C19,6 19,4.7 18.2,3.9L19.7,2.6C21,4 21,5.9 21,6M4.2,2.6L5.7,3.9C5,4.7 5,6 5,6H3C3,5.9 3,4 4.2,2.6M10,1.3L9.3,3.2C8.6,2.9 7.5,2.9 6.7,3.2L6,1.3C7.2,0.9 8.8,0.9 10,1.3Z",
 "author": "Michael Irigoyen"
@@ -47368,27 +49312,11 @@ const icons = [
 "author": "Google"
 },
 {
-"icon": "xamarin-outline",
-"google": "false",
-"search": "xamarin-outline,microsoft-xamarin-outline,brand,logo",
-"name": "xamarin-outline",
-"path": "M12,12L12.03,11.9L14.58,7.1L14.75,7H16.34L16.5,7.1V7.3L14,12L16.5,16.7V16.9L16.34,17H14.75L14.58,16.9L12.03,12.1L12,12V12.1L9.42,16.9L9.25,17H7.66L7.5,16.9V16.7L10,12L7.5,7.3V7.1L7.66,7H9.25L9.42,7.1L12,11.9V12M22.75,11.07C22.91,11.35 23,11.67 23,12C23,12.33 22.91,12.65 22.75,12.93L18.08,21C17.72,21.62 17.06,22 16.35,22H7.65C6.94,22 6.28,21.62 5.92,21L1.25,12.93C1.09,12.65 1,12.33 1,12C1,11.67 1.09,11.35 1.25,11.07L5.92,3C6.28,2.38 6.94,2 7.65,2H16.35C17.06,2 17.72,2.38 18.08,3L22.75,11.07M20.8,11.25L16.97,4.8C16.68,4.3 16.14,4 15.56,4H8.44C7.86,4 7.32,4.3 7.03,4.8L3.2,11.25C3.07,11.5 3,11.74 3,12C3,12.26 3.07,12.5 3.2,12.75L7.03,19.2C7.32,19.7 7.86,20 8.44,20H15.56C16.14,20 16.68,19.7 16.97,19.2L20.8,12.75C20.93,12.5 21,12.26 21,12C21,11.74 20.93,11.5 20.8,11.25Z",
-"author": "Contributors"
-},
-{
 "icon": "xamarin",
 "google": "false",
 "search": "xamarin,microsoft-xamarin,brand,logo",
 "name": "xamarin",
 "path": "M22.75,11.07C22.91,11.35 23,11.67 23,12C23,12.33 22.91,12.65 22.75,12.93L18.08,21C17.72,21.62 17.06,22 16.35,22H7.65C6.94,22 6.28,21.62 5.92,21L1.25,12.93C1.09,12.65 1,12.33 1,12C1,11.67 1.09,11.35 1.25,11.07L5.92,3C6.28,2.38 6.94,2 7.65,2H16.35C17.06,2 17.72,2.38 18.08,3L22.75,11.07M12,12V11.9L9.42,7.1L9.25,7H7.66L7.5,7.1V7.3L10,12L7.5,16.7V16.9L7.66,17H9.25L9.42,16.9L12,12.1V12L12.03,12.1L14.58,16.9L14.75,17H16.34L16.5,16.9V16.7L14,12L16.5,7.3V7.1L16.34,7H14.75L14.58,7.1L12.03,11.9L12,12Z",
-"author": "Contributors"
-},
-{
-"icon": "xing",
-"google": "false",
-"search": "xing,brand,logo",
-"name": "xing",
-"path": "M4.8,3C3.8,3 3,3.8 3,4.8V19.2C3,20.2 3.8,21 4.8,21H19.2C20.2,21 21,20.2 21,19.2V4.8C21,3.8 20.2,3 19.2,3M16.07,5H18.11C18.23,5 18.33,5.04 18.37,5.13C18.43,5.22 18.43,5.33 18.37,5.44L13.9,13.36L16.75,18.56C16.81,18.67 16.81,18.78 16.75,18.87C16.7,18.95 16.61,19 16.5,19H14.47C14.16,19 14,18.79 13.91,18.61L11.04,13.35C11.18,13.1 15.53,5.39 15.53,5.39C15.64,5.19 15.77,5 16.07,5M7.09,7.76H9.1C9.41,7.76 9.57,7.96 9.67,8.15L11.06,10.57C10.97,10.71 8.88,14.42 8.88,14.42C8.77,14.61 8.63,14.81 8.32,14.81H6.3C6.18,14.81 6.09,14.76 6.04,14.67C6,14.59 6,14.47 6.04,14.36L8.18,10.57L6.82,8.2C6.77,8.09 6.75,8 6.81,7.89C6.86,7.81 6.96,7.76 7.09,7.76Z",
 "author": "Contributors"
 },
 {
@@ -47405,14 +49333,6 @@ const icons = [
 "search": "xmpp,brand,logo",
 "name": "xmpp",
 "path": "M12,15.4C9.75,13.09 8,9.54 8,6C2,4 8,6 2,4C2,9.65 6.33,14.11 10.55,16.66C9.38,17.5 8.15,18 7,18C7,19 7,18 7,19C8.2,19 10.03,18.46 12,17.46C13.97,18.46 15.8,19 17,19C17,18 17,19 17,18C15.85,18 14.62,17.5 13.45,16.66C17.66,14.11 22,9.65 22,4C16,6 22,4 16,6C16,9.54 14.25,13.09 12,15.4Z",
-"author": "Contributors"
-},
-{
-"icon": "y-combinator",
-"google": "false",
-"search": "y-combinator,hackernews,brand,logo",
-"name": "y-combinator",
-"path": "M2,2H22V22H2V2M11.25,17.5H12.75V13.06L16,7H14.5L12,11.66L9.5,7H8L11.25,13.06V17.5Z",
 "author": "Contributors"
 },
 {
@@ -47498,7 +49418,7 @@ const icons = [
 {
 "icon": "z-wave",
 "google": "false",
-"search": "z-wave,zwave",
+"search": "z-wave,zwave,home automation",
 "name": "z-wave",
 "path": "M16.3,10.58C13.14,10.58 10.6,13.13 10.6,16.28C10.6,19.43 13.15,22 16.3,22C19.45,22 22,19.43 22,16.28C22,13.13 19.45,10.58 16.3,10.58M18,19.08H13.19L15.81,15H13.31L14.4,13.23H19.18L16.63,17.28H19.18L18,19.08M16.3,3.93V2C8.41,2 2,8.42 2,16.31H3.92C3.94,9.46 9.5,3.93 16.3,3.93M16.3,7.74V5.82C10.5,5.82 5.81,10.53 5.81,16.31H7.73C7.75,11.58 11.59,7.74 16.3,7.74",
 "author": "Contributors"
@@ -47514,7 +49434,7 @@ const icons = [
 {
 "icon": "zigbee",
 "google": "false",
-"search": "zigbee",
+"search": "zigbee,home automation",
 "name": "zigbee",
 "path": "M4.06,6.15C3.97,6.17 3.88,6.22 3.8,6.28C2.66,7.9 2,9.87 2,12A10,10 0 0,0 12,22C15,22 17.68,20.68 19.5,18.6L17,18.85C14.25,19.15 11.45,19.19 8.66,18.96C7.95,18.94 7.24,18.76 6.59,18.45C5.73,18.06 5.15,17.23 5.07,16.29C5.06,16.13 5.12,16 5.23,15.87L7.42,13.6L15.03,5.7V5.6H10.84C8.57,5.64 6.31,5.82 4.06,6.15M20.17,17.5C20.26,17.47 20.35,17.44 20.43,17.39C21.42,15.83 22,14 22,12A10,10 0 0,0 12,2C9.22,2 6.7,3.13 4.89,4.97H5.17C8.28,4.57 11.43,4.47 14.56,4.65C15.5,4.64 16.45,4.82 17.33,5.17C18.25,5.53 18.89,6.38 19,7.37C19,7.53 18.93,7.7 18.82,7.82L9.71,17.19L9,17.95V18.06H13.14C15.5,18 17.84,17.81 20.17,17.5Z",
 "author": "Contributors"
